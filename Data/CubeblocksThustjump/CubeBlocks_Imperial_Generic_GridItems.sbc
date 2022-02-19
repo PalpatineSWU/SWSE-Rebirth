@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <CubeBlocks>
+
+ 
+ 
+ 
+  <!--   Reactor \ Generator     -->
+ 
+	<Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>K_Imperial_Reactors_SythFuel_Basic_Small</SubtypeId>
+      </Id>
+      <DisplayName>Republic Synthetic-Fuel Generator (Small-Grid)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor_large.dds</Icon>
+      <Description> Solid-Fuel Based Power Generation, requires Synth Fuel Ingots to burn. 
+	  Provides 6 units of power.
+	  (Conveyor Network Access is still being fixed)</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Imperial\Generics\K_Imperial_Generics_SythGen_Small.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="3" />
+        <Component Subtype="ImperialConstruction" Count="3" />
+        <Component Subtype="PowerConverter" Count="1" />
+         <Component Subtype="StandardCabling" Count="2" />
+        <Component Subtype="PowerGen_Basics" Count="2" />
+               <Component Subtype="Computer" Count="5" />
+		 <Component Subtype="StandardCabling" Count="2" />
+		 <Component Subtype="ImperialConstruction" Count="4" />
+        <Component Subtype="DuraSteel" Count="7" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+
+
+      <BlockPairName>K_Imperial_Reactors_SythFuel_Basic</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <MaxPowerOutput>6</MaxPowerOutput>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+
+            <!-- 
+                Values are volume fill ratio, means how much fuel reactor pulls from conveyor system to the inventory.
+                If volume fill ratio is bellow minimum, reactor starts pulling fuel up to maximum value.
+                Warning: Changing these values will affect performance.
+            -->
+            <InventoryFillFactorMin>0.001</InventoryFillFactorMin>
+            <InventoryFillFactorMax>0.002</InventoryFillFactorMax>
+
+            <!-- 
+                This is how much of fuel is pulled from conveyor system in one tick.
+                It's in minutes, means that it will pull X minutes of fuel in one tick.
+                Warning: Changing this value will affect performance.
+            -->
+            <FuelPullAmountFromConveyorInMinutes>10.0</FuelPullAmountFromConveyorInMinutes>
+
+
+     <FuelInfos>
+        <FuelInfo>
+          <Id>
+            <TypeId>Ingot</TypeId>
+            <SubtypeId>Spin_SyntheticFuel</SubtypeId>
+          </Id>
+		  <Ratio>0.5</Ratio>
+        </FuelInfo>
+      </FuelInfos>
+      <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
+      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+      <DamagedSound>ParticleReactor</DamagedSound>      
+      <EmissiveColorPreset>K_Imperial_Factory_Red</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>
+	 	 	     </Definition>
+				 
+ 
+ 
+	
+ 
+  <!--   Battery     -->
+ 
+  <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>K_Imperial_Power_Battery_Small</SubtypeId>
+      </Id>
+      <DisplayName>Power Bank (Battery)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+      <Description> Standard Model Battery. (Small-Grid Version)
+	  Max Output: 3
+	  Max Input: 3
+	  Storage: 5</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Imperial\Generics\K_Imperial_Generics_Battery_Small.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="5" />
+        <Component Subtype="StandardCabling" Count="2" />
+		 <Component Subtype="ImperialGeneralParts" Count="3" />
+        <Component Subtype="StandardPowerCell" Count="20"/>
+         <Component Subtype="Computer" Count="5" />
+        <Component Subtype="ImperialConstruction" Count="3" />
+        <Component Subtype="DuraSteel" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="StandardPowerCell" Index="0" />
+
+      <BlockPairName>K_Imperial_Power_Battery_Standard</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>3</MaxPowerOutput>
+
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <RequiredPowerInput>3</RequiredPowerInput>
+      <AdaptibleInput>true</AdaptibleInput>
+      <MaxStoredPower>5</MaxStoredPower>
+      <InitialStoredPowerRatio>0.0</InitialStoredPowerRatio>
+
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>15</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+	
+<Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>K_Imperial_Power_Battery_Nox_Small</SubtypeId>
+      </Id>
+      <DisplayName>Power Bank (Nox Battery)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+            <Description> Backup Battery. (Small-Grid)
+	  Max Output: 3
+	  Max Input: 3
+	  Storage: 3</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+    <Model>Models\Imperial\Generics\K_Imperial_Generics_Battery_Small.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="3" />
+        <Component Subtype="StandardCabling" Count="3" />
+		 <Component Subtype="ImperialGeneralParts" Count="3" />
+        <Component Subtype="AlternatePowerCell" Count="30"/>
+         <Component Subtype="Computer" Count="8" />
+        <Component Subtype="ImperialConstruction" Count="3" />
+        <Component Subtype="DuraSteel" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="AlternatePowerCell" Index="0" />
+
+      <BlockPairName>K_Imperial_Power_Battery_Nox</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>8</MaxPowerOutput>
+
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <RequiredPowerInput>8</RequiredPowerInput>
+      <AdaptibleInput>true</AdaptibleInput>
+      <MaxStoredPower>3</MaxStoredPower>
+      <InitialStoredPowerRatio>0.0</InitialStoredPowerRatio>
+
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>15</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+ 
+  	
+ 
+ <!--   Gyro     -->
+ 
+ 
+  <!--   Gyro Large     -->
+ 
+  <!--   Thruster     -->
+  
+  <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>K_Imperial_Generics_Thruster_LG_Main</SubtypeId>
+      </Id>
+      <DisplayName>Republic Ionic Thruster</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+	   <Description> Ion-Based Large Ship Thruster , for General Purpose.</Description>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+	    <IsStandAlone>true</IsStandAlone>
+	   <ThrusterType>Ion</ThrusterType>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Imperial\Generics\K_Imperial_Generics_ThrusterLarge_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="5" />
+		  <Component Subtype="StandardCabling" Count="15" />
+		 <Component Subtype="ImperialGeneralParts" Count="20" />
+			<Component Subtype="Computer" Count="20" />
+			<Component Subtype="ThrusterParts_Repulsor" Count="10" />
+			<Component Subtype="DuraSteel" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="ThrusterParts_Repulsor" Index="0" />
+	  <MountPoints>
+	<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+	</MountPoints>
+      <BlockPairName>K_Imperial_Generics_Thruster_Main</BlockPairName>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Imperial\Generics\K_Imperial_Generics_ThrusterLarge_Large.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Imperial\Generics\K_Imperial_Generics_ThrusterLarge_Large.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Imperial\Generics\K_Imperial_Generics_ThrusterLarge_Large.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	  <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>4320000</ForceMagnitude>
+      <MaxPowerConsumption>10</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>3</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>0.2</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1.5</EffectivenessAtMaxInfluence>
+
+      <FlameDamageLengthScale>1</FlameDamageLengthScale>
+        <FlameLengthScale>3</FlameLengthScale>
+      <FlameIdleColor>
+         <X>0.1</X>
+        <Y>0.5</Y>
+        <Z>0.8</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+       <X>0.1</X>
+        <Y>0.5</Y>
+        <Z>0.8</Z>
+        <W>1</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>SmallGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>900</FlameVisibilityDistance>
+      <FlameGlareQuerySize>1.5</FlameGlareQuerySize>
+      <PrimarySound>K_Imperial_LargeEngine_Low</PrimarySound>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
+	  <EmissiveColorPreset>K_Imperial_Ship_EmissiveSet</EmissiveColorPreset>
+	  <GeneralDamageMultiplier>0.8</GeneralDamageMultiplier>
+    </Definition>
+ 
+   <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>K_Imperial_Generics_HydroThruster_LG_Main</SubtypeId>
+      </Id>
+      <DisplayName>Republic Hydrogen-Type Thruster</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge.dds</Icon>
+      <Description> Gas-Based Large Ship Thruster , for General Purpose.</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Imperial\Generics\K_Imperial_Generics_ThrusterLarge_Large.mwm</Model>
+      <ThrusterType>Hydrogen</ThrusterType>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <Components>
+        <Component Subtype="DuraSteel" Count="20" />
+        <Component Subtype="ImperialConstruction" Count="40" />
+        <Component Subtype="ImperialGeneralParts" Count="60" />
+        <Component Subtype="AlternatePowerCell" Count="40" />
+        <Component Subtype="ImperialConstruction" Count="30" />
+        <Component Subtype="DuraSteel" Count="115" />
+      </Components>
+      <CriticalComponent Subtype="AlternatePowerCell" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true"/>
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Imperial\Generics\K_Imperial_Generics_ThrusterLarge_Large.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Imperial\Generics\K_Imperial_Generics_ThrusterLarge_Large.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Imperial\Generics\K_Imperial_Generics_ThrusterLarge_Large.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>K_Imperial_Generics_HydroThruster_Main</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>90</BuildTimeSeconds>
+      <FuelConverter>
+        <FuelId>
+          <TypeId>GasProperties</TypeId>
+          <SubtypeId>Hydrogen</SubtypeId>
+        </FuelId>
+        <Efficiency>2</Efficiency>
+      </FuelConverter>
+      <MaxPowerConsumption>7.5</MaxPowerConsumption>
+      <MinPowerConsumption>0.000000001</MinPowerConsumption>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>7200000</ForceMagnitude>
+      <SlowdownFactor>3</SlowdownFactor>
+      <FlameDamageLengthScale>1</FlameDamageLengthScale>
+      <FlameLengthScale>2</FlameLengthScale>
+      <FlameIdleColor>
+        <X>5</X>
+        <Y>0.25</Y>
+        <Z>0.1</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>5</X>
+        <Y>0.12</Y>
+        <Z>0.1</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>LargeGridLargeThruster</FlameFlare>
+      <FlameVisibilityDistance>900</FlameVisibilityDistance>
+      <FlameGlareQuerySize>1.5</FlameGlareQuerySize>
+      <PrimarySound>K_Imperial_LargeEngine_Low</PrimarySound>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <Public>true</Public>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+	  	  <EmissiveColorPreset>K_Imperial_Engine_EmissiveSet</EmissiveColorPreset>
+      <PCU>15</PCU>
+        <TieredUpdateTimes>
+            <unsignedInt>100</unsignedInt>
+            <unsignedInt>3600</unsignedInt>
+            <unsignedInt>0</unsignedInt>
+        </TieredUpdateTimes>
+    </Definition>
+   
+ 
+	</CubeBlocks>
+</Definitions>

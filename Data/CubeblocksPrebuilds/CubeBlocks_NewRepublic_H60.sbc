@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <CubeBlocks>
+ 
+
+	
+
+	<Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>H60_Reactor</SubtypeId>
+      </Id>
+	   <DisplayName>New Republic H-60 Reactor</DisplayName>
+		<Description>New Republic Power-Plant for H-60 Tempest Bomber, runs on Synthetic Fuel.</Description>
+       <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="6" y="3" z="4" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\NewRepublic\H_60Tempest\H_60Tempestbomber_Reactor_Small.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="20" />
+		<Component Subtype="Reactors_Ionic" Count="30" />
+		<Component Subtype="StandardCabling" Count="35" />
+		<Component Subtype="ImperialConstruction" Count="45" />
+			<Component Subtype="Computer" Count="35" />
+			<Component Subtype="LightweightDurasteel" Count="115" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>H60_Reactor</BlockPairName>
+	  <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.25" File="Models\NewRepublic\RZ2_AWing\KNR_AWing_Reactor_Small_Constr1.mwm" />
+		<Model BuildPercentUpperBound="0.99" File="Models\NewRepublic\RZ2_AWing\KNR_AWing_Reactor_Small_Constr1.mwm" />
+      </BuildProgressModels>
+	  <MountPoints>
+	          <MountPoint Side="Back" StartX="0" StartY="0" EndX="6" EndY="3" />
+			   <MountPoint Side="Front" StartX="0" StartY="0" EndX="6" EndY="3" />
+			   <MountPoint Side="Right" StartX="0" StartY="0" EndX="3" EndY="4" />
+			    <MountPoint Side="Left" StartX="0" StartY="0" EndX="3" EndY="4" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	  <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <MaxPowerOutput>30</MaxPowerOutput>
+      <InventorySize>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </InventorySize>
+
+            <!-- 
+                Values are volume fill ratio, means how much fuel reactor pulls from conveyor system to the inventory.
+                If volume fill ratio is bellow minimum, reactor starts pulling fuel up to maximum value.
+                Warning: Changing these values will affect performance.
+            -->
+            <InventoryFillFactorMin>0.001</InventoryFillFactorMin>
+            <InventoryFillFactorMax>0.002</InventoryFillFactorMax>
+
+            <!-- 
+                This is how much of fuel is pulled from conveyor system in one tick.
+                It's in minutes, means that it will pull X minutes of fuel in one tick.
+                Warning: Changing this value will affect performance.
+            -->
+            <FuelPullAmountFromConveyorInMinutes>10.0</FuelPullAmountFromConveyorInMinutes>
+
+	   <FuelInfos>
+        <FuelInfo>
+          <Id>
+            <TypeId>Ingot</TypeId>
+            <SubtypeId>Spin_SyntheticFuel</SubtypeId>
+          </Id>
+		  <Ratio>0.5</Ratio>
+        </FuelInfo>
+      </FuelInfos>
+          <PrimarySound>K_TIE_GridPower</PrimarySound>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>K_SW_Explosion_Generic</DamagedSound>
+      <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_SW_Explosion_Generic</DestroySound>
+    </Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>H60_Battery</SubtypeId>
+      </Id>
+      <DisplayName>New Republic H-60 Battery</DisplayName>
+	  <Description>New Republic Power-Storage for H-60 Tempest Bomber, covers a large surface area with 100 unit storage.</Description>
+    <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="14" y="1" z="7" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\NewRepublic\H_60Tempest\H_60Tempestbomber_Battery_Small.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="5" />
+			<Component Subtype="StandardPowerCell" Count="32" />
+			<Component Subtype="ImperialConstruction" Count="45" />
+		<Component Subtype="Computer" Count="35" />
+		<Component Subtype="ImperialConstruction" Count="15" />
+		 <Component Subtype="LightweightDurasteel" Count="275" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>H60_Battery</BlockPairName>
+		        <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	  <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>25</MaxPowerOutput>
+	   <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <RequiredPowerInput>15</RequiredPowerInput>
+      <AdaptibleInput>true</AdaptibleInput>
+      <MaxStoredPower>100</MaxStoredPower>
+      <InitialStoredPowerRatio>1.0</InitialStoredPowerRatio>
+	   		   <DestroySound>K_SW_Explosion_Generic</DestroySound>
+		    <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+			 <DestroyEffect>Imperial_Explosion</DestroyEffect>
+			  <GeneralDamageMultiplier>1</GeneralDamageMultiplier>
+    </Definition>
+	
+	
+	<Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
+      <Id>
+        <TypeId>JumpDrive</TypeId>
+        <SubtypeId>H60_Hyperdrive</SubtypeId>
+      </Id>
+      <DisplayName>New Republic H-60 Hyperdrive</DisplayName>
+       <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+	    <Description>Hyperdrive for the New Republic H-60 Tempest, with a higher weight capacity than typical craft.</Description>
+      <CubeSize>Small</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+       <Size x="2" y="3" z="7" />
+      <ModelOffset x="0" y="0" z="0" />
+	   <Model>Models\NewRepublic\H_60Tempest\H_60Tempestbomber_Hyperdrive_Small.mwm</Model>
+    <Components>
+        <Component Subtype="LightweightDurasteel" Count="45" />
+		<Component Subtype="StandardPowerCell" Count="65" />
+		<Component Subtype="StandardCabling" Count="45" />
+		<Component Subtype="ImperialConstruction" Count="45" />
+			<Component Subtype="Computer" Count="60" />
+			<Component Subtype="LightweightDurasteel" Count="75" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>H60_Hyperdrive</BlockPairName>
+	       <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	<DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+
+      <ResourceSinkGroup>Charging</ResourceSinkGroup>
+      <RequiredPowerInput>8</RequiredPowerInput>
+      <PowerNeededForJump>2</PowerNeededForJump>
+
+      <MaxJumpDistance>70000</MaxJumpDistance>
+      <MaxJumpMass>3500</MaxJumpMass>
+      <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+    </Definition>
+	
+	
+	<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>H60_Engine_Inverse</SubtypeId>
+      </Id>
+      <DisplayName>New Republic H-60 Engine (I)</DisplayName>
+	   <Description>Reverse-Engine of the New Republic H-60 Tempest, Quiet and Large, this installs onto the back of the Reactor.</Description>
+      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+	    <ThrusterType>Ion</ThrusterType>
+		 <IsStandAlone>false</IsStandAlone>
+      <CubeSize>Small</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="6" y="3" z="4" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\NewRepublic\H_60Tempest\H_60Tempestbomber_Engine_Inverse_Small.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="40" />
+		<Component Subtype="ImperialConstruction" Count="15" />
+			<Component Subtype="Computer" Count="33" />
+			<Component Subtype="ThrusterParts_Ion" Count="15" />
+			<Component Subtype="LightweightDurasteel" Count="120" />
+      </Components>
+      <CriticalComponent Subtype="Thrust" Index="0" />
+      <BlockPairName>H60_Engine_Inverse</BlockPairName>
+	  
+	   <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.25" File="Models\NewRepublic\RZ2_AWing\KNR_AWing_MainEngineII_Small_Constr1.mwm" />
+		<Model BuildPercentUpperBound="0.99" File="Models\NewRepublic\RZ2_AWing\KNR_AWing_MainEngineII_Small_Constr1.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	  <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>302500</ForceMagnitude>
+      <MaxPowerConsumption>0.201</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>3</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1.5</EffectivenessAtMaxInfluence>
+
+      <FlameDamageLengthScale>0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>1.0</FlameLengthScale>
+     <FlameIdleColor>
+        <X>0</X>
+        <Y>0.65</Y>
+        <Z>1</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0</X>
+        <Y>0.65</Y>
+        <Z>1</Z>
+        <W>1</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>SmallGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>800</FlameVisibilityDistance>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>K_NR_EngineQuiet</PrimarySound>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_SW_Explosion_Generic</DestroySound>
+	  <EmissiveColorPreset>Engine_Blue</EmissiveColorPreset>
+    </Definition>
+	
+	
+	<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>H60_Engine_Primary</SubtypeId>
+      </Id>
+      <DisplayName>New Republic H-60 Engine (II)</DisplayName>
+	   <Description>Primary Engine for the New Republic H-60 Tempest, loud and large.
+	   Install onto Engine II.</Description>
+      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+	    <ThrusterType>Ion</ThrusterType>
+		 <IsStandAlone>false</IsStandAlone>
+      <CubeSize>Small</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="6" y="3" z="4" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\NewRepublic\H_60Tempest\H_60Tempestbomber_Engine_Primary_Small.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="20" />
+		<Component Subtype="ImperialConstruction" Count="35" />
+			<Component Subtype="Computer" Count="3" />
+			<Component Subtype="ThrusterParts_Ion" Count="25" />
+			<Component Subtype="LightweightDurasteel" Count="120" />
+      </Components>
+      <CriticalComponent Subtype="Thrust" Index="0" />
+      <BlockPairName>H60_Engine_Primary</BlockPairName>
+	  
+	   <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.25" File="Models\NewRepublic\RZ2_AWing\KNR_AWing_MainEngineII_Small_Constr1.mwm" />
+		<Model BuildPercentUpperBound="0.99" File="Models\NewRepublic\RZ2_AWing\KNR_AWing_MainEngineII_Small_Constr1.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	  <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>302500</ForceMagnitude>
+      <MaxPowerConsumption>0.201</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>3</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1.5</EffectivenessAtMaxInfluence>
+
+      <FlameDamageLengthScale>0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>2.0</FlameLengthScale>
+      <FlameIdleColor>
+        <X>0</X>
+       <Y>0.65</Y>
+        <Z>1</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0</X>
+        <Y>0.65</Y>
+        <Z>1</Z>
+        <W>1</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>SmallGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>800</FlameVisibilityDistance>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>K_NR_Engine_H60</PrimarySound>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_SW_Explosion_Generic</DestroySound>
+	  <EmissiveColorPreset>Engine_Blue</EmissiveColorPreset>
+    </Definition>
+	
+	
+	<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>H60_Engine_Cockpit</SubtypeId>
+      </Id>
+      <DisplayName>New Republic H-60 Engine (III)</DisplayName>
+	   <Description>Smaller Engine-Set for the New Republic H-60 Tempest, Install onto the first Cockpit.</Description>
+      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+	    <ThrusterType>Ion</ThrusterType>
+		 <IsStandAlone>false</IsStandAlone>
+      <CubeSize>Small</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\NewRepublic\H_60Tempest\H_60Tempestbomber_CockPitA_Engine_Small.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="20" />
+		<Component Subtype="ImperialConstruction" Count="15" />
+			<Component Subtype="Computer" Count="3" />
+			<Component Subtype="ThrusterParts_Ion" Count="15" />
+			<Component Subtype="LightweightDurasteel" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="Thrust" Index="0" />
+      <BlockPairName>H60_Engine_Cockpit</BlockPairName>
+	  
+	   <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.25" File="Models\NewRepublic\RZ2_AWing\KNR_AWing_MainEngineII_Small_Constr1.mwm" />
+		<Model BuildPercentUpperBound="0.99" File="Models\NewRepublic\RZ2_AWing\KNR_AWing_MainEngineII_Small_Constr1.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	  <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>202500</ForceMagnitude>
+      <MaxPowerConsumption>0.201</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>2</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1.5</EffectivenessAtMaxInfluence>
+
+      <FlameDamageLengthScale>0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>0.6</FlameLengthScale>
+      <FlameIdleColor>
+        <X>0</X>
+       <Y>0.65</Y>
+        <Z>1</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0</X>
+       <Y>0.65</Y>
+        <Z>1</Z>
+        <W>1</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>SmallGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>800</FlameVisibilityDistance>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>K_NR_Engine_H60</PrimarySound>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_SW_Explosion_Generic</DestroySound>
+	  <EmissiveColorPreset>Engine_Blue</EmissiveColorPreset>
+    </Definition>
+	
+	
+	<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+      <Public>false</Public>
+      <Id>
+        <TypeId>LargeMissileTurret</TypeId>
+           <SubtypeId>H60_BombBay</SubtypeId>
+      </Id>
+      <DisplayName>New Republic H-60 Bomb-Bay (Proton-Bomb)</DisplayName>
+	   <Description>New Republic H-60 Tempest Bomb-Bay.
+Limit: 1
+Weapon: Proton-Bomb
+Salvo: 6
+Range: 1200-3000
+</Description>
+      <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="4" y="7" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\NewRepublic\H_60Tempest\H_60Tempestbomber_BombBay_Small.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+              <Component Subtype="LightweightDurasteel" Count="15" />
+			<Component Subtype="StandardPowerCell" Count="15" />
+			<Component Subtype="Blaster_Mechanism" Count="6" />
+		<Component Subtype="Computer" Count="5" />
+		<Component Subtype="ImperialConstruction" Count="23" />
+		 <Component Subtype="LightweightDurasteel" Count="60" />
+      </Components>
+		      <CriticalComponent Subtype="Computer" Index="0" />
+    
+        <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+	  <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.25" File="Models\NewRepublic\RZ2_AWing\KNR_AWing_LaserCannon_Small_Constr1.mwm" />
+		<Model BuildPercentUpperBound="0.99" File="Models\NewRepublic\RZ2_AWing\KNR_AWing_LaserCannon_Small_Constr1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>H60_BombBay</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+       <OverlayTexture>Textures\GUI\Screens\K_Imperial_Overlay_Turret_1_A.dds</OverlayTexture>
+      <WeaponDefinitionId Subtype="K_NR_Gun" />
+      <InventoryMaxVolume>0.384</InventoryMaxVolume>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <MinElevationDegrees>-15</MinElevationDegrees>
+      <MaxElevationDegrees>75</MaxElevationDegrees>
+      <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+      <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+      <IdleRotation>false</IdleRotation>
+	  <AiEnabled>false</AiEnabled>
+      <MaxRangeMeters>450</MaxRangeMeters>
+      <RotationSpeed>0.0005</RotationSpeed>
+      <ElevationSpeed>0.0002 </ElevationSpeed>
+      <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
+      <MinFov>0.1</MinFov>
+      <MaxFov>1.04719755</MaxFov>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+	  </Definition>
+	  
+	  
+	  <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+      <Public>false</Public>
+      <Id>
+        <TypeId>LargeMissileTurret</TypeId>
+           <SubtypeId>H60_ProtonLauncher</SubtypeId>
+      </Id>
+      <DisplayName>New Republic H-60 Proton-Torpedo Launcher</DisplayName>
+	   <Description>New Republic H-60 Tempest Launcher, mounted onto the Front Chassis.
+Limit: 2
+Weapon: Proton-Torpedo
+Salvo: 8
+Range: 1200</Description>
+      <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="9" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\NewRepublic\H_60Tempest\H_60Tempestbomber_ProtonLauncher_Small.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+              <Component Subtype="LightweightDurasteel" Count="35" />
+			<Component Subtype="StandardPowerCell" Count="5" />
+			<Component Subtype="Blaster_Mechanism" Count="12" />
+		<Component Subtype="Computer" Count="35" />
+		<Component Subtype="ImperialConstruction" Count="43" />
+		 <Component Subtype="LightweightDurasteel" Count="60" />
+      </Components>
+		      <CriticalComponent Subtype="Computer" Index="0" />
+    <MountPoints>
+	          <MountPoint Side="Back" StartX="0" StartY="0" EndX="9" EndY="1" />
+			      </MountPoints>
+        <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+	  <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.25" File="Models\NewRepublic\RZ2_AWing\KNR_AWing_LaserCannon_Small_Constr1.mwm" />
+		<Model BuildPercentUpperBound="0.99" File="Models\NewRepublic\RZ2_AWing\KNR_AWing_LaserCannon_Small_Constr1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>H60_ProtonLauncher</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+       <OverlayTexture>Textures\GUI\Screens\K_Imperial_Overlay_Turret_1_A.dds</OverlayTexture>
+      <WeaponDefinitionId Subtype="K_NR_Gun" />
+      <InventoryMaxVolume>0.384</InventoryMaxVolume>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <MinElevationDegrees>-15</MinElevationDegrees>
+      <MaxElevationDegrees>75</MaxElevationDegrees>
+      <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+      <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+      <IdleRotation>false</IdleRotation>
+	  <AiEnabled>false</AiEnabled>
+      <MaxRangeMeters>1200</MaxRangeMeters>
+      <RotationSpeed>0.0005</RotationSpeed>
+      <ElevationSpeed>0.0002 </ElevationSpeed>
+      <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
+      <MinFov>0.1</MinFov>
+      <MaxFov>1.04719755</MaxFov>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+	  </Definition>
+	  
+	  <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+      <Public>false</Public>
+      <Id>
+        <TypeId>LargeMissileTurret</TypeId>
+           <SubtypeId>H60_IonCannon</SubtypeId>
+      </Id>
+      <DisplayName>New Republic H-60 Ion-Cannon Turret</DisplayName>
+	   <Description>New Republic H-60 Tempest Ion-Cannon, with full firing arc.
+	   Limit: 4
+Weapon: Ion-Cannon
+Salvo: 1
+Range: 700</Description>
+      <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="3" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\NewRepublic\H_60Tempest\H_60Tempestbomber_IonCannon_Small.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+              <Component Subtype="LightweightDurasteel" Count="15" />
+			<Component Subtype="StandardPowerCell" Count="12" />
+			<Component Subtype="IonCapacitor" Count="6" />
+		<Component Subtype="Computer" Count="25" />
+		<Component Subtype="ImperialConstruction" Count="23" />
+		 <Component Subtype="LightweightDurasteel" Count="90" />
+      </Components>
+		      <CriticalComponent Subtype="Computer" Index="0" />
+    <MountPoints>
+	          <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="2" />
+			      </MountPoints>
+        <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+	  <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.25" File="Models\NewRepublic\RZ2_AWing\KNR_AWing_LaserCannon_Small_Constr1.mwm" />
+		<Model BuildPercentUpperBound="0.99" File="Models\NewRepublic\RZ2_AWing\KNR_AWing_LaserCannon_Small_Constr1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>H60_IonCannon</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+       <OverlayTexture>Textures\GUI\Screens\K_Imperial_Overlay_Turret_1_A.dds</OverlayTexture>
+      <WeaponDefinitionId Subtype="K_NR_Gun" />
+      <InventoryMaxVolume>0.384</InventoryMaxVolume>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <MinElevationDegrees>-15</MinElevationDegrees>
+      <MaxElevationDegrees>75</MaxElevationDegrees>
+      <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+      <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+      <IdleRotation>false</IdleRotation>
+	  <AiEnabled>false</AiEnabled>
+      <MaxRangeMeters>700</MaxRangeMeters>
+      <RotationSpeed>0.0005</RotationSpeed>
+      <ElevationSpeed>0.0002 </ElevationSpeed>
+      <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
+      <MinFov>0.1</MinFov>
+      <MaxFov>1.04719755</MaxFov>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+	  </Definition>
+	  
+	  
+	  <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+      <Public>false</Public>
+      <Id>
+        <TypeId>LargeMissileTurret</TypeId>
+           <SubtypeId>H60_MediumLaserCannon</SubtypeId>
+      </Id>
+      <DisplayName>New Republic H-60 Medium-Laser Cannon Turret</DisplayName>
+	   <Description>New Republic Medium-Caliber Laser-Cannon for the H-60 Tempest, Limited Elevation Control.
+Limit: 4
+Weapon: Medium Laser-Cannon
+Salvo: 4
+Range: 450</Description>
+      <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\NewRepublic\H_60Tempest\H_60Tempestbomber_MediumLaserCannon_Small.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+              <Component Subtype="LightweightDurasteel" Count="15" />
+			<Component Subtype="StandardPowerCell" Count="20" />
+			<Component Subtype="Blaster_Mechanism" Count="8" />
+		<Component Subtype="Computer" Count="5" />
+		<Component Subtype="ImperialConstruction" Count="23" />
+		 <Component Subtype="LightweightDurasteel" Count="60" />
+      </Components>
+		      <CriticalComponent Subtype="Computer" Index="0" />
+     <MountPoints>
+	  <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" />
+	  	      </MountPoints>
+        <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+	  <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.25" File="Models\NewRepublic\RZ2_AWing\KNR_AWing_LaserCannon_Small_Constr1.mwm" />
+		<Model BuildPercentUpperBound="0.99" File="Models\NewRepublic\RZ2_AWing\KNR_AWing_LaserCannon_Small_Constr1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>H60_MediumLaserCannon</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+       <OverlayTexture>Textures\GUI\Screens\K_Imperial_Overlay_Turret_1_A.dds</OverlayTexture>
+      <WeaponDefinitionId Subtype="K_NR_Gun" />
+      <InventoryMaxVolume>0.384</InventoryMaxVolume>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <MinElevationDegrees>-15</MinElevationDegrees>
+      <MaxElevationDegrees>75</MaxElevationDegrees>
+      <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+      <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+      <IdleRotation>false</IdleRotation>
+	  <AiEnabled>false</AiEnabled>
+      <MaxRangeMeters>450</MaxRangeMeters>
+      <RotationSpeed>0.0005</RotationSpeed>
+      <ElevationSpeed>0.0002 </ElevationSpeed>
+      <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
+      <MinFov>0.1</MinFov>
+      <MaxFov>1.04719755</MaxFov>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+	  </Definition>
+	  
+	
+	<Definition xsi:type="MyObjectBuilder_GyroDefinition">
+      <Id>
+        <TypeId>Gyro</TypeId>
+        <SubtypeId>H60_Gyro</SubtypeId>
+      </Id>
+      <DisplayName>New Republic H-60 Gyro</DisplayName>
+	   <Description>New Republic H-60 Tempest Gyro, capable of handling the heavy Mass, and is decently armored.</Description>
+    <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="1" z="7" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\NewRepublic\H_60Tempest\H_60Tempestbomber_Gyro_Small.mwm</Model>
+      <Components>
+         <Component Subtype="LightweightDurasteel" Count="15" />
+		<Component Subtype="ImperialConstruction" Count="13" />
+		<Component Subtype="StandardPowerCell" Count="6" />
+		<Component Subtype="LightweightDurasteel" Count="40" />
+		<Component Subtype="Computer" Count="35" />
+		<Component Subtype="LightweightDurasteel" Count="95" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>H60_Gyro</BlockPairName>
+	 <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.25" File="Models\NewRepublic\RZ2_AWing\KNR_AWing_Gyro_Small_Constr1.mwm" />
+		<Model BuildPercentUpperBound="0.99" File="Models\NewRepublic\RZ2_AWing\KNR_AWing_Gyro_Small_Constr1.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	  <PrimarySound>BlockGyroscope</PrimarySound>
+      <ResourceSinkGroup>Gyro</ResourceSinkGroup>
+      <ForceMagnitude>1.15E+06</ForceMagnitude>
+      <RequiredPowerInput>0.00001</RequiredPowerInput>
+      <DamageEffectName>Imperial_Damages_Electrical</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_SW_Explosion_Generic</DestroySound>
+    </Definition>
+	
+	 <Definition xsi:type="MyObjectBuilder_RadioAntennaDefinition">
+      <Id>
+        <TypeId>RadioAntenna</TypeId>
+        <SubtypeId>H60_Antenna</SubtypeId>
+      </Id>
+       <DisplayName>New Republic H-60 Antenna</DisplayName>
+	   <Description>New Republic H-60 Antenna Unit, designed for mounting onto the Bomb-Bay.</Description>
+      <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+	   <IsStandAlone>false</IsStandAlone>
+      <CubeSize>Small</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="4" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\NewRepublic\H_60Tempest\H_60Tempestbomber_Antenna_Small.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="15" />
+        <Component Subtype="ImperialConstruction" Count="20" />
+        <Component Subtype="Computer" Count="15" />
+        <Component Subtype="ImperialConstruction" Count="35" />
+        <Component Subtype="CommunicationsEquipment" Count="2" />
+        <Component Subtype="LightweightDurasteel" Count="45" />
+      </Components>
+      <CriticalComponent Subtype="CommunicationsEquipment" Index="0" />
+      <BlockPairName>H60_Antenna</BlockPairName>
+	  <MountPoints>
+	  <MountPoint Side="Back" StartX="0" StartY="0" EndX="4" EndY="1" />
+	  	      </MountPoints>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>Imperial_Explosion_Sparks</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
+    </Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+      <Id>
+        <TypeId>Cockpit</TypeId>
+        <SubtypeId>H60_Cockpit_A</SubtypeId>
+      </Id>
+      <DisplayName>New Republic H-60 Cockpit (A)</DisplayName>
+    <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+	   <Description>New Republic Cockpit for the H-60 Tempest, best suited for Piloting.</Description>
+      <CubeSize>Small</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="7" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\NewRepublic\H_60Tempest\H_60Tempestbomber_CockPitA_Small.mwm</Model>
+	  <PrimarySound>BlockCockpitSm</PrimarySound>
+      <InteriorModel>Models\NewRepublic\H_60Tempest\H_60Tempestbomber_CockPitA_Small.mwm</InteriorModel>
+      <GlassModel>Models\Cubes\Small\cockpitglass.mwm</GlassModel>
+      <CharacterAnimation>K_Animation_Engineer_AWing</CharacterAnimation>
+      <UsesDeformation>false</UsesDeformation>
+       <Components>
+        <Component Subtype="LightweightDurasteel" Count="10" />
+		 <Component Subtype="ImperialConstruction" Count="20" />
+		  <Component Subtype="StandardCabling" Count="5" />
+		  <Component Subtype="LightweightDurasteel" Count="10" />
+			<Component Subtype="Computer" Count="25" />
+			<Component Subtype="LightweightDurasteel" Count="55" />
+			<Component Subtype="TranspariSteel" Count="30" />
+			      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+	 
+      <BlockPairName>H60_Cockpit_A</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	  <EnableFirstPerson>true</EnableFirstPerson>
+      <EnableShipControl>true</EnableShipControl>
+      <EnableBuilderCockpit>true</EnableBuilderCockpit>
+      <DeformationRatio>0.2</DeformationRatio>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <OxygenCapacity>240</OxygenCapacity>
+      <IsPressurized>true</IsPressurized>
+      <GetInSound>K_NR_Cockpit_Audio</GetInSound>
+      <GetOutSound>K_NR_Cockpit_Audio</GetOutSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+	   <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+       <DestroySound>K_SW_Explosion_Generic</DestroySound>
+	  <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
+	   <ScreenAreas>
+            <ScreenArea Name="CockpitScreen_01" DisplayName="1" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" Script="TSS_ArtificialHorizon" />
+            <ScreenArea Name="CockpitScreen_02" DisplayName="2" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" Script="TSS_Velocity" />
+            <ScreenArea Name="CockpitScreen_03" DisplayName="3" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" Script="TSS_Gravity" />
+            <ScreenArea Name="CockpitScreen_04" DisplayName="4" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" Script="TSS_EnergyHydrogen" />
+			<ScreenArea Name="CockpitScreen_05" DisplayName="5" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" />
+			<ScreenArea Name="CockpitScreen_06" DisplayName="6" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" />
+			           			</ScreenAreas>
+    </Definition>
+	
+	
+	<Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+      <Id>
+        <TypeId>Cockpit</TypeId>
+        <SubtypeId>H60_Cockpit_B</SubtypeId>
+      </Id>
+      <DisplayName>New Republic H-60 Cockpit (B)</DisplayName>
+    <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+	   <Description>New Republic Cockpit for the H-60 Tempest, best suited for turret control.</Description>
+      <CubeSize>Small</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="9" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\NewRepublic\H_60Tempest\H_60Tempestbomber_CockpitB_Small.mwm</Model>
+	  <PrimarySound>BlockCockpitSm</PrimarySound>
+      <InteriorModel>Models\NewRepublic\H_60Tempest\H_60Tempestbomber_CockpitB_Small.mwm</InteriorModel>
+      <GlassModel>Models\Cubes\Small\cockpitglass.mwm</GlassModel>
+      <CharacterAnimation>K_Animation_Engineer_AWing</CharacterAnimation>
+      <UsesDeformation>false</UsesDeformation>
+       <Components>
+        <Component Subtype="LightweightDurasteel" Count="10" />
+		 <Component Subtype="ImperialConstruction" Count="20" />
+		  <Component Subtype="StandardCabling" Count="5" />
+		  <Component Subtype="LightweightDurasteel" Count="10" />
+			<Component Subtype="Computer" Count="25" />
+			<Component Subtype="LightweightDurasteel" Count="55" />
+			<Component Subtype="TranspariSteel" Count="30" />
+			      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+	 
+      <BlockPairName>H60_Cockpit_B</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	  <EnableFirstPerson>true</EnableFirstPerson>
+      <EnableShipControl>true</EnableShipControl>
+      <EnableBuilderCockpit>true</EnableBuilderCockpit>
+      <DeformationRatio>0.2</DeformationRatio>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <OxygenCapacity>240</OxygenCapacity>
+      <IsPressurized>true</IsPressurized>
+      <GetInSound>K_NR_Cockpit_Audio</GetInSound>
+      <GetOutSound>K_NR_Cockpit_Audio</GetOutSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+	   <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+       <DestroySound>K_SW_Explosion_Generic</DestroySound>
+	  <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
+	   <ScreenAreas>
+            <ScreenArea Name="CockpitScreen_01" DisplayName="1" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" Script="TSS_ArtificialHorizon" />
+            <ScreenArea Name="CockpitScreen_02" DisplayName="2" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" Script="TSS_Velocity" />
+            <ScreenArea Name="CockpitScreen_03" DisplayName="3" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" Script="TSS_Gravity" />
+            <ScreenArea Name="CockpitScreen_04" DisplayName="4" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" Script="TSS_EnergyHydrogen" />
+			<ScreenArea Name="CockpitScreen_05" DisplayName="5" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" />
+			<ScreenArea Name="CockpitScreen_06" DisplayName="6" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" />
+			           			</ScreenAreas>
+    </Definition>
+
+	<Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+      <Id>
+        <TypeId>AdvancedDoor</TypeId>
+        <SubtypeId>H60_Cockpit_A_Hatch</SubtypeId>
+      </Id>
+      <DisplayName>New Republic H-60 Canopy A</DisplayName>
+     <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+	  <Description>Sliding Canopy, for the H-60 Cockpit A</Description>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="7" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\NewRepublic\H_60Tempest\H_60Tempestbomber_CockPitA_DoorFrame_Small.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="20" />
+		<Component Subtype="ImperialConstruction" Count="5" />
+		<Component Subtype="Computer" Count="3" />
+		<Component Subtype="TranspariSteel" Count="65" />
+		 <Component Subtype="LightweightDurasteel" Count="40" />
+      </Components>
+      <CriticalComponent Subtype="TranspariSteel" Index="0" />
+      <BlockPairName>H60_Cockpit_A_Hatch</BlockPairName>
+      <EdgeType>Light</EdgeType>
+	  <MountPoints>
+	          <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="7" />
+			        </MountPoints>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	  <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+	   <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
+    <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+      <DamageEffectId>212</DamageEffectId>
+      <Subparts>
+        <SubpartDefinition>
+          <Name>H_60Tempestbomber_CockPitA_DoorPart_Small</Name>
+          <!-- ID = 0 -->
+        </SubpartDefinition>
+		
+      </Subparts>
+      <OpeningSequence>
+	          <Opening>
+          <IDs>0</IDs>
+         <Move>Slide</Move>
+          <SlideDirection x="0" y="0" z="-1" />
+          <MaxOpen>1</MaxOpen>
+          <Speed>1.5</Speed>
+           <OpenDelay>0</OpenDelay>
+           <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorSmallOpen</OpenSound>
+          <CloseSound>BlockDoorSmallOpen</CloseSound>
+        </Opening>
+		 </OpeningSequence>
+				
+</Definition>
+
+
+<Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+      <Id>
+        <TypeId>AdvancedDoor</TypeId>
+        <SubtypeId>H60_Cockpit_B_Hatch</SubtypeId>
+      </Id>
+      <DisplayName>New Republic H-60 Canopy B</DisplayName>
+     <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+	  <Description>Sliding Canopy for the H-60 Tempest Cockpit B.</Description>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="9" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\NewRepublic\H_60Tempest\H_60Tempestbomber_CockpitB_DoorFrame_Small.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="20" />
+		<Component Subtype="ImperialConstruction" Count="5" />
+		<Component Subtype="Computer" Count="3" />
+		<Component Subtype="TranspariSteel" Count="65" />
+		 <Component Subtype="LightweightDurasteel" Count="40" />
+      </Components>
+      <CriticalComponent Subtype="TranspariSteel" Index="0" />
+      <BlockPairName>H60_Cockpit_B_Hatch</BlockPairName>
+      <EdgeType>Light</EdgeType>
+	  <MountPoints>
+	          <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="9" />
+			        </MountPoints>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	  <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+	   <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
+    <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+      <DamageEffectId>212</DamageEffectId>
+      <Subparts>
+        <SubpartDefinition>
+          <Name>H_60Tempestbomber_CockpitB_DoorPart_Small</Name>
+          <!-- ID = 0 -->
+        </SubpartDefinition>
+		
+      </Subparts>
+      <OpeningSequence>
+	          <Opening>
+          <IDs>0</IDs>
+         <Move>Slide</Move>
+          <SlideDirection x="0" y="0" z="-1" />
+          <MaxOpen>1</MaxOpen>
+          <Speed>1.5</Speed>
+           <OpenDelay>0</OpenDelay>
+           <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorSmallOpen</OpenSound>
+          <CloseSound>BlockDoorSmallOpen</CloseSound>
+        </Opening>
+		 </OpeningSequence>
+				
+</Definition>
+	
+	
+  </CubeBlocks>
+</Definitions>

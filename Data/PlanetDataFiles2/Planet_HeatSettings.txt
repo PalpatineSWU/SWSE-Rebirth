@@ -1,0 +1,5 @@
+ExtremeHeat
+ExtremeFreeze
+Cozy
+Freeze
+Hot

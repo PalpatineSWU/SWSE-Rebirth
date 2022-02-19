@@ -1,0 +1,569 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Components>
+ <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>QuestCompFA</SubtypeId>
+      </Id>
+      <DisplayName>Delivery to Abregado-rae</DisplayName>
+     <Icon>Textures\GUI\Icons\Quests\Planetquests\Abregado-rae.dds</Icon>
+	  <ExtraInventoryTooltipLine>Deliver this package to Abregado-rae for 5767 credits. It costs 1922 credits to take this delivery on.</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>15</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>1</MaxIntegrity>
+      <DropProbability>0.01</DropProbability>
+      <Health>50</Health>
+	   <MinimalPricePerUnit>8500</MinimalPricePerUnit>
+    <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+ <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>QuestCompFB</SubtypeId>
+      </Id>
+      <DisplayName>Delivery to Bastion</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Planetquests\Bastion.dds</Icon>
+	  <ExtraInventoryTooltipLine>Deliver this package to Bastion for 4200 credits. It costs 1400 credits to take this delivery on.</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>15</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>1</MaxIntegrity>
+      <DropProbability>0.01</DropProbability>
+      <Health>50</Health>
+	   <MinimalPricePerUnit>8500</MinimalPricePerUnit>
+    <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+ <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>QuestCompFC</SubtypeId>
+      </Id>
+      <DisplayName>Delivery to Brentaal</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Planetquests\Brentaal.dds</Icon>
+	  <ExtraInventoryTooltipLine>Deliver this package to Brentaal for 3468 credits. It costs 1156 credits to take this delivery on.</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>15</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>1</MaxIntegrity>
+      <DropProbability>0.01</DropProbability>
+      <Health>50</Health>
+	   <MinimalPricePerUnit>8500</MinimalPricePerUnit>
+    <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+ <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>QuestCompFD</SubtypeId>
+      </Id>
+      <DisplayName>QuestCompFD</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Planetquests\Kuat.dds</Icon>
+	  <ExtraInventoryTooltipLine>Deliver this package to Kuat for 3657 credits. It costs 1219 credits to take this delivery on.</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>15</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>1</MaxIntegrity>
+      <DropProbability>0.01</DropProbability>
+      <Health>50</Health>
+	   <MinimalPricePerUnit>8500</MinimalPricePerUnit>
+    <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+ <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>QuestCompFE</SubtypeId>
+      </Id>
+      <DisplayName>QuestCompFE</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Planetquests\Concordia.dds</Icon>
+	  <ExtraInventoryTooltipLine>Deliver this package to Concordia for 1050 credits. It costs 350 credits to take this delivery on.</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>15</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>1</MaxIntegrity>
+      <DropProbability>0.01</DropProbability>
+      <Health>50</Health>
+	   <MinimalPricePerUnit>8500</MinimalPricePerUnit>
+    <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+ <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>QuestCompFF</SubtypeId>
+      </Id>
+      <DisplayName>QuestCompFF</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Planetquests\Dathomir.dds</Icon>
+	  <ExtraInventoryTooltipLine>Deliver this package to Dathomir for credits. It costs credits to take this delivery on.</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>15</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>1</MaxIntegrity>
+      <DropProbability>0.01</DropProbability>
+      <Health>50</Health>
+	   <MinimalPricePerUnit>8500</MinimalPricePerUnit>
+    <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+ <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>QuestCompFG</SubtypeId>
+      </Id>
+      <DisplayName>Delivery to Ilum</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Planetquests\Ilum.dds</Icon>
+	  <ExtraInventoryTooltipLine>Deliver this package to Ilum for 5557 credits. It costs 1852 credits to take this delivery on.</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>15</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>1</MaxIntegrity>
+      <DropProbability>0.01</DropProbability>
+      <Health>50</Health>
+	   <MinimalPricePerUnit>8500</MinimalPricePerUnit>
+    <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+ <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>QuestCompFH</SubtypeId>
+      </Id>
+      <DisplayName>Delivery to Tatooine</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Planetquests\Tatooine.dds</Icon>
+	  <ExtraInventoryTooltipLine>Deliver this package to Tatooine for 8136 credits. It costs 2712 credits to take this delivery on.</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>15</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>1</MaxIntegrity>
+      <DropProbability>0.01</DropProbability>
+      <Health>50</Health>
+	   <MinimalPricePerUnit>8500</MinimalPricePerUnit>
+    <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+ <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>QuestCompFI</SubtypeId>
+      </Id>
+      <DisplayName>Delivery to Bonadan</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Planetquests\Bonadan.dds</Icon>
+	  <ExtraInventoryTooltipLine>Deliver this package to Bonadan for 4123 credits. It costs 1374 credits to take this delivery on.</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>15</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>1</MaxIntegrity>
+      <DropProbability>0.01</DropProbability>
+      <Health>50</Health>
+	   <MinimalPricePerUnit>8500</MinimalPricePerUnit>
+    <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+ <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>QuestCompFJ</SubtypeId>
+      </Id>
+      <DisplayName>Delivery to Eriadu</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Planetquests\Eriadu.dds</Icon>
+	  <ExtraInventoryTooltipLine>Deliver this package to Eriadu for 9105 credits. It costs 3035 credits to take this delivery on.</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>15</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>1</MaxIntegrity>
+      <DropProbability>0.01</DropProbability>
+      <Health>50</Health>
+	   <MinimalPricePerUnit>8500</MinimalPricePerUnit>
+    <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+
+  </Components>
+
+<Blueprints>
+
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>QuestCompFA</SubtypeId>
+      </Id>
+      <DisplayName>Deliver to Abregado-rae</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Planetquests\Abregado-rae.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1922" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="QuestCompFA" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>QuestCompFB</SubtypeId>
+      </Id>
+      <DisplayName>Deliver to Bastion</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Planetquests\Bastion.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1400" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="QuestCompFB" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+		
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>QuestCompFC</SubtypeId>
+      </Id>
+      <DisplayName>Deliver to Brentaal</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Planetquests\Brentaal.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1156" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="QuestCompFC" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+  		
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>QuestCompFE</SubtypeId>
+      </Id>
+      <DisplayName>Deliver to Concordia</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Planetquests\Concordia.dds</Icon>
+      <Prerequisites>
+        <Item Amount="350" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="QuestCompFE" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+  		
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>QuestCompFF</SubtypeId>
+      </Id>
+      <DisplayName>Deliver to Dathomir</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Planetquests\Dathomir.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="QuestCompFF" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+  		
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>QuestCompFG</SubtypeId>
+      </Id>
+      <DisplayName>QuestCompFG</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Planetquests\Ilum.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1852" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="QuestCompFG" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+  		
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>QuestCompFD</SubtypeId>
+      </Id>
+      <DisplayName>Deliver to Kuat</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Planetquests\Kuat.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1219" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="QuestCompFD" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+  		
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>QuestCompFH</SubtypeId>
+      </Id>
+      <DisplayName>Deliver to Tatooine</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Planetquests\Tatooine.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2712" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="QuestCompFH" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+  		
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>QuestCompFI</SubtypeId>
+      </Id>
+      <DisplayName>Deliver to Bonadan</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Planetquests\Bonadan.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1374" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="QuestCompFI" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+  		
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>QuestCompFJ</SubtypeId>
+      </Id>
+      <DisplayName>QuestCompFJ</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Planetquests\Eriadu.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3035" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="QuestCompFJ" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+ 	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>QuestRewardAF</SubtypeId>
+      </Id>
+      <DisplayName>Complete delivery from Abregado-rae</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Planetquests\Abregado-raeReward.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="QuestCompAF" />
+      </Prerequisites>
+      <Result Amount="5767" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>QuestRewardBF</SubtypeId>
+      </Id>
+      <DisplayName>Complete delivery from Bastion</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Planetquests\BastionReward.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="QuestCompBF" />
+      </Prerequisites>
+      <Result Amount="4200" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+		
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>QuestRewardCF</SubtypeId>
+      </Id>
+      <DisplayName>Complete delivery from Brentaal</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Planetquests\BrentaalReward.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="QuestCompCF" />
+      </Prerequisites>
+      <Result Amount="3468" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+  		
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>QuestRewardEF</SubtypeId>
+      </Id>
+      <DisplayName>Complete delivery from Concordia</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Planetquests\ConcordiaReward.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="QuestCompEF" />
+      </Prerequisites>
+      <Result Amount="1050" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+  		
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>QuestRewardFF</SubtypeId>
+      </Id>
+      <DisplayName>Complete delivery from Dathomir</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Planetquests\DathomirReward.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="QuestCompFF" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+  		
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>QuestRewardGF</SubtypeId>
+      </Id>
+      <DisplayName>Complete delivery from Ilum</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Planetquests\IlumReward.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="QuestCompGF" />
+      </Prerequisites>
+      <Result Amount="5557" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+  		
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>QuestRewardGF</SubtypeId>
+      </Id>
+      <DisplayName>Complete delivery from Kuat</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Planetquests\KuatReward.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="QuestCompGF" />
+      </Prerequisites>
+      <Result Amount="3657" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+  		
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>QuestRewardHF</SubtypeId>
+      </Id>
+      <DisplayName>Complete delivery from Tatooine</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Planetquests\TatooineReward.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="QuestCompHF" />
+      </Prerequisites>
+      <Result Amount="8136" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+  		
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>QuestRewardIF</SubtypeId>
+      </Id>
+      <DisplayName>Complete delivery from Bonadan</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Planetquests\BonadanReward.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="QuestCompIF" />
+      </Prerequisites>
+      <Result Amount="4123" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+  		
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>QuestRewardJF</SubtypeId>
+      </Id>
+      <DisplayName>Complete delivery from Eriadu</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Planetquests\EriaduReward.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="QuestCompJF" />
+      </Prerequisites>
+      <Result Amount="9105" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+    
+</Blueprints>
+	
+ <BlueprintClassEntries>	
+ 
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="QuestCompFA" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="QuestCompFB" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="QuestCompFC" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="QuestCompFD" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="QuestCompFE" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="QuestCompFF" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="QuestCompFG" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="QuestCompFH" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="QuestCompFI" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="QuestCompFJ" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="QuestRewardAF" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="QuestRewardBF" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="QuestRewardCF" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="QuestRewardDF" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="QuestRewardEF" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="QuestRewardFF" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="QuestRewardGF" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="QuestRewardHF" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="QuestRewardIF" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="QuestRewardJF" />
+
+</BlueprintClassEntries>
+</Definitions>

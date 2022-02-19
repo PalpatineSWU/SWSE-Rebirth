@@ -1,0 +1,567 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Components>
+  
+ 
+	
+<!--           Common Pool         -->		
+	
+<Component> <!--         Improvised Explosives       -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>CommonPool_IEDBits</SubtypeId>
+      </Id>
+      <DisplayName>Improvised Explosives</DisplayName>
+	  <ExtraInventoryTooltipLine> Cobbled-Together Explosives, typically used for making bombs.
+	  </ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </Size>
+      <Mass>2</Mass>
+      <Volume>2</Volume>
+      <Model>Models\Components\K_Imperial_Components_TurboLaser_Mechanism_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>5</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>5</Health>
+	   <MinimalPricePerUnit>1000</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+<Component> <!--        Mechanized Blaster     -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>CommonPool_MechBlasterbits</SubtypeId>
+      </Id>
+      <DisplayName>Improvised Blaster Parts</DisplayName>
+	  <ExtraInventoryTooltipLine> Cobbled-Together Blaster, rigged for automatic or remote triggers.
+	  </ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </Size>
+      <Mass>2</Mass>
+      <Volume>2</Volume>
+      <Model>Models\Components\K_Imperial_Components_TurboLaser_Mechanism_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>5</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>5</Health>
+	   <MinimalPricePerUnit>1000</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+		
+ 
+ <!--            Trandoshan         -->	
+ 
+ <Component> <!--      Slugger    -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Trandoshan_Slugger</SubtypeId>
+      </Id>
+      <DisplayName>Trandoshan Slugthrower Weapon-Mechanisim</DisplayName>
+	  <ExtraInventoryTooltipLine>Trandoshan Slugthrower parts, quite vicious against engineers. </ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>6</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Components\K_Imperial_Components_WeaponCapacitor_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>25</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>25</Health>
+	   <MinimalPricePerUnit>760</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+
+<Component> <!--      Blaster    -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Trandoshan_Blaster</SubtypeId>
+      </Id>
+      <DisplayName>Trandoshan Blaster Weapon-Mechanisim</DisplayName>
+	    <ExtraInventoryTooltipLine>Trandoshan Blasters are green-blue bolts, that are above average against engineers. </ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>6</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Components\K_Imperial_Components_WeaponCapacitor_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>25</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>25</Health>
+	   <MinimalPricePerUnit>760</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+		
+<Component> <!--      Heavy Slugger    -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Trandoshan_HeavySlugger</SubtypeId>
+      </Id>
+      <DisplayName>Trandoshan Heavy Slugger Weapon-Mechanisim</DisplayName>
+	    <ExtraInventoryTooltipLine>Trandoshan Heavy Weapon Technology, of the Kinetic Family. </ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>25</Mass>
+      <Volume>6</Volume>
+      <Model>Models\Components\K_Imperial_Components_WeaponCapacitor_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>25</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>25</Health>
+	   <MinimalPricePerUnit>760</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+
+<Component> <!--      Disruptor  Cells   -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Trandoshan_Distuptor</SubtypeId>
+      </Id>
+      <DisplayName>Trandoshan Disruptor Power-Cell</DisplayName>
+	    <ExtraInventoryTooltipLine>Trandoshan Disruptors, are heavy weapons, related to the Pulse-Cannon Family.
+Each Cell, 	is typically 5 shots, and is used in expendable cannons.	</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>20</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Components\K_Imperial_Components_WeaponCapacitor_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>5</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>5</Health>
+	   <MinimalPricePerUnit>950</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+		
+	
+ <!--           Hutt         -->	
+ 
+ <Component> <!--      Weaponry , Sonic  -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Hutt_SonicCannon</SubtypeId>
+      </Id>
+      <DisplayName>Hutt Sonic Weapon-Mechanisim</DisplayName>
+	  <ExtraInventoryTooltipLine>Hutt Fenced Tech, from numerous specices. Used to make Sonic Weaponry, that excells against Engineers and small-grid.  </ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>3</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_WeaponCapacitor_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>25</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>25</Health>
+	   <MinimalPricePerUnit>1250</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+
+ <Component> <!--     Heavy  Weaponry , Heavy Slugger  -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Hutt_HeavySlugger</SubtypeId>
+      </Id>
+      <DisplayName>Hutt Heavy Slugger Weapon-Mechanisim</DisplayName>
+	  <ExtraInventoryTooltipLine>Hutt Fenced Tech, used to create large scale Kinetic weaponry.  </ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>3</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_WeaponCapacitor_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>25</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>25</Health>
+	   <MinimalPricePerUnit>3250</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+
+<Component> <!--     Heavy  Weaponry , Disruptor -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Hutt_Disruptor</SubtypeId>
+      </Id>
+      <DisplayName>Hutt Disruptor Components</DisplayName>
+	  <ExtraInventoryTooltipLine>Hutt Fenced Tech, Disruptors are illegal weaponry, related to the Pulse-Cannon Family.  </ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>15</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_WeaponCapacitor_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>25</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>25</Health>
+	   <MinimalPricePerUnit>7250</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+			
+<Component> <!--           Pre Packed Missile , Flechette Concussion       -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Hutt_PackedConcussion</SubtypeId>
+      </Id>
+      <DisplayName>Sealed-Tube Concussion-Flechette-Missile (Hutt)</DisplayName>
+	  <ExtraInventoryTooltipLine> Pre-Sealed Modified Missile. 
+	  Intended for Specialized Launch Tubes; Can not be fired by Standard Launchers.
+	  </ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </Size>
+      <Mass>20</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Components\K_Imperial_Components_TurboLaser_Mechanism_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>5</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>5</Health>
+	   <MinimalPricePerUnit>25000</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+	
+			
+ <!--            Gree          -->	
+	
+ <Component> <!--      Anti Grav , Weapon    -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Gree_AntiGravGun</SubtypeId>
+      </Id>
+      <DisplayName>Gree Gravity Weapon-Mechanisim</DisplayName>
+	  <ExtraInventoryTooltipLine>Gree Anti-Grav Weaponry, typically short-ranged devices. </ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>6</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Components\K_Imperial_Components_WeaponCapacitor_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>25</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>25</Health>
+	   <MinimalPricePerUnit>1560</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+	
+<Component> <!--      Anti Grav , Engine    -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Gree_AntiGravEngine</SubtypeId>
+      </Id>
+      <DisplayName>Gree Gravity Repulsor-Mechanisim</DisplayName>
+	  <ExtraInventoryTooltipLine>Gree Anti-Grav Technology, has incredible capacity in handling planetary gravity. </ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>6</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Components\K_Imperial_Components_WeaponCapacitor_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>25</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>25</Health>
+	   <MinimalPricePerUnit>1560</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+	
+	
+ <!--           Mon Calamari        -->	
+	
+ <Component> <!--         Assault Torp , Pre Packed   ,      -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>PrePackedAmmo_MonCalamari_ATorp</SubtypeId>
+      </Id>
+      <DisplayName>Mon Calamari Sealed-Tube Assault-Proton-Torpedo</DisplayName>
+	  <ExtraInventoryTooltipLine> Pre-Sealed Torpedo. 
+	  Intended for Specialized Launch Tubes; Can not be fired by Standard Launchers.
+	  </ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </Size>
+      <Mass>30</Mass>
+      <Volume>8</Volume>
+      <Model>Models\Components\K_Imperial_Components_TurboLaser_Mechanism_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>5</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>5</Health>
+	   <MinimalPricePerUnit>50000</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+<Component> <!--      Weaponry  , Ion   -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>MonCalamari_EnhancedIonCapacitor</SubtypeId>
+      </Id>
+      <DisplayName> Mon Calamari Enhanced Ionic Capacitor</DisplayName>
+	   <ExtraInventoryTooltipLine>Mon Calamari  Weaponry Technology. 
+	   Used in creation of Heavy Ion Weaponry.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>3</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_WeaponCapacitor_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>25</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>25</Health>
+	   <MinimalPricePerUnit>1250</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+		
+	
+<!--            Ssi Ruuk         -->	
+	
+ <Component> <!--      Entechment Mechanism     -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>SsiRuuk_Entechment</SubtypeId>
+      </Id>
+      <DisplayName>Ssi Ruuk Entechment Mechanisim</DisplayName>
+	  	   <ExtraInventoryTooltipLine>Ssi Ruuk Technology. </ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>3</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_WeaponCapacitor_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>25</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>25</Health>
+	   <MinimalPricePerUnit>1250</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+
+ <Component> <!--      Internal Mechanism     -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>SsiRuuk_Components</SubtypeId>
+      </Id>
+      <DisplayName>Ssi Ruuk Internal Mechanisim</DisplayName>
+	  	   <ExtraInventoryTooltipLine>Ssi Ruuk Technology. </ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>3</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_WeaponCapacitor_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>15</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>15</Health>
+	   <MinimalPricePerUnit>550</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+
+ <Component> <!--      Weaponry , Laser Cannon   -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>SsiRuuk_Weaponry</SubtypeId>
+      </Id>
+      <DisplayName>Ssi Ruuk Weapon Components</DisplayName>
+	   <ExtraInventoryTooltipLine>Ssi Ruuk Technology. </ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>3</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_WeaponCapacitor_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>25</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>25</Health>
+	   <MinimalPricePerUnit>1250</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+
+ <Component> <!--     Thruster     -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>SsiRuuk_FusionThrust</SubtypeId>
+      </Id>
+      <DisplayName>Ssi Ruuk Fusion Thruster Components</DisplayName>
+	  	   <ExtraInventoryTooltipLine>Ssi Ruuk Technology. </ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>4</Mass>
+      <Volume>2</Volume>
+      <Model>Models\Components\K_Imperial_Components_WeaponCapacitor_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>10</Health>
+	   <MinimalPricePerUnit>750</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+	
+ <Component> <!--      Weaponry  , Ion   -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>SsiRuuk_IonWeaponry</SubtypeId>
+      </Id>
+      <DisplayName>Ssi Ruuk Ionic Components</DisplayName>
+	   <ExtraInventoryTooltipLine>Ssi Ruuk Weaponry Technology. 
+	   Used in creation of Heavy Ion Weaponry.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>3</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_WeaponCapacitor_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>25</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>25</Health>
+	   <MinimalPricePerUnit>1250</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+
+	
+ <!--           Rakatan        -->	
+ 
+ <Component> <!--      Weaponry , Dark Blaster   -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Rakatan_DarkBlaster</SubtypeId>
+      </Id>
+      <DisplayName>Rakatan Blaster Weapon-Mechanisim</DisplayName>
+	  <ExtraInventoryTooltipLine>Rakatan Technology, used to create darkside enhanced Laser-Cannon Family weapons. </ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>3</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_WeaponCapacitor_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>25</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>25</Health>
+	   <MinimalPricePerUnit>1250</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+
+<Component> <!--      Weaponry , Dark Lance   -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Rakatan_DarkLance</SubtypeId>
+      </Id>
+      <DisplayName>Rakatan Lance Weapon-Mechanisim</DisplayName>
+	  <ExtraInventoryTooltipLine>Rakatan Technology, used to create darkside enhanced Beam-Cannon Family weapons. </ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>3</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_WeaponCapacitor_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>25</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>25</Health>
+	   <MinimalPricePerUnit>3250</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+	
+<Component> <!--      Technology, Foundry Controller   -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Rakatan_FoundryController</SubtypeId>
+      </Id>
+      <DisplayName>Rakatan Foundry-Controller Mechanism</DisplayName>
+	  <ExtraInventoryTooltipLine>Rakatan Technology, used to create enhanced factories and refineries. </ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>30</Mass>
+      <Volume>15</Volume>
+      <Model>Models\Components\K_Imperial_Components_WeaponCapacitor_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>90</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>25</Health>
+	   <MinimalPricePerUnit>6450</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+	
+  
+  </Components>
+</Definitions>

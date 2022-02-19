@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="NPCS" />
+      <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
+            <DisplayName>Bridgepack</DisplayName>
+            <Description>Bridgepack</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Assembler" Subtype="NPCAbregado-rae" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="NPCBonadan" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="NPCKuat" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="NPCBastion" />                
+                <Block Type="MyObjectBuilder_Assembler" Subtype="NPCEriadu" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="NPCBrentaal" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="NPCConcordia" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="NPCIlum" /> 
+                <Block Type="MyObjectBuilder_Assembler" Subtype="NPCDathomir" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="NPCTatooine" />                          
+            </Blocks>
+        </BlockVariantGroup>
+    </BlockVariantGroups>
+</Definitions>

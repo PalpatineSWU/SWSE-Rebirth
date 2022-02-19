@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AmmoMagazines>
+  
+  
+  
+  	<AmmoMagazine> <!--  Concussion Missile Mark I -->
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>Magazine_Missile_ConcussionMissile_MarkI</SubtypeId>
+      </Id>
+      <DisplayName>Concussion Missile Mark-I</DisplayName>
+	  <ExtraInventoryTooltipLine>Concussion Missile | Anti-Starfighter Ammunition
+	  Produced at : Ammunition Factory</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>2</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Weapons\Rifle_Ammo.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>1</Capacity>
+      <AmmoDefinitionId Subtype="K_IMP_Gun" />
+	   <MinimalPricePerUnit>2500</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </AmmoMagazine>
+	
+		<AmmoMagazine> <!--  Concussion Missile Mark I -->
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>Magazine_Slug_Magazine_Light_10</SubtypeId>
+      </Id>
+      <DisplayName>Slug Magazine (10)</DisplayName>
+	  <ExtraInventoryTooltipLine>Light Slug Ammunition
+	  Produced at : Ammunition Factory</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>2</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Weapons\Rifle_Ammo.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>10</Capacity>
+      <AmmoDefinitionId Subtype="K_IMP_Gun" />
+	   <MinimalPricePerUnit>500</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </AmmoMagazine>
+	
+
+  </AmmoMagazines>
+</Definitions>

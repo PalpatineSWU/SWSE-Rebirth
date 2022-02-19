@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Sounds>
+    <!--IHarpo, a glorious man. Damnable Keen file structure.-->
+	 <!--Praise Enenra , whom has fixed this TIE Sounds.-->
+   
+	
+	
+	
+	<Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>K_Sith_Missile_Tracking</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>450</MaxDistance>
+      <PreventSynchronization>1</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>0.4</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\armco_tie_missile_guided_arc.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+   
+
+	
+
+  </Sounds>
+</Definitions>

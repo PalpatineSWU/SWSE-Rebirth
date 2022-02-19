@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <CubeBlocks>
+ <!--CONVERT TO BATTERY  -->
+<Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <public>false</public>
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>Manufacturing_MicroFactory</SubtypeId>
+      </Id>
+      <DisplayName>000000000000000000000000</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
+	   <Description>NOT FUNCTIOING
+	   Large-Grid 1x1x2</Description>
+      <CubeSize>Large</CubeSize>
+      <public>false</public>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Construction\Manufacturing\K_NR_MicroFactory_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="20" />
+        <Component Subtype="ImperialConstruction" Count="40" />
+        <Component Subtype="StandardPowerCell" Count="2" />
+		        <Component Subtype="ImperialConstruction" Count="4" />
+        <Component Subtype="Computer" Count="15" />
+        <Component Subtype="DuraSteel" Count="65" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="2" Default="true" />
+              </MountPoints>
+            <BlockPairName>Manufacturing_MicroFactory</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>80</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>1</InventoryMaxVolume>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>BasicIngots</Class>
+        <Class>BasicTools</Class>
+        <Class>BasicComponents</Class>
+	</BlueprintClasses>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>BlockAssembler</PrimarySound>
+      <ActionSound>BlockAssemblerProcess</ActionSound>
+      <DestroyEffect>Explosion_Missile</DestroyEffect>
+      <DestroySound>WepSmallMissileExpl</DestroySound>
+	  <EmissiveColorPreset>Default</EmissiveColorPreset>
+	       </Definition>
+		   
+		   
+		   <!--CONVERT TO BATTERY  -->
+		   <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <public>false</public>
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>Manufacturing_Factory_Light</SubtypeId>
+      </Id>
+      <DisplayName>00000000000</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
+	   <Description>NOT FUNCTIOING
+	   Large-Grid 3x3x2</Description>
+      <CubeSize>Large</CubeSize>
+      <public>false</public>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Construction\Manufacturing\K_NR_LightFactory_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="130" />
+        <Component Subtype="ImperialConstruction" Count="120" />
+        <Component Subtype="StandardCabling" Count="20" />
+		 <Component Subtype="StandardPowerCell" Count="25" />
+        <Component Subtype="ImperialGeneralParts" Count="35" />
+        <Component Subtype="Computer" Count="80" />
+        <Component Subtype="DuraSteel" Count="130" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" Default="true" />
+              </MountPoints>
+            <BlockPairName>Manufacturing_Factory_Light</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>80</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>1</InventoryMaxVolume>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>BasicIngots</Class>
+        <Class>BasicTools</Class>
+        <Class>BasicComponents</Class>
+	</BlueprintClasses>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>BlockAssembler</PrimarySound>
+      <ActionSound>BlockAssemblerProcess</ActionSound>
+      <DestroyEffect>Explosion_Missile</DestroyEffect>
+      <DestroySound>WepSmallMissileExpl</DestroySound>
+	  <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
+	       </Definition>
+	
+	
+  </CubeBlocks>
+</Definitions>

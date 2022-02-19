@@ -1,0 +1,12 @@
+Command: C:\Program Files\Havok\HavokContentTools\hctStandAloneFilterManager.exe -t -s C:\Users\JACOBM~1\AppData\Local\Temp\space_engineers_2_w82o4h.hko -p C:\Users\Jacob Mckenzie\Desktop\Discharge Core-Tech\Models\SW_Project_Empire\Armor_Sith\K_Imperial_Plate_DecalA_Small.hkt C:\Users\Jacob Mckenzie\Desktop\Discharge Core-Tech\Models\SW_Project_Empire\Armor_Sith\K_Imperial_Plate_DecalA_Small.hkt 
+[ Processing All Configurations... ]
+    
+    ========== Started: Sun Jan 27 13:32:10 2019, Configuration: default ==========
+    
+    [ [Physics 2012] Create Rigid Bodies Filter ]
+        Created 1 rigid bodies.
+    [ Prune Types Filter ]
+    [ Write to Platform Filter ]
+        Wrote layout for [Tagfile] to file [C:\Users\Jacob Mckenzie\Desktop\Discharge Core-Tech\Models\SW_Project_Empire\Armor_Sith\K_Imperial_Plate_DecalA_Small.hkt].
+    
+    ========== Finished in 00:00:00, 0 Errors, 0 Warnings ==========

@@ -1,0 +1,62 @@
+#
+Flak: Vs Small
+Bomb: Vs Large
+
+#
+Small-Caliber: 25% vs Large
+Blaster: 10% vs Large
+Bomb: 200% vs Large
+
+Maser : Slightly Superior Kinetic-Type Analog
+Slug-Thrower : Delay-Fire , 
+
+#
+Missile Tech : Old Generation , Old-Republic & Clone-Wars
+
+-------------
+
+#
+# 2nd-Layer Flak Generation
+ 
+-------------
+
+Shield Pen: #
+Mass-Driver: 95%
+Bombs: 50% , 5% Trigger Chance
+Missiles: 0% No
+
+-------------
+
+# Damage Types: #
+Primarily Energy - General Weaponry
+Primarily Kinetic - Ballistics 
+Missiles - Kinetic (Concussion) , Energy (Ion, Proton)
+
+# Ion Systems
+Type Anti-Shield : Slow Reload
+Type EMP : Slow Reload
+Fixed-Mount vs Turret : Light vs Heavy
+
+
+# Ammunition Alternates
+- Classify as Rare \ Scale as Rare
+- As Many Types as Wanted
+- 
+
+
+# Fire Modes | Calibers
+- Laser-Cannon: Power Levels (?)
+- Light Cannons Principle
+
+
+------------
+Visuals: Moderate
+
+Bolt Colours:
+- Red | Switchable (?)
+- Blue (Ion-Only)
+- Green | Switchable (?)
+- 
+
+
+-------------

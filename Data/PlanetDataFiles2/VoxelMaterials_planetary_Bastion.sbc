@@ -1,0 +1,285 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <VoxelMaterials>
+   
+   <!-- 
+   Underground
+   -->
+   
+   <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>K_Bastian_Underground_A</SubtypeId>
+      </Id>
+      <SpawnsInAsteroids>false</SpawnsInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>Stone</MinedOre>
+      <MinedOreRatio>1</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>false</IsRare>
+      
+      <VoxelHandPreview>Textures\Voxels\EarthStone_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Bastian_Soil.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\EarthStone_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Dummy_add.dds</ExtXZnY>
+
+      <ColorMetalXZnYFar1>Textures\Voxels\Bastian_Soil.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\EarthStone_Far1_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Dummy_add.dds</ExtXZnYFar1>
+
+      <ColorMetalXZnYFar2>Textures\Voxels\Bastian_Soil.dds</ColorMetalXZnYFar2>
+      <NormalGlossXZnYFar2>Textures\Voxels\EarthStone_Far2_ng.dds</NormalGlossXZnYFar2>
+      <ExtXZnYFar2>Textures\Voxels\Dummy_add.dds</ExtXZnYFar2>
+
+      <SimpleTilingSetup>
+        <ExtDetailScale>0.005</ExtDetailScale>
+        <InitialDistance>4</InitialDistance>
+        <ScaleMultiplier>4</ScaleMultiplier>
+        <Far1Distance>70</Far1Distance>
+        <Far2Distance>320</Far2Distance>
+        <Far1Scale>350</Far1Scale>
+        <Far2Scale>1500</Far2Scale>
+        <Far3Distance>10000</Far3Distance>
+      </SimpleTilingSetup>
+
+      <!--Distance values that look great-->
+      <ExtDetailScale>0.005</ExtDetailScale>
+      <InitialDistance>4</InitialDistance>
+      <ScaleMultiplier>8</ScaleMultiplier>
+      <Far1Distance>70</Far1Distance>
+      <Far2Distance>320</Far2Distance>
+      <Far1Scale>350</Far1Scale>
+      <Far2Scale>1500</Far2Scale>
+
+
+      <Far3Distance>10000</Far3Distance>
+      <Far3Color>
+        <X>0.11</X>
+        <Y>0.10</Y>
+        <Z>0.08</Z>
+        <W>1.0</W>
+      </Far3Color>
+
+
+      <ColorKey Hex="#BCBB56"/>
+    </VoxelMaterial>
+   
+   <!-- 
+   Stone
+   -->
+   
+   <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>K_Bastian_Stone_I</SubtypeId>
+      </Id>
+      <SpawnsInAsteroids>false</SpawnsInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>Stone</MinedOre>
+      <MinedOreRatio>1</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>false</IsRare>
+      
+      <VoxelHandPreview>Textures\Voxels\EarthStone_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Bastian_Rock.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\EarthStone_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Dummy_add.dds</ExtXZnY>
+
+      <ColorMetalXZnYFar1>Textures\Voxels\Bastian_Rock.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\EarthStone_Far1_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Dummy_add.dds</ExtXZnYFar1>
+
+      <ColorMetalXZnYFar2>Textures\Voxels\Bastian_Rock.dds</ColorMetalXZnYFar2>
+      <NormalGlossXZnYFar2>Textures\Voxels\EarthStone_Far2_ng.dds</NormalGlossXZnYFar2>
+      <ExtXZnYFar2>Textures\Voxels\Dummy_add.dds</ExtXZnYFar2>
+
+      <SimpleTilingSetup>
+        <ExtDetailScale>0.005</ExtDetailScale>
+        <InitialDistance>4</InitialDistance>
+        <ScaleMultiplier>4</ScaleMultiplier>
+        <Far1Distance>70</Far1Distance>
+        <Far2Distance>320</Far2Distance>
+        <Far1Scale>350</Far1Scale>
+        <Far2Scale>1500</Far2Scale>
+        <Far3Distance>10000</Far3Distance>
+      </SimpleTilingSetup>
+
+      <!--Distance values that look great-->
+      <ExtDetailScale>0.005</ExtDetailScale>
+      <InitialDistance>4</InitialDistance>
+      <ScaleMultiplier>8</ScaleMultiplier>
+      <Far1Distance>70</Far1Distance>
+      <Far2Distance>320</Far2Distance>
+      <Far1Scale>350</Far1Scale>
+      <Far2Scale>1500</Far2Scale>
+
+
+      <Far3Distance>10000</Far3Distance>
+      <Far3Color>
+        <X>0.11</X>
+        <Y>0.10</Y>
+        <Z>0.08</Z>
+        <W>1.0</W>
+      </Far3Color>
+
+
+      <ColorKey Hex="#BCBB56"/>
+    </VoxelMaterial>
+	
+	
+   
+   
+   <!-- 
+   Surface
+   -->
+ 
+
+ <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>K_Bastian_Surface_Grass</SubtypeId>
+      </Id>
+      <SpawnsInAsteroids>false</SpawnsInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <MaterialTypeName>Grass</MaterialTypeName>
+      <MinedOre>Stone</MinedOre>
+      <MinedOreRatio>1</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>false</IsRare>
+      
+      <VoxelHandPreview>Textures\Voxels\Grass_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Bastian_Grass_Blue.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\LushGrass_n.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Green_add.dds</ExtXZnY>
+      
+
+      <ColorMetalXZnYFar1>Textures\Voxels\Bastian_Grass_Blue.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\LushGrass_n.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Green_add.dds</ExtXZnYFar1>
+
+      <ColorMetalXZnYFar2>Textures\Voxels\Bastian_Grass_Blue.dds</ColorMetalXZnYFar2>
+      <NormalGlossXZnYFar2>Textures\Voxels\LushGrass_Far_n.dds</NormalGlossXZnYFar2>
+      <ExtXZnYFar2>Textures\Voxels\Green_add.dds</ExtXZnYFar2>
+
+      <SimpleTilingSetup>
+        <ExtDetailScale>0.005</ExtDetailScale>
+        <InitialDistance>3</InitialDistance>
+        <ScaleMultiplier>1</ScaleMultiplier>
+        <Far1Distance>5</Far1Distance>
+        <Far2Distance>320</Far2Distance>
+        <Far1Scale>350</Far1Scale>
+        <Far2Scale>1500</Far2Scale>
+        <Far3Distance>10000</Far3Distance>
+      </SimpleTilingSetup>
+
+      <!--Distance values that look great-->
+      <ExtDetailScale>0.005</ExtDetailScale>
+      <InitialDistance>1</InitialDistance>
+      <ScaleMultiplier>1</ScaleMultiplier>
+      <Far1Distance>60</Far1Distance>
+      <Far2Distance>320</Far2Distance>
+      <Far1Scale>350</Far1Scale>
+      <Far2Scale>1500</Far2Scale>
+
+      <Far3Distance>25000</Far3Distance>
+      <Far3Color>
+        <X>0.015</X>
+        <Y>0.03</Y>
+        <Z>0</Z>
+        <W>1.0</W>
+      </Far3Color>
+
+      <!--Foliage-->
+      <FoliageColorTextureArray>
+        <Color>Textures\Voxels\Decorations\Grass\Grass_Blue_cm.dds</Color>
+        <Color>Textures\Voxels\Decorations\Grass\Grass_Blue_cm.dds</Color>
+     
+              </FoliageColorTextureArray>
+      
+      <FoliageNormalTextureArray>
+        <Normal>Textures\Models\Environment\Grass\Grass_01_ng.dds</Normal>
+        <Normal>Textures\Models\Environment\Grass\Grass_01_ng.dds</Normal>
+        
+             </FoliageNormalTextureArray>
+
+      <FoliageDensity>5</FoliageDensity>
+      <FoliageScale>
+        <X>1.33</X>
+        <Y>1.33</Y>
+      </FoliageScale>
+      <FoliageRandomRescaleMult>0.7</FoliageRandomRescaleMult>
+
+      <DamagedMaterial>K_Bastian_Stone_I</DamagedMaterial>
+
+      <ColorKey Hex="#BCBB57"/>
+
+       </VoxelMaterial>
+	   
+	   
+	   <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>K_Bastian_Surface_Grass_II</SubtypeId>
+      </Id>
+      <SpawnsInAsteroids>false</SpawnsInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <MaterialTypeName>Grass</MaterialTypeName>
+      <MinedOre>Stone</MinedOre>
+      <MinedOreRatio>1</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>false</IsRare>
+      
+      <VoxelHandPreview>Textures\Voxels\Grass_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Bastian_Grass_Iced.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\LushGrass_n.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Green_add.dds</ExtXZnY>
+      
+
+      <ColorMetalXZnYFar1>Textures\Voxels\Bastian_Grass_Iced.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\LushGrass_n.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Green_add.dds</ExtXZnYFar1>
+
+      <ColorMetalXZnYFar2>Textures\Voxels\Snow.dds</ColorMetalXZnYFar2>
+      <NormalGlossXZnYFar2>Textures\Voxels\LushGrass_Far_n.dds</NormalGlossXZnYFar2>
+      <ExtXZnYFar2>Textures\Voxels\Green_add.dds</ExtXZnYFar2>
+
+      <SimpleTilingSetup>
+        <ExtDetailScale>0.005</ExtDetailScale>
+        <InitialDistance>3</InitialDistance>
+        <ScaleMultiplier>1</ScaleMultiplier>
+        <Far1Distance>5</Far1Distance>
+        <Far2Distance>320</Far2Distance>
+        <Far1Scale>350</Far1Scale>
+        <Far2Scale>1500</Far2Scale>
+        <Far3Distance>10000</Far3Distance>
+      </SimpleTilingSetup>
+
+      <!--Distance values that look great-->
+      <ExtDetailScale>0.005</ExtDetailScale>
+      <InitialDistance>1</InitialDistance>
+      <ScaleMultiplier>1</ScaleMultiplier>
+      <Far1Distance>60</Far1Distance>
+      <Far2Distance>320</Far2Distance>
+      <Far1Scale>350</Far1Scale>
+      <Far2Scale>1500</Far2Scale>
+
+      <Far3Distance>25000</Far3Distance>
+      <Far3Color>
+        <X>0.015</X>
+        <Y>0.03</Y>
+        <Z>0</Z>
+        <W>1.0</W>
+      </Far3Color>
+
+     
+      <DamagedMaterial>Ice</DamagedMaterial>
+
+      <ColorKey Hex="#BCBB57"/>
+
+       </VoxelMaterial>
+ 
+   
+  </VoxelMaterials>
+</Definitions>

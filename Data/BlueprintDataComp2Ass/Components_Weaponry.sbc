@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Components>
+  
+
+ <!--            Weaponry Components         -->
+ 
+ <Component> <!--           Turbolaser   Medium        -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>TurboLaser_Mechanism_Medium</SubtypeId>
+      </Id>
+      <DisplayName>Medium Turbolaser Mechanisim</DisplayName>
+	  <ExtraInventoryTooltipLine>Republic Advanced Component. Produced by Advanced Factory.</ExtraInventoryTooltipLine>
+     <Icon>Textures\GUI\Icons\Components\SW_Component_TurbolaserPart1.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>45</Mass>
+      <Volume>6</Volume>
+      <Model>Models\Components\K_Imperial_Components_TurboLaser_Mechanism_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>50</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>25</Health>
+	   <MinimalPricePerUnit>96000</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+
+	<Component> <!--           Turbolaser   Heavy        -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>TurboLaser_Mechanism_Heavy</SubtypeId>
+      </Id>
+      <DisplayName>Heavy Turbolaser Mechanisim</DisplayName>
+	  <ExtraInventoryTooltipLine>Republic Advanced Component. Produced by Advanced Factory.</ExtraInventoryTooltipLine>
+     <Icon>Textures\GUI\Icons\Components\SW_Component_TurbolaserPart1.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>65</Mass>
+      <Volume>6</Volume>
+      <Model>Models\Components\K_Imperial_Components_TurboLaser_Mechanism_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>115</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>25</Health>
+	   <MinimalPricePerUnit>256000</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+
+	
+<Component> <!--          Blaster    Medium       -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Blaster_Mechanism_Medium</SubtypeId>
+      </Id>
+      <DisplayName>Medium Tibanna-Pressurization Mechanisim</DisplayName>
+	  <ExtraInventoryTooltipLine>Republic Basic Component. Produced by Light Factory, Micro Factory.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_WeaponParts.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>8</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_WeaponCapacitor_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>65</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>25</Health>
+	   <MinimalPricePerUnit>750</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+<Component> <!--          Blaster    Heavy       -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Blaster_Mechanism_Heavy</SubtypeId>
+      </Id>
+      <DisplayName>Heavy Tibanna-Pressurization Mechanisim</DisplayName>
+	  <ExtraInventoryTooltipLine>Republic Basic Component. Produced by Light Factory, Micro Factory.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_WeaponParts.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>15</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_WeaponCapacitor_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>115</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>25</Health>
+	   <MinimalPricePerUnit>2500</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+
+	
+  </Components>
+</Definitions>

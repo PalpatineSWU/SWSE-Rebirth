@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Sounds>
+    <!--IHarpo, a glorious man. Damnable Keen file structure.-->
+	 <!--Praise Enenra , whom has fixed this TIE Sounds.-->
+   
+
+    
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>K_Imperial_Engine_Primary</SubtypeId>
+      </Id>
+      <Category>SHIP_JET</Category>
+      <MaxDistance>800</MaxDistance>
+      <Volume>1</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\IMP\Engines\engine_startup_A.wav</Start>
+          <Loop>Audio\IMP\Engines\engine_loop_A.wav</Loop>
+          <End>Audio\IMP\Engines\engine_stop.wav</End>
+        </Wave>
+      </Waves>
+    </Sound>
+	
+	
+	  <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>K_Imperial_Engine_Secondary</SubtypeId>
+      </Id>
+      <Category>SHIP_JET</Category>
+      <MaxDistance>300</MaxDistance>
+      <Volume>0.7</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\IMP\Engines\engine_startup_B.wav</Start>
+          <Loop>Audio\IMP\Engines\engine_loop_B.wav</Loop>
+          <End>Audio\IMP\Engines\engine_stop.wav</End>
+        </Wave>
+      </Waves>
+    </Sound>
+	
+	 <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>K_ChissFighter_Engine_I</SubtypeId>
+      </Id>
+      <Category>SHIP_JET</Category>
+      <MaxDistance>700</MaxDistance>
+      <Volume>1.2</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\IMP\Engines\ChissEngineStart.wav</Start>
+          <Loop>Audio\IMP\Engines\ChissEngineLoop.wav</Loop>
+          <End>Audio\IMP\Engines\engine_stop.wav</End>
+        </Wave>
+      </Waves>
+    </Sound>
+	
+	
+	 <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>K_ChissFighter_Engine_II</SubtypeId>
+      </Id>
+      <Category>SHIP_JET</Category>
+      <MaxDistance>700</MaxDistance>
+      <Volume>1.2</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\IMP\Engines\ChissEngineStartLight.wav</Start>
+          <Loop>Audio\IMP\Engines\ChissEngineLoop.wav</Loop>
+          <End>Audio\IMP\Engines\engine_stop.wav</End>
+        </Wave>
+      </Waves>
+    </Sound>
+	
+	 <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>K_Imperial_LargeEngine_Low</SubtypeId>
+      </Id>
+      <Category>SHIP_JET</Category>
+      <MaxDistance>300</MaxDistance>
+      <Volume>0.5</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\IMP\Engines\ChissEngineStart.wav</Start>
+          <Loop>Audio\IMP\Engines\ChissEngineLoop.wav</Loop>
+          <End>Audio\IMP\Engines\engine_stop.wav</End>
+        </Wave>
+      </Waves>
+    </Sound>
+	
+	
+	 <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>K_Imperial_Engine_Small_Low</SubtypeId>
+      </Id>
+      <Category>SHIP_JET</Category>
+      <MaxDistance>200</MaxDistance>
+      <Volume>0.3</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\IMP\Engines\ChissEngineStartLight.wav</Start>
+          <Loop>Audio\IMP\Engines\ChissEngineLoop.wav</Loop>
+          <End>Audio\IMP\Engines\engine_stop.wav</End>
+        </Wave>
+      </Waves>
+    </Sound>
+	
+  </Sounds>
+</Definitions>

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EmissiveColorStatePresets>
+   
+   
+	 <EmissiveColorStatePreset>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorStatePresetDefinition</TypeId>
+        <SubtypeId>K_SW_Chiss_Engine_Blue</SubtypeId>
+      </Id>
+      <EmissiveStates>
+        <EmissiveState StateName="Damaged" EmissiveColorName="Black" DisplayColorName="Black" Emissivity="0" />
+        <EmissiveState StateName="Disabled" EmissiveColorName="Black" DisplayColorName="White" Emissivity="0.5" />
+        <EmissiveState StateName="Working" EmissiveColorName="K_SW_Blue" DisplayColorName="White" Emissivity="2" />
+      </EmissiveStates>
+    </EmissiveColorStatePreset>
+	
+	
+	 <EmissiveColorStatePreset>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorStatePresetDefinition</TypeId>
+        <SubtypeId>K_SW__Pirate_Engine_Orange</SubtypeId>
+      </Id>
+      <EmissiveStates>
+        <EmissiveState StateName="Damaged" EmissiveColorName="Black" DisplayColorName="Black" Emissivity="0" />
+        <EmissiveState StateName="Disabled" EmissiveColorName="Black" DisplayColorName="White" Emissivity="0.5" />
+        <EmissiveState StateName="Working" EmissiveColorName="K_SW_Pirate_Orange" DisplayColorName="White" Emissivity="2" />
+      </EmissiveStates>
+    </EmissiveColorStatePreset>
+	
+	
+	 <EmissiveColorStatePreset>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorStatePresetDefinition</TypeId>
+        <SubtypeId>K_SW__Pirate_Engine_Green</SubtypeId>
+      </Id>
+      <EmissiveStates>
+        <EmissiveState StateName="Damaged" EmissiveColorName="Black" DisplayColorName="Black" Emissivity="0" />
+        <EmissiveState StateName="Disabled" EmissiveColorName="Black" DisplayColorName="White" Emissivity="0.5" />
+        <EmissiveState StateName="Working" EmissiveColorName="K_SW_Pirate_Green" DisplayColorName="White" Emissivity="2" />
+      </EmissiveStates>
+    </EmissiveColorStatePreset>
+	
+  </EmissiveColorStatePresets>
+  
+ 
+ <EmissiveColors>
+ 
+  <EmissiveColor>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+        <SubtypeId>K_SW_Chiss_Blue</SubtypeId>
+      </Id>
+      <ColorDefinition>
+        <R>80</R>
+        <G>80</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorDefinition>
+    </EmissiveColor>
+	
+	<EmissiveColor>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+        <SubtypeId>K_SW_Pirate_Orange</SubtypeId>
+      </Id>
+      <ColorDefinition>
+        <R>255</R>
+        <G>45</G>
+        <B>0</B>
+        <A>255</A>
+      </ColorDefinition>
+    </EmissiveColor>
+	
+	
+	<EmissiveColor>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+        <SubtypeId>K_SW_Pirate_Green</SubtypeId>
+      </Id>
+      <ColorDefinition>
+        <R>45</R>
+        <G>255</G>
+        <B>0</B>
+        <A>255</A>
+      </ColorDefinition>
+    </EmissiveColor>
+    
+
+	
+	
+	
+	</EmissiveColors>
+ 
+</Definitions>

@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <CubeBlocks>
+ 
+	<Definition>
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>K_Imperial_Conveyor_GunTower_1x1x1</SubtypeId>
+      </Id>
+      <DisplayName>Cable Conveyor Tower</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ConveyorPipes.dds</Icon>
+      <GuiVisible>true</GuiVisible>
+      <CubeSize>Large</CubeSize>
+	    <Description> 3-Block Tall Tower, designed for defensive fortifications.
+		Holds 3 Ground-level pipe access points, below and two sides, followed by the upper pipe-access for the weapon.</Description>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="3" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\ConveyorSystems\K_Imperial_Conveyor_GunPlatform_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="45" />
+        <Component Subtype="Construction" Count="45" />
+        <Component Subtype="Girder" Count="20" />
+        <Component Subtype="Motor" Count="30" />
+        <Component Subtype="Construction" Count="75" />
+        <Component Subtype="DuraSteel" Count="300" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+           <BlockPairName>K_Imperial_Conveyor_GunTower_1x1x1</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>24</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+    </Definition>
+	
+	<Definition>
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>K_Imperial_Conveyor_Cables_I</SubtypeId>
+      </Id>
+      <DisplayName>Cable Conveyor I</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ConveyorPipes.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+	    <Description> Standard Conveyor System, 2 connection points.</Description>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\ConveyorSystems\K_Imperial_Conveyor_I_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="10" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="Girder" Count="7" />
+        <Component Subtype="Motor" Count="6" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="DuraSteel" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+           <BlockPairName>K_Imperial_Conveyor_Cables_I</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>24</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+    </Definition>
+	
+	<Definition>
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>K_Imperial_Conveyor_HangarAttachment</SubtypeId>
+      </Id>
+      <DisplayName>Cable Hangar Mounting (Conveyor)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ConveyorPipes.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+	    <Description> Standard Conveyor System, 4 connection points, designed for use with an Imperial Connector.</Description>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\ConveyorSystems\K_Imperial_Conveyor_HangarConveyor_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="10" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="Girder" Count="7" />
+        <Component Subtype="Motor" Count="6" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="DuraSteel" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+           <BlockPairName>K_Imperial_Conveyor_HangarAttachment</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>24</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+    </Definition>
+	
+	<Definition>
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>K_Imperial_Conveyor_Cables_DownShort</SubtypeId>
+      </Id>
+      <DisplayName>Cable Conveyor End-Point</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ConveyorPipes.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+	    <Description> Standard Conveyor System, 2 connection points.
+		Designed to provide cable access downward from a typical network.</Description>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\ConveyorSystems\K_Imperial_Conveyor_DownShort_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="10" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="Girder" Count="7" />
+        <Component Subtype="Motor" Count="6" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="DuraSteel" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+           <BlockPairName>K_Imperial_Conveyor_Cables_DownShort</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>24</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+    </Definition>
+	
+	<Definition>
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>K_Imperial_Conveyor_Cables_DownFull</SubtypeId>
+      </Id>
+      <DisplayName>Cable Conveyor End-Point(Full)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ConveyorPipes.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+	    <Description> Standard Conveyor System, 2 connection points.
+		Designed to provide cable access downward from a typical network.</Description>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\ConveyorSystems\K_Imperial_Conveyor_DownFull_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="10" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="Girder" Count="7" />
+        <Component Subtype="Motor" Count="6" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="DuraSteel" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+           <BlockPairName>K_Imperial_Conveyor_Cables_DownFull</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>24</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+    </Definition>
+	
+	<Definition>
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>K_Imperial_Conveyor_Cables_I_Corner</SubtypeId>
+      </Id>
+      <DisplayName>Cable Conveyor Corner I</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ConveyorPipes.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+	  <Description> Standard Conveyor System, 2 connection points.</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\ConveyorSystems\K_Imperial_Conveyor_Corner_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="10" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="Girder" Count="7" />
+        <Component Subtype="Motor" Count="6" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="DuraSteel" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+           <BlockPairName>K_Imperial_Conveyor_Cables_I_Corner</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>24</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+    </Definition>
+	
+	<Definition>
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>K_Imperial_Conveyor_Cables_I_CornerAngle</SubtypeId>
+      </Id>
+      <DisplayName>Cable Conveyor Angle-Corner I</DisplayName>
+	  <Description> Standard Conveyor System, 2 connection points.
+	  Used for connecting straight upwards.</Description>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ConveyorPipes.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\ConveyorSystems\K_Imperial_Conveyor_CornerAngle_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="10" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="Girder" Count="7" />
+        <Component Subtype="Motor" Count="6" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="DuraSteel" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+           <BlockPairName>K_Imperial_Conveyor_Cables_I_CornerAngle</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>24</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+    </Definition>
+	
+	<Definition>
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>K_Imperial_Conveyor_Cables_I_T</SubtypeId>
+      </Id>
+      <DisplayName>Cable Conveyor T I</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ConveyorPipes.dds</Icon>
+	  <Description> Standard Conveyor System, 3 connection points.
+	  Used to connect a third line into a system.</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\ConveyorSystems\K_Imperial_Conveyor_CornerT_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="10" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="Girder" Count="7" />
+        <Component Subtype="Motor" Count="6" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="DuraSteel" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+           <BlockPairName>K_Imperial_Conveyor_Cables_I_T</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>24</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+    </Definition>
+	
+	
+	<Definition>
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>K_Imperial_Conveyor_Cables_IB</SubtypeId>
+      </Id>
+      <DisplayName>Cable Conveyor I-B</DisplayName>
+	  <Description> Standard Conveyor System, 2 connection points.
+	  This variant, uses its colorability data to color the Glow.</Description>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ConveyorPipes.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\ConveyorSystems\K_Imperial_Conveyor_IB_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="10" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="Girder" Count="7" />
+        <Component Subtype="Motor" Count="6" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="DuraSteel" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+           <BlockPairName>K_Imperial_Conveyor_Cables_IB</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>24</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+    </Definition>
+	
+	<Definition>
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>K_Imperial_Conveyor_Cables_I_Conv</SubtypeId>
+      </Id>
+      <DisplayName>Cable Conveyor Converter</DisplayName>
+	  <Description> Standard Conveyor System, 2 connection points.
+	  Not required to connect into non-imperial systems, but makes the connection more natural.</Description>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ConveyorPipes.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\ConveyorSystems\K_Imperial_Conveyor_I_Covert_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="10" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="Girder" Count="10" />
+        <Component Subtype="Motor" Count="6" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="DuraSteel" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+           <BlockPairName>K_Imperial_Conveyor_Cables_I_Conv</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>24</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+    </Definition>
+	
+	
+	<Definition>
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>K_Imperial_Conveyor_Cables_I_Cube</SubtypeId>
+      </Id>
+      <DisplayName>Cable Conveyor Cube</DisplayName>
+	  <Description> Standard Conveyor System, 6 connection points.</Description>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ConveyorPipes.dds</Icon>
+      <GuiVisible>true</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\ConveyorSystems\K_Imperial_Conveyor_I_Cube_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="40" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="Girder" Count="20" />
+        <Component Subtype="Motor" Count="6" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="DuraSteel" Count="40" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+           <BlockPairName>K_Imperial_Conveyor_Cables_I_Cube</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>24</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>30</PCU>
+	   <BlockVariants>
+	  <BlockVariant>
+          <TypeId>Conveyor</TypeId>
+          <SubtypeId>K_Imperial_Conveyor_Cables_I</SubtypeId>
+        </BlockVariant>
+				<BlockVariant>
+          <TypeId>Conveyor</TypeId>
+          <SubtypeId>K_Imperial_Conveyor_Cables_IB</SubtypeId>
+        </BlockVariant>
+		<BlockVariant>
+          <TypeId>Conveyor</TypeId>
+          <SubtypeId>K_Imperial_Conveyor_Cables_I_Conv</SubtypeId>
+        </BlockVariant>
+				<BlockVariant>
+          <TypeId>Conveyor</TypeId>
+          <SubtypeId>K_Imperial_Conveyor_Cables_I_Corner</SubtypeId>
+        </BlockVariant>
+		<BlockVariant>
+          <TypeId>Conveyor</TypeId>
+          <SubtypeId>K_Imperial_Conveyor_Cables_I_T</SubtypeId>
+        </BlockVariant>
+		<BlockVariant>
+          <TypeId>Conveyor</TypeId>
+          <SubtypeId>K_Imperial_Conveyor_Cables_I_CornerAngle</SubtypeId>
+        </BlockVariant>
+		<BlockVariant>
+          <TypeId>Conveyor</TypeId>
+          <SubtypeId>K_Imperial_Conveyor_Cables_DownShort</SubtypeId>
+        </BlockVariant>
+		<BlockVariant>
+          <TypeId>Conveyor</TypeId>
+          <SubtypeId>K_Imperial_Conveyor_Cables_DownFull</SubtypeId>
+        </BlockVariant>
+		<BlockVariant>
+          <TypeId>Conveyor</TypeId>
+          <SubtypeId>K_Imperial_Conveyor_GunTower_1x1x1</SubtypeId>
+        </BlockVariant>        
+		<BlockVariant>
+          <TypeId>Conveyor</TypeId>
+          <SubtypeId>K_Imperial_Conveyor_HangarAttachment</SubtypeId>
+        </BlockVariant>
+					      </BlockVariants>
+    </Definition>
+	
+	
+  </CubeBlocks>
+</Definitions>

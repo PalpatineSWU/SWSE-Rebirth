@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!--Version 01-->
+ 
+ 
+ <!-- Lush Forest-->
+ 
+  <Definition xsi:type="MyObjectBuilder_TreeDefinition">
+    <Id>
+      <TypeId>TreeDefinition</TypeId>
+      <SubtypeId>K_Lush_Forest_SpruceTree</SubtypeId>
+    </Id>
+    <Model>Models\Environment\Trees\SpruceTree.mwm</Model>
+    <BranchesStartHeight>2.342</BranchesStartHeight>
+    <PhysicalMaterial>Tree</PhysicalMaterial>
+    <HitPoints>50</HitPoints>
+    <CutEffect>ChipOff_Wood</CutEffect>
+    <FallSound>ImpTreeFall</FallSound>
+    <BreakSound>ImpTreeBreak</BreakSound>
+  </Definition>
+  
+   <Definition xsi:type="MyObjectBuilder_TreeDefinition">
+    <Id>
+      <TypeId>TreeDefinition</TypeId>
+      <SubtypeId>K_Lush_Forest_Tree</SubtypeId>
+    </Id>
+    <Model>Models\Environment\Trees\LeafTree.mwm</Model>
+    <BranchesStartHeight>2.342</BranchesStartHeight>
+    <PhysicalMaterial>Tree</PhysicalMaterial>
+    <HitPoints>50</HitPoints>
+    <CutEffect>ChipOff_Wood</CutEffect>
+    <FallSound>ImpTreeFall</FallSound>
+    <BreakSound>ImpTreeBreak</BreakSound>
+  </Definition>
+  
+   <Definition xsi:type="MyObjectBuilder_TreeDefinition">
+    <Id>
+      <TypeId>TreeDefinition</TypeId>
+      <SubtypeId>K_Lush_Forest_Pine</SubtypeId>
+    </Id>
+    <Model>Models\Environment\Trees\PineTree.mwm</Model>
+    <BranchesStartHeight>2.342</BranchesStartHeight>
+    <PhysicalMaterial>Tree</PhysicalMaterial>
+    <HitPoints>50</HitPoints>
+    <CutEffect>ChipOff_Wood</CutEffect>
+    <FallSound>ImpTreeFall</FallSound>
+    <BreakSound>ImpTreeBreak</BreakSound>
+  </Definition>
+  
+
+  <Definition xsi:type="MyObjectBuilder_TreeDefinition">
+    <Id>
+      <TypeId>TreeDefinition</TypeId>
+      <SubtypeId>K_Lush_Forest_SpruceTree_II</SubtypeId>
+    </Id>
+    <Model>Models\Environment\Trees\SpruceTreeB.mwm</Model>
+    <BranchesStartHeight>2.342</BranchesStartHeight>
+    <PhysicalMaterial>Tree</PhysicalMaterial>
+    <HitPoints>50</HitPoints>
+    <CutEffect>ChipOff_Wood</CutEffect>
+    <FallSound>ImpTreeFall</FallSound>
+    <BreakSound>ImpTreeBreak</BreakSound>
+  </Definition>
+
+  <Definition xsi:type="MyObjectBuilder_TreeDefinition">
+    <Id>
+      <TypeId>TreeDefinition</TypeId>
+      <SubtypeId>K_Lush_Forest_SpruceTree_III</SubtypeId>
+    </Id>
+    <Model>Models\Environment\Trees\SpruceTreeMedium.mwm</Model>
+    <BranchesStartHeight>2.342</BranchesStartHeight>
+    <PhysicalMaterial>Tree</PhysicalMaterial>
+    <HitPoints>50</HitPoints>
+    <CutEffect>ChipOff_Wood</CutEffect>
+    <FallSound>ImpTreeFall</FallSound>
+    <BreakSound>ImpTreeBreak</BreakSound>
+  </Definition>
+  
+  
+  
+  <Definition xsi:type="MyObjectBuilder_TreeDefinition">
+    <Id>
+      <TypeId>TreeDefinition</TypeId>
+      <SubtypeId>K_Lush_Forest_Tree_Tall_A</SubtypeId>
+    </Id>
+    <Model>Models\Environment\Trees\K_Forest_Tree_Tall_A_Large.mwm</Model>
+    <BranchesStartHeight>2.342</BranchesStartHeight>
+    <PhysicalMaterial>Tree</PhysicalMaterial>
+    <HitPoints>130</HitPoints>
+    <CutEffect>ChipOff_Wood</CutEffect>
+    <FallSound>ImpTreeFall</FallSound>
+    <BreakSound>ImpTreeBreak</BreakSound>
+  </Definition>
+
+  
+   <Definition xsi:type="MyObjectBuilder_TreeDefinition">
+    <Id>
+      <TypeId>TreeDefinition</TypeId>
+      <SubtypeId>K_Lush_Snow_SpruceTree_I</SubtypeId>
+    </Id>
+    <Model>Models\Environment\Trees\SpruceTreeSnow.mwm</Model>
+    <BranchesStartHeight>10.689</BranchesStartHeight>
+    <PhysicalMaterial>Tree</PhysicalMaterial>
+    <HitPoints>100</HitPoints>
+    <CutEffect>ChipOff_Wood</CutEffect>
+    <FallSound>ImpTreeFall</FallSound>
+    <BreakSound>ImpTreeBreak</BreakSound>
+  </Definition>
+
+  <Definition xsi:type="MyObjectBuilder_TreeDefinition">
+    <Id>
+      <TypeId>TreeDefinition</TypeId>
+      <SubtypeId>K_Lush_Snow_SpruceTree_II</SubtypeId>
+    </Id>
+    <Model>Models\Environment\Trees\SpruceTreeBSnow.mwm</Model>
+    <BranchesStartHeight>10.689</BranchesStartHeight>
+    <PhysicalMaterial>Tree</PhysicalMaterial>
+    <HitPoints>100</HitPoints>
+    <CutEffect>ChipOff_Wood</CutEffect>
+    <FallSound>ImpTreeFall</FallSound>
+    <BreakSound>ImpTreeBreak</BreakSound>
+  </Definition>
+  
+   <!-- Ice Plains-->
+  
+   <Definition xsi:type="MyObjectBuilder_TreeDefinition">
+    <Id>
+      <TypeId>TreeDefinition</TypeId>
+      <SubtypeId>K_Snowworld_IceSpike</SubtypeId>
+    </Id>
+    <Model>Models\Environment\Trees\K_IcicleTree_Large.mwm</Model>
+    <BranchesStartHeight>5</BranchesStartHeight>
+    <PhysicalMaterial>Ice</PhysicalMaterial>
+    <HitPoints>50</HitPoints>
+    <CutEffect>ChipOff_Wood</CutEffect>
+    <FallSound>ImpTreeFall</FallSound>
+    <BreakSound>RealWepShipGatlingImpIce</BreakSound>
+  </Definition>
+
+  <!-- Snow Forest-->
+  
+  <!-- Bulb Forest-->
+  
+   <Definition xsi:type="MyObjectBuilder_TreeDefinition">
+    <Id>
+      <TypeId>TreeDefinition</TypeId>
+      <SubtypeId>K_Bulb_Forest_Tree_A</SubtypeId>
+    </Id>
+    <Model>Models\Environment\Trees\K_DarkTree_C_Large.mwm</Model>
+    <BranchesStartHeight>2.342</BranchesStartHeight>
+    <PhysicalMaterial>Tree</PhysicalMaterial>
+    <HitPoints>50</HitPoints>
+    <CutEffect>ChipOff_Wood</CutEffect>
+    <FallSound>ImpTreeFall</FallSound>
+    <BreakSound>ImpTreeBreak</BreakSound>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_TreeDefinition">
+    <Id>
+      <TypeId>TreeDefinition</TypeId>
+      <SubtypeId>K_Bulb_Forest_Tree_B</SubtypeId>
+    </Id>
+    <Model>Models\Environment\Trees\K_DarkTree_Large.mwm</Model>
+    <BranchesStartHeight>2.342</BranchesStartHeight>
+    <PhysicalMaterial>Tree</PhysicalMaterial>
+    <HitPoints>50</HitPoints>
+    <CutEffect>ChipOff_Wood</CutEffect>
+    <FallSound>ImpTreeFall</FallSound>
+    <BreakSound>ImpTreeBreak</BreakSound>
+  </Definition>
+  
+   <Definition xsi:type="MyObjectBuilder_TreeDefinition">
+    <Id>
+      <TypeId>TreeDefinition</TypeId>
+      <SubtypeId>K_Bulb_Forest_Tree_C</SubtypeId>
+    </Id>
+    <Model>Models\Environment\Trees\K_CorruptedTree_Large.mwm</Model>
+    <BranchesStartHeight>2.342</BranchesStartHeight>
+    <PhysicalMaterial>Tree</PhysicalMaterial>
+    <HitPoints>150</HitPoints>
+    <CutEffect>ChipOff_Wood</CutEffect>
+    <FallSound>ImpTreeFall</FallSound>
+    <BreakSound>ImpTreeBreak</BreakSound>
+  </Definition>
+  
+   <Definition xsi:type="MyObjectBuilder_TreeDefinition">
+    <Id>
+      <TypeId>TreeDefinition</TypeId>
+      <SubtypeId>K_Bulb_Forest_Tree_D</SubtypeId>
+    </Id>
+    <Model>Models\Environment\Trees\K_DarkTree_B_Large.mwm</Model>
+    <BranchesStartHeight>2.342</BranchesStartHeight>
+    <PhysicalMaterial>Tree</PhysicalMaterial>
+    <HitPoints>150</HitPoints>
+    <CutEffect>ChipOff_Wood</CutEffect>
+    <FallSound>ImpTreeFall</FallSound>
+    <BreakSound>ImpTreeBreak</BreakSound>
+  </Definition>
+  
+  
+  <!-- Dark Forest-->
+  
+   <Definition xsi:type="MyObjectBuilder_TreeDefinition">
+    <Id>
+      <TypeId>TreeDefinition</TypeId>
+      <SubtypeId>K_Dark_Forest_Tree_A</SubtypeId>
+    </Id>
+    <Model>Models\Environment\Trees\K_DarkTree_C_Large.mwm</Model>
+    <BranchesStartHeight>2.342</BranchesStartHeight>
+    <PhysicalMaterial>Tree</PhysicalMaterial>
+    <HitPoints>50</HitPoints>
+    <CutEffect>ChipOff_Wood</CutEffect>
+    <FallSound>ImpTreeFall</FallSound>
+    <BreakSound>ImpTreeBreak</BreakSound>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_TreeDefinition">
+    <Id>
+      <TypeId>TreeDefinition</TypeId>
+      <SubtypeId>K_Dark_Forest_Tree_B</SubtypeId>
+    </Id>
+    <Model>Models\Environment\Trees\K_DarkTree_Large.mwm</Model>
+    <BranchesStartHeight>2.342</BranchesStartHeight>
+    <PhysicalMaterial>Tree</PhysicalMaterial>
+    <HitPoints>50</HitPoints>
+    <CutEffect>ChipOff_Wood</CutEffect>
+    <FallSound>ImpTreeFall</FallSound>
+    <BreakSound>ImpTreeBreak</BreakSound>
+  </Definition>
+  
+   <Definition xsi:type="MyObjectBuilder_TreeDefinition">
+    <Id>
+      <TypeId>TreeDefinition</TypeId>
+      <SubtypeId>K_Dark_Forest_Tree_C</SubtypeId>
+    </Id>
+    <Model>Models\Environment\Trees\K_CorruptedTree_Large.mwm</Model>
+    <BranchesStartHeight>2.342</BranchesStartHeight>
+    <PhysicalMaterial>Tree</PhysicalMaterial>
+    <HitPoints>150</HitPoints>
+    <CutEffect>ChipOff_Wood</CutEffect>
+    <FallSound>ImpTreeFall</FallSound>
+    <BreakSound>ImpTreeBreak</BreakSound>
+  </Definition>
+  
+   <Definition xsi:type="MyObjectBuilder_TreeDefinition">
+    <Id>
+      <TypeId>TreeDefinition</TypeId>
+      <SubtypeId>K_Dark_Forest_Tree_D</SubtypeId>
+    </Id>
+    <Model>Models\Environment\Trees\K_DarkTree_B_Large.mwm</Model>
+    <BranchesStartHeight>2.342</BranchesStartHeight>
+    <PhysicalMaterial>Tree</PhysicalMaterial>
+    <HitPoints>150</HitPoints>
+    <CutEffect>ChipOff_Wood</CutEffect>
+    <FallSound>ImpTreeFall</FallSound>
+    <BreakSound>ImpTreeBreak</BreakSound>
+  </Definition>
+  
+  
+    <Definition xsi:type="MyObjectBuilder_TreeDefinition">
+    <Id>
+      <TypeId>TreeDefinition</TypeId>
+      <SubtypeId>K_Dark_Forest_Obelisk</SubtypeId>
+    </Id>
+    <Model>Models\Environment\Trees\K_Dark_Relic_Large.mwm</Model>
+    <BranchesStartHeight>0.3</BranchesStartHeight>
+    <PhysicalMaterial>Tree</PhysicalMaterial>
+    <HitPoints>600</HitPoints>
+    <CutEffect>ChipOff_Wood</CutEffect>
+    <FallSound>ImpTreeFall</FallSound>
+    <BreakSound>ImpTreeBreak</BreakSound>
+  </Definition>
+  
+ 
+  <Definition xsi:type="MyObjectBuilder_TreeDefinition">
+    <Id>
+      <TypeId>TreeDefinition</TypeId>
+      <SubtypeId>K_Dark_Bush_Large</SubtypeId>
+    </Id>
+    <Model>Models\Environment\Trees\K_Dark_Bush_Large.mwm</Model>
+    <BranchesStartHeight>2.342</BranchesStartHeight>
+    <PhysicalMaterial>Tree</PhysicalMaterial>
+    <HitPoints>150</HitPoints>
+    <CutEffect>ChipOff_Wood</CutEffect>
+    <FallSound>ImpTreeFall</FallSound>
+    <BreakSound>ImpTreeBreak</BreakSound>
+  </Definition>
+  
+   <Definition xsi:type="MyObjectBuilder_TreeDefinition">
+    <Id>
+      <TypeId>TreeDefinition</TypeId>
+      <SubtypeId>K_Dark_TreePatch_A</SubtypeId>
+    </Id>
+    <Model>Models\Environment\Trees\K_DarkTree_Patch_Large.mwm</Model>
+    <BranchesStartHeight>2.342</BranchesStartHeight>
+    <PhysicalMaterial>Tree</PhysicalMaterial>
+    <HitPoints>150</HitPoints>
+    <CutEffect>ChipOff_Wood</CutEffect>
+    <FallSound>ImpTreeFall</FallSound>
+    <BreakSound>ImpTreeBreak</BreakSound>
+  </Definition>
+ 
+  
+  <!-- Crystal Grove-->
+  
+  <!-- Corrupted Forest-->
+  
+  <Definition xsi:type="MyObjectBuilder_TreeDefinition">
+    <Id>
+      <TypeId>TreeDefinition</TypeId>
+      <SubtypeId>K_Corrupted_Forest_Tree_A</SubtypeId>
+    </Id>
+    <Model>Models\Environment\Trees\K_CorruptedTree_Large.mwm</Model>
+    <BranchesStartHeight>2.342</BranchesStartHeight>
+    <PhysicalMaterial>Tree</PhysicalMaterial>
+    <HitPoints>50</HitPoints>
+    <CutEffect>ChipOff_Wood</CutEffect>
+    <FallSound>ImpTreeFall</FallSound>
+    <BreakSound>ImpTreeBreak</BreakSound>
+  </Definition>
+  
+  
+   <Definition xsi:type="MyObjectBuilder_TreeDefinition">
+    <Id>
+      <TypeId>TreeDefinition</TypeId>
+      <SubtypeId>K_Corrupted_Forest_Tree_E</SubtypeId>
+    </Id>
+    <Model>Models\Environment\Trees\K_CorruptedTree_B_Large.mwm</Model>
+    <BranchesStartHeight>2.342</BranchesStartHeight>
+    <PhysicalMaterial>Tree</PhysicalMaterial>
+    <HitPoints>50</HitPoints>
+    <CutEffect>ChipOff_Wood</CutEffect>
+    <FallSound>ImpTreeFall</FallSound>
+    <BreakSound>ImpTreeBreak</BreakSound>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_TreeDefinition">
+    <Id>
+      <TypeId>TreeDefinition</TypeId>
+      <SubtypeId>K_Corrupted_Forest_Tree_B</SubtypeId>
+    </Id>
+    <Model>Models\Environment\Trees\K_DarkTree_C_Large.mwm</Model>
+    <BranchesStartHeight>2.342</BranchesStartHeight>
+    <PhysicalMaterial>Tree</PhysicalMaterial>
+    <HitPoints>50</HitPoints>
+    <CutEffect>ChipOff_Wood</CutEffect>
+    <FallSound>ImpTreeFall</FallSound>
+    <BreakSound>ImpTreeBreak</BreakSound>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_TreeDefinition">
+    <Id>
+      <TypeId>TreeDefinition</TypeId>
+      <SubtypeId>K_Corrupted_Forest_Tree_C</SubtypeId>
+    </Id>
+    <Model>Models\Environment\Trees\K_CorruptedTree_Large.mwm</Model>
+    <BranchesStartHeight>2.342</BranchesStartHeight>
+    <PhysicalMaterial>Tree</PhysicalMaterial>
+    <HitPoints>50</HitPoints>
+    <CutEffect>ChipOff_Wood</CutEffect>
+    <FallSound>ImpTreeFall</FallSound>
+    <BreakSound>ImpTreeBreak</BreakSound>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_TreeDefinition">
+    <Id>
+      <TypeId>TreeDefinition</TypeId>
+      <SubtypeId>K_Corrupted_Forest_Tree_C</SubtypeId>
+    </Id>
+    <Model>Models\Environment\Trees\K_DarkTree_C_Large.mwm</Model>
+    <BranchesStartHeight>2.342</BranchesStartHeight>
+    <PhysicalMaterial>Tree</PhysicalMaterial>
+    <HitPoints>50</HitPoints>
+    <CutEffect>ChipOff_Wood</CutEffect>
+    <FallSound>ImpTreeFall</FallSound>
+    <BreakSound>ImpTreeBreak</BreakSound>
+  </Definition>
+  
+   <!-- Aut Forest  -->
+   
+    <Definition xsi:type="MyObjectBuilder_TreeDefinition">
+    <Id>
+      <TypeId>TreeDefinition</TypeId>
+      <SubtypeId>K_Forest_Aut_Tree_A</SubtypeId>
+    </Id>
+    <Model>Models\Environment\Trees\K_OrangeTree_Large.mwm</Model>
+    <BranchesStartHeight>2.342</BranchesStartHeight>
+    <PhysicalMaterial>Tree</PhysicalMaterial>
+    <HitPoints>50</HitPoints>
+    <CutEffect>ChipOff_Wood</CutEffect>
+    <FallSound>ImpTreeFall</FallSound>
+    <BreakSound>ImpTreeBreak</BreakSound>
+  </Definition>
+  
+   <Definition xsi:type="MyObjectBuilder_TreeDefinition">
+    <Id>
+      <TypeId>TreeDefinition</TypeId>
+      <SubtypeId>K_Forest_Aut_Tree_B</SubtypeId>
+    </Id>
+    <Model>Models\Environment\Trees\K_OrangeTree_B_Large.mwm</Model>
+    <BranchesStartHeight>2.342</BranchesStartHeight>
+    <PhysicalMaterial>Tree</PhysicalMaterial>
+    <HitPoints>50</HitPoints>
+    <CutEffect>ChipOff_Wood</CutEffect>
+    <FallSound>ImpTreeFall</FallSound>
+    <BreakSound>ImpTreeBreak</BreakSound>
+  </Definition>
+  
+   <Definition xsi:type="MyObjectBuilder_TreeDefinition">
+    <Id>
+      <TypeId>TreeDefinition</TypeId>
+      <SubtypeId>K_Forest_Aut_Tree_C</SubtypeId>
+    </Id>
+    <Model>Models\Environment\Trees\K_OrangeTree_C_Large.mwm</Model>
+    <BranchesStartHeight>2.342</BranchesStartHeight>
+    <PhysicalMaterial>Tree</PhysicalMaterial>
+    <HitPoints>50</HitPoints>
+    <CutEffect>ChipOff_Wood</CutEffect>
+    <FallSound>ImpTreeFall</FallSound>
+    <BreakSound>ImpTreeBreak</BreakSound>
+  </Definition>
+  
+   <Definition xsi:type="MyObjectBuilder_TreeDefinition">
+    <Id>
+      <TypeId>TreeDefinition</TypeId>
+      <SubtypeId>K_Forest_Aut_Tree_D</SubtypeId>
+    </Id>
+    <Model>Models\Environment\Trees\K_OrangeTree_D_Large.mwm</Model>
+    <BranchesStartHeight>2.342</BranchesStartHeight>
+    <PhysicalMaterial>Tree</PhysicalMaterial>
+    <HitPoints>50</HitPoints>
+    <CutEffect>ChipOff_Wood</CutEffect>
+    <FallSound>ImpTreeFall</FallSound>
+    <BreakSound>ImpTreeBreak</BreakSound>
+  </Definition>
+  
+  
+</Definitions>

@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Animations>
+  
+	<!-- Idle and Standing -->
+	
+    <Animation>
+      <Id>
+        <TypeId>AnimationDefinition</TypeId>
+        <SubtypeId>K_Animation_Engineer_Sitting_A</SubtypeId>
+      </Id>
+      <DisplayName>K_Animation_Engineer_Sitting_A</DisplayName>
+      <Description>Sitting in the seat.</Description>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+ <AnimationModel>Models\Characters\Animations\K_Animation_Engineer_Sitting_A.mwm</AnimationModel>
+      <ClipIndex>0</ClipIndex>
+      <InfluenceArea>Body</InfluenceArea>
+      <Public>true</Public>
+	  <AllowInCockpit>true</AllowInCockpit>
+    </Animation>
+	
+	
+	 <Animation>
+      <Id>
+        <TypeId>AnimationDefinition</TypeId>
+        <SubtypeId>K_Animation_Engineer_TIE</SubtypeId>
+      </Id>
+      <DisplayName>K_Animation_Engineer_TIE</DisplayName>
+      <Description>Sitting in the seat.</Description>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+ <AnimationModel>Models\Characters\Animations\K_Animation_Engineer_TIE.mwm</AnimationModel>
+      <ClipIndex>0</ClipIndex>
+      <InfluenceArea>Body</InfluenceArea>
+      <Public>true</Public>
+	  <AllowInCockpit>true</AllowInCockpit>
+    </Animation>
+	
+	 <Animation>
+      <Id>
+        <TypeId>AnimationDefinition</TypeId>
+        <SubtypeId>K_Animation_Engineer_ShadowDroid</SubtypeId>
+      </Id>
+      <DisplayName>K_Animation_Engineer_ShadowDroid</DisplayName>
+      <Description>Positioned inside the specialized cockpit of a modified Shadow Droid.</Description>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+ <AnimationModel>Models\Characters\Animations\k_starwars_empire_pilot_ii_animations_Darkempire.mwm</AnimationModel>
+      <ClipIndex>0</ClipIndex>
+      <InfluenceArea>Body</InfluenceArea>
+      <Public>false</Public>
+	  <AllowInCockpit>true</AllowInCockpit>
+    </Animation>
+	
+	 <Animation>
+      <Id>
+        <TypeId>AnimationDefinition</TypeId>
+        <SubtypeId>K_Animation_Engineer_Bike</SubtypeId>
+      </Id>
+      <DisplayName>K_Animation_Engineer_Bike</DisplayName>
+      <Description>Sitting on a bike.</Description>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+ <AnimationModel>Models\Characters\Animations\K_Animation_Engineer_Bike.mwm</AnimationModel>
+      <ClipIndex>0</ClipIndex>
+      <InfluenceArea>Body</InfluenceArea>
+      <Public>true</Public>
+	  <AllowInCockpit>true</AllowInCockpit>
+    </Animation>
+	
+	 <Animation>
+      <Id>
+        <TypeId>AnimationDefinition</TypeId>
+        <SubtypeId>K_Animation_Engineer_AWing</SubtypeId>
+      </Id>
+      <DisplayName>K_Animation_Engineer_AWing</DisplayName>
+      <Description>Sitting in the seat.</Description>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+ <AnimationModel>Models\Characters\Animations\K_Animation_Engineer_AWing.mwm</AnimationModel>
+      <ClipIndex>0</ClipIndex>
+      <InfluenceArea>Body</InfluenceArea>
+      <Public>true</Public>
+	  <AllowInCockpit>true</AllowInCockpit>
+    </Animation>
+	
+	 <Animation>
+      <Id>
+        <TypeId>AnimationDefinition</TypeId>
+        <SubtypeId>K_Animation_Engineer_TIEHQ</SubtypeId>
+      </Id>
+      <DisplayName>K_Animation_Engineer_TIEHQ</DisplayName>
+      <Description>Sitting in the seat.</Description>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+ <AnimationModel>Models\Characters\Animations\TieCockpitStatic.mwm</AnimationModel>
+      <ClipIndex>0</ClipIndex>
+      <InfluenceArea>Body</InfluenceArea>
+      <Public>true</Public>
+	  <AllowInCockpit>true</AllowInCockpit>
+    </Animation>
+	
+    
+  </Animations>
+</Definitions>

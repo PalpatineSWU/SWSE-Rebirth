@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <CubeBlocks>
+ 	
+	 <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+      <Id>
+        <TypeId>SolarPanel</TypeId>
+        <SubtypeId>K_TIE_Interceptor_Wing</SubtypeId>
+      </Id>
+	   <Description>Iconic TIE Interceptor Wing. Acts as a Solar Panel, and the mounting for the Interceptor Wing guns.</Description>
+      <DisplayName>TIE Interceptor Wing</DisplayName>
+       <Icon>Textures\GUI\Icons\TIE\TIE_Wing_Interceptor.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="23" z="7" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\TIE_Interceptor\K_TIE_Interceptor_Wing_Small.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="20" />
+		<Component Subtype="Computer" Count="3" />
+		<Component Subtype="IonWingCircuitry" Count="15" />
+		<Component Subtype="TranspariSteel" Count="15" />
+		    <Component Subtype="DuraSteel" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="TranspariSteel" Index="0" />
+      <BlockPairName>K_TIE_Interceptor_Wing</BlockPairName>
+	  <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.25" File="Models\TIE_Interceptor\K_TIE_Interceptor_Wing_Small_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\TIE_Interceptor\K_TIE_Interceptor_Wing_Small_Constr2.mwm" />
+		<Model BuildPercentUpperBound="0.99" File="Models\TIE_Interceptor\K_TIE_Interceptor_Wing_Small_Constr3.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	  <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+	  <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+      <MaxPowerOutput>0.5</MaxPowerOutput>
+     <PanelOrientation>
+        <X>-1</X>
+        <Y>0</Y>
+        <Z>0</Z>
+      </PanelOrientation>
+      <TwoSidedPanel>true</TwoSidedPanel>
+      <PanelOffset>0.0</PanelOffset>
+	  <BlockVariants>
+	 			 <BlockVariant>
+          <TypeId>SmallMissileLauncher</TypeId>
+          <SubtypeId>K_TIE_Interceptor_Wing_TipWeapon</SubtypeId>
+        </BlockVariant>
+			 <BlockVariant>
+          <TypeId>SmallMissileLauncher</TypeId>
+          <SubtypeId>K_TIE_Interceptor_Wing_TipWeapon_Missile</SubtypeId>
+        </BlockVariant>
+	      </BlockVariants>
+		   <DestroySound>K_Imperial_Explosion_Critical</DestroySound>
+			   <DamageEffectName>Imperial_Damages_Electrical</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+	  <DestroyEffect>Imperial_ElectricalExplosion</DestroyEffect>
+    </Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+      <Public>false</Public>
+      <Id>
+        <TypeId>SmallMissileLauncher</TypeId>
+        <SubtypeId>K_TIE_Interceptor_Wing_TipWeapon</SubtypeId>
+      </Id>
+	   <Description>TIE Interceptor Primary Laser Cannon system, a pair of L-s9.3 laser cannon models.</Description>
+      <DisplayName>TIE Interceptor Wing Tip</DisplayName>
+    <Icon>Textures\GUI\Icons\TIE\TIE_Wing_Interceptor.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+	  <IsStandAlone>false</IsStandAlone>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="23" z="19" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\TIE_Interceptor\K_TIE_Interceptor_WingTip_Small.mwm</Model>
+     <Components>
+        <Component Subtype="DuraSteel" Count="20" />
+		<Component Subtype="Computer" Count="3" />
+		<Component Subtype="IonWingCircuitry" Count="15" />
+		<Component Subtype="TranspariSteel" Count="15" />
+		    <Component Subtype="DuraSteel" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="TranspariSteel" Index="0" />
+      <BlockPairName>K_TIE_Interceptor_Wing_TipWeapon</BlockPairName>
+	  <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.25" File="Models\TIE_Interceptor\K_TIE_Interceptor_WingTip_Small_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\TIE_Interceptor\K_TIE_Interceptor_WingTip_Small_Constr2.mwm" />
+		<Model BuildPercentUpperBound="0.99" File="Models\TIE_Interceptor\K_TIE_Interceptor_WingTip_Small_Constr3.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	   <WeaponDefinitionId Subtype="K_IMP_Gun" />
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <InventoryMaxVolume>0.24</InventoryMaxVolume>
+       <DestroySound>K_Imperial_Explosion_Critical</DestroySound>
+			   <DamageEffectName>Imperial_Damages_Electrical</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+	  <DestroyEffect>Imperial_ElectricalExplosion</DestroyEffect>
+	    <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
+    </Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+     <Public>false</Public>
+      <Id>
+        <TypeId>SmallMissileLauncher</TypeId>
+        <SubtypeId>K_TIE_Interceptor_Wing_TipWeapon_Missile</SubtypeId>
+      </Id>
+	   <Description>TIE Interceptor Variant wing-tip, replaces the laser Cannons for a set of 6 Missile-Tubes.
+	   Fires Standard TIE Missiles, with Tracking qualities.</Description>
+      <DisplayName>TIE Interceptor Missile Wing Tip</DisplayName>
+        <Icon>Textures\GUI\Icons\TIE\TIE_Wing_Interceptor.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <IsStandAlone>false</IsStandAlone>
+	  <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="23" z="19" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\TIE_Interceptor\K_TIE_Interceptor_WingTipMissile_Small.mwm</Model>
+     <Components>
+        <Component Subtype="DuraSteel" Count="20" />
+		<Component Subtype="Computer" Count="3" />
+		<Component Subtype="IonWingCircuitry" Count="15" />
+		<Component Subtype="TranspariSteel" Count="15" />
+		    <Component Subtype="DuraSteel" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="TranspariSteel" Index="0" />
+      <BlockPairName>K_TIE_Interceptor_Wing_TipWeapon_Missile</BlockPairName>
+	   <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.25" File="Models\TIE_Interceptor\K_TIE_Interceptor_WingTipMissile_Small_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\TIE_Interceptor\K_TIE_Interceptor_WingTipMissile_Small_Constr2.mwm" />
+		<Model BuildPercentUpperBound="0.99" File="Models\TIE_Interceptor\K_TIE_Interceptor_WingTipMissile_Small_Constr3.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	   <WeaponDefinitionId Subtype="K_IMP_Gun" />
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <InventoryMaxVolume>0.24</InventoryMaxVolume>
+      <DestroySound>K_Imperial_Explosion_Critical</DestroySound>
+			   <DamageEffectName>Imperial_Damages_Electrical</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+	  <DestroyEffect>Imperial_ElectricalExplosion</DestroyEffect>
+	    <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+    </Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>K_TIE_Interceptor_EngineMain</SubtypeId>
+      </Id>
+      <DisplayName>TIE Interceptor Engine</DisplayName>
+	   <Description>Primary Engine unit of the TIE Interceptor, superior to the standard TIE engine unit.
+	   Install onto the Gas Storage unit of standard TIE constructions.</Description>
+      <Icon>Textures\GUI\Icons\TIE\TIE_MainThruster.dds</Icon>
+	    <ThrusterType>Ion</ThrusterType>
+		 <IsStandAlone>false</IsStandAlone>
+      <CubeSize>Small</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\TIE_Interceptor\K_TIE_Fighter_InterceptorEngine_Small.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="60" />
+			<Component Subtype="Computer" Count="3" />
+			<Component Subtype="ThrusterParts_Ion" Count="15" />
+			<Component Subtype="DuraSteel" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="Thrust" Index="0" />
+      <BlockPairName>K_TIE_Interceptor_EngineMain</BlockPairName>
+	   <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.25" File="Models\TIE\K_TIE_Fighter_MainEngine_Small_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\TIE\K_TIE_Fighter_MainEngine_Small_Constr2.mwm" />
+		<Model BuildPercentUpperBound="0.99" File="Models\TIE\K_TIE_Fighter_MainEngine_Small_Constr2.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	  <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>2605000</ForceMagnitude>
+      <MaxPowerConsumption>0.201</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>5</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1.5</EffectivenessAtMaxInfluence>
+
+      <FlameDamageLengthScale>0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>3.0</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1</X>
+        <Y>0.3</Y>
+        <Z>0.3</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.9</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+        <W>1</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>SmallGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>800</FlameVisibilityDistance>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>K_TIE_Engine_Interceptor</PrimarySound>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
+	  <EmissiveColorPreset>K_Imperial_Engine_EmissiveSet</EmissiveColorPreset>
+    </Definition>
+	
+	
+  </CubeBlocks>
+</Definitions>

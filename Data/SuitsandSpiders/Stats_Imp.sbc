@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StatDefinitions>
+  
+    <Stat xsi:type="MyObjectBuilder_EntityStatDefinition">
+      <Id>
+        <TypeId>MyObjectBuilder_EntityStat</TypeId>
+        <SubtypeId>Health</SubtypeId>
+      </Id>
+      <Name>Health</Name>
+      <MinValue>0</MinValue>
+      <DefaultValue>100</DefaultValue>
+      <MaxValue>100</MaxValue>
+    </Stat>
+
+    <Stat xsi:type="MyObjectBuilder_EntityStatDefinition">
+      <Id>
+        <TypeId>MyObjectBuilder_EntityStat</TypeId>
+        <SubtypeId>PilotHealth1</SubtypeId>
+      </Id>
+      <Name>Health</Name>
+      <MinValue>0</MinValue>
+      <DefaultValue>120</DefaultValue>
+      <MaxValue>120</MaxValue>
+    </Stat>
+
+    <Stat xsi:type="MyObjectBuilder_EntityStatDefinition">
+      <Id>
+        <TypeId>MyObjectBuilder_EntityStat</TypeId>
+        <SubtypeId>AirborneHealth2</SubtypeId>
+      </Id>
+      <Name>Health</Name>
+      <MinValue>0</MinValue>
+      <DefaultValue>250</DefaultValue>
+      <MaxValue>250</MaxValue>
+    </Stat>
+
+    <Stat xsi:type="MyObjectBuilder_EntityStatDefinition">
+      <Id>
+        <TypeId>MyObjectBuilder_EntityStat</TypeId>
+        <SubtypeId>MinerHealth3</SubtypeId>
+      </Id>
+      <Name>Health</Name>
+      <MinValue>0</MinValue>
+      <DefaultValue>350</DefaultValue>
+      <MaxValue>350</MaxValue>
+    </Stat>
+
+    <Stat xsi:type="MyObjectBuilder_EntityStatDefinition">
+      <Id>
+        <TypeId>MyObjectBuilder_EntityStat</TypeId>
+        <SubtypeId>HeavyHealth4</SubtypeId>
+      </Id>
+      <Name>Health</Name>
+      <MinValue>0</MinValue>
+      <DefaultValue>350</DefaultValue>
+      <MaxValue>350</MaxValue>
+    </Stat>
+
+    <Stat xsi:type="MyObjectBuilder_EntityStatDefinition">
+      <Id>
+        <TypeId>MyObjectBuilder_EntityStat</TypeId>
+        <SubtypeId>ChissHealth5</SubtypeId>
+      </Id>
+      <Name>Health</Name>
+      <MinValue>0</MinValue>
+      <DefaultValue>100</DefaultValue>
+      <MaxValue>100</MaxValue>
+    </Stat>
+
+    <Stat xsi:type="MyObjectBuilder_EntityStatDefinition">
+      <Id>
+        <TypeId>MyObjectBuilder_EntityStat</TypeId>
+        <SubtypeId>RebelionHealth6</SubtypeId>
+      </Id>
+      <Name>Health</Name>
+      <MinValue>0</MinValue>
+      <DefaultValue>80</DefaultValue>
+      <MaxValue>80</MaxValue>
+    </Stat>
+
+    <Stat xsi:type="MyObjectBuilder_EntityStatDefinition">
+      <Id>
+        <TypeId>MyObjectBuilder_EntityStat</TypeId>
+        <SubtypeId>SpiderHealth</SubtypeId>
+      </Id>
+      <Name>Health</Name>
+      <MinValue>0</MinValue>
+      <DefaultValue>150</DefaultValue>
+      <MaxValue>150</MaxValue>
+    </Stat>
+
+    <Stat xsi:type="MyObjectBuilder_EntityStatDefinition">
+      <Id>
+        <TypeId>MyObjectBuilder_EntityStat</TypeId>
+        <SubtypeId>SpaceCharacterHealth</SubtypeId>
+      </Id>
+      <Name>Health</Name>
+      <MinValue>0</MinValue>
+      <DefaultValue>100</DefaultValue>
+      <MaxValue>100</MaxValue>
+    </Stat>
+    
+    <Stat xsi:type="MyObjectBuilder_EntityStatDefinition">
+      <Id>
+        <TypeId>MyObjectBuilder_EntityStat</TypeId>
+        <SubtypeId>WolfHealth</SubtypeId>
+      </Id>
+      <Name>Health</Name>
+      <MinValue>0</MinValue>
+      <MaxValue>85</MaxValue>
+    </Stat>
+  </StatDefinitions>
+  
+</Definitions>

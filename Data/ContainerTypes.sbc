@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <ContainerTypes>
+        <ContainerType CountMin="1" CountMax="2">
+            <Id>
+                <TypeId>ContainerTypeDefinition</TypeId>
+                <SubtypeId>K_SpiderLoot_A</SubtypeId>
+            </Id>
+            <Items>
+                <Item AmountMin="0.02" AmountMax="0.10">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Carbonite</SubtypeId>
+                    </Id>
+                </Item>
+                <Item AmountMin="0.1" AmountMax="1">
+                    <Frequency>4.0</Frequency>
+                    <Id>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Organics_Bioplasma</SubtypeId>
+                    </Id>
+                </Item>
+                <Item AmountMin="0.02" AmountMax="0.10">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Alum</SubtypeId>
+                    </Id>
+                </Item>
+				
+				 <Item AmountMin="0.01" AmountMax="0.1">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Guerrerite</SubtypeId>
+                    </Id>
+                </Item>
+                
+            </Items>
+        </ContainerType>
+        
+		
+		<ContainerType CountMin="1" CountMax="2">
+            <Id>
+                <TypeId>ContainerTypeDefinition</TypeId>
+                <SubtypeId>K_SpiderLoot_B</SubtypeId>
+            </Id>
+            <Items>
+              
+                <Item AmountMin="0.1" AmountMax="1">
+                    <Frequency>4.0</Frequency>
+                    <Id>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Organics_Bioplasma</SubtypeId>
+                    </Id>
+                </Item>
+              			                
+            </Items>
+        </ContainerType>
+		
+		
+		 <ContainerType CountMin="1" CountMax="2">
+            <Id>
+                <TypeId>ContainerTypeDefinition</TypeId>
+                <SubtypeId>K_SpiderLoot_C</SubtypeId>
+            </Id>
+           <Items>
+                <Item AmountMin="0.1" AmountMax="1">
+                    <Frequency>3.0</Frequency>
+                    <Id>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Organics_Bioplasma</SubtypeId>
+                    </Id>
+                </Item>
+                <Item AmountMin="0.01" AmountMax="0.02">
+                    <Frequency>0.2</Frequency>
+                    <Id>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Hollinium</SubtypeId>
+                    </Id>
+                </Item>
+				
+				 <Item AmountMin="0.01" AmountMax="0.1">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Tibanna</SubtypeId>
+                    </Id>
+                </Item>
+                
+            </Items>
+        </ContainerType>
+
+    </ContainerTypes>
+</Definitions>

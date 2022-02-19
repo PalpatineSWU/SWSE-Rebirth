@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Sounds>
+    <!--IHarpo, a glorious man. Damnable Keen file structure.-->
+	
+	
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>WeaponReload_Light_A</SubtypeId>
+      </Id>
+      <Category>BLOCK</Category>
+      <MaxDistance>200</MaxDistance>
+      <PreventSynchronization>1</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>0.3</Volume>
+	  <Loopable>false</Loopable>
+	   <SoundLimit>3</SoundLimit>
+      <Waves>
+        <Wave Type="D3">
+          <!-- BUGBUG - Couldn't find this file, so substitued another for now
+          <Start>Audio\Weapons\SW_ReloadAudio_Weapon_I.wav</Start>
+          -->
+          <Start>Audio\Weapons\Beam_A.wav</Start>
+         </Wave>
+        </Waves>
+    </Sound>
+	
+	 <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Weapon_SlugThrower</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>1500</MaxDistance>
+      <PreventSynchronization>1</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>0.3</Volume>
+	  <Loopable>false</Loopable>
+	   <SoundLimit>10</SoundLimit>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\Weapons\MassDriver_Fire_A.wav</Start>
+        </Wave>
+        </Waves>
+    </Sound>
+	
+	 
+	
+	
+
+  
+  </Sounds>
+</Definitions>

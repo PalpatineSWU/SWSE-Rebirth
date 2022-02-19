@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <VoxelMaterials>
+    <!-- Snow Ores -->
+	
+  <!-- Alum -->
+
+ <!-- Doomium -->	
+	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>K_Imperial_Voxel_Snow_Dooninum01</SubtypeId>
+      </Id>
+      <MaterialTypeName>Ice</MaterialTypeName>
+      <MinedOre>Dooninum</MinedOre>
+      <MinedOreRatio>1</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>true</IsRare>
+      <AsteroidGeneratorSpawnProbabilityMultiplier>0</AsteroidGeneratorSpawnProbabilityMultiplier>
+      <SpawnsInAsteroids>false</SpawnsInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+
+      <VoxelHandPreview>Textures\Voxels\Snow_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\SnowResources\K_Snow_DurasteelOre.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Snow_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Dummy_add.dds</ExtXZnY>
+      
+      <!--Far1 Texture-->
+      <ColorMetalXZnYFar1>Textures\Voxels\Snow_01_Far1_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\Snow_01_Far1_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Dummy_add.dds</ExtXZnYFar1>
+
+      <!--Far2 Texture-->
+      <ColorMetalXZnYFar2>Textures\Voxels\Snow_01_Far2_cm.dds</ColorMetalXZnYFar2>
+      <NormalGlossXZnYFar2>Textures\Voxels\Snow_01_Far2_ng.dds</NormalGlossXZnYFar2>
+      <ExtXZnYFar2>Textures\Voxels\Dummy_add.dds</ExtXZnYFar2>
+
+      <ExtDetailScale>0.005</ExtDetailScale>
+      <Scale>500</Scale>
+      <Far1Distance>50</Far1Distance>
+      <Far2Distance>500</Far2Distance>
+      <Far1Scale>300</Far1Scale>
+      <Far2Scale>2000</Far2Scale>
+
+      <FoliageDensity>2</FoliageDensity>
+      <FoliageScale>
+        <X>0.5</X>
+        <Y>0.5</Y>
+      </FoliageScale>
+      <FoliageRandomRescaleMult>0.05</FoliageRandomRescaleMult>
+      <FoliageType>1</FoliageType>
+      
+
+      <Far3Distance>6000</Far3Distance>
+      <Far3Color>
+        <X>0.63</X>
+        <Y>0.63</Y>
+        <Z>0.73</Z>
+        <W>1.0</W>
+      </Far3Color>
+      
+      
+      
+      
+	  
+	   <Friction>0.75</Friction>
+      <Restitution>0.2</Restitution>
+	  
+    </VoxelMaterial>
+	
+	 <!-- Zersium -->
+
+ <!-- Exonium -->
+
+ <!-- Norax -->
+	
+ <!-- Lommite -->
+
+ <!-- Carbonite -->	
+
+	<!-- Guerrerite -->	
+
+	 <!-- Rubindum -->
+
+ <!-- Natural Hollinium -->
+	
+
+	 <!-- Lignan -->
+	
+
+	 <!-- Beskar -->
+
+  </VoxelMaterials>
+</Definitions>

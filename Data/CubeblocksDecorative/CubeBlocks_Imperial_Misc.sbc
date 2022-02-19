@@ -1,0 +1,1708 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <CubeBlocks>
+ 
+ <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_StorageBoxPile_I</SubtypeId>
+      </Id>
+      <DisplayName>Republic Box Pile</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_StorageBoxPile_I_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+	  	    <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BlockPairName>K_Imperial_Misc_StorageBoxPile_I</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	   <BlockVariants>
+	  <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Misc_StorageBoxPile_II</SubtypeId>
+        </BlockVariant>
+		<BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Misc_StorageBox_Drinks</SubtypeId>
+        </BlockVariant>
+					      </BlockVariants>
+    </Definition>
+	
+	<Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_StorageBoxPile_II</SubtypeId>
+      </Id>
+      <DisplayName>Republic Box Pile(2)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_StorageBoxPile_II_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+	    <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BlockPairName>K_Imperial_Misc_StorageBoxPile_II</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	      </Definition>
+		  
+		  <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_StorageBox_Drinks</SubtypeId>
+      </Id>
+      <DisplayName>Republic Coffee\Tea Box</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_Storage_Coffee_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+	    <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BlockPairName>K_Imperial_Misc_StorageBox_Drinks</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	      </Definition>
+	
+	<Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Walkway_I_Straight</SubtypeId>
+      </Id>
+      <DisplayName>Republic Walkway Straight</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_Pathways.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_Walkway_I_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Walkway_I_Straight</BlockPairName>
+	  	    <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+		 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+		  <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+		 <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+		 <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	  <BlockVariants>
+	  <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Misc_Walkway_I_Ramp</SubtypeId>
+        </BlockVariant>
+		 <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Misc_Walkway_II_Corner</SubtypeId>
+        </BlockVariant>
+		 <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Misc_Walkway_IV_Offset</SubtypeId>
+        </BlockVariant>
+		<BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Misc_Walkway_IV_OffsetPillar</SubtypeId>
+        </BlockVariant>
+		<BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Misc_Pillar_I</SubtypeId>
+        </BlockVariant>
+		<BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Misc_Pillar_II</SubtypeId>
+        </BlockVariant>
+		<BlockVariant>
+          <TypeId>AdvancedDoor</TypeId>
+          <SubtypeId>K_Imperial_Walkway_Bridge</SubtypeId>
+        </BlockVariant>
+			      </BlockVariants>
+    </Definition>
+	
+	<Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Walkway_I_Ramp</SubtypeId>
+      </Id>
+      <DisplayName>Republic Walkway Ramp I</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_Pathways.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_Walkway_III_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Walkway_I_Ramp</BlockPairName>
+	  	          <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+	
+		
+	<Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Walkway_II_Corner</SubtypeId>
+      </Id>
+      <DisplayName>Republic Walkway Corner</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_Pathways.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_Walkway_II_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Walkway_II_Corner</BlockPairName>
+	  	    <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+		 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+		  <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+		 <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+		 <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+	
+	<Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Walkway_IV_Offset</SubtypeId>
+      </Id>
+      <DisplayName>Republic Walkway (Inverted)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_Pathways.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_Walkway_IV_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Walkway_IV_Offset</BlockPairName>
+	  	    <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+		 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+		  <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+		 <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+		 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+	
+	<Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Walkway_IV_OffsetPillar</SubtypeId>
+      </Id>
+      <DisplayName>Republic Walkway Pillar(Inverted)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_Pathways.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_Walkway_IV_Pillar_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Walkway_IV_OffsetPillar</BlockPairName>
+	  	    <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+		 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+		  <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+		 <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+		 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+		  <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+	
+	<Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Pillar_I</SubtypeId>
+      </Id>
+      <DisplayName>Republic Pillar I</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_Pillar_I_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Pillar_I</BlockPairName>
+	  	    <MountPoints>
+ 		 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+		  <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+	
+	<Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Pillar_II</SubtypeId>
+      </Id>
+      <DisplayName>Republic Pillar II</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_Pillar_II_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Pillar_II</BlockPairName>
+	  	    <MountPoints>
+ 		 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+		  <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+	
+	<Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_ReflectiveSurface_I_Cube</SubtypeId>
+      </Id>
+      <DisplayName>Republic Mirror-Cube (Floor)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorDecal.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_MirrorCube_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="50" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_ReflectiveSurface_I_Cube</BlockPairName>
+	  <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+	
+	<Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Wall_I</SubtypeId>
+      </Id>
+      <DisplayName>Republic Wall</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_Wall_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="240" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Wall_I</BlockPairName>
+	  <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	   <BlockVariants>
+	 			 <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Misc_Wall_Curve</SubtypeId>
+        </BlockVariant>
+		<BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Misc_Wall_CurveCorner</SubtypeId>
+        </BlockVariant>
+		<BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Misc_Wall_ICap</SubtypeId>
+        </BlockVariant>
+		<BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Misc_Passage_I</SubtypeId>
+        </BlockVariant>
+				      </BlockVariants>
+    </Definition>
+	
+	<Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Wall_Curve</SubtypeId>
+      </Id>
+      <DisplayName>Republic Curved Wall</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_WallCurve_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="240" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Wall_Curve</BlockPairName>
+	  <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+	
+	<Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Wall_CurveCorner</SubtypeId>
+      </Id>
+      <DisplayName>Republic Curved Corner Wall</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_WallCurveCorner_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="240" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Wall_CurveCorner</BlockPairName>
+	  <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+	
+	<Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Wall_ICap</SubtypeId>
+      </Id>
+      <DisplayName>Republic Wall Door-Pillar</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_WallDoorCap_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="240" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Wall_ICap</BlockPairName>
+	  <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+	
+	<Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Passage_I</SubtypeId>
+      </Id>
+      <DisplayName>Republic Passage I</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_Passage_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="240" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Passage_I</BlockPairName>
+	  <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+	
+	 <Definition xsi:type="MyObjectBuilder_DoorDefinition">
+      <Id>
+        <TypeId>Door</TypeId>
+        <SubtypeId>K_Imperial_Misc_Door_I</SubtypeId>
+      </Id>
+      <DisplayName>Republic Door</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_Door.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_Doorframe_I_Large.mwm</Model>
+	        <Components>
+        <Component Subtype="DuraSteel" Count="25" />
+		  <Component Subtype="Motor" Count="6" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="10" />
+		<Component Subtype="Display" Count="1" />
+		  <Component Subtype="DuraSteel" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+	    <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+		   <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+		      <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+			     <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BlockPairName>K_Imperial_Misc_Door_I</BlockPairName>
+	      <EdgeType>Light</EdgeType>
+		   <MaxOpen>1.2</MaxOpen>
+		   <OpeningSpeed>3</OpeningSpeed>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+	  <OpenSound>BlockDoorSmallOpen</OpenSound>
+      <CloseSound>BlockDoorSmallClose</CloseSound>
+      <DisassembleRatio>5</DisassembleRatio>
+	  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>115</PCU>
+      <NavigationDefinition>Default</NavigationDefinition>
+	  <BlockVariants>
+	 			 <BlockVariant>
+          <TypeId>Door</TypeId>
+          <SubtypeId>K_Imperial_Misc_Door_II</SubtypeId>
+        </BlockVariant>
+				      </BlockVariants>
+	      </Definition>
+		  
+		   <Definition xsi:type="MyObjectBuilder_DoorDefinition">
+      <Id>
+        <TypeId>Door</TypeId>
+        <SubtypeId>K_Imperial_Misc_Door_II</SubtypeId>
+      </Id>
+      <DisplayName>Republic Door</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_Door.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_Doorframe_II_Large.mwm</Model>
+	        <Components>
+        <Component Subtype="DuraSteel" Count="25" />
+		  <Component Subtype="Motor" Count="6" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="10" />
+		<Component Subtype="Display" Count="1" />
+		  <Component Subtype="DuraSteel" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+	    <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+		   <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+		      <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+			     <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BlockPairName>K_Imperial_Misc_Door_II</BlockPairName>
+	      <EdgeType>Light</EdgeType>
+		   <MaxOpen>1.2</MaxOpen>
+		   <OpeningSpeed>3</OpeningSpeed>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+	  <OpenSound>BlockDoorSmallOpen</OpenSound>
+      <CloseSound>BlockDoorSmallClose</CloseSound>
+      <DisassembleRatio>5</DisassembleRatio>
+	  <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>115</PCU>
+      <NavigationDefinition>Default</NavigationDefinition>
+	      </Definition>
+		  
+		   <Definition>
+      <Id>
+        <TypeId>TerminalBlock</TypeId>
+        <SubtypeId>K_Imperial_ControlPanel</SubtypeId>
+      </Id>
+      <DisplayName>Republic Control Panel</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_Terminal.dds</Icon>
+      <Description>Description_ControlPanel</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_Panel_Large.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="Construction" Count="1" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="BulletproofGlass" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <IsStandAlone>true</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <BlockPairName>K_Imperial_ControlPanel</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DestroyEffectOffset>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1.1</Z>
+      </DestroyEffectOffset>
+      <PCU>5</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+		  
+		  
+		   <Definition xsi:type="MyObjectBuilder_ButtonPanelDefinition">
+      <Id>
+        <TypeId>ButtonPanel</TypeId>
+        <SubtypeId>K_Imperial_ButtonPanel_27</SubtypeId>
+      </Id>
+      <DisplayName>Multi Button Panel(27)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ButtonTerminal.dds</Icon>
+      <Description>Description_ButtonPanel</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_ButtonPanel_Large.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="Computer" Count="20" />
+        <Component Subtype="Construction" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+            <BlockPairName>K_Imperial_ButtonPanel_27</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <ButtonCount>26</ButtonCount>
+      
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+	  <ButtonSymbols>
+        <string>Textures\GUI\Icons\buttons\OneButton.dds</string>
+        <string>Textures\GUI\Icons\buttons\TwoButton.dds</string>
+        <string>Textures\GUI\Icons\buttons\ThreeButton.dds</string>
+        <string>Textures\GUI\Icons\buttons\FourButton.dds</string>
+		<string>Textures\GUI\Icons\buttons\OneButton.dds</string>
+        <string>Textures\GUI\Icons\buttons\TwoButton.dds</string>
+        <string>Textures\GUI\Icons\buttons\ThreeButton.dds</string>
+        <string>Textures\GUI\Icons\buttons\FourButton.dds</string>
+		<string>Textures\GUI\Icons\buttons\OneButton.dds</string>
+        <string>Textures\GUI\Icons\buttons\TwoButton.dds</string>
+        <string>Textures\GUI\Icons\buttons\ThreeButton.dds</string>
+        <string>Textures\GUI\Icons\buttons\FourButton.dds</string>
+		<string>Textures\GUI\Icons\buttons\OneButton.dds</string>
+        <string>Textures\GUI\Icons\buttons\TwoButton.dds</string>
+        <string>Textures\GUI\Icons\buttons\ThreeButton.dds</string>
+        <string>Textures\GUI\Icons\buttons\FourButton.dds</string>
+		<string>Textures\GUI\Icons\buttons\OneButton.dds</string>
+        <string>Textures\GUI\Icons\buttons\TwoButton.dds</string>
+        <string>Textures\GUI\Icons\buttons\ThreeButton.dds</string>
+        <string>Textures\GUI\Icons\buttons\FourButton.dds</string>
+		<string>Textures\GUI\Icons\buttons\OneButton.dds</string>
+        <string>Textures\GUI\Icons\buttons\TwoButton.dds</string>
+        <string>Textures\GUI\Icons\buttons\ThreeButton.dds</string>
+        <string>Textures\GUI\Icons\buttons\FourButton.dds</string>
+		<string>Textures\GUI\Icons\buttons\OneButton.dds</string>
+		 <string>Textures\GUI\Icons\buttons\TwoButton.dds</string>
+      </ButtonSymbols>
+      <UnassignedButtonColor>
+        <X>0.34</X>
+        <Y>0.34</Y>
+        <Z>0.34</Z>
+        <W>0</W>
+      </UnassignedButtonColor>
+      <ButtonColors>
+        <Vector4>
+          <X>0</X>
+          <Y>1</Y>
+          <Z>0.6</Z>
+          <W>1</W>
+        </Vector4>
+        <Vector4>
+          <X>0</X>
+          <Y>1</Y>
+          <Z>0.6</Z>
+          <W>1</W>
+        </Vector4>
+        <Vector4>
+        <X>0</X>
+          <Y>1</Y>
+          <Z>0.6</Z>
+          <W>1</W>
+        </Vector4>
+        <Vector4>
+           <X>0</X>
+          <Y>1</Y>
+          <Z>0.6</Z>
+          <W>1</W>
+        </Vector4>
+		 <Vector4>
+          <X>0</X>
+          <Y>1</Y>
+          <Z>0.6</Z>
+          <W>1</W>
+        </Vector4>
+        <Vector4>
+          <X>0</X>
+          <Y>1</Y>
+          <Z>0.6</Z>
+          <W>1</W>
+        </Vector4>
+        <Vector4>
+          <X>0</X>
+          <Y>1</Y>
+          <Z>0.6</Z>
+          <W>1</W>
+        </Vector4>
+        <Vector4>
+           <X>0</X>
+          <Y>1</Y>
+          <Z>0.6</Z>
+          <W>1</W>
+        </Vector4>
+		 <Vector4>
+           <X>0</X>
+          <Y>1</Y>
+          <Z>0.6</Z>
+          <W>1</W>
+        </Vector4>
+        <Vector4>
+           <X>0</X>
+          <Y>1</Y>
+          <Z>0.6</Z>
+          <W>1</W>
+        </Vector4>
+        <Vector4>
+           <X>0</X>
+          <Y>1</Y>
+          <Z>0.6</Z>
+          <W>1</W>
+        </Vector4>
+        <Vector4>
+          <X>0</X>
+          <Y>1</Y>
+          <Z>0.6</Z>
+          <W>1</W>
+        </Vector4>
+		 <Vector4>
+           <X>0</X>
+          <Y>1</Y>
+          <Z>0.6</Z>
+          <W>1</W>
+        </Vector4>
+        <Vector4>
+          <X>0</X>
+          <Y>1</Y>
+          <Z>0.6</Z>
+          <W>1</W>
+        </Vector4>
+        <Vector4>
+           <X>0</X>
+          <Y>1</Y>
+          <Z>0.6</Z>
+          <W>1</W>
+        </Vector4>
+        <Vector4>
+           <X>0</X>
+          <Y>1</Y>
+          <Z>0.6</Z>
+          <W>1</W>
+        </Vector4>
+		 <Vector4>
+          <X>0</X>
+          <Y>1</Y>
+          <Z>0.6</Z>
+          <W>1</W>
+        </Vector4>
+        <Vector4>
+           <X>0</X>
+          <Y>1</Y>
+          <Z>0.6</Z>
+          <W>1</W>
+        </Vector4>
+        <Vector4>
+           <X>0</X>
+          <Y>1</Y>
+          <Z>0.6</Z>
+          <W>1</W>
+        </Vector4>
+        <Vector4>
+          <X>0</X>
+          <Y>1</Y>
+          <Z>0.6</Z>
+          <W>1</W>
+        </Vector4>
+		  <Vector4>
+          <X>0</X>
+          <Y>1</Y>
+          <Z>0.6</Z>
+          <W>1</W>
+        </Vector4>
+        <Vector4>
+          <X>0</X>
+          <Y>1</Y>
+          <Z>0.6</Z>
+          <W>1</W>
+        </Vector4>
+      </ButtonColors>
+      <PCU>5</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+		  
+		  <Definition xsi:type="MyObjectBuilder_LandingGearDefinition">
+      <Id>
+        <TypeId>LandingGear</TypeId>
+        <SubtypeId>K_Imperial_Misc_Hangar_LandingGear</SubtypeId>
+      </Id>
+      <DisplayName>Republic Hangar Gear</DisplayName>
+	  <GuiVisible>true</GuiVisible>
+      <Icon>Textures\GUI\Icons\Cubes\landing_gear.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_HangarGear_Large.mwm</Model>
+      <LockSound>ShipLandGearOn</LockSound>
+      <UnlockSound>ShipLandGearOff</UnlockSound>
+      <FailedAttachSound>ShipLandGearNothing01</FailedAttachSound>
+      <Components>
+        <Component Subtype="DuraSteel" Count="100" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="LargeTube" Count="4" />
+        <Component Subtype="Motor" Count="6" />
+        <Component Subtype="DuraSteel" Count="50" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BlockPairName>K_Imperial_Misc_Hangar_LandingGear</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>ConnectBlock</EmissiveColorPreset>
+      <MaxLockSeparatingVelocity>7</MaxLockSeparatingVelocity>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>35</PCU>
+	  <BlockVariants>
+	  <BlockVariant>
+          <TypeId>LandingGear</TypeId>
+          <SubtypeId>K_Imperial_Misc_Hangar_LandingGearII</SubtypeId>
+        </BlockVariant>
+			      </BlockVariants>
+    </Definition>
+	
+	 <Definition xsi:type="MyObjectBuilder_LandingGearDefinition">
+      <Id>
+        <TypeId>LandingGear</TypeId>
+        <SubtypeId>K_Imperial_Misc_Hangar_LandingGearII</SubtypeId>
+      </Id>
+      <DisplayName>Republic Hangar Gear (L)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\landing_gear.dds</Icon>
+	  <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_HangarGearII_Large.mwm</Model>
+      <LockSound>ShipLandGearOn</LockSound>
+      <UnlockSound>ShipLandGearOff</UnlockSound>
+      <FailedAttachSound>ShipLandGearNothing01</FailedAttachSound>
+      <Components>
+        <Component Subtype="DuraSteel" Count="100" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="LargeTube" Count="4" />
+        <Component Subtype="Motor" Count="6" />
+        <Component Subtype="DuraSteel" Count="50" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BlockPairName>K_Imperial_Misc_Hangar_LandingGearII</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>ConnectBlock</EmissiveColorPreset>
+      <MaxLockSeparatingVelocity>7</MaxLockSeparatingVelocity>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>35</PCU>
+    </Definition>
+	
+ <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Rebellion_Decor_HangarEmpty</SubtypeId>
+      </Id>
+      <DisplayName>Rebellion Kauti Hangar</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+	   <Description>Rebellion Hangar Cover, for sheltering small starfighters.</Description>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="6" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Prefabrications\Rebellion_Starfighter_Hangar_Large.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="5" />
+		 <Component Subtype="ImperialConstruction" Count="2" />
+		<Component Subtype="LightweightDurasteel" Count="100" />
+      </Components>
+      <CriticalComponent Subtype="ImperialConstruction" Index="0" />
+	  	    <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="6" />
+      </MountPoints>
+      <BlockPairName>K_Rebellion_Decor_HangarEmpty</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	      </Definition>
+
+		  <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_InterdictionSphere</SubtypeId>
+      </Id>
+      <DisplayName>Republic Gravity-Well Generator</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="5" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_Technology_Indiction_Sphere_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_InterdictionSphere</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	      </Definition>
+		  
+		  
+		   <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Hangar_Field_5xRed</SubtypeId>
+      </Id>
+      <DisplayName>Republic Red Hangar Field (5x-Static)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_HangarField.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="5" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_Hangar_Field_5xRed_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Hangar_Field_5xRed</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	  <BlockVariants>
+	  <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Misc_Hangar_Field_5xRedCorner</SubtypeId>
+        </BlockVariant>
+		<BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Misc_Hangar_Field_1xRed</SubtypeId>
+        </BlockVariant>
+		
+		</BlockVariants>
+	      </Definition>
+		  
+		  
+		    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Hangar_Field_5xRedCorner</SubtypeId>
+      </Id>
+      <DisplayName>Republic Red Hangar Field Corner(5x-Static)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_HangarField.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="5" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_Hangar_Field_5xCornerRed_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Hangar_Field_5xRedCorner</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	      </Definition>
+		  
+		   <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Hangar_Field_2x_Green</SubtypeId>
+      </Id>
+      <DisplayName>Republic Green Hangar Field(2x-Static)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_HangarField.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_Hangar_Field_2x_Green_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Hangar_Field_2x_Green</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	      </Definition>
+	
+	
+	 <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Hangar_Field_5x</SubtypeId>
+      </Id>
+      <DisplayName>Republic Hangar Field (5x-Static)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_HangarField.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="5" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_Hangar_Field_5x_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Hangar_Field_5x</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	  <BlockVariants>
+	  <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Misc_Hangar_Field_5xCorner</SubtypeId>
+        </BlockVariant>
+		<BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Misc_Hangar_Field_3x</SubtypeId>
+        </BlockVariant>
+		<BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Misc_Hangar_Field_1x</SubtypeId>
+        </BlockVariant>
+		</BlockVariants>
+	      </Definition>
+	
+	 <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Hangar_Field_5xCorner</SubtypeId>
+      </Id>
+      <DisplayName>Republic Hangar Field Corner(5x-Static)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_HangarField.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="5" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_Hangar_Field_5xCorner_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Hangar_Field_5xCorner</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	      </Definition>
+		  
+		   <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Hangar_Field_3x</SubtypeId>
+      </Id>
+      <DisplayName>Republic Hangar Field(3x-Static)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_HangarField.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="3" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_Hangar_Field_3x_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Hangar_Field_3x</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	      </Definition>
+		  
+		  
+		    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Hangar_Field_2x</SubtypeId>
+      </Id>
+      <DisplayName>Republic Hangar Field(2x-Static)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_HangarField.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_Hangar_Field_2x_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Hangar_Field_2x</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	      </Definition>
+		  
+		  
+	<Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Hangar_Field_1x</SubtypeId>
+      </Id>
+      <DisplayName>Republic Hangar Field(1x-Static)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_HangarField.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+	   <Description>Frameless Hangar Field.</Description>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_Hangar_Field_Panel_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Hangar_Field_1x</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+	  <HasPhysics>false</HasPhysics>
+      <NavigationDefinition>Default</NavigationDefinition>
+	      </Definition>
+		  
+		  <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Hangar_Field_1xRed</SubtypeId>
+      </Id>
+      <DisplayName>Republic Hangar Field(1x-Static Red)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_HangarField.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+	   <Description>Frameless Hangar Field.</Description>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_Hangar_Field_Panel_Red_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Hangar_Field_1x_Red</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+	  <HasPhysics>false</HasPhysics>
+      <NavigationDefinition>Default</NavigationDefinition>
+	      </Definition>
+		  
+		  <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Hangar_Field_1xGreen</SubtypeId>
+      </Id>
+      <DisplayName>Republic Hangar Field(1x-Static Green)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_HangarField.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+	   <Description>Frameless Hangar Field.</Description>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_Hangar_Field_Panel_Green_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Hangar_Field_1xGreen</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+	  <HasPhysics>false</HasPhysics>
+      <NavigationDefinition>Default</NavigationDefinition>
+	      </Definition>
+		  
+		  <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Hangar_Field_6x</SubtypeId>
+      </Id>
+      <DisplayName>Republic Hangar Field(6x-Static)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_HangarField.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="6" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_Hangar_Field_6x_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Hangar_Field_6x</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	      </Definition>
+		  
+		  <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Hangar_Field_7x</SubtypeId>
+      </Id>
+      <DisplayName>Republic Hangar Field(7x-Static)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_HangarField.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="7" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_Hangar_Field_7x_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Hangar_Field_7x</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	      </Definition>
+		  
+		  
+		    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Hangar_TIE</SubtypeId>
+      </Id>
+      <DisplayName>Republic TIE Prop</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="5" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_Hangar_TIEProp_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="500" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Hangar_TIE</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	      </Definition>
+		  
+		  
+		   <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_BackgroundScreen</SubtypeId>
+      </Id>
+      <DisplayName>Republic Recolorable Backdrop</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_Background_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_BackgroundScreen</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	      </Definition>
+		  
+		    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_BackgroundFakeLights</SubtypeId>
+      </Id>
+      <DisplayName>Republic Recolorable Fake-Lights</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_FakeLightBackdrop_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_BackgroundFakeLights</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	      </Definition>
+		  
+		   <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_BackgroundFakeLightsII</SubtypeId>
+      </Id>
+      <DisplayName>Republic Recolorable Fake-Lights II</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_FakeLightBackdropII_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_BackgroundFakeLightsII</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	      </Definition>
+		  
+	
+	<Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_TIEWingRack_A</SubtypeId>
+      </Id>
+      <DisplayName>Republic TIE Wing Rack</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_Props.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="5" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_TIE_WingRack_Large.mwm</Model>
+       <Components>
+        <Component Subtype="DuraSteel" Count="20" />
+		<Component Subtype="SolarCircuitry" Count="15" />
+		<Component Subtype="BulletproofGlass" Count="15" />
+		    <Component Subtype="DuraSteel" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <BlockPairName>K_Imperial_Misc_TIEWingRack_A</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	   <BlockVariants>
+	  <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Misc_TIEWingRack_B</SubtypeId>
+        </BlockVariant>
+					      </BlockVariants>
+	      </Definition>
+		  
+		  <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_TIEWingRack_B</SubtypeId>
+      </Id>
+      <DisplayName>Republic TIE Wing Rack(B)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_Props.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="5" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_TIE_WingAssembly_Large.mwm</Model>
+       <Components>
+        <Component Subtype="DuraSteel" Count="20" />
+		<Component Subtype="SolarCircuitry" Count="15" />
+		<Component Subtype="BulletproofGlass" Count="15" />
+		    <Component Subtype="DuraSteel" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <BlockPairName>K_Imperial_Misc_TIEWingRack_B</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	      </Definition>
+		  
+		  <Definition> 
+		   <Id>
+		   <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_ATST</SubtypeId>
+      </Id>
+      <DisplayName>Republic AT-ST (Prop)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_Props.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="5" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_WalkerProp_Large.mwm</Model>
+       <Components>
+        <Component Subtype="DuraSteel" Count="200" />
+		<Component Subtype="SolarCircuitry" Count="15" />
+		<Component Subtype="BulletproofGlass" Count="15" />
+		    <Component Subtype="DuraSteel" Count="500" />
+      </Components>
+      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <BlockPairName>K_Imperial_Misc_ATST</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	      </Definition>
+		  
+		   <Definition> 
+		   <Id>
+		   <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_ATPT</SubtypeId>
+      </Id>
+      <DisplayName>Republic AT-PT (Prop)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_Props.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_AT_PT_Large.mwm</Model>
+       <Components>
+        <Component Subtype="DuraSteel" Count="155" />
+		<Component Subtype="SolarCircuitry" Count="15" />
+		<Component Subtype="BulletproofGlass" Count="15" />
+		    <Component Subtype="DuraSteel" Count="345" />
+      </Components>
+      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <BlockPairName>K_Imperial_Misc_ATPT</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	      </Definition>
+		  
+		  <Definition> 
+		   <Id>
+		   <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Test_Mauler</SubtypeId>
+      </Id>
+      <DisplayName>Republic TIE Mauler (Prop)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_Props.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\TIE_Mauler\K_Imperial_TIEMauler_Large.mwm</Model>
+       <Components>
+        <Component Subtype="DuraSteel" Count="200" />
+		<Component Subtype="SolarCircuitry" Count="15" />
+		<Component Subtype="BulletproofGlass" Count="15" />
+		    <Component Subtype="DuraSteel" Count="500" />
+      </Components>
+      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <BlockPairName>K_Imperial_Test_Mauler</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	      </Definition>
+		  
+		   <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+      <Id>
+        <TypeId>AdvancedDoor</TypeId>
+        <SubtypeId>K_Imperial_Walkway_Bridge</SubtypeId>
+      </Id>
+      <DisplayName>Republic Walkway Bridge</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_Pathways.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Misc\K_Imperial_Walkway_Bridge_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="20" />
+		<Component Subtype="Computer" Count="3" />
+		<Component Subtype="SolarCircuitry" Count="15" />
+		<Component Subtype="BulletproofGlass" Count="15" />
+		    <Component Subtype="DuraSteel" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <BlockPairName>K_Imperial_Walkway_Bridge</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	  <ResourceSourceGroup>Doors</ResourceSourceGroup>
+	   <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+    <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+      <DamageEffectId>212</DamageEffectId>
+      <Subparts>
+        <SubpartDefinition>
+          <Name>K_Imperial_Walkway_Bridge_1_Large</Name>
+        </SubpartDefinition>
+		<SubpartDefinition>
+          <Name>K_Imperial_Walkway_Bridge_2_Large</Name>
+        </SubpartDefinition>
+		<SubpartDefinition>
+          <Name>K_Imperial_Walkway_Bridge_3_Large</Name>
+        </SubpartDefinition>
+		<SubpartDefinition>
+          <Name>K_Imperial_Walkway_Bridge_4_Large</Name>
+        </SubpartDefinition>
+		<SubpartDefinition>
+          <Name>K_Imperial_Walkway_Bridge_5_Large</Name>
+        </SubpartDefinition>
+		<SubpartDefinition>
+          <Name>K_Imperial_Walkway_Bridge_6_Large</Name>
+        </SubpartDefinition>
+              </Subparts>
+      <OpeningSequence>
+        <Opening>
+          <IDs>0</IDs>
+          <Move>Slide</Move>
+                  <SlideDirection x="0" y="0" z="-1" />
+                  <MaxOpen>1</MaxOpen>
+                  <Speed>2</Speed>
+                  <OpenDelay>0</OpenDelay>
+                  <CloseDelay>0</CloseDelay>
+                  <OpenSound>BlockDoorHangar</OpenSound>
+                  <CloseSound>BlockDoorHangar</CloseSound>
+                </Opening>
+				<Opening>
+          <IDs>1</IDs>
+          <Move>Slide</Move>
+                  <SlideDirection x="0" y="0" z="-1" />
+                  <MaxOpen>2.2</MaxOpen>
+                  <Speed>2</Speed>
+                  <OpenDelay>0</OpenDelay>
+                  <CloseDelay>0</CloseDelay>
+                  <OpenSound>BlockDoorHangar</OpenSound>
+                  <CloseSound>BlockDoorHangar</CloseSound>
+                </Opening>
+				<Opening>
+          <IDs>2</IDs>
+          <Move>Slide</Move>
+                  <SlideDirection x="0" y="0" z="-1" />
+                  <MaxOpen>3.2</MaxOpen>
+                  <Speed>2</Speed>
+                  <OpenDelay>0</OpenDelay>
+                  <CloseDelay>0</CloseDelay>
+                  <OpenSound>BlockDoorHangar</OpenSound>
+                  <CloseSound>BlockDoorHangar</CloseSound>
+                </Opening>
+				<Opening>
+          <IDs>3</IDs>
+          <Move>Slide</Move>
+                  <SlideDirection x="0" y="0" z="-1" />
+                  <MaxOpen>4.2</MaxOpen>
+                  <Speed>2</Speed>
+                  <OpenDelay>0</OpenDelay>
+                  <CloseDelay>0</CloseDelay>
+                  <OpenSound>BlockDoorHangar</OpenSound>
+                  <CloseSound>BlockDoorHangar</CloseSound>
+                </Opening>
+				<Opening>
+          <IDs>4</IDs>
+          <Move>Slide</Move>
+                  <SlideDirection x="0" y="0" z="-1" />
+                  <MaxOpen>5.2</MaxOpen>
+                  <Speed>2</Speed>
+                  <OpenDelay>0</OpenDelay>
+                  <CloseDelay>0</CloseDelay>
+                  <OpenSound>BlockDoorHangar</OpenSound>
+                  <CloseSound>BlockDoorHangar</CloseSound>
+                </Opening>
+				<Opening>
+          <IDs>5</IDs>
+          <Move>Slide</Move>
+                  <SlideDirection x="0" y="0" z="-1" />
+                  <MaxOpen>6.2</MaxOpen>
+                  <Speed>2</Speed>
+                  <OpenDelay>0</OpenDelay>
+                  <CloseDelay>0</CloseDelay>
+                  <OpenSound>BlockDoorHangar</OpenSound>
+                  <CloseSound>BlockDoorHangar</CloseSound>
+                </Opening>
+		 		</OpeningSequence>
+</Definition>
+	
+
+ <Definition xsi:type="MyObjectBuilder_BeaconDefinition">
+      <Id>
+        <TypeId>Beacon</TypeId>
+        <SubtypeId>K_Imperial_Tech_RepulsorJammingDevice</SubtypeId>
+      </Id>
+      <DisplayName>Decorative Beacon</DisplayName>
+	   <IsStandAlone>true</IsStandAlone>
+	   <Description>Decorative Beacon, may change use in future, use at own risk.</Description>
+      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Imperial\K_Imperial_RepulsorLiftJammer_Large.mwm</Model>
+      <Components>
+       <Component Subtype="DuraSteel" Count="125" />
+        <Component Subtype="StandardCabling" Count="425" />
+		<Component Subtype="PowerConverter" Count="42" />
+		 <Component Subtype="ImperialGeneralParts" Count="300" />
+		 <Component Subtype="PowerGen_Basics" Count="65" />
+        <Component Subtype="StandardPowerCell" Count="300"/>
+         <Component Subtype="Computer" Count="300" />
+ 		<Component Subtype="ImperialConstruction" Count="224" />
+        <Component Subtype="DuraSteel" Count="400" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>K_Imperial_Tech_RepulsorJammingDevice</BlockPairName>
+	    <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+       <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	   <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <BuildTimeSeconds>50</BuildTimeSeconds>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <Flare>BeaconLarge</Flare>
+      <EmissiveColorPreset>Beacon</EmissiveColorPreset>
+      <DestroyEffect>Imperial_Explosion_Sparks</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
+    </Definition>
+	
+
+
+	</CubeBlocks>
+</Definitions>

@@ -1,0 +1,396 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EmissiveColorStatePresets>
+   
+    <EmissiveColorStatePreset>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorStatePresetDefinition</TypeId>
+        <SubtypeId>K_Imperial_Weapon_EmissiveSet</SubtypeId>
+      </Id>
+      <EmissiveStates>
+        <EmissiveState StateName="Damaged" EmissiveColorName="Black" DisplayColorName="Black" Emissivity="0" />
+        <EmissiveState StateName="Disabled" EmissiveColorName="Black" DisplayColorName="White" Emissivity="0.5" />
+        <EmissiveState StateName="Working" EmissiveColorName="K_Imperial_Weapon_Green" DisplayColorName="White" Emissivity="1" />
+      </EmissiveStates>
+    </EmissiveColorStatePreset>
+	
+	<EmissiveColorStatePreset>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorStatePresetDefinition</TypeId>
+        <SubtypeId>K_Imperial_IonWeapon_EmissiveSet</SubtypeId>
+      </Id>
+      <EmissiveStates>
+        <EmissiveState StateName="Damaged" EmissiveColorName="Black" DisplayColorName="Black" Emissivity="0" />
+        <EmissiveState StateName="Disabled" EmissiveColorName="Black" DisplayColorName="White" Emissivity="0.5" />
+        <EmissiveState StateName="Working" EmissiveColorName="K_Imperial_Blue" DisplayColorName="White" Emissivity="1" />
+      </EmissiveStates>
+    </EmissiveColorStatePreset>
+	
+	 <EmissiveColorStatePreset>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorStatePresetDefinition</TypeId>
+        <SubtypeId>K_Imperial_Engine_EmissiveSet</SubtypeId>
+      </Id>
+      <EmissiveStates>
+        <EmissiveState StateName="Damaged" EmissiveColorName="Black" DisplayColorName="Black" Emissivity="0" />
+        <EmissiveState StateName="Disabled" EmissiveColorName="Black" DisplayColorName="White" Emissivity="0.5" />
+        <EmissiveState StateName="Working" EmissiveColorName="K_Imperial_Engine" DisplayColorName="White" Emissivity="2" />
+      </EmissiveStates>
+    </EmissiveColorStatePreset>
+	
+		<EmissiveColorStatePreset>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorStatePresetDefinition</TypeId>
+        <SubtypeId>K_Imperial_ExtendedBasic_EmissiveSet</SubtypeId>
+      </Id>
+      <EmissiveStates>
+        <EmissiveState StateName="Damaged" EmissiveColorName="Black" DisplayColorName="Black" Emissivity="0" />
+        <EmissiveState StateName="Disabled" EmissiveColorName="Black" DisplayColorName="White" Emissivity="2" />
+        <EmissiveState StateName="Working" EmissiveColorName="Red" DisplayColorName="White" Emissivity="1" />
+        <EmissiveState StateName="Warning" EmissiveColorName="Orange" DisplayColorName="White" Emissivity="1" />
+        <EmissiveState StateName="Alternative" EmissiveColorName="Blue" DisplayColorName="White" Emissivity="2" />
+      </EmissiveStates>
+    </EmissiveColorStatePreset>
+	
+	 <EmissiveColorStatePreset>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorStatePresetDefinition</TypeId>
+        <SubtypeId>K_Imperial_Battery</SubtypeId>
+      </Id>
+      <EmissiveStates>
+        <EmissiveState StateName="Damaged" EmissiveColorName="Black" DisplayColorName="Black" Emissivity="0" />
+        <EmissiveState StateName="Disabled" EmissiveColorName="Black" DisplayColorName="White" Emissivity="0.5" />
+        <EmissiveState StateName="Working" EmissiveColorName="LightBlue" DisplayColorName="White" Emissivity="1" />
+        <EmissiveState StateName="Warning" EmissiveColorName="Yellow" DisplayColorName="White" Emissivity="1" />
+        <EmissiveState StateName="Alternative" EmissiveColorName="LightBlue" DisplayColorName="White" Emissivity="1" />
+      </EmissiveStates>
+    </EmissiveColorStatePreset>
+	
+	<EmissiveColorStatePreset>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorStatePresetDefinition</TypeId>
+        <SubtypeId>K_Imperial_Hyperdrive_EmissiveSet</SubtypeId>
+      </Id>
+      <EmissiveStates>
+        <EmissiveState StateName="Damaged" EmissiveColorName="Black" DisplayColorName="Black" Emissivity="0" />
+        <EmissiveState StateName="Disabled" EmissiveColorName="Black" DisplayColorName="White" Emissivity="2" />
+        <EmissiveState StateName="Working" EmissiveColorName="Orange" DisplayColorName="White" Emissivity="1" />
+        <EmissiveState StateName="Warning" EmissiveColorName="Yellow" DisplayColorName="White" Emissivity="1" />
+        <EmissiveState StateName="Alternative" EmissiveColorName="K_Imperial_Blue" DisplayColorName="White" Emissivity="2" />
+      </EmissiveStates>
+    </EmissiveColorStatePreset>
+	
+	<EmissiveColorStatePreset>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorStatePresetDefinition</TypeId>
+        <SubtypeId>K_Imperial_Hyperdrive_EmissiveSet_II</SubtypeId>
+      </Id>
+      <EmissiveStates>
+        <EmissiveState StateName="Damaged" EmissiveColorName="Black" DisplayColorName="Black" Emissivity="0" />
+        <EmissiveState StateName="Disabled" EmissiveColorName="Black" DisplayColorName="White" Emissivity="2" />
+        <EmissiveState StateName="Working" EmissiveColorName="K_Imperial_Blue" DisplayColorName="White" Emissivity="1" />
+        <EmissiveState StateName="Warning" EmissiveColorName="K_Imperial_Blue" DisplayColorName="White" Emissivity="1" />
+        <EmissiveState StateName="Alternative" EmissiveColorName="K_Imperial_Blue" DisplayColorName="White" Emissivity="2" />
+      </EmissiveStates>
+    </EmissiveColorStatePreset>
+	
+
+	 <EmissiveColorStatePreset>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorStatePresetDefinition</TypeId>
+        <SubtypeId>K_Imperial_Stock_EmissiveSet</SubtypeId>
+      </Id>
+      <EmissiveStates>
+        <EmissiveState StateName="Damaged" EmissiveColorName="Black" DisplayColorName="Black" Emissivity="0" />
+        <EmissiveState StateName="Disabled" EmissiveColorName="Black" DisplayColorName="White" Emissivity="0.5" />
+        <EmissiveState StateName="Working" EmissiveColorName="K_Imperial_Engine" DisplayColorName="White" Emissivity="1" />
+		<EmissiveState StateName="Warning" EmissiveColorName="K_Imperial_Engine" DisplayColorName="White" Emissivity="1" />
+		<EmissiveState StateName="Alternative" EmissiveColorName="K_Imperial_Engine" DisplayColorName="White" Emissivity="1" />
+      </EmissiveStates>
+    </EmissiveColorStatePreset>
+	
+	<EmissiveColorStatePreset>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorStatePresetDefinition</TypeId>
+        <SubtypeId>K_Imperial_Ship_EmissiveSet</SubtypeId>
+      </Id>
+      <EmissiveStates>
+        <EmissiveState StateName="Damaged" EmissiveColorName="Black" DisplayColorName="Black" Emissivity="0" />
+        <EmissiveState StateName="Disabled" EmissiveColorName="Black" DisplayColorName="White" Emissivity="0.5" />
+        <EmissiveState StateName="Working" EmissiveColorName="K_Imperial_Blue" DisplayColorName="White" Emissivity="1" />
+		<EmissiveState StateName="Warning" EmissiveColorName="K_Imperial_Blue" DisplayColorName="White" Emissivity="1" />
+		<EmissiveState StateName="Alternative" EmissiveColorName="K_Imperial_Blue" DisplayColorName="White" Emissivity="1" />
+      </EmissiveStates>
+    </EmissiveColorStatePreset>
+	
+	 <EmissiveColorStatePreset>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorStatePresetDefinition</TypeId>
+        <SubtypeId>K_Imperial_Gravity</SubtypeId>
+      </Id>
+      <EmissiveStates>
+        <EmissiveState StateName="Damaged" EmissiveColorName="Black" DisplayColorName="Black" Emissivity="0" />
+        <EmissiveState StateName="Disabled" EmissiveColorName="Black" DisplayColorName="White" Emissivity="0.5" />
+        <EmissiveState StateName="Working" EmissiveColorName="K_Imperial_Blue" DisplayColorName="White" Emissivity="1" />
+		<EmissiveState StateName="Warning" EmissiveColorName="Orange" DisplayColorName="White" Emissivity="1" />
+		<EmissiveState StateName="Alternative" EmissiveColorName="K_Imperial_Blue" DisplayColorName="White" Emissivity="1" />
+      </EmissiveStates>
+    </EmissiveColorStatePreset>
+	
+	 <EmissiveColorStatePreset>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorStatePresetDefinition</TypeId>
+        <SubtypeId>K_Imperial_Drone_EmissiveSet</SubtypeId>
+      </Id>
+      <EmissiveStates>
+        <EmissiveState StateName="Damaged" EmissiveColorName="Black" DisplayColorName="Black" Emissivity="0" />
+        <EmissiveState StateName="Disabled" EmissiveColorName="Black" DisplayColorName="White" Emissivity="0.5" />
+        <EmissiveState StateName="Working" EmissiveColorName="K_Imperial_Engine" DisplayColorName="White" Emissivity="3" />
+		<EmissiveState StateName="Warning" EmissiveColorName="K_Imperial_Engine" DisplayColorName="White" Emissivity="3" />
+		<EmissiveState StateName="Alternative" EmissiveColorName="K_Imperial_Drone_Command" DisplayColorName="White" Emissivity="3" />
+      </EmissiveStates>
+    </EmissiveColorStatePreset>
+	
+	 <EmissiveColorStatePreset>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorStatePresetDefinition</TypeId>
+        <SubtypeId>K_Imperial_Spawn</SubtypeId>
+      </Id>
+      <EmissiveStates>
+        <EmissiveState StateName="Damaged" EmissiveColorName="Black" DisplayColorName="Black" Emissivity="0" />
+        <EmissiveState StateName="Disabled" EmissiveColorName="Black" DisplayColorName="White" Emissivity="1" />
+        <EmissiveState StateName="Working" EmissiveColorName="K_Imperial_Blue" DisplayColorName="White" Emissivity="3" />
+		<EmissiveState StateName="Warning" EmissiveColorName="K_Imperial_Blue" DisplayColorName="White" Emissivity="3" />
+		<EmissiveState StateName="Alternative" EmissiveColorName="K_Imperial_Blue" DisplayColorName="White" Emissivity="3" />
+      </EmissiveStates>
+    </EmissiveColorStatePreset>
+	
+	
+    <EmissiveColorStatePreset>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorStatePresetDefinition</TypeId>
+        <SubtypeId>K_Imperial_Connector</SubtypeId>
+      </Id>
+      <EmissiveStates>
+        <EmissiveState StateName="Damaged" EmissiveColorName="Black" DisplayColorName="Black" Emissivity="0" />
+        <EmissiveState StateName="Disabled" EmissiveColorName="Orange" DisplayColorName="White" Emissivity="0.5" />
+        <EmissiveState StateName="Working" EmissiveColorName="Black" DisplayColorName="White" Emissivity="1" />
+        <EmissiveState StateName="Constraint" EmissiveColorName="K_Imperial_Blue" DisplayColorName="White" Emissivity="1" />
+        <EmissiveState StateName="Locked" EmissiveColorName="Red" DisplayColorName="White" Emissivity="1" />
+        <EmissiveState StateName="Autolock" EmissiveColorName="White" DisplayColorName="White" Emissivity="1" />
+      </EmissiveStates>
+    </EmissiveColorStatePreset>
+	
+	
+	 <EmissiveColorStatePreset>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorStatePresetDefinition</TypeId>
+        <SubtypeId>K_Imperial_Factory_Red</SubtypeId>
+      </Id>
+      <EmissiveStates>
+        <EmissiveState StateName="Damaged" EmissiveColorName="Black" DisplayColorName="Black" Emissivity="0" />
+        <EmissiveState StateName="Disabled" EmissiveColorName="Black" DisplayColorName="White" Emissivity="0.5" />
+        <EmissiveState StateName="Working" EmissiveColorName="Red" DisplayColorName="White" Emissivity="1" />
+		<EmissiveState StateName="Warning" EmissiveColorName="Yellow" DisplayColorName="White" Emissivity="1" />
+		<EmissiveState StateName="Alternative" EmissiveColorName="Red" DisplayColorName="White" Emissivity="1" />
+      </EmissiveStates>
+    </EmissiveColorStatePreset>
+	
+	 <EmissiveColorStatePreset>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorStatePresetDefinition</TypeId>
+        <SubtypeId>K_Imperial_GasStorage_Tibanna</SubtypeId>
+      </Id>
+      <EmissiveStates>
+        <EmissiveState StateName="Damaged" EmissiveColorName="Black" DisplayColorName="Black" Emissivity="0" />
+        <EmissiveState StateName="Disabled" EmissiveColorName="Black" DisplayColorName="White" Emissivity="0.5" />
+        <EmissiveState StateName="Working" EmissiveColorName="Red" DisplayColorName="White" Emissivity="1" />
+		<EmissiveState StateName="Warning" EmissiveColorName="TibannaStore" DisplayColorName="White" Emissivity="1" />
+		<EmissiveState StateName="Alternative" EmissiveColorName="TibannaStore" DisplayColorName="White" Emissivity="1" />
+      </EmissiveStates>
+    </EmissiveColorStatePreset>
+	
+	 <EmissiveColorStatePreset>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorStatePresetDefinition</TypeId>
+        <SubtypeId>K_Imperial_GasStorage_Hypermatter</SubtypeId>
+      </Id>
+      <EmissiveStates>
+        <EmissiveState StateName="Damaged" EmissiveColorName="Black" DisplayColorName="Black" Emissivity="0" />
+        <EmissiveState StateName="Disabled" EmissiveColorName="Black" DisplayColorName="White" Emissivity="0.5" />
+        <EmissiveState StateName="Working" EmissiveColorName="Hypermatter_Regular" DisplayColorName="White" Emissivity="1" />
+		<EmissiveState StateName="Warning" EmissiveColorName="Hypermatter_Store" DisplayColorName="White" Emissivity="1" />
+		<EmissiveState StateName="Alternative" EmissiveColorName="Hypermatter_Store" DisplayColorName="White" Emissivity="1" />
+      </EmissiveStates>
+    </EmissiveColorStatePreset>
+	
+	 <EmissiveColorStatePreset>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorStatePresetDefinition</TypeId>
+        <SubtypeId>K_Imperial_GasStorage_Hydrogen</SubtypeId>
+      </Id>
+      <EmissiveStates>
+        <EmissiveState StateName="Damaged" EmissiveColorName="Black" DisplayColorName="Black" Emissivity="0" />
+        <EmissiveState StateName="Disabled" EmissiveColorName="Black" DisplayColorName="White" Emissivity="0.5" />
+        <EmissiveState StateName="Working" EmissiveColorName="Hydrogen_Regular" DisplayColorName="White" Emissivity="1" />
+		<EmissiveState StateName="Warning" EmissiveColorName="Hydrogen_Store" DisplayColorName="White" Emissivity="1" />
+		<EmissiveState StateName="Alternative" EmissiveColorName="Hydrogen_Store" DisplayColorName="White" Emissivity="1" />
+      </EmissiveStates>
+    </EmissiveColorStatePreset>
+	
+	 <EmissiveColorStatePreset>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorStatePresetDefinition</TypeId>
+        <SubtypeId>K_Imperial_GasStorage_Oxygen</SubtypeId>
+      </Id>
+      <EmissiveStates>
+        <EmissiveState StateName="Damaged" EmissiveColorName="Black" DisplayColorName="Black" Emissivity="0" />
+        <EmissiveState StateName="Disabled" EmissiveColorName="Black" DisplayColorName="White" Emissivity="0.5" />
+        <EmissiveState StateName="Working" EmissiveColorName="Green" DisplayColorName="White" Emissivity="1" />
+		<EmissiveState StateName="Warning" EmissiveColorName="Oxygen_Store" DisplayColorName="White" Emissivity="1" />
+		<EmissiveState StateName="Alternative" EmissiveColorName="Oxygen_Store" DisplayColorName="White" Emissivity="1" />
+      </EmissiveStates>
+    </EmissiveColorStatePreset>
+	
+	
+  </EmissiveColorStatePresets>
+  
+ 
+ <EmissiveColors>
+ 
+  <EmissiveColor>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+        <SubtypeId>K_Imperial_Blue</SubtypeId>
+      </Id>
+      <ColorDefinition>
+        <R>80</R>
+        <G>80</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorDefinition>
+    </EmissiveColor>
+    
+    <EmissiveColor>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+        <SubtypeId>K_Imperial_Engine</SubtypeId>
+      </Id>
+      <ColorDefinition>
+        <R>255</R>
+        <G>0</G>
+        <B>0</B>
+        <A>255</A>
+      </ColorDefinition>
+    </EmissiveColor>
+	
+	 <EmissiveColor>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+        <SubtypeId>TibannaStore</SubtypeId>
+      </Id>
+      <ColorDefinition>
+        <R>115</R>
+        <G>5</G>
+        <B>5</B>
+        <A>255</A>
+      </ColorDefinition>
+    </EmissiveColor>
+	
+	 <EmissiveColor>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+        <SubtypeId>Hypermatter_Regular</SubtypeId>
+      </Id>
+      <ColorDefinition>
+        <R>100</R>
+        <G>100</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorDefinition>
+    </EmissiveColor>
+	
+	<EmissiveColor>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+        <SubtypeId>Hypermatter_Store</SubtypeId>
+      </Id>
+      <ColorDefinition>
+        <R>25</R>
+        <G>25</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorDefinition>
+    </EmissiveColor>
+	
+	<EmissiveColor>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+        <SubtypeId>Hydrogen_Store</SubtypeId>
+      </Id>
+      <ColorDefinition>
+        <R>145</R>
+        <G>82</G>
+        <B>0</B>
+        <A>255</A>
+      </ColorDefinition>
+    </EmissiveColor>
+	
+	<EmissiveColor>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+        <SubtypeId>Hydrogen_Regular</SubtypeId>
+      </Id>
+      <ColorDefinition>
+        <R>255</R>
+        <G>115</G>
+        <B>0</B>
+        <A>255</A>
+      </ColorDefinition>
+    </EmissiveColor>
+	
+	<EmissiveColor>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+        <SubtypeId>Oxygen_Store</SubtypeId>
+      </Id>
+      <ColorDefinition>
+        <R>80</R>
+        <G>255</G>
+        <B>0</B>
+        <A>255</A>
+      </ColorDefinition>
+    </EmissiveColor>
+	
+	
+	 <EmissiveColor>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+        <SubtypeId>K_Imperial_Weapon_Green</SubtypeId>
+      </Id>
+      <ColorDefinition>
+        <R>0</R>
+        <G>255</G>
+        <B>65</B>
+        <A>255</A>
+      </ColorDefinition>
+    </EmissiveColor>
+	
+	<EmissiveColor>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+        <SubtypeId>K_Imperial_Drone_Command</SubtypeId>
+      </Id>
+      <ColorDefinition>
+        <R>255</R>
+        <G>15</G>
+        <B>25</B>
+        <A>255</A>
+      </ColorDefinition>
+    </EmissiveColor>
+	
+	
+	
+	</EmissiveColors>
+ 
+</Definitions>

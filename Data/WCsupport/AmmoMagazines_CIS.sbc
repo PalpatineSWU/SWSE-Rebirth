@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AmmoMagazines>
+  
+
+	
+	<AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>K_CIS_AA_Battery</SubtypeId>
+      </Id>
+      <DisplayName>CIS AA Canister</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
+      <Size>
+        <X>0.25</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>0</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Weapons\Rifle_Ammo.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>8</Capacity>
+      <AmmoDefinitionId Subtype="K_Imperial_AA_Battery" />
+    </AmmoMagazine>
+	
+	
+			<AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>K_CIS_Fightercraft_Standard_Weapon</SubtypeId>
+      </Id>
+      <DisplayName>CIS Fighter Canister</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
+      <Size>
+        <X>0.25</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>0</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Weapons\Rifle_Ammo.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>30</Capacity>
+      <AmmoDefinitionId Subtype="K_CIS_Fightercraft_Standard_Weapon" />
+    </AmmoMagazine>
+	
+	
+  </AmmoMagazines>
+</Definitions>

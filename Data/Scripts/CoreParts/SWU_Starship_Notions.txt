@@ -1,0 +1,9 @@
+https://starwars.fandom.com/wiki/Aurek-class_tactical_strikefighter
+ Aurek-class tactical strikefighter
+
+# Wing-Tip Laser-Cannons
+- Blaster-Type
+
+# Proton Torp Launchers
+- Switch to Concussion Tubes
+

@@ -1,0 +1,478 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<BlueprintClasses>
+  	<Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>K_Imperial_ImperialModAntiError</SubtypeId>
+      </Id>
+      <DisplayName>Debugging The Logfile</DisplayName>
+      <Icon>Textures\GUI\Icons\Production\SW_ProductionTabs_Ammo.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\Production\SW_ProductionTabs_Ammo.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>K_Sith_AntiError</SubtypeId>
+      </Id>
+      <DisplayName>AntiError</DisplayName>
+      <Icon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>K_Mando_AntiError</SubtypeId>
+      </Id>
+      <DisplayName>AntiError</DisplayName>
+      <Icon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>K_Rebellion_AntiError</SubtypeId>
+      </Id>
+      <DisplayName>AntiError</DisplayName>
+      <Icon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</HighlightIcon>
+	  <FocusIcon>Textures\GUI\Icons\Production\K_SW_Production_Conversion.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+	</BlueprintClasses>
+	
+ <BlueprintClassEntries>	
+ 
+  <!--Fake Blueprints-->
+  <Entry Class="K_Imperial_ImperialModAntiError" BlueprintSubtypeId="K_ImperialMod_AntiError_2" />
+  <Entry Class="K_Imperial_ImperialModAntiError" BlueprintSubtypeId="K_ImperialMod_AntiError_3" />
+  <Entry Class="K_Imperial_ImperialModAntiError" BlueprintSubtypeId="K_ImperialMod_AntiError_4" />
+  <Entry Class="K_Imperial_ImperialModAntiError" BlueprintSubtypeId="K_ImperialMod_AntiError_6" />
+  <Entry Class="K_Imperial_ImperialModAntiError" BlueprintSubtypeId="K_ImperialMod_AntiError_7" />
+  <Entry Class="K_Imperial_ImperialModAntiError" BlueprintSubtypeId="K_ImperialMod_AntiError_8" />
+  <Entry Class="K_Imperial_ImperialModAntiError" BlueprintSubtypeId="K_ImperialMod_AntiError_9" />
+  <Entry Class="K_Imperial_ImperialModAntiError" BlueprintSubtypeId="K_ImperialMod_AntiError_10" />
+  <Entry Class="K_Imperial_ImperialModAntiError" BlueprintSubtypeId="K_ImperialMod_AntiError_11" />
+  <Entry Class="K_Imperial_ImperialModAntiError" BlueprintSubtypeId="K_ImperialMod_AntiError_12" />
+  <Entry Class="K_Imperial_ImperialModAntiError" BlueprintSubtypeId="K_ImperialMod_AntiError_13" />
+  <Entry Class="K_Imperial_ImperialModAntiError" BlueprintSubtypeId="K_ImperialMod_AntiError_14" />
+  <Entry Class="K_Imperial_ImperialModAntiError" BlueprintSubtypeId="K_ImperialMod_AntiError_15" />
+  <Entry Class="K_Imperial_ImperialModAntiError" BlueprintSubtypeId="K_ImperialMod_AntiError_16" />
+  <Entry Class="K_Imperial_ImperialModAntiError" BlueprintSubtypeId="K_ImperialMod_AntiError_17" />
+  <Entry Class="K_Imperial_ImperialModAntiError" BlueprintSubtypeId="K_ImperialMod_AntiError_18" />
+  <Entry Class="K_Imperial_ImperialModAntiError" BlueprintSubtypeId="K_ImperialMod_AntiError_19" />
+  <Entry Class="K_Imperial_ImperialModAntiError" BlueprintSubtypeId="K_ImperialMod_AntiError_20" />
+  <Entry Class="K_Imperial_ImperialModAntiError" BlueprintSubtypeId="K_ImperialMod_AntiError_22" />
+  <Entry Class="K_Imperial_ImperialModAntiError" BlueprintSubtypeId="K_ImperialMod_AntiError_23" />
+  <Entry Class="K_Imperial_ImperialModAntiError" BlueprintSubtypeId="K_ImperialMod_AntiError_24" />
+  <Entry Class="K_Imperial_ImperialModAntiError" BlueprintSubtypeId="K_ImperialMod_AntiError_25" />
+  <Entry Class="K_Imperial_ImperialModAntiError" BlueprintSubtypeId="K_ImperialMod_AntiError_26" />
+  <Entry Class="K_Imperial_ImperialModAntiError" BlueprintSubtypeId="K_ImperialMod_AntiError_27" />
+  <Entry Class="K_Imperial_ImperialModAntiError" BlueprintSubtypeId="K_ImperialMod_AntiError_28" />
+  <Entry Class="K_Imperial_ImperialModAntiError" BlueprintSubtypeId="K_ImperialMod_AntiError_29" />
+  <Entry Class="K_Imperial_ImperialModAntiError" BlueprintSubtypeId="K_ImperialMod_AntiError_30" />
+  <Entry Class="K_Imperial_ImperialModAntiError" BlueprintSubtypeId="K_ImperialMod_AntiError_31" />
+  <Entry Class="K_Sith_AntiError" BlueprintSubtypeId="K_AntiError_I" />
+  <Entry Class="K_Sith_AntiError" BlueprintSubtypeId="K_AntiError_II" />
+  <Entry Class="K_Sith_AntiError" BlueprintSubtypeId="K_AntiError_III" />
+  <Entry Class="K_Sith_AntiError" BlueprintSubtypeId="K_AntiError_IV" />
+  <Entry Class="K_Sith_AntiError" BlueprintSubtypeId="K_AntiError_V" />
+  <Entry Class="K_Sith_AntiError" BlueprintSubtypeId="K_AntiError_VI" />
+  <Entry Class="K_Sith_AntiError" BlueprintSubtypeId="K_AntiError_VII" />
+  <Entry Class="K_Sith_AntiError" BlueprintSubtypeId="K_AntiError_VIII" />
+  <Entry Class="K_Mando_AntiError" BlueprintSubtypeId="K_AntiError_I" />
+  <Entry Class="K_Mando_AntiError" BlueprintSubtypeId="K_AntiError_II" />
+  <Entry Class="K_Mando_AntiError" BlueprintSubtypeId="K_AntiError_III" />
+  <Entry Class="K_Mando_AntiError" BlueprintSubtypeId="K_AntiError_IV" />
+  <Entry Class="K_Mando_AntiError" BlueprintSubtypeId="K_AntiError_V" />
+  <Entry Class="K_Mando_AntiError" BlueprintSubtypeId="K_AntiError_VI" />
+  <Entry Class="K_Mando_AntiError" BlueprintSubtypeId="K_AntiError_VII" />
+  <Entry Class="K_Mando_AntiError" BlueprintSubtypeId="K_AntiError_VIII" />
+  <Entry Class="K_Rebellion_AntiError" BlueprintSubtypeId="K_AntiError_I" />
+  <Entry Class="K_Rebellion_AntiError" BlueprintSubtypeId="K_AntiError_II" />
+  <Entry Class="K_Rebellion_AntiError" BlueprintSubtypeId="K_AntiError_III" />
+  <Entry Class="K_Rebellion_AntiError" BlueprintSubtypeId="K_AntiError_IV" />
+  <Entry Class="K_Rebellion_AntiError" BlueprintSubtypeId="K_AntiError_V" />
+  <Entry Class="K_Rebellion_AntiError" BlueprintSubtypeId="K_AntiError_VI" />
+  <Entry Class="K_Rebellion_AntiError" BlueprintSubtypeId="K_AntiError_VII" />
+  <Entry Class="K_Rebellion_AntiError" BlueprintSubtypeId="K_AntiError_VIII" />
+</BlueprintClassEntries>
+
+<Blueprints>
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_ImperialMod_AntiError_2</SubtypeId>
+      </Id>
+      <DisplayName>Anti-Error</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="DuraSteel" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_ImperialMod_AntiError_3</SubtypeId>
+      </Id>
+      <DisplayName>Anti-Error</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="TranspariSteel" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_ImperialMod_AntiError_6</SubtypeId>
+      </Id>
+      <DisplayName>Anti-Error</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="TurboLaser_Part" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_ImperialMod_AntiError_7</SubtypeId>
+      </Id>
+      <DisplayName>Anti-Error</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Blaster_Mechanism" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_ImperialMod_AntiError_8</SubtypeId>
+      </Id>
+      <DisplayName>Anti-Error</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="TurboLaser_PartII" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_ImperialMod_AntiError_9</SubtypeId>
+      </Id>
+      <DisplayName>Anti-Error</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="PowerConverter" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_ImperialMod_AntiError_10</SubtypeId>
+      </Id>
+      <DisplayName>Anti-Error</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="StandardCabling" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_ImperialMod_AntiError_11</SubtypeId>
+      </Id>
+      <DisplayName>Anti-Error</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="StandardPowerCell" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_ImperialMod_AntiError_12</SubtypeId>
+      </Id>
+      <DisplayName>Anti-Error</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="HeavyDutyCabling" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_ImperialMod_AntiError_13</SubtypeId>
+      </Id>
+      <DisplayName>Anti-Error</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="FissionComponent" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_ImperialMod_AntiError_14</SubtypeId>
+      </Id>
+      <DisplayName>Anti-Error</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="IonWingCircuitry" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_ImperialMod_AntiError_15</SubtypeId>
+      </Id>
+      <DisplayName>Anti-Error</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="SolarCircuitry" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_ImperialMod_AntiError_16</SubtypeId>
+      </Id>
+      <DisplayName>Anti-Error</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="CommunicationsEquipment" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_ImperialMod_AntiError_17</SubtypeId>
+      </Id>
+      <DisplayName>Anti-Error</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Reactors_Ionic" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_ImperialMod_AntiError_18</SubtypeId>
+      </Id>
+      <DisplayName>Anti-Error</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="ThrusterParts_Repulsor" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_ImperialMod_AntiError_19</SubtypeId>
+      </Id>
+      <DisplayName>Anti-Error</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="FissionAdvancedController" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_ImperialMod_AntiError_20</SubtypeId>
+      </Id>
+      <DisplayName>Anti-Error</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="IonCapacitor" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_ImperialMod_AntiError_22</SubtypeId>
+      </Id>
+      <DisplayName>Anti-Error</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="ImperialConstruction" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_ImperialMod_AntiError_23</SubtypeId>
+      </Id>
+      <DisplayName>Anti-Error</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="ImperialGeneralParts" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_ImperialMod_AntiError_24</SubtypeId>
+      </Id>
+      <DisplayName>Anti-Error</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="IonCapacitor" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_ImperialMod_AntiError_25</SubtypeId>
+      </Id>
+      <DisplayName>Anti-Error</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="LightweightDurasteel" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_ImperialMod_AntiError_25</SubtypeId>
+      </Id>
+      <DisplayName>Anti-Error</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="BeskarPlate" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_ImperialMod_AntiError_26</SubtypeId>
+      </Id>
+      <DisplayName>Anti-Error</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Sith_Durasteel" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_ImperialMod_AntiError_27</SubtypeId>
+      </Id>
+      <DisplayName>Anti-Error</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Sith_Durasteel_ShipHull" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_ImperialMod_AntiError_28</SubtypeId>
+      </Id>
+      <DisplayName>Anti-Error</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Sith_BlasterMechanism" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_ImperialMod_AntiError_29</SubtypeId>
+      </Id>
+      <DisplayName>Anti-Error</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Sith_PowerConvertor" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_ImperialMod_AntiError_30</SubtypeId>
+      </Id>
+      <DisplayName>Anti-Error</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Sith_Cabling" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_ImperialMod_AntiError_31</SubtypeId>
+      </Id>
+      <DisplayName>Anti-Error</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Sith_PowerCell" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+</Blueprints>
+</Definitions>

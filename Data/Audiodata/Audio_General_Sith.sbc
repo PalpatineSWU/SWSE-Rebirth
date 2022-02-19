@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Sounds>
+    <!--IHarpo, a glorious man. Damnable Keen file structure.-->
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>K_Sith_LightLaserCannon</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>900</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>0.4</Volume>
+	  <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\Sith\Cannons\SithLaserCannon.wav</Start>
+        </Wave>
+        </Waves>
+    </Sound>
+	
+	 <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>K_Sith_RepeaterCannon</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>900</MaxDistance>
+      <PreventSynchronization>1</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>0.4</Volume>
+	  <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\Sith\Cannons\SithRepeater.wav</Start>
+        </Wave>
+		 <Wave Type="D3">
+          <Start>Audio\Sith\Cannons\SithRepeater_B.wav</Start>
+        </Wave>
+        </Waves>
+    </Sound>
+	
+	 <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>K_Sith_DorsalCannon</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>900</MaxDistance>
+      <PreventSynchronization>1</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>0.4</Volume>
+	  <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\Sith\Cannons\SithDorsalCannon.wav</Start>
+        </Wave>
+        </Waves>
+    </Sound>
+	
+	 <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>K_Sith_Silence</SubtypeId>
+      </Id>
+       <Category>SHIP_JET</Category>
+      <MaxDistance>0</MaxDistance>
+      <Volume>0.0</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\TIE\armco_tie_engine_start_arc.wav</Start>
+          <Loop>Audio\TIE\armco_tie_engine_loop_arc.wav</Loop>
+          <End>Audio\TIE\armco_tie_engine_end_arc.wav</End>
+        </Wave>
+      </Waves>
+    </Sound>
+	
+	 <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>K_Sith_HeavyCannon</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>3000</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>1</Volume>
+	  <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\Sith\Cannons\SithHeavyCannon.wav</Start>
+        </Wave>
+        </Waves>
+    </Sound>
+	
+	
+	 <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>K_Sith_Accelerator</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>3000</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>1</Volume>
+	  <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\Sith\Cannons\Sith_Accelerator_A.wav</Start>
+        </Wave>
+		 <Wave Type="D3">
+          <Start>Audio\Sith\Cannons\Sith_Accelerator_B.wav</Start>
+        </Wave>
+		 <Wave Type="D3">
+          <Start>Audio\Sith\Cannons\Sith_Accelerator_C.wav</Start>
+        </Wave>
+        </Waves>
+    </Sound>
+
+  
+  </Sounds>
+</Definitions>

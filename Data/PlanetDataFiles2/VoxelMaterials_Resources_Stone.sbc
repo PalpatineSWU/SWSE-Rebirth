@@ -1,0 +1,747 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <VoxelMaterials>
+    <!-- Stone Ores -->
+	
+  <!-- Alum -->
+	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>K_Imperial_Voxel_Alum01</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>Alum</MinedOre>
+      <MinedOreRatio>1</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>true</IsRare>
+      <AsteroidGeneratorSpawnProbabilityMultiplier>2</AsteroidGeneratorSpawnProbabilityMultiplier>
+      
+
+      <VoxelHandPreview>Textures\Voxels\Iron_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\K_SW_Resource_Alum_XZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Gold_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Iron_01_ForAxisXZ_add.dds</ExtXZnY>
+
+      <InitialScale>1.5</InitialScale>
+      <ScaleMultiplier>5</ScaleMultiplier>
+      <InitialDistance>5</InitialDistance>
+      <DistanceMultiplier>4</DistanceMultiplier>
+      <TilingScale>24</TilingScale>
+      
+      <ColorMetalXZnYFar1>Textures\Voxels\K_SW_Resource_Alum_XZ_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\Iron_01_ForAxisXZ_distance_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Iron_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+
+      <SimpleTilingSetup>
+        <InitialScale>2</InitialScale>
+        <ScaleMultiplier>3</ScaleMultiplier>
+        <InitialDistance>2.5</InitialDistance>
+        <DistanceMultiplier>3</DistanceMultiplier>
+        <Far1Distance>22</Far1Distance>
+        <Far1Scale>15</Far1Scale>
+
+        <Far2Distance>100</Far2Distance>
+        <Far2Scale>40</Far2Scale>
+      </SimpleTilingSetup>
+
+      <Far1Distance>22</Far1Distance>
+      <Far1Scale>15</Far1Scale>   
+    
+      <Far2Distance>100</Far2Distance>
+      <Far2Scale>40</Far2Scale>
+
+      <LandingEffect>Landing_Jet_Ground_Dust</LandingEffect>
+	  
+	  <!-- 
+      <ColorMetalXZnYFar1>Textures\Voxels\Gold_01_ForAxisXZ_distance_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\Gold_01_ForAxisXZ_distance_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Gold_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+      <Far1Distance>16</Far1Distance>
+      <Far1Scale>10</Far1Scale>	  
+	  
+      <Far2Distance>85</Far2Distance>
+      <Far2Scale>24</Far2Scale>-->
+	  
+    </VoxelMaterial>
+
+ <!-- Doomium -->	
+	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>K_Imperial_Voxel_Dooninum01</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>Dooninum</MinedOre>
+      <MinedOreRatio>1</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>true</IsRare>
+      <AsteroidGeneratorSpawnProbabilityMultiplier>3</AsteroidGeneratorSpawnProbabilityMultiplier>
+      
+
+      <VoxelHandPreview>Textures\Voxels\Iron_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\K_SW_Resource_Durasteel_XZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Gold_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Iron_01_ForAxisXZ_add.dds</ExtXZnY>
+
+      <InitialScale>1.2</InitialScale>
+      <ScaleMultiplier>5</ScaleMultiplier>
+      <InitialDistance>5</InitialDistance>
+      <DistanceMultiplier>4</DistanceMultiplier>
+      <TilingScale>24</TilingScale>
+      
+      <ColorMetalXZnYFar1>Textures\Voxels\K_SW_Resource_Durasteel_XZ_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\Iron_01_ForAxisXZ_distance_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Iron_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+
+      <SimpleTilingSetup>
+        <InitialScale>2</InitialScale>
+        <ScaleMultiplier>2</ScaleMultiplier>
+        <InitialDistance>1.2</InitialDistance>
+        <DistanceMultiplier>2.1</DistanceMultiplier>
+        <Far1Distance>11</Far1Distance>
+        <Far1Scale>8</Far1Scale>
+
+        <Far2Distance>100</Far2Distance>
+        <Far2Scale>40</Far2Scale>
+      </SimpleTilingSetup>
+
+      <Far1Distance>22</Far1Distance>
+      <Far1Scale>15</Far1Scale>   
+    
+      <Far2Distance>100</Far2Distance>
+      <Far2Scale>40</Far2Scale>
+
+      <LandingEffect>Landing_Jet_Ground_Dust</LandingEffect>
+	  
+	  <!-- 
+      <ColorMetalXZnYFar1>Textures\Voxels\Gold_01_ForAxisXZ_distance_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\Gold_01_ForAxisXZ_distance_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Gold_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+      <Far1Distance>16</Far1Distance>
+      <Far1Scale>10</Far1Scale>	  
+	  
+      <Far2Distance>85</Far2Distance>
+      <Far2Scale>24</Far2Scale>-->
+	  
+    </VoxelMaterial>
+	
+	 <!-- Zersium -->
+	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>K_Imperial_Voxel_Zersium01</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>Zersium</MinedOre>
+      <MinedOreRatio>1</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>true</IsRare>
+      <AsteroidGeneratorSpawnProbabilityMultiplier>1</AsteroidGeneratorSpawnProbabilityMultiplier>
+      
+
+      <VoxelHandPreview>Textures\Voxels\Iron_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\K_SW_Resource_Zersium_XZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Gold_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Iron_01_ForAxisXZ_add.dds</ExtXZnY>
+
+      <InitialScale>1.5</InitialScale>
+      <ScaleMultiplier>5</ScaleMultiplier>
+      <InitialDistance>5</InitialDistance>
+      <DistanceMultiplier>4</DistanceMultiplier>
+      <TilingScale>24</TilingScale>
+      
+      <ColorMetalXZnYFar1>Textures\Voxels\K_SW_Resource_Zersium_XZ_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\Iron_01_ForAxisXZ_distance_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Iron_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+
+      <SimpleTilingSetup>
+        <InitialScale>1.5</InitialScale>
+        <ScaleMultiplier>2</ScaleMultiplier>
+        <InitialDistance>3</InitialDistance>
+        <DistanceMultiplier>3</DistanceMultiplier>
+        <Far1Distance>22</Far1Distance>
+        <Far1Scale>15</Far1Scale>
+
+        <Far2Distance>100</Far2Distance>
+        <Far2Scale>40</Far2Scale>
+      </SimpleTilingSetup>
+
+      <Far1Distance>22</Far1Distance>
+      <Far1Scale>15</Far1Scale>   
+    
+      <Far2Distance>100</Far2Distance>
+      <Far2Scale>40</Far2Scale>
+
+      <LandingEffect>Landing_Jet_Ground_Dust</LandingEffect>
+	  
+	  <!-- 
+      <ColorMetalXZnYFar1>Textures\Voxels\Gold_01_ForAxisXZ_distance_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\Gold_01_ForAxisXZ_distance_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Gold_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+      <Far1Distance>16</Far1Distance>
+      <Far1Scale>10</Far1Scale>	  
+	  
+      <Far2Distance>85</Far2Distance>
+      <Far2Scale>24</Far2Scale>-->
+	  
+    </VoxelMaterial>
+	
+ <!-- Exonium -->
+	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>K_Imperial_Voxel_Exonium01</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>Exonium</MinedOre>
+      <MinedOreRatio>1</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>true</IsRare>
+      <AsteroidGeneratorSpawnProbabilityMultiplier>1</AsteroidGeneratorSpawnProbabilityMultiplier>
+      
+
+      <VoxelHandPreview>Textures\Voxels\Iron_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\NewResources\K_SW_Resource_Exonium_XZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Iron_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\K_SW_Resource_Exonium_XZ_add.dds</ExtXZnY>
+
+      <InitialScale>1.5</InitialScale>
+      <ScaleMultiplier>5</ScaleMultiplier>
+      <InitialDistance>5</InitialDistance>
+      <DistanceMultiplier>4</DistanceMultiplier>
+      <TilingScale>24</TilingScale>
+      
+      <ColorMetalXZnYFar1>Textures\Voxels\NewResources\K_SW_Resource_Exonium_XZ_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\Iron_01_ForAxisXZ_distance_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\K_SW_Resource_Exonium_XZ_add.dds</ExtXZnYFar1>
+
+	     <SpecularPower>40</SpecularPower>
+      <SpecularShininess>6</SpecularShininess>
+	  <ExtDetailScale>1</ExtDetailScale>
+      <SimpleTilingSetup>
+        <InitialScale>1</InitialScale>
+		
+        <ScaleMultiplier>2</ScaleMultiplier>
+        <InitialDistance>1.5</InitialDistance>
+        <DistanceMultiplier>2</DistanceMultiplier>
+        <Far1Distance>22</Far1Distance>
+        <Far1Scale>15</Far1Scale>
+
+        <Far2Distance>100</Far2Distance>
+        <Far2Scale>40</Far2Scale>
+      </SimpleTilingSetup>
+
+      <Far1Distance>22</Far1Distance>
+      <Far1Scale>15</Far1Scale>   
+    
+      <Far2Distance>100</Far2Distance>
+      <Far2Scale>40</Far2Scale>
+
+      <LandingEffect>Landing_Jet_Ground_Dust</LandingEffect>
+	  
+	  <!-- 
+      <ColorMetalXZnYFar1>Textures\Voxels\Gold_01_ForAxisXZ_distance_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\Gold_01_ForAxisXZ_distance_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Gold_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+      <Far1Distance>16</Far1Distance>
+      <Far1Scale>10</Far1Scale>	  
+	  
+      <Far2Distance>85</Far2Distance>
+      <Far2Scale>24</Far2Scale>-->
+	  
+    </VoxelMaterial>
+	
+ <!-- Norax -->
+	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>K_Imperial_Voxel_Norax01</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>Norax</MinedOre>
+      <MinedOreRatio>1</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>true</IsRare>
+      <AsteroidGeneratorSpawnProbabilityMultiplier>2</AsteroidGeneratorSpawnProbabilityMultiplier>
+      
+
+      <VoxelHandPreview>Textures\Voxels\Iron_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\K_SW_Resource_Norax_XZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Iron_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Iron_01_ForAxisXZ_add.dds</ExtXZnY>
+
+      <InitialScale>1.5</InitialScale>
+      <ScaleMultiplier>5</ScaleMultiplier>
+      <InitialDistance>5</InitialDistance>
+      <DistanceMultiplier>4</DistanceMultiplier>
+      <TilingScale>24</TilingScale>
+      
+      <ColorMetalXZnYFar1>Textures\Voxels\K_SW_Resource_Norax_XZ_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\Iron_01_ForAxisXZ_distance_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Iron_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+
+      <SimpleTilingSetup>
+        <InitialScale>2</InitialScale>
+        <ScaleMultiplier>2.2</ScaleMultiplier>
+        <InitialDistance>2</InitialDistance>
+        <DistanceMultiplier>3</DistanceMultiplier>
+        <Far1Distance>22</Far1Distance>
+        <Far1Scale>15</Far1Scale>
+
+        <Far2Distance>100</Far2Distance>
+        <Far2Scale>40</Far2Scale>
+      </SimpleTilingSetup>
+
+      <Far1Distance>22</Far1Distance>
+      <Far1Scale>15</Far1Scale>   
+    
+      <Far2Distance>100</Far2Distance>
+      <Far2Scale>40</Far2Scale>
+
+      <LandingEffect>Landing_Jet_Ground_Dust</LandingEffect>
+	  
+	  <!-- 
+      <ColorMetalXZnYFar1>Textures\Voxels\Gold_01_ForAxisXZ_distance_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\Gold_01_ForAxisXZ_distance_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Gold_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+      <Far1Distance>16</Far1Distance>
+      <Far1Scale>10</Far1Scale>	  
+	  
+      <Far2Distance>85</Far2Distance>
+      <Far2Scale>24</Far2Scale>-->
+	  
+    </VoxelMaterial>
+	
+ <!-- Lommite -->
+	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>K_Imperial_Voxel_Lommite01</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>Lommite</MinedOre>
+      <MinedOreRatio>1</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>true</IsRare>
+      <AsteroidGeneratorSpawnProbabilityMultiplier>2</AsteroidGeneratorSpawnProbabilityMultiplier>
+      
+
+      <VoxelHandPreview>Textures\Voxels\Iron_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\K_SW_Resource_Lomminite_XZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Iron_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Iron_01_ForAxisXZ_add.dds</ExtXZnY>
+
+      <InitialScale>1.5</InitialScale>
+      <ScaleMultiplier>5</ScaleMultiplier>
+      <InitialDistance>5</InitialDistance>
+      <DistanceMultiplier>4</DistanceMultiplier>
+      <TilingScale>24</TilingScale>
+      
+      <ColorMetalXZnYFar1>Textures\Voxels\K_SW_Resource_Lomminite_XZ_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\Iron_01_ForAxisXZ_distance_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Iron_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+
+      <SimpleTilingSetup>
+        <InitialScale>2</InitialScale>
+        <ScaleMultiplier>4</ScaleMultiplier>
+        <InitialDistance>4</InitialDistance>
+        <DistanceMultiplier>5</DistanceMultiplier>
+        <Far1Distance>22</Far1Distance>
+        <Far1Scale>15</Far1Scale>
+
+        <Far2Distance>100</Far2Distance>
+        <Far2Scale>40</Far2Scale>
+      </SimpleTilingSetup>
+
+      <Far1Distance>22</Far1Distance>
+      <Far1Scale>15</Far1Scale>   
+    
+      <Far2Distance>100</Far2Distance>
+      <Far2Scale>40</Far2Scale>
+
+      <LandingEffect>Landing_Jet_Ground_Dust</LandingEffect>
+	  
+	  <!-- 
+      <ColorMetalXZnYFar1>Textures\Voxels\Gold_01_ForAxisXZ_distance_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\Gold_01_ForAxisXZ_distance_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Gold_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+      <Far1Distance>16</Far1Distance>
+      <Far1Scale>10</Far1Scale>	  
+	  
+      <Far2Distance>85</Far2Distance>
+      <Far2Scale>24</Far2Scale>-->
+	  
+    </VoxelMaterial>
+
+ <!-- Carbonite -->	
+	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>K_Imperial_Voxel_Carbonite01</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>Carbonite</MinedOre>
+      <MinedOreRatio>1</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>true</IsRare>
+      <AsteroidGeneratorSpawnProbabilityMultiplier>2</AsteroidGeneratorSpawnProbabilityMultiplier>
+      
+
+      <VoxelHandPreview>Textures\Voxels\Iron_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\K_SW_Resource_Carbonite_XZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Iron_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Iron_01_ForAxisXZ_add.dds</ExtXZnY>
+
+      <InitialScale>1.5</InitialScale>
+      <ScaleMultiplier>5</ScaleMultiplier>
+      <InitialDistance>5</InitialDistance>
+      <DistanceMultiplier>4</DistanceMultiplier>
+      <TilingScale>24</TilingScale>
+      
+      <ColorMetalXZnYFar1>Textures\Voxels\K_SW_Resource_Carbonite_XZ_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\Iron_01_ForAxisXZ_distance_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Iron_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+
+      <SimpleTilingSetup>
+        <InitialScale>1</InitialScale>
+        <ScaleMultiplier>1.2</ScaleMultiplier>
+        <InitialDistance>5</InitialDistance>
+        <DistanceMultiplier>3</DistanceMultiplier>
+        <Far1Distance>22</Far1Distance>
+        <Far1Scale>15</Far1Scale>
+
+        <Far2Distance>100</Far2Distance>
+        <Far2Scale>40</Far2Scale>
+      </SimpleTilingSetup>
+
+      <Far1Distance>22</Far1Distance>
+      <Far1Scale>15</Far1Scale>   
+    
+      <Far2Distance>100</Far2Distance>
+      <Far2Scale>40</Far2Scale>
+
+      <LandingEffect>Landing_Jet_Ground_Dust</LandingEffect>
+	  
+	  <!-- 
+      <ColorMetalXZnYFar1>Textures\Voxels\Gold_01_ForAxisXZ_distance_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\Gold_01_ForAxisXZ_distance_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Gold_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+      <Far1Distance>16</Far1Distance>
+      <Far1Scale>10</Far1Scale>	  
+	  
+      <Far2Distance>85</Far2Distance>
+      <Far2Scale>24</Far2Scale>-->
+	  
+    </VoxelMaterial>
+
+	<!-- Guerrerite -->	
+	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>K_Imperial_Voxel_Guerrerite01</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>Guerrerite</MinedOre>
+      <MinedOreRatio>1</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>true</IsRare>
+      <AsteroidGeneratorSpawnProbabilityMultiplier>1</AsteroidGeneratorSpawnProbabilityMultiplier>
+      
+
+      <VoxelHandPreview>Textures\Voxels\Iron_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\NewResources\K_SW_Resource_Guerrerite_XZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Iron_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Iron_01_ForAxisXZ_add.dds</ExtXZnY>
+
+      <InitialScale>1.5</InitialScale>
+      <ScaleMultiplier>2</ScaleMultiplier>
+      <InitialDistance>3</InitialDistance>
+      <DistanceMultiplier>2</DistanceMultiplier>
+      <TilingScale>24</TilingScale>
+      
+      <ColorMetalXZnYFar1>Textures\Voxels\NewResources\K_SW_Resource_Guerrerite_XZ_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\Iron_01_ForAxisXZ_distance_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Iron_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+
+      <SimpleTilingSetup>
+        <InitialScale>0.5</InitialScale>
+        <ScaleMultiplier>2</ScaleMultiplier>
+        <InitialDistance>1</InitialDistance>
+        <DistanceMultiplier>1.1</DistanceMultiplier>
+        <Far1Distance>22</Far1Distance>
+        <Far1Scale>15</Far1Scale>
+
+        <Far2Distance>100</Far2Distance>
+        <Far2Scale>40</Far2Scale>
+      </SimpleTilingSetup>
+
+      <Far1Distance>22</Far1Distance>
+      <Far1Scale>15</Far1Scale>   
+    
+      <Far2Distance>100</Far2Distance>
+      <Far2Scale>40</Far2Scale>
+
+      <LandingEffect>Landing_Jet_Ground_Dust</LandingEffect>
+	  
+	  <!-- 
+      <ColorMetalXZnYFar1>Textures\Voxels\Gold_01_ForAxisXZ_distance_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\Gold_01_ForAxisXZ_distance_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Gold_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+      <Far1Distance>16</Far1Distance>
+      <Far1Scale>10</Far1Scale>	  
+	  
+      <Far2Distance>85</Far2Distance>
+      <Far2Scale>24</Far2Scale>-->
+	  
+    </VoxelMaterial>
+	
+	 <!-- Rubindum -->
+	 
+	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>K_Imperial_Voxel_Rubindum01</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>Rubindum</MinedOre>
+      <MinedOreRatio>1</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>true</IsRare>
+      <AsteroidGeneratorSpawnProbabilityMultiplier>1</AsteroidGeneratorSpawnProbabilityMultiplier>
+      
+
+      <VoxelHandPreview>Textures\Voxels\Iron_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\NewResources\K_SW_Resource_Rubindum_XZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Iron_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Iron_01_ForAxisXZ_add.dds</ExtXZnY>
+
+      <InitialScale>1</InitialScale>
+      <ScaleMultiplier>1</ScaleMultiplier>
+      <InitialDistance>2</InitialDistance>
+      <DistanceMultiplier>2</DistanceMultiplier>
+      <TilingScale>24</TilingScale>
+      
+      <ColorMetalXZnYFar1>Textures\Voxels\NewResources\K_SW_Resource_Rubindum_XZ_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\Iron_01_ForAxisXZ_distance_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Iron_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+
+       <SimpleTilingSetup>
+        <ExtDetailScale>0.005</ExtDetailScale>
+        <InitialDistance>4</InitialDistance>
+        <ScaleMultiplier>4</ScaleMultiplier>
+        <Far1Distance>70</Far1Distance>
+        <Far2Distance>320</Far2Distance>
+        <Far1Scale>350</Far1Scale>
+        <Far2Scale>1500</Far2Scale>
+        <Far3Distance>10000</Far3Distance>
+      </SimpleTilingSetup>
+
+      <Far1Distance>22</Far1Distance>
+      <Far1Scale>15</Far1Scale>   
+    
+      <Far2Distance>100</Far2Distance>
+      <Far2Scale>40</Far2Scale>
+
+      <LandingEffect>Landing_Jet_Ground_Dust</LandingEffect>
+	  
+	  <!-- 
+      <ColorMetalXZnYFar1>Textures\Voxels\Gold_01_ForAxisXZ_distance_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\Gold_01_ForAxisXZ_distance_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Gold_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+      <Far1Distance>16</Far1Distance>
+      <Far1Scale>10</Far1Scale>	  
+	  
+      <Far2Distance>85</Far2Distance>
+      <Far2Scale>24</Far2Scale>-->
+	  
+    </VoxelMaterial>
+
+ <!-- Natural Hollinium -->
+	
+	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>K_Imperial_Voxel_Hollinium01</SubtypeId>
+      </Id>
+      <MaterialTypeName>AlienGreenGrass</MaterialTypeName>
+      <MinedOre>Hollinium</MinedOre>
+      <MinedOreRatio>1</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>true</IsRare>
+      <AsteroidGeneratorSpawnProbabilityMultiplier>1</AsteroidGeneratorSpawnProbabilityMultiplier>
+      
+
+      <VoxelHandPreview>Textures\Voxels\Iron_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\K_SW_Resource_Hollinium_XZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Iron_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Iron_01_ForAxisXZ_add.dds</ExtXZnY>
+
+      <InitialScale>1</InitialScale>
+      <ScaleMultiplier>1.5</ScaleMultiplier>
+      <InitialDistance>1.3</InitialDistance>
+      <DistanceMultiplier>1.3</DistanceMultiplier>
+      <TilingScale>24</TilingScale>
+      
+      <ColorMetalXZnYFar1>Textures\Voxels\K_SW_Resource_Hollinium_XZ_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\Iron_01_ForAxisXZ_distance_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Iron_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+
+       <SimpleTilingSetup>
+        <InitialScale>1</InitialScale>
+        <ScaleMultiplier>1.1</ScaleMultiplier>
+        <InitialDistance>5</InitialDistance>
+        <DistanceMultiplier>2.1</DistanceMultiplier>
+        <Far1Distance>23</Far1Distance>
+        <Far1Scale>8</Far1Scale>
+
+        <Far2Distance>200</Far2Distance>
+        <Far2Scale>20</Far2Scale>
+      </SimpleTilingSetup>
+
+      <Far1Distance>22</Far1Distance>
+      <Far1Scale>15</Far1Scale>   
+    
+      <Far2Distance>200</Far2Distance>
+      <Far2Scale>20</Far2Scale>
+
+      <LandingEffect>Landing_Jet_Ground_Dust</LandingEffect>
+	  
+	  <!-- 
+      <ColorMetalXZnYFar1>Textures\Voxels\Gold_01_ForAxisXZ_distance_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\Gold_01_ForAxisXZ_distance_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Gold_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+      <Far1Distance>16</Far1Distance>
+      <Far1Scale>10</Far1Scale>	  
+	  
+      <Far2Distance>85</Far2Distance>
+      <Far2Scale>24</Far2Scale>-->
+	  
+    </VoxelMaterial>
+	
+	 <!-- Lignan -->
+	
+	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>K_Imperial_Voxel_Lignan01</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>Lignan</MinedOre>
+      <MinedOreRatio>1</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>false</IsRare>
+      <AsteroidGeneratorSpawnProbabilityMultiplier>1</AsteroidGeneratorSpawnProbabilityMultiplier>
+      
+
+      <VoxelHandPreview>Textures\Voxels\Iron_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\NewResources\K_SW_Resource_Exonium_XZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Iron_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+
+      <InitialScale>1.5</InitialScale>
+      <ScaleMultiplier>2</ScaleMultiplier>
+      <InitialDistance>3</InitialDistance>
+      <DistanceMultiplier>2</DistanceMultiplier>
+      <TilingScale>24</TilingScale>
+      
+      <ColorMetalXZnYFar1>Textures\Voxels\NewResources\K_SW_Resource_Exonium_XZ_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\Iron_01_ForAxisXZ_distance_ng.dds</NormalGlossXZnYFar1>
+
+     <SimpleTilingSetup>
+        <InitialScale>1</InitialScale>
+        <ScaleMultiplier>1.1</ScaleMultiplier>
+        <InitialDistance>5</InitialDistance>
+        <DistanceMultiplier>2.1</DistanceMultiplier>
+        <Far1Distance>23</Far1Distance>
+        <Far1Scale>8</Far1Scale>
+
+        <Far2Distance>200</Far2Distance>
+        <Far2Scale>20</Far2Scale>
+      </SimpleTilingSetup>
+
+      <Far1Distance>22</Far1Distance>
+      <Far1Scale>15</Far1Scale>   
+    
+      <Far2Distance>200</Far2Distance>
+      <Far2Scale>20</Far2Scale>
+
+      <LandingEffect>Landing_Jet_Ground_Dust</LandingEffect>
+	  
+	  <!-- 
+      <ColorMetalXZnYFar1>Textures\Voxels\Gold_01_ForAxisXZ_distance_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\Gold_01_ForAxisXZ_distance_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Gold_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+      <Far1Distance>16</Far1Distance>
+      <Far1Scale>10</Far1Scale>	  
+	  
+      <Far2Distance>85</Far2Distance>
+      <Far2Scale>24</Far2Scale>-->
+	  
+    </VoxelMaterial>
+	
+	 <!-- Beskar -->
+	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>K_Imperial_Voxel_Beskar</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>Beskar</MinedOre>
+      <MinedOreRatio>1</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>true</IsRare>
+      <AsteroidGeneratorSpawnProbabilityMultiplier>1</AsteroidGeneratorSpawnProbabilityMultiplier>
+	   <SpawnsInAsteroids>false</SpawnsInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      
+
+      <VoxelHandPreview>Textures\Voxels\Iron_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\K_SW_Resource_Beskar_XZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Gold_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Iron_01_ForAxisXZ_add.dds</ExtXZnY>
+
+      <InitialScale>0.6</InitialScale>
+      <ScaleMultiplier>2</ScaleMultiplier>
+      <InitialDistance>1</InitialDistance>
+      <DistanceMultiplier>1.2</DistanceMultiplier>
+      <TilingScale>24</TilingScale>
+      
+      <ColorMetalXZnYFar1>Textures\Voxels\K_SW_Resource_Beskar_XZ_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\Iron_01_ForAxisXZ_distance_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Iron_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+
+      <SimpleTilingSetup>
+        <InitialScale>1</InitialScale>
+        <ScaleMultiplier>1.1</ScaleMultiplier>
+        <InitialDistance>5</InitialDistance>
+        <DistanceMultiplier>2.1</DistanceMultiplier>
+        <Far1Distance>23</Far1Distance>
+        <Far1Scale>8</Far1Scale>
+
+        <Far2Distance>200</Far2Distance>
+        <Far2Scale>20</Far2Scale>
+      </SimpleTilingSetup>
+
+      <Far1Distance>22</Far1Distance>
+      <Far1Scale>15</Far1Scale>   
+    
+      <Far2Distance>200</Far2Distance>
+      <Far2Scale>20</Far2Scale>
+
+      <LandingEffect>Landing_Jet_Ground_Dust</LandingEffect>
+	  
+	  <!-- 
+      <ColorMetalXZnYFar1>Textures\Voxels\Gold_01_ForAxisXZ_distance_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\Gold_01_ForAxisXZ_distance_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Gold_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+      <Far1Distance>16</Far1Distance>
+      <Far1Scale>10</Far1Scale>	  
+	  
+      <Far2Distance>85</Far2Distance>
+      <Far2Scale>24</Far2Scale>-->
+	  
+    </VoxelMaterial>
+	
+
+	
+  </VoxelMaterials>
+</Definitions>

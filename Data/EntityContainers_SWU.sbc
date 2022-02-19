@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityContainers>
+    <!-- 
+    Usage:
+    
+    You define a components container with it's Id - TypeId and SubtypeId.
+    TypeId - currently the object builder type of the Entity which is owning the container. This should be changed when Entities are containers.
+    SubtypeId - use only, if you need different components for this subtype
+    
+    
+    EXAMPLE:
+    
+    <Container>
+      <Id>
+        <TypeId>MyObjectBuilder_CubeBlock</TypeId>        
+      </Id>
+      <DefaultComponents>
+        <Component>MyObjectBuilder_PositionComponent</Component>
+        <Component>MyObjectBuilder_RenderDebugComponent</Component>    
+      </DefaultComponents>
+    </Container> 
+    
+    This will define default components for Entities with type MyObjectBuilder_CubeBlock. When the container is created and going to Deserialize it's data,
+    it will first check if there exists definition for it's type, if not it will just deseriliaze, otherwise it will create default components. 
+    If there is definition for component it will call Init(MyComponentDefinitionBase definition) on component. First is looked for definition of the component with the
+    same SubtypeId as has the container definition, then it search for definition without SubtypeId.
+    
+    See EntityComponents.sbc for component definitions.
+
+
+    Mods can optionally create a MyStorageComponent on entities automatically. This avoids having to create them in code.
+    EXAMPLE:
+
+    <EntityContainers>
+      <Container>
+        <Id>
+          <TypeId>MyObjectBuilder_Reactor</TypeId>
+          <SubtypeId>Custom_Block_Name</SubtypeId>
+        </Id>
+        <DefaultComponents>
+          <Component BuilderType="MyObjectBuilder_ModStorageComponent" ForceCreate="true"/>
+        </DefaultComponents>
+      </Container>
+    </EntityContainers>
+
+    NOTE: 
+    When entity types are changed to be GameLogic components in container, these definitions may remain same and the TypeId can be used to create component of that type.
+    
+    -->
+
+ 
+    <Container>
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>K_Imperial_SupplyDepot</SubtypeId>
+      </Id>
+      <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_Inventory"/>
+      </DefaultComponents>
+    </Container>
+
+    <Container>
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>K_Pirates_StarViper_CargoPod</SubtypeId>
+      </Id>
+      <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_Inventory"/>
+      </DefaultComponents>
+    </Container>
+	
+	   <Container>
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>K_Imperial_Reborn_TIE_Bomber_HeadStorage</SubtypeId>
+      </Id>
+      <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_Inventory"/>
+      </DefaultComponents>
+    </Container>
+	
+	
+	 <Container>
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>K_Imperial_Reborn_TIE_Bomber_LinkageUnit</SubtypeId>
+      </Id>
+      <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_Inventory"/>
+      </DefaultComponents>
+    </Container>
+	
+	 <Container>
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>K_Imperial_PatrolCraft_CargoBay</SubtypeId>
+      </Id>
+      <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_Inventory"/>
+      </DefaultComponents>
+    </Container>
+	
+	 <Container>
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>K_Imperial_Dropship_Guild_CargoHull</SubtypeId>
+      </Id>
+      <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_Inventory"/>
+      </DefaultComponents>
+    </Container>
+	
+	 <Container>
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>K_Imperial_MG_Cache_Storage</SubtypeId>
+      </Id>
+      <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_Inventory"/>
+      </DefaultComponents>
+    </Container>
+	
+	 <Container>
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>K_Imperial_SupplyDepot_AltII</SubtypeId>
+      </Id>
+      <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_Inventory"/>
+      </DefaultComponents>
+    </Container>
+	
+	 <Container>
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>K_Imperial_Assembly_HeavyCargo</SubtypeId>
+      </Id>
+      <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_Inventory"/>
+      </DefaultComponents>
+    </Container>
+	
+	<Container>
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>K_Imperial_Carrack_CargoShip_CargoContainer</SubtypeId>
+      </Id>
+      <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_Inventory"/>
+      </DefaultComponents>
+    </Container>
+	
+	 <Container>
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>K_Sith_Warship_HangarDeck</SubtypeId>
+      </Id>
+      <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_Inventory"/>
+      </DefaultComponents>
+    </Container>
+	
+	 <Container>
+      <Id>
+        <TypeId>MyObjectBuilder_Character</TypeId>
+        <SubtypeId>k_starwars_empire_pilot_ii</SubtypeId>
+      </Id>
+      <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_CharacterStatComponent" SubtypeId="k_starwars_empire_pilot_ii" ForceCreate="true"/>
+        <Component BuilderType="MyObjectBuilder_AssetModifierComponent" SubtypeId="k_starwars_empire_pilot_ii" ForceCreate="true"/>
+        <Component BuilderType="MyObjectBuilder_CharacterDiscoveryComponent" ForceCreate="true"/>
+      </DefaultComponents>
+    </Container>
+	
+	
+	 <Container>
+      <Id>
+        <TypeId>MyObjectBuilder_Character</TypeId>
+        <SubtypeId>k_starwars_empire_specialtrooper_i</SubtypeId>
+      </Id>
+      <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_CharacterStatComponent" SubtypeId="k_starwars_empire_specialtrooper_i" ForceCreate="true"/>
+        <Component BuilderType="MyObjectBuilder_AssetModifierComponent" SubtypeId="k_starwars_empire_specialtrooper_i" ForceCreate="true"/>
+        <Component BuilderType="MyObjectBuilder_CharacterDiscoveryComponent" ForceCreate="true"/>
+      </DefaultComponents>
+    </Container>
+	
+	 <Container>
+      <Id>
+        <TypeId>MyObjectBuilder_Character</TypeId>
+        <SubtypeId>k_starwars_empire_kreegtechnication_i</SubtypeId>
+      </Id>
+      <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_CharacterStatComponent" SubtypeId="k_starwars_empire_kreegtechnication_i" ForceCreate="true"/>
+        <Component BuilderType="MyObjectBuilder_AssetModifierComponent" SubtypeId="k_starwars_empire_kreegtechnication_i" ForceCreate="true"/>
+        <Component BuilderType="MyObjectBuilder_CharacterDiscoveryComponent" ForceCreate="true"/>
+      </DefaultComponents>
+    </Container>
+	
+	 <Container>
+      <Id>
+        <TypeId>MyObjectBuilder_Character</TypeId>
+        <SubtypeId>k_sw_chiss_engineer_i</SubtypeId>
+      </Id>
+      <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_CharacterStatComponent" SubtypeId="k_sw_chiss_engineer_i" ForceCreate="true"/>
+        <Component BuilderType="MyObjectBuilder_AssetModifierComponent" SubtypeId="k_sw_chiss_engineer_i" ForceCreate="true"/>
+        <Component BuilderType="MyObjectBuilder_CharacterDiscoveryComponent" ForceCreate="true"/>
+      </DefaultComponents>
+    </Container>
+	
+	 <Container>
+      <Id>
+        <TypeId>MyObjectBuilder_Character</TypeId>
+        <SubtypeId>k_starwars_empire_miner_i</SubtypeId>
+      </Id>
+      <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_CharacterStatComponent" SubtypeId="k_starwars_empire_miner_i" ForceCreate="true"/>
+        <Component BuilderType="MyObjectBuilder_AssetModifierComponent" SubtypeId="k_starwars_empire_miner_i" ForceCreate="true"/>
+        <Component BuilderType="MyObjectBuilder_CharacterDiscoveryComponent" ForceCreate="true"/>
+      </DefaultComponents>
+    </Container>
+	
+	
+	 <Container>
+      <Id>
+        <TypeId>MyObjectBuilder_Character</TypeId>
+        <SubtypeId>k_sw_rebellionquickie</SubtypeId>
+      </Id>
+      <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_CharacterStatComponent" SubtypeId="k_starwars_empire_pilot_ii" ForceCreate="true"/>
+        <Component BuilderType="MyObjectBuilder_AssetModifierComponent" SubtypeId="k_starwars_empire_pilot_ii" ForceCreate="true"/>
+        <Component BuilderType="MyObjectBuilder_CharacterDiscoveryComponent" ForceCreate="true"/>
+      </DefaultComponents>
+    </Container>
+	
+	 <Container>
+      <Id>
+        <TypeId>MyObjectBuilder_Character</TypeId>
+        <SubtypeId>k_sw_rebellionquickierecolorable</SubtypeId>
+      </Id>
+      <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_CharacterStatComponent" SubtypeId="k_starwars_empire_pilot_ii" ForceCreate="true"/>
+        <Component BuilderType="MyObjectBuilder_AssetModifierComponent" SubtypeId="k_starwars_empire_pilot_ii" ForceCreate="true"/>
+        <Component BuilderType="MyObjectBuilder_CharacterDiscoveryComponent" ForceCreate="true"/>
+      </DefaultComponents>
+    </Container>
+
+    <Container>
+    <Id>
+        <TypeId>MyObjectBuilder_Character</TypeId>
+        <SubtypeId>k_imperial_wildlife_spider</SubtypeId>
+    </Id>
+    <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_CharacterStatComponent" SubtypeId="Space_spider" ForceCreate="true"/>
+    </DefaultComponents>
+  </Container>
+
+    <Container>
+       <Id>
+           <TypeId>MyObjectBuilder_Character</TypeId>
+           <SubtypeId>k_imperial_wildlife_spider_II</SubtypeId>
+       </Id>
+       <DefaultComponents>
+           <Component BuilderType="MyObjectBuilder_CharacterStatComponent" SubtypeId="Space_spider" ForceCreate="true"/>
+       </DefaultComponents>
+   </Container>
+
+  </EntityContainers>
+</Definitions>

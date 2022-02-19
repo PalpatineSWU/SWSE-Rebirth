@@ -1,0 +1,240 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <PhysicalItems>
+
+		<PhysicalItem>
+            <Id>
+                <TypeId>PhysicalGunObject</TypeId>
+                <SubtypeId>AngleGrinder_LukeSaberItem</SubtypeId>
+            </Id>
+            <DisplayName>Lukes Lightsaber</DisplayName>
+            <Icon>Textures\SWBlades\Icons\LukeSaber.dds</Icon>
+            <Size>
+                <X>3</X>
+                <Y>3</Y>
+                <Z>3</Z>
+            </Size>
+            <Mass>3</Mass>
+            <Volume>20</Volume>
+            <Model>Models\LightSabers\LukeSaber.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+        </PhysicalItem>
+		
+		<PhysicalItem>
+            <Id>
+                <TypeId>PhysicalGunObject</TypeId>
+                <SubtypeId>AngleGrinder_LukeSaberRevItem</SubtypeId>
+            </Id>
+            <DisplayName>Lukes Lightsaber ROJ</DisplayName>
+            <Icon>Textures\SWBlades\Icons\LukeSaberRev.dds</Icon>
+            <Size>
+                <X>3</X>
+                <Y>3</Y>
+                <Z>3</Z>
+            </Size>
+            <Mass>3</Mass>
+            <Volume>20</Volume>
+            <Model>Models\LightSabers\LukeSaberRev.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+        </PhysicalItem>
+		
+		<PhysicalItem>
+            <Id>
+                <TypeId>PhysicalGunObject</TypeId>
+                <SubtypeId>AngleGrinder_DarthSaberItem</SubtypeId>
+            </Id>
+            <DisplayName>Darth Vaders Lightsaber</DisplayName>
+            <Icon>Textures\SWBlades\Icons\DarthSaber.dds</Icon>
+            <Size>
+                <X>3</X>
+                <Y>3</Y>
+                <Z>3</Z>
+            </Size>
+            <Mass>3</Mass>
+            <Volume>20</Volume>
+            <Model>Models\LightSabers\DarthSaber.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+        </PhysicalItem>
+		
+		<PhysicalItem>
+            <Id>
+                <TypeId>PhysicalGunObject</TypeId>
+                <SubtypeId>AngleGrinder_DarkSaberItem</SubtypeId>
+            </Id>
+            <DisplayName>The-Darksaber</DisplayName>
+            <Icon>Textures\SWBlades\Icons\DarkSaber.dds</Icon>
+            <Size>
+                <X>3</X>
+                <Y>3</Y>
+                <Z>3</Z>
+            </Size>
+            <Mass>3</Mass>
+            <Volume>20</Volume>
+            <Model>Models\LightSabers\DarkSaber.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+        </PhysicalItem>
+		
+		<PhysicalItem>
+            <Id>
+                <TypeId>PhysicalGunObject</TypeId>
+                <SubtypeId>AngleGrinder_MaulCaneSaberItem</SubtypeId>
+            </Id>
+            <DisplayName>Mauls Cane Saber</DisplayName>
+            <Icon>Textures\SWBlades\Icons\MaulCaneSaber.dds</Icon>
+            <Size>
+                <X>3</X>
+                <Y>3</Y>
+                <Z>3</Z>
+            </Size>
+            <Mass>3</Mass>
+            <Volume>20</Volume>
+            <Model>Models\LightSabers\MaulCaneSaber.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+        </PhysicalItem>
+		
+		<PhysicalItem>
+            <Id>
+                <TypeId>PhysicalGunObject</TypeId>
+                <SubtypeId>AngleGrinder_MaulSaberItem</SubtypeId>
+            </Id>
+            <DisplayName>Darth Maul Single Saber</DisplayName>
+            <Icon>Textures\SWBlades\Icons\MaulSaber.dds</Icon>
+            <Size>
+                <X>3</X>
+                <Y>3</Y>
+                <Z>3</Z>
+            </Size>
+            <Mass>3</Mass>
+            <Volume>20</Volume>
+            <Model>Models\LightSabers\MaulSaber.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+        </PhysicalItem>
+		
+		<PhysicalItem>
+            <Id>
+                <TypeId>PhysicalGunObject</TypeId>
+                <SubtypeId>AngleGrinder_MaceSaberItem</SubtypeId>
+            </Id>
+            <DisplayName>Mace Windu's Saber</DisplayName>
+            <Icon>Textures\SWBlades\Icons\MaceSaber.dds</Icon>
+            <Size>
+                <X>3</X>
+                <Y>3</Y>
+                <Z>3</Z>
+            </Size>
+            <Mass>3</Mass>
+            <Volume>20</Volume>
+            <Model>Models\LightSabers\MaceSaber.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+        </PhysicalItem>
+		
+		<PhysicalItem>
+            <Id>
+                <TypeId>PhysicalGunObject</TypeId>
+                <SubtypeId>AngleGrinder_DukuSaberItem</SubtypeId>
+            </Id>
+            <DisplayName>Duku's Saber</DisplayName>
+            <Icon>Textures\SWBlades\Icons\DukuSaber.dds</Icon>
+            <Size>
+                <X>3</X>
+                <Y>3</Y>
+                <Z>3</Z>
+            </Size>
+            <Mass>3</Mass>
+            <Volume>20</Volume>
+            <Model>Models\LightSabers\DukuSaber.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+        </PhysicalItem>
+		
+		<PhysicalItem>
+            <Id>
+                <TypeId>PhysicalGunObject</TypeId>
+                <SubtypeId>AngleGrinder_KananSaberItem</SubtypeId>
+            </Id>
+            <DisplayName>Kanan's Saber</DisplayName>
+            <Icon>Textures\SWBlades\Icons\KananSaber.dds</Icon>
+            <Size>
+                <X>3</X>
+                <Y>3</Y>
+                <Z>3</Z>
+            </Size>
+            <Mass>3</Mass>
+            <Volume>20</Volume>
+            <Model>Models\LightSabers\KananSaber.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+        </PhysicalItem>
+		
+		<PhysicalItem>
+            <Id>
+                <TypeId>PhysicalGunObject</TypeId>
+                <SubtypeId>AngleGrinder_EzraTrainSaberItem</SubtypeId>
+            </Id>
+            <DisplayName>Ezra's Training Saber</DisplayName>
+            <Icon>Textures\SWBlades\Icons\EzraTrainSaber.dds</Icon>
+            <Size>
+                <X>3</X>
+                <Y>3</Y>
+                <Z>3</Z>
+            </Size>
+            <Mass>3</Mass>
+            <Volume>20</Volume>
+            <Model>Models\LightSabers\EzraTrainSaber.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+        </PhysicalItem>
+		
+		<PhysicalItem>
+            <Id>
+                <TypeId>PhysicalGunObject</TypeId>
+                <SubtypeId>AngleGrinder_EzraSaberItem</SubtypeId>
+            </Id>
+            <DisplayName>Ezra's Jedi Saber</DisplayName>
+            <Icon>Textures\SWBlades\Icons\EzraSaber.dds</Icon>
+            <Size>
+                <X>3</X>
+                <Y>3</Y>
+                <Z>3</Z>
+            </Size>
+            <Mass>3</Mass>
+            <Volume>20</Volume>
+            <Model>Models\LightSabers\EzraSaber.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+        </PhysicalItem>
+		
+		<PhysicalItem>
+            <Id>
+                <TypeId>PhysicalGunObject</TypeId>
+                <SubtypeId>AngleGrinder_ArkolisSaberItem</SubtypeId>
+            </Id>
+            <DisplayName>Arkolis's Sith Saber</DisplayName>
+            <Icon>Textures\SWBlades\Icons\ArkolisSaber.dds</Icon>
+            <Size>
+                <X>3</X>
+                <Y>3</Y>
+                <Z>3</Z>
+            </Size>
+            <Mass>3</Mass>
+            <Volume>20</Volume>
+            <Model>Models\LightSabers\ArkolisSaber.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+        </PhysicalItem>
+		
+		<PhysicalItem>
+            <Id>
+                <TypeId>PhysicalGunObject</TypeId>
+                <SubtypeId>AngleGrinder_PalpatineSaberItem</SubtypeId>
+            </Id>
+            <DisplayName>Palpatine's Sith Saber</DisplayName>
+            <Icon>Textures\SWBlades\Icons\PalpatineSaber.dds</Icon>
+            <Size>
+                <X>3</X>
+                <Y>3</Y>
+                <Z>3</Z>
+            </Size>
+            <Mass>3</Mass>
+            <Volume>20</Volume>
+            <Model>Models\LightSabers\PalpatineSaber.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+        </PhysicalItem>
+		
+	</PhysicalItems>
+</Definitions>

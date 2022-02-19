@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<BlueprintClasses>
+
+	<Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>NPCAbregado-rae</SubtypeId>
+      </Id>
+      <DisplayName>NPC Abregado-rae</DisplayName>
+      <Icon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+	<Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>NPCBonadan</SubtypeId>
+      </Id>
+      <DisplayName>NPC Bonadan</DisplayName>
+      <Icon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+	<Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>NPCKuat</SubtypeId>
+      </Id>
+      <DisplayName>NPC Kuat</DisplayName>
+      <Icon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+	<Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>NPCBastion</SubtypeId>
+      </Id>
+      <DisplayName>NPC Bastion</DisplayName>
+      <Icon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+	<Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>NPCEriadu</SubtypeId>
+      </Id>
+      <DisplayName>NPC Eriadu</DisplayName>
+      <Icon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+	<Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>NPCEriaduReward</SubtypeId>
+      </Id>
+      <DisplayName>NPC Eriadu</DisplayName>
+      <Icon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+	<Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>NPCBrentaal</SubtypeId>
+      </Id>
+      <DisplayName>NPC Brentaal</DisplayName>
+      <Icon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+	<Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>NPCConcordia</SubtypeId>
+      </Id>
+      <DisplayName>NPC Concordia</DisplayName>
+      <Icon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+	<Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>NPCIlum</SubtypeId>
+      </Id>
+      <DisplayName>NPC Ilum</DisplayName>
+      <Icon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+	<Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>NPCDathomir</SubtypeId>
+      </Id>
+      <DisplayName>NPC Dathomir</DisplayName>
+      <Icon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+	<Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>NPCTatooine</SubtypeId>
+      </Id>
+      <DisplayName>NPC Tatooine</DisplayName>
+      <Icon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+	<Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>NPCPlaceholder</SubtypeId>
+      </Id>
+      <DisplayName>NPCPlaceholder</DisplayName>
+      <Icon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+</BlueprintClasses>
+
+<Blueprints>
+
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NPC</SubtypeId>
+      </Id>
+      <DisplayName>NPC</DisplayName>
+      <Icon>Textures\GUI\Icons\Items\Datapad_Item.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="DuraSteel_Ingot" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="NPC" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+</Blueprints>
+
+  <Components> 
+ <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>NPC</SubtypeId>
+      </Id>
+      <DisplayName>NPC</DisplayName>
+      <Icon>Textures\GUI\Icons\Items\Datapad_Item.dds</Icon>
+	  <ExtraInventoryTooltipLine>NPC</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>15</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>1</MaxIntegrity>
+      <DropProbability>0.01</DropProbability>
+      <Health>50</Health>
+	   <MinimalPricePerUnit>8500</MinimalPricePerUnit>
+    <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+  </Components>
+</Definitions>

@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <CubeBlocks>
+ 
+ <Definition xsi:type="MyObjectBuilder_HydrogenEngineDefinition">
+      <Id>
+        <TypeId>HydrogenEngine</TypeId>
+        <SubtypeId>K_Imperial_Reactors_Hydrogen_Basic</SubtypeId>
+      </Id>
+      <DisplayName>Republic Hydrogen Engine</DisplayName>
+      <Description> Low-grade Hydrogen-Based Power Generator. Requires Hydrogen Gas, for max output of 200 units.</Description>
+      <Icon>Textures\GUI\Icons\Cubes\HydrogenEngineLarge.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="3" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Power\K_Imperial_GasReactorHydrogen_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="25" />
+        <Component Subtype="StandardCabling" Count="25" />
+	    	<Component Subtype="PowerConverter" Count="2" />
+	    	<Component Subtype="ImperialGeneralParts" Count="24" />
+	    	<Component Subtype="PowerGen_Basics" Count="10" />
+        <Component Subtype="StandardPowerCell" Count="6"/>
+        <Component Subtype="Computer" Count="15" />
+ 	    	<Component Subtype="ImperialConstruction" Count="22" />
+        <Component Subtype="DuraSteel" Count="45" />
+      </Components>
+      <CriticalComponent Subtype="PowerGen_Basics" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1" EndY="1" />
+      </MountPoints>
+          <BlockPairName>K_Imperial_Reactors_Hydrogen_Basic</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>120</BuildTimeSeconds>
+      <ResourceSinkGroup>Generators</ResourceSinkGroup>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <MaxPowerOutput>200</MaxPowerOutput>
+      <FuelCapacity>100000</FuelCapacity>
+      <EmissiveColorPreset>K_Imperial_Ship_EmissiveSet</EmissiveColorPreset>
+      <IsAirTight>false</IsAirTight>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <FuelInfos>
+        <FuelInfo>
+          <Id>
+            <TypeId>GasProperties</TypeId>
+            <SubtypeId>Hydrogen</SubtypeId>
+          </Id>
+		  <Ratio>0.2</Ratio>
+        </FuelInfo>
+      </FuelInfos>
+      <FuelProductionToCapacityMultiplier>0.15</FuelProductionToCapacityMultiplier>
+      <PrimarySound>K_Imperial_IdleReactor_Waves</PrimarySound>
+
+     <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_TypeII</DestroySound>
+      
+      <PCU>50</PCU>      
+    </Definition>
+	
+	
+	 <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>K_Imperial_Reactors_Anthractite_Basic</SubtypeId>
+      </Id>
+      <DisplayName>Republic Anthractite Generator</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor_large.dds</Icon>
+      <Description> Solid-Fuel Based Power Generation, requires Anthractite ore to burn. Provides 150 units of power.</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="3" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Power\K_Imperial_CombustionReactor_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="15" />
+        <Component Subtype="ImperialConstruction" Count="11" />
+        <Component Subtype="PowerConverter" Count="1" />
+         <Component Subtype="StandardCabling" Count="4" />
+        <Component Subtype="PowerGen_Basics" Count="5" />
+               <Component Subtype="Computer" Count="25" />
+		 <Component Subtype="StandardCabling" Count="3" />
+		 <Component Subtype="ImperialConstruction" Count="15" />
+        <Component Subtype="DuraSteel" Count="25" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+	  <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1" EndY="1" Default="true" />
+        </MountPoints>
+           <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.45" File="Models\Power\K_Imperial_CombustionReactor_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.65" File="Models\Power\K_Imperial_CombustionReactor_Large_Constr2.mwm" />
+        </BuildProgressModels>
+      <BlockPairName>K_Imperial_Reactors_Anthractite_Basic</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>100</BuildTimeSeconds>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <MaxPowerOutput>150</MaxPowerOutput>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+
+            <!-- 
+                Values are volume fill ratio, means how much fuel reactor pulls from conveyor system to the inventory.
+                If volume fill ratio is bellow minimum, reactor starts pulling fuel up to maximum value.
+                Warning: Changing these values will affect performance.
+            -->
+            <InventoryFillFactorMin>0.001</InventoryFillFactorMin>
+            <InventoryFillFactorMax>0.002</InventoryFillFactorMax>
+
+            <!-- 
+                This is how much of fuel is pulled from conveyor system in one tick.
+                It's in minutes, means that it will pull X minutes of fuel in one tick.
+                Warning: Changing this value will affect performance.
+            -->
+            <FuelPullAmountFromConveyorInMinutes>10.0</FuelPullAmountFromConveyorInMinutes>
+
+     <FuelInfos>
+        <FuelInfo>
+          <Id>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Anthracite</SubtypeId>
+          </Id>
+		  <Ratio>0.6</Ratio>
+        </FuelInfo>
+      </FuelInfos>
+      <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
+      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+      <DamagedSound>ParticleReactor</DamagedSound>      
+      <EmissiveColorPreset>K_Imperial_Factory_Red</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>
+	 	 	     </Definition>
+				 
+				 
+		<Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>K_Imperial_Reactors_SythFuel_Basic</SubtypeId>
+      </Id>
+      <DisplayName>Republic Synthetic-Fuel Generator</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor_large.dds</Icon>
+      <Description> Solid-Fuel Based Power Generation, requires Synth Fuel Ingots to burn. Provides 135 units of power.</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="3" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Power\K_Imperial_CombustionReactor_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="15" />
+        <Component Subtype="ImperialConstruction" Count="11" />
+        <Component Subtype="PowerConverter" Count="1" />
+         <Component Subtype="StandardCabling" Count="4" />
+        <Component Subtype="PowerGen_Basics" Count="5" />
+               <Component Subtype="Computer" Count="25" />
+		 <Component Subtype="StandardCabling" Count="3" />
+		 <Component Subtype="ImperialConstruction" Count="15" />
+        <Component Subtype="DuraSteel" Count="25" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+	  <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1" EndY="1" Default="true" />
+        </MountPoints>
+           <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.45" File="Models\Power\K_Imperial_CombustionReactor_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.65" File="Models\Power\K_Imperial_CombustionReactor_Large_Constr2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Imperial_Reactors_SythFuel_Basic</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>100</BuildTimeSeconds>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <MaxPowerOutput>135</MaxPowerOutput>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+
+            <!-- 
+                Values are volume fill ratio, means how much fuel reactor pulls from conveyor system to the inventory.
+                If volume fill ratio is bellow minimum, reactor starts pulling fuel up to maximum value.
+                Warning: Changing these values will affect performance.
+            -->
+            <InventoryFillFactorMin>0.001</InventoryFillFactorMin>
+            <InventoryFillFactorMax>0.002</InventoryFillFactorMax>
+
+            <!-- 
+                This is how much of fuel is pulled from conveyor system in one tick.
+                It's in minutes, means that it will pull X minutes of fuel in one tick.
+                Warning: Changing this value will affect performance.
+            -->
+            <FuelPullAmountFromConveyorInMinutes>10.0</FuelPullAmountFromConveyorInMinutes>
+
+     <FuelInfos>
+        <FuelInfo>
+          <Id>
+            <TypeId>Ingot</TypeId>
+            <SubtypeId>Spin_SyntheticFuel</SubtypeId>
+          </Id>
+		  <Ratio>0.6</Ratio>
+        </FuelInfo>
+      </FuelInfos>
+      <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
+      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+      <DamagedSound>ParticleReactor</DamagedSound>      
+      <EmissiveColorPreset>K_Imperial_Factory_Red</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>
+	 	 	     </Definition>
+				 
+ 
+ 
+   <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>K_Imperial_Reactors_Exonium_Small_LG</SubtypeId>
+      </Id>
+      <DisplayName>Republic Fusion-Reactor</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor_large.dds</Icon>
+      <Description> Fusion-Reactor Ouputs 250 units of power</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Power\K_Imperial_Reactor_basemodel_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="45" />
+        <Component Subtype="ImperialConstruction" Count="70" />
+        <Component Subtype="PowerConverter" Count="40" />
+         <Component Subtype="StandardCabling" Count="25" />
+        <Component Subtype="FissionComponent" Count="25" />
+        <Component Subtype="Motor" Count="20" />
+        <Component Subtype="Computer" Count="75" />
+		 <Component Subtype="StandardCabling" Count="25" />
+		 <Component Subtype="ImperialConstruction" Count="40" />
+        <Component Subtype="DuraSteel" Count="125" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>K_Imperial_Reactors_Exonium_Small</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>100</BuildTimeSeconds>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <MaxPowerOutput>250</MaxPowerOutput>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+
+            <!-- 
+                Values are volume fill ratio, means how much fuel reactor pulls from conveyor system to the inventory.
+                If volume fill ratio is bellow minimum, reactor starts pulling fuel up to maximum value.
+                Warning: Changing these values will affect performance.
+            -->
+            <InventoryFillFactorMin>0.001</InventoryFillFactorMin>
+            <InventoryFillFactorMax>0.002</InventoryFillFactorMax>
+
+            <!-- 
+                This is how much of fuel is pulled from conveyor system in one tick.
+                It's in minutes, means that it will pull X minutes of fuel in one tick.
+                Warning: Changing this value will affect performance.
+            -->
+            <FuelPullAmountFromConveyorInMinutes>10.0</FuelPullAmountFromConveyorInMinutes>
+
+     <FuelInfos>
+        <FuelInfo>
+          <Id>
+            <TypeId>Ingot</TypeId>
+            <SubtypeId>Exonium</SubtypeId>
+          </Id>
+		  <Ratio>0.25</Ratio>
+        </FuelInfo>
+      </FuelInfos>
+      <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
+      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+      <DamagedSound>ParticleReactor</DamagedSound>      
+      <EmissiveColorPreset>K_Imperial_Factory_Red</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>
+	     </Definition>
+	
+	 <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>K_Imperial_Reactors_Exonium_Large_LG</SubtypeId>
+      </Id>
+      <DisplayName>Republic Heavy Fusion-Reactor</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor_large.dds</Icon>
+      <Description> Heavy Fusion Reactor Outputs 1000 Units of power</Description>
+      <CubeSize>Large</CubeSize>
+	    <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Power\K_Imperial_Reactor_AdvancedModel_Large.mwm</Model>
+      <Components>
+         <Component Subtype="DuraSteel" Count="225" />
+        <Component Subtype="ImperialConstruction" Count="110" />
+        <Component Subtype="PowerConverter" Count="125" />
+        <Component Subtype="HeavyDutyCabling" Count="55" />
+        <Component Subtype="FissionComponent" Count="200" />
+		<Component Subtype="FissionAdvancedController" Count="5" />
+        <Component Subtype="Motor" Count="20" />
+		 <Component Subtype="HeavyDutyCabling" Count="55" />
+        <Component Subtype="Computer" Count="75" />
+		<Component Subtype="ImperialConstruction" Count="140" />
+        <Component Subtype="DuraSteel" Count="300" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>K_Imperial_Reactors_Exonium_Large</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>100</BuildTimeSeconds>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <MaxPowerOutput>1000</MaxPowerOutput>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+
+            <!-- 
+                Values are volume fill ratio, means how much fuel reactor pulls from conveyor system to the inventory.
+                If volume fill ratio is bellow minimum, reactor starts pulling fuel up to maximum value.
+                Warning: Changing these values will affect performance.
+            -->
+            <InventoryFillFactorMin>0.001</InventoryFillFactorMin>
+            <InventoryFillFactorMax>0.002</InventoryFillFactorMax>
+
+            <!-- 
+                This is how much of fuel is pulled from conveyor system in one tick.
+                It's in minutes, means that it will pull X minutes of fuel in one tick.
+                Warning: Changing this value will affect performance.
+            -->
+            <FuelPullAmountFromConveyorInMinutes>10.0</FuelPullAmountFromConveyorInMinutes>
+
+       <FuelInfos>
+        <FuelInfo>
+          <Id>
+            <TypeId>Ingot</TypeId>
+            <SubtypeId>Exonium</SubtypeId>
+          </Id>
+		  <Ratio>0.25</Ratio>
+        </FuelInfo>
+      </FuelInfos>
+      <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
+      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+      <DamagedSound>ParticleReactor</DamagedSound>      
+      <EmissiveColorPreset>K_Imperial_Factory_Red</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+	
+	
+	 <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>K_Imperial_Reactors_Exonium_PowerCoreHeavy</SubtypeId>
+      </Id>
+      <DisplayName>Republic Heavy Power-Core</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor_large.dds</Icon>
+      <Description>High-Grade Imperial Reactor, more potent but more vulnerable to external damages due to exposed nature. Ouputs 1200 Units of power.</Description>
+      <CubeSize>Large</CubeSize>
+	    <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="3" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Power\K_Imperial_Reactor_PowerCoreAnimated_Large.mwm</Model>
+      <Components>
+         <Component Subtype="DuraSteel" Count="225" />
+        <Component Subtype="ImperialConstruction" Count="110" />
+        <Component Subtype="PowerConverter" Count="225" />
+        <Component Subtype="HeavyDutyCabling" Count="55" />
+        <Component Subtype="FissionComponent" Count="600" />
+		<Component Subtype="FissionAdvancedController" Count="15" />
+        <Component Subtype="Motor" Count="20" />
+		 <Component Subtype="HeavyDutyCabling" Count="255" />
+        <Component Subtype="Computer" Count="75" />
+		<Component Subtype="ImperialConstruction" Count="140" />
+        <Component Subtype="DuraSteel" Count="100" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+           <BlockPairName>K_Imperial_Reactors_Exonium_PowerCoreHeavy</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>100</BuildTimeSeconds>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <MaxPowerOutput>1200</MaxPowerOutput>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+
+            <!-- 
+                Values are volume fill ratio, means how much fuel reactor pulls from conveyor system to the inventory.
+                If volume fill ratio is bellow minimum, reactor starts pulling fuel up to maximum value.
+                Warning: Changing these values will affect performance.
+            -->
+            <InventoryFillFactorMin>0.001</InventoryFillFactorMin>
+            <InventoryFillFactorMax>0.002</InventoryFillFactorMax>
+
+            <!-- 
+                This is how much of fuel is pulled from conveyor system in one tick.
+                It's in minutes, means that it will pull X minutes of fuel in one tick.
+                Warning: Changing this value will affect performance.
+            -->
+            <FuelPullAmountFromConveyorInMinutes>10.0</FuelPullAmountFromConveyorInMinutes>
+
+       <FuelInfos>
+        <FuelInfo>
+          <Id>
+            <TypeId>Ingot</TypeId>
+            <SubtypeId>Exonium</SubtypeId>
+          </Id>
+		  <Ratio>0.3</Ratio>
+        </FuelInfo>
+      </FuelInfos>
+      <PrimarySound>K_Imperial_IdleReactor_Waves</PrimarySound>
+      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+      <DamagedSound>ParticleReactor</DamagedSound>      
+      <EmissiveColorPreset>K_Imperial_Factory_Red</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>K_Imperial_Power_Battery_Standard</SubtypeId>
+      </Id>
+      <DisplayName>Republic Power Bank (Battery)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+      <Description> Standard Model Battery.
+	  Max Output: 100
+	  Max Input: 100
+	  Storage: 5</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Power\K_Imperial_Battery_Standard_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="20" />
+        <Component Subtype="StandardCabling" Count="8" />
+		 <Component Subtype="ImperialGeneralParts" Count="10" />
+        <Component Subtype="StandardPowerCell" Count="120"/>
+         <Component Subtype="Computer" Count="25" />
+        <Component Subtype="ImperialConstruction" Count="10" />
+        <Component Subtype="DuraSteel" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="StandardPowerCell" Index="0" />
+      <BlockPairName>K_Imperial_Power_Battery_Standard</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>100</MaxPowerOutput>
+
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <RequiredPowerInput>12</RequiredPowerInput>
+      <AdaptibleInput>true</AdaptibleInput>
+      <MaxStoredPower>5</MaxStoredPower>
+      <InitialStoredPowerRatio>0.0</InitialStoredPowerRatio>
+
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>15</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+	
+	
+	<Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>K_Imperial_Power_Battery_Nox</SubtypeId>
+      </Id>
+      <DisplayName>Republic Power Bank (Nox Battery)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+            <Description> Backup Battery.
+	  Max Output: 80
+	  Max Input: 80
+	  Storage: 3</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Power\K_Imperial_Battery_Standard_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="20" />
+        <Component Subtype="StandardCabling" Count="8" />
+		 <Component Subtype="ImperialGeneralParts" Count="10" />
+        <Component Subtype="AlternatePowerCell" Count="150"/>
+         <Component Subtype="Computer" Count="25" />
+        <Component Subtype="ImperialConstruction" Count="10" />
+        <Component Subtype="DuraSteel" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="AlternatePowerCell" Index="0" />
+      <BlockPairName>K_Imperial_Power_Battery_Nox</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>80</MaxPowerOutput>
+
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <RequiredPowerInput>8</RequiredPowerInput>
+      <AdaptibleInput>true</AdaptibleInput>
+      <MaxStoredPower>3</MaxStoredPower>
+      <InitialStoredPowerRatio>0.0</InitialStoredPowerRatio>
+
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>15</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+ 
+  <Definition xsi:type="MyObjectBuilder_HydrogenEngineDefinition">
+      <Id>
+        <TypeId>HydrogenEngine</TypeId>
+        <SubtypeId>K_Imperial_Reactors_Hypermatter_Medium</SubtypeId>
+      </Id>
+      <DisplayName>Republic Hypermatter Reactor</DisplayName>
+      <Description> High-Grade Hypermatter Reactor, outputs incredible energy per size. Requires Hypermatter Gas, for max output of 2300 units.</Description>
+      <Icon>Textures\GUI\Icons\Cubes\HydrogenEngineLarge.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Power\K_Imperial_HypermatterReactor_A_Large.mwm</Model>
+      <Components>
+       <Component Subtype="DuraSteel" Count="210" />
+        <Component Subtype="HeavyDutyCabling" Count="240" />
+		<Component Subtype="PowerConverter" Count="60" />
+		 <Component Subtype="ImperialGeneralParts" Count="90" />
+		 <Component Subtype="FissionComponent" Count="210" />
+        <Component Subtype="StandardPowerCell" Count="240"/>
+         <Component Subtype="Computer" Count="25" />
+        <Component Subtype="FissionAdvancedController" Count="10" />
+		<Component Subtype="ImperialConstruction" Count="250" />
+        <Component Subtype="DuraSteel" Count="400" />
+      </Components>
+      <CriticalComponent Subtype="FissionAdvancedController" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="3" EndY="3" Default="true" />
+        <MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="3" EndY="3" />
+      </MountPoints>
+          <BlockPairName>K_Imperial_Reactors_Hypermatter_Medium</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>120</BuildTimeSeconds>
+      <ResourceSinkGroup>Generators</ResourceSinkGroup>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <MaxPowerOutput>2300</MaxPowerOutput>
+      <FuelCapacity>500000</FuelCapacity>
+      <EmissiveColorPreset>K_Imperial_Ship_EmissiveSet</EmissiveColorPreset>
+      <IsAirTight>false</IsAirTight>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <FuelInfos>
+        <FuelInfo>
+          <Id>
+            <TypeId>GasProperties</TypeId>
+            <SubtypeId>k_imperial_hypermatter</SubtypeId>
+          </Id>
+		  <Ratio>0.2</Ratio>
+        </FuelInfo>
+      </FuelInfos>
+      <FuelProductionToCapacityMultiplier>0.0005</FuelProductionToCapacityMultiplier>
+      <PrimarySound>K_Imperial_IdleReactor_Waves</PrimarySound>
+
+     <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_TypeII</DestroySound>
+      
+      <PCU>50</PCU>      
+    </Definition>
+	
+	
+	<Definition xsi:type="MyObjectBuilder_HydrogenEngineDefinition">
+      <Id>
+        <TypeId>HydrogenEngine</TypeId>
+        <SubtypeId>K_Imperial_Reactors_Hypermatter_Heavy</SubtypeId>
+      </Id>
+      <DisplayName>Republic Hypermatter Heavy-Reactor (WIP, Size will be changing)</DisplayName>
+      <Description> High-Grade Hypermatter Reactor, outputs incredible energy per size. Requires Hypermatter Gas, for max output of 2800 units.</Description>
+      <Icon>Textures\GUI\Icons\Cubes\HydrogenEngineLarge.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Power\K_Imperial_HypermatterReactor_A_Large.mwm</Model>
+      <Components>
+       <Component Subtype="DuraSteel" Count="210" />
+        <Component Subtype="HeavyDutyCabling" Count="240" />
+		<Component Subtype="PowerConverter" Count="60" />
+		 <Component Subtype="ImperialGeneralParts" Count="90" />
+		 <Component Subtype="FissionComponent" Count="210" />
+        <Component Subtype="StandardPowerCell" Count="240"/>
+         <Component Subtype="Computer" Count="25" />
+        <Component Subtype="FissionAdvancedController" Count="10" />
+		<Component Subtype="ImperialConstruction" Count="250" />
+        <Component Subtype="DuraSteel" Count="400" />
+      </Components>
+      <CriticalComponent Subtype="FissionAdvancedController" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="3" EndY="3" Default="true" />
+        <MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="3" EndY="3" />
+      </MountPoints>
+          <BlockPairName>K_Imperial_Reactors_Hypermatter_Heavy</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>120</BuildTimeSeconds>
+      <ResourceSinkGroup>Generators</ResourceSinkGroup>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <MaxPowerOutput>2800</MaxPowerOutput>
+      <FuelCapacity>500000</FuelCapacity>
+      <EmissiveColorPreset>K_Imperial_Factory_Red</EmissiveColorPreset>
+      <IsAirTight>false</IsAirTight>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <FuelInfos>
+        <FuelInfo>
+          <Id>
+            <TypeId>GasProperties</TypeId>
+            <SubtypeId>k_imperial_hypermatter</SubtypeId>
+          </Id>
+		  <Ratio>0.2</Ratio>
+        </FuelInfo>
+      </FuelInfos>
+      <FuelProductionToCapacityMultiplier>0.0005</FuelProductionToCapacityMultiplier>
+      <PrimarySound>ArcBlockHydrogenEngine</PrimarySound>
+
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>Explosion_Warhead_02</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+      
+      <PCU>25</PCU>      
+    </Definition>
+ 
+   <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+      <Id>
+        <TypeId>SolarPanel</TypeId>
+        <SubtypeId>K_Imperial_SolarPanel_IA</SubtypeId>
+      </Id>
+      <DisplayName>Republic Solar Panel</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+      <Description>Solar Panel of Imperial Construction.</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_SolarPanel_Large.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="ImperialConstruction" Count="7" />
+       <Component Subtype="ImperialGeneralParts" Count="2" />
+        <Component Subtype="Computer" Count="2" />
+        <Component Subtype="SolarCircuitry" Count="64" />
+        <Component Subtype="SteelPlate" Count="10" />
+		</Components>
+      <CriticalComponent Subtype="SolarCircuitry" Index="0" />
+      <Center x="0" y="0" z="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="2" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="2" Default="true" />
+        <MountPoint Side="Top" StartX="3.8" StartY="0.9" EndX="4" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0.9" EndX="0.2" EndY="1" />
+        <MountPoint Side="Bottom" StartX="3.8" StartY="0" EndX="4" EndY="0.1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="0.1" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.2" EndY="2" />
+        <MountPoint Side="Front" StartX="3.8" StartY="0" EndX="4" EndY="2" />
+      </MountPoints>
+
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Misc\K_Imperial_SolarPanel_Large.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Misc\K_Imperial_SolarPanel_Large.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Misc\K_Imperial_SolarPanel_Large.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Imperial_SolarPanel_IA</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+
+      <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+      <MaxPowerOutput>0.5</MaxPowerOutput>
+
+      <PanelOrientation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-1</Z>
+      </PanelOrientation>
+      <TwoSidedPanel>true</TwoSidedPanel>
+      <PanelOffset>1.0</PanelOffset>
+      <DamageEffectName>Damage_Electrical_Damaged_SolarPanels</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <PhysicalMaterial>Glass</PhysicalMaterial>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>55</PCU>
+      <IsAirTight>false</IsAirTight>
+	  
+    </Definition>
+	
+	 <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+      <Id>
+        <TypeId>SolarPanel</TypeId>
+        <SubtypeId>K_Imperial_SolarPanel_IB</SubtypeId>
+      </Id>
+      <DisplayName>Republic Solar Panel (Mounting)</DisplayName>
+	   <GuiVisible>false</GuiVisible>
+      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+      <Description>Solar Panel of Imperial Construction.</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_SolarPanel_II_Large.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="ImperialConstruction" Count="7" />
+       <Component Subtype="ImperialGeneralParts" Count="2" />
+        <Component Subtype="Computer" Count="2" />
+        <Component Subtype="SolarCircuitry" Count="64" />
+        <Component Subtype="SteelPlate" Count="10" />
+		</Components>
+      <CriticalComponent Subtype="SolarCircuitry" Index="0" />
+      <Center x="0" y="0" z="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="2" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="2" Default="true" />
+        <MountPoint Side="Top" StartX="3.8" StartY="0.9" EndX="4" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0.9" EndX="0.2" EndY="1" />
+        <MountPoint Side="Bottom" StartX="3.8" StartY="0" EndX="4" EndY="0.1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="0.1" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.2" EndY="2" />
+        <MountPoint Side="Front" StartX="3.8" StartY="0" EndX="4" EndY="2" />
+      </MountPoints>
+
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Misc\K_Imperial_SolarPanel_Large.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Misc\K_Imperial_SolarPanel_Large.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Misc\K_Imperial_SolarPanel_Large.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Imperial_SolarPanel_IB</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+
+      <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+      <MaxPowerOutput>0.5</MaxPowerOutput>
+
+      <PanelOrientation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-1</Z>
+      </PanelOrientation>
+      <TwoSidedPanel>true</TwoSidedPanel>
+      <PanelOffset>1.0</PanelOffset>
+      <DamageEffectName>Damage_Electrical_Damaged_SolarPanels</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <PhysicalMaterial>Glass</PhysicalMaterial>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>55</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+ 
+   </CubeBlocks>
+</Definitions>

@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <WeatherEffects>
+	<!--
+		<WeatherEffect xsi:type="MyObjectBuilder_WeatherEffectDefinition">
+            <Id>
+                <TypeId>WeatherEffectDefinition</TypeId>
+                <SubtypeId>ExampleWeather</SubtypeId>	Name used to set weather EX: /weather ExampleWeather
+            </Id>
+			<Name>Example</Name>	Name shown on LCD Panel Script
+			<FogColor>	Color of Fog
+				<X>0.9</X>	R
+				<Y>0.9</Y>	G
+				<Z>1</Z>	B
+		    </FogColor>
+            <FogDensity>0.05</FogDensity>	Density of Fog
+            <FogMultiplier>0.300</FogMultiplier>	Multiplier of Fog
+			<FogSkyboxMultiplier>1</FogSkyboxMultiplier>	Multiplier of Fog on Skybox
+            <FogAtmoMultiplier>1</FogAtmoMultiplier>	Multiplier of Fog on Atmosphere
+			<AmbientSound>WM_SnowLight</AmbientSound>	Sound of weather
+            <AmbientVolume>0.5</AmbientVolume>	Volume of weather sounds
+            <EffectName>WM_SnowSlow</EffectName>	Name of particle used for weather
+            <ParticleRadius>75</ParticleRadius>		Spawn radius of Particles
+            <ParticleCount>50</ParticleCount>	Number of Particle Spawners
+			<ParticleScale>1</ParticleScale>	Scale of Particle
+			<LightningChance>0</LightningChance>	Chance of lightning spawning every tick (x / 100)
+			<LightningGridStrikeChance>0</LightningGridStrikeChance> Chance of lightning hitting a grid (x / 100)
+			<LightningPlayerStrikeChance>0</LightningPlayerStrikeChance> Chance of lightning hitting a player (x / 100)
+			<Lightning>	 
+				<MaxLife>7</MaxLife>					How long it will live, in ticks (60ticks / 1second)
+				<BoltLength>5000</BoltLength>			How tall/long the bolt is
+				<BoltParts>50</BoltParts>				How many parts there are on the lightning bolt
+				<BoltVariation>100</BoltVariation>		How much the bolt shape varies, jaggedness
+				<BoltRadius>30</BoltRadius>			Radius at the top of the lightning bolt
+				<Damage>0</Damage>		Amount of damage lightning does to an entity
+				<Sound>WM_Lightning</Sound>				   What the lightning soumds like
+				<Color>				Color of lightning bolt
+					<X>100</X>		R
+					<Y>100</Y>		G
+					<Z>100</Z>		B
+					<W>1000</W>		A
+				</Color>
+				<ExplosionRadius>1</ExplosionRadius>		Size of explosion in meters
+			</Lightning>
+			<WindOutputModifier>1</WindOutputModifier>	Affects wind turbine power output
+			<SolarOutputModifier>1</SolarOutputModifier>		Affects oxygen farm and solar panel power output
+			<TemperatureModifier>1</TemperatureModifier>	Affects temperature within the weather
+			<OxygenLevelModifier>1</OxygenLevelModifier>	Affects amount of oxygen within the weather
+			<ParticleAlphaMultiplier>1</ParticleAlphaMultiplier> Alpha/Transparency of particle
+			<SunIntensity>30</SunIntensity>	Changes brightness of sun
+			<ShadowFadeout>0.8</ShadowFadeout>	Changes hardness of shadows
+        </WeatherEffect>
+	-->
+		<!-- Alien Fog -->
+		<WeatherEffect xsi:type="MyObjectBuilder_WeatherEffectDefinition">
+            <Id>
+                <TypeId>WeatherEffectDefinition</TypeId>
+                <SubtypeId>Starwars_Weather_Fog_Darkness</SubtypeId>
+            </Id>
+			<Name>Darkness</Name>
+			<FogColor>
+				<X>0.1</X>
+				<Y>0</Y>
+				<Z>0</Z>
+		    </FogColor>
+            <FogDensity>0.06</FogDensity>
+            <FogMultiplier>1</FogMultiplier>
+			<FogSkyboxMultiplier>1</FogSkyboxMultiplier>
+            <FogAtmoMultiplier>1</FogAtmoMultiplier>
+			<AmbientSound>WM_FogLight</AmbientSound>
+            <AmbientVolume>1</AmbientVolume>
+           <EffectName>WM_MarsStorm</EffectName>
+            <ParticleRadius>122</ParticleRadius>
+            <ParticleCount>24</ParticleCount>
+			<ParticleScale>1</ParticleScale>
+			<LightningChance>0</LightningChance>
+			<LightningGridStrikeChance>0</LightningGridStrikeChance>
+			<LightningPlayerStrikeChance>0</LightningPlayerStrikeChance>			
+			<WindOutputModifier>0</WindOutputModifier>
+			<SolarOutputModifier>0</SolarOutputModifier>
+			<TemperatureModifier>0.3</TemperatureModifier>
+			<OxygenLevelModifier>0.1</OxygenLevelModifier>
+			<FoliageWindModifier>0</FoliageWindModifier>
+			<ParticleAlphaMultiplier>0</ParticleAlphaMultiplier>
+			<SunColor>
+				<X>1</X>
+				<Y>0</Y>
+				<Z>0</Z>
+			</SunColor>
+			<SunSpecularColor>
+				<X>1</X>
+				<Y>0</Y>
+				<Z>0</Z>
+			</SunSpecularColor>
+			<SunIntensity>0.1</SunIntensity>
+			<ShadowFadeout>1.2</ShadowFadeout>
+        </WeatherEffect>
+		
+		<!-- Alien Rain -->
+		<WeatherEffect xsi:type="MyObjectBuilder_WeatherEffectDefinition">
+            <Id>
+                <TypeId>WeatherEffectDefinition</TypeId>
+                <SubtypeId>Starwars_Weather_Rain_Darkness</SubtypeId>
+            </Id>
+			<Name>Rain</Name>
+			<Public>true</Public>
+			<FogColor>
+				<X>0.8</X>
+				<Y>0.3</Y>
+				<Z>0.3</Z>
+		    </FogColor>
+            <FogDensity>0.05</FogDensity>
+            <FogMultiplier>0.35</FogMultiplier>
+			<FogSkyboxMultiplier>1</FogSkyboxMultiplier>
+            <FogAtmoMultiplier>1</FogAtmoMultiplier>
+			<AmbientSound>WM_RainLight</AmbientSound>
+            <AmbientVolume>0.5</AmbientVolume>
+            <EffectName>WM_Rain</EffectName>
+            <ParticleRadius>75</ParticleRadius>
+            <ParticleCount>50</ParticleCount>
+			<ParticleScale>1</ParticleScale>
+			<LightningChance>0</LightningChance>
+			<LightningGridStrikeChance>0</LightningGridStrikeChance>
+			<LightningPlayerStrikeChance>0</LightningPlayerStrikeChance>			
+			<WindOutputModifier>1.2</WindOutputModifier>
+			<SolarOutputModifier>0.8</SolarOutputModifier>
+			<TemperatureModifier>0.8</TemperatureModifier>
+			<OxygenLevelModifier>1</OxygenLevelModifier>
+		    <FoliageWindModifier>1.5</FoliageWindModifier>	
+			<ParticleAlphaMultiplier>1</ParticleAlphaMultiplier>
+			<SunColor>
+				<X>1</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</SunColor>
+			<SunSpecularColor>
+				<X>1</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</SunSpecularColor>
+			<SunIntensity>30</SunIntensity>
+			<ShadowFadeout>0.8</ShadowFadeout>
+        </WeatherEffect>
+		
+		
+		<WeatherEffect xsi:type="MyObjectBuilder_WeatherEffectDefinition">
+            <Id>
+                <TypeId>WeatherEffectDefinition</TypeId>
+                <SubtypeId>Starwars_Weather_MoonDustStorm</SubtypeId>
+            </Id>
+			<Name>Sandstorm</Name>
+			<Public>true</Public>
+			<FogColor>
+				<X>0.2</X>
+				<Y>0.2</Y>
+				<Z>0.2</Z>
+		    </FogColor>
+            <FogDensity>0.006</FogDensity>
+            <FogMultiplier>1</FogMultiplier>
+			<FogSkyboxMultiplier>1</FogSkyboxMultiplier>
+            <FogAtmoMultiplier>1</FogAtmoMultiplier>
+			<AmbientSound>WM_Sandstorm</AmbientSound>
+            <AmbientVolume>0.4</AmbientVolume>
+            <EffectName>WM_MarsStorm</EffectName>
+            <ParticleRadius>125</ParticleRadius>
+            <ParticleCount>22</ParticleCount>
+			<ParticleScale>1</ParticleScale>
+			<LightningChance>0</LightningChance>
+			<LightningGridStrikeChance>0</LightningGridStrikeChance>
+			<LightningPlayerStrikeChance>0</LightningPlayerStrikeChance>			
+			<WindOutputModifier>2</WindOutputModifier>
+			<SolarOutputModifier>0.1</SolarOutputModifier>
+			<TemperatureModifier>2</TemperatureModifier>
+			<OxygenLevelModifier>0.2</OxygenLevelModifier>
+			<FoliageWindModifier>2.0</FoliageWindModifier>
+			<ParticleAlphaMultiplier>0.25</ParticleAlphaMultiplier>
+			<SunColor>
+				<X>1</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</SunColor>
+			<SunSpecularColor>
+				<X>1</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</SunSpecularColor>
+			<SunIntensity>0.1</SunIntensity>
+			<ShadowFadeout>0.01</ShadowFadeout>
+        </WeatherEffect>
+		
+		
+		
+		
+		</WeatherEffects>
+</Definitions>

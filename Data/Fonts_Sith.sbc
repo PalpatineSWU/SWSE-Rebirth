@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Fonts>
+		<Font>
+			<Id>
+			  <TypeId>FontDefinition</TypeId>
+			  <SubtypeId>Sith</SubtypeId>
+			</Id>
+			<Path>Fonts\Sith\FontDataPA.xml</Path>
+			<Default>false</Default>
+		</Font>
+	</Fonts>
+</Definitions>

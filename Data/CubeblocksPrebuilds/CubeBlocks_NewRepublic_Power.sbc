@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <CubeBlocks>
+ 
+
+	
+
+     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>PowerSupplies_Battery</SubtypeId>
+      </Id>
+      <DisplayName>New Republic Battery</DisplayName>
+	  <Description>New Republic Designed Standardized Battery unit, equal to Imperial-level output.</Description>
+    <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Construction\Power\K_NR_Battery_Large.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="5" />
+			<Component Subtype="StandardPowerCell" Count="120" />
+		<Component Subtype="Computer" Count="5" />
+		<Component Subtype="ImperialConstruction" Count="3" />
+		 <Component Subtype="LightweightDurasteel" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>PowerSupplies_Battery</BlockPairName>
+	        <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	  <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>12</MaxPowerOutput>
+	   <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <RequiredPowerInput>12</RequiredPowerInput>
+      <AdaptibleInput>true</AdaptibleInput>
+      <MaxStoredPower>12</MaxStoredPower>
+      <InitialStoredPowerRatio>0.0</InitialStoredPowerRatio>
+	   		   <DestroySound>K_SW_Explosion_Generic</DestroySound>
+		    <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+			 <DestroyEffect>Imperial_Explosion</DestroyEffect>
+			  <GeneralDamageMultiplier>1.5</GeneralDamageMultiplier>
+    </Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+      <Id>
+        <TypeId>SolarPanel</TypeId>
+        <SubtypeId>PowerSupplies_SolarArray</SubtypeId>
+      </Id>
+      <DisplayName>New Republic Optimized Solar Array</DisplayName>
+	   <GuiVisible>true</GuiVisible>
+      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+      <Description>New Republic Designed Solar Collection Array, for Economic Power Solutions: Has a full output of 2.5 units when fully saturated.
+	  More Expensive than typical Arrays, with an inability of stacking, but far superior collection rate per unit.</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Construction\Power\K_NR_SolarFarm_Large.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="225" />
+        <Component Subtype="ImperialConstruction" Count="175" />
+       <Component Subtype="SolarCircuitry" Count="300" />
+        <Component Subtype="Computer" Count="250" />
+                <Component Subtype="TranspariSteel" Count="200" />
+		</Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <Center x="2" y="0" z="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="1" />
+       
+      </MountPoints>
+
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SolarPanelConstruction1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelConstruction2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelConstruction3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>PowerSupplies_SolarArray</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>150</BuildTimeSeconds>
+
+      <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+      <MaxPowerOutput>2.5</MaxPowerOutput>
+
+      <PanelOrientation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-1</Z>
+      </PanelOrientation>
+      <TwoSidedPanel>true</TwoSidedPanel>
+      <PanelOffset>1.0</PanelOffset>
+      <DamageEffectName>Damage_Electrical_Damaged_SolarPanels</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <PhysicalMaterial>Glass</PhysicalMaterial>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>55</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+	
+	
+	<Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+      <Id>
+        <TypeId>SolarPanel</TypeId>
+        <SubtypeId>PowerSupplies_SolarPanel</SubtypeId>
+      </Id>
+      <DisplayName>New Republic Solar Panel</DisplayName>
+	   <GuiVisible>true</GuiVisible>
+      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+      <Description>New Republic Designed Solar Panel, has a max output of 0.8 Units when fully saturated.</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Construction\Power\K_NR_SolarFarmSmall_Large.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="95" />
+        <Component Subtype="ImperialConstruction" Count="90" />
+        <Component Subtype="SolarCircuitry" Count="100" />
+        <Component Subtype="Computer" Count="45" />
+        <Component Subtype="TranspariSteel" Count="90" />
+		</Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+		<MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+       
+      </MountPoints>
+
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SolarPanelConstruction1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelConstruction2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelConstruction3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>PowerSupplies_SolarPanel</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>75</BuildTimeSeconds>
+
+      <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+      <MaxPowerOutput>0.8</MaxPowerOutput>
+
+      <PanelOrientation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-1</Z>
+      </PanelOrientation>
+      <TwoSidedPanel>true</TwoSidedPanel>
+      <PanelOffset>1.0</PanelOffset>
+      <DamageEffectName>Damage_Electrical_Damaged_SolarPanels</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <PhysicalMaterial>Glass</PhysicalMaterial>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>55</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+	
+ 
+ <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>PowerSupplies_SyncGenerator</SubtypeId>
+      </Id>
+      <DisplayName>New Republic Synthetic Generator</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor_large.dds</Icon>
+      <Description>New Republic Synthetic Based Power Generation, requires Synth Fuel Ingots to burn. Provides 35 units of power.</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Construction\Power\K_NR_SyncGenerator_Large.mwm</Model>
+      <Components>
+         <Component Subtype="LightweightDurasteel" Count="15" />
+         <Component Subtype="ImperialConstruction" Count="11" />
+         <Component Subtype="PowerConverter" Count="1" />
+         <Component Subtype="StandardCabling" Count="4" />
+         <Component Subtype="PowerGen_Basics" Count="4" />
+         <Component Subtype="Computer" Count="25" />
+		     <Component Subtype="StandardCabling" Count="3" />
+    		 <Component Subtype="ImperialConstruction" Count="15" />
+         <Component Subtype="LightweightDurasteel" Count="25" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+	  <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1" EndY="1" Default="true" />
+        </MountPoints>
+       
+      <BlockPairName>PowerSupplies_SyncGenerator</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>100</BuildTimeSeconds>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <MaxPowerOutput>35</MaxPowerOutput>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+
+            <!-- 
+                Values are volume fill ratio, means how much fuel reactor pulls from conveyor system to the inventory.
+                If volume fill ratio is bellow minimum, reactor starts pulling fuel up to maximum value.
+                Warning: Changing these values will affect performance.
+            -->
+            <InventoryFillFactorMin>0.001</InventoryFillFactorMin>
+            <InventoryFillFactorMax>0.002</InventoryFillFactorMax>
+
+            <!-- 
+                This is how much of fuel is pulled from conveyor system in one tick.
+                It's in minutes, means that it will pull X minutes of fuel in one tick.
+                Warning: Changing this value will affect performance.
+            -->
+            <FuelPullAmountFromConveyorInMinutes>10.0</FuelPullAmountFromConveyorInMinutes>
+
+     <FuelInfos>
+        <FuelInfo>
+          <Id>
+            <TypeId>Ingot</TypeId>
+            <SubtypeId>Spin_SyntheticFuel</SubtypeId>
+          </Id>
+		  <Ratio>0.6</Ratio>
+        </FuelInfo>
+      </FuelInfos>
+      <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
+      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+      <DamagedSound>ParticleReactor</DamagedSound>      
+      <EmissiveColorPreset>K_Imperial_Factory_Red</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>
+	 	 	     </Definition>
+	
+	
+	
+  </CubeBlocks>
+</Definitions>

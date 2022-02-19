@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!--
+  Usage:
+  
+  All entity component definitions (not components used in assemblers in game) have base class MyComponentDefinitionBase.
+  
+  You can define default definition for all components of same type, if you ommit the SubtypeId:
+  
+  <EntityComponents>
+    <EntityComponent xsi:type="MyObjectBuilder_CraftingComponentBlockDefinition">
+      <Id>
+        <TypeId>MyObjectBuilder_CraftingComponentBlock</TypeId>        
+      </Id>      
+    </EntityComponent>
+  </EntityComponents>
+  
+  You need to define type of the definition for deserializer - xsi:type="MyObjectBuilder_CraftingComponentBlockDefinition"
+  
+  When container on init of the components will look for component definition, it will first look for the same SubtypeId,
+  when it's not found, it will look for the definition with empty SubtypeId, if it doesn't find either, it will not call 
+  Init(MyComponentDefinitionBase definition) on component. If definition is found, it will pass the definition and call that method.
+  
+  See EntityContainers.sbc for defining default components in containers.
+
+  To enable the MyModStorageComponent and allow mods to save custom data to entities, add a entry like the following
+  and list all the custom GUIDs the mod uses for the dictionary keys.
+
+  <EntityComponents>
+    <EntityComponent xsi:type="MyObjectBuilder_ModStorageComponentDefinition">
+      <Id>
+        <TypeId>ModStorageComponent</TypeId>
+        <SubtypeId>ModName</SubtypeId>
+      </Id>
+      <RegisteredStorageGuids>
+        <guid>00000000-0000-0000-0000-000000000000</guid>
+      </RegisteredStorageGuids>
+    </EntityComponent>
+  </EntityComponents>
+
+  -->
+  <EntityComponents>
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>K_Imperial_SupplyDepot</SubtypeId>
+      </Id>
+      <Size x="0.8" y="0.8" z="0.8" />
+    </EntityComponent>
+	
+	  <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>K_Imperial_Reborn_TIE_Bomber_HeadStorage</SubtypeId>
+      </Id>
+      <Size x="0.5" y="0.5" z="0.5" />
+    </EntityComponent>
+	
+	
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>K_Imperial_Reborn_TIE_Bomber_LinkageUnit</SubtypeId>
+      </Id>
+      <Size x="0.8" y="0.8" z="0.8" />
+    </EntityComponent>
+	
+	 <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>K_Imperial_PatrolCraft_CargoBay</SubtypeId>
+      </Id>
+      <Size x="20" y="20" z="2" />
+    </EntityComponent>
+	
+	 <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>K_Imperial_Dropship_Guild_CargoHull</SubtypeId>
+      </Id>
+      <Size x="20" y="2" z="18" />
+    </EntityComponent>
+	
+	 <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>K_Imperial_MG_Cache_Storage</SubtypeId>
+      </Id>
+      <Size x="2" y="2" z="2" />
+    </EntityComponent>
+	
+	
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>K_Imperial_SupplyDepot_AltII</SubtypeId>
+      </Id>
+      <Size x="0.8" y="0.8" z="0.8" />
+    </EntityComponent>
+	
+	 <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>K_Imperial_Assembly_HeavyCargo</SubtypeId>
+      </Id>
+      <Size x="12" y="12" z="12" />
+    </EntityComponent>
+	
+	 <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>K_Imperial_Carrack_CargoShip_CargoContainer</SubtypeId>
+      </Id>
+      <Size x="2" y="2" z="2" />
+    </EntityComponent>
+	
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>K_Sith_Warship_HangarDeck</SubtypeId>
+      </Id>
+      <Size x="0.8" y="0.8" z="0.8" />
+    </EntityComponent>
+
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>K_Rebellion_Assembler_ExileOutfitter</SubtypeId>
+      </Id>
+      <Size x="800" y="800" z="800" />
+    </EntityComponent>
+
+  	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>K_Rebellion_Assembler_StarfighterYard</SubtypeId>
+      </Id>
+      <Size x="800" y="800" z="800" />
+    </EntityComponent>  
+
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>K_Rebellion_Assembler_Chopshop</SubtypeId>
+      </Id>
+      <Size x="800" y="800" z="800" />
+    </EntityComponent>
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_EntityStatComponentDefinition">
+      <Id>
+        <TypeId>CharacterStatComponent</TypeId>
+        <SubtypeId>k_starwars_empire_pilot_ii</SubtypeId>
+      </Id>
+      <Stats>
+        <Stat>
+          <TypeId>MyObjectBuilder_EntityStat</TypeId>
+          <SubtypeId>PilotHealth1</SubtypeId>
+        </Stat>
+      </Stats>
+      <Scripts>
+        <Script>SpaceStatEffect</Script>
+      </Scripts>
+    </EntityComponent>
+	
+	 <EntityComponent xsi:type="MyObjectBuilder_EntityStatComponentDefinition">
+      <Id>
+        <TypeId>CharacterStatComponent</TypeId>
+        <SubtypeId>k_starwars_empire_kreegtechnication_i</SubtypeId>
+      </Id>
+      <Stats>
+        <Stat>
+          <TypeId>MyObjectBuilder_EntityStat</TypeId>
+          <SubtypeId>HeavyHealth4</SubtypeId>
+        </Stat>
+      </Stats>
+      <Scripts>
+        <Script>SpaceStatEffect</Script>
+      </Scripts>
+    </EntityComponent>
+	
+	
+	<EntityComponent xsi:type="MyObjectBuilder_EntityStatComponentDefinition">
+      <Id>
+        <TypeId>CharacterStatComponent</TypeId>
+        <SubtypeId>k_sw_chiss_engineer_i</SubtypeId>
+      </Id>
+      <Stats>
+        <Stat>
+          <TypeId>MyObjectBuilder_EntityStat</TypeId>
+          <SubtypeId>ChissHealth5</SubtypeId>
+        </Stat>
+      </Stats>
+      <Scripts>
+        <Script>SpaceStatEffect</Script>
+      </Scripts>
+    </EntityComponent>
+	
+	<EntityComponent xsi:type="MyObjectBuilder_EntityStatComponentDefinition">
+      <Id>
+        <TypeId>CharacterStatComponent</TypeId>
+        <SubtypeId>k_starwars_empire_specialtrooper_i</SubtypeId>
+      </Id>
+      <Stats>
+        <Stat>
+          <TypeId>MyObjectBuilder_EntityStat</TypeId>
+          <SubtypeId>AirborneHealth2</SubtypeId>
+        </Stat>
+      </Stats>
+      <Scripts>
+        <Script>SpaceStatEffect</Script>
+      </Scripts>
+    </EntityComponent>
+	
+	<EntityComponent xsi:type="MyObjectBuilder_EntityStatComponentDefinition">
+      <Id>
+        <TypeId>CharacterStatComponent</TypeId>
+        <SubtypeId>k_starwars_empire_miner_i</SubtypeId>
+      </Id>
+      <Stats>
+        <Stat>
+          <TypeId>MyObjectBuilder_EntityStat</TypeId>
+          <SubtypeId>MinerHealth3</SubtypeId>
+        </Stat>
+      </Stats>
+      <Scripts>
+        <Script>SpaceStatEffect</Script>
+      </Scripts>
+    </EntityComponent>
+	
+	
+	<EntityComponent xsi:type="MyObjectBuilder_EntityStatComponentDefinition">
+      <Id>
+        <TypeId>CharacterStatComponent</TypeId>
+        <SubtypeId>k_sw_rebellionquickie</SubtypeId>
+      </Id>
+      <Stats>
+        <Stat>
+          <TypeId>MyObjectBuilder_EntityStat</TypeId>
+          <SubtypeId>RebeilonHealth6</SubtypeId>
+        </Stat>
+      </Stats>
+      <Scripts>
+        <Script>SpaceStatEffect</Script>
+      </Scripts>
+    </EntityComponent>
+	
+	<EntityComponent xsi:type="MyObjectBuilder_EntityStatComponentDefinition">
+      <Id>
+        <TypeId>CharacterStatComponent</TypeId>
+        <SubtypeId>k_sw_rebellionquickierecolorable</SubtypeId>
+      </Id>
+      <Stats>
+        <Stat>
+          <TypeId>MyObjectBuilder_EntityStat</TypeId>
+          <SubtypeId>RebeilonHealth6</SubtypeId>
+        </Stat>
+      </Stats>
+      <Scripts>
+        <Script>SpaceStatEffect</Script>
+      </Scripts>
+    </EntityComponent>
+   
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>K_Pirates_StarViper_CargoPod</SubtypeId>
+      </Id>
+      <Size x="0.8" y="0.8" z="0.8" />
+    </EntityComponent>
+
+  </EntityComponents>
+
+</Definitions>

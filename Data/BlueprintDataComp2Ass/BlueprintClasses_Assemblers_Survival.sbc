@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<BlueprintClasses>
+  
+ 
+	
+	
+	<Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>K_StarwarsMasterFile_Tools_Durasteel</SubtypeId>
+      </Id>
+      <DisplayName>Tools (Durasteel)</DisplayName>
+      <Icon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+	
+	
+	<Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>K_StarwarsMasterFile_Tools_Alum</SubtypeId>
+      </Id>
+      <DisplayName>Tools (Alum)</DisplayName>
+      <Icon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+	
+	
+	
+	
+	<Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>K_StarwarsMasterFile_Components_Starwars</SubtypeId>
+      </Id>
+      <DisplayName>Components (Modded)</DisplayName>
+      <Icon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+	
+	
+	<Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>K_StarwarsMasterFile_Components_Vanilla</SubtypeId>
+      </Id>
+      <DisplayName>Components (Vanilla)</DisplayName>
+      <Icon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+	
+	
+	<Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>K_StarwarsMasterFile_ResourceConversion_SurvivalPod</SubtypeId>
+      </Id>
+      <DisplayName>Resource Conversion(Limited)</DisplayName>
+      <Icon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+	
+	
+	<Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>K_StarwarsMasterFile_ResourceHandling</SubtypeId>
+      </Id>
+      <DisplayName>Resource Refinement(Limited)</DisplayName>
+      <Icon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+	
+
+	
+	
+	
+</BlueprintClasses>
+	
+ <BlueprintClassEntries>	
+ <!--Durasteel Tools-->
+  <Entry Class="K_StarwarsMasterFile_Tools_Durasteel" BlueprintSubtypeId="K_StarwarsMasterFile_Tools_Durasteel" />
+ 
+ <!--Alum Tools -->
+ <Entry Class="K_StarwarsMasterFile_Tools_Alum" BlueprintSubtypeId="K_StarwarsMasterFile_Tools_Alum" />
+ 
+ 
+ <!-- Imperial Components -->
+<Entry Class="K_StarwarsMasterFile_Components_Starwars" BlueprintSubtypeId="K_Imperial_Durasteel_Plate" />
+<Entry Class="K_StarwarsMasterFile_Components_Starwars" BlueprintSubtypeId="K_Imperial_GeneralParts" />
+<Entry Class="K_StarwarsMasterFile_Components_Starwars" BlueprintSubtypeId="K_Imperial_Construction" />
+<Entry Class="K_StarwarsMasterFile_Components_Starwars" BlueprintSubtypeId="K_Imperial_TranspariSteel" />
+<Entry Class="K_StarwarsMasterFile_Components_Starwars" BlueprintSubtypeId="K_Imperial_Computer" />
+<Entry Class="K_StarwarsMasterFile_Components_Starwars" BlueprintSubtypeId="K_Imperial_StandardPowerCell" />
+<Entry Class="K_StarwarsMasterFile_Components_Starwars" BlueprintSubtypeId="K_Imperial_StandardCabling" />
+ 
+ 
+ <!-- Rebellion Components -->
+<Entry Class="K_StarwarsMasterFile_Components_Starwars" BlueprintSubtypeId="K_Rebellion_ScrapDurasteelRecipe_Normal" />
+<Entry Class="K_StarwarsMasterFile_Components_Starwars" BlueprintSubtypeId="K_Rebellion_ConstructionRecipe_Normal" />
+<Entry Class="K_StarwarsMasterFile_Components_Starwars" BlueprintSubtypeId="K_Rebellion_Computer" />
+<Entry Class="K_StarwarsMasterFile_Components_Starwars" BlueprintSubtypeId="K_Rebellion_AstromechRecipe_Normal" />
+<Entry Class="K_StarwarsMasterFile_Components_Starwars" BlueprintSubtypeId="K_Rebellion_TranspariSteelRecipe" />
+<Entry Class="K_StarwarsMasterFile_Components_Starwars" BlueprintSubtypeId="K_Rebellion_PowerCellRecipe_Normal" />
+
+
+ <!-- Vanilla Components -->
+<Entry Class="K_StarwarsMasterFile_Components_Vanilla" BlueprintSubtypeId="SteelPlate" />
+<Entry Class="K_StarwarsMasterFile_Components_Vanilla" BlueprintSubtypeId="SmallTube" />
+<Entry Class="K_StarwarsMasterFile_Components_Vanilla" BlueprintSubtypeId="LargeTube" />
+<Entry Class="K_StarwarsMasterFile_Components_Vanilla" BlueprintSubtypeId="Display" />
+<Entry Class="K_StarwarsMasterFile_Components_Vanilla" BlueprintSubtypeId="ConstructionComponent" />
+<Entry Class="K_StarwarsMasterFile_Components_Vanilla" BlueprintSubtypeId="ComputerComponent" />
+<Entry Class="K_StarwarsMasterFile_Components_Vanilla" BlueprintSubtypeId="PowerCell" />
+<Entry Class="K_StarwarsMasterFile_Components_Vanilla" BlueprintSubtypeId="MotorComponent" />
+<Entry Class="K_StarwarsMasterFile_Components_Vanilla" BlueprintSubtypeId="MetalGrid" />
+<Entry Class="K_StarwarsMasterFile_Components_Vanilla" BlueprintSubtypeId="InteriorPlate" />
+ 
+  <!-- Resource Handling -->
+  <Entry Class="K_StarwarsMasterFile_ResourceHandling" BlueprintSubtypeId="MasterFile_StoneRefinement" />
+  
+ 
+ <!-- Resource Conversion -->
+ <!-- TODO: Switch out to proper SubTypeId -->
+  <Entry Class="K_StarwarsMasterFile_ResourceConversion_SurvivalPod" BlueprintSubtypeId="DuraSteel" />
+  <Entry Class="K_StarwarsMasterFile_ResourceConversion_SurvivalPod" BlueprintSubtypeId="Alum" />
+  <Entry Class="K_StarwarsMasterFile_ResourceConversion_SurvivalPod" BlueprintSubtypeId="Lommite" />
+  <Entry Class="K_StarwarsMasterFile_ResourceConversion_SurvivalPod" BlueprintSubtypeId="Carbonite" />
+  <Entry Class="K_StarwarsMasterFile_ResourceConversion_SurvivalPod" BlueprintSubtypeId="Norax" />
+ 
+</BlueprintClassEntries>
+</Definitions>

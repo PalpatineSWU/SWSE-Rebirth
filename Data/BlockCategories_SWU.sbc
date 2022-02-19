@@ -1,0 +1,536 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+ 
+	    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_CharacterTools</DisplayName>
+      <Name>CharacterTools</Name>
+      <SearchBlocks>false</SearchBlocks>
+      <IsToolCategory>true</IsToolCategory>
+      <ItemIds>
+        <string>HandDrillScannerItem</string>
+        <string>HandDrillSWItem</string>      
+        <string>AngleGrinder_LukeSaberItem</string>
+        <string>AngleGrinder_LukeSaberRevItem</string>
+        <string>AngleGrinder_DarthSaberItem</string>
+        <string>AngleGrinder_DarkSaberItem</string>
+        <string>AngleGrinder_MaulCaneSaberItem</string>
+        <string>AngleGrinder_MaulSaberItem</string>
+        <string>AngleGrinder_MaceSaberItem</string>
+        <string>AngleGrinder_DukuSaberItem</string>
+        <string>AngleGrinder_KananSaberItem</string>
+        <string>AngleGrinder_EzraTrainSaberItem</string>
+        <string>AngleGrinder_EzraSaberItem</string>
+        <string>AngleGrinder_ArkolisSaberItem</string>
+        <string>AngleGrinder_PalpatineSaberItem</string>
+      </ItemIds>
+    </Category>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_Cockpit</DisplayName>
+      <Name>Cockpits</Name>
+      <ItemIds>
+        <string>Cockpit/CockpitOpen</string>
+        <string>Cockpit/CockpitOpen</string>
+        <string>Cockpit/CockpitOpen</string>
+      </ItemIds>
+    </Category>
+
+	   <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId>ImperialMod_Starfighters</SubtypeId>
+      </Id>
+      <DisplayName>Fightercraft Sets</DisplayName>
+      <Name>Sets of Fightercraft</Name>
+      <ItemIds>
+        <string>K_Pirates_StarViper_Cockpit</string>
+        <string>Ionizer_Cockpit</string>
+        <string>AWing_Cockpit</string>
+        <string>EWing_Cockpit</string>
+        <string>H60_Cockpit_A</string>
+        <string>XWing_70_Cockpit</string>
+        <string>XWing_XJ5_Cockpit</string>
+        <string>K_Imperial_A9Interceptor_Cockpit</string>
+        <string>AWing_MainEngine</string>
+        <string>AWing_MainEngineII</string>
+        <string>AWing_Reactor</string>
+        <string>AWing_Gyro</string>
+        <string>AWing_Cockpit</string>
+        <string>AWing_Launcher</string>
+        <string>AWing_Camera</string>
+        <string>AWing_Hyperdrive</string>
+        <string>AWing_PowerCell</string>
+        <string>AWing_LaserCannon</string>
+        <string>AWing_AMS</string>
+        <string>AWing_LandingGear</string>
+        <string>AWing_Antenna</string>
+        <string>AWing_RC</string>
+        <string>EWing_Cockpit</string>
+        <string>EWing_Hatch</string>
+        <string>EWing_Reactor</string>
+        <string>EWing_Battery</string>
+        <string>EWing_RC</string>
+        <string>EWing_GyroI</string>
+        <string>EWing_GyroII</string>
+        <string>EWing_EngineForward</string>
+        <string>EWing_EngineInverted</string>
+        <string>EWing_LifeSupport</string>
+        <string>EWing_RoofGun</string>
+        <string>EWing_ProtonLauncher</string>
+        <string>EWing_WingGunA</string>
+        <string>EWing_WingGunB</string>
+        <string>EWing_Hyperdrive</string>
+        <string>EWing_Antenna</string>
+        <string>EWing_LandingGear</string>
+        <string>H60_Reactor</string>
+        <string>H60_Battery</string>
+        <string>H60_Hyperdrive</string>
+        <string>H60_Engine_Inverse</string>
+        <string>H60_Engine_Primary</string>
+        <string>H60_Engine_Cockpit</string>
+        <string>H60_BombBay</string>
+        <string>H60_ProtonLauncher</string>
+        <string>H60_IonCannon</string>
+        <string>H60_MediumLaserCannon</string>
+        <string>H60_Antenna</string>
+        <string>H60_Cockpit_A</string>
+        <string>H60_Cockpit_B</string>
+        <string>H60_Cockpit_A_Hatch</string>
+        <string>H60_Cockpit_B_Hatch</string>
+        <string>Ionizer_LC</string>
+        <string>Ionizer_IonWingA</string>
+        <string>Ionizer_IonWingB</string>
+        <string>Ionizer_TorpedoLauncher</string>
+        <string>Ionizer_Cockpit</string>
+        <string>Ionizer_Gyro</string>
+        <string>Ionizer_Reactor</string>
+        <string>Ionizer_LifeSupport</string>
+        <string>Ionizer_Battery</string>
+        <string>Ionizer_Hyperdrive</string>
+        <string>Ionizer_MainEngineReverse</string>
+        <string>Ionizer_MainEngine</string>
+        <string>Ionizer_SubEngineI</string>
+        <string>Ionizer_SubEngineII</string>
+        <string>Shared_SecondaryThruster</string>
+        <string>Shared_SecondaryThruster_Light</string>
+        <string>XWing_70_Cockpit</string>
+        <string>XWing_70_Hatch</string>
+        <string>XWing_70_Battery</string>
+        <string>XWing_70_Gyro</string>
+        <string>XWing_70_Antenna</string>
+        <string>XWing_70_Reactor</string>
+        <string>XWing_70_LifeSupport</string>
+        <string>XWing_70_Hyperdrive</string>
+        <string>XWing_70_Engine_Reverse_A</string>
+        <string>XWing_70_Engine_Reverse_B</string>
+        <string>XWing_70_Engine_Main</string>
+        <string>XWing_70_Weaponry_Wing_A</string>
+        <string>XWing_70_Weaponry_Wing_B</string>
+        <string>XWing_70_ProtonTorpedoLauncher</string>
+        <string>XWing_70_LandingGear</string>
+        <string>XWing_70_Connector</string>
+        <string>XWing_XJ5_Cockpit</string>
+        <string>XWing_XJ5_Hatch</string>
+        <string>XWing_XJ5_Battery</string>
+        <string>XWing_XJ5_Gyro</string>
+        <string>XWing_XJ5_Antenna</string>
+        <string>XWing_XJ5_Reactor</string>
+        <string>XWing_XJ5_LifeSupport</string>
+        <string>XWing_XJ5_Hyperdrive</string>
+        <string>XWing_XJ5_Engine_Reverse_A</string>
+        <string>XWing_XJ5_Engine_Reverse_B</string>
+        <string>XWing_XJ5_Engine_Main</string>
+        <string>XWing_XJ5_Weaponry_Wing_A</string>
+        <string>XWing_XJ5_Weaponry_Wing_B</string>
+        <string>XWing_XJ5_Launcher</string>
+        <string>XWing_70_Connector</string>
+        <string>YWing_LaserCannon</string>
+        <string>YWing_BombBay</string>
+        <string>YWing_TorpedoLauncher</string>
+        <string>YWing_IonTurret</string>
+        <string>YWing_LaserTurret</string>
+        <string>YWing_CockpitA</string>
+        <string>YWing_GyroWing</string>
+        <string>YWing_Reactor</string>
+        <string>YWing_Lifesupport</string>
+        <string>YWing_Storage</string>
+        <string>YWing_Hyperdrive</string>
+        <string>YWing_Engine_Main_I</string>
+        <string>YWing_Engine_Main_II</string>
+        <string>YWing_Engine_Secondary_I</string>
+        <string>YWing_Engine_Secondary_II</string>
+        <string>K_TIE_Fighter_Cockpit</string>
+        <string>K_TIE_Interceptor_Wing</string>
+        <string>K_TIE_Bomber_Pod</string>
+        <string>K_TIE_Drone_Core</string>
+        <string>K_TIE_Hunter_Lifesupport</string>
+        <string>K_Imperial_HowlRunner_Cockpit</string>
+        <string>K_Imperial_A9Interceptor_Cockpit</string>
+        <string>K_Imperial_Reborn_TIE_Fighter_Cockpit</string>
+        <string>K_Imperial_Reborn_TIE_Interceptor_Cockpit</string>
+        <string>K_Imperial_Reborn_TIE_Droid_Core</string>
+        <string>K_Imperial_Reborn_TIE_Defender_Cockpit</string>
+      </ItemIds>
+    </Category>
+	
+	 
+	   <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId>Republic_Ships</SubtypeId>
+      </Id>
+      <DisplayName>Republic Ships</DisplayName>
+      <Name>Republic Ships</Name>
+      <ItemIds>
+      <string>K_Imperial_Dropship_Guild_Battery</string>
+      <string>K_Imperial_Dropship_Guild_Gyro</string>
+      <string>K_Imperial_Dropship_Guild_CargoHull</string>
+      <string>K_Imperial_Dropship_Guild_EngineMain</string>
+      <string>K_Imperial_Dropship_Guild_EngineSecondary</string>
+      <string>K_Imperial_Dropship_Guild_An</string>
+      </ItemIds>
+    </Category>
+		
+	 <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId>ImperialMod_Decor</SubtypeId>
+      </Id>
+      <DisplayName>Decorative Blocks Star Wars</DisplayName>
+      <Name>Imperial</Name>
+      <ItemIds>
+        <string>K_Imperial_Port_Type_I</string>
+        <string>K_Imperial_Port_Type_II</string>
+        <string>K_Imperial_Conveyor_Cables_I_Cube</string>
+        <string>K_Imperial_Misc_StorageBoxPile_I</string>
+        <string>K_Imperial_Misc_Walkway_I_Straight</string>
+        <string>K_Imperial_Misc_Walkway_I_Ramp</string>
+        <string>K_Imperial_Misc_ReflectiveSurface_I_Cube</string>
+        <string>K_Imperial_Misc_Wall_I</string>
+        <string>K_Imperial_Misc_Wall_ICap</string>
+        <string>K_Imperial_Misc_Passage_I</string>
+        <string>K_Imperial_Misc_Door_I</string>
+        <string>K_Imperial_Misc_Hangar_LandingGear</string>
+        <string>K_Imperial_Misc_Hangar_Field_5x</string>
+        <string>K_Imperial_Misc_Hangar_Field_5xRed</string>
+      </ItemIds>
+    </Category>
+	
+		 <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId>ImperialMod_Consoles</SubtypeId>
+      </Id>
+      <DisplayName>Bridge Blocks</DisplayName>
+      <Name>Bridge Blocks</Name>
+      <ItemIds>
+        <string>K_Imperial_ISD_New_Bridge_Console</string>
+        <string>K_Imperial_ISD_New_Bridge_LCD</string>
+        <string>K_Imperial_ISD_New_Bridge_PB</string>
+        <string>K_Imperial_ISD_New_Bridge_Floor</string>
+        <string>K_Imperial_ISD_New_Bridge_Roof</string>
+        <string>K_Imperial_ISD_New_Bridge_BackWall</string>
+        <string>K_Imperial_ISD_New_Bridge_CenterWalk</string>
+        <string>K_Imperial_ISD_New_Bridge_CommandDeck</string>
+        <string>K_Imperial_ISD_New_Bridge_LowerWall_A</string>
+        <string>K_Imperial_ISD_New_Bridge_LowerWall_B</string>
+        <string>K_Imperial_ISD_New_Bridge_UpperWall_A</string>
+        <string>K_Imperial_ISD_New_Bridge_Corner_A</string>
+        <string>K_Imperial_ISD_New_Bridge_FrontCommand</string>
+      </ItemIds>
+    </Category>
+	
+	
+	 <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_Production</DisplayName>
+      <Name>Production</Name>
+      <StrictSearch>true</StrictSearch>
+      <ItemIds>
+        <string>K_Imperial_Assembly_Factory_Micro</string>
+        <string>K_Imperial_Assembly_Factory_Light_I</string>
+        <string>K_Imperial_Assembly_Factory_Advanced_I</string>
+        <string>K_Imperial_Assembly_Factory_Sub</string>
+        <string>K_Imperial_Assembly_TechPlant</string>
+        <string>K_Imperial_Assembly_MassAssembler</string>
+        <string>K_Imperial_Refinement_Refinery_Light_I</string>
+        <string>K_Imperial_Refinement_Foundry_Light_I</string>
+        <string>K_Imperial_Refinement_EmergencyRefinery</string>
+        <string>K_Imperial_Refinement_ProcessingFacility</string>
+        <string>K_Imperial_RecyclingPlant_ImperialScrap</string>
+        <string>K_Imperial_Refinement_Hypermatter_Accumulator</string>
+        <string>K_Imperial_Assembly_Factory_Sub</string>
+        <string>K_Imperial_Assembly_Factory_Munitions</string>
+        <string>K_Imperial_Assembly_Factory_MAW</string>
+        <string>K_Imperial_RecyclingPlant_ImperialScrap</string>
+		  </ItemIds>
+    </Category>
+
+    
+	    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_ShipWeapons</DisplayName>
+      <Name>ShipWeapons</Name>
+      <SearchBlocks>false</SearchBlocks>
+      <IsShipCategory>true</IsShipCategory>
+      <IsBlockCategory>false</IsBlockCategory>
+      <IsToolCategory>true</IsToolCategory>
+      <ItemIds>
+        <string>K_TIE_Interceptor_Wing_TipWeapon</string>
+	      <string>K_TIE_Interceptor_Wing_TipWeapon_Missile</string>
+	      <string>K_TIE_Fighter_Weaponry</string>
+	      <string>K_TIE_Defender_Weapon_Missile</string>
+  	    <string>K_TIE_Defender_Weapon_Laser</string>
+  	    <string>K_TIE_Defender_Weapon_MassDriver</string>
+	      <string>K_TIE_CustomII_Wing_CannonArray</string>
+	      <string>K_TIE_CustomII_Wing_MissileArray</string>
+		    <string>K_Imperial_Missile_Type_I</string>
+	      <string>K_Imperial_Missile_Type_II</string>
+        <string>K_TIE_Bomber_Pod</string>
+	      <string>K_TIE_Bomber_Pod_CenterBombbay</string>
+		    <string>K_TIE_Drone_CI_Wing</string>
+		  	<string>K_TIE_NIII_Wing</string>
+				<string>K_TIE_WRIII_Wing</string>
+				<string>K_TIE_Attachable_RocketPod</string>
+				<string>K_TIE_Hunter_Weaponry_IonCannon</string>
+				<string>K_TIE_Hunter_Weaponry_MissilePods</string>
+				<string>K_TIE_Hunter_Weaponry_HullGun</string>
+				<string>K_TIE_AdvancedV1_Weaponry</string>
+				<string>K_Imperial_NebulonImp_Turbolaser</string>
+				<string>K_Imperial_Generic_TurbolaserSingle</string>
+				<string>K_Imperial_Generic_LaserCannonMulti_L</string>
+				<string>K_TIE_LightIonCannon</string>
+				<string>K_Imperial_SpeederBike_Weaponry</string>
+				<string>K_Chiss_Clawcraft_WingCannon</string>
+				<string>K_Chiss_Clawcraft_WingCannonII</string>
+				<string>K_TIE_Mangler_TurbolaserWing</string>
+      </ItemIds>
+	  </Category>
+	
+	 <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_CharacterAnimations</DisplayName>
+      <Name>CharacterAnimations</Name>
+      <IsShipCategory>true</IsShipCategory>
+      <ShowAnimations>true</ShowAnimations>
+      <IsAnimationCategory>true</IsAnimationCategory>
+      <ItemIds>
+  
+      </ItemIds>
+    </Category>
+	
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_ConveyorBlocks</DisplayName>
+      <Name>Conveyors</Name>
+      <ItemIds>
+        <string>K_Imperial_Conveyor_Cables_I</string>
+        <string>K_Imperial_Conveyor_HangarAttachment</string>
+        <string>K_Imperial_Conveyor_Cables_DownShort</string>
+        <string>K_Imperial_Conveyor_Cables_DownFull</string>
+        <string>K_Imperial_Conveyor_Cables_I_Corner</string>
+        <string>K_Imperial_Conveyor_Cables_I_CornerAngle</string>
+        <string>K_Imperial_Conveyor_Cables_I_T</string>
+        <string>K_Imperial_Conveyor_Cables_IB</string>
+        <string>K_Imperial_Conveyor_Cables_I_Conv</string>
+        <string>K_Imperial_Conveyor_Cables_I_Cube</string>
+        <string>K_Imperial_Conveyor_GunTower_1x1x1</string>
+        <string>K_Imperial_Assembly_HeavyCargo</string>
+        <string>K_Imperial_Dropship_Guild_CargoHull</string>        
+        <string>K_Imperial_SupplyDepot</string>
+        <string>K_Imperial_SupplyDepot_AltII</string>
+        <string>YWing_Storage</string>  
+        <string>K_Pirates_StarViper_CargoPod</string>  
+        <string>K_Imperial_Reborn_TIE_Bomber_LinkageUnit</string>  
+        <string>K_Imperial_Reborn_TIE_Bomber_HeadStorage</string>  
+      </ItemIds>
+    </Category>
+
+	 <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId>Medical_Facilities</SubtypeId>
+      </Id>
+      <DisplayName>Medical Facilities</DisplayName>
+      <Name>Medical Facilities</Name>
+      <ItemIds>
+	      <string>K_CIS_Clutter_Rack_I</string>
+	      <string>K_CIS_Clutter_Rack_IS</string>
+	      <string>K_CIS_SpawnPoint_Rack_I</string>
+	      <string>K_CIS_SpawnPoint_Beacon_I</string>
+        <string>K_Imperial_SpawnPoint_Beacon_I</string>
+        <string>K_Imperial_SpawnPoint_Facility_I</string>
+        <string>K_Imperial_BactaTank</string>
+        <string>K_Imperial_SpawnPoint_Globe_I</string>
+        <string>Medical_SurvivalKit_SG</string>
+        <string>LargeMedicalRoom</string>
+      </ItemIds>
+    </Category>
+	
+      <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_ShipTools</DisplayName>
+      <Name>ShipTools</Name>
+      <SearchBlocks>false</SearchBlocks>
+      <IsShipCategory>true</IsShipCategory>
+      <IsBlockCategory>false</IsBlockCategory>
+      <IsToolCategory>true</IsToolCategory>
+      <ItemIds>
+        <string>ShipGrinder/LargeShipGrinder</string>
+        <string>ShipWelder/LargeShipWelder</string>
+        <string>Drill/LargeBlockDrill</string>
+        <string>Drill/SmallBlockDrill</string>
+        <string>ShipGrinder/SmallShipGrinder</string>
+        <string>ShipWelder/SmallShipWelder</string>
+
+        <string>ShipGrinder/LargeShipGrinder2x</string>
+        <string>ShipWelder/LargeShipWelder2x</string>
+        <string>Drill/LargeBlockDrill2x</string>
+        <string>Drill/SmallBlockDrill2x</string>
+        <string>ShipGrinder/SmallShipGrinder2x</string>
+        <string>ShipWelder/SmallShipWelder2x</string>
+
+        <string>ShipGrinder/LargeShipGrinder4x</string>
+        <string>ShipWelder/LargeShipWelder4x</string>
+        <string>Drill/LargeBlockDrill4x</string>
+        <string>Drill/SmallBlockDrill4x</string>
+        <string>ShipGrinder/SmallShipGrinder4x</string>
+        <string>ShipWelder/SmallShipWelder4x</string>
+
+        <string>ShipGrinder/LargeShipGrinder8x</string>
+        <string>ShipWelder/LargeShipWelder8x</string>
+        <string>Drill/LargeBlockDrill8x</string>
+        <string>Drill/SmallBlockDrill8x</string>
+        <string>ShipGrinder/SmallShipGrinder8x</string>
+        <string>ShipWelder/SmallShipWelder8x</string>
+      </ItemIds>
+    </Category>
+
+	 <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId>Thrusters</SubtypeId>
+      </Id>
+      <DisplayName>Thrusters</DisplayName>
+      <Name>Thrusters</Name>
+      <ItemIds>
+<string>K_Imperial_A9Interceptor_Engine_A</string>
+<string>K_Imperial_A9Interceptor_Engine_B</string>
+<string>K_Chiss_Clawcraft_ReverseEngine</string>
+<string>K_Chiss_Clawcraft_PrimaryEngine</string>
+<string>K_Chiss_Clawcraft_SecondaryEngine</string>
+<string>K_Imperial_Dropship_Guild_EngineMain</string>
+<string>K_Imperial_Dropship_Guild_EngineSecondary</string>
+<string>K_Imperial_HowlRunner_ReverseEngine</string>
+<string>K_Imperial_HowlRunner_MainEngine</string>
+<string>K_Imperial_Engine_LG_L_I</string>
+<string>K_Imperial_Engine_LG_S_I</string>
+<string>K_Imperial_Generic_ManeuveringThrust</string>
+<string>K_Imperial_Generics_Thruster_LG_Main</string>
+<string>K_Imperial_Generics_HydroThruster_LG_Main</string>
+<string>K_Imperial_ProbeDroid_Top_Thruster</string>
+<string>K_Imperial_ProbeDroid_Bottom_Thruster</string>
+<string>K_Imperial_ProbeDroid_Bottom_III</string>
+<string>K_Imperial_PatrolCraft_MainEngine</string>
+<string>AWing_MainEngine</string>
+<string>AWing_MainEngineII</string>
+<string>EWing_EngineForward</string>
+<string>EWing_EngineInverted</string>
+<string>H60_Engine_Inverse</string>
+<string>H60_Engine_Primary</string>
+<string>H60_Engine_Cockpit</string>
+<string>Ionizer_MainEngineReverse</string>
+<string>Ionizer_MainEngine</string>
+<string>Ionizer_SubEngineI</string>
+<string>Ionizer_SubEngineII</string>
+<string>Shared_SecondaryThruster</string>
+<string>Shared_SecondaryThruster_Light</string>
+<string>XWing_70_Engine_Reverse_A</string>
+<string>XWing_70_Engine_Reverse_B</string>
+<string>XWing_70_Engine_Main</string>
+<string>XWing_XJ5_Engine_Reverse_A</string>
+<string>XWing_XJ5_Engine_Reverse_B</string>
+<string>XWing_XJ5_Engine_Main</string>
+<string>YWing_Engine_Main_I</string>
+<string>YWing_Engine_Main_II</string>
+<string>YWing_Engine_Secondary_I</string>
+<string>YWing_Engine_Secondary_II</string>
+<string>K_Pirates_Thrusters_Light</string>
+<string>K_Pirates_Thrusters_LightRec</string>
+<string>K_Pirates_Thrusters_LightMid</string>
+<string>K_Pirates_Thrusters_Heavy</string>
+<string>K_Pirates_Thrusters_Light_SG</string>
+<string>K_Pirates_Thrusters_LightRec_SG</string>
+<string>K_Pirates_Thrusters_LightMid_SG</string>
+<string>K_Rebellion_RZ1_MainEngine_A</string>
+<string>K_Rebellion_RZ1_MainEngine_B</string>
+<string>K_Rebellion_RZ1_MainEngine_A_Upgrade</string>
+<string>K_Rebellion_RZ1_MainEngine_B_Upgrade</string>
+<string>K_Rebellion_Shared_SecondaryThruster</string>
+<string>K_Rebellion_Shared_SecondaryThruster_Light</string>
+<string>K_Imperial_SpeederBike_Engine</string>
+<string>K_Imperial_SpeederBike_SideEngine_I</string>
+<string>K_Imperial_SpeederBike_SideEngine_II</string>
+<string>K_Imperial_SpeederBike_SideEngine_III</string>
+<string>K_Pirates_StarViper_Engine_Main</string>
+<string>K_Neutral_Engine_Mando_SecondaryThruster</string>
+<string>K_TIE_Fighter_EngineMain</string>
+<string>K_TIE_Fighter_EngineSecondary</string>
+<string>K_TIE_Bomber_Pod_Engine</string>
+<string>K_TIE_CustomI_EngineMain</string>
+<string>K_TIE_CustomII_Wing_EngineArray</string>
+<string>K_TIE_Defender_EngineMain</string>
+<string>K_TIE_Hunter_EngineMain</string>
+<string>K_TIE_Interceptor_EngineMain</string>
+<string>K_Imperial_Reborn_TIE_Avenger_InverseEngine</string>
+<string>K_Imperial_Reborn_TIE_Avenger_MainEngine</string>
+<string>K_Imperial_Reborn_TIE_Bomber_InverseEngine</string>
+<string>K_Imperial_Reborn_TIE_Bomber_MainEngine</string>
+<string>K_Imperial_Reborn_TIE_Defender_InverseEngine</string>
+<string>K_Imperial_Reborn_TIE_Defender_MainEngine</string>
+<string>K_Imperial_Reborn_TIE_Defender_SecondaryEngine</string>
+<string>K_Imperial_Reborn_TIE_Droid_ReverseEngine</string>
+<string>K_Imperial_Reborn_TIE_Droid_MainEngine</string>
+<string>K_Imperial_Reborn_TIE_Fighter_InverseEngine</string>
+<string>K_Imperial_Reborn_TIE_Fighter_MainEngine</string>
+<string>K_Imperial_Reborn_TIE_Fighter_SecondaryEngine</string>
+<string>K_Imperial_Reborn_FirstOrder_TIE_Fighter_InverseEngine</string>
+<string>K_Imperial_Reborn_FirstOrder_TIE_Fighter_MainEngine</string>
+<string>K_Imperial_Reborn_TIE_Hunter_InverseEngine</string>
+<string>K_Imperial_Reborn_TIE_Hunter_MainEngine</string>
+<string>K_Imperial_Reborn_TIE_Interceptor_InverseEngine</string>
+<string>K_Imperial_Reborn_TIE_Interceptor_MainEngine</string>
+<string>K_Imperial_Reborn_TIE_Oppressor_InverseEngine</string>
+<string>K_Imperial_Reborn_TIE_Oppressor_MainEngine</string>
+      </ItemIds>
+    </Category>
+
+
+  </CategoryClasses>
+</Definitions>
+
+

@@ -1,0 +1,31 @@
+Running from: C:\Users\JACOBM~1\AppData\Local\Temp\tmpfc4ykeur 
+Command: C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Tools\VRageEditor\Plugins\ModelBuilder\MwmBuilder.exe /s:Content /m:K_TIE_Weaponry_Small.fbx /o:.\ 
+: WARNING: 
+    Could not find Materials library folder.
+Textures\Imperial_HullMetal_Simple_A.dds: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\armor\large_square_plate_ng.dds: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\armor\large_square_plate_add.dds: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Imperial_HullMetal_Simple_A.dds: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\armor\large_square_plate_ng.dds: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\armor\large_square_plate_add.dds: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Imperial_PipeMaterial_A.dds: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\armor\large_square_plate_ng.dds: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Imperial_HullMetal_Blackwork.dds: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\BlackMetal_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Dummy.dds: WARNING: 
+    Texture DiffuseTexture does not exists!
+Dummy.dds: WARNING: 
+    Texture DiffuseTexture does not exists!
+C:\Users\Jacob Mckenzie\AppData\Local\Temp\tmpfc4ykeur\Content\K_TIE_Weaponry_Small.fbx: Processed
+: 
+    : Finished in 0.3s

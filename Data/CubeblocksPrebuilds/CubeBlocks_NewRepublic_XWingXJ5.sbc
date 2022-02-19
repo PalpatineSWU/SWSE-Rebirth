@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <CubeBlocks>
+ 
+
+<!--   XWing_XJ5_  -->	 <!--   Jedi XWing  -->	
+	
+	
+<Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+      <Id>
+        <TypeId>Cockpit</TypeId>
+        <SubtypeId>XWing_XJ5_Cockpit</SubtypeId>
+      </Id>
+      <DisplayName>New Republic X-Wing XJ5 Cockpit</DisplayName>
+    <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+	   <Description>New Republic X-Wing Cockpit, with full LCD Support built-in, Internal oxygen-supply. Pair with XJ5's specific Canopy, for full visual and practical use.</Description>
+      <CubeSize>Small</CubeSize>
+       <Public>true</Public>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="7" />
+      <ModelOffset x="0" y="0" z="0" />
+	 <Model>Models\NewRepublic\XWing_XJ5\X_Wing_XJ5_Cockpit_Small.mwm</Model>
+	  <PrimarySound>BlockCockpitSm</PrimarySound>
+     <Model>Models\NewRepublic\XWing_XJ5\X_Wing_XJ5_Cockpit_Small.mwm</Model>
+      <GlassModel>Models\Cubes\Small\cockpitglass.mwm</GlassModel>
+      <CharacterAnimation>K_Animation_Engineer_AWing</CharacterAnimation>
+      <UsesDeformation>false</UsesDeformation>
+       <Components>
+        <Component Subtype="LightweightDurasteel" Count="10" />
+		 <Component Subtype="ImperialConstruction" Count="20" />
+		  <Component Subtype="StandardCabling" Count="5" />
+		  <Component Subtype="LightweightDurasteel" Count="10" />
+			<Component Subtype="Computer" Count="25" />
+			<Component Subtype="LightweightDurasteel" Count="55" />
+			<Component Subtype="TranspariSteel" Count="30" />
+			      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+	 
+      <BlockPairName>XWing_XJ5_Cockpit</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	  <EnableFirstPerson>true</EnableFirstPerson>
+      <EnableShipControl>true</EnableShipControl>
+      <EnableBuilderCockpit>true</EnableBuilderCockpit>
+      <DeformationRatio>0.2</DeformationRatio>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <OxygenCapacity>240</OxygenCapacity>
+      <IsPressurized>true</IsPressurized>
+      <GetInSound>K_NR_Cockpit_Audio</GetInSound>
+      <GetOutSound>K_NR_Cockpit_Audio</GetOutSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+	   <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+       <DestroySound>K_SW_Explosion_Generic</DestroySound>
+	  <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
+	   <ScreenAreas>
+            <ScreenArea Name="CockpitScreen_01" DisplayName="1" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" Script="TSS_ArtificialHorizon" />
+            <ScreenArea Name="CockpitScreen_02" DisplayName="2" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" Script="TSS_Velocity" />
+            <ScreenArea Name="CockpitScreen_03" DisplayName="3" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" Script="TSS_Gravity" />
+            <ScreenArea Name="CockpitScreen_04" DisplayName="4" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" Script="TSS_EnergyHydrogen" />
+			<ScreenArea Name="CockpitScreen_05" DisplayName="5" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" />
+			<ScreenArea Name="CockpitScreen_06" DisplayName="6" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" />
+			<ScreenArea Name="CockpitScreen_07" DisplayName="7" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" />
+			<ScreenArea Name="CockpitScreen_08" DisplayName="8" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" />
+           			</ScreenAreas>
+    </Definition>
+	
+<Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+      <Id>
+        <TypeId>AdvancedDoor</TypeId>
+        <SubtypeId>XWing_XJ5_Hatch</SubtypeId>
+      </Id>
+      <DisplayName>New Republic X-Wing XJ5 Canopy</DisplayName>
+     <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+	  <Description>New Republic X-Wing Canopy, designed to be mounted onto the top of the Cockpit, and restricts access to the cockpit controls.</Description>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="1" z="7" />
+      <ModelOffset x="0" y="0" z="0" />
+	 <Model>Models\NewRepublic\XWing_XJ5\X_Wing_XJ5_CockpitCanopy_Small.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="20" />
+		<Component Subtype="ImperialConstruction" Count="5" />
+		<Component Subtype="Computer" Count="3" />
+		<Component Subtype="TranspariSteel" Count="15" />
+		 <Component Subtype="LightweightDurasteel" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="TranspariSteel" Index="0" />
+      <BlockPairName>XWing_XJ5_Hatch</BlockPairName>
+      <EdgeType>Light</EdgeType>
+	  <MountPoints>
+	          <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="7" />
+			        </MountPoints>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	  <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+	   <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
+    <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+      <DamageEffectId>212</DamageEffectId>
+      <Subparts>
+        <SubpartDefinition>
+          <Name>X_Wing_XJ5_CanopyGlass_Small</Name>
+          <!-- ID = 0 -->
+        </SubpartDefinition>
+		
+      </Subparts>
+      <OpeningSequence>
+	    <Opening>
+          <IDs>0</IDs>
+         <Move>Slide</Move>
+          <SlideDirection x="0" y="1" z="0" />
+          <MaxOpen>0.1</MaxOpen>
+          <Speed>0.5</Speed>
+           <OpenDelay>0</OpenDelay>
+           <CloseDelay>1</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+        <Opening>
+          <IDs>0</IDs>
+         <Move>Slide</Move>
+          <SlideDirection x="0" y="0" z="-1" />
+          <MaxOpen>1</MaxOpen>
+          <Speed>1.5</Speed>
+           <OpenDelay>0.5</OpenDelay>
+           <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorSmallOpen</OpenSound>
+          <CloseSound>BlockDoorSmallOpen</CloseSound>
+        </Opening>
+		 </OpeningSequence>
+				
+</Definition>
+	
+	
+<Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>XWing_XJ5_Battery</SubtypeId>
+      </Id>
+      <DisplayName>New Republic X-Wing XJ5 Battery</DisplayName>
+	  <Description>New Republic E-Wing Battery unit, mounted onto the front of the E-Wing, supplies a max of 25 units, with a storage of 45 units.</Description>
+     <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+	 <Model>Models\NewRepublic\XWing_XJ5\X_Wing_XJ5_Battery_Small.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="5" />
+			<Component Subtype="StandardPowerCell" Count="6" />
+			<Component Subtype="ImperialConstruction" Count="5" />
+		<Component Subtype="Computer" Count="5" />
+		<Component Subtype="ImperialConstruction" Count="15" />
+		 <Component Subtype="LightweightDurasteel" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>XWing_XJ5_Battery</BlockPairName>
+	   <MountPoints>
+	          <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="3" />
+			   <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="3" />
+			   <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="2" />
+      </MountPoints>
+	        <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	  <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>25</MaxPowerOutput>
+	   <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <RequiredPowerInput>15</RequiredPowerInput>
+      <AdaptibleInput>true</AdaptibleInput>
+      <MaxStoredPower>45</MaxStoredPower>
+      <InitialStoredPowerRatio>1.0</InitialStoredPowerRatio>
+	   		   <DestroySound>K_SW_Explosion_Generic</DestroySound>
+		    <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+			 <DestroyEffect>Imperial_Explosion</DestroyEffect>
+			  <GeneralDamageMultiplier>1</GeneralDamageMultiplier>
+    </Definition>
+	
+	
+<Definition xsi:type="MyObjectBuilder_GyroDefinition">
+      <Id>
+        <TypeId>Gyro</TypeId>
+        <SubtypeId>XWing_XJ5_Gyro</SubtypeId>
+      </Id>
+      <DisplayName>New Republic X-Wing XJ5 Gyro</DisplayName>
+	   <Description>New Republic E-Wing Wing Module, packing Gyro Power.</Description>
+    <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+      <CubeSize>Small</CubeSize>
+       <Public>true</Public>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\NewRepublic\XWing_XJ5\X_Wing_XJ5_Gyro_Small.mwm</Model>
+      <Components>
+         <Component Subtype="LightweightDurasteel" Count="15" />
+		<Component Subtype="ImperialConstruction" Count="7" />
+		<Component Subtype="StandardPowerCell" Count="1" />
+		<Component Subtype="LightweightDurasteel" Count="20" />
+		<Component Subtype="Computer" Count="5" />
+		<Component Subtype="LightweightDurasteel" Count="30" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>XWing_XJ5_Gyro</BlockPairName>
+	   <MountPoints>
+	          <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="3" />
+			   <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="3" />
+			   <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" />
+      </MountPoints>
+	 <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.25" File="Models\NewRepublic\RZ2_AWing\KNR_AWing_Gyro_Small_Constr1.mwm" />
+		<Model BuildPercentUpperBound="0.99" File="Models\NewRepublic\RZ2_AWing\KNR_AWing_Gyro_Small_Constr1.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	  <PrimarySound>BlockGyroscope</PrimarySound>
+      <ResourceSinkGroup>Gyro</ResourceSinkGroup>
+      <ForceMagnitude>1.20E+06</ForceMagnitude>
+      <RequiredPowerInput>0.00001</RequiredPowerInput>
+      <DamageEffectName>Imperial_Damages_Electrical</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_SW_Explosion_Generic</DestroySound>
+    </Definition>
+	
+	
+<Definition xsi:type="MyObjectBuilder_RadioAntennaDefinition">
+      <Id>
+        <TypeId>RadioAntenna</TypeId>
+        <SubtypeId>XWing_XJ5_Antenna</SubtypeId>
+      </Id>
+       <DisplayName>New Republic X-Wing XJ5 Antenna</DisplayName>
+	   <Description>New Republic Antenna Unit, for the E-Wing, installed on the Hyperdrive.</Description>
+      <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+	   <IsStandAlone>false</IsStandAlone>
+      <CubeSize>Small</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="4" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\NewRepublic\XWing_XJ5\X_Wing_XJ5_Antenna_Small.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="15" />
+        <Component Subtype="ImperialConstruction" Count="10" />
+        <Component Subtype="Computer" Count="15" />
+        <Component Subtype="ImperialConstruction" Count="15" />
+        <Component Subtype="CommunicationsEquipment" Count="2" />
+        <Component Subtype="LightweightDurasteel" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="CommunicationsEquipment" Index="0" />
+      <BlockPairName>XWing_XJ5_Antenna</BlockPairName>
+	  <MountPoints>
+	  <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="3" />
+	   <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="4" />
+	  	      </MountPoints>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>Imperial_Explosion_Sparks</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
+    </Definition>
+	
+<Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>XWing_XJ5_Reactor</SubtypeId>
+      </Id>
+      <DisplayName>New Republic X-Wing XJ5 Reactor</DisplayName>
+	  	   <Description>New Republic X-Wing T70 Reactor, Runs on Synthetic Fuel, and has an effective output of 50 Units.</Description>
+      <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\NewRepublic\XWing_XJ5\X_Wing_XJ5_Reactor_Small.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="20" />
+		<Component Subtype="Reactors_Ionic" Count="15" />
+		<Component Subtype="StandardCabling" Count="15" />
+		<Component Subtype="ImperialConstruction" Count="15" />
+			<Component Subtype="Computer" Count="35" />
+			<Component Subtype="LightweightDurasteel" Count="95" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>XWing_XJ5_Reactor</BlockPairName>
+	  <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.25" File="Models\NewRepublic\RZ2_AWing\KNR_AWing_Reactor_Small_Constr1.mwm" />
+		<Model BuildPercentUpperBound="0.99" File="Models\NewRepublic\RZ2_AWing\KNR_AWing_Reactor_Small_Constr1.mwm" />
+      </BuildProgressModels>
+
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	  <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <MaxPowerOutput>50</MaxPowerOutput>
+      <InventorySize>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </InventorySize>
+
+            <!-- 
+                Values are volume fill ratio, means how much fuel reactor pulls from conveyor system to the inventory.
+                If volume fill ratio is bellow minimum, reactor starts pulling fuel up to maximum value.
+                Warning: Changing these values will affect performance.
+            -->
+            <InventoryFillFactorMin>0.001</InventoryFillFactorMin>
+            <InventoryFillFactorMax>0.002</InventoryFillFactorMax>
+
+            <!-- 
+                This is how much of fuel is pulled from conveyor system in one tick.
+                It's in minutes, means that it will pull X minutes of fuel in one tick.
+                Warning: Changing this value will affect performance.
+            -->
+            <FuelPullAmountFromConveyorInMinutes>10.0</FuelPullAmountFromConveyorInMinutes>
+
+	   <FuelInfos>
+        <FuelInfo>
+          <Id>
+            <TypeId>Ingot</TypeId>
+            <SubtypeId>Spin_SyntheticFuel</SubtypeId>
+          </Id>
+		  <Ratio>0.5</Ratio>
+        </FuelInfo>
+      </FuelInfos>
+          <PrimarySound>K_TIE_GridPower</PrimarySound>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>K_SW_Explosion_Generic</DamagedSound>
+      <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_SW_Explosion_Generic</DestroySound>
+    </Definition>
+	
+<Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+      <Id>
+        <TypeId>OxygenGenerator</TypeId>
+        <SubtypeId>XWing_XJ5_LifeSupport</SubtypeId>
+      </Id>
+       <DisplayName>New Republic X-Wing XJ5 Life-Support</DisplayName>
+	   <Description>New Republic X-Wing T70 Life-Support System.</Description>
+      <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+	   <CubeSize>Small</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+	 <Model>Models\NewRepublic\XWing_XJ5\X_Wing_XJ5_LifeSupport_Small.mwm</Model>
+       <Components>
+        <Component Subtype="LightweightDurasteel" Count="15" />
+		<Component Subtype="StandardPowerCell" Count="5" />
+		<Component Subtype="StandardCabling" Count="15" />
+		<Component Subtype="ImperialConstruction" Count="15" />
+			<Component Subtype="Computer" Count="30" />
+			<Component Subtype="LightweightDurasteel" Count="35" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+
+	  <BlockPairName>XWing_XJ5_LifeSupport</BlockPairName>
+	  <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <EdgeType>Light</EdgeType>
+	  <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <IceConsumptionPerSecond>83</IceConsumptionPerSecond>
+      <InventoryMaxVolume>1</InventoryMaxVolume>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+
+          <InventoryFillFactorMin>0.3</InventoryFillFactorMin>
+          <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
+
+          <FuelPullAmountFromConveyorInMinutes>2.2</FuelPullAmountFromConveyorInMinutes>   
+
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.10</OperationalPowerConsumption>
+      <ProducedGases>
+        <GasInfo>
+          <Id>
+            <TypeId>GasProperties</TypeId>
+            <SubtypeId>Oxygen</SubtypeId>
+          </Id>
+          <IceToGasRatio>10</IceToGasRatio>
+        </GasInfo>
+        <GasInfo>
+          <Id>
+            <TypeId>GasProperties</TypeId>
+            <SubtypeId>Hydrogen</SubtypeId>
+          </Id>
+          <IceToGasRatio>10</IceToGasRatio>
+        </GasInfo>
+      </ProducedGases>
+      <BlueprintClasses>
+        <Class>Ice</Class>
+        <Class>OxygenBottles</Class>
+        <Class>HydrogenBottles</Class>
+      </BlueprintClasses>
+      <DamageEffectName>Imperial_Electrical_Damage_Core</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	   <GenerateSound>BlockOxyGenProcess</GenerateSound>
+      <IdleSound>BlockOxyGenIdle</IdleSound>
+      <DestroyEffect>Imperial_ElectricalExplosion</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_TypeII</DestroySound>
+      <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
+      <DestroyEffect>Imperial_Explosion_Core</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Critical</DestroySound>
+
+	  	      </Definition>
+	
+<Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
+      <Id>
+        <TypeId>JumpDrive</TypeId>
+        <SubtypeId>XWing_XJ5_Hyperdrive</SubtypeId>
+      </Id>
+      <DisplayName>New Republic X-Wing XJ5 Hyperdrive</DisplayName>
+	   <Description>New Republic Technology.
+	   Allows the X-Wing to hyperspace travel, and has a quick-charge time.</Description>
+       <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+	   <Model>Models\NewRepublic\XWing_XJ5\X_Wing_XJ5_Hyperdrive_Small.mwm</Model>
+    <Components>
+        <Component Subtype="LightweightDurasteel" Count="35" />
+		<Component Subtype="StandardPowerCell" Count="5" />
+		<Component Subtype="StandardCabling" Count="15" />
+		<Component Subtype="ImperialConstruction" Count="15" />
+			<Component Subtype="Computer" Count="60" />
+			<Component Subtype="LightweightDurasteel" Count="55" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>XWing_XJ5_Hyperdrive</BlockPairName>
+
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	<DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+
+      <ResourceSinkGroup>Charging</ResourceSinkGroup>
+      <RequiredPowerInput>10</RequiredPowerInput>
+      <PowerNeededForJump>2</PowerNeededForJump>
+
+      <MaxJumpDistance>50000</MaxJumpDistance>
+      <MaxJumpMass>2500</MaxJumpMass>
+      <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+    </Definition>
+	
+<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>XWing_XJ5_Engine_Reverse_A</SubtypeId>
+      </Id>
+      <DisplayName>New Republic X-Wing XJ5 Inverse-Engine (I)</DisplayName>
+	  <Description>New Republic X-Wing Inverse Engine, designed for pairing with the Primary-Engine.</Description>
+      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+	    <ThrusterType>Ion</ThrusterType>
+		 <IsStandAlone>false</IsStandAlone>
+      <CubeSize>Small</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="2" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+	 <Model>Models\NewRepublic\XWing_70\X_Wing_70T_Engine_Reverse_A_Small.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="20" />
+		<Component Subtype="ImperialConstruction" Count="15" />
+			<Component Subtype="Computer" Count="3" />
+			<Component Subtype="ThrusterParts_Ion" Count="15" />
+			<Component Subtype="LightweightDurasteel" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="Thrust" Index="0" />
+	    <MountPoints>
+	          <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="2" />
+			    <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="2" />
+      </MountPoints>
+      <BlockPairName>XWing_XJ5_Engine_Reverse_A</BlockPairName>
+	   <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.25" File="Models\NewRepublic\RZ2_AWing\KNR_AWing_MainEngineII_Small_Constr1.mwm" />
+		<Model BuildPercentUpperBound="0.99" File="Models\NewRepublic\RZ2_AWing\KNR_AWing_MainEngineII_Small_Constr1.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	  <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>402500</ForceMagnitude>
+      <MaxPowerConsumption>0.201</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>5</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1.5</EffectivenessAtMaxInfluence>
+
+      <FlameDamageLengthScale>0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>2.0</FlameLengthScale>
+   <FlameIdleColor>
+        <X>1</X>
+        <Y>0</Y>
+        <Z>0.5</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>1</X>
+        <Y>0</Y>
+        <Z>0.35</Z>
+        <W>1</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>SmallGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>800</FlameVisibilityDistance>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>K_NR_Engine_XWing_T70</PrimarySound>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_SW_Explosion_Generic</DestroySound>
+	  <EmissiveColorPreset>Engine_Pink</EmissiveColorPreset>
+    </Definition>
+	
+	
+<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>XWing_XJ5_Engine_Reverse_B</SubtypeId>
+      </Id>
+      <DisplayName>New Republic X-Wing XJ5 Inverse-Engine (II)</DisplayName>
+	  <Description>New Republic X-Wing Inverse Engine, designed for pairing with the Primary-Engine.</Description>
+      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+	    <ThrusterType>Ion</ThrusterType>
+		 <IsStandAlone>false</IsStandAlone>
+      <CubeSize>Small</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="2" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+	   <Model>Models\NewRepublic\XWing_70\X_Wing_70T_Engine_Reverse_B_Small.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="20" />
+		<Component Subtype="ImperialConstruction" Count="15" />
+			<Component Subtype="Computer" Count="3" />
+			<Component Subtype="ThrusterParts_Ion" Count="15" />
+			<Component Subtype="LightweightDurasteel" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="Thrust" Index="0" />
+	    <MountPoints>
+	          <MountPoint Side="Left" StartX="0" StartY="0" EndX="2" EndY="2" />
+			    <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="2" />
+      </MountPoints>
+      <BlockPairName>XWing_XJ5_Engine_Reverse_B</BlockPairName>
+	   <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.25" File="Models\NewRepublic\RZ2_AWing\KNR_AWing_MainEngineII_Small_Constr1.mwm" />
+		<Model BuildPercentUpperBound="0.99" File="Models\NewRepublic\RZ2_AWing\KNR_AWing_MainEngineII_Small_Constr1.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	  <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>402500</ForceMagnitude>
+      <MaxPowerConsumption>0.201</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>5</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1.5</EffectivenessAtMaxInfluence>
+
+      <FlameDamageLengthScale>0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>2.0</FlameLengthScale>
+   <FlameIdleColor>
+        <X>1</X>
+        <Y>0</Y>
+        <Z>0.5</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>1</X>
+        <Y>0</Y>
+        <Z>0.35</Z>
+        <W>1</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>SmallGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>800</FlameVisibilityDistance>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>K_NR_Engine_XWing_T70</PrimarySound>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_SW_Explosion_Generic</DestroySound>
+	  <EmissiveColorPreset>Engine_Pink</EmissiveColorPreset>
+    </Definition>
+	
+	
+<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>XWing_XJ5_Engine_Main</SubtypeId>
+      </Id>
+      <DisplayName>New Republic X-Wing XJ5 Main-Engine</DisplayName>
+	  <Description>New Republic X-Wing Main Engine, designed for pairing with the Inverse-Engine.</Description>
+      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+	    <ThrusterType>Ion</ThrusterType>
+		 <IsStandAlone>false</IsStandAlone>
+      <CubeSize>Small</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="2" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\NewRepublic\XWing_70\X_Wing_70T_Engine_MainThrust_Small.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="20" />
+		<Component Subtype="ImperialConstruction" Count="15" />
+			<Component Subtype="Computer" Count="3" />
+			<Component Subtype="ThrusterParts_Ion" Count="15" />
+			<Component Subtype="LightweightDurasteel" Count="30" />
+      </Components>
+      <CriticalComponent Subtype="Thrust" Index="0" />
+	    <MountPoints>
+			    <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="2" />
+      </MountPoints>
+      <BlockPairName>XWing_XJ5_Engine_Main</BlockPairName>
+	   <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.25" File="Models\NewRepublic\RZ2_AWing\KNR_AWing_MainEngineII_Small_Constr1.mwm" />
+		<Model BuildPercentUpperBound="0.99" File="Models\NewRepublic\RZ2_AWing\KNR_AWing_MainEngineII_Small_Constr1.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	  <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>602500</ForceMagnitude>
+      <MaxPowerConsumption>0.201</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>5</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1.5</EffectivenessAtMaxInfluence>
+
+      <FlameDamageLengthScale>0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>1.0</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1</X>
+        <Y>0</Y>
+        <Z>0.5</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>1</X>
+        <Y>0</Y>
+        <Z>0.35</Z>
+        <W>1</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>SmallGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>800</FlameVisibilityDistance>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>K_NR_Engine_XWing_T70</PrimarySound>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_SW_Explosion_Generic</DestroySound>
+	  <EmissiveColorPreset>Engine_Pink</EmissiveColorPreset>
+    </Definition>
+	
+	
+<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">  <!--   Wing A  -->	
+		
+		  <Id>
+			<TypeId>ConveyorSorter</TypeId>
+        <SubtypeId>XWing_XJ5_Weaponry_Wing_A</SubtypeId>
+      </Id>
+     <DisplayName>New Republic X-Wing XJ5 Weaponry (A)</DisplayName>
+	  <Description>NON FUNCTIOING New Republic X-Wing Wing with Heavy Laser-Cannon.</Description>
+     <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="11" y="1" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\NewRepublic\XWing_XJ5\X_Wing_XJ5_Weaponry_A_Small.mwm</Model>
+       <Components>
+        <Component Subtype="LightweightDurasteel" Count="15" />
+		<Component Subtype="ImperialGeneralParts" Count="35" />
+		<Component Subtype="StandardPowerCell" Count="5" />
+		<Component Subtype="StandardCabling" Count="15" />
+		<Component Subtype="Blaster_Mechanism" Count="6" />
+			<Component Subtype="Computer" Count="5" />
+			<Component Subtype="LightweightDurasteel" Count="30" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>XWing_XJ5_Weaponry_Wing_A</BlockPairName>
+	   <MountPoints>
+			    <MountPoint Side="Top" StartX="0" StartY="0" EndX="11" EndY="5" />
+				 <MountPoint Side="Left" StartX="0" StartY="0" EndX="11" EndY="5" />
+				 <MountPoint Side="Right" StartX="0" StartY="0" EndX="11" EndY="5" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	   <WeaponDefinitionId Subtype="K_NR_Gun" />
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <InventoryMaxVolume>1</InventoryMaxVolume>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_SW_Explosion_Generic</DestroySound>
+	  <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
+	   <MinElevationDegrees>-15</MinElevationDegrees>
+      <MaxElevationDegrees>75</MaxElevationDegrees>
+      <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+      <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+      <IdleRotation>false</IdleRotation>
+	  <AiEnabled>false</AiEnabled>
+      <MaxRangeMeters>300</MaxRangeMeters>
+      <RotationSpeed>0.0005</RotationSpeed>
+      <ElevationSpeed>0.0002 </ElevationSpeed>
+      <MinFov>0.1</MinFov>
+      <MaxFov>1.04719755</MaxFov>
+    </Definition>	
+	
+	
+<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition"> <!--   Wing B  -->	
+		
+		  <Id>
+			<TypeId>ConveyorSorter</TypeId>
+        <SubtypeId>XWing_XJ5_Weaponry_Wing_B</SubtypeId>
+      </Id>
+     <DisplayName>New Republic X-Wing XJ5 Weaponry (B)</DisplayName>
+	  <Description>NON FUNCTIOING New Republic X-Wing Wing with Heavy Laser-Cannon.</Description>
+     <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="11" y="1" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\NewRepublic\XWing_XJ5\X_Wing_XJ5_Weaponry_B_Small.mwm</Model>
+       <Components>
+        <Component Subtype="LightweightDurasteel" Count="15" />
+		<Component Subtype="ImperialGeneralParts" Count="35" />
+		<Component Subtype="StandardPowerCell" Count="5" />
+		<Component Subtype="StandardCabling" Count="15" />
+		<Component Subtype="Blaster_Mechanism" Count="6" />
+			<Component Subtype="Computer" Count="5" />
+			<Component Subtype="LightweightDurasteel" Count="30" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>XWing_XJ5_Weaponry_Wing_B</BlockPairName>
+	   <MountPoints>
+			    <MountPoint Side="Top" StartX="0" StartY="0" EndX="11" EndY="5" />
+				 <MountPoint Side="Left" StartX="0" StartY="0" EndX="11" EndY="5" />
+				 <MountPoint Side="Right" StartX="0" StartY="0" EndX="11" EndY="5" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	   <WeaponDefinitionId Subtype="K_NR_Gun" />
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <InventoryMaxVolume>1</InventoryMaxVolume>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_SW_Explosion_Generic</DestroySound>
+	  <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
+	   <MinElevationDegrees>-15</MinElevationDegrees>
+      <MaxElevationDegrees>75</MaxElevationDegrees>
+      <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+      <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+      <IdleRotation>false</IdleRotation>
+	  <AiEnabled>false</AiEnabled>
+      <MaxRangeMeters>300</MaxRangeMeters>
+      <RotationSpeed>0.0005</RotationSpeed>
+      <ElevationSpeed>0.0002 </ElevationSpeed>
+      <MinFov>0.1</MinFov>
+      <MaxFov>1.04719755</MaxFov>
+    </Definition>	
+	
+	
+<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition"> <!--   Launcher , 3 Tube  -->	
+		
+		  <Id>
+			<TypeId>ConveyorSorter</TypeId>
+        <SubtypeId>XWing_XJ5_Launcher</SubtypeId>
+      </Id>
+     <DisplayName>New Republic X-Wing XJ5 Launcher</DisplayName>
+	  <Description>NON FUNCTIOING New Republic X-Wing Launcher.
+	  Standard Missile: Proton-Torpedo (Lock-On), Concussion Missile
+	   Speciality Missiles: MagPulse, Nano, ScramPulse
+	   Missile Range: 3km</Description>
+     <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\NewRepublic\XWing_XJ5\X_Wing_XJ5_ProtonLauncher_Small.mwm</Model>
+       <Components>
+        <Component Subtype="LightweightDurasteel" Count="15" />
+		<Component Subtype="ImperialGeneralParts" Count="5" />
+		<Component Subtype="StandardPowerCell" Count="5" />
+		<Component Subtype="StandardCabling" Count="15" />
+		<Component Subtype="Blaster_Mechanism" Count="6" />
+			<Component Subtype="Computer" Count="5" />
+			<Component Subtype="LightweightDurasteel" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>XWing_XJ5_Launcher</BlockPairName>
+	   <MountPoints>
+			    <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2" />
+				 <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="3" />
+				 <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="3" />
+				  <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="2" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	   <WeaponDefinitionId Subtype="K_NR_Gun" />
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <InventoryMaxVolume>1</InventoryMaxVolume>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_SW_Explosion_Generic</DestroySound>
+	  <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
+	   <MinElevationDegrees>-15</MinElevationDegrees>
+      <MaxElevationDegrees>75</MaxElevationDegrees>
+      <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+      <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+      <IdleRotation>false</IdleRotation>
+	  <AiEnabled>false</AiEnabled>
+      <MaxRangeMeters>3000</MaxRangeMeters>
+      <RotationSpeed>0.0005</RotationSpeed>
+      <ElevationSpeed>0.0002 </ElevationSpeed>
+      <MinFov>0.1</MinFov>
+      <MaxFov>1.04719755</MaxFov>
+    </Definition>	
+	
+	
+	 <Definition xsi:type="MyObjectBuilder_ShipConnectorDefinition">
+      <Id>
+        <TypeId>ShipConnector</TypeId>
+        <SubtypeId>XWing_70_Connector</SubtypeId>
+      </Id>
+       <DisplayName>New Republic X-Wing T70 Connector</DisplayName>
+	  <Description>New Republic X-Wing Connector for Battery Recharge.</Description>
+     <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+	        <CubeSize>Small</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+	   <IsStandAlone>false</IsStandAlone>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+	   <Model>Models\NewRepublic\XWing_70\X_Wing_70T_Connector_Small.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="15" />
+		<Component Subtype="ImperialGeneralParts" Count="5" />
+			<Component Subtype="Computer" Count="13" />
+			 <Component Subtype="LightweightDurasteel" Count="25" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+	  <MountPoints>
+	          <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="3" />
+      </MountPoints>
+      <BlockPairName>XWing_70_Connector</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	  <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <ActionSound>K_Imperial_Cockpit</ActionSound>
+      <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Generic</DestroySound>
+    </Definition>	
+	
+  </CubeBlocks>
+</Definitions>

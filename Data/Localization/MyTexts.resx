@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Advanced_Hyerbaride" xml:space="preserve">
+    <value>Hyperbaride</value>
+  </data>
+  <data name="Alum" xml:space="preserve">
+    <value>Raw Alum</value>
+  </data>
+  <data name="Alum1" xml:space="preserve">
+    <value>Alum</value>
+  </data>
+  <data name="Beskar" xml:space="preserve">
+    <value>Raw Beskar</value>
+  </data>
+  <data name="Beskar1" xml:space="preserve">
+    <value>Mandolorian Iron</value>
+  </data>
+  <data name="Carbonite" xml:space="preserve">
+    <value>Raw Carbonite</value>
+  </data>
+  <data name="Carbonite1" xml:space="preserve">
+    <value>Carbonite</value>
+  </data>
+  <data name="Cortosis" xml:space="preserve">
+    <value>Raw Cortosis</value>
+  </data>
+  <data name="Cortosis1" xml:space="preserve">
+    <value>Cortosis</value>
+  </data>
+  <data name="Dooninum" xml:space="preserve">
+    <value>Raw Dooninum</value>
+  </data>
+  <data name="Dooninum" xml:space="preserve">
+    <value>Durasteel</value>
+  </data>
+  <data name="IconSymbol_Durasteel" xml:space="preserve">
+    <value>Du</value>
+  </data>
+  <data name="Exonium" xml:space="preserve">
+    <value>Raw Exonium</value>
+  </data>
+  <data name="Exonium1" xml:space="preserve">
+    <value>Exonium</value>
+  </data>
+  <data name="Guerrerite" xml:space="preserve">
+    <value>Raw Guerrerite</value>
+  </data>
+  <data name="Guerrerite1" xml:space="preserve">
+    <value>Guerrerite</value>
+  </data>
+  <data name="Hollinium" xml:space="preserve">
+    <value>Raw Hollinium</value>
+  </data>
+  <data name="Hollinium1" xml:space="preserve">
+    <value>Hollinium</value>
+  </data>
+  <data name="Ions" xml:space="preserve">
+    <value>Stablized Ionic Particles</value>
+  </data>
+  <data name="Lignan" xml:space="preserve">
+    <value>Lignan Fragments</value>
+  </data>
+  <data name="Lignan1" xml:space="preserve">
+    <value>Lignan</value>
+  </data>
+  <data name="Lommite" xml:space="preserve">
+    <value>Lommite Ore</value>
+  </data>
+  <data name="Lommite1" xml:space="preserve">
+    <value>Lommite</value>
+  </data>
+  <data name="Norax" xml:space="preserve">
+    <value>Raw Norax</value>
+  </data>
+  <data name="Norax1" xml:space="preserve">
+    <value>Norax</value>
+  </data>
+  <data name="Phrik" xml:space="preserve">
+    <value>Raw Phrik</value>
+  </data>
+   <data name="Anthracite" xml:space="preserve">
+    <value>Anthracite</value>
+  </data>
+  <data name="Phrik1" xml:space="preserve">
+    <value>Phrik</value>
+  </data>
+  <data name="Polymer" xml:space="preserve">
+    <value>Polymer</value>
+  </data>
+  <data name="PolymerAlloy" xml:space="preserve">
+    <value>Monomorphic-Alloy</value>
+  </data>
+  <data name="Protons" xml:space="preserve">
+    <value>Stablized Proton Particles</value>
+  </data>
+  <data name="Rubindum" xml:space="preserve">
+    <value>Raw Rubindum</value>
+  </data>
+  <data name="Rubindum1" xml:space="preserve">
+    <value>Rubindum</value>
+  </data>
+  <data name="Shraki" xml:space="preserve">
+    <value>Raw Shraki</value>
+  </data>
+   <data name="Shraki1" xml:space="preserve">
+    <value>Kyber Crystal</value>
+  </data>
+  <data name="Spin_Tibanna" xml:space="preserve">
+    <value>Tibanna Canisters</value>
+  </data>
+  <data name="Zalfaric" xml:space="preserve">
+    <value>Raw Zalfaric</value>
+  </data>
+  <data name="Zersium" xml:space="preserve">
+    <value>Raw Zersium</value>
+  </data>
+  <data name="Zersium1" xml:space="preserve">
+    <value>Zersium</value>
+  </data>
+</root>

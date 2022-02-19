@@ -1,0 +1,793 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Components>
+ <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Food</SubtypeId>
+      </Id>
+      <DisplayName>Food</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Commodity\Food.dds</Icon>
+	  <ExtraInventoryTooltipLine>Food.</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>15</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>1</MaxIntegrity>
+      <DropProbability>0.01</DropProbability>
+      <Health>50</Health>
+	   <MinimalPricePerUnit>8500</MinimalPricePerUnit>
+    <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+ <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Industrial</SubtypeId>
+      </Id>
+      <DisplayName>Industrial</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Commodity\Industry.dds</Icon>
+	  <ExtraInventoryTooltipLine>Industrial.</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>15</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>1</MaxIntegrity>
+      <DropProbability>0.01</DropProbability>
+      <Health>50</Health>
+	   <MinimalPricePerUnit>8500</MinimalPricePerUnit>
+    <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+ <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Spice</SubtypeId>
+      </Id>
+      <DisplayName>Spice</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Commodity\Spice.dds</Icon>
+	  <ExtraInventoryTooltipLine>Spice.</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>15</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>1</MaxIntegrity>
+      <DropProbability>0.01</DropProbability>
+      <Health>50</Health>
+	   <MinimalPricePerUnit>8500</MinimalPricePerUnit>
+    <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+ <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Technology</SubtypeId>
+      </Id>
+      <DisplayName>Technology</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Commodity\Tech.dds</Icon>
+	  <ExtraInventoryTooltipLine>Technology.</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>15</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>1</MaxIntegrity>
+      <DropProbability>0.01</DropProbability>
+      <Health>50</Health>
+	   <MinimalPricePerUnit>8500</MinimalPricePerUnit>
+    <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+ <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Driods</SubtypeId>
+      </Id>
+      <DisplayName>Driods</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Commodity\Droids.dds</Icon>
+	  <ExtraInventoryTooltipLine>Driods</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>15</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>1</MaxIntegrity>
+      <DropProbability>0.01</DropProbability>
+      <Health>50</Health>
+	   <MinimalPricePerUnit>8500</MinimalPricePerUnit>
+    <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+ <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>LuxyryGoods</SubtypeId>
+      </Id>
+      <DisplayName>Luxury Goods</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Commodity\Luxury.dds</Icon>
+	  <ExtraInventoryTooltipLine>LuxyryGoods</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>15</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>1</MaxIntegrity>
+      <DropProbability>0.01</DropProbability>
+      <Health>50</Health>
+	   <MinimalPricePerUnit>8500</MinimalPricePerUnit>
+    <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+ <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>MedicalSupplies</SubtypeId>
+      </Id>
+      <DisplayName>MedicalS upplies</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Commodity\Medical.dds</Icon>
+	  <ExtraInventoryTooltipLine>Medical Supplies</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>15</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>1</MaxIntegrity>
+      <DropProbability>0.01</DropProbability>
+      <Health>50</Health>
+	   <MinimalPricePerUnit>8500</MinimalPricePerUnit>
+    <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+ <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Sentients</SubtypeId>
+      </Id>
+      <DisplayName>Sentients</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Commodity\People.dds</Icon>
+	  <ExtraInventoryTooltipLine>Sentients</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>15</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>1</MaxIntegrity>
+      <DropProbability>0.01</DropProbability>
+      <Health>50</Health>
+	   <MinimalPricePerUnit>8500</MinimalPricePerUnit>
+    <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+ <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Minerals</SubtypeId>
+      </Id>
+      <DisplayName>Minerals</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Commodity\Minerals.dds</Icon>
+	  <ExtraInventoryTooltipLine>Minerals</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>15</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>1</MaxIntegrity>
+      <DropProbability>0.01</DropProbability>
+      <Health>50</Health>
+	   <MinimalPricePerUnit>8500</MinimalPricePerUnit>
+    <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+ <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>MilitarySupplies</SubtypeId>
+      </Id>
+      <DisplayName>Military Supplies</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Commodity\Military.dds</Icon>
+	  <ExtraInventoryTooltipLine>Military Supplies</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>15</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>1</MaxIntegrity>
+      <DropProbability>0.01</DropProbability>
+      <Health>50</Health>
+	   <MinimalPricePerUnit>8500</MinimalPricePerUnit>
+    <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+
+  </Components>
+
+<Blueprints>
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BuyFood</SubtypeId>
+      </Id>
+      <DisplayName>Buy Food</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Commodity\FoodBuy.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Food" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BuyIndustrial</SubtypeId>
+      </Id>
+      <DisplayName>Buy Industrial</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Commodity\IndustryBuy.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Industrial" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+		
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BuySpice</SubtypeId>
+      </Id>
+      <DisplayName>Buy Spice</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Commodity\SpiceBuy.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Spice" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BuyTechnology</SubtypeId>
+      </Id>
+      <DisplayName>Buy Technology</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Commodity\TechBuy.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Technology" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BuyDriods</SubtypeId>
+      </Id>
+      <DisplayName>Buy Driods</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Commodity\DroidsBuy.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Driods" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+  		
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BuyLuxyryGoods</SubtypeId>
+      </Id>
+      <DisplayName>Buy Luxyr yGoods</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Commodity\LuxuryBuy.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="LuxyryGoods" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+  		
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BuyMedicalSupplies</SubtypeId>
+      </Id>
+      <DisplayName>Buy Medical Supplies</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Commodity\MedicalBuy.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="MedicalSupplies" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+  		 
+  		
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BuySentients</SubtypeId>
+      </Id>
+      <DisplayName>Buy Sentients</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Commodity\PeopleBuy.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Sentients" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+  		
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BuyMinerals</SubtypeId>
+      </Id>
+      <DisplayName>Buy Minerals</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Commodity\MineralsBuy.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Minerals" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+  		
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BuyMilitarySupplies</SubtypeId>
+      </Id>
+      <DisplayName>Buy Military Supplies</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Commodity\MilitaryBuy.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="MilitarySupplies" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SellFood</SubtypeId>
+      </Id>
+      <DisplayName>SellFood</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Commodity\FoodSell.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Food" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SellIndustrial</SubtypeId>
+      </Id>
+      <DisplayName>SellIndustrial</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Commodity\IndustrySell.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Industrial" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+		
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SellSpice</SubtypeId>
+      </Id>
+      <DisplayName>SellSpice</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Commodity\SpiceSell.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Spice" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+  		
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SellTechnology</SubtypeId>
+      </Id>
+      <DisplayName>SellTechnology</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Commodity\TechSell.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Technology" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+
+  		
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SellDriods</SubtypeId>
+      </Id>
+      <DisplayName>SellDriods</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Commodity\DroidsSell.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Driods" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+    		
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SellLuxyryGoods</SubtypeId>
+      </Id>
+      <DisplayName>SellLuxyryGoods</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Commodity\LuxurySell.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="LuxyryGoods" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+  		  		
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SellMedicalSupplies</SubtypeId>
+      </Id>
+      <DisplayName>SellMedicalSupplies</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Commodity\MedicalSell.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="MedicalSupplies" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+  		
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SellSentients</SubtypeId>
+      </Id>
+      <DisplayName>SellSentients</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Commodity\PeopleSell.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Sentients" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+  		
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SellMinerals</SubtypeId>
+      </Id>
+      <DisplayName>SellMinerals</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Commodity\MineralsSell.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Minerals" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+  		
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SellMilitarySupplies</SubtypeId>
+      </Id>
+      <DisplayName>SellMilitarySupplies</DisplayName>
+      <Icon>Textures\GUI\Icons\Quests\Commodity\MilitarySell.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="MilitarySupplies" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+    
+    
+</Blueprints>
+
+
+
+	
+ <BlueprintClassEntries>	
+
+ <!--Placeholder  --> 
+  <Entry Class="NPCPlaceholder" BlueprintSubtypeId="BuyFood" />
+  <Entry Class="NPCPlaceholder" BlueprintSubtypeId="BuyIndustrial" />
+  <Entry Class="NPCPlaceholder" BlueprintSubtypeId="BuySpice" />
+  <Entry Class="NPCPlaceholder" BlueprintSubtypeId="BuyTechnology" />
+  <Entry Class="NPCPlaceholder" BlueprintSubtypeId="BuyDriods" />
+  <Entry Class="NPCPlaceholder" BlueprintSubtypeId="BuyLuxyryGoods" />
+  <Entry Class="NPCPlaceholder" BlueprintSubtypeId="BuyMedicalSupplies" />
+  <Entry Class="NPCPlaceholder" BlueprintSubtypeId="BuySentients" />
+  <Entry Class="NPCPlaceholder" BlueprintSubtypeId="BuyMinerals" />
+  <Entry Class="NPCPlaceholder" BlueprintSubtypeId="BuyMilitarySupplies" />
+  <Entry Class="NPCPlaceholder" BlueprintSubtypeId="SellFood" />
+  <Entry Class="NPCPlaceholder" BlueprintSubtypeId="SellIndustrial" />
+  <Entry Class="NPCPlaceholder" BlueprintSubtypeId="SellSpice" />
+  <Entry Class="NPCPlaceholder" BlueprintSubtypeId="SellTechnology" />
+  <Entry Class="NPCPlaceholder" BlueprintSubtypeId="SellDriods" />
+  <Entry Class="NPCPlaceholder" BlueprintSubtypeId="SellLuxyryGoods" />
+  <Entry Class="NPCPlaceholder" BlueprintSubtypeId="SellMedicalSupplies" />
+  <Entry Class="NPCPlaceholder" BlueprintSubtypeId="SellSentients" />
+  <Entry Class="NPCPlaceholder" BlueprintSubtypeId="SellMinerals" />
+  <Entry Class="NPCPlaceholder" BlueprintSubtypeId="SellMilitarySupplies" />
+
+ <!--Abregado-rae  --> 
+  <Entry Class="NPCAbregado-rae" BlueprintSubtypeId="BuyFood" />
+  <Entry Class="NPCAbregado-rae" BlueprintSubtypeId="BuyIndustrial" />
+  <Entry Class="NPCAbregado-rae" BlueprintSubtypeId="BuySpice" />
+  <Entry Class="NPCAbregado-rae" BlueprintSubtypeId="BuyTechnology" />
+  <Entry Class="NPCAbregado-rae" BlueprintSubtypeId="BuyDriods" />
+  <Entry Class="NPCAbregado-rae" BlueprintSubtypeId="BuyLuxyryGoods" />
+  <Entry Class="NPCAbregado-rae" BlueprintSubtypeId="BuyMedicalSupplies" />
+  <Entry Class="NPCAbregado-rae" BlueprintSubtypeId="BuySentients" />
+  <Entry Class="NPCAbregado-rae" BlueprintSubtypeId="BuyMinerals" />
+  <Entry Class="NPCAbregado-rae" BlueprintSubtypeId="BuyMilitarySupplies" />
+  <Entry Class="NPCAbregado-rae" BlueprintSubtypeId="SellFood" />
+  <Entry Class="NPCAbregado-rae" BlueprintSubtypeId="SellIndustrial" />
+  <Entry Class="NPCAbregado-rae" BlueprintSubtypeId="SellSpice" />
+  <Entry Class="NPCAbregado-rae" BlueprintSubtypeId="SellTechnology" />
+  <Entry Class="NPCAbregado-rae" BlueprintSubtypeId="SellDriods" />
+  <Entry Class="NPCAbregado-rae" BlueprintSubtypeId="SellLuxyryGoods" />
+  <Entry Class="NPCAbregado-rae" BlueprintSubtypeId="SellMedicalSupplies" />
+  <Entry Class="NPCAbregado-rae" BlueprintSubtypeId="SellSentients" />
+  <Entry Class="NPCAbregado-rae" BlueprintSubtypeId="SellMinerals" />
+  <Entry Class="NPCAbregado-rae" BlueprintSubtypeId="SellMilitarySupplies" />
+
+   <!--Bastion  --> 
+  <Entry Class="NPCBastion" BlueprintSubtypeId="BuyFood" />
+  <Entry Class="NPCBastion" BlueprintSubtypeId="BuyIndustrial" />
+  <Entry Class="NPCBastion" BlueprintSubtypeId="BuySpice" />
+  <Entry Class="NPCBastion" BlueprintSubtypeId="BuyTechnology" />
+  <Entry Class="NPCBastion" BlueprintSubtypeId="BuyDriods" />
+  <Entry Class="NPCBastion" BlueprintSubtypeId="BuyLuxyryGoods" />
+  <Entry Class="NPCBastion" BlueprintSubtypeId="BuyMedicalSupplies" />
+  <Entry Class="NPCBastion" BlueprintSubtypeId="BuySentients" />
+  <Entry Class="NPCBastion" BlueprintSubtypeId="BuyMinerals" />
+  <Entry Class="NPCBastion" BlueprintSubtypeId="BuyMilitarySupplies" />
+  <Entry Class="NPCBastion" BlueprintSubtypeId="SellFood" />
+  <Entry Class="NPCBastion" BlueprintSubtypeId="SellIndustrial" />
+  <Entry Class="NPCBastion" BlueprintSubtypeId="SellSpice" />
+  <Entry Class="NPCBastion" BlueprintSubtypeId="SellTechnology" />
+  <Entry Class="NPCBastion" BlueprintSubtypeId="SellDriods" />
+  <Entry Class="NPCBastion" BlueprintSubtypeId="SellLuxyryGoods" />
+  <Entry Class="NPCBastion" BlueprintSubtypeId="SellMedicalSupplies" />
+  <Entry Class="NPCBastion" BlueprintSubtypeId="SellSentients" />
+  <Entry Class="NPCBastion" BlueprintSubtypeId="SellMinerals" />
+  <Entry Class="NPCBastion" BlueprintSubtypeId="SellMilitarySupplies" />
+
+   <!--Brentaal  --> 
+  <Entry Class="NPCBrentaal" BlueprintSubtypeId="BuyFood" />
+  <Entry Class="NPCBrentaal" BlueprintSubtypeId="BuyIndustrial" />
+  <Entry Class="NPCBrentaal" BlueprintSubtypeId="BuySpice" />
+  <Entry Class="NPCBrentaal" BlueprintSubtypeId="BuyTechnology" />
+  <Entry Class="NPCBrentaal" BlueprintSubtypeId="BuyDriods" />
+  <Entry Class="NPCBrentaal" BlueprintSubtypeId="BuyLuxyryGoods" />
+  <Entry Class="NPCBrentaal" BlueprintSubtypeId="BuyMedicalSupplies" />
+  <Entry Class="NPCBrentaal" BlueprintSubtypeId="BuySentients" />
+  <Entry Class="NPCBrentaal" BlueprintSubtypeId="BuyMinerals" />
+  <Entry Class="NPCBrentaal" BlueprintSubtypeId="BuyMilitarySupplies" />
+  <Entry Class="NPCBrentaal" BlueprintSubtypeId="SellFood" />
+  <Entry Class="NPCBrentaal" BlueprintSubtypeId="SellIndustrial" />
+  <Entry Class="NPCBrentaal" BlueprintSubtypeId="SellSpice" />
+  <Entry Class="NPCBrentaal" BlueprintSubtypeId="SellTechnology" />
+  <Entry Class="NPCBrentaal" BlueprintSubtypeId="SellDriods" />
+  <Entry Class="NPCBrentaal" BlueprintSubtypeId="SellLuxyryGoods" />
+  <Entry Class="NPCBrentaal" BlueprintSubtypeId="SellMedicalSupplies" />
+  <Entry Class="NPCBrentaal" BlueprintSubtypeId="SellSentients" />
+  <Entry Class="NPCBrentaal" BlueprintSubtypeId="SellMinerals" />
+  <Entry Class="NPCBrentaal" BlueprintSubtypeId="SellMilitarySupplies" />
+
+ <!--Kuat  --> 
+  <Entry Class="NPCKuat" BlueprintSubtypeId="BuyFood" />
+  <Entry Class="NPCKuat" BlueprintSubtypeId="BuyIndustrial" />
+  <Entry Class="NPCKuat" BlueprintSubtypeId="BuySpice" />
+  <Entry Class="NPCKuat" BlueprintSubtypeId="BuyTechnology" />
+  <Entry Class="NPCKuat" BlueprintSubtypeId="BuyDriods" />
+  <Entry Class="NPCKuat" BlueprintSubtypeId="BuyLuxyryGoods" />
+  <Entry Class="NPCKuat" BlueprintSubtypeId="BuyMedicalSupplies" />
+  <Entry Class="NPCKuat" BlueprintSubtypeId="BuySentients" />
+  <Entry Class="NPCKuat" BlueprintSubtypeId="BuyMinerals" />
+  <Entry Class="NPCKuat" BlueprintSubtypeId="BuyMilitarySupplies" />
+  <Entry Class="NPCKuat" BlueprintSubtypeId="SellFood" />
+  <Entry Class="NPCKuat" BlueprintSubtypeId="SellIndustrial" />
+  <Entry Class="NPCKuat" BlueprintSubtypeId="SellSpice" />
+  <Entry Class="NPCKuat" BlueprintSubtypeId="SellTechnology" />
+  <Entry Class="NPCKuat" BlueprintSubtypeId="SellDriods" />
+  <Entry Class="NPCKuat" BlueprintSubtypeId="SellLuxyryGoods" />
+  <Entry Class="NPCKuat" BlueprintSubtypeId="SellMedicalSupplies" />
+  <Entry Class="NPCKuat" BlueprintSubtypeId="SellSentients" />
+  <Entry Class="NPCKuat" BlueprintSubtypeId="SellMinerals" />
+  <Entry Class="NPCKuat" BlueprintSubtypeId="SellMilitarySupplies" />
+
+ <!--Concordia  --> 
+  <Entry Class="NPCConcordia" BlueprintSubtypeId="BuyFood" />
+  <Entry Class="NPCConcordia" BlueprintSubtypeId="BuyIndustrial" />
+  <Entry Class="NPCConcordia" BlueprintSubtypeId="BuySpice" />
+  <Entry Class="NPCConcordia" BlueprintSubtypeId="BuyTechnology" />
+  <Entry Class="NPCConcordia" BlueprintSubtypeId="BuyDriods" />
+  <Entry Class="NPCConcordia" BlueprintSubtypeId="BuyLuxyryGoods" />
+  <Entry Class="NPCConcordia" BlueprintSubtypeId="BuyMedicalSupplies" />
+  <Entry Class="NPCConcordia" BlueprintSubtypeId="BuySentients" />
+  <Entry Class="NPCConcordia" BlueprintSubtypeId="BuyMinerals" />
+  <Entry Class="NPCConcordia" BlueprintSubtypeId="BuyMilitarySupplies" />
+  <Entry Class="NPCConcordia" BlueprintSubtypeId="SellFood" />
+  <Entry Class="NPCConcordia" BlueprintSubtypeId="SellIndustrial" />
+  <Entry Class="NPCConcordia" BlueprintSubtypeId="SellSpice" />
+  <Entry Class="NPCConcordia" BlueprintSubtypeId="SellTechnology" />
+  <Entry Class="NPCConcordia" BlueprintSubtypeId="SellDriods" />
+  <Entry Class="NPCConcordia" BlueprintSubtypeId="SellLuxyryGoods" />
+  <Entry Class="NPCConcordia" BlueprintSubtypeId="SellMedicalSupplies" />
+  <Entry Class="NPCConcordia" BlueprintSubtypeId="SellSentients" />
+  <Entry Class="NPCConcordia" BlueprintSubtypeId="SellMinerals" />
+  <Entry Class="NPCConcordia" BlueprintSubtypeId="SellMilitarySupplies" />
+
+ <!--Dathomir  --> 
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="BuyFood" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="BuyIndustrial" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="BuySpice" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="BuyTechnology" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="BuyDriods" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="BuyLuxyryGoods" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="BuyMedicalSupplies" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="BuySentients" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="BuyMinerals" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="BuyMilitarySupplies" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="SellFood" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="SellIndustrial" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="SellSpice" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="SellTechnology" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="SellDriods" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="SellLuxyryGoods" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="SellMedicalSupplies" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="SellSentients" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="SellMinerals" />
+  <Entry Class="NPCDathomir" BlueprintSubtypeId="SellMilitarySupplies" />
+
+ <!--Ilum  --> 
+  <Entry Class="NPCIlum" BlueprintSubtypeId="BuyFood" />
+  <Entry Class="NPCIlum" BlueprintSubtypeId="BuyIndustrial" />
+  <Entry Class="NPCIlum" BlueprintSubtypeId="BuySpice" />
+  <Entry Class="NPCIlum" BlueprintSubtypeId="BuyTechnology" />
+  <Entry Class="NPCIlum" BlueprintSubtypeId="BuyDriods" />
+  <Entry Class="NPCIlum" BlueprintSubtypeId="BuyLuxyryGoods" />
+  <Entry Class="NPCIlum" BlueprintSubtypeId="BuyMedicalSupplies" />
+  <Entry Class="NPCIlum" BlueprintSubtypeId="BuySentients" />
+  <Entry Class="NPCIlum" BlueprintSubtypeId="BuyMinerals" />
+  <Entry Class="NPCIlum" BlueprintSubtypeId="BuyMilitarySupplies" />
+  <Entry Class="NPCIlum" BlueprintSubtypeId="SellFood" />
+  <Entry Class="NPCIlum" BlueprintSubtypeId="SellIndustrial" />
+  <Entry Class="NPCIlum" BlueprintSubtypeId="SellSpice" />
+  <Entry Class="NPCIlum" BlueprintSubtypeId="SellTechnology" />
+  <Entry Class="NPCIlum" BlueprintSubtypeId="SellDriods" />
+  <Entry Class="NPCIlum" BlueprintSubtypeId="SellLuxyryGoods" />
+  <Entry Class="NPCIlum" BlueprintSubtypeId="SellMedicalSupplies" />
+  <Entry Class="NPCIlum" BlueprintSubtypeId="SellSentients" />
+  <Entry Class="NPCIlum" BlueprintSubtypeId="SellMinerals" />
+  <Entry Class="NPCIlum" BlueprintSubtypeId="SellMilitarySupplies" />
+
+ <!--Tatooine  --> 
+  <Entry Class="NPCTatooine" BlueprintSubtypeId="BuyFood" />
+  <Entry Class="NPCTatooine" BlueprintSubtypeId="BuyIndustrial" />
+  <Entry Class="NPCTatooine" BlueprintSubtypeId="BuySpice" />
+  <Entry Class="NPCTatooine" BlueprintSubtypeId="BuyTechnology" />
+  <Entry Class="NPCTatooine" BlueprintSubtypeId="BuyDriods" />
+  <Entry Class="NPCTatooine" BlueprintSubtypeId="BuyLuxyryGoods" />
+  <Entry Class="NPCTatooine" BlueprintSubtypeId="BuyMedicalSupplies" />
+  <Entry Class="NPCTatooine" BlueprintSubtypeId="BuySentients" />
+  <Entry Class="NPCTatooine" BlueprintSubtypeId="BuyMinerals" />
+  <Entry Class="NPCTatooine" BlueprintSubtypeId="BuyMilitarySupplies" />
+  <Entry Class="NPCTatooine" BlueprintSubtypeId="SellFood" />
+  <Entry Class="NPCTatooine" BlueprintSubtypeId="SellIndustrial" />
+  <Entry Class="NPCTatooine" BlueprintSubtypeId="SellSpice" />
+  <Entry Class="NPCTatooine" BlueprintSubtypeId="SellTechnology" />
+  <Entry Class="NPCTatooine" BlueprintSubtypeId="SellDriods" />
+  <Entry Class="NPCTatooine" BlueprintSubtypeId="SellLuxyryGoods" />
+  <Entry Class="NPCTatooine" BlueprintSubtypeId="SellMedicalSupplies" />
+  <Entry Class="NPCTatooine" BlueprintSubtypeId="SellSentients" />
+  <Entry Class="NPCTatooine" BlueprintSubtypeId="SellMinerals" />
+  <Entry Class="NPCTatooine" BlueprintSubtypeId="SellMilitarySupplies" />
+
+ <!--Bonadan  --> 
+  <Entry Class="NPCBonadan" BlueprintSubtypeId="BuyFood" />
+  <Entry Class="NPCBonadan" BlueprintSubtypeId="BuyIndustrial" />
+  <Entry Class="NPCBonadan" BlueprintSubtypeId="BuySpice" />
+  <Entry Class="NPCBonadan" BlueprintSubtypeId="BuyTechnology" />
+  <Entry Class="NPCBonadan" BlueprintSubtypeId="BuyDriods" />
+  <Entry Class="NPCBonadan" BlueprintSubtypeId="BuyLuxyryGoods" />
+  <Entry Class="NPCBonadan" BlueprintSubtypeId="BuyMedicalSupplies" />
+  <Entry Class="NPCBonadan" BlueprintSubtypeId="BuySentients" />
+  <Entry Class="NPCBonadan" BlueprintSubtypeId="BuyMinerals" />
+  <Entry Class="NPCBonadan" BlueprintSubtypeId="BuyMilitarySupplies" />
+  <Entry Class="NPCBonadan" BlueprintSubtypeId="SellFood" />
+  <Entry Class="NPCBonadan" BlueprintSubtypeId="SellIndustrial" />
+  <Entry Class="NPCBonadan" BlueprintSubtypeId="SellSpice" />
+  <Entry Class="NPCBonadan" BlueprintSubtypeId="SellTechnology" />
+  <Entry Class="NPCBonadan" BlueprintSubtypeId="SellDriods" />
+  <Entry Class="NPCBonadan" BlueprintSubtypeId="SellLuxyryGoods" />
+  <Entry Class="NPCBonadan" BlueprintSubtypeId="SellMedicalSupplies" />
+  <Entry Class="NPCBonadan" BlueprintSubtypeId="SellSentients" />
+  <Entry Class="NPCBonadan" BlueprintSubtypeId="SellMinerals" />
+  <Entry Class="NPCBonadan" BlueprintSubtypeId="SellMilitarySupplies" />
+
+ <!--Eriadu  --> 
+  <Entry Class="NPCEriadu" BlueprintSubtypeId="BuyFood" />
+  <Entry Class="NPCEriadu" BlueprintSubtypeId="BuyIndustrial" />
+  <Entry Class="NPCEriadu" BlueprintSubtypeId="BuySpice" />
+  <Entry Class="NPCEriadu" BlueprintSubtypeId="BuyTechnology" />
+  <Entry Class="NPCEriadu" BlueprintSubtypeId="BuyDriods" />
+  <Entry Class="NPCEriadu" BlueprintSubtypeId="BuyLuxyryGoods" />
+  <Entry Class="NPCEriadu" BlueprintSubtypeId="BuyMedicalSupplies" />
+  <Entry Class="NPCEriadu" BlueprintSubtypeId="BuySentients" />
+  <Entry Class="NPCEriadu" BlueprintSubtypeId="BuyMinerals" />
+  <Entry Class="NPCEriadu" BlueprintSubtypeId="BuyMilitarySupplies" />
+  <Entry Class="NPCEriadu" BlueprintSubtypeId="SellFood" />
+  <Entry Class="NPCEriadu" BlueprintSubtypeId="SellIndustrial" />
+  <Entry Class="NPCEriadu" BlueprintSubtypeId="SellSpice" />
+  <Entry Class="NPCEriadu" BlueprintSubtypeId="SellTechnology" />
+  <Entry Class="NPCEriadu" BlueprintSubtypeId="SellDriods" />
+  <Entry Class="NPCEriadu" BlueprintSubtypeId="SellLuxyryGoods" />
+  <Entry Class="NPCEriadu" BlueprintSubtypeId="SellMedicalSupplies" />
+  <Entry Class="NPCEriadu" BlueprintSubtypeId="SellSentients" />
+  <Entry Class="NPCEriadu" BlueprintSubtypeId="SellMinerals" />
+  <Entry Class="NPCEriadu" BlueprintSubtypeId="SellMilitarySupplies" />
+
+</BlueprintClassEntries>
+</Definitions>

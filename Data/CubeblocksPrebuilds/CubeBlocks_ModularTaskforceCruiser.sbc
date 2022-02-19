@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <CubeBlocks>
+ 
+<!--
+Modular Task Force Cruiser
+
+Intended Loadout: 
+4 Turbolasers (Frontal)
+10 Laser Cannons
+6 Heavy Laser Cannons
+5 Point Defense Turrets (Spread)
+
+Hangar Bay:
+TIE Droid Docking Space
+Pressurized Interior
+Hangar Field Equipped
+
+Bridge: 13x33x9
+1 Captain (Standing) Position
+6 Crewman Stations (LCD Equipped Frontal)
+24 Crewman Stations (LCD Equipped Rear Upper-Section)
+Holographics-Briefing Area
+Life-Support Unit
+Interior Space \ Collision Area
+Forward LCD Station in Sight of Captain
+Pressurized Interior
+
+Engine Power:
+Rear Focused for All Directions
+Fast Forward Thrust
+Secondary Reverse Engines, inverted mounting onto Rear Sector.
+
+Concepts:
+Secondary Bridge Cluster, embedded into the Hull interior space
+Access Path from Bridge(s) to Hangar Bay internally.
+
+-->	
+	
+	
+  </CubeBlocks>
+</Definitions>

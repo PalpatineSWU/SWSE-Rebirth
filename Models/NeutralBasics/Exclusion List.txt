@@ -1,0 +1,10 @@
+No Refineries
+No Assemblers
+No Heavy Turrets
+No Missiles
+No Welders, No Grinders, No Tools
+No Medical Bays (at present.)
+
+These are the barest bone examples, Neutrals as a faction, is handled in another file - whom use Starwars materials.
+This should be as limited as possible, hence Pulsewave tech; Vanilla components.
+Why does this Text exist? I'm in several dozen folders, and several factions in a day, This is information to ensure this stays on target.

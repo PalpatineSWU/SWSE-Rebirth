@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <CubeBlocks>
+ 
+ 
+ 
+<Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+      <Public>false</Public>
+      <Id>
+        <TypeId>Refinery</TypeId>
+        <SubtypeId>Refinery_Light</SubtypeId>
+      </Id>
+      <DisplayName>New Republic Light Refinery</DisplayName>
+	   <Description>New Republic Refinery Hardware. 
+	   Capable of refining All Vanilla, most SW Metals, and Common Crystals.
+	   Large-Grid 1x2x3</Description>
+      <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Construction\Refinery\K_NR_LightRefinery_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="60" />
+        <Component Subtype="ImperialConstruction" Count="25" />
+        <Component Subtype="PowerConverter" Count="2" />
+        <Component Subtype="ImperialGeneralParts" Count="15" />
+        <Component Subtype="Computer" Count="15" />
+			<Component Subtype="ImperialConstruction" Count="15" />
+        <Component Subtype="DuraSteel" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      
+      <BlockPairName>Refinery_Light</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>5</InventoryMaxVolume>
+      <InventorySize>
+        <X>3</X>
+        <Y>3</Y>
+        <Z>3</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.33</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>Metals</Class>
+		 <Class>Ingots</Class>
+		  <Class>Crystals</Class>
+		   <Class>AdvancedMetals</Class>
+      </BlueprintClasses>
+      <RefineSpeed>0.5</RefineSpeed>
+      <MaterialEfficiency>1</MaterialEfficiency>
+      
+      <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
+       <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>K_Imperial_Explosion_Electronic</DamagedSound>
+      <PrimarySound>K_Imperial_IdleDroidNoise</PrimarySound>
+      <ActionSound>K_Imperial_FactoryWorking</ActionSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Critical</DestroySound>
+      <OreAmountPerPullRequest>2000</OreAmountPerPullRequest>
+    </Definition>
+	
+	
+	
+	<Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+      <Public>false</Public>
+      <Id>
+        <TypeId>Refinery</TypeId>
+        <SubtypeId>Refinery_SyntheticPlant</SubtypeId>
+      </Id>
+      <DisplayName>New Republic Synthetic Fuel-Refinery</DisplayName>
+	   <Description>New Republic Refinery Hardware. 
+	   Designed to manufacture Synthetic Fuel in bulk via automated processes.
+	   Large-Grid 3x3x2</Description>
+      <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Construction\Refinery\K_NR_SynthRefinery_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="60" />
+        <Component Subtype="ImperialConstruction" Count="25" />
+        <Component Subtype="PowerConverter" Count="2" />
+        <Component Subtype="ImperialGeneralParts" Count="15" />
+        <Component Subtype="Computer" Count="15" />
+			<Component Subtype="ImperialConstruction" Count="15" />
+        <Component Subtype="DuraSteel" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      
+      <BlockPairName>Refinery_SyntheticPlant</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>5</InventoryMaxVolume>
+      <InventorySize>
+        <X>3</X>
+        <Y>3</Y>
+        <Z>3</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.33</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>Metals</Class>
+		 <Class>Ingots</Class>
+		  <Class>Crystals</Class>
+		   <Class>AdvancedMetals</Class>
+      </BlueprintClasses>
+      <RefineSpeed>0.5</RefineSpeed>
+      <MaterialEfficiency>1</MaterialEfficiency>
+      
+      <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
+       <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>K_Imperial_Explosion_Electronic</DamagedSound>
+      <PrimarySound>K_Imperial_IdleDroidNoise</PrimarySound>
+      <ActionSound>K_Imperial_FactoryWorking</ActionSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Critical</DestroySound>
+      <OreAmountPerPullRequest>500</OreAmountPerPullRequest>
+    </Definition>
+	
+	
+  </CubeBlocks>
+</Definitions>
