@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
-  <!--Hoth -->
+  <!--Brentaal -->
   <Definition xsi:type="PlanetGeneratorDefinition">
     <Id>
       <TypeId>PlanetGeneratorDefinition</TypeId>
-      <SubtypeId>Cei</SubtypeId>
+      <SubtypeId>Brentaal</SubtypeId>
     </Id>
     <!--!!!Important!! Read if you want to mod Planets! -->
     <!--Following tag switches off loading from certain color channels. Its performance measure in cases where channels are not used-->

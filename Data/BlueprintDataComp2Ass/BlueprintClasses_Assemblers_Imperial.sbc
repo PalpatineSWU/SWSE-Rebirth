@@ -229,7 +229,7 @@
   <Entry Class="K_Imperial_SubFactory_I" BlueprintSubtypeId="K_Imperial_Construction" />
   <Entry Class="K_Imperial_SubFactory_I" BlueprintSubtypeId="K_Imperial_Computer" />
   <Entry Class="K_Imperial_SubFactory_I" BlueprintSubtypeId="K_Imperial_Solar" />
-  <Entry Class="K_Imperial_SubFactory_I" BlueprintSubtypeId="K_Imperial_StandardCabling" />0
+  <Entry Class="K_Imperial_SubFactory_I" BlueprintSubtypeId="K_Imperial_StandardCabling" />
   <Entry Class="K_Imperial_SubFactory_II" BlueprintSubtypeId="HandDrillScannerItem" />
   <Entry Class="K_Imperial_SubFactory_II" BlueprintSubtypeId="HandDrillSWItem" />  
   <Entry Class="K_Imperial_SubFactory_II" BlueprintSubtypeId="AngleGrinder_LukeSaberItem" />

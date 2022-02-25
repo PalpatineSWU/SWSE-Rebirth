@@ -6,7 +6,7 @@
 <Definition xsi:type="PlanetGeneratorDefinition">
     <Id>
       <TypeId>PlanetGeneratorDefinition</TypeId>
-      <SubtypeId>Drakar</SubtypeId>
+      <SubtypeId>Dathomir</SubtypeId>
     </Id>
     <!--!!!Important!! Read if you want to mod Planets! -->
     <!--Following tag switches off loading from certain color channels. Its performance measure in cases where channels are not used-->
@@ -46,12 +46,13 @@
     </SurfaceDetail>
 
     <CustomMaterialTable>
-	<Material Material="K_Imperial_Voxel_DarkStone_Exterior" Value ="157" MaxDepth ="4"/>
-      <Material Material="K_Imperial_Voxel_DarkStone01" Value ="190" MaxDepth ="5"/>
-	  <Material Material="K_Imperial_Voxel_DarkStone02" Value ="160" MaxDepth ="7"/>
-      <Material Material="K_Imperial_Voxel_DarkLivingStone" Value ="154" MaxDepth ="5"/>
-      <Material Material="K_Imperial_Voxel_DarkDirt02" Value ="150" MaxDepth ="5"/>
-	   <Material Material="Ice" Value ="158" MaxDepth ="5"/>
+	    <Material Material="K_Imperial_Voxel_DarkStone_Exterior" Value ="10" MaxDepth ="4"/>
+      <Material Material="K_Imperial_Voxel_DarkStone01" Value ="40" MaxDepth ="5"/>
+	    <Material Material="K_Imperial_Voxel_DarkStone02" Value ="70" MaxDepth ="7"/>
+      <Material Material="K_Imperial_Voxel_DarkForestGrass" Value ="100" MaxDepth ="3"/>
+      <Material Material="K_Imperial_Voxel_DarkLivingStone" Value ="160" MaxDepth ="5"/>
+      <Material Material="K_Imperial_Voxel_DarkDirt02" Value ="180" MaxDepth ="5"/>
+	    <Material Material="Ice" Value ="130" MaxDepth ="5"/>
     </CustomMaterialTable>
 
 
@@ -110,7 +111,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="K_Imperial_Voxel_DarkForestGrass" Depth="5"/>
+            <Layer Material="K_Imperial_Voxel_DarkForestGrass" Depth="1"/>
           </Layers>
           <Height Min="0.5" Max="1"/>
           <Latitude Min="0" Max="90"/>
@@ -168,7 +169,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="K_Imperial_Voxel_DarkForestGrass" Depth="5"/>
+            <Layer Material="K_Imperial_Voxel_DarkForestGrass" Depth="1"/>
           </Layers>
           <Height Min="0" Max="0.3"/>
           <Latitude Min="0" Max="90"/>
@@ -207,58 +208,64 @@
     <EnvironmentItems>
       <Item>
         <Biomes>
-          <Biome>113</Biome>
+          <Biome>0</Biome>
         </Biomes>
         <Materials>
           <Material>K_Imperial_Voxel_DarkForestGrass</Material>
         </Materials>
         <Items>
-         		    <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_DarkForest_Collection" Density="25"/>
+    	    <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_DarkForest_Collection" Density=".25"/>
           <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_DarkForest_Bushes_Collection" Density="11"/>
-              </Items>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="WoodGrassBushForestLarge" Density=".25"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="K_Dark_Bush_Large" Density=".25"/>               
+        </Items>
         <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="15"/>
+          <Height Min="0" Max="1.2"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="90"/>
         </Rule>
       </Item>
 	  
 	    <Item>
         <Biomes>
-          <Biome>112</Biome>
+          <Biome>0</Biome>
         </Biomes>
         <Materials>
           <Material>K_Imperial_Voxel_DarkForestGrass</Material>
         </Materials>
         <Items>
-         		    <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_CorruptedForest_Collection" Density="15"/>
+    	    <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_CorruptedForest_Collection" Density=".15"/>
           <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_DarkForest_Bushes_Collection" Density="9"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="K_Dark_Bush_Large" Density=".25"/>
               </Items>
         <Rule>
-          <Height Min="1" Max="3"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="3" Max="7"/>
+          <Height Min="0" Max="1.2"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="90"/>
         </Rule>
       </Item>
 	  
 
       <Item>
         <Biomes>
-          <Biome>111</Biome>
+          <Biome>0</Biome>
         </Biomes>
         <Materials>
           <Material>K_Imperial_Voxel_DarkStone_Exterior</Material>
         </Materials>
         <Items>
-          		    <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_CorruptedForest_Collection" Density="13"/>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_CorruptedForest_Collection" Density=".13"/>
           <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_DarkForest_Bushes_Collection" Density="5"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="WoodGrassBushForestLarge" Density=".25"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="K_Dark_Bush_Large" Density=".25"/>      
         </Items>
         <Rule>
-          <Height Min="3" Max="6"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="7" Max="45"/>
+          <Height Min="0" Max="1.2"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="90"/>
         </Rule>
       </Item>
+
     </EnvironmentItems>
 
     <OreMappings>

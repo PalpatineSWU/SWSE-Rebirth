@@ -365,7 +365,7 @@
   <Definition xsi:type="MyObjectBuilder_TreeDefinition">
     <Id>
       <TypeId>TreeDefinition</TypeId>
-      <SubtypeId>K_Corrupted_Forest_Tree_C</SubtypeId>
+      <SubtypeId>K_Corrupted_Forest_Tree_D</SubtypeId>
     </Id>
     <Model>Models\Environment\Trees\K_DarkTree_C_Large.mwm</Model>
     <BranchesStartHeight>2.342</BranchesStartHeight>

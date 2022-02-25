@@ -231,10 +231,9 @@ namespace Scripts {
                 },
             },
             Ammos = new[] {
-                SWU_LaserCannon_TIE_Green_LowPower, 
+                SWU_LaserCannon_TIE_Green_LowPower,
 				SWU_LaserCannon_TIE_Green_MedPower,
 				SWU_LaserCannon_TIE_Green_HighPower,
-                
             },
             //Animations = Weapon75_Animation,
             //Upgrades = UpgradeModules,

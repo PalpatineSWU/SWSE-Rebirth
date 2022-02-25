@@ -2,64 +2,85 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
  <CubeBlocks>
 
-<Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+		<Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
-        <TypeId>SolarPanel</TypeId>
-        <SubtypeId>K_Rebellion_SolarPanel</SubtypeId>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>K_Imperial_Reactors_SythFuel_Basic</SubtypeId>
       </Id>
-      <DisplayName>Rebellion Kauti Solar Panel (Rod-Type)</DisplayName>
-	   <GuiVisible>false</GuiVisible>
-      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
-      <Description>Salvaged together Solar Panel, in Kauti Cell fashion, of the Rebellion.</Description>
+      <DisplayName>Republic Synthetic-Fuel Generator</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor_large.dds</Icon>
+      <Description> Solid-Fuel Based Power Generation, requires Synth Fuel Ingots to burn. Provides 135 units of power.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="3" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Solar\Rebellion_Solar_Large.mwm</Model>
+      <Model>Models\Power\K_Imperial_CombustionReactor_Large.mwm</Model>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="4" />
-        <Component Subtype="ImperialConstruction" Count="7" />
-       <Component Subtype="SolarCircuitry" Count="8" />
-        <Component Subtype="Computer" Count="2" />
-                <Component Subtype="TranspariSteel" Count="10" />
-		</Components>
+        <Component Subtype="DuraSteel" Count="15" />
+        <Component Subtype="ImperialConstruction" Count="11" />
+        <Component Subtype="PowerConverter" Count="1" />
+         <Component Subtype="StandardCabling" Count="4" />
+        <Component Subtype="PowerGen_Basics" Count="5" />
+               <Component Subtype="Computer" Count="25" />
+		 <Component Subtype="StandardCabling" Count="3" />
+		 <Component Subtype="ImperialConstruction" Count="15" />
+        <Component Subtype="DuraSteel" Count="25" />
+      </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <Center x="0" y="0" z="0" />
-      <MountPoints>
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
-       
-      </MountPoints>
-
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SolarPanelConstruction1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelConstruction2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelConstruction3.mwm" />
+	  <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1" EndY="1" Default="true" />
+        </MountPoints>
+           <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.45" File="Models\Power\K_Imperial_CombustionReactor_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.65" File="Models\Power\K_Imperial_CombustionReactor_Large_Constr2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>K_Rebellion_SolarPanel</BlockPairName>
+      <BlockPairName>K_Imperial_Reactors_SythFuel_Basic</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <BuildTimeSeconds>100</BuildTimeSeconds>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <MaxPowerOutput>135</MaxPowerOutput>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
 
-      <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
-      <MaxPowerOutput>0.7</MaxPowerOutput>
+            <!-- 
+                Values are volume fill ratio, means how much fuel reactor pulls from conveyor system to the inventory.
+                If volume fill ratio is bellow minimum, reactor starts pulling fuel up to maximum value.
+                Warning: Changing these values will affect performance.
+            -->
+            <InventoryFillFactorMin>0.001</InventoryFillFactorMin>
+            <InventoryFillFactorMax>0.002</InventoryFillFactorMax>
 
-      <PanelOrientation>
-        <X>0</X>
-        <Y>0</Y>
-        <Z>-1</Z>
-      </PanelOrientation>
-      <TwoSidedPanel>true</TwoSidedPanel>
-      <PanelOffset>1.0</PanelOffset>
-      <DamageEffectName>Damage_Electrical_Damaged_SolarPanels</DamageEffectName>
-      <DamagedSound>ParticleElectrical</DamagedSound>
-      <PhysicalMaterial>Glass</PhysicalMaterial>
-      <EmissiveColorPreset>Default</EmissiveColorPreset>
-      <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
-      <DestroySound>PoofExplosionCat3</DestroySound>
-      <PCU>55</PCU>
+            <!-- 
+                This is how much of fuel is pulled from conveyor system in one tick.
+                It's in minutes, means that it will pull X minutes of fuel in one tick.
+                Warning: Changing this value will affect performance.
+            -->
+            <FuelPullAmountFromConveyorInMinutes>10.0</FuelPullAmountFromConveyorInMinutes>
+
+     <FuelInfos>
+        <FuelInfo>
+          <Id>
+            <TypeId>Ingot</TypeId>
+            <SubtypeId>Spin_SyntheticFuel</SubtypeId>
+          </Id>
+		  <Ratio>0.6</Ratio>
+        </FuelInfo>
+      </FuelInfos>
+      <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
+      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+      <DamagedSound>ParticleReactor</DamagedSound>      
+      <EmissiveColorPreset>K_Imperial_Factory_Red</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>
-    </Definition>
- 
- 
+	 	 	     </Definition>
+
  	<Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
@@ -134,165 +155,160 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>
 	 	 	     </Definition>
- 
- <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+
+ <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
-        <TypeId>SolarPanel</TypeId>
-        <SubtypeId>K_Rebellion_SentryTower_Solar</SubtypeId>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>PowerSupplies_SyncGenerator</SubtypeId>
       </Id>
-      <DisplayName>Rebellion Kauti Sentry-Tower Solar</DisplayName>
-	   <GuiVisible>false</GuiVisible>
-      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
-      <Description>Salvaged together Solar Panel, in Kauti Cell fashion, of the Rebellion.</Description>
+      <DisplayName>New Republic Synthetic Generator</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor_large.dds</Icon>
+      <Description>New Republic Synthetic Based Power Generation, requires Synth Fuel Ingots to burn. Provides 35 units of power.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Security\Rebellion_Turret_ScoutTower_Solar_Large.mwm</Model>
+      <Model>Models\Construction\Power\K_NR_SyncGenerator_Large.mwm</Model>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="4" />
-        <Component Subtype="ImperialConstruction" Count="7" />
-       <Component Subtype="SolarCircuitry" Count="8" />
-        <Component Subtype="Computer" Count="2" />
-                <Component Subtype="TranspariSteel" Count="10" />
-		</Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
-      <Center x="0" y="0" z="0" />
-      <MountPoints>
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
-       
-      </MountPoints>
-
-      <BlockPairName>K_Rebellion_SentryTower_Solar</BlockPairName>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>40</BuildTimeSeconds>
-
-      <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
-      <MaxPowerOutput>0.3</MaxPowerOutput>
-
-      <PanelOrientation>
-        <X>0</X>
-        <Y>-1</Y>
-        <Z>0</Z>
-      </PanelOrientation>
-      <TwoSidedPanel>true</TwoSidedPanel>
-      <PanelOffset>1.0</PanelOffset>
-      <DamageEffectName>Damage_Electrical_Damaged_SolarPanels</DamageEffectName>
-      <DamagedSound>ParticleElectrical</DamagedSound>
-      <PhysicalMaterial>Glass</PhysicalMaterial>
-      <EmissiveColorPreset>Default</EmissiveColorPreset>
-      <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
-      <DestroySound>PoofExplosionCat3</DestroySound>
-      <PCU>55</PCU>
-      <IsAirTight>false</IsAirTight>
-    </Definition>
- 
- <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
-      <Id>
-        <TypeId>BatteryBlock</TypeId>
-        <SubtypeId>K_Rebellion_SentryTower_Battery</SubtypeId>
-      </Id>
-      <DisplayName>Rebellion Kauti Sentry-Tower Battery</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
-       <Description>Kauti Power-Cells stored into an hardened base, to allow planting of a Sentry Tower independently from Infrastructure.</Description>
-      <CubeSize>Large</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Security\Rebellion_Turret_ScoutTower_Battery_Large.mwm</Model>
-      <Components>
-        <Component Subtype="LightweightDurasteel" Count="5" />
-        <Component Subtype="ImperialConstruction" Count="3" />
-		        <Component Subtype="StandardPowerCell" Count="6"/>
-         <Component Subtype="Computer" Count="5" />
-        <Component Subtype="ImperialConstruction" Count="5" />
-        <Component Subtype="LightweightDurasteel" Count="20" />
-      </Components>
-      <CriticalComponent Subtype="StandardPowerCell" Index="0" />
-  
-      <BlockPairName>K_Rebellion_SentryTower_Battery</BlockPairName>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>45</BuildTimeSeconds>
-
-      <ResourceSourceGroup>Battery</ResourceSourceGroup>
-      <MaxPowerOutput>12</MaxPowerOutput>
-
-      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
-      <RequiredPowerInput>12</RequiredPowerInput>
-      <AdaptibleInput>true</AdaptibleInput>
-      <MaxStoredPower>5</MaxStoredPower>
-      <InitialStoredPowerRatio>0.0</InitialStoredPowerRatio>
-
-      <InventorySize>
-        <X>1</X>
-        <Y>1</Y>
-        <Z>1</Z>
-      </InventorySize>
-      <Public>true</Public>
-      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
-      <DamagedSound>ParticleElectrical</DamagedSound>
-      <EmissiveColorPreset>Extended</EmissiveColorPreset>
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>15</PCU>
-      <IsAirTight>true</IsAirTight>
-    </Definition>
-	
-	 <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
-      <Id>
-        <TypeId>BatteryBlock</TypeId>
-        <SubtypeId>K_Rebellion_Battery</SubtypeId>
-      </Id>
-      <DisplayName>Rebellion Kauti Battery</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
-       <Description>Kauti-Cell Designed Battery Bank.</Description>
-      <CubeSize>Large</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Power\Rebellion_Battery_Large.mwm</Model>
-      <Components>
-        <Component Subtype="LightweightDurasteel" Count="15" />
-        <Component Subtype="ImperialConstruction" Count="25" />
-		        <Component Subtype="StandardPowerCell" Count="120"/>
+         <Component Subtype="LightweightDurasteel" Count="15" />
+         <Component Subtype="ImperialConstruction" Count="11" />
+         <Component Subtype="PowerConverter" Count="1" />
+         <Component Subtype="StandardCabling" Count="4" />
+         <Component Subtype="PowerGen_Basics" Count="4" />
          <Component Subtype="Computer" Count="25" />
-        <Component Subtype="ImperialConstruction" Count="45" />
-        <Component Subtype="LightweightDurasteel" Count="20" />
+		     <Component Subtype="StandardCabling" Count="3" />
+    		 <Component Subtype="ImperialConstruction" Count="15" />
+         <Component Subtype="LightweightDurasteel" Count="25" />
       </Components>
-      <CriticalComponent Subtype="StandardPowerCell" Index="0" />
-    <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.25" File="Models\Power\Rebellion_Battery_Large_Constr1.mwm" />
-		<Model BuildPercentUpperBound="0.50" File="Models\Power\Rebellion_Battery_Large_Constr2.mwm" />
-        <Model BuildPercentUpperBound="0.90" File="Models\Power\Rebellion_Battery_Large_Constr3.mwm" />
-      </BuildProgressModels>
-      <BlockPairName>K_Rebellion_Battery</BlockPairName>
+      <CriticalComponent Subtype="Computer" Index="0" />
+	  <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1" EndY="1" Default="true" />
+        </MountPoints>
+       
+      <BlockPairName>PowerSupplies_SyncGenerator</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>45</BuildTimeSeconds>
-
-      <ResourceSourceGroup>Battery</ResourceSourceGroup>
-      <MaxPowerOutput>8</MaxPowerOutput>
-
-      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
-      <RequiredPowerInput>8</RequiredPowerInput>
-      <AdaptibleInput>true</AdaptibleInput>
-      <MaxStoredPower>5</MaxStoredPower>
-      <InitialStoredPowerRatio>0.0</InitialStoredPowerRatio>
-
+      <BuildTimeSeconds>100</BuildTimeSeconds>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <MaxPowerOutput>35</MaxPowerOutput>
       <InventorySize>
-        <X>1</X>
-        <Y>1</Y>
-        <Z>1</Z>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
       </InventorySize>
-      <Public>true</Public>
-      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
-      <DamagedSound>ParticleElectrical</DamagedSound>
-      <EmissiveColorPreset>Extended</EmissiveColorPreset>
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>15</PCU>
-      <IsAirTight>true</IsAirTight>
-    </Definition>
-	
- 
+
+            <!-- 
+                Values are volume fill ratio, means how much fuel reactor pulls from conveyor system to the inventory.
+                If volume fill ratio is bellow minimum, reactor starts pulling fuel up to maximum value.
+                Warning: Changing these values will affect performance.
+            -->
+            <InventoryFillFactorMin>0.001</InventoryFillFactorMin>
+            <InventoryFillFactorMax>0.002</InventoryFillFactorMax>
+
+            <!-- 
+                This is how much of fuel is pulled from conveyor system in one tick.
+                It's in minutes, means that it will pull X minutes of fuel in one tick.
+                Warning: Changing this value will affect performance.
+            -->
+            <FuelPullAmountFromConveyorInMinutes>10.0</FuelPullAmountFromConveyorInMinutes>
+
+     <FuelInfos>
+        <FuelInfo>
+          <Id>
+            <TypeId>Ingot</TypeId>
+            <SubtypeId>Spin_SyntheticFuel</SubtypeId>
+          </Id>
+		  <Ratio>0.6</Ratio>
+        </FuelInfo>
+      </FuelInfos>
+      <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
+      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+      <DamagedSound>ParticleReactor</DamagedSound>      
+      <EmissiveColorPreset>K_Imperial_Factory_Red</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>
+	 	 	     </Definition>
+
+	<Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>K_Imperial_Reactors_SythFuel_Basic_Small</SubtypeId>
+      </Id>
+      <DisplayName>Republic Synthetic-Fuel Generator (Small-Grid)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor_large.dds</Icon>
+      <Description> Solid-Fuel Based Power Generation, requires Synth Fuel Ingots to burn. 
+	  Provides 6 units of power.
+	  (Conveyor Network Access is still being fixed)</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Imperial\Generics\K_Imperial_Generics_SythGen_Small.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="3" />
+        <Component Subtype="ImperialConstruction" Count="3" />
+        <Component Subtype="PowerConverter" Count="1" />
+         <Component Subtype="StandardCabling" Count="2" />
+        <Component Subtype="PowerGen_Basics" Count="2" />
+               <Component Subtype="Computer" Count="5" />
+		 <Component Subtype="StandardCabling" Count="2" />
+		 <Component Subtype="ImperialConstruction" Count="4" />
+        <Component Subtype="DuraSteel" Count="7" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+
+
+      <BlockPairName>K_Imperial_Reactors_SythFuel_Basic</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <MaxPowerOutput>6</MaxPowerOutput>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+
+            <!-- 
+                Values are volume fill ratio, means how much fuel reactor pulls from conveyor system to the inventory.
+                If volume fill ratio is bellow minimum, reactor starts pulling fuel up to maximum value.
+                Warning: Changing these values will affect performance.
+            -->
+            <InventoryFillFactorMin>0.001</InventoryFillFactorMin>
+            <InventoryFillFactorMax>0.002</InventoryFillFactorMax>
+
+            <!-- 
+                This is how much of fuel is pulled from conveyor system in one tick.
+                It's in minutes, means that it will pull X minutes of fuel in one tick.
+                Warning: Changing this value will affect performance.
+            -->
+            <FuelPullAmountFromConveyorInMinutes>10.0</FuelPullAmountFromConveyorInMinutes>
+
+
+     <FuelInfos>
+        <FuelInfo>
+          <Id>
+            <TypeId>Ingot</TypeId>
+            <SubtypeId>Spin_SyntheticFuel</SubtypeId>
+          </Id>
+		  <Ratio>0.5</Ratio>
+        </FuelInfo>
+      </FuelInfos>
+      <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
+      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+      <DamagedSound>ParticleReactor</DamagedSound>      
+      <EmissiveColorPreset>K_Imperial_Factory_Red</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>
+	 	 	     </Definition>
+
+
   </CubeBlocks>
 </Definitions>

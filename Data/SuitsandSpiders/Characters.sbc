@@ -468,9 +468,9 @@
       <UseOnlyWalking>false</UseOnlyWalking>
 
       <MaxSlope>91</MaxSlope>
-      <MaxSprintSpeed>15</MaxSprintSpeed>
+      <MaxSprintSpeed>12</MaxSprintSpeed>
 
-      <MaxRunSpeed>7</MaxRunSpeed>
+      <MaxRunSpeed>6</MaxRunSpeed>
       <MaxBackrunSpeed>6</MaxBackrunSpeed>
       <MaxRunStrafingSpeed>7</MaxRunStrafingSpeed>
 
@@ -569,8 +569,8 @@
         <ThrustProperties>
           <!-- Properties applied once to each direction -->
           <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-          <ForceMagnitude>5200</ForceMagnitude>
-          <SlowdownFactor>6</SlowdownFactor>
+          <ForceMagnitude>20200</ForceMagnitude>
+          <SlowdownFactor>24</SlowdownFactor>
           <MinPowerConsumption>0.000000001</MinPowerConsumption>
           <MaxPowerConsumption>0.0001</MaxPowerConsumption>
           <ConsumptionFactorPerG>200</ConsumptionFactorPerG>

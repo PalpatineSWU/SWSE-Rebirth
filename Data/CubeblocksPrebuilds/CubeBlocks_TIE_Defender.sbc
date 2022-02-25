@@ -76,28 +76,6 @@
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
-	    <BlockVariants>
-	  <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>K_TIE_Defender_Ring</SubtypeId>
-        </BlockVariant>
-		<BlockVariant>
-          <TypeId>BatteryBlock</TypeId>
-          <SubtypeId>K_TIE_Defender_Strut_Straight</SubtypeId>
-        </BlockVariant>
-			<BlockVariant>
-          <TypeId>BatteryBlock</TypeId>
-          <SubtypeId>K_TIE_Defender_Strut_Curved</SubtypeId>
-        </BlockVariant>
-			<BlockVariant>
-          <TypeId>Gyro</TypeId>
-          <SubtypeId>K_TIE_Defender_GyroStrut</SubtypeId>
-        </BlockVariant>
-			<BlockVariant>
-          <TypeId>Thrust</TypeId>
-          <SubtypeId>K_TIE_Defender_EngineMain</SubtypeId>
-        </BlockVariant>
-				      </BlockVariants>
     </Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_GasTankDefinition">
@@ -503,16 +481,6 @@
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
-	   <BlockVariants>
-	  <BlockVariant>
-          <TypeId>SmallMissileLauncher</TypeId>
-          <SubtypeId>K_TIE_Defender_Weapon_Missile</SubtypeId>
-        </BlockVariant>
-			  <BlockVariant>
-          <TypeId>SmallMissileLauncher</TypeId>
-          <SubtypeId>K_TIE_Defender_Weapon_MassDriver</SubtypeId>
-        </BlockVariant>
-		      </BlockVariants>
     </Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">

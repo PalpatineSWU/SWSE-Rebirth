@@ -179,8 +179,7 @@ namespace Scripts {
                 },
             },
             Ammos = new[] {
-                SWU_Bomb_Basic_ProtonBomb_I, 
-  
+                SWU_Bomb_Basic_ProtonBomb_I,
             },
             //Animations = Weapon75_Animation,
             //Upgrades = UpgradeModules,

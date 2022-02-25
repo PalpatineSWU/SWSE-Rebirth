@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
-  <!--Ashas Ree -->
+  <!--Abregado-rae -->
  <Definition xsi:type="PlanetGeneratorDefinition">
     <Id>
       <TypeId>PlanetGeneratorDefinition</TypeId>
-      <SubtypeId>Ashas Ree</SubtypeId>
+      <SubtypeId>Abregado-rae</SubtypeId>
     </Id>
     <!--!!!Important!! Read if you want to mod Planets! -->
     <!--Following tag switches off loading from certain color channels. Its performance measure in cases where channels are not used-->
@@ -1435,11 +1435,11 @@
   </Definition>
 
 
- <!-- CeSai -->
+ <!-- Kuat -->
 <Definition xsi:type="PlanetGeneratorDefinition">
     <Id>
       <TypeId>PlanetGeneratorDefinition</TypeId>
-      <SubtypeId>CeSai</SubtypeId>
+      <SubtypeId>Kuat</SubtypeId>
     </Id>
     <!--!!!Important!! Read if you want to mod Planets! -->
     <!--Following tag switches off loading from certain color channels. Its performance measure in cases where channels are not used-->

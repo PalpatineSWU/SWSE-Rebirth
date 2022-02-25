@@ -5,7 +5,7 @@
    <Definition xsi:type="PlanetGeneratorDefinition">
     <Id>
       <TypeId>PlanetGeneratorDefinition</TypeId>
-      <SubtypeId>X635</SubtypeId>
+      <SubtypeId>Bonadan</SubtypeId>
     </Id>
     <!--!!!Important!! Read if you want to mod Planets! -->
     <!--Following tag switches off loading from certain color channels. Its performance measure in cases where channels are not used-->

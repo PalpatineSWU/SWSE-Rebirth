@@ -118,10 +118,14 @@
 	  <Item TypeId="TreeDefinition" SubtypeId="K_Dark_Forest_Tree_C" Weight="0.25"/>
 	   <Item TypeId="TreeDefinition" SubtypeId="K_Dark_Forest_Obelisk" Weight="0.01"/>
 	  <Item TypeId="TreeDefinition" SubtypeId="K_Dark_Forest_Tree_B" Weight="0.40"/>
-	   <Item TypeId="TreeDefinition" SubtypeId="K_Corrupted_Forest_Tree_E" Weight="0.20"/>
 	  <Item TypeId="TreeDefinition" SubtypeId="K_Dark_Forest_Tree_A" Weight="0.20"/>
 	  <Item TypeId="TreeDefinition" SubtypeId="K_Dark_Forest_Tree_B" Weight="0.20"/>
 	  <Item TypeId="TreeDefinition" SubtypeId="K_Dark_Forest_Tree_C" Weight="0.10"/>
+	  <Item TypeId="TreeDefinition" SubtypeId="K_Corrupted_Forest_Tree_A" Weight="0.20"/>    
+	  <Item TypeId="TreeDefinition" SubtypeId="K_Corrupted_Forest_Tree_B" Weight="0.20"/>    
+	  <Item TypeId="TreeDefinition" SubtypeId="K_Corrupted_Forest_Tree_C" Weight="0.20"/>    
+	  <Item TypeId="TreeDefinition" SubtypeId="K_Corrupted_Forest_Tree_D" Weight="0.20"/>    
+	  <Item TypeId="TreeDefinition" SubtypeId="K_Corrupted_Forest_Tree_E" Weight="0.20"/>        
     	      </Items>
   </Definition>
   

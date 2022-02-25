@@ -120,13 +120,8 @@
       <Public>true</Public>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
-	   <BlockVariants>
-	  <BlockVariant>
-          <TypeId>Thrust</TypeId>
-          <SubtypeId>K_Imperial_Engine_LG_S_I</SubtypeId>
-        </BlockVariant>
-		      </BlockVariants>
     </Definition>
+    
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>

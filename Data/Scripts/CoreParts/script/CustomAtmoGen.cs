@@ -18,7 +18,7 @@ namespace Klime.CustomAtmoGen
     public class CustomAtmoGen : MyGameLogicComponent
     {
         IMyGasGenerator gas_gen;
-        string planet_subtype = "X635";
+        string planet_subtype = "Bonadan";
         string ore_subtype = "Tibanna_Raw";
         MyFixedPoint amount_per_minute = 10;
 

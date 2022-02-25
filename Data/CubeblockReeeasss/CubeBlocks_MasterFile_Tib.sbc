@@ -10,7 +10,7 @@
       <DisplayName>Tibanna Accumulator</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
       <Description>Tibanna Production Machinery, requires Specific Atmospheric Environments to function:
-	  X635</Description>
+	  Bonadan</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="3" z="1" />
