@@ -14,7 +14,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="3" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Power\K_Imperial_CombustionReactor_Large.mwm</Model>
+      <Model>Models\Power\K_Imperial_Reactor_PowerCoreAnimated_Large.mwm</Model>
       <Components>
         <Component Subtype="DuraSteel" Count="15" />
         <Component Subtype="ImperialConstruction" Count="11" />

@@ -2,8 +2,52 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
  <CubeBlocks>
  
+	<Definition xsi:type="MyObjectBuilder_GyroDefinition">
+      <Id>
+        <TypeId>Gyro</TypeId>
+       <SubtypeId>K_Imperial_Misc_InterdictionSphere</SubtypeId>
+     </Id>
+     <DisplayName>Gyroscopic Ball</DisplayName>
+     <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+	   <Description>A heavy meatal spherical gyroscope of enormous perportions, 250 times a normal gyro output.</Description>     
+     <CubeSize>Large</CubeSize>
+  <GuiVisible>false</GuiVisible>
+     <BlockTopology>TriangleMesh</BlockTopology>
+     <Size x="5" y="5" z="5" />
+     <ModelOffset x="0" y="0" z="0" />
+  <Model>Models\Misc\K_Imperial_Technology_Indiction_Sphere_Large.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="2500" />
+        <Component Subtype="Construction" Count="400" />
+        <Component Subtype="LargeTube" Count="40" />
+        <Component Subtype="MetalGrid" Count="500" />
+        <Component Subtype="Motor" Count="40" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="SteelPlate" Count="1000" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+	  <MountPoints>
+		<MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="1" />
+		<MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="1" />
+		<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="2" />
+	</MountPoints>
+      <BlockPairName>K_Imperial_Misc_InterdictionSphere</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	  <PrimarySound>BlockGyroscope</PrimarySound>
+      <ResourceSinkGroup>Gyro</ResourceSinkGroup>
+      <ForceMagnitude>9450000000</ForceMagnitude>
+      <RequiredPowerInput>1.25</RequiredPowerInput>
+      <DamageEffectName>Imperial_Damages_Electrical</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
+	   <GeneralDamageMultiplier>0.6</GeneralDamageMultiplier>
+    </Definition>
 
-	
 	<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
@@ -241,7 +285,7 @@
 	  <PrimarySound>BlockGyroscope</PrimarySound>
       <ResourceSinkGroup>Gyro</ResourceSinkGroup>
       <ForceMagnitude>504000000</ForceMagnitude>
-      <RequiredPowerInput>0.00001</RequiredPowerInput>
+      <RequiredPowerInput>0.15</RequiredPowerInput>
       <DamageEffectName>Imperial_Damages_Electrical</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
       <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>

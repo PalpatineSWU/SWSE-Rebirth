@@ -14,7 +14,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="3" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Power\K_Imperial_GasReactorHydrogen_Large.mwm</Model>
+      <Model>Models\Power\K_Imperial_CombustionReactor_Large.mwm</Model>
       <Components>
         <Component Subtype="DuraSteel" Count="25" />
         <Component Subtype="StandardCabling" Count="25" />
@@ -27,10 +27,10 @@
         <Component Subtype="DuraSteel" Count="45" />
       </Components>
       <CriticalComponent Subtype="PowerGen_Basics" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1" EndY="1" Default="true" />
-        <MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1" EndY="1" />
-      </MountPoints>
+           <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.45" File="Models\Power\K_Imperial_CombustionReactor_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.65" File="Models\Power\K_Imperial_CombustionReactor_Large_Constr2.mwm" />
+        </BuildProgressModels>      
           <BlockPairName>K_Imperial_Reactors_Hydrogen_Basic</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -93,9 +93,6 @@
         <Component Subtype="DuraSteel" Count="25" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-	  <MountPoints>
-        <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1" EndY="1" Default="true" />
-        </MountPoints>
            <BuildProgressModels>
         <Model BuildPercentUpperBound="0.45" File="Models\Power\K_Imperial_CombustionReactor_Large_Constr1.mwm" />
         <Model BuildPercentUpperBound="0.65" File="Models\Power\K_Imperial_CombustionReactor_Large_Constr2.mwm" />
@@ -238,7 +235,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="3" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Power\K_Imperial_Reactor_AdvancedModel_Large.mwm</Model>
+      <Model>Models\Power\K_Imperial_HypermatterReactor_A_Large.mwm</Model>
       <Components>
          <Component Subtype="DuraSteel" Count="225" />
         <Component Subtype="ImperialConstruction" Count="110" />
@@ -314,7 +311,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="3" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Power\K_Imperial_Reactor_PowerCoreAnimated_Large.mwm</Model>
+      <Model>Models\Power\K_Imperial_GasReactorHydrogen_Large.mwm</Model>
       <Components>
          <Component Subtype="DuraSteel" Count="225" />
         <Component Subtype="ImperialConstruction" Count="110" />
@@ -388,7 +385,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="3" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Power\K_Imperial_HypermatterReactor_A_Large.mwm</Model>
+          <Model>Models\Refinement\K_Imperial_Recycler_Large.mwm</Model>
       <Components>
        <Component Subtype="DuraSteel" Count="210" />
         <Component Subtype="HeavyDutyCabling" Count="240" />
@@ -402,10 +399,6 @@
         <Component Subtype="DuraSteel" Count="400" />
       </Components>
       <CriticalComponent Subtype="FissionAdvancedController" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="3" EndY="3" Default="true" />
-        <MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="3" EndY="3" />
-      </MountPoints>
           <BlockPairName>K_Imperial_Reactors_Hypermatter_Medium</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -428,10 +421,10 @@
             <TypeId>GasProperties</TypeId>
             <SubtypeId>k_imperial_hypermatter</SubtypeId>
           </Id>
-		  <Ratio>0.2</Ratio>
+		  <Ratio>1</Ratio>
         </FuelInfo>
       </FuelInfos>
-      <FuelProductionToCapacityMultiplier>0.0005</FuelProductionToCapacityMultiplier>
+      <FuelProductionToCapacityMultiplier>1</FuelProductionToCapacityMultiplier>
       <PrimarySound>K_Imperial_IdleReactor_Waves</PrimarySound>
 
      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
@@ -454,9 +447,10 @@
       <CubeSize>Large</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="3" y="3" z="3" />
+      <Size x="3" y="5" z="5" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Power\K_Imperial_HypermatterReactor_A_Large.mwm</Model>
+      <Center x="1" y="0" z="1" /> 
+      <Model>Models\Manufacturing\K_Imperial_Assembly_AmmunitionsFactory_Large.mwm</Model>
       <Components>
        <Component Subtype="DuraSteel" Count="210" />
         <Component Subtype="HeavyDutyCabling" Count="240" />
@@ -470,10 +464,6 @@
         <Component Subtype="DuraSteel" Count="400" />
       </Components>
       <CriticalComponent Subtype="FissionAdvancedController" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="3" EndY="3" Default="true" />
-        <MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="3" EndY="3" />
-      </MountPoints>
           <BlockPairName>K_Imperial_Reactors_Hypermatter_Heavy</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -496,10 +486,10 @@
             <TypeId>GasProperties</TypeId>
             <SubtypeId>k_imperial_hypermatter</SubtypeId>
           </Id>
-		  <Ratio>0.2</Ratio>
+		  <Ratio>1</Ratio>
         </FuelInfo>
       </FuelInfos>
-      <FuelProductionToCapacityMultiplier>0.0005</FuelProductionToCapacityMultiplier>
+      <FuelProductionToCapacityMultiplier>1</FuelProductionToCapacityMultiplier>
       <PrimarySound>ArcBlockHydrogenEngine</PrimarySound>
 
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>

@@ -192,7 +192,7 @@
           <TypeId>GasProperties</TypeId>
           <SubtypeId>k_imperial_hypermatter</SubtypeId>
         </Id>
-        <MaxOutputPerSecond>0.1</MaxOutputPerSecond>
+        <MaxOutputPerSecond>200</MaxOutputPerSecond>
       </ProducedGas>
       <OperationalPowerConsumption>0.01</OperationalPowerConsumption>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
@@ -203,6 +203,74 @@
       <PCU>25</PCU>
     </Definition>
 	
+	<Definition xsi:type="MyObjectBuilder_OxygenFarmDefinition">
+      <Id>
+        <TypeId>OxygenFarm</TypeId>
+        <SubtypeId>K_Imperial_Refinement_Hypermatter_AccumulatorNPC</SubtypeId>
+      </Id>
+      <DisplayName>NPC Republic Hypermatter Accumulator</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+      <Description> Technology used in the harvesting of stray particles for hypermatter creation: 
+	  Outputs Hypermatter When provided power and direct Sunlight.
+	  Large-Grid 5x1x1</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="1" z="1" />
+      <Center x="0" y="0" z="0" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Refinement\K_Imperial_Hypermatter_Accumulator_Large.mwm</Model>
+      <Components>
+        <Component Subtype="NPC" Count="40" />
+        <Component Subtype="BulletproofGlass" Count="60" />
+        <Component Subtype="ImperialGeneralParts" Count="20" />
+        <Component Subtype="PowerConverter" Count="10" />
+        <Component Subtype="ImperialGeneralParts" Count="20" />
+        <Component Subtype="Computer" Count="20" />
+        <Component Subtype="BulletproofGlass" Count="40" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0.25" EndX="5" EndY="0.75" />
+        <MountPoint Side="Top" StartX="0" StartY="0.25" EndX="5" EndY="0.75" />
+        <MountPoint Side="Back" StartX="0" StartY="0.375" EndX="1" EndY="0.625" />
+        <MountPoint Side="Front" StartX="2" StartY="0.375" EndX="5" EndY="0.625" />
+      </MountPoints>
+      <MirroringX>Y</MirroringX>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SolarHydroponicsConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarHydroponicsConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarHydroponicsConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Imperial_Refinement_Hypermatter_AccumulatorNPC</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <PanelOrientation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-1</Z>
+      </PanelOrientation>
+      <TwoSidedPanel>true</TwoSidedPanel>
+      <PanelOffset>0</PanelOffset>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+      <ProducedGas>
+        <Id>
+          <TypeId>GasProperties</TypeId>
+          <SubtypeId>k_imperial_hypermatter</SubtypeId>
+        </Id>
+        <MaxOutputPerSecond>100000</MaxOutputPerSecond>
+      </ProducedGas>
+      <OperationalPowerConsumption>0.01</OperationalPowerConsumption>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <EmissiveColorPreset>K_Imperial_GasStorage_Hypermatter</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+    </Definition>
+
 	<Definition xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
         <TypeId>Refinery</TypeId>
@@ -358,7 +426,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="3" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Refinement\K_Imperial_Recycler_Large.mwm</Model>
+      <Model>Models\Power\K_Imperial_Reactor_AdvancedModel_Large.mwm</Model>
       <Components>
         <Component Subtype="DuraSteel" Count="110" />
         <Component Subtype="ImperialConstruction" Count="35" />
@@ -420,9 +488,10 @@
       <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="3" y="5" z="5" />
+      <Size x="3" y="3" z="5" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Refinement\K_Imperial_Assembly_PhrikRefinery_Large.mwm</Model>
+      <Center x="1" y="0" z="1" /> 
+      <Model>Models\Manufacturing\K_Imperial_Assembly_PhrikFoundry_Large.mwm</Model>
      <Components>
         <Component Subtype="DuraSteel" Count="45" />
         <Component Subtype="ImperialConstruction" Count="110" />

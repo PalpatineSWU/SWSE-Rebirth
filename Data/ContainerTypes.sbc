@@ -80,15 +80,6 @@
                         <SubtypeId>Hollinium</SubtypeId>
                     </Id>
                 </Item>
-				
-				 <Item AmountMin="0.01" AmountMax="0.1">
-                    <Frequency>1.0</Frequency>
-                    <Id>
-                        <TypeId>Ore</TypeId>
-                        <SubtypeId>Tibanna</SubtypeId>
-                    </Id>
-                </Item>
-                
             </Items>
         </ContainerType>
 

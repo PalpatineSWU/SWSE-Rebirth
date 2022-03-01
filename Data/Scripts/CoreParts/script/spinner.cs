@@ -32,7 +32,7 @@ namespace EquinoxStuff
 	
 		
 	
-	[MyEntityComponentDescriptor(typeof(MyObjectBuilder_HydrogenEngine), false, "K_Imperial_Reactors_Hypermatter_Medium", "K_Imperial_Reactors_Hydrogen_Basic" )]
+	[MyEntityComponentDescriptor(typeof(MyObjectBuilder_HydrogenEngine), false, "K_Imperial_Reactors_Hypermatter_Medium", "K_Imperial_Reactors_Hypermatter_Heavy" )]
     public class HydroEngineSpinner : EnabledSpinner
     {
         // Spin SubpartName at 10 degrees per second
@@ -41,7 +41,7 @@ namespace EquinoxStuff
         }
     }
 	
-	[MyEntityComponentDescriptor(typeof(MyObjectBuilder_Refinery), false, "K_Imperial_RecyclingPlant_ImperialScrap" )]
+	[MyEntityComponentDescriptor(typeof(MyObjectBuilder_Reactor), false, "K_Imperial_Reactors_Exonium_Large_LG", "K_Imperial_Reactors_Exonium_PowerCoreHeavy" )]
     public class RefineryASpinner : EnabledSpinner
     {
         // Spin SubpartName at 10 degrees per second
@@ -60,7 +60,7 @@ namespace EquinoxStuff
     }
 	
 	
-	 [MyEntityComponentDescriptor(typeof(MyObjectBuilder_Reactor), false, "K_Imperial_Reactors_Exonium_PowerCoreHeavy", "K_Imperial_Reactors_Exonium_Small_LG" )]
+	 [MyEntityComponentDescriptor(typeof(MyObjectBuilder_Reactor), false, "K_Imperial_Reactors_SythFuel_Basic", "K_Imperial_Reactors_Exonium_Small_LG" )]
     public class ReactorSpinner : EnabledSpinner
     {
         // Spin SubpartName at 10 degrees per second

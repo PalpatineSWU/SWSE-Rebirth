@@ -946,32 +946,7 @@
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
       <NavigationDefinition>Default</NavigationDefinition>
-	      </Definition>
-
-		  <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>K_Imperial_Misc_InterdictionSphere</SubtypeId>
-      </Id>
-      <DisplayName>Republic Gravity-Well Generator</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
-      <CubeSize>Large</CubeSize>
-	  <GuiVisible>false</GuiVisible>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="5" y="5" z="5" />
-      <ModelOffset x="0" y="0" z="0" />
-	  <Model>Models\Misc\K_Imperial_Technology_Indiction_Sphere_Large.mwm</Model>
-      <Components>
-        <Component Subtype="DuraSteel" Count="110" />
-      </Components>
-      <CriticalComponent Subtype="DuraSteel" Index="0" />
-      <BlockPairName>K_Imperial_Misc_InterdictionSphere</BlockPairName>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>25</BuildTimeSeconds>
-      <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
-	      </Definition>
-		  
+	      </Definition> 
 		  
 		   <Definition>
       <Id>

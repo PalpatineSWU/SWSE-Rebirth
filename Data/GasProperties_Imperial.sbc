@@ -6,12 +6,12 @@
         <TypeId>MyObjectBuilder_GasProperties</TypeId>
         <SubtypeId>k_imperial_hypermatter</SubtypeId>
       </Id>
-      <EnergyDensity>0.001556</EnergyDensity>  <!-- MWh/litres -->
+      <EnergyDensity>20000.001556</EnergyDensity>  <!-- MWh/litres -->
     </Gas>
 	  <Gas>
       <Id>
         <TypeId>MyObjectBuilder_GasProperties</TypeId>
-        <SubtypeId>k_imperial_gasii</SubtypeId>
+        <SubtypeId>k_gas_Tibanna</SubtypeId>
       </Id>
       <EnergyDensity>0.001556</EnergyDensity>  <!-- MWh/litres -->
     </Gas>
