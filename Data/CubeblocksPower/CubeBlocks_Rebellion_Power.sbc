@@ -40,7 +40,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>100</BuildTimeSeconds>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-      <MaxPowerOutput>135</MaxPowerOutput>
+      <MaxPowerOutput>180</MaxPowerOutput>
       <InventorySize>
         <X>2</X>
         <Y>2</Y>
@@ -66,7 +66,7 @@
         <FuelInfo>
           <Id>
             <TypeId>Ingot</TypeId>
-            <SubtypeId>Spin_SyntheticFuel</SubtypeId>
+            <SubtypeId>SyntheticFuel</SubtypeId>
           </Id>
 		  <Ratio>0.6</Ratio>
         </FuelInfo>
@@ -115,7 +115,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>100</BuildTimeSeconds>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-      <MaxPowerOutput>35</MaxPowerOutput>
+      <MaxPowerOutput>60</MaxPowerOutput>
       <InventorySize>
         <X>2</X>
         <Y>2</Y>
@@ -141,7 +141,7 @@
         <FuelInfo>
           <Id>
             <TypeId>Ingot</TypeId>
-            <SubtypeId>Spin_SyntheticFuel</SubtypeId>
+            <SubtypeId>SyntheticFuel</SubtypeId>
           </Id>
 		  <Ratio>0.6</Ratio>
         </FuelInfo>
@@ -166,9 +166,9 @@
       <Description>New Republic Synthetic Based Power Generation, requires Synth Fuel Ingots to burn. Provides 35 units of power.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
+      <Size x="3" y="3" z="3" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Construction\Power\K_NR_SyncGenerator_Large.mwm</Model>
+      <Model>Models\Power\K_Imperial_Reactor_AdvancedModel_Large.mwm</Model>
       <Components>
          <Component Subtype="LightweightDurasteel" Count="15" />
          <Component Subtype="ImperialConstruction" Count="11" />
@@ -191,7 +191,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>100</BuildTimeSeconds>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-      <MaxPowerOutput>35</MaxPowerOutput>
+      <MaxPowerOutput>1200</MaxPowerOutput>
       <InventorySize>
         <X>2</X>
         <Y>2</Y>
@@ -217,7 +217,7 @@
         <FuelInfo>
           <Id>
             <TypeId>Ingot</TypeId>
-            <SubtypeId>Spin_SyntheticFuel</SubtypeId>
+            <SubtypeId>SyntheticFuel</SubtypeId>
           </Id>
 		  <Ratio>0.6</Ratio>
         </FuelInfo>
@@ -267,7 +267,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-      <MaxPowerOutput>6</MaxPowerOutput>
+      <MaxPowerOutput>5</MaxPowerOutput>
       <InventorySize>
         <X>2</X>
         <Y>2</Y>
@@ -294,7 +294,7 @@
         <FuelInfo>
           <Id>
             <TypeId>Ingot</TypeId>
-            <SubtypeId>Spin_SyntheticFuel</SubtypeId>
+            <SubtypeId>SyntheticFuel</SubtypeId>
           </Id>
 		  <Ratio>0.5</Ratio>
         </FuelInfo>

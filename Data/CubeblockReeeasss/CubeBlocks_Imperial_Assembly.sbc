@@ -118,8 +118,6 @@
       <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
       <BlueprintClasses>
        	<Class>K_Imperial_Factory_Basic_I</Class>
-	    	<Class>K_Imperial_Factory_Basic_II</Class>
-    		<Class>K_Imperial_Factory_Basic_III</Class>
         <Class>BuildPlanner</Class>
       </BlueprintClasses>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -152,11 +150,11 @@
     	<Center x="2" y="0" z="2" />  
       <Model>Models\Imperial\Manufacturing\K_Imperial_Manufacturing_Factory_Advanced_Large.mwm</Model>
       <Components>
+    		<Component Subtype="PowerConverter" Count="25" />      
         <Component Subtype="DuraSteel" Count="130" />
         <Component Subtype="ImperialConstruction" Count="110" />
         <Component Subtype="Motor" Count="60" />
         <Component Subtype="ImperialGeneralParts" Count="14" />
-		 <Component Subtype="PowerConverter" Count="25" />
         <Component Subtype="Computer" Count="225" />
 		<Component Subtype="ImperialGeneralParts" Count="3" />
 		<Component Subtype="ImperialConstruction" Count="110" />
@@ -190,10 +188,7 @@
       <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
       <AssemblySpeed>5</AssemblySpeed>
       <BlueprintClasses>
-        <Class>K_Imperial_Factory_Advanced_I</Class>
-		<Class>K_Imperial_Factory_Advanced_II</Class>
-		<Class>K_Imperial_Factory_Advanced_III</Class>
-		<Class>K_Imperial_Factory_Advanced_IV</Class>
+    <Class>K_Imperial_Factory_Advanced_I</Class>
     <Class>BuildPlanner</Class>
       </BlueprintClasses>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -205,66 +200,7 @@
 	   <EmissiveColorPreset>K_Imperial_Factory_Red</EmissiveColorPreset>
 	     <Center x="0" y="0" z="5" />
     </Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
-      <Id>
-        <TypeId>Assembler</TypeId>
-        <SubtypeId>K_Imperial_Assembly_Factory_Sub</SubtypeId>
-      </Id>
-      <DisplayName>Research Assembler</DisplayName>
-	   <Description>
-     Specialized production
-     equipment made to produce
-     rarely used and uncommon
-     equipment.
-	   Small-Grid 5x3x7</Description>
-      <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="5" y="3" z="7" />
-      <ModelOffset x="3" y="2" z="0" />
-    	<Center x="2" y="0" z="2" />        
-      <Model>Models\Manufacturing\K_Imperial_SubFactory_Small.mwm</Model>
-      <Components>
-        <Component Subtype="DuraSteel" Count="20" />
-        <Component Subtype="ImperialConstruction" Count="15" />
-        <Component Subtype="StandardCabling" Count="5" />
-		    <Component Subtype="Motor" Count="15" />
-        <Component Subtype="ImperialGeneralParts" Count="6" />
-        <Component Subtype="Computer" Count="25" />
-        <Component Subtype="DuraSteel" Count="5" />
-      </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
-      <BlockPairName>K_Imperial_Assembly_Factory_Light_I</BlockPairName>
-	    <BuildProgressModels>
-	      <Model BuildPercentUpperBound="0.25" File="Models\Manufacturing\K_Imperial_SubFactory_Small.mwm" />
-  		  <Model BuildPercentUpperBound="0.75" File="Models\Manufacturing\K_Imperial_SubFactory_Small.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Manufacturing\K_Imperial_SubFactory_Small.mwm" />
-      </BuildProgressModels>          
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>80</BuildTimeSeconds>
-      <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>1</InventoryMaxVolume>
-      <InventorySize>
-        <X>0.5</X>
-        <Y>0.5</Y>
-        <Z>0.5</Z>
-      </InventorySize>
-      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-      <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
-      <BlueprintClasses>
-		<Class>K_Imperial_SubFactory_II</Class>
-	      </BlueprintClasses>
-      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-      <DamagedSound>ParticleHeavyMech</DamagedSound>
-      <PrimarySound>K_Imperial_IdleDroidNoise</PrimarySound>
-      <ActionSound>K_Imperial_FactoryWorking</ActionSound>
-      <DestroyEffect>Explosion_Missile</DestroyEffect>
-      <DestroySound>WepSmallMissileExpl</DestroySound>
-	  <EmissiveColorPreset>K_Imperial_Factory_Red</EmissiveColorPreset>
-    </Definition>
-
-	
+		
 	<Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition">
       <Id>
         <TypeId>SurvivalKit</TypeId>
@@ -378,11 +314,11 @@
     	<Center x="2" y="0" z="2" /> 
       <Model>Models\Manufacturing\K_Imperial_Assembly_OreTechPlant_Large.mwm</Model>
       <Components>
+	      <Component Subtype="PowerConverter" Count="3" />      
         <Component Subtype="DuraSteel" Count="60" />
         <Component Subtype="ImperialConstruction" Count="120" />
         <Component Subtype="Motor" Count="60" />
         <Component Subtype="ImperialGeneralParts" Count="14" />
-		 <Component Subtype="PowerConverter" Count="3" />
         <Component Subtype="Computer" Count="125" />
 		<Component Subtype="ImperialGeneralParts" Count="2" />
 		<Component Subtype="ImperialConstruction" Count="110" />
@@ -408,8 +344,6 @@
       <OperationalPowerConsumption>2</OperationalPowerConsumption>
       <BlueprintClasses>
         <Class>K_Imperial_TechPlant_I</Class>
-		<Class>K_Imperial_TechPlant_II</Class>
-		<Class>K_Imperial_TechPlant_III</Class>
     <Class>BuildPlanner</Class>
 	      </BlueprintClasses>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -439,14 +373,14 @@
     	<Center x="2" y="0" z="2" /> 
       <Model>Models\Manufacturing\K_Imperial_Assembly_MassAssembler_Large.mwm</Model>
        <Components>
+		    <Component Subtype="PowerConverter" Count="3" />       
         <Component Subtype="DuraSteel" Count="130" />
         <Component Subtype="ImperialConstruction" Count="60" />
         <Component Subtype="Motor" Count="60" />
         <Component Subtype="ImperialGeneralParts" Count="14" />
-		 <Component Subtype="PowerConverter" Count="3" />
         <Component Subtype="Computer" Count="45" />
-		<Component Subtype="ImperialGeneralParts" Count="1" />
-		<Component Subtype="ImperialConstruction" Count="110" />
+	    	<Component Subtype="ImperialGeneralParts" Count="1" />
+	    	<Component Subtype="ImperialConstruction" Count="110" />
         <Component Subtype="DuraSteel" Count="225" />
       </Components>
       <CriticalComponent Subtype="ImperialGeneralParts" Index="0" />
@@ -551,11 +485,11 @@
     	<Center x="2" y="0" z="2" /> 
       <Model>Models\Manufacturing\K_Imperial_Assembly_MAWFacility_Large.mwm</Model>
       <Components>
+	      <Component Subtype="PowerConverter" Count="3" />      
         <Component Subtype="DuraSteel" Count="60" />
         <Component Subtype="ImperialConstruction" Count="120" />
         <Component Subtype="Motor" Count="60" />
         <Component Subtype="ImperialGeneralParts" Count="14" />
-	      <Component Subtype="PowerConverter" Count="3" />
         <Component Subtype="Computer" Count="125" />
 	    	<Component Subtype="ImperialGeneralParts" Count="2" />
 		    <Component Subtype="ImperialConstruction" Count="110" />
@@ -582,6 +516,7 @@
       <AssemblySpeed>2</AssemblySpeed>
       <BlueprintClasses>
         <Class>K_Imperial_Starfighter_Parts_Basic</Class>
+        <Class>K_Imperial_MicroFactoryVanilla</Class>        
         <Class>BuildPlanner</Class>
 	      </BlueprintClasses>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -651,128 +586,6 @@
 	   <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
       <PCU>140</PCU>
     </Definition>	
-
-  <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
-      <public>false</public>
-      <Id>
-        <TypeId>Assembler</TypeId>
-        <SubtypeId>K_Rebellion_SurvivalKit_ExileMicroMachine</SubtypeId>
-      </Id>
-      <DisplayName>0000000000000000</DisplayName>
-      <Description>
-      NOT IN USE
-      Survival Systems built into a Compact 
-      angular bay, to provide essential services
-       to Rebellion operatives in region. Not capable
-        of Advanced-Component manufacturing. Small-Grid 3x1x3</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SurvivalKitSmall.dds</Icon>
-      <CubeSize>Large</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Rebellion\Machinery\Rebellion_ExileKit_Large.mwm</Model>
-      <Components>
-        <Component Subtype="SteelPlate" Count="15" />
-        <Component Subtype="Construction" Count="2" />
-        <Component Subtype="Medical" Count="3" />
-        <Component Subtype="Motor" Count="4" />
-        <Component Subtype="Display" Count="1" />
-        <Component Subtype="Computer" Count="5" />
-        <Component Subtype="SteelPlate" Count="15" />
-      </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
-       <MirroringZ>Y</MirroringZ>
-      <MirroringY>Z</MirroringY>
-     <BuildProgressModels>
-		<Model BuildPercentUpperBound="0.33" File="Models\Rebellion\Machinery\Rebellion_ExileKit_Large_Constr1.mwm" />
-		<Model BuildPercentUpperBound="0.67" File="Models\Rebellion\Machinery\Rebellion_ExileKit_Large_Constr2.mwm" />
-		<Model BuildPercentUpperBound="1.00" File="Models\Rebellion\Machinery\Rebellion_ExileKit_Large_Constr3.mwm" />
-	</BuildProgressModels>
-	<MountPoints>
-		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
-		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
-		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
-		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
-	</MountPoints>
-      <BlockPairName>K_Rebellion_SurvivalKit_ExileMicroMachine</BlockPairName>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>80</BuildTimeSeconds>
-      <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>1</InventoryMaxVolume>
-      <InventorySize>
-        <X>1</X>
-        <Y>1</Y>
-        <Z>1</Z>
-      </InventorySize>
-      <StandbyPowerConsumption>0.03</StandbyPowerConsumption>
-      <OperationalPowerConsumption>2</OperationalPowerConsumption>
-      <BlueprintClasses>
-	</BlueprintClasses>
-      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-      <DamagedSound>ParticleHeavyMech</DamagedSound>
-      <PrimarySound>BlockAssembler</PrimarySound>
-      <ActionSound>BlockAssemblerProcess</ActionSound>
-      <DestroyEffect>Explosion_Missile</DestroyEffect>
-      <DestroySound>WepSmallMissileExpl</DestroySound>
-	  <EmissiveColorPreset>Default</EmissiveColorPreset>
-	       </Definition>
-
-  <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
-      <public>false</public>
-      <Id>
-        <TypeId>Assembler</TypeId>
-        <SubtypeId>K_Rebellion_ScrapMarket</SubtypeId>
-      </Id>
-      <DisplayName>0000000000000</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
-	   <Description>
-     NOT IN USE CURRENTLY
-     Small Networked Node, connected 
-     to the Galactic Marketplace, 
-     allowing the exchange of scrap 
-     for components, or for credits.
-      Can Sell or Buy Salvage via Credit 
-      Exchange. Can Access Low-Levels of 
-      the Black-Market. Large-Grid 1x1x1</Description>
-      <CubeSize>Large</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Rebellion\Machinery\Rebellion_ScrapMarket_Large.mwm</Model>
-      <Components>
-        <Component Subtype="LightweightDurasteel" Count="20" />
-        <Component Subtype="ImperialConstruction" Count="40" />
-		    <Component Subtype="PowerConverter" Count="3" />
-        <Component Subtype="ImperialConstruction" Count="4" />
-        <Component Subtype="Computer" Count="15" />
-        <Component Subtype="LightweightDurasteel" Count="65" />
-      </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
-      <MountPoints>
-         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-              </MountPoints>
-            <BlockPairName>K_Rebellion_ScrapMarket</BlockPairName>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>80</BuildTimeSeconds>
-      <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>1</InventoryMaxVolume>
-      <InventorySize>
-        <X>1</X>
-        <Y>1</Y>
-        <Z>1</Z>
-      </InventorySize>
-      <StandbyPowerConsumption>0.03</StandbyPowerConsumption>
-      <OperationalPowerConsumption>2</OperationalPowerConsumption>
-      <BlueprintClasses>
-	</BlueprintClasses>
-      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-      <DamagedSound>ParticleHeavyMech</DamagedSound>
-      <PrimarySound>BlockAssembler</PrimarySound>
-      <ActionSound>BlockAssemblerProcess</ActionSound>
-      <DestroyEffect>Explosion_Missile</DestroyEffect>
-      <DestroySound>WepSmallMissileExpl</DestroySound>
-	  <EmissiveColorPreset>Default</EmissiveColorPreset>
-	       </Definition>
 
 
  </CubeBlocks>

@@ -36,7 +36,7 @@
       <DisassembleRatio>5</DisassembleRatio>
       <NavigationDefinition>Default</NavigationDefinition>
 	  <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>1302500</ForceMagnitude>
+      <ForceMagnitude>302500</ForceMagnitude>
       <MaxPowerConsumption>0.201</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
       <SlowdownFactor>5</SlowdownFactor>
@@ -72,6 +72,7 @@
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
       <DestroySound>K_SW_Explosion_Generic</DestroySound>
 	  <EmissiveColorPreset>Engine_Yellow</EmissiveColorPreset>
+		  <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>    
     </Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -107,7 +108,7 @@
       <DisassembleRatio>5</DisassembleRatio>
       <NavigationDefinition>Default</NavigationDefinition>
 	  <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>1302500</ForceMagnitude>
+      <ForceMagnitude>302500</ForceMagnitude>
       <MaxPowerConsumption>0.201</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
       <SlowdownFactor>5</SlowdownFactor>
@@ -143,6 +144,7 @@
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
       <DestroySound>K_SW_Explosion_Generic</DestroySound>
 	  <EmissiveColorPreset>Engine_Yellow</EmissiveColorPreset>
+		  <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>    
     </Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_ReactorDefinition">
@@ -202,7 +204,7 @@
         <FuelInfo>
           <Id>
             <TypeId>Ingot</TypeId>
-            <SubtypeId>Spin_SyntheticFuel</SubtypeId>
+            <SubtypeId>SyntheticFuel</SubtypeId>
           </Id>
 		  <Ratio>0.5</Ratio>
         </FuelInfo>
@@ -213,6 +215,7 @@
       <EmissiveColorPreset>K_Imperial_ExtendedBasic_EmissiveSet</EmissiveColorPreset>
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
       <DestroySound>K_SW_Explosion_Generic</DestroySound>
+		  <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>    
     </Definition>
 
 	 <Definition xsi:type="MyObjectBuilder_GyroDefinition">
@@ -254,6 +257,7 @@
       <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
       <DestroySound>K_SW_Explosion_Generic</DestroySound>
+		  <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>    
     </Definition>
 	
 	
@@ -310,6 +314,7 @@
             <ScreenArea Name="CockpitScreen_03" DisplayName="3" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" Script="TSS_Gravity" />
             <ScreenArea Name="CockpitScreen_04" DisplayName="4" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" Script="TSS_ArtificialHorizon" />
            			</ScreenAreas>
+		  <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>    
     </Definition>
 	
 	
@@ -366,6 +371,7 @@ Limit: 2
       <ElevationSpeed>0.0002 </ElevationSpeed>
       <MinFov>0.1</MinFov>
       <MaxFov>1.04719755</MaxFov>
+		  <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>    
     </Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_CameraBlockDefinition">
@@ -409,6 +415,7 @@ Limit: 2
       <EmissiveColorPreset>Default</EmissiveColorPreset>
       <DestroyEffect>Imperial_Explosion_Sparks</DestroyEffect>
       <DestroySound>K_SW_Explosion_Generic</DestroySound>
+		  <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>    
     </Definition>
 	
 	
@@ -450,6 +457,7 @@ Limit: 2
       <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
       <DestroySound>WepLrgWarheadExpl</DestroySound>
       <PCU>25</PCU>
+		  <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>    
     </Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
@@ -490,7 +498,7 @@ Limit: 2
 	   		   <DestroySound>K_SW_Explosion_Generic</DestroySound>
 		    <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
 			 <DestroyEffect>Imperial_Explosion</DestroyEffect>
-			  <GeneralDamageMultiplier>1.2</GeneralDamageMultiplier>
+		  <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>    
     </Definition>
 	
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
@@ -567,7 +575,8 @@ Range: 500</Description>
       <MaxFov>1.04719755</MaxFov>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
-	  </Definition>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+    </Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
 <Public>false</Public>
@@ -639,7 +648,8 @@ Range: 300</Description>
       <MaxFov>1.04719755</MaxFov>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
-	  </Definition>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+    </Definition>
 	
 	
 <Definition xsi:type="MyObjectBuilder_LandingGearDefinition">
@@ -681,7 +691,8 @@ Range: 300</Description>
       <DestroyEffect>Imperial_Explosion_Sparks</DestroyEffect>
       <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
       <PCU>35</PCU>
-	    </Definition>
+			  <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>    
+      </Definition>
 	
  <Definition xsi:type="MyObjectBuilder_RadioAntennaDefinition">
       <Id>
@@ -720,6 +731,7 @@ Range: 300</Description>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <DestroyEffect>Imperial_Explosion_Sparks</DestroyEffect>
       <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
+		  <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>    
     </Definition>
 	
 <Definition xsi:type="MyObjectBuilder_RemoteControlDefinition">
@@ -765,6 +777,7 @@ Range: 300</Description>
       <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
       <DestroyEffect>Imperial_Explosion_Sparks</DestroyEffect>
       <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
+		  <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>    
     </Definition>
 		  	
 	

@@ -87,7 +87,7 @@
       <FuelConverter>
         <FuelId>
           <TypeId>GasProperties</TypeId>
-          <SubtypeId>k_gas_Tibanna</SubtypeId>
+          <SubtypeId>TibannaGas</SubtypeId>
         </FuelId>
         <Efficiency>.5</Efficiency>
       </FuelConverter>
@@ -184,7 +184,7 @@
       <FuelConverter>
         <FuelId>
           <TypeId>GasProperties</TypeId>
-          <SubtypeId>k_gas_Tibanna</SubtypeId>
+          <SubtypeId>TibannaGas</SubtypeId>
         </FuelId>
         <Efficiency>.5</Efficiency>
       </FuelConverter>

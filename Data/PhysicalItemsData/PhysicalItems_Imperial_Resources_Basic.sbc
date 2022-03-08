@@ -696,7 +696,7 @@
 	<PhysicalItem>
       <Id>
         <TypeId>Ingot</TypeId>
-        <SubtypeId>Spin_SyntheticFuel</SubtypeId>
+        <SubtypeId>SyntheticFuel</SubtypeId>
 		  <!--Artifically Created Cheap fuel, used to run Generators lacking proper supply chains-->
 		   <!-- Unnaturally Produced-->    
       </Id>
@@ -889,7 +889,7 @@
 	<PhysicalItem>
       <Id>
         <TypeId>Ingot</TypeId>
-        <SubtypeId>Spin_Tibanna</SubtypeId>
+        <SubtypeId>TibannaCanisters</SubtypeId>
 				 <!--Basic "Gas" used for weaponry ammo -->    
 		  <!--Average Yield-->    
       </Id>

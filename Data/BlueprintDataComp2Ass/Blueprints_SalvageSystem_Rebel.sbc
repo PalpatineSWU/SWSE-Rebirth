@@ -73,7 +73,7 @@
       <Prerequisites>
         <Item Amount="45" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
       </Prerequisites>
-      <Result Amount="0.25" TypeId="Ingot" SubtypeId="Spin_SyntheticFuel" />
+      <Result Amount="0.25" TypeId="Ingot" SubtypeId="SyntheticFuel" />
       <BaseProductionTimeInSeconds>90</BaseProductionTimeInSeconds>
     </Blueprint>
 	
@@ -88,7 +88,7 @@
       <Prerequisites>
         <Item Amount="90" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
       </Prerequisites>
-      <Result Amount="0.3" TypeId="Ingot" SubtypeId="Spin_Tibanna" />
+      <Result Amount="0.3" TypeId="Ingot" SubtypeId="TibannaCanisters" />
       <BaseProductionTimeInSeconds>90</BaseProductionTimeInSeconds>
     </Blueprint>
 	

@@ -374,7 +374,7 @@ Payload: Advanced Concussion, I7 Ion Pulse-Missile, Nano Missile,  Flare</Descri
         <FuelInfo>
           <Id>
             <TypeId>Ingot</TypeId>
-            <SubtypeId>Spin_SyntheticFuel</SubtypeId>
+            <SubtypeId>SyntheticFuel</SubtypeId>
           </Id>
 		  <Ratio>0.5</Ratio>
         </FuelInfo>

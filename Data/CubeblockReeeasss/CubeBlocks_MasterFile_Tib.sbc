@@ -54,7 +54,7 @@
         <GasInfo>
           <Id>
             <TypeId>GasProperties</TypeId>
-            <SubtypeId>k_gas_Tibanna</SubtypeId>
+            <SubtypeId>TibannaGas</SubtypeId>
           </Id>
           <IceToGasRatio>10000</IceToGasRatio>
         </GasInfo>
@@ -210,7 +210,7 @@
       </InventorySize>
       <StoredGasId>
         <TypeId>GasProperties</TypeId>
-        <SubtypeId>k_gas_Tibanna</SubtypeId>
+        <SubtypeId>TibannaGas</SubtypeId>
       </StoredGasId>
       <BlueprintClasses>
         <Class>HydrogenBottles</Class>
@@ -267,7 +267,7 @@
       </InventorySize>
       <StoredGasId>
         <TypeId>GasProperties</TypeId>
-        <SubtypeId>k_gas_Tibanna</SubtypeId>
+        <SubtypeId>TibannaGas</SubtypeId>
       </StoredGasId>
       <BlueprintClasses>
       </BlueprintClasses>
@@ -581,7 +581,7 @@
       </InventorySize>
       <StoredGasId>
         <TypeId>GasProperties</TypeId>
-        <SubtypeId>k_imperial_hypermatter</SubtypeId>
+        <SubtypeId>HypermatterGas</SubtypeId>
       </StoredGasId>
             <BuildTimeSeconds>45</BuildTimeSeconds>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
@@ -632,7 +632,7 @@
       </InventorySize>
       <StoredGasId>
         <TypeId>GasProperties</TypeId>
-        <SubtypeId>k_imperial_hypermatter</SubtypeId>
+        <SubtypeId>HypermatterGas</SubtypeId>
       </StoredGasId>
             <BuildTimeSeconds>45</BuildTimeSeconds>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>

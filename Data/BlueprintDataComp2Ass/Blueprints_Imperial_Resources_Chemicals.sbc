@@ -48,7 +48,7 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="2" TypeId="Ingot" SubtypeId="Carbonite" />
-		<Item Amount="3" TypeId="Ingot" SubtypeId="Spin_Tibanna" />
+		<Item Amount="3" TypeId="Ingot" SubtypeId="TibannaCanisters" />
 		<Item Amount="10" TypeId="Ingot" SubtypeId="Norax" />
       </Prerequisites>
       <Result Amount="0.25" TypeId="Ingot" SubtypeId="Chemical_Processing_Polydex9" />

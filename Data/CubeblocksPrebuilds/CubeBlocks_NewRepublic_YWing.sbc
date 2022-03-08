@@ -422,7 +422,7 @@ Payload: Advanced Proton Torpedo, Concussion Missile, Ion-Torpedo, Flare</Descri
         <FuelInfo>
           <Id>
             <TypeId>Ingot</TypeId>
-            <SubtypeId>Spin_SyntheticFuel</SubtypeId>
+            <SubtypeId>SyntheticFuel</SubtypeId>
           </Id>
 		  <Ratio>0.5</Ratio>
         </FuelInfo>

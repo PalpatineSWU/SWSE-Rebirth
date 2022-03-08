@@ -15,12 +15,12 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\VendingMachine.mwm</Model>
             <Components>
-        <Component Subtype="InteriorPlate" Count="10" />
+        <Component Subtype="NPC" Count="10" />
         <Component Subtype="Construction" Count="10" />
         <Component Subtype="Motor" Count="4" />
         <Component Subtype="Display" Count="4" />
         <Component Subtype="Computer" Count="10" />
-        <Component Subtype="InteriorPlate" Count="10" />
+        <Component Subtype="NPC" Count="10" />
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <BuildProgressModels>
@@ -90,7 +90,7 @@
 			
 			  <MyObjectBuilder_StoreItem>
                 <Id>1356189434942549543</Id>
-                <Item Type="MyObjectBuilder_Ingot" Subtype="Spin_SyntheticFuel" />
+                <Item Type="MyObjectBuilder_Ingot" Subtype="SyntheticFuel" />
                 <ItemType>PhysicalItem</ItemType>
                 <Amount>20</Amount>
                 <RemovedAmount>0</RemovedAmount>
@@ -103,7 +103,7 @@
 			
 			 <MyObjectBuilder_StoreItem>
                 <Id>1356189434942549544</Id>
-                <Item Type="MyObjectBuilder_Ingot" Subtype="Spin_Tibanna" />
+                <Item Type="MyObjectBuilder_Ingot" Subtype="TibannaCanisters" />
                 <ItemType>PhysicalItem</ItemType>
                 <Amount>20</Amount>
                 <RemovedAmount>0</RemovedAmount>

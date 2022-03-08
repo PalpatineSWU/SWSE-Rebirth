@@ -19,7 +19,7 @@ namespace Klime.CustomAtmoGen
     {
         IMyGasGenerator gas_gen;
         string planet_subtype = "Bonadan";
-        string ore_subtype = "k_gas_Tibanna";
+        string ore_subtype = "TibannaGas";
         MyFixedPoint amount_per_minute = 2;
 
         //Core

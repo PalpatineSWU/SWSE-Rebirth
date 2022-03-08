@@ -126,7 +126,7 @@
       <Prerequisites>
         <Item Amount="15" TypeId="Ingot" SubtypeId="Magnesium" />
       </Prerequisites>
-      <Result Amount="1" TypeId="Ingot" SubtypeId="Spin_Tibanna" />
+      <Result Amount="1" TypeId="Ingot" SubtypeId="TibannaCanisters" />
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
     </Blueprint>
 	

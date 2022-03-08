@@ -823,14 +823,11 @@
                 <Block Type="MyObjectBuilder_Refinery" Subtype="Blast Furnace" />
                 <Block Type="MyObjectBuilder_Refinery" Subtype="K_Imperial_Refinement_Refinery_Light_I" />
                 <Block Type="MyObjectBuilder_Refinery" Subtype="K_Imperial_Refinement_Foundry_Light_I" />
-                <Block Type="MyObjectBuilder_Refinery" Subtype="K_Imperial_Refinement_EmergencyRefinery" />
                 <Block Type="MyObjectBuilder_Refinery" Subtype="K_Imperial_Refinement_ProcessingFacility" />
                 <Block Type="MyObjectBuilder_Refinery" Subtype="K_Imperial_RecyclingPlant_ImperialScrap" />
                 <Block Type="MyObjectBuilder_Refinery" Subtype="K_Imperial_Refinement_Phrik" />
                 <Block Type="MyObjectBuilder_Refinery" Subtype="K_Rebellion_Refinery_Standard" />
                 <Block Type="MyObjectBuilder_Refinery" Subtype="K_Rebellion_Refinery_Scrap" />
-                <Block Type="MyObjectBuilder_Refinery" Subtype="Refinery_Light" />
-                <Block Type="MyObjectBuilder_Refinery" Subtype="Refinery_SyntheticPlant" />
             </Blocks>
         </BlockVariantGroup>
 

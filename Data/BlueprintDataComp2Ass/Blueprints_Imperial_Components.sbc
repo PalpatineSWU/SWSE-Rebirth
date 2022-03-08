@@ -93,7 +93,7 @@
 	<Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>K_Imperial_Beskarplate</SubtypeId>
+        <SubtypeId>K_Imperial_Phrikplate</SubtypeId>
       </Id>
       <DisplayName>Phrik Plate</DisplayName>
       <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
