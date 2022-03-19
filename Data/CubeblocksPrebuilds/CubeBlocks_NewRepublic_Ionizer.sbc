@@ -15,7 +15,7 @@
 	   <Description>New Republic Laser-Cannon Pair, 180-Degree Firing Arc.
 Range: 450m
 </Description>
-      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\ionizer\Ionizer.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -71,7 +71,7 @@ Range: 450m
 	   <Description>New Republic Ionizer Dual-Ion-Cannon Wing
 Weapon: Ion-Cannon 2x
 </Description>
-      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\ionizer\Ionizer.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -124,7 +124,7 @@ Weapon: Ion-Cannon 2x
 	   <Description>New Republic Ionizer Dual-Ion-Cannon Wing
 Weapon: Ion-Cannon 2x
 </Description>
-      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\ionizer\Ionizer.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -176,7 +176,7 @@ Weapon: Ion-Cannon 2x
       <DisplayName>New Republic Ionizer Warhead Launcher</DisplayName>
 	   <Description>New Republic Warhead Launcher.
 Payload: Advanced Concussion, I7 Ion Pulse-Missile, Nano Missile,  Flare</Description>
-      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\ionizer\Ionizer.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -224,7 +224,7 @@ Payload: Advanced Concussion, I7 Ion Pulse-Missile, Nano Missile,  Flare</Descri
         <SubtypeId>Ionizer_Cockpit</SubtypeId>
       </Id>
       <DisplayName>New Republic Ionizer Cockpit</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\FighterCockpit.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\ionizer\IonizerCock.dds</Icon>
 	   <Description>New Republic RZ2-2 Cockpit with full LCD Support.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -283,7 +283,7 @@ Payload: Advanced Concussion, I7 Ion Pulse-Missile, Nano Missile,  Flare</Descri
       </Id>
       <DisplayName>New Republic Ionizer Gyro</DisplayName>
 	   <Description>New Republic RZ-2 Gyroscopic Control System.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\gyro.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\ionizer\IonizerGyro.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -324,7 +324,7 @@ Payload: Advanced Concussion, I7 Ion Pulse-Missile, Nano Missile,  Flare</Descri
       </Id>
       <DisplayName>New Republic Ionizer Reactor</DisplayName>
 	    <Description>New Republic Ionizer Synthetic-Fuel Reactor, provides 35 Units.</Description>
-     <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\ionizer\IonizerRe.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -393,7 +393,7 @@ Payload: Advanced Concussion, I7 Ion Pulse-Missile, Nano Missile,  Flare</Descri
         <SubtypeId>Ionizer_LifeSupport</SubtypeId>
       </Id>
       <DisplayName>New Republic Ionizer Life-Support</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\ionizer\Ionizer.dds</Icon>
       <Description>New Republic Technology, mounts on the E-Wing's Reactor, to provide slow feed of oxygen via Solar exposure.</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -455,7 +455,7 @@ Payload: Advanced Concussion, I7 Ion Pulse-Missile, Nano Missile,  Flare</Descri
       </Id>
       <DisplayName>New Republic Ionizer Battery</DisplayName>
 	  <Description>New Republic E-Wing Battery unit, mounted onto the front of the E-Wing, supplies a max of 25 units, with a storage of 45 units.</Description>
-     <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\ionizer\IonizerBa.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -501,7 +501,7 @@ Payload: Advanced Concussion, I7 Ion Pulse-Missile, Nano Missile,  Flare</Descri
       <DisplayName>New Republic Ionizer Hyperdrive</DisplayName>
 	   <Description>New Republic Technology, mounts on the E-Wing's Reactor Back-End.
 	   Allows the E-Wing to hyperspace travel, and has a quick-charge time.</Description>
-       <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\ionizer\IonizerHd.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -551,7 +551,7 @@ Payload: Advanced Concussion, I7 Ion Pulse-Missile, Nano Missile,  Flare</Descri
       </Id>
       <DisplayName>New Republic Ionizer Engine (I)</DisplayName>
 	   <Description>New Republic Ionizer Engine Unit.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\ionizer\IonizerTh.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		 <IsStandAlone>false</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -623,7 +623,7 @@ Payload: Advanced Concussion, I7 Ion Pulse-Missile, Nano Missile,  Flare</Descri
       </Id>
       <DisplayName>New Republic Ionizer Engine (II)</DisplayName>
 	   <Description>New Republic Ionizer Engine Unit.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\ionizer\IonizerTh.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		 <IsStandAlone>false</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -698,7 +698,7 @@ Payload: Advanced Concussion, I7 Ion Pulse-Missile, Nano Missile,  Flare</Descri
       </Id>
       <DisplayName>New Republic Ionizer Sub-Engine (I)</DisplayName>
 	   <Description>New Republic Ionizer Secondary Engine Unit. </Description>
-      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\ionizer\IonizerTh.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		 <IsStandAlone>false</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -771,7 +771,7 @@ Payload: Advanced Concussion, I7 Ion Pulse-Missile, Nano Missile,  Flare</Descri
       </Id>
       <DisplayName>New Republic Ionizer Sub-Engine (II)</DisplayName>
 	   <Description>New Republic Ionizer Secondary Engine Unit. Force Opposite to Mounting</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\ionizer\IonizerTh.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		 <IsStandAlone>false</IsStandAlone>
       <CubeSize>Small</CubeSize>

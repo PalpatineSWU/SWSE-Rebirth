@@ -9,7 +9,7 @@
         <SubtypeId>K_Imperial_HowlRunner_Cockpit</SubtypeId>
       </Id>
       <DisplayName>Civilian Howlrunner Cockpit</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Howlrunner\Howlcock.dds</Icon>
 	  <Description>
     Howlrunner Cockpit.
 	  3 LCD Slots
@@ -80,7 +80,7 @@
 	   80 Units Storage Capacity
 	   50 Units Max Charge-Rate
 	   5x2x3 Space Requirements</Description>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Strut.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Howlrunner\HowlcockBat.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -135,7 +135,7 @@
 	    <Description>Howlrunner Dampening System.
 	  502500 Force Units
 	  5x2x2 Space Requirements</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_MainThruster.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Howlrunner\HowlThs.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		<IsStandAlone>true</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -211,7 +211,7 @@
 	  Default Red Flame Color
 	  502500 Force Units
 	  5x2x3 Space Requirements</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_MainThruster.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Howlrunner\HowlThs.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		<IsStandAlone>true</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -286,7 +286,7 @@
 	  <Description>Howlrunner Gyro Wing.
 	  1.35E+06 Power Capacity
 	  3x2x13 Space Requirements</Description>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Gyro.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Howlrunner\HowlGyro.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -331,7 +331,7 @@
 	 <Description>Howlrunner Gyro Wing.
 	  1.35E+06 Power Capacity
 	  3x2x13 Space Requirements</Description>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Gyro.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Howlrunner\HowlGyro.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -378,7 +378,7 @@
     (COSMETIC NON FUNTION FOR NOW)
 	  2x3x12 Space Requirements
     </Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Weaponry.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Howlrunner\Howl.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -432,7 +432,7 @@
     (COSMETIC NON FUNTION FOR NOW)
 	  2x3x12 Space Requirements
     </Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Weaponry.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Howlrunner\Howl.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>

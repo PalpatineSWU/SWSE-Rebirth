@@ -9,7 +9,7 @@
         <SubtypeId>K_Imperial_A9Interceptor_Cockpit</SubtypeId>
       </Id>
       <DisplayName>Civilian A9 Cockpit</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\A9\A9Cockpit.dds</Icon>
 	   <Description>The Iconic Cockpit of the TIE Series, to get the full interior, use with an TIE Core\Life-Support.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -71,7 +71,7 @@
       </Id>
       <DisplayName>Civilian A9 Weapon-Array</DisplayName>
 	   <Description>Standard TIE Armament of twin L-s1 laser cannons. Fires a volley of 15 rounds per reload cycle.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Weaponry.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\A9\A9.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -122,7 +122,7 @@
       </Id>
       <DisplayName>Civilian A9 Battery</DisplayName>
 	  <Description>Strut for the TIE Fighter, acts as a primary Energy source for long-term use.</Description>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Strut.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\A9\A9battery.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -169,7 +169,7 @@
       </Id>
       <DisplayName>Civilian A9 Gyro (A)</DisplayName>
 	   <Description>TIE Gyro, attached via the Strut end, acting as the mount point for the Wings of the TIE.</Description>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Gyro.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\A9\A9Gyro.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -211,7 +211,7 @@
       </Id>
       <DisplayName>Civilian A9 Gyro (B)</DisplayName>
 	   <Description>TIE Gyro, attached via the Strut end, acting as the mount point for the Wings of the TIE.</Description>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Gyro.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\A9\A9Gyro.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -255,7 +255,7 @@
       <DisplayName>Civilian A9 Engine (A)</DisplayName>
 	   <Description>Primary Engine unit of the TIE Interceptor, superior to the standard TIE engine unit.
 	   Install onto the Gas Storage unit of standard TIE constructions.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_MainThruster.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\A9\A9Thrust.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		<IsStandAlone>true</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -329,7 +329,7 @@
       <DisplayName>Civilian A9 Engine (B)</DisplayName>
 	   <Description>Primary Engine unit of the TIE Interceptor, superior to the standard TIE engine unit.
 	   Install onto the Gas Storage unit of standard TIE constructions.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_MainThruster.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\A9\A9Thrust.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		<IsStandAlone>true</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -401,7 +401,7 @@
         <SubtypeId>K_Imperial_A9Interceptor_Connector</SubtypeId>
       </Id>
       <DisplayName>Civilian A9 Connector</DisplayName>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Hatch.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\A9\A9Con.dds</Icon>
 	   <Description>TIE Fighter Connector Unit, install on the Roof \ Top of the TIE Core unit.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>

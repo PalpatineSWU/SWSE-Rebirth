@@ -5,7 +5,7 @@
 	
 <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ImperialA9Starfighter" />
-            <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+            <Icon>Textures\GUI\Icons\Ships\A9\A9.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
             <Blocks>
@@ -55,7 +55,7 @@
 
 <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ImperialHowlerStarfighter" />
-            <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+            <Icon>Textures\GUI\Icons\Ships\Howlrunner\Howl.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
             <Blocks>
@@ -102,7 +102,26 @@
             </Blocks>
         </BlockVariantGroup>
 		
-
+<BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Probedroid" />
+            <Icon>Textures\GUI\Icons\Ships\Probe\Probe.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
+            <Description>Description_BlockGroup_TurretGroup</Description>
+            <Blocks>
+<Block Type="MyObjectBuilder_SensorBlock" Subtype="K_Imperial_ProbeDroid_Top_Sensor" />
+<Block Type="MyObjectBuilder_SensorBlock" Subtype="K_Imperial_ProbeDroid_Top_SensorII" />
+<Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_Imperial_ProbeDroid_Core" />
+<Block Type="MyObjectBuilder_GyroDefinition" Subtype="K_Imperial_ProbeDroid_Bottom_II" />
+<Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_ProbeDroid_Top_Thruster" />
+<Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_ProbeDroid_Bottom_Thruster" />
+<Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_ProbeDroid_Bottom_III" />
+<Block Type="MyObjectBuilder_MyProgrammableBlock" Subtype="K_Imperial_ProbeDroid_Top_I" />
+<Block Type="MyObjectBuilder_TimerBlock" Subtype="K_Imperial_ProbeDroid_Bottom_I" />
+<Block Type="MyObjectBuilder_RemoteControl" Subtype="K_Imperial_ProbeDroid_Top_II" />
+<Block Type="MyObjectBuilder_RadioAntenna" Subtype="K_Imperial_ProbeDroid_Top_Antenna" />
+<Block Type="MyObjectBuilder_CameraBlock" Subtype="K_Imperial_ProbeDroid_Top_Eye" />
+            </Blocks>
+        </BlockVariantGroup>
 
 <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RETiedefender" />
@@ -291,7 +310,7 @@
 	
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Ionizer_Gyro" />
-            <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+            <Icon>Textures\GUI\Icons\Ships\ionizer\Ionizer.dds</Icon>        
             <DisplayName>DisplayName_BlockGroup_TurretGroup1</DisplayName>
             <Description>Description_BlockGroup_TurretGroup1</Description>
             <Blocks>
@@ -338,7 +357,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWing_GyroI" />
-            <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+            <Icon>Textures\GUI\Icons\Ships\e-wing\EWing.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup2</DisplayName>
             <Description>Description_BlockGroup_TurretGroup2</Description>
             <Blocks>

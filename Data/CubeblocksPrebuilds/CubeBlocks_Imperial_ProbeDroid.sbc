@@ -7,7 +7,7 @@
         <SubtypeId>K_Imperial_ProbeDroid_Core</SubtypeId>
       </Id>
       <DisplayName>Probe Core</DisplayName>
-      <Icon>Textures\GUI\Icons\Imperial_Probe.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Probe\ProbeBa.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -32,52 +32,6 @@
       <AdaptibleInput>true</AdaptibleInput>
       <MaxStoredPower>10</MaxStoredPower>
       <InitialStoredPowerRatio>0.0</InitialStoredPowerRatio>
-	   <BlockVariants>
-	  <BlockVariant>
-          <TypeId>MyProgrammableBlock</TypeId>
-          <SubtypeId>K_Imperial_ProbeDroid_Top_I</SubtypeId>
-        </BlockVariant>
-		 <BlockVariant>
-          <TypeId>RemoteControl</TypeId>
-          <SubtypeId>K_Imperial_ProbeDroid_Top_II</SubtypeId>
-        </BlockVariant>
-		<BlockVariant>
-          <TypeId>CameraBlock</TypeId>
-          <SubtypeId>K_Imperial_ProbeDroid_Top_Eye</SubtypeId>
-        </BlockVariant>
-		<BlockVariant>
-          <TypeId>SensorBlock</TypeId>
-          <SubtypeId>K_Imperial_ProbeDroid_Top_Sensor</SubtypeId>
-        </BlockVariant>
-			  <BlockVariant>
-          <TypeId>Thrust</TypeId>
-          <SubtypeId>K_Imperial_ProbeDroid_Top_Thruster</SubtypeId>
-        </BlockVariant>
-		<BlockVariant>
-          <TypeId>SensorBlock</TypeId>
-          <SubtypeId>K_Imperial_ProbeDroid_Top_SensorII</SubtypeId>
-        </BlockVariant>
-		<BlockVariant>
-          <TypeId>RadioAntenna</TypeId>
-          <SubtypeId>K_Imperial_ProbeDroid_Top_Antenna</SubtypeId>
-        </BlockVariant>
-				<BlockVariant>
-          <TypeId>TimerBlock</TypeId>
-          <SubtypeId>K_Imperial_ProbeDroid_Bottom_I</SubtypeId>
-        </BlockVariant>
-		<BlockVariant>
-          <TypeId>Gyro</TypeId>
-          <SubtypeId>K_Imperial_ProbeDroid_Bottom_II</SubtypeId>
-		  <BlockVariant>
-          <TypeId>Thrust</TypeId>
-          <SubtypeId>K_Imperial_ProbeDroid_Bottom_Thruster</SubtypeId>
-        </BlockVariant>
-		 <BlockVariant>
-          <TypeId>Thrust</TypeId>
-          <SubtypeId>K_Imperial_ProbeDroid_Bottom_III</SubtypeId>
-        </BlockVariant>
-        </BlockVariant>
-		      </BlockVariants>
 			  <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <DestroyEffect>Imperial_ElectricalExplosion</DestroyEffect>
@@ -90,7 +44,7 @@
         <SubtypeId>K_Imperial_ProbeDroid_Top_I</SubtypeId>
       </Id>
       <DisplayName>Probe Top I</DisplayName>
-      <Icon>Textures\GUI\Icons\Imperial_Probe.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Probe\ProbeProg.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -122,7 +76,7 @@
         <SubtypeId>K_Imperial_ProbeDroid_Top_Eye</SubtypeId>
       </Id>
       <DisplayName>Probe Eye</DisplayName>
-      <Icon>Textures\GUI\Icons\Imperial_Probe.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Probe\ProbeCam.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -162,7 +116,7 @@
         <SubtypeId>K_Imperial_ProbeDroid_Top_Sensor</SubtypeId>
       </Id>
       <DisplayName>Probe Sensor</DisplayName>
-      <Icon>Textures\GUI\Icons\Imperial_Probe.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Probe\ProbeSen.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -198,7 +152,7 @@
         <SubtypeId>K_Imperial_ProbeDroid_Top_SensorII</SubtypeId>
       </Id>
       <DisplayName>Probe Sensor-II</DisplayName>
-      <Icon>Textures\GUI\Icons\Imperial_Probe.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Probe\ProbeSen.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -235,7 +189,7 @@
         <SubtypeId>K_Imperial_ProbeDroid_Top_Thruster</SubtypeId>
       </Id>
       <DisplayName>Probe Head-Thruster</DisplayName>
-      <Icon>Textures\GUI\Icons\Imperial_Probe.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Probe\ProbeTh.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -297,7 +251,7 @@
         <SubtypeId>K_Imperial_ProbeDroid_Top_Antenna</SubtypeId>
       </Id>
       <DisplayName>Probe Antenna</DisplayName>
-      <Icon>Textures\GUI\Icons\Imperial_Probe.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Probe\ProbeAnt.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -330,7 +284,7 @@
         <SubtypeId>K_Imperial_ProbeDroid_Bottom_Thruster</SubtypeId>
       </Id>
       <DisplayName>Probe Side-Thruster</DisplayName>
-      <Icon>Textures\GUI\Icons\Imperial_Probe.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Probe\ProbeTh.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -393,7 +347,7 @@
         <SubtypeId>K_Imperial_ProbeDroid_Top_II</SubtypeId>
       </Id>
       <DisplayName>Probe Top II</DisplayName>
-      <Icon>Textures\GUI\Icons\Imperial_Probe.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Probe\ProbeRc.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -430,7 +384,7 @@
         <SubtypeId>K_Imperial_ProbeDroid_Bottom_I</SubtypeId>
       </Id>
       <DisplayName>Probe Bottom I</DisplayName>
-      <Icon>Textures\GUI\Icons\Imperial_Probe.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Probe\ProbeTm.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -467,7 +421,7 @@
         <SubtypeId>K_Imperial_ProbeDroid_Bottom_II</SubtypeId>
       </Id>
       <DisplayName>Probe Bottom II</DisplayName>
-      <Icon>Textures\GUI\Icons\Imperial_Probe.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Probe\ProbeGyros.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -502,7 +456,7 @@
         <SubtypeId>K_Imperial_ProbeDroid_Bottom_III</SubtypeId>
       </Id>
       <DisplayName>Probe Bottom III</DisplayName>
-      <Icon>Textures\GUI\Icons\Imperial_Probe.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Probe\ProbeTh.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>

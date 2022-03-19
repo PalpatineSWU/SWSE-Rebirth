@@ -11,7 +11,7 @@
         <SubtypeId>EWing_Cockpit</SubtypeId>
       </Id>
       <DisplayName>New Republic E-Wing Cockpit</DisplayName>
-    <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\e-wing\EWingCockpit.dds</Icon>
 	   <Description>New Republic E-Wing Cockpit, with full LCD Support built-in, Internal oxygen-supply. Pair with E-Wing Canopy, for full visual and practical use.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -72,7 +72,7 @@
         <SubtypeId>EWing_Hatch</SubtypeId>
       </Id>
       <DisplayName>New Republic E-Wing Canopy</DisplayName>
-     <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\e-wing\EWing.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
 	  <Description>New Republic E-Wing Canopy, designed to be mounted onto the top of the Cockpit, and restricts access to the cockpit controls.</Description>
@@ -143,7 +143,7 @@
       </Id>
 	   <Description>New Republic E-Wing Reactor, Runs on Synthetic Fuel, and has an effective output of 30 Units.</Description>
       <DisplayName>New Republic E-Wing Reactor</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\e-wing\EWingReactor.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -221,7 +221,7 @@
       </Id>
       <DisplayName>New Republic E-Wing Battery</DisplayName>
 	  <Description>New Republic E-Wing Battery unit, mounted onto the front of the E-Wing, supplies a max of 25 units, with a storage of 45 units.</Description>
-     <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\e-wing\EWingBat.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -269,7 +269,7 @@
       </Id>
       <DisplayName>New Republic E-Wing Remote-Control</DisplayName>
 	   <Description>New Republic E-Wing Remote-Control system, mounted onto the front of the Battery for the E-Wing.</Description>
-       <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\e-wing\EWingRM.dds</Icon>
       <CubeSize>Small</CubeSize>
 	   <IsStandAlone>false</IsStandAlone>
 	  <GuiVisible>true</GuiVisible>
@@ -314,7 +314,7 @@
       </Id>
       <DisplayName>New Republic E-Wing Gyro (A)</DisplayName>
 	   <Description>New Republic E-Wing Wing Module, packing Gyro Power.</Description>
-    <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\e-wing\EWingGyro.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -358,7 +358,7 @@
       </Id>
       <DisplayName>New Republic E-Wing Gyro (B)</DisplayName>
 	   <Description>New Republic E-Wing Wing Module, packing Gyro Power.</Description>
-    <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\e-wing\EWingGyro.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -401,7 +401,7 @@
       </Id>
       <DisplayName>New Republic E-Wing Engine (I)</DisplayName>
 	   <Description>New Republic E-Wing Primary Engine, designed for pairing with the Inverse-Engine and mounted on the underside of a Wing.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\e-wing\EWingThrust.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		 <IsStandAlone>false</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -477,7 +477,7 @@
       </Id>
       <DisplayName>New Republic E-Wing Engine (II)</DisplayName>
 	  <Description>New Republic E-Wing Inverse Engine, designed for pairing with the Primary-Engine and mounted on the underside of a Wing.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\e-wing\EWingThrust.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		 <IsStandAlone>false</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -552,7 +552,7 @@
         <SubtypeId>EWing_LifeSupport</SubtypeId>
       </Id>
       <DisplayName>New Republic E-Wing Life-Support</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\e-wing\EWing.dds</Icon>
       <Description>New Republic Technology, mounts on the E-Wing's Reactor, to provide slow feed of oxygen via Solar exposure.</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -620,7 +620,7 @@
 Weapon: Heavy Laser-Cannon
 Salvo: 3-Burst
 Range: 450</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\e-wing\EWing.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -696,7 +696,7 @@ Range: 450</Description>
 	   Standard Missile: Proton-Torpedo (Lock-On), Concussion Missile
 	   Speciality Missiles: MagPulse, Nano
 	   Missile Range: 3km</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\e-wing\EWing.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -773,7 +773,7 @@ Range: 450</Description>
 Weapon: Heavy Laser-Cannon
 Salvo: 3-Burst
 Range: 450</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\e-wing\EWing.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -850,7 +850,7 @@ Range: 450</Description>
 Weapon: Heavy Laser-Cannon
 Salvo: 3-Burst
 Range: 450</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\e-wing\EWing.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -923,7 +923,7 @@ Range: 450</Description>
       <DisplayName>New Republic E-Wing Hyperdrive</DisplayName>
 	   <Description>New Republic Technology, mounts on the E-Wing's Reactor Back-End.
 	   Allows the E-Wing to hyperspace travel, and has a quick-charge time.</Description>
-       <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\e-wing\EWingJD.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -972,7 +972,7 @@ Range: 450</Description>
       </Id>
        <DisplayName>New Republic E-Wing Antenna</DisplayName>
 	   <Description>New Republic Antenna Unit, for the E-Wing, installed on the Hyperdrive.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\e-wing\EWingAnt.dds</Icon>
 	   <IsStandAlone>false</IsStandAlone>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -1012,7 +1012,7 @@ Range: 450</Description>
      <DisplayName>New Republic E-Wing Landing-Gear</DisplayName>
 	  <Description>New Republic Landing-Gear, mounts on the underside of the E-Wing or other-ships.</Description>
 	  <GuiVisible>true</GuiVisible>
-      <Icon>Textures\GUI\Icons\Cubes\landing_gear.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\e-wing\EWingLG.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="2" />
