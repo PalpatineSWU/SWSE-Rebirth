@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <CubeBlocks>
+ 
+	<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>K_NewRepublic_Shared_SecondaryThruster</SubtypeId>
+      </Id>
+      <DisplayName>New-Republic Maneuvering Thruster</DisplayName>
+     <Icon>Textures\GUI\Icons\Cubes\thrust.dds</Icon>
+	   <Description>Secondary Engine used for providing thrust in all directions. Install in any location.</Description>
+	    <ThrusterType>Ion</ThrusterType>
+      <CubeSize>Small</CubeSize>
+	   <IsStandAlone>false</IsStandAlone>
+	     <HasPhysics>false</HasPhysics>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\NewRepublic\Shared\K_TIE_SecondaryEngine_Small.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="5" />
+		<Component Subtype="ThrusterParts_Ion" Count="1" />
+			<Component Subtype="Computer" Count="1" />
+			<Component Subtype="LightweightDurasteel" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>Shared_SecondaryThruster</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	  <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>355000</ForceMagnitude>
+      <MaxPowerConsumption>0.201</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>1.5</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>3</EffectivenessAtMaxInfluence>
+
+      <FlameDamageLengthScale>0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>0</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1</X>
+        <Y>0.3</Y>
+        <Z>0.3</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.9</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+        <W>1</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>SmallGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>0</FlameVisibilityDistance>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>K_NR_EngineQuiet</PrimarySound>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>Imperial_Explosion_Sparks</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
+	   <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
+    </Definition>
+	
+	
+	<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>K_NewRepublic_Shared_SecondaryThruster_Light</SubtypeId>
+      </Id>
+      <DisplayName>New-Republic Maneuvering Thruster (Light)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\thrust.dds</Icon>
+	   <Description>Secondary Engine used for providing thrust in all directions. Install in any location.
+	   Has Less Thrust-Output, allowing slower speeds.</Description>
+	    <ThrusterType>Ion</ThrusterType>
+      <CubeSize>Small</CubeSize>
+	   <IsStandAlone>false</IsStandAlone>
+	     <HasPhysics>false</HasPhysics>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\NewRepublic\Shared\K_TIE_SecondaryEngine_Small.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="5" />
+		<Component Subtype="ThrusterParts_Ion" Count="1" />
+			<Component Subtype="Computer" Count="1" />
+			<Component Subtype="LightweightDurasteel" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>Shared_SecondaryThruster_Light</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	  <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>155000</ForceMagnitude>
+      <MaxPowerConsumption>0.201</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>3</EffectivenessAtMaxInfluence>
+
+      <FlameDamageLengthScale>0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>0</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1</X>
+        <Y>0.3</Y>
+        <Z>0.3</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.9</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+        <W>1</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>SmallGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>0</FlameVisibilityDistance>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>K_NR_EngineQuiet</PrimarySound>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>Imperial_Explosion_Sparks</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
+	   <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
+    </Definition>
+	 
+	
+	
+  </CubeBlocks>
+</Definitions>

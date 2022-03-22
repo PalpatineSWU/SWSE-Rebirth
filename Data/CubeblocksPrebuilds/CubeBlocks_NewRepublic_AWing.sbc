@@ -6,11 +6,11 @@
 	<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>AWing_MainEngine</SubtypeId>
+        <SubtypeId>K_NewRepublic_AWing_MainEngine</SubtypeId>
       </Id>
       <DisplayName>New Republic RZ-2 A-Wing Main-Engine</DisplayName>
 	   <Description>New Republic RZ-2 Main-Engine, one of two Engine Pods.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Rz2\Rz2Th.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		 <IsStandAlone>false</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -78,11 +78,11 @@
 	<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>AWing_MainEngineII</SubtypeId>
+        <SubtypeId>K_NewRepublic_AWing_MainEngineII</SubtypeId>
       </Id>
       <DisplayName>New Republic RZ-2 A-Wing Main-Engine (II)</DisplayName>
 	   <Description>New Republic RZ-2 Main-Engine, one of two Engine Pods.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Rz2\Rz2Th.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		 <IsStandAlone>false</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -150,11 +150,11 @@
 	<Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
-        <SubtypeId>AWing_Reactor</SubtypeId>
+        <SubtypeId>K_NewRepublic_AWing_Reactor</SubtypeId>
       </Id>
 	   <Description>New Republic RZ-2 Synthetic-Fuel Reactor, provides 15 Units.</Description>
       <DisplayName>New Republic RZ-2 A-Wing Reactor</DisplayName>
-     <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Rz2\Rz2Re.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -221,11 +221,11 @@
 	 <Definition xsi:type="MyObjectBuilder_GyroDefinition">
       <Id>
         <TypeId>Gyro</TypeId>
-        <SubtypeId>AWing_Gyro</SubtypeId>
+        <SubtypeId>K_NewRepublic_AWing_Gyro</SubtypeId>
       </Id>
       <DisplayName>New Republic RZ-2 A-Wing Gyro</DisplayName>
 	   <Description>New Republic RZ-2 Gyroscopic Control System.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\gyro.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Rz2\Rz2Gy.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -264,10 +264,10 @@
 	<Definition xsi:type="MyObjectBuilder_CockpitDefinition">
       <Id>
         <TypeId>Cockpit</TypeId>
-        <SubtypeId>AWing_Cockpit</SubtypeId>
+        <SubtypeId>K_NewRepublic_AWing_Cockpit</SubtypeId>
       </Id>
       <DisplayName>New Republic RZ-2 A-Wing Cockpit</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\FighterCockpit.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Rz2\Rz2Cock.dds</Icon>
 	   <Description>New Republic RZ2-2 Cockpit with full LCD Support.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -322,7 +322,7 @@
 		<Public>false</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
-        <SubtypeId>AWing_Launcher</SubtypeId>
+        <SubtypeId>K_NewRepublic_AWing_Launcher</SubtypeId>
       </Id>
       <DisplayName>New Republic RZ-2 A-Wing Launcher-System</DisplayName>
 	   <Description>New Republic Concussion-Missile Launcher.
@@ -330,7 +330,7 @@ Limit: 2
 	   Standard Missile: Concussion Missile
 	   Speciality Missiles: ScramPulse
 	   Missile Range: 3km</Description>
-      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Rz2\Rz2.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -377,11 +377,11 @@ Limit: 2
 	<Definition xsi:type="MyObjectBuilder_CameraBlockDefinition">
       <Id>
         <TypeId>CameraBlock</TypeId>
-        <SubtypeId>AWing_Camera</SubtypeId>
+        <SubtypeId>K_NewRepublic_AWing_Camera</SubtypeId>
       </Id>
       <DisplayName>New Republic RZ-2 A-Wing Camera-Tip</DisplayName>
 	   <Description>New Republic RZ-2 Camera, Built into the Tip of the Frame.</Description>
-      <Icon>Textures\GUI\Icons\Camera.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Rz2\Rz2Cam.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -422,11 +422,11 @@ Limit: 2
 	<Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
       <Id>
         <TypeId>JumpDrive</TypeId>
-        <SubtypeId>AWing_Hyperdrive</SubtypeId>
+        <SubtypeId>K_NewRepublic_AWing_Hyperdrive</SubtypeId>
       </Id>
       <DisplayName>New Republic RZ-2 A-Wing Hyperdrive</DisplayName>
 	 <Description>New Republic RZ-2 Hyperdrive, Built into the Rear of the Frame, suffers from relatively short travel ranges.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Rz2\Rz2JD.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -463,11 +463,11 @@ Limit: 2
 	<Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
       <Id>
         <TypeId>BatteryBlock</TypeId>
-        <SubtypeId>AWing_PowerCell</SubtypeId>
+        <SubtypeId>K_NewRepublic_AWing_PowerCell</SubtypeId>
       </Id>
       <DisplayName>New Republic RZ-2 A-Wing Battery Pack</DisplayName>
 	  <Description>New Republic RZ-2 Power Supply, provides the main storage of 15 Units, installed onto the Back of the RZ-2.</Description>
-     <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Rz2\Rz2Bat.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -505,7 +505,7 @@ Limit: 2
 <Public>false</Public>
 <Id>
 			<TypeId>ConveyorSorter</TypeId>
-           <SubtypeId>AWing_LaserCannon</SubtypeId>
+           <SubtypeId>K_NewRepublic_AWing_LaserCannon</SubtypeId>
       </Id>
       <DisplayName>New Republic RZ-2 A-Wing Laser-Cannon</DisplayName>
 	   <Description>New Republic Swivel Laser-Cannon.
@@ -513,7 +513,7 @@ Limit: 4
 Weapon: Laser-Cannon
 Salvo: 6
 Range: 500</Description>
-       <Icon>Textures\GUI\Icons\ammo\Rifle_Ammo.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Rz2\Rz2.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -582,7 +582,7 @@ Range: 500</Description>
 <Public>false</Public>
 <Id>
 			<TypeId>ConveyorSorter</TypeId>
-           <SubtypeId>AWing_AMS</SubtypeId>
+           <SubtypeId>K_NewRepublic_AWing_AMS</SubtypeId>
       </Id>
       <DisplayName>New Republic RZ-2 A-Wing AMS</DisplayName>
 	   <Description>New Republic Anti-Missile-System.
@@ -590,7 +590,7 @@ Limit: 3
 Weapon: Beam-Cannon
 Salvo: Beam
 Range: 300</Description>
- <Icon>Textures\GUI\Icons\Cubes\missile_turret.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Rz2\Rz2.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -655,12 +655,12 @@ Range: 300</Description>
 <Definition xsi:type="MyObjectBuilder_LandingGearDefinition">
       <Id>
         <TypeId>LandingGear</TypeId>
-        <SubtypeId>AWing_LandingGear</SubtypeId>
+        <SubtypeId>K_NewRepublic_AWing_LandingGear</SubtypeId>
       </Id>
      <DisplayName>New Republic RZ-2 A-Wing Landing-Gear</DisplayName>
 	  <Description>New Republic Landing-Gear, mounts on the underside of the A-Wing or other-ships.</Description>
 	  <GuiVisible>true</GuiVisible>
-      <Icon>Textures\GUI\Icons\Cubes\landing_gear.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Rz2\Rz2LG.dds</Icon>
       <CubeSize>Small</CubeSize>
 	   <IsStandAlone>false</IsStandAlone>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -697,11 +697,11 @@ Range: 300</Description>
  <Definition xsi:type="MyObjectBuilder_RadioAntennaDefinition">
       <Id>
         <TypeId>RadioAntenna</TypeId>
-        <SubtypeId>AWing_Antenna</SubtypeId>
+        <SubtypeId>K_NewRepublic_AWing_Antenna</SubtypeId>
       </Id>
       <DisplayName>New Republic RZ-2 A-Wing Antenna</DisplayName>
 	   <Description>New Republic Antenna Unit, for the A-Wing, installed on the Cockpit.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Rz2\Rz2Ant.dds</Icon>
 	   <IsStandAlone>false</IsStandAlone>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -737,11 +737,11 @@ Range: 300</Description>
 <Definition xsi:type="MyObjectBuilder_RemoteControlDefinition">
       <Id>
         <TypeId>RemoteControl</TypeId>
-        <SubtypeId>AWing_RC</SubtypeId>
+        <SubtypeId>K_NewRepublic_AWing_RC</SubtypeId>
       </Id>
      <DisplayName>New Republic RZ-2 A-Wing Remote-Control</DisplayName>
 	   <Description>New Republic A-Wing Remote-Control system, mounted onto the top of the Launcher Sub-System.</Description>
-       <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Rz2\Rz2Rc.dds</Icon>
       <CubeSize>Small</CubeSize>
 	   <IsStandAlone>false</IsStandAlone>
 	     <HasPhysics>false</HasPhysics>

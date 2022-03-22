@@ -11,7 +11,7 @@
         <SubtypeId>K_Imperial_Reborn_TIE_Oppressor_Cockpit</SubtypeId>
       </Id>
       <DisplayName>TIE Oppressor Cockpit (HQ)</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornOppressor\RebornOppressorCock.dds</Icon>
 	   <Description>The TIE Oppressor Cockpit, features different exterior hull customization options, and uses a different Paint layout.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -80,7 +80,7 @@
       </Id>
       <DisplayName>TIE Oppressor Weaponry (HQ) Functioning Turret</DisplayName>
 	   <Description>Oppressor Chassis Armament of twin L-s1 laser cannons. Fires a volley of 15 rounds per reload cycle.</Description>
-      <Icon>Textures\GUI\Icons\Blocks\Imp_SG_TwinCannons.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornOppressor\RebornOppressorLa.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -129,7 +129,7 @@
       <DisplayName>TIE Oppressor Inverse-Engine (HQ)</DisplayName>
 	   <Description>Primary Engine unit of the TIE Oppressor, similar to the standard TIE engine unit.
 	   Install onto the Gas Storage unit of standard TIE constructions.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_MainThruster.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornOppressor\RebornOppressorTh.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		<IsStandAlone>true</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -202,7 +202,7 @@
       <DisplayName>TIE Oppressor Main-Engine (HQ)</DisplayName>
 	   <Description>Primary Engine unit of the TIE Oppressor, similar to the standard TIE engine unit.
 	   Install onto the Inverse Engine.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_MainThruster.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornOppressor\RebornOppressorTh.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		<IsStandAlone>true</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -274,7 +274,7 @@
       </Id>
       <DisplayName>TIE Oppressor Gyro (HQ)</DisplayName>
 	   <Description>TIE Gyro, attached via the Strut end, acting as the mount point for the Wings of the TIE.</Description>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Gyro.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornOppressor\RebornOppressorGy.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -316,7 +316,7 @@
       </Id>
       <DisplayName>TIE Oppressor Heavy-Battery (HQ)</DisplayName>
 	  <Description>Strut for the TIE Oppressor, acts as one of the primary Energy sources for long-term use.</Description>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Strut.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornOppressor\RebornOppressorBa.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -361,7 +361,7 @@
       </Id>
       <DisplayName>TIE Oppressor Strut-Battery (HQ)</DisplayName>
 	  <Description>Strut for the TIE Oppressor, acts as one of the primary Energy sources for long-term use.</Description>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Strut.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornOppressor\RebornOppressorBa.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -409,7 +409,7 @@
       <DisplayName>TIE Oppressor Solar Wing I (HQ)</DisplayName>
 	   <Description>Oppressor TIE Wing, acts as an Solar Panel, providing Idle secondary power-intake.
 	   Has increased output, enabling stronger Weaponry mounted onto the frame.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Wing_Fighter.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornOppressor\RebornOppressorSol.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -459,7 +459,7 @@
       <DisplayName>TIE Oppressor Solar Wing B-I (HQ)</DisplayName>
 	   <Description>Oppressor TIE Wing, acts as an Solar Panel, providing Idle secondary power-intake.
 	   Has increased output, enabling stronger Weaponry mounted onto the frame.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Wing_Fighter.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornOppressor\RebornOppressorSol.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -509,7 +509,7 @@
       <DisplayName>TIE Oppressor Solar Wing II (HQ)</DisplayName>
 	   <Description>Oppressor TIE Wing, acts as an Solar Panel, providing Idle secondary power-intake.
 	   Has increased output, enabling stronger Weaponry mounted onto the frame.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Wing_Fighter.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornOppressor\RebornOppressorSol.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -559,7 +559,7 @@
       <DisplayName>TIE Oppressor Solar Wing B-II (HQ)</DisplayName>
 	   <Description>Oppressor TIE Wing, acts as an Solar Panel, providing Idle secondary power-intake.
 	   Has increased output, enabling stronger Weaponry mounted onto the frame.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Wing_Fighter.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornOppressor\RebornOppressorSol.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -616,7 +616,7 @@
 	   Missile-Jammer: Anti-Missile Lock-Jamming\Lock-Disruption Field Emitter Cluster
 	   Concussion: Anti-Armor Cluster
 	   MIC02: Micro-Ionic-Charge mk2 Cluster</Description>
-    <Icon>Textures\GUI\Icons\Blocks\Imp_SG_BombsGeneric.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornOppressor\RebornOppressor.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -670,7 +670,7 @@
 	   <Description>Center-Pod Mounted Underside Heavy Launcher, for the TIE Oppressor.
 	   Ordnance: Concussion , I-7 Ionic-Pulse-Missile , ST2mk4-MIRV , I-Flare, Interdiction
 	   </Description>
-      <Icon>Textures\GUI\Icons\Blocks\Imp_SG_MissilesGenericHeavy.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornOppressor\RebornOppressor.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>

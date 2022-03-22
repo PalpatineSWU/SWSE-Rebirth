@@ -1,6 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
  <CubeBlocks>
+
+	 <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+      <Id>
+        <TypeId>Cockpit</TypeId>
+        <SubtypeId>K_TIE_Fighter_Cockpit</SubtypeId>
+      </Id>
+      <DisplayName>TIE Cockpit</DisplayName>
+      <Icon>Textures\GUI\Icons\Ships\TIE\TieCock.dds</Icon>
+	   <Description>The Iconic Cockpit of the TIE Series, to get the full interior, use with an TIE Core\Life-Support.</Description>
+      <CubeSize>Small</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="7" y="7" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\TIE\K_TIE_Fighter_Cockpit_Small.mwm</Model>
+	  <PrimarySound>BlockCockpitSm</PrimarySound>
+      <InteriorModel>Models\TIE\K_TIE_Fighter_Cockpit_Interior_Small.mwm</InteriorModel>
+      <GlassModel>Models\Cubes\Small\cockpitglass.mwm</GlassModel>
+      <CharacterAnimation>K_Animation_Engineer_TIE</CharacterAnimation>
+      <UsesDeformation>false</UsesDeformation>
+       <Components>
+        <Component Subtype="DuraSteel" Count="5" />
+			<Component Subtype="Computer" Count="1" />
+			<Component Subtype="BulletproofGlass" Count="15" />
+			<Component Subtype="DuraSteel" Count="5" />
+			<Component Subtype="BulletproofGlass" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+	  <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.25" File="Models\TIE\K_TIE_Fighter_Cockpit_Small_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\TIE\K_TIE_Fighter_Cockpit_Small_Constr2.mwm" />
+		<Model BuildPercentUpperBound="0.99" File="Models\TIE\K_TIE_Fighter_Cockpit_Small_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_TIE_Fighter_Cockpit</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	  <EnableFirstPerson>true</EnableFirstPerson>
+      <EnableShipControl>true</EnableShipControl>
+      <EnableBuilderCockpit>true</EnableBuilderCockpit>
+      <DeformationRatio>0.2</DeformationRatio>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <OxygenCapacity>60</OxygenCapacity>
+      <IsPressurized>true</IsPressurized>
+      <GetInSound>K_Imperial_Cockpit</GetInSound>
+      <GetOutSound>K_Imperial_Cockpit</GetOutSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+	   <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+       <DestroySound>K_Imperial_Explosion_Glass</DestroySound>
+	  <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+	   <ScreenAreas>
+            <ScreenArea Name="CockpitScreen_01" DisplayName="1" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" Script="TSS_EnergyHydrogen" />
+            <ScreenArea Name="CockpitScreen_02" DisplayName="2" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" Script="TSS_Velocity" />
+            <ScreenArea Name="CockpitScreen_03" DisplayName="3" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" Script="TSS_Gravity" />
+            <ScreenArea Name="CockpitScreen_04" DisplayName="4" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" Script="TSS_ArtificialHorizon" />
+            <ScreenArea Name="CockpitScreen_05" DisplayName="5" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" />
+			<ScreenArea Name="CockpitScreen_06" DisplayName="6" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" />
+			<ScreenArea Name="CockpitScreen_07" DisplayName="7" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" />
+			</ScreenAreas>
+    </Definition>
+
  
 	 <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
       <Id>
@@ -8,7 +71,7 @@
         <SubtypeId>K_TIE_Fighter_Lifesupport</SubtypeId>
       </Id>
       <DisplayName>TIE Life-Support</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Core.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIE\TieTank.dds</Icon>
 	   <Description>The Core of a TIE Fighter. Provides Life-Support functionality,for Gameplay Reasons.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -82,88 +145,9 @@
       <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
       <DestroyEffect>Imperial_Explosion_Core</DestroyEffect>
       <DestroySound>K_Imperial_Explosion_Critical</DestroySound>
-	    <BlockVariants>
-	  <BlockVariant>
-          <TypeId>Cockpit</TypeId>
-          <SubtypeId>K_TIE_Fighter_Cockpit</SubtypeId>
-        </BlockVariant>
-		 <BlockVariant>
-          <TypeId>SmallMissileLauncher</TypeId>
-          <SubtypeId>K_TIE_Fighter_Weaponry</SubtypeId>
-        </BlockVariant>
-		 <BlockVariant>
-          <TypeId>ShipConnector</TypeId>
-          <SubtypeId>K_TIE_Fighter_Hatch</SubtypeId>
-        </BlockVariant>
-		 		 <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>K_TIE_Fighter_GasStorage</SubtypeId>
-        </BlockVariant>
-		      </BlockVariants>
 	  	      </Definition>
 	
-	 <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
-      <Id>
-        <TypeId>Cockpit</TypeId>
-        <SubtypeId>K_TIE_Fighter_Cockpit</SubtypeId>
-      </Id>
-      <DisplayName>TIE Cockpit</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
-	   <Description>The Iconic Cockpit of the TIE Series, to get the full interior, use with an TIE Core\Life-Support.</Description>
-      <CubeSize>Small</CubeSize>
-	  <GuiVisible>false</GuiVisible>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="7" y="7" z="3" />
-      <ModelOffset x="0" y="0" z="0" />
-	  <Model>Models\TIE\K_TIE_Fighter_Cockpit_Small.mwm</Model>
-	  <PrimarySound>BlockCockpitSm</PrimarySound>
-      <InteriorModel>Models\TIE\K_TIE_Fighter_Cockpit_Interior_Small.mwm</InteriorModel>
-      <GlassModel>Models\Cubes\Small\cockpitglass.mwm</GlassModel>
-      <CharacterAnimation>K_Animation_Engineer_TIE</CharacterAnimation>
-      <UsesDeformation>false</UsesDeformation>
-       <Components>
-        <Component Subtype="DuraSteel" Count="5" />
-			<Component Subtype="Computer" Count="1" />
-			<Component Subtype="BulletproofGlass" Count="15" />
-			<Component Subtype="DuraSteel" Count="5" />
-			<Component Subtype="BulletproofGlass" Count="15" />
-      </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
-	  <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.25" File="Models\TIE\K_TIE_Fighter_Cockpit_Small_Constr1.mwm" />
-        <Model BuildPercentUpperBound="0.50" File="Models\TIE\K_TIE_Fighter_Cockpit_Small_Constr2.mwm" />
-		<Model BuildPercentUpperBound="0.99" File="Models\TIE\K_TIE_Fighter_Cockpit_Small_Constr3.mwm" />
-      </BuildProgressModels>
-      <BlockPairName>K_TIE_Fighter_Cockpit</BlockPairName>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>25</BuildTimeSeconds>
-      <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
-	  <EnableFirstPerson>true</EnableFirstPerson>
-      <EnableShipControl>true</EnableShipControl>
-      <EnableBuilderCockpit>true</EnableBuilderCockpit>
-      <DeformationRatio>0.2</DeformationRatio>
-            <DamagedSound>ParticleElectrical</DamagedSound>
-      <PrimarySound>BlockCockpitSm</PrimarySound>
-      <OxygenCapacity>60</OxygenCapacity>
-      <IsPressurized>true</IsPressurized>
-      <GetInSound>K_Imperial_Cockpit</GetInSound>
-      <GetOutSound>K_Imperial_Cockpit</GetOutSound>
-      <DestroyEffect>Imperial_Explosion</DestroyEffect>
-	   <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
-       <DestroySound>K_Imperial_Explosion_Glass</DestroySound>
-	  <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
-	   <ScreenAreas>
-            <ScreenArea Name="CockpitScreen_01" DisplayName="1" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" Script="TSS_EnergyHydrogen" />
-            <ScreenArea Name="CockpitScreen_02" DisplayName="2" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" Script="TSS_Velocity" />
-            <ScreenArea Name="CockpitScreen_03" DisplayName="3" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" Script="TSS_Gravity" />
-            <ScreenArea Name="CockpitScreen_04" DisplayName="4" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" Script="TSS_ArtificialHorizon" />
-            <ScreenArea Name="CockpitScreen_05" DisplayName="5" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" />
-			<ScreenArea Name="CockpitScreen_06" DisplayName="6" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" />
-			<ScreenArea Name="CockpitScreen_07" DisplayName="7" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" />
-			</ScreenAreas>
-    </Definition>
-	
+
 	 <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
     <Public>false</Public>
       <Id>
@@ -172,7 +156,7 @@
       </Id>
       <DisplayName>TIE Weapon-System</DisplayName>
 	   <Description>Standard TIE Armament of twin L-s1 laser cannons. Fires a volley of 15 rounds per reload cycle.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Weaponry.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIE\Tie.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -212,7 +196,7 @@
       </Id>
       <DisplayName>TIE Power-Struct</DisplayName>
 	  <Description>Strut for the TIE Fighter, acts as a primary Energy source for long-term use.</Description>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Strut.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIE\TieBat.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -245,36 +229,6 @@
       <AdaptibleInput>true</AdaptibleInput>
       <MaxStoredPower>10</MaxStoredPower>
       <InitialStoredPowerRatio>0.0</InitialStoredPowerRatio>
-	    <BlockVariants>
-	  <BlockVariant>
-          <TypeId>Gyro</TypeId>
-          <SubtypeId>K_TIE_Fighter_GyroStrut</SubtypeId>
-        </BlockVariant>
-		 <BlockVariant>
-          <TypeId>Thrust</TypeId>
-          <SubtypeId>K_TIE_Fighter_EngineSecondary</SubtypeId>
-        </BlockVariant>
-			 <BlockVariant>
-          <TypeId>MyProgrammableBlock</TypeId>
-          <SubtypeId>K_TIE_Fighter_PB</SubtypeId>
-        </BlockVariant>
-			 <BlockVariant>
-          <TypeId>TimerBlock</TypeId>
-          <SubtypeId>K_TIE_Fighter_Timer</SubtypeId>
-        </BlockVariant>
-			 <BlockVariant>
-          <TypeId>RemoteControl</TypeId>
-          <SubtypeId>K_TIE_Fighter_RC</SubtypeId>
-        </BlockVariant>
-			 <BlockVariant>
-          <TypeId>Beacon</TypeId>
-          <SubtypeId>K_TIE_Fighter_Beacon</SubtypeId>
-        </BlockVariant>
-			 <BlockVariant>
-          <TypeId>RadioAntenna</TypeId>
-          <SubtypeId>K_TIE_Fighter_Antenna</SubtypeId>
-        </BlockVariant>
-	      </BlockVariants>
 		   <DestroySound>K_Imperial_Explosion_Generic</DestroySound>
 		    <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
 			 <DestroyEffect>Imperial_Explosion</DestroyEffect>
@@ -287,7 +241,7 @@
       </Id>
       <DisplayName>TIE Gyro</DisplayName>
 	   <Description>TIE Gyro, attached via the Strut end, acting as the mount point for the Wings of the TIE.</Description>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Gyro.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIE\TieGy.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -329,7 +283,7 @@
       </Id>
       <DisplayName>TIE Panel Wing</DisplayName>
 	   <Description>Classic TIE Wing, acts as an Solar Panel, providing Idle secondary power-intake.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Wing_Fighter.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIE\TieSol.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -364,12 +318,6 @@
       </PanelOrientation>
       <TwoSidedPanel>true</TwoSidedPanel>
       <PanelOffset>0.0</PanelOffset>
-	   <BlockVariants>
-	  <BlockVariant>
-          <TypeId>SolarPanel</TypeId>
-          <SubtypeId>K_TIE_Fighter_Wing_MG</SubtypeId>
-        </BlockVariant>
-		      </BlockVariants>
 			  <DestroySound>K_Imperial_Explosion_Critical</DestroySound>
 			   <DamageEffectName>Imperial_Damages_Electrical</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -382,7 +330,7 @@
         <SubtypeId>K_TIE_Fighter_Wing_MG</SubtypeId>
       </Id>
       <DisplayName>TIE Mining-Guild Wing</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Wing_MiningGuild.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIE\TieSol.dds</Icon>
 	   <Description>Specialized TIE Wing of the Mining-Guild Series of TIE Fighter.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -431,7 +379,7 @@
       </Id>
 	   <Description>Backup Power Supply of the TIE Series for Gameplay Reasons: Install behind Core unit.</Description>
       <DisplayName>TIE Reactor</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Reactor.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIE\TieRe.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -499,7 +447,7 @@
       </Id>
       <DisplayName>TIE Gas Storage</DisplayName>
 	   <Description>Acts as a Backup supply of Hydrogen Gas for the TIE Pilot, Installed on the Reactor Section.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_GasStorage.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIE\TieTank.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -555,7 +503,7 @@
       <DisplayName>TIE Main Engine</DisplayName>
 	   <Description>Primary Engine unit of the TIE, replicating the Twin-Ion-Engine that is the namesake of the TIE.
 	   Install onto the Gas Storage unit of standard TIE constructions.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_MainThruster.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIE\TieTh.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		 <IsStandAlone>true</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -618,12 +566,6 @@
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
       <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
 	  <EmissiveColorPreset>K_Imperial_Engine_EmissiveSet</EmissiveColorPreset>
-	   <BlockVariants>
-	 			 <BlockVariant>
-          <TypeId>Thrust</TypeId>
-          <SubtypeId>K_TIE_Interceptor_EngineMain</SubtypeId>
-        </BlockVariant>
-				      </BlockVariants>
 	      </Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -632,7 +574,7 @@
         <SubtypeId>K_TIE_Fighter_EngineSecondary</SubtypeId>
       </Id>
       <DisplayName>TIE Maneuvering Thruster</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE\TIE_SecondaryThruster.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIE\TieTh.dds</Icon>
 	   <Description>Secondary Engine used for providing thrust in all directions. Install in any location.</Description>
 	    <ThrusterType>Ion</ThrusterType>
       <CubeSize>Small</CubeSize>
@@ -698,8 +640,8 @@
         <TypeId>ShipConnector</TypeId>
         <SubtypeId>K_TIE_Fighter_Hatch</SubtypeId>
       </Id>
-      <DisplayName>TIE Hatch</DisplayName>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Hatch.dds</Icon>
+      <DisplayName>TIE Original Connector</DisplayName>
+      <Icon>Textures\GUI\Icons\Ships\TIE\TieConn.dds</Icon>
 	   <Description>TIE Fighter Connector Unit, install on the Roof \ Top of the TIE Core unit.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -741,7 +683,7 @@
       </Id>
       <DisplayName>TIE Programming Unit</DisplayName>
 	   <Description>Programming Block, to allow scripting on the TIE. Install in any section of the TIE.</Description>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIE\TieProg.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
 	   <IsStandAlone>true</IsStandAlone>
@@ -777,7 +719,7 @@
       </Id>
       <DisplayName>TIE Timer Unit</DisplayName>
 	   <Description>Timer Block for the TIE. Install anywhere on the TIE Unit.</Description>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIE\TieTim.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
 	   <IsStandAlone>true</IsStandAlone>
@@ -816,7 +758,7 @@
       </Id>
       <DisplayName>TIE Remote-Control Unit</DisplayName>
 	   <Description>Remote-Control Block for the TIE. The smaller red-light is the front of the Unit.</Description>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIE\TieRc.dds</Icon>
       <CubeSize>Small</CubeSize>
 	   <IsStandAlone>true</IsStandAlone>
 	  <GuiVisible>false</GuiVisible>
@@ -858,7 +800,7 @@
       <DisplayName>TIE Beacon</DisplayName>
 	   <IsStandAlone>true</IsStandAlone>
 	   <Description>Optional Replacement for the TIE Antenna, to allow tracking of the TIE Craft.</Description>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIE\TieBc.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -893,7 +835,7 @@
       </Id>
       <DisplayName>TIE Antenna</DisplayName>
 	   <Description>Antenna Unit for the TIE, allowing remote control to remote access. Install anywhere on the TIE.</Description>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIE\TieAnt.dds</Icon>
 	   <IsStandAlone>true</IsStandAlone>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -929,7 +871,7 @@
       </Id>
       <DisplayName>TIE Camera</DisplayName>
 	   <Description>Camera for the TIE Model, allowing easier automation and remote operation of the TIE unit.</Description>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIE\TieCam.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -968,7 +910,7 @@
       </Id>
       <DisplayName>TIE Top LCD Screen</DisplayName>
 	   <Description>Standard TIE Internal LCD, install at the top of the TIE, infront of the Hatch Connection.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\LCDPanelWide.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIE\TieLCD.dds</Icon>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
 	   <IsStandAlone>true</IsStandAlone>
@@ -1021,7 +963,7 @@
       </Id>
       <DisplayName>TIE Side Screen</DisplayName>
 	   <Description>Standard TIE LCD, right-side (from inside), install at the top of the Strut Connection point, slight forward.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\LCDPanelWide.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIE\TieLCD.dds</Icon>
       <CubeSize>Small</CubeSize>
 	   <IsStandAlone>true</IsStandAlone>
       <GuiVisible>false</GuiVisible>
@@ -1075,7 +1017,7 @@
       </Id>
       <DisplayName>TIE Side Screen II</DisplayName>
 	  	   <Description>Standard TIE LCD, left-side (from inside), install at the top of the Strut Connection point, slight forward.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\LCDPanelWide.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIE\TieLCD.dds</Icon>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
 	   <IsStandAlone>true</IsStandAlone>

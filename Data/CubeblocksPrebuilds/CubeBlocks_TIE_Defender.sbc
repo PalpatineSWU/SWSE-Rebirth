@@ -9,7 +9,7 @@
       </Id>
 	   <Description>Core of the TIE Defender.</Description>
       <DisplayName>TIE Defender Life-Support</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE_Defender.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieDefender\TieDefOx.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -85,7 +85,7 @@
       </Id>
 	   <Description>Mount point for the TIE Defender Strut Segments.</Description>
       <DisplayName>TIE Defender Ring Core</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE_Defender.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieDefender\TieDefOx.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -138,7 +138,7 @@
       </Id>
       <DisplayName>TIE Defender Wing</DisplayName>
 	   <Description>Universal TIE Defender Wing.</Description>
-      <Icon>Textures\GUI\Icons\TIE_Defender.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieDefender\TieDefSol.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -176,7 +176,7 @@
       </Id>
 	   <Description>TIE Defender Strut, Straight.</Description>
       <DisplayName>TIE Defender Central Struct</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE_Defender.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieDefender\TieDefBa.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -211,7 +211,7 @@
       </Id>
       <DisplayName>TIE Defender L Strut</DisplayName>
 	   <Description>TIE Defender Strut, Left.</Description>
-      <Icon>Textures\GUI\Icons\TIE_Defender.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieDefender\TieDefBa.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -246,7 +246,7 @@
       </Id>
       <DisplayName>TIE Defender R Strut</DisplayName>
 	   <Description>TIE Defender Strut, Right</Description>
-      <Icon>Textures\GUI\Icons\TIE_Defender.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieDefender\TieDefBa.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -281,7 +281,7 @@
       </Id>
       <DisplayName>TIE Defender Gyro S</DisplayName>
 	   <Description>Special TIE Defender Gyro unit.</Description>
-      <Icon>Textures\GUI\Icons\TIE_Defender.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieDefender\TieDefGy.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -317,7 +317,7 @@
       </Id>
       <DisplayName>TIE Defender Gyro L</DisplayName>
 	   <Description>Special TIE Defender Gyro unit.</Description>
-      <Icon>Textures\GUI\Icons\TIE_Defender.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieDefender\TieDefGy.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -353,7 +353,7 @@
       </Id>
       <DisplayName>TIE Defender Gyro R</DisplayName>
 	   <Description>Special TIE Defender Gyro unit.</Description>
-      <Icon>Textures\GUI\Icons\TIE_Defender.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieDefender\TieDefGy.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -389,7 +389,7 @@
       </Id>
 	   <Description>TIE Engine, designed for the TIE Defenders' Acceleration capacity.</Description>
       <DisplayName>TIE Defender Main-Engine</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE_Defender.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieDefender\TieDefTh.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -455,7 +455,7 @@
       </Id>
       <DisplayName>TIE Defender Cannon</DisplayName>
 	   <Description>Modular TIE Defender Laser-Cannon, of the L-s9.3 laser Cannon model.</Description>
-      <Icon>Textures\GUI\Icons\TIE_Defender.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieDefender\TieDef.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -491,7 +491,7 @@
       </Id>
       <DisplayName>TIE Defender Launcher</DisplayName>
 	   <Description>Modular TIE Defender Missile Launcher, firing a Standardized TIE Missile.</Description>
-      <Icon>Textures\GUI\Icons\TIE_Defender.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieDefender\TieDef.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -527,7 +527,7 @@
       </Id>
       <DisplayName>TIE Defender Mass-Driver</DisplayName>
 	   <Description>Experimental TIE Defender Mass-Driver, Non-Canon.</Description>
-      <Icon>Textures\GUI\Icons\TIE_Defender.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieDefender\TieDef.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>

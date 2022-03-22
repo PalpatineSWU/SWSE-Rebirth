@@ -8,7 +8,7 @@
         <SubtypeId>K_TIE_AdvancedV1_Wing</SubtypeId>
       </Id>
       <DisplayName>TIE Advanced-V1 Wing</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIEAdvanced\TieAd.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -76,7 +76,7 @@
         <SubtypeId>K_TIE_AdvancedV1_Hyperdrive</SubtypeId>
       </Id>
       <DisplayName>TIE Advanced-V1 Hyperdrive</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIEAdvanced\TieAdHd.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -115,7 +115,7 @@
         <SubtypeId>K_TIE_AdvancedV1_Pylon</SubtypeId>
       </Id>
       <DisplayName>TIE Advanced-V1 Pylon</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIEAdvanced\TieAdBa.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -144,13 +144,13 @@
     </Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
-      <Public>false</Public>
+      <Public>true</Public>
       <Id>
         <TypeId>SmallMissileLauncher</TypeId>
         <SubtypeId>K_TIE_AdvancedV1_Weaponry</SubtypeId>
       </Id>
       <DisplayName>TIE Advanced-V1 Weapon-System</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIEAdvanced\TieAd.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>

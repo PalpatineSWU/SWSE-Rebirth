@@ -11,7 +11,7 @@
         <SubtypeId>K_Imperial_Reborn_TIE_Interceptor_Cockpit</SubtypeId>
       </Id>
       <DisplayName>TIE Interceptor Cockpit (HQ)</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornInterceptor\RebornInterceptorCock.dds</Icon>
 	   <Description>The TIE Interceptor Cockpit, features different exterior hull customization options, and uses a different Paint layout.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -80,7 +80,7 @@
       </Id>
       <DisplayName>TIE Interceptor Weaponry (HQ) Functioning Turret</DisplayName>
 	   <Description>Standard TIE Armament of twin L-s1 laser cannons. Fires a volley of 15 rounds per reload cycle.</Description>
-      <Icon>Textures\GUI\Icons\Blocks\Imp_SG_TwinCannons.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornInterceptor\RebornInterceptorLa.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -129,7 +129,7 @@
       <DisplayName>TIE Interceptor Inverse-Engine (HQ)</DisplayName>
 	   <Description>Primary Engine unit of the TIE Interceptor, superior to the standard TIE engine unit.
 	   Install onto the Gas Storage unit of standard TIE constructions.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_MainThruster.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornInterceptor\RebornInterceptorTh.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		<IsStandAlone>true</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -202,7 +202,7 @@
       <DisplayName>TIE Interceptor Main-Engine (HQ)</DisplayName>
 	   <Description>Primary Engine unit of the TIE Interceptor, superior to the standard TIE engine unit.
 	   Install onto the Inverse Engine.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_MainThruster.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornInterceptor\RebornInterceptorTh.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		<IsStandAlone>true</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -274,7 +274,7 @@
       </Id>
       <DisplayName>TIE Interceptor Gyro (HQ)</DisplayName>
 	   <Description>TIE Gyro, attached via the Strut end, acting as the mount point for the Wings of the TIE.</Description>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Gyro.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornInterceptor\RebornInterceptorGy.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -316,7 +316,7 @@
       </Id>
       <DisplayName>TIE Interceptor Strut Battery (HQ)</DisplayName>
 	  <Description>Strut for the TIE Fighter, acts as a primary Energy source for long-term use.</Description>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Strut.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornInterceptor\RebornInterceptorBa.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -364,7 +364,7 @@
       <DisplayName>TIE Interceptor Wing (HQ)</DisplayName>
 	   <Description>Interceptor TIE Wing, acts as an Solar Panel, providing Idle secondary power-intake.
 	   Has increased output, enabling stronger Weaponry mounted onto the frame.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Wing_Fighter.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornInterceptor\RebornInterceptorSol.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -412,7 +412,7 @@
         <SubtypeId>K_Imperial_Reborn_TIE_Interceptor_Connector</SubtypeId>
       </Id>
       <DisplayName>TIE Interceptor Hatch (HQ Connector)</DisplayName>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Hatch.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornInterceptor\RebornInterceptorConn.dds</Icon>
 	   <Description>TIE Fighter Connector Unit, install on the Roof \ Top of the TIE Core unit.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -457,7 +457,7 @@
       <DisplayName>TIE Interceptor Camera (HQ Hatch)</DisplayName>
 	   <Description>Camera for the TIE Model, allowing easier automation and remote operation of the TIE unit.
 	   Interceptor Parts have a different Customization and Paint Scheme.</Description>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornInterceptor\RebornInterceptorCam.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -498,7 +498,7 @@
       <DisplayName>TIE Interceptor Hyperdrive (HQ)</DisplayName>
 	   <Description>TIE Hyperdrive Add-on For the Underside Slot.
 	   Interceptor Parts have a different Customization and Paint Scheme.</Description>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornInterceptor\RebornInterceptorJd.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -542,7 +542,7 @@
       <DisplayName>TIE Interceptor Lifesupport (HQ)</DisplayName>
 	   <Description>TIE Lifesupport Add-On for Underside Slot.
 	   Interceptor Parts have a different Customization and Paint Scheme.</Description>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornInterceptor\RebornInterceptorOx.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -624,7 +624,7 @@
       </Id>
       <DisplayName>TIE Interceptor Wing Tip A (HQ)</DisplayName>
 	   <Description>Standard TIE Interceptor Wing tip, equipped with a L-s1 laser cannon. Fires a volley of 15 rounds per reload cycle.</Description>
-      <Icon>Textures\GUI\Icons\Blocks\Imp_SG_WingCannons.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornInterceptor\RebornInterceptor.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -673,7 +673,7 @@
       </Id>
       <DisplayName>TIE Interceptor Wing Tip B (HQ)</DisplayName>
 	   <Description>Standard TIE Interceptor Wing tip, equipped with a L-s1 laser cannon. Fires a volley of 15 rounds per reload cycle.</Description>
-      <Icon>Textures\GUI\Icons\Blocks\Imp_SG_WingCannons.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornInterceptor\RebornInterceptor.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -725,7 +725,7 @@
 	   Standard Missile: Concussion Missile (Lock-On)
 	   Speciality Missiles: ScramPulse, MagPulse, Interdiction
 	   Missile Range: 3km</Description>
-      <Icon>Textures\GUI\Icons\Blocks\Imp_SG_MissilesGeneric.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornInterceptor\RebornInterceptor.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>

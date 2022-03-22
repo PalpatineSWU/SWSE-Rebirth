@@ -11,7 +11,7 @@
         <SubtypeId>K_Imperial_Reborn_FirstOrder_TIE_Fighter_Cockpit</SubtypeId>
       </Id>
       <DisplayName>FO TIE Fighter Cockpit (HQ)</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieRebornFO\FOCock.dds</Icon>
 	   <Description>First Order TIE Cockpit.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -80,7 +80,7 @@
       </Id>
       <DisplayName>FO TIE Fighter Weaponry (HQ)</DisplayName>
 	   <Description>First-Order TIE Armament of twin L-s1 laser cannons. Fires a volley of 15 rounds per reload cycle.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Weaponry.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieRebornFO\FO.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -129,7 +129,7 @@
       <DisplayName>FO TIE Fighter Inverse-Engine (HQ)</DisplayName>
 	   <Description>Primary Engine unit of the First Order TIE Fighter.
 	   Install onto the rear of the Cockpit unit of First-Order TIE Chassis, or standard TIE Chassis.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_MainThruster.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieRebornFO\FOTh.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		<IsStandAlone>true</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -202,7 +202,7 @@
       <DisplayName>FO TIE Fighter Main-Engine (HQ)</DisplayName>
 	   <Description>Primary Engine unit of the First Order TIE, rear-mounted onto the reverse-Engine.
 	   Install onto the Gas Storage unit of standard TIE constructions.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_MainThruster.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieRebornFO\FOTh.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		<IsStandAlone>true</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -274,7 +274,7 @@
       </Id>
       <DisplayName>FO TIE Gyro (HQ)</DisplayName>
 	   <Description>First Order TIE Gyro, mount onto the Strut battery.</Description>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Gyro.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieRebornFO\FOGy.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -316,7 +316,7 @@
       </Id>
       <DisplayName>FO TIE Strut Battery (HQ)</DisplayName>
 	  <Description>First Order TIE Strut, mount onto the Cockpit body.</Description>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Strut.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieRebornFO\FOBa.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -363,7 +363,7 @@
       </Id>
       <DisplayName>FO TIE Fighter Wing (HQ)</DisplayName>
 	   <Description>First Order TIE Wing, improved Intake compared to the Standard TIE.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Wing_Fighter.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieRebornFO\FOSol.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -411,7 +411,7 @@
         <SubtypeId>K_Imperial_Reborn_FirstOrder_TIE_Fighter_Connector</SubtypeId>
       </Id>
       <DisplayName>FO TIE Hatch (HQ Connector)</DisplayName>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Hatch.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieRebornFO\FOConn.dds</Icon>
 	   <Description>First Order TIE Hatch, mount onto the Central Chassis.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -455,7 +455,7 @@
       </Id>
       <DisplayName>FO TIE Camera (HQ Hatch)</DisplayName>
 	   <Description>First Order Hatch, mount typically onto the underside of the Chassis.</Description>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieRebornFO\FOCam.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -495,7 +495,7 @@
       </Id>
        <DisplayName>FO TIE Antenna (HQ)</DisplayName>
 	   <Description>Antenna Unit for the TIE, allowing remote control to remote access. Install anywhere on the TIE.</Description>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieRebornFO\FOAnt.dds</Icon>
 	   <IsStandAlone>false</IsStandAlone>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>

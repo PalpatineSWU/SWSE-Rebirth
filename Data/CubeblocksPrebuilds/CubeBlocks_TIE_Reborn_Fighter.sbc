@@ -12,7 +12,7 @@
       </Id>
       <DisplayName>Reborn TIE Render</DisplayName>
 	  <Description>backup power storage, provides the bike with a flight time.</Description>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Strut.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\TIERebornFighter\RebornTieBa.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -52,7 +52,7 @@
         <SubtypeId>K_Imperial_Reborn_TIE_Fighter_Cockpit</SubtypeId>
       </Id>
       <DisplayName>TIE Fighter Cockpit (HQ)</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\TIERebornFighter\RebornTieCock.dds</Icon>
 	   <Description>The Iconic Cockpit of the TIE Series, to get the full interior, use with an TIE Core\Life-Support.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -121,7 +121,7 @@
       </Id>
       <DisplayName>TIE Fighter Weaponry (HQ)</DisplayName>
 	   <Description>Standard TIE Armament of twin L-s1 laser cannons. Fires a volley of 15 rounds per reload cycle.</Description>
-      <Icon>Textures\GUI\Icons\Blocks\Imp_SG_TwinCannons.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\TIERebornFighter\RebornTie.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -170,7 +170,7 @@
       <DisplayName>TIE Fighter Inverse-Engine (HQ)</DisplayName>
 	   <Description>Primary Engine unit of the TIE Interceptor, superior to the standard TIE engine unit.
 	   Install onto the Gas Storage unit of standard TIE constructions.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_MainThruster.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\TIERebornFighter\RebornTieTh.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		<IsStandAlone>true</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -243,7 +243,7 @@
       <DisplayName>TIE Fighter Main-Engine (HQ)</DisplayName>
 	   <Description>Primary Engine unit of the TIE Interceptor, superior to the standard TIE engine unit.
 	   Install onto the Gas Storage unit of standard TIE constructions.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_MainThruster.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\TIERebornFighter\RebornTieTh.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		<IsStandAlone>true</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -315,7 +315,7 @@
       </Id>
       <DisplayName>TIE Gyro (HQ)</DisplayName>
 	   <Description>TIE Gyro, attached via the Strut end, acting as the mount point for the Wings of the TIE.</Description>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Gyro.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\TIERebornFighter\RebornTieGy.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -357,7 +357,7 @@
       </Id>
       <DisplayName>TIE Strut Battery (HQ)</DisplayName>
 	  <Description>Strut for the TIE Fighter, acts as a primary Energy source for long-term use.</Description>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Strut.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\TIERebornFighter\RebornTieBa.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -404,7 +404,7 @@
       </Id>
       <DisplayName>TIE Fighter Wing (HQ)</DisplayName>
 	   <Description>Classic TIE Wing, acts as an Solar Panel, providing Idle secondary power-intake.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Wing_Fighter.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\TIERebornFighter\RebornTieSol.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -454,7 +454,7 @@
       <DisplayName>TIE Fighter Guild Wing (HQ)</DisplayName>
 	   <Description>Classic TIE Wing, acts as an Solar Panel, providing Idle secondary power-intake.
 	   Mining Guild Variation.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Wing_Fighter.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\TIERebornFighter\RebornTieSol.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -502,7 +502,7 @@
         <SubtypeId>K_Imperial_Reborn_TIE_Fighter_Connector</SubtypeId>
       </Id>
       <DisplayName>TIE Hatch (HQ Connector)</DisplayName>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Hatch.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\TIERebornFighter\RebornTieConn.dds</Icon>
 	   <Description>TIE Fighter Connector Unit, install on the Roof \ Top of the TIE Core unit.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -546,7 +546,7 @@
       </Id>
       <DisplayName>TIE Camera (HQ Hatch)</DisplayName>
 	   <Description>Camera for the TIE Model, allowing easier automation and remote operation of the TIE unit.</Description>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\TIERebornFighter\RebornTieCam.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -585,7 +585,7 @@
         <SubtypeId>K_Imperial_Reborn_TIE_Fighter_SecondaryEngine</SubtypeId>
       </Id>
       <DisplayName>TIE Maneuvering Thruster (HQ)</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE\TIE_SecondaryThruster.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\TIERebornFighter\RebornTieTh.dds</Icon>
 	   <Description>Secondary Engine used for providing thrust in all directions. Install in any location.</Description>
 	    <ThrusterType>Ion</ThrusterType>
       <CubeSize>Small</CubeSize>
@@ -654,7 +654,7 @@
       </Id>
       <DisplayName>TIE Magnetic Landing-Gear-Pad (HQ Optional)</DisplayName>
 	  <GuiVisible>true</GuiVisible>
-      <Icon>Textures\GUI\Icons\Cubes\landing_gear.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\TIERebornFighter\RebornTieLg.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="7" />

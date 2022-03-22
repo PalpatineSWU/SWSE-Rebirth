@@ -8,7 +8,7 @@
 <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
       <Id>
         <TypeId>Cockpit</TypeId>
-        <SubtypeId>EWing_Cockpit</SubtypeId>
+        <SubtypeId>K_NewRepublic_EWing_Cockpit</SubtypeId>
       </Id>
       <DisplayName>New Republic E-Wing Cockpit</DisplayName>
     <Icon>Textures\GUI\Icons\Ships\e-wing\EWingCockpit.dds</Icon>
@@ -69,7 +69,7 @@
 	<Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
       <Id>
         <TypeId>AdvancedDoor</TypeId>
-        <SubtypeId>EWing_Hatch</SubtypeId>
+        <SubtypeId>K_NewRepublic_EWing_Hatch</SubtypeId>
       </Id>
       <DisplayName>New Republic E-Wing Canopy</DisplayName>
     <Icon>Textures\GUI\Icons\Ships\e-wing\EWing.dds</Icon>
@@ -139,7 +139,7 @@
 <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
-        <SubtypeId>EWing_Reactor</SubtypeId>
+        <SubtypeId>K_NewRepublic_EWing_Reactor</SubtypeId>
       </Id>
 	   <Description>New Republic E-Wing Reactor, Runs on Synthetic Fuel, and has an effective output of 30 Units.</Description>
       <DisplayName>New Republic E-Wing Reactor</DisplayName>
@@ -217,7 +217,7 @@
 	<Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
       <Id>
         <TypeId>BatteryBlock</TypeId>
-        <SubtypeId>EWing_Battery</SubtypeId>
+        <SubtypeId>K_NewRepublic_EWing_Battery</SubtypeId>
       </Id>
       <DisplayName>New Republic E-Wing Battery</DisplayName>
 	  <Description>New Republic E-Wing Battery unit, mounted onto the front of the E-Wing, supplies a max of 25 units, with a storage of 45 units.</Description>
@@ -265,7 +265,7 @@
 	 <Definition xsi:type="MyObjectBuilder_RemoteControlDefinition">
       <Id>
         <TypeId>RemoteControl</TypeId>
-        <SubtypeId>EWing_RC</SubtypeId>
+        <SubtypeId>K_NewRepublic_EWing_RC</SubtypeId>
       </Id>
       <DisplayName>New Republic E-Wing Remote-Control</DisplayName>
 	   <Description>New Republic E-Wing Remote-Control system, mounted onto the front of the Battery for the E-Wing.</Description>
@@ -310,7 +310,7 @@
 	 <Definition xsi:type="MyObjectBuilder_GyroDefinition">
       <Id>
         <TypeId>Gyro</TypeId>
-        <SubtypeId>EWing_GyroI</SubtypeId>
+        <SubtypeId>K_NewRepublic_EWing_GyroI</SubtypeId>
       </Id>
       <DisplayName>New Republic E-Wing Gyro (A)</DisplayName>
 	   <Description>New Republic E-Wing Wing Module, packing Gyro Power.</Description>
@@ -354,7 +354,7 @@
 	 <Definition xsi:type="MyObjectBuilder_GyroDefinition">
       <Id>
         <TypeId>Gyro</TypeId>
-        <SubtypeId>EWing_GyroII</SubtypeId>
+        <SubtypeId>K_NewRepublic_EWing_GyroII</SubtypeId>
       </Id>
       <DisplayName>New Republic E-Wing Gyro (B)</DisplayName>
 	   <Description>New Republic E-Wing Wing Module, packing Gyro Power.</Description>
@@ -397,7 +397,7 @@
 	<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>EWing_EngineForward</SubtypeId>
+        <SubtypeId>K_NewRepublic_EWing_EngineForward</SubtypeId>
       </Id>
       <DisplayName>New Republic E-Wing Engine (I)</DisplayName>
 	   <Description>New Republic E-Wing Primary Engine, designed for pairing with the Inverse-Engine and mounted on the underside of a Wing.</Description>
@@ -473,7 +473,7 @@
 	<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>EWing_EngineInverted</SubtypeId>
+        <SubtypeId>K_NewRepublic_EWing_EngineInverted</SubtypeId>
       </Id>
       <DisplayName>New Republic E-Wing Engine (II)</DisplayName>
 	  <Description>New Republic E-Wing Inverse Engine, designed for pairing with the Primary-Engine and mounted on the underside of a Wing.</Description>
@@ -549,7 +549,7 @@
 	<Definition xsi:type="MyObjectBuilder_OxygenFarmDefinition">
       <Id>
         <TypeId>OxygenFarm</TypeId>
-        <SubtypeId>EWing_LifeSupport</SubtypeId>
+        <SubtypeId>K_NewRepublic_EWing_LifeSupport</SubtypeId>
       </Id>
       <DisplayName>New Republic E-Wing Life-Support</DisplayName>
     <Icon>Textures\GUI\Icons\Ships\e-wing\EWing.dds</Icon>
@@ -612,7 +612,7 @@
 		<Public>false</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
-           <SubtypeId>EWing_RoofGun</SubtypeId>
+           <SubtypeId>K_NewRepublic_EWing_RoofGun</SubtypeId>
       </Id>
       <DisplayName>New Republic E-Wing Laser-Cannon (Roof)</DisplayName>
 	   <Description>New Republic Heavy Laser-Cannon, mounted on the E-Wing's Roof.
@@ -688,7 +688,7 @@ Range: 450</Description>
 		<Public>false</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
-           <SubtypeId>EWing_ProtonLauncher</SubtypeId>
+           <SubtypeId>K_NewRepublic_EWing_ProtonLauncher</SubtypeId>
       </Id>
       <DisplayName>New Republic E-Wing Proton-Torpedo Launcher (2)</DisplayName>
 	   <Description>New Republic Twin Proton Torpedo-Launcher, mounted on the E-Wing's underside.
@@ -765,7 +765,7 @@ Range: 450</Description>
 		<Public>false</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
-           <SubtypeId>EWing_WingGunA</SubtypeId>
+           <SubtypeId>K_NewRepublic_EWing_WingGunA</SubtypeId>
       </Id>
       <DisplayName>New Republic E-Wing Laser-Cannon (Wing A)</DisplayName>
 	   <Description>New Republic Heavy Laser-Cannon, mounted on the E-Wing's wings.
@@ -842,7 +842,7 @@ Range: 450</Description>
 		<Public>false</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
-           <SubtypeId>EWing_WingGunB</SubtypeId>
+           <SubtypeId>K_NewRepublic_EWing_WingGunB</SubtypeId>
       </Id>
       <DisplayName>New Republic E-Wing Laser-Cannon (Wing B)</DisplayName>
 	   <Description>New Republic Heavy Laser-Cannon, mounted on the E-Wing's Roof.
@@ -918,7 +918,7 @@ Range: 450</Description>
 	<Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
       <Id>
         <TypeId>JumpDrive</TypeId>
-        <SubtypeId>EWing_Hyperdrive</SubtypeId>
+        <SubtypeId>K_NewRepublic_EWing_Hyperdrive</SubtypeId>
       </Id>
       <DisplayName>New Republic E-Wing Hyperdrive</DisplayName>
 	   <Description>New Republic Technology, mounts on the E-Wing's Reactor Back-End.
@@ -968,7 +968,7 @@ Range: 450</Description>
 	 <Definition xsi:type="MyObjectBuilder_RadioAntennaDefinition">
       <Id>
         <TypeId>RadioAntenna</TypeId>
-        <SubtypeId>EWing_Antenna</SubtypeId>
+        <SubtypeId>K_NewRepublic_EWing_Antenna</SubtypeId>
       </Id>
        <DisplayName>New Republic E-Wing Antenna</DisplayName>
 	   <Description>New Republic Antenna Unit, for the E-Wing, installed on the Hyperdrive.</Description>
@@ -1007,7 +1007,7 @@ Range: 450</Description>
 	<Definition xsi:type="MyObjectBuilder_LandingGearDefinition">
       <Id>
         <TypeId>LandingGear</TypeId>
-        <SubtypeId>EWing_LandingGear</SubtypeId>
+        <SubtypeId>K_NewRepublic_EWing_LandingGear</SubtypeId>
       </Id>
      <DisplayName>New Republic E-Wing Landing-Gear</DisplayName>
 	  <Description>New Republic Landing-Gear, mounts on the underside of the E-Wing or other-ships.</Description>

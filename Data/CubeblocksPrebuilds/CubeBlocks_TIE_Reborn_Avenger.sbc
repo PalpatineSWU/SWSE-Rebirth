@@ -11,7 +11,7 @@
         <SubtypeId>K_Imperial_Reborn_TIE_Avenger_Cockpit</SubtypeId>
       </Id>
       <DisplayName>TIE Avenger Cockpit (HQ)</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornAvenger\AvengerCock.dds</Icon>
 	   <Description>The TIE Avenger Cockpit, features different exterior hull customization options, and uses a different Paint layout.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -80,7 +80,7 @@
       </Id>
       <DisplayName>TIE Avenger Weaponry (HQ) Functioning Turret</DisplayName>
 	   <Description>Standard TIE Armament of twin L-s1 laser cannons. Fires a volley of 15 rounds per reload cycle.</Description>
-      <Icon>Textures\GUI\Icons\Blocks\Imp_SG_TwinCannons.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornAvenger\Avenger.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -129,7 +129,7 @@
       <DisplayName>TIE Avenger Inverse-Engine (HQ)</DisplayName>
 	   <Description>Primary Engine unit of the TIE Avenger, superior to the standard TIE engine unit.
 	   Install onto the Gas Storage unit of standard TIE constructions.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_MainThruster.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornAvenger\AvengerTh.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		<IsStandAlone>true</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -202,7 +202,7 @@
       <DisplayName>TIE Avenger Main-Engine (HQ)</DisplayName>
 	   <Description>Primary Engine unit of the TIE Avenger, superior to the standard TIE engine unit.
 	   Install onto the Inverse Engine.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_MainThruster.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornAvenger\AvengerTh.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		<IsStandAlone>true</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -274,7 +274,7 @@
       </Id>
       <DisplayName>TIE Avenger Gyro (HQ)</DisplayName>
 	   <Description>TIE Gyro, attached via the Strut end, acting as the mount point for the Wings of the TIE.</Description>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Gyro.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornAvenger\AvengerGy.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -316,7 +316,7 @@
       </Id>
       <DisplayName>TIE Avenger Battery (HQ)</DisplayName>
 	  <Description>Strut for the TIE Fighter, acts as a primary Energy source for long-term use.</Description>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Strut.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornAvenger\AvengerBa.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -364,7 +364,7 @@
       <DisplayName>TIE Avenger Wing (HQ)</DisplayName>
 	   <Description>Avenger TIE Wing, acts as an Solar Panel, providing Idle secondary power-intake.
 	   Has increased output, enabling stronger Weaponry mounted onto the frame.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Wing_Fighter.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornAvenger\AvengerSol.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -414,7 +414,7 @@
       <DisplayName>TIE Avenger Solar Tip-I (HQ)</DisplayName>
 	   <Description>Avenger TIE Wing, acts as an Solar Panel, providing Idle secondary power-intake.
 	   Has increased output, enabling stronger Weaponry mounted onto the frame.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Wing_Fighter.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornAvenger\AvengerSol.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -464,7 +464,7 @@
       <DisplayName>TIE Avenger Solar Tip-II (HQ)</DisplayName>
 	   <Description>Avenger TIE Wing, acts as an Solar Panel, providing Idle secondary power-intake.
 	   Has increased output, enabling stronger Weaponry mounted onto the frame.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Wing_Fighter.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornAvenger\AvengerSol.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -515,7 +515,7 @@
       </Id>
       <DisplayName>TIE Avenger Wing Tip A (HQ)</DisplayName>
 	   <Description>Standard TIE Avenger Wing tip, equipped with a L-s1 laser cannon. Fires a volley of 15 rounds per reload cycle.</Description>
-      <Icon>Textures\GUI\Icons\Blocks\Imp_SG_WingCannons.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornAvenger\Avenger.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -564,7 +564,7 @@
       </Id>
       <DisplayName>TIE Avenger Wing Tip B (HQ)</DisplayName>
 	   <Description>Standard TIE Avenger Wing tip, equipped with a L-s1 laser cannon. Fires a volley of 15 rounds per reload cycle.</Description>
-      <Icon>Textures\GUI\Icons\Blocks\Imp_SG_WingCannons.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornAvenger\Avenger.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -615,7 +615,7 @@
       <DisplayName>TIE Avenger Hyperdrive (HQ)</DisplayName>
 	   <Description>TIE Hyperdrive Add-on For the Underside Slot.
 	   Interceptor Parts have a different Customization and Paint Scheme.</Description>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornAvenger\AvengerJd.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -661,7 +661,7 @@
       <DisplayName>TIE Avenger Launcher (HQ)</DisplayName>
 	   <Description>TIE Avenger Side-Mounted Launcher.
 	   Ordnance: Concussion, Proton-Torpedo, I-Flare, Interdiction </Description>
-       <Icon>Textures\GUI\Icons\Blocks\Imp_SG_MissilesGeneric.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornAvenger\Avenger.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>

@@ -11,7 +11,7 @@
         <SubtypeId>K_Imperial_Reborn_TIE_Defender_Cockpit</SubtypeId>
       </Id>
       <DisplayName>TIE Defender Cockpit (HQ)</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornDefender\RebornDefCock.dds</Icon>
 	   <Description>The Iconic Cockpit of the TIE Series, to get the full interior, use with an TIE Core\Life-Support.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -83,7 +83,7 @@
 	   Ammunitions: Concussion, Advanced Proton Torpedo, Ion-Torpedo, Magpulse, I-Flare, Interdiction, MIRV
 	   Salvo: 4
 	   Range: 3km</Description>
-      <Icon>Textures\GUI\Icons\Blocks\Imp_SG_MissilesGenericHeavy.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornDefender\RebornDef.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -132,7 +132,7 @@
       <DisplayName>TIE Defender Inverse-Engine (HQ)</DisplayName>
 	   <Description>Primary Engine unit of the TIE Defender, superior to the standard TIE engine unit.
 	   Install onto the rear of the Cockpit, of standard TIE constructions.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_MainThruster.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornDefender\RebornDefTh.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		<IsStandAlone>true</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -205,7 +205,7 @@
       <DisplayName>TIE Defender Main-Engine (HQ)</DisplayName>
 	   <Description>Primary Engine unit of the TIE Defender, superior to the standard TIE engine unit.
 	   Install onto the end of the Defender Body Section.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_MainThruster.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornDefender\RebornDefTh.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		<IsStandAlone>true</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -277,7 +277,7 @@
       </Id>
       <DisplayName>TIE Defender Gyro (HQ)</DisplayName>
 	   <Description>TIE Defender Gyro, attached onto the Rear Pod.</Description>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Gyro.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornDefender\RebornDefGy.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -319,7 +319,7 @@
       </Id>
       <DisplayName>TIE Defender Battery (HQ)</DisplayName>
 	  <Description>TIE Battery, mounted onto Rear Pod, acts as a primary Energy source for long-term use.</Description>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Strut.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornDefender\RebornDefBa.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -366,7 +366,7 @@
       </Id>
       <DisplayName>TIE Defender Wing Top Solar (HQ)</DisplayName>
 	   <Description>Classic TIE Wing, acts as an Solar Panel, providing Idle secondary power-intake.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Wing_Fighter.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornDefender\RebornDefSol.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -419,7 +419,7 @@
 	   Systems: Ion Cannon(2), Laser Cannon (2)
 	   Salvo: 4, 3
 	   Range: 300m, Fall-Off 150</Description>
-      <Icon>Textures\GUI\Icons\Blocks\Imp_SG_TwinCannons.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornDefender\RebornDef.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -468,7 +468,7 @@
       </Id>
       <DisplayName>TIE Defender Wing Right Solar (HQ)</DisplayName>
 	   <Description>Classic TIE Wing, acts as an Solar Panel, providing Idle secondary power-intake.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Wing_Fighter.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornDefender\RebornDefSol.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -522,7 +522,7 @@
 	   Systems: Laser Cannon (4)
 	   Salvo: 3(2x), 3
 	   Range: 300m, Fall-Off 150</Description>
-      <Icon>Textures\GUI\Icons\Blocks\Imp_SG_WingCannons.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornDefender\RebornDef.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -572,7 +572,7 @@
       </Id>
       <DisplayName>TIE Defender Wing Left Solar (HQ)</DisplayName>
 	   <Description>Classic TIE Wing, acts as an Solar Panel, providing Idle secondary power-intake.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Wing_Fighter.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornDefender\RebornDefSol.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -626,7 +626,7 @@
 	   Systems: Laser Cannon (4)
 	   Salvo: 3(2x), 3
 	   Range: 300m, Fall-Off 150</Description>
-      <Icon>Textures\GUI\Icons\Blocks\Imp_SG_WingCannons.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornDefender\RebornDef.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -677,7 +677,7 @@
       </Id>
       <DisplayName>TIE Defender Hyperdrive (HQ)</DisplayName>
 	   <Description>TIE Hyperdrive for the Defender', mounted onto the Rear Pod.</Description>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornDefender\RebornDefJd.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -721,7 +721,7 @@
         <SubtypeId>K_Imperial_Reborn_TIE_Defender_Connector</SubtypeId>
       </Id>
       <DisplayName>TIE Defender Hatch (HQ Connector)</DisplayName>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Hatch.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornDefender\RebornDefConn.dds</Icon>
 	   <Description>TIE Fighter Connector Unit, install on the Roof \ Top of the TIE Core unit.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -765,7 +765,7 @@
       </Id>
       <DisplayName>TIE Defender Camera (HQ Hatch)</DisplayName>
 	   <Description>Camera for the TIE Model, allowing easier automation and remote operation of the TIE unit.</Description>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornDefender\RebornDefCam.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -804,7 +804,7 @@
         <SubtypeId>K_Imperial_Reborn_TIE_Defender_SecondaryEngine</SubtypeId>
       </Id>
       <DisplayName>TIE Defender Maneuvering Thruster (HQ)</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE\TIE_SecondaryThruster.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornDefender\RebornDefTh.dds</Icon>
 	   <Description>Secondary Engine used for providing thrust in all directions. Install in any location.
 	   Defender Variants have increased thrust force.</Description>
 	    <ThrusterType>Ion</ThrusterType>

@@ -8,7 +8,7 @@
         <SubtypeId>K_Imperial_Chiss_Test</SubtypeId>
       </Id>
       <DisplayName>Chiss Clawcraft Test Cockpit</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Chiss\ChissCock.dds</Icon>
       <CubeSize>Large</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -54,10 +54,10 @@
         <SubtypeId>K_Chiss_Clawcraft_Cockpit</SubtypeId>
       </Id>
       <DisplayName>Clawcraft Cockpit</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Chiss\ChissCock.dds</Icon>
 	   <Description>The Iconic Cockpit of the TIE Series, to get the full interior, use with an TIE Core\Life-Support.</Description>
       <CubeSize>Small</CubeSize>
-	  <GuiVisible>false</GuiVisible>
+	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="7" y="7" z="5" />
       <ModelOffset x="0" y="0" z="0" />
@@ -115,7 +115,7 @@
         <SubtypeId>K_Chiss_Clawcraft_LifeSupport</SubtypeId>
       </Id>
       <DisplayName>Clawcraft Life-Support</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Core.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Chiss\ChissOx.dds</Icon>
 	   <Description>The Core of a TIE Fighter. Provides Life-Support functionality,for Gameplay Reasons.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -199,9 +199,9 @@
       </Id>
       <DisplayName>Clawcraft Gyro</DisplayName>
 	   <Description>TIE Gyro, attached via the Strut end, acting as the mount point for the Wings of the TIE.</Description>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Gyro.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Chiss\ChissGy.dds</Icon>
       <CubeSize>Small</CubeSize>
-	  <GuiVisible>false</GuiVisible>
+	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="5" y="5" z="2" />
       <ModelOffset x="0" y="0" z="0" />
@@ -243,7 +243,7 @@
       <DisplayName>Clawcraft Inverted-Engine</DisplayName>
 	   <Description>Primary Engine unit of the TIE, replicating the Twin-Ion-Engine that is the namesake of the TIE.
 	   Install onto the Gas Storage unit of standard TIE constructions.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_MainThruster.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Chiss\ChissTh.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		 <IsStandAlone>false</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -317,7 +317,7 @@
       <DisplayName>Clawcraft Primary-Engine</DisplayName>
 	   <Description>Primary Engine unit of the TIE, replicating the Twin-Ion-Engine that is the namesake of the TIE.
 	   Install onto the Gas Storage unit of standard TIE constructions.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_MainThruster.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Chiss\ChissTh.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		 <IsStandAlone>false</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -390,7 +390,7 @@
       </Id>
       <DisplayName>Clawcraft Battery</DisplayName>
 	  <Description>Strut for the TIE Fighter, acts as a primary Energy source for long-term use.</Description>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Strut.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Chiss\ChissBa.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -434,9 +434,9 @@
         <SubtypeId>K_Chiss_Clawcraft_Hyperdrive</SubtypeId>
       </Id>
       <DisplayName>Clawcraft Hyperdrive</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Chiss\ChissJd.dds</Icon>
       <CubeSize>Small</CubeSize>
-	  <GuiVisible>false</GuiVisible>
+	  <GuiVisible>true</GuiVisible>
 	  <Description>TIE Hunter Hyperdrive, presently it uses standard Jump qualities.
 	  This unit recharges inside 10 minutes, and can send the Hunter an incredible 500k Away.</Description>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -478,12 +478,12 @@
         <SubtypeId>K_Chiss_Clawcraft_SecondaryEngine</SubtypeId>
       </Id>
       <DisplayName>Clawcraft Maneuvering Thruster</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE\TIE_SecondaryThruster.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Chiss\ChissTh.dds</Icon>
 	   <Description>Secondary Engine used for providing thrust in all directions. Install in any location.</Description>
 	    <ThrusterType>Ion</ThrusterType>
       <CubeSize>Small</CubeSize>
 	   <IsStandAlone>false</IsStandAlone>
-	  <GuiVisible>false</GuiVisible>
+	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
@@ -546,10 +546,10 @@
         <SubtypeId>K_Chiss_Clawcraft_Connector</SubtypeId>
       </Id>
       <DisplayName>Clawcraft Connector</DisplayName>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Hatch.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Chiss\ChissConn.dds</Icon>
 	   <Description>TIE Fighter Connector Unit, install on the Roof \ Top of the TIE Core unit.</Description>
       <CubeSize>Small</CubeSize>
-	  <GuiVisible>false</GuiVisible>
+	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="1" z="3" />
       <ModelOffset x="0" y="0" z="0" />
@@ -587,10 +587,10 @@
         <SubtypeId>K_Chiss_Clawcraft_WingCannon</SubtypeId>
       </Id>
       <DisplayName>Clawcraft Wing-Cannon</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Chiss\Chiss.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <Description>NON FUNCTIONALChiss Wing pattern, with integrated Maser weaponry.</Description>
-	  <GuiVisible>false</GuiVisible>
+	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="4" y="7" z="23" />
       <ModelOffset x="0" y="0" z="0" />
@@ -625,10 +625,10 @@
         <SubtypeId>K_Chiss_Clawcraft_WingCannonII</SubtypeId>
       </Id>
       <DisplayName>Clawcraft Wing-Cannon(II)</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Chiss\Chiss.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <Description>NON FUNCTIONAL Chiss Wing pattern, with integrated Maser weaponry.</Description>
-	  <GuiVisible>false</GuiVisible>
+	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="4" y="7" z="23" />
       <ModelOffset x="0" y="0" z="0" />
@@ -663,7 +663,7 @@
         <SubtypeId>K_Chiss_Clawcraft_Hatch</SubtypeId>
       </Id>
       <DisplayName>Clawcraft Hatch</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Chiss\ChissHatch.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
 	  <Description>TIE Hunter wings are lightly armored, and feature motion-capabilities.

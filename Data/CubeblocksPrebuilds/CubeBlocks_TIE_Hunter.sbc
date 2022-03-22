@@ -8,7 +8,7 @@
         <SubtypeId>K_TIE_Hunter_Lifesupport</SubtypeId>
       </Id>
       <DisplayName>TIE Hunter Life-Support</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieHunter\TieHunOx.dds</Icon>
       <CubeSize>Small</CubeSize>
 	   <Description>TIE Hunter's Lifesupport, allows extended use of the craft in Space Engineers.
 	   It also acts as the central foundation for the entire TIE Hunter craft.</Description>
@@ -77,8 +77,6 @@
       <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
-	    <BlockVariants>
-	 		      </BlockVariants>
 	  	      </Definition>
 	
 	 <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
@@ -87,7 +85,7 @@
         <SubtypeId>K_TIE_Hunter_Cockpit</SubtypeId>
       </Id>
       <DisplayName>TIE Hunter Cockpit</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieHunter\TieHunCock.dds</Icon>
       <CubeSize>Small</CubeSize>
 	   <Description>TIE Hunter cockpits differ from standard TIE cockpits, by removal of select background details.
 	   This is intended, to allow viewing of the TIE Hunter's hyperdrive Status Panel.</Description>
@@ -146,7 +144,7 @@
         <SubtypeId>K_TIE_Hunter_SidePod</SubtypeId>
       </Id>
       <DisplayName>TIE Hunter Pod</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieHunter\TieHunBa.dds</Icon>
       <CubeSize>Small</CubeSize>
 	   <Description>TIE Hunter Primary energy supply, the Hunter Pod, acts as a mounting point for the craft's weaponry.
 	   It also serves with frontal indicators, to the system's idle power state.</Description>
@@ -176,8 +174,6 @@
       <MaxStoredPower>30</MaxStoredPower>
       <InitialStoredPowerRatio>0.0</InitialStoredPowerRatio>
 	  <EmissiveColorPreset>K_Imperial_Battery</EmissiveColorPreset>
-	    <BlockVariants>
-		      </BlockVariants>
     </Definition>
 	
 	 <Definition xsi:type="MyObjectBuilder_GyroDefinition">
@@ -186,7 +182,7 @@
         <SubtypeId>K_TIE_Hunter_GyroPod</SubtypeId>
       </Id>
       <DisplayName>TIE Hunter Gyro</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieHunter\TieHunGy.dds</Icon>
 	   <Description>TIE Hunter Gyro-unit, this acts as the ship's gyrostabilizer allowing more effective control.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -223,7 +219,7 @@
         <SubtypeId>K_TIE_Hunter_Wing</SubtypeId>
       </Id>
       <DisplayName>TIE Hunter Wing</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieHunter\TieHun.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
 	  <Description>TIE Hunter wings are lightly armored, and feature motion-capabilities.
@@ -294,7 +290,7 @@
         <SubtypeId>K_TIE_Hunter_Reactor</SubtypeId>
       </Id>
       <DisplayName>TIE Hunter Reactor</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieHunter\TieHunRe.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
 	  <Description>TIE Hunter Reactor, this unit runs presently on Uranium, and is essentially a backup system.</Description>
@@ -357,7 +353,7 @@
         <SubtypeId>K_TIE_Hunter_Hyperdrive</SubtypeId>
       </Id>
       <DisplayName>TIE Hunter Hyperdrive</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieHunter\TieHunJd.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
 	  <Description>TIE Hunter Hyperdrive, presently it uses standard Jump qualities.
@@ -398,7 +394,7 @@
         <SubtypeId>K_TIE_Hunter_EngineMain</SubtypeId>
       </Id>
       <DisplayName>TIE Hunter Engine</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieHunter\TieHunTh.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -458,13 +454,13 @@
     </Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
-      <Public>false</Public>
+      <Public>true</Public>
       <Id>
         <TypeId>SmallMissileLauncher</TypeId>
         <SubtypeId>K_TIE_Hunter_Weaponry_HullGun</SubtypeId>
       </Id>
       <DisplayName>TIE Hunter Hull-Cannons</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieHunter\TieHun.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <Description>TIE Hunter Laser-Cannons,these ballistics automatically generate ammo.
 	  They have relatively the same strength as standard TIE weaponry.</Description>
@@ -495,13 +491,13 @@
     </Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
-     <Public>false</Public>
+     <Public>true</Public>
       <Id>
         <TypeId>SmallMissileLauncher</TypeId>
         <SubtypeId>K_TIE_Hunter_Weaponry_MissilePods</SubtypeId>
       </Id>
       <DisplayName>TIE Hunter Missile-Pod</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieHunter\TieHun.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
 	   <Description>TIE Hunter Missile pods, fire 2 lock-on missiles, that have a 1-minute lifespawn.
@@ -532,13 +528,13 @@
     </Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
-      <Public>false</Public>
+      <Public>true</Public>
       <Id>
         <TypeId>SmallMissileLauncher</TypeId>
         <SubtypeId>K_TIE_Hunter_Weaponry_IonCannon</SubtypeId>
       </Id>
       <DisplayName>TIE Hunter Ion-Cannon</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieHunter\TieHun.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
 	   <Description>TIE Hunter Ionic-Cannon, this cannon will cripple targeted ship systems on impact for 60 seconds (1 Minute)

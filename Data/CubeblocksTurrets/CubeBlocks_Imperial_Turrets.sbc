@@ -47,12 +47,6 @@
      <DestroyEffect>Imperial_Explosion</DestroyEffect>
       <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
       <PCU>425</PCU>      
-	  <BlockVariants>
-			 <BlockVariant>
-          <TypeId>SmallMissileLauncher</TypeId>
-          <SubtypeId>K_Imperial_Generic_TurbolaserSingle</SubtypeId>
-        </BlockVariant>
-				      </BlockVariants>
     </Definition> 
 	
 	<Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">

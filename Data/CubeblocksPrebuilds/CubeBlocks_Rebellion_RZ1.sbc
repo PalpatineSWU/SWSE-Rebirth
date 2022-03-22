@@ -14,7 +14,7 @@
 	  Weapon Upgrades Larger-Capacity Launcher, Specialized-Launcher, Overcharged Laser-Cannon, Enhanced-Targeting Laser-Cannon.
 	  Replacements Nose-Cannon, Nose-Repulsor, Nose-Raming-Prow , Mine-Launcher (Flare-Slot), Laser-Cannon Bay (Launcher-Slot).
 	  </Description>
-     <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1Bat.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -56,7 +56,7 @@
         <SubtypeId>K_Rebellion_RZ1_Cockpit</SubtypeId>
       </Id>
       <DisplayName>Rebellion RZ-1 A-Wing Cockpit</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\FighterCockpit.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1Cock.dds</Icon>
 	   <Description>A-Wing Cockpit with full LCD Support.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -117,7 +117,7 @@
       </Id>
       <DisplayName>Rebellion RZ-1 A-Wing Main-Engine</DisplayName>
 	   <Description>RZ-1 A-Wing Main-Engine, one of two Engine Pods.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1Th.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		 <IsStandAlone>false</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -186,7 +186,7 @@
       </Id>
       <DisplayName>Rebellion RZ-1 A-Wing Main-Engine (II)</DisplayName>
 	   <Description>RZ-1 A-Wing Main-Engine, one of two Engine Pods.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1Th.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		 <IsStandAlone>false</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -257,7 +257,7 @@
       <DisplayName>Rebellion RZ-1 A-Wing Main-Engine (Upgraded)</DisplayName>
 	   <Description>RZ-1 A-Wing Main-Engine, one of two Engine Pods.
 	   Upgrade: Thrust++, Drain+</Description>
-      <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1Th.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		 <IsStandAlone>false</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -327,7 +327,7 @@
       <DisplayName>Rebellion RZ-1 A-Wing Main-Engine (II)(Upgraded)</DisplayName>
 	   <Description>RZ-1 A-Wing Main-Engine, one of two Engine Pods.
 	   Upgrade: Thrust++, Drain+</Description>
-      <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1Th.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		 <IsStandAlone>false</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -398,7 +398,7 @@
       </Id>
       <DisplayName>Rebellion RZ-1 A-Wing Hyperdrive</DisplayName>
 	 <Description>RZ-1 A-Wing Hyperdrive, Built into the Rear of the Frame, suffers from relatively short travel ranges.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1HD.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -435,12 +435,12 @@
 <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition"> <!-- Upgrade 1 -->
       <Id>
         <TypeId>JumpDrive</TypeId>
-        <SubtypeId>K_Rebellion_RZ1_Hyperdrive_Stock</SubtypeId>
+        <SubtypeId>K_Rebellion_RZ1_Hyperdrive_Stock2</SubtypeId>
       </Id>
       <DisplayName>Rebellion RZ-1 A-Wing Hyperdrive</DisplayName>
 	 <Description>RZ-1 A-Wing Hyperdrive, Built into the Rear of the Frame, suffers from relatively short travel ranges.
 	 Upgrade: Higher Base-Draw, Increases Charge Speed</Description>
-      <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1HD.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -454,7 +454,7 @@
 			<Component Subtype="LightweightDurasteel" Count="325" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <BlockPairName>K_Rebellion_RZ1_Hyperdrive_Stock</BlockPairName>
+      <BlockPairName>K_Rebellion_RZ1_Hyperdrive_Stock2</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
@@ -485,7 +485,7 @@
       </Id>
 	    <DisplayName>Rebellion RZ-1 A-Wing Reactor (Stock Synth)</DisplayName>
 	   <Description>Rebellion A-Wing Synthetic-Fuel Reactor, provides 10 Units.</Description>
-     <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1Re.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -556,7 +556,7 @@
       </Id>
 	    <DisplayName>Rebellion RZ-1 A-Wing Reactor (Stock Coal)</DisplayName>
 	   <Description>Rebellion A-Wing Coal-Based Reactor, provides 10 Units.</Description>
-     <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1Re.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -626,7 +626,7 @@
       </Id>
 	    <DisplayName>Rebellion RZ-1 A-Wing Reactor (Upgraded Synth)</DisplayName>
 	   <Description>Rebellion A-Wing Synthetic-Fuel Reactor, provides 18 Units.</Description>
-     <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1Re.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -702,7 +702,7 @@
       </Id>
       <DisplayName>Rebellion RZ-1 A-Wing Battery (Stock)</DisplayName>
 	  <Description>A-Wing Power Supply, provides the main storage of 10 Units, installed onto the Back of the RZ-1.</Description>
-     <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1Bat.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -744,7 +744,7 @@
       <DisplayName>Rebellion RZ-1 A-Wing Battery (QuickCharge)</DisplayName>
 	  <Description>A-Wing Power Supply, provides the main storage of 10 Units, installed onto the Back of the RZ-1.
 	  Upgrade: Doubled Input </Description>
-     <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1Bat.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -786,7 +786,7 @@
       <DisplayName>Rebellion RZ-1 A-Wing Battery (Capacity)</DisplayName>
 	  <Description>A-Wing Power Supply, provides the main storage of 50 Units, installed onto the Back of the RZ-1.
 	  Upgrade: Capacity increased to 2x Max Energy Output</Description>
-     <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1Bat.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -834,7 +834,7 @@ Limit: No Limit
 Weapon: Laser-Cannon
 Salvo: 2
 Range: 300</Description>
-       <Icon>Textures\GUI\Icons\ammo\Rifle_Ammo.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -912,7 +912,7 @@ Weapon: Laser-Cannon
 Upgrade: +160 Damage, -Accuracy
 Salvo: 1
 Range: 300</Description>
-       <Icon>Textures\GUI\Icons\ammo\Rifle_Ammo.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -990,7 +990,7 @@ Weapon: Laser-Cannon
 Upgrade: +Accuracy, +Velocity
 Salvo: 2
 Range: 300</Description>
-       <Icon>Textures\GUI\Icons\ammo\Rifle_Ammo.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1067,7 +1067,7 @@ Weapon: Laser-Cannon, Supercharge Toggle
 Upgrade: +200Damage, +75Self-Damage
 Salvo: 2
 Range: 300</Description>
-       <Icon>Textures\GUI\Icons\ammo\Rifle_Ammo.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1147,7 +1147,7 @@ Limit: No Limit
 Projectile: Flare
 Capacity: 1 per Cycle
 </Description>
-      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1211,7 +1211,7 @@ Standard Missile: Concussion Missile
 Speciality Missiles: None
 Capacity: 4 per Cycle
 Missile Range: 3km</Description>
-      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1267,7 +1267,7 @@ Standard Missile: Micro Missile
 Speciality Missiles: None
 Capacity: 16 per Cycle
 Missile Range: 2km</Description>
-      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1324,7 +1324,7 @@ Standard Missile: Concussion Missile
 Speciality Missiles: HE Rocket
 Capacity: 4 per Cycle
 Missile Range: 3km</Description>
-      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1381,7 +1381,7 @@ Standard Missile: Light Mortar Round (Anti-Infantry)
 Speciality Missiles: None
 Capacity: 1 per Cycle
 Missile Range: 1km</Description>
-      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1435,7 +1435,7 @@ Missile Range: 1km</Description>
       </Id>
       <DisplayName>Rebellion RZ-1 A-Wing Gyro (Stock)</DisplayName>
 	   <Description>Rebellion A-Wing Gyroscopic Control System.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\gyro.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1Gy.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1478,7 +1478,7 @@ Missile Range: 1km</Description>
       <DisplayName>Rebellion RZ-1 A-Wing Gyro (Upgrade-1)</DisplayName>
 	   <Description>Rebellion A-Wing Gyroscopic Control System.
 	   Upgrade: Higher Gyro-Force, 0.20+</Description>
-      <Icon>Textures\GUI\Icons\Cubes\gyro.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1Gy.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1523,7 +1523,7 @@ Missile Range: 1km</Description>
       </Id>
       <DisplayName>Rebellion RZ-1 A-Wing Nose Camera</DisplayName>
 	   <Description>Rebellion A-Wing Camera, Built into the Tip of the Frame.</Description>
-      <Icon>Textures\GUI\Icons\Camera.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1Cam.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1570,7 +1570,7 @@ Missile Range: 1km</Description>
 Limit: 1
 Function: Ram-Prow, Milage may differ.
 </Description>
-      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1625,7 +1625,7 @@ Limit: 1
 Weapon: Light Laser-Cannon
 Salvo: 2
 Range: 300</Description>
-      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>

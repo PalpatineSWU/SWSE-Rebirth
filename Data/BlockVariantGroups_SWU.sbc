@@ -2,24 +2,7 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <BlockVariantGroups>
 <!-- IMP Starfighters -->	
-	
-<BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ImperialA9Starfighter" />
-            <Icon>Textures\GUI\Icons\Ships\A9\A9.dds</Icon>
-            <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
-            <Description>Description_BlockGroup_TurretGroup</Description>
-            <Blocks>
-<Block Type="MyObjectBuilder_Cockpit" Subtype="K_Imperial_A9Interceptor_Cockpit" />
-<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_A9Interceptor_Weaponry" />
-<Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_Imperial_A9Interceptor_Battery" />
-<Block Type="MyObjectBuilder_Gyro" Subtype="K_Imperial_A9Interceptor_Gyro_A" />
-<Block Type="MyObjectBuilder_Gyro" Subtype="K_Imperial_A9Interceptor_Gyro_B" />
-<Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_A9Interceptor_Engine_A" />
-<Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_A9Interceptor_Engine_B" />
-<Block Type="MyObjectBuilder_ShipConnector" Subtype="K_Imperial_A9Interceptor_Connector" />
-            </Blocks>
-        </BlockVariantGroup>
-		
+
 <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="K_Imperial_Dropship_Guild_Battery" />
             <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
@@ -54,36 +37,179 @@
         </BlockVariantGroup>
 
 <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ImperialA9Starfighter" />
+            <Icon>Textures\GUI\Icons\Ships\A9\A9.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
+            <Description>Description_BlockGroup_TurretGroup</Description>
+            <Blocks>
+<Block Type="MyObjectBuilder_Cockpit" Subtype="K_Imperial_A9Interceptor_Cockpit" />
+<Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_Imperial_A9Interceptor_Battery" />
+<Block Type="MyObjectBuilder_Gyro" Subtype="K_Imperial_A9Interceptor_Gyro_A" />
+<Block Type="MyObjectBuilder_Gyro" Subtype="K_Imperial_A9Interceptor_Gyro_B" />
+<Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_A9Interceptor_Engine_A" />
+<Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_A9Interceptor_Engine_B" />
+<Block Type="MyObjectBuilder_ShipConnector" Subtype="K_Imperial_A9Interceptor_Connector" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_A9Interceptor_Weaponry" />
+            </Blocks>
+        </BlockVariantGroup>
+		
+<BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ImperialHowlerStarfighter" />
             <Icon>Textures\GUI\Icons\Ships\Howlrunner\Howl.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
             <Blocks>
 <Block Type="MyObjectBuilder_Cockpit" Subtype="K_Imperial_HowlRunner_Cockpit" />
-<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_HowlRunner_Weaponry_A" />
-<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_HowlRunner_Weaponry_B" />
 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_Imperial_HowlRunner_Battery" />
 <Block Type="MyObjectBuilder_Gyro" Subtype="K_Imperial_HowlRunner_Gyro_A" />
 <Block Type="MyObjectBuilder_Gyro" Subtype="K_Imperial_HowlRunner_Gyro_B" />
 <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_HowlRunner_MainEngine" />
 <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_HowlRunner_ReverseEngine" />
-
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_HowlRunner_Weaponry_A" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_HowlRunner_Weaponry_B" />
             </Blocks>
         </BlockVariantGroup>
 		
-					
-	
+<BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Rz1" />
+            <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
+            <Description>Description_BlockGroup_TurretGroup</Description>
+            <Blocks>
+<Block Type="MyObjectBuilder_Cockpit" Subtype="K_Rebellion_RZ1_Cockpit" />
+<Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_Rebellion_AWing_Render" />
+<Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_Rebellion_RZ1_PowerCell_Stock" />
+<Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_Rebellion_RZ1_PowerCell_QuickCharge" />
+<Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_Rebellion_RZ1_PowerCell_Capacity" />
+<Block Type="MyObjectBuilder_Gyro" Subtype="K_Rebellion_RZ1_Gyro_Stock" />
+<Block Type="MyObjectBuilder_Gyro" Subtype="K_Rebellion_RZ1_Gyro_Upgrade1" />
+<Block Type="MyObjectBuilder_Thrust" Subtype="K_Rebellion_RZ1_MainEngine_A" />
+<Block Type="MyObjectBuilder_Thrust" Subtype="K_Rebellion_RZ1_MainEngine_B" />
+<Block Type="MyObjectBuilder_Thrust" Subtype="K_Rebellion_RZ1_MainEngine_A_Upgrade" />
+<Block Type="MyObjectBuilder_Thrust" Subtype="K_Rebellion_RZ1_MainEngine_B_Upgrade" />
+<Block Type="MyObjectBuilder_JumpDrive" Subtype="K_Rebellion_RZ1_Hyperdrive_Stock" />
+<Block Type="MyObjectBuilder_JumpDrive" Subtype="K_Rebellion_RZ1_Hyperdrive_Stock2" />
+<Block Type="MyObjectBuilder_Reactor" Subtype="K_Rebellion_RZ1_Reactor_Stock" />
+<Block Type="MyObjectBuilder_Reactor" Subtype="K_Rebellion_RZ1_Reactor_StockCoal" />
+<Block Type="MyObjectBuilder_Reactor" Subtype="K_Rebellion_RZ1_Reactor_UpgradeSynth" />
+<Block Type="MyObjectBuilder_CameraBlock" Subtype="K_Rebellion_RZ1_Nose_Stock" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_RZ1_LaserCannon_Stock" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_RZ1_LaserCannon_OverchargeUpgrade" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_RZ1_LaserCannon_TargetingUpgrade" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_RZ1_LaserCannon_SuperchargerUpgrade" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_RZ1_RearLauncher_Flare" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_RZ1_Launcher_Stock" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_RZ1_Launcher_MicroLaunchUpgrade" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_RZ1_Launcher_SpecialistUpgrade" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_RZ1_Launcher_MortarUpgrade" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_RZ1_Nose_Ram" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_RZ1_Nose_Gun" />
+            </Blocks>
+        </BlockVariantGroup>					
+
+
+<BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Speeder" />
+            <Icon>Textures\GUI\Icons\Ships\Speederbike\Speeder.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
+            <Description>Description_BlockGroup_TurretGroup</Description>
+            <Blocks>
+<Block Type="MyObjectBuilder_Cockpit" Subtype="K_Imperial_SpeederBike_Cockpit" />
+<Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_Imperial_SpeederBike_Battery" />
+<Block Type="MyObjectBuilder_Gyro" Subtype="K_Imperial_SpeederBike_Gyro" />
+<Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_SpeederBike_SideEngine_I" />
+<Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_SpeederBike_SideEngine_II" />
+<Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_SpeederBike_SideEngine_III" />
+<Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_SpeederBike_Engine" />
+<Block Type="MyObjectBuilder_GasTank" Subtype="K_Imperial_SpeederBike_GasTank" />
+<Block Type="MyObjectBuilder_RemoteControl" Subtype="K_Imperial_SpeederBike_FakePilot" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_SpeederBike_Weaponry" />
+            </Blocks>
+        </BlockVariantGroup>
+
+<BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Chiss" />
+            <Icon>Textures\GUI\Icons\Ships\Chiss\Chiss.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
+            <Description>Description_BlockGroup_TurretGroup</Description>
+            <Blocks>
+<Block Type="MyObjectBuilder_Cockpit" Subtype="K_Chiss_Clawcraft_Cockpit" />
+<Block Type="MyObjectBuilder_OxygenGenerator" Subtype="K_Chiss_Clawcraft_LifeSupport" />
+<Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_Chiss_Clawcraft_Battery" />
+<Block Type="MyObjectBuilder_JumpDrive" Subtype="K_Chiss_Clawcraft_Hyperdrive" />
+<Block Type="MyObjectBuilder_Gyro" Subtype="K_Chiss_Clawcraft_Gyro" />
+<Block Type="MyObjectBuilder_Thrust" Subtype="K_Chiss_Clawcraft_ReverseEngine" />
+<Block Type="MyObjectBuilder_Thrust" Subtype="K_Chiss_Clawcraft_SecondaryEngine" />
+<Block Type="MyObjectBuilder_Thrust" Subtype="K_Chiss_Clawcraft_ReverseEngine" />
+<Block Type="MyObjectBuilder_Thrust" Subtype="K_Chiss_Clawcraft_PrimaryEngine" />
+<Block Type="MyObjectBuilder_ShipConnector" Subtype="K_Chiss_Clawcraft_Connector" />
+<Block Type="MyObjectBuilder_AdvancedDoor" Subtype="K_Chiss_Clawcraft_Hatch" />
+<Block Type="MyObjectBuilder_Cockpit" Subtype="K_Imperial_Chiss_Test" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_HowlRunner_Weaponry_A" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_HowlRunner_Weaponry_B" />
+<Block Type="MyObjectBuilder_WeaponBlock" Subtype="K_Chiss_Clawcraft_WingCannon" />
+<Block Type="MyObjectBuilder_WeaponBlock" Subtype="K_Chiss_Clawcraft_WingCannonII" />
+            </Blocks>
+        </BlockVariantGroup>
+
+<!-- TIE Reborn -->	
+
+<BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Avenger" />
+            <Icon>Textures\GUI\Icons\Ships\TIERebornAvenger\Avenger.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
+            <Description>Description_BlockGroup_TurretGroup</Description>
+            <Blocks>
+<Block Type="MyObjectBuilder_Cockpit" Subtype="K_Imperial_Reborn_TIE_Avenger_Cockpit" />
+<Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_Imperial_Reborn_TIE_Avenger_Battery" />
+<Block Type="MyObjectBuilder_Gyro" Subtype="K_Imperial_Reborn_TIE_Avenger_Gyro" />
+<Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_Reborn_TIE_Avenger_InverseEngine" />
+<Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_Reborn_TIE_Avenger_MainEngine" />
+<Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_Reborn_TIE_Avenger_InverseEngine" />
+<Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_Reborn_TIE_Avenger_MainEngine" />
+<Block Type="MyObjectBuilder_SolarPanel" Subtype="K_Imperial_Reborn_TIE_Avenger_SolarWing" />
+<Block Type="MyObjectBuilder_SolarPanel" Subtype="K_Imperial_Reborn_TIE_Avenger_SolarTipI" />
+<Block Type="MyObjectBuilder_SolarPanel" Subtype="K_Imperial_Reborn_TIE_Avenger_SolarTipII" />
+<Block Type="MyObjectBuilder_JumpDrive" Subtype="K_Imperial_Reborn_TIE_Avenger_Hyperdrive" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Reborn_TIE_Avenger_Weaponry" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Reborn_TIE_Avenger_WingTipA" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Reborn_TIE_Avenger_WingTipB" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Reborn_TIE_Avenger_Launcher" />
+            </Blocks>
+        </BlockVariantGroup>
+
+<BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RebornBomber" />
+            <Icon>Textures\GUI\Icons\Ships\TIERebornBomber\Reborn.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
+            <Description>Description_BlockGroup_TurretGroup</Description>
+            <Blocks>
+<Block Type="MyObjectBuilder_Cockpit" Subtype="K_Imperial_Reborn_TIE_Bomber_Cockpit" />
+<Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_Imperial_Reborn_TIE_Bomber_Strut_Battery" />
+<Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_Imperial_Reborn_TIE_Bomber_Chassis_Battery" />
+<Block Type="MyObjectBuilder_Gyro" Subtype="K_Imperial_Reborn_TIE_Bomber_Strut_Gyro" />
+<Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_Reborn_TIE_Bomber_InverseEngine" />
+<Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_Reborn_TIE_Bomber_MainEngine" />
+<Block Type="MyObjectBuilder_SolarPanel" Subtype="K_Imperial_Reborn_TIE_Bomber_Wing" />
+<Block Type="MyObjectBuilder_CargoContainer" Subtype="K_Imperial_Reborn_TIE_Bomber_LinkageUnit" />  
+<Block Type="MyObjectBuilder_CargoContainer" Subtype="K_Imperial_Reborn_TIE_Bomber_HeadStorage" />     
+<Block Type="MyObjectBuilder_CameraBlock" Subtype="K_Imperial_Reborn_TIE_Bomber_SensorHatch" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Reborn_TIE_Bomber_Weaponry" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Reborn_TIE_Bomber_BombBay" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Reborn_TIE_Bomber_PrimaryLauncher" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Reborn_TIE_Bomber_LightLauncher" />
+            </Blocks>
+        </BlockVariantGroup>
+
 <!-- TIE Originals -->	
 	
 <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ImperialTIEStandard" />
-            <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+            <Icon>Textures\GUI\Icons\Ships\TIE\Tie.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
             <Blocks>
 <Block Type="MyObjectBuilder_Cockpit" Subtype="K_TIE_Fighter_Cockpit" />
-<Block Type="MyObjectBuilder_WeaponBlock" Subtype="K_TIE_Fighter_Weaponry" />
-<Block Type="MyObjectBuilder_OxygenGenerator" Subtype="K_TIE_Fighter_Lifesupport" />
 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_TIE_Fighter_BatteryStrut" />
 <Block Type="MyObjectBuilder_GyroDefinition" Subtype="K_TIE_Fighter_GyroStrut" />
 <Block Type="MyObjectBuilder_SolarPanel" Subtype="K_TIE_Fighter_Wing" />
@@ -99,6 +225,8 @@
 <Block Type="MyObjectBuilder_Beacon" Subtype="K_TIE_Fighter_Beacon" />
 <Block Type="MyObjectBuilder_RadioAntenna" Subtype="K_TIE_Fighter_Antenna" />
 <Block Type="MyObjectBuilder_CameraBlock" Subtype="K_TIE_Fighter_Camera" />
+<Block Type="MyObjectBuilder_WeaponBlock" Subtype="K_TIE_Fighter_Weaponry" />
+<Block Type="MyObjectBuilder_OxygenGenerator" Subtype="K_TIE_Fighter_Lifesupport" />
             </Blocks>
         </BlockVariantGroup>
 		
@@ -125,7 +253,7 @@
 
 <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RETiedefender" />
-            <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+            <Icon>Textures\GUI\Icons\Ships\TieDefender\TieDef.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
             <Blocks>
@@ -145,41 +273,52 @@
             </Blocks>
         </BlockVariantGroup>
 
-
-
  <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ImperialTIEInterceptor" />
-            <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+            <Icon>Textures\GUI\Icons\Ships\TieInterceptor\TieIncep.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
             <Blocks>
 <Block Type="MyObjectBuilder_SolarPanel" Subtype="K_TIE_Interceptor_Wing" />
+<Block Type="MyObjectBuilder_Thrust" Subtype="K_TIE_Interceptor_EngineMain" />
 <Block Type="MyObjectBuilder_WeaponBlock" Subtype="K_TIE_Interceptor_Wing_TipWeapon" />
 <Block Type="MyObjectBuilder_WeaponBlock" Subtype="K_TIE_Interceptor_Wing_TipWeapon_Missile" />
-<Block Type="MyObjectBuilder_Thrust" Subtype="K_TIE_Interceptor_EngineMain" />
+            </Blocks>
+        </BlockVariantGroup>	
+
+ <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ImperialTIEAdvanced" />
+            <Icon>Textures\GUI\Icons\Ships\TIEAdvanced\TieAd.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
+            <Description>Description_BlockGroup_TurretGroup</Description>
+            <Blocks>
+<Block Type="MyObjectBuilder_SolarPanel" Subtype="K_TIE_AdvancedV1_Wing" />
+<Block Type="MyObjectBuilder_JumpDrive" Subtype="K_TIE_AdvancedV1_Hyperdrive" />
+<Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_TIE_AdvancedV1_Pylon" />
+<Block Type="MyObjectBuilder_WeaponBlock" Subtype="K_TIE_AdvancedV1_Weaponry" />
             </Blocks>
         </BlockVariantGroup>		
 		
 		
  <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ImperialTIEBomber" />
-            <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+            <Icon>Textures\GUI\Icons\Ships\TieBomber\TieBomb.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
             <Blocks>
-<Block Type="MyObjectBuilder_WeaponBlock" Subtype="K_TIE_Bomber_Pod" />
-<Block Type="MyObjectBuilder_WeaponBlock" Subtype="K_TIE_Bomber_Pod_CenterBombbay" />
 <Block Type="MyObjectBuilder_SolarPanel" Subtype="K_TIE_Bomber_Wing" />
 <Block Type="MyObjectBuilder_Thrust" Subtype="K_TIE_Bomber_Pod_Engine" />
 <Block Type="MyObjectBuilder_Reactor" Subtype="K_TIE_Bomber_Pod_Center" />
 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_TIE_Bomber_Pod_End" />
+<Block Type="MyObjectBuilder_WeaponBlock" Subtype="K_TIE_Bomber_Pod" />
+<Block Type="MyObjectBuilder_WeaponBlock" Subtype="K_TIE_Bomber_Pod_CenterBombbay" />
             </Blocks>
         </BlockVariantGroup>			
 
 
  <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ImperialTIEDroid" />
-            <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+            <Icon>Textures\GUI\Icons\Ships\TieDrone\Droid.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
             <Blocks>
@@ -194,21 +333,21 @@
 
  <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ImperialTIEHunter" />
-            <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+            <Icon>Textures\GUI\Icons\Ships\TieHunter\TieHun.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
             <Blocks>
+<Block Type="MyObjectBuilder_CockpitDefinition" Subtype="K_TIE_Hunter_Cockpit" />            
 <Block Type="MyObjectBuilder_OxygenGenerator" Subtype="K_TIE_Hunter_Lifesupport" />
-<Block Type="MyObjectBuilder_CockpitDefinition" Subtype="K_TIE_Hunter_Cockpit" />
-<Block Type="MyObjectBuilder_WeaponBlock" Subtype="K_TIE_Hunter_Weaponry_HullGun" />
-<Block Type="MyObjectBuilder_WeaponBlock" Subtype="K_TIE_Hunter_Weaponry_MissilePods" />
-<Block Type="MyObjectBuilder_WeaponBlock" Subtype="K_TIE_Hunter_Weaponry_IonCannon" />
 <Block Type="MyObjectBuilder_Thrust" Subtype="K_TIE_Hunter_EngineMain" />
 <Block Type="MyObjectBuilder_JumpDrive" Subtype="K_TIE_Hunter_Hyperdrive" />
 <Block Type="MyObjectBuilder_Reactor" Subtype="K_TIE_Hunter_Reactor" />
 <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="K_TIE_Hunter_Wing" />
 <Block Type="MyObjectBuilder_Gyro" Subtype="K_TIE_Hunter_GyroPod" />
 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_TIE_Hunter_SidePod" />
+<Block Type="MyObjectBuilder_WeaponBlock" Subtype="K_TIE_Hunter_Weaponry_HullGun" />
+<Block Type="MyObjectBuilder_WeaponBlock" Subtype="K_TIE_Hunter_Weaponry_MissilePods" />
+<Block Type="MyObjectBuilder_WeaponBlock" Subtype="K_TIE_Hunter_Weaponry_IonCannon" />
             </Blocks>
         </BlockVariantGroup>					
 
@@ -217,12 +356,11 @@
 		
 <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ImperialHQTIEStandard" />
-            <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+            <Icon>Textures\GUI\Icons\Ships\TIERebornFighter\RebornTie.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
             <Blocks>
 <Block Type="MyObjectBuilder_Cockpit" Subtype="K_Imperial_Reborn_TIE_Fighter_Cockpit" />
-<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Reborn_TIE_Fighter_Weaponry" />
 <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_Reborn_TIE_Fighter_InverseEngine" />
 <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_Reborn_TIE_Fighter_MainEngine" />
 <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_Reborn_TIE_Fighter_SecondaryEngine" />
@@ -233,20 +371,37 @@
 <Block Type="MyObjectBuilder_ShipConnector" Subtype="K_Imperial_Reborn_TIE_Fighter_Connector" />
 <Block Type="MyObjectBuilder_CameraBlock" Subtype="K_Imperial_Reborn_TIE_Fighter_CameraHatch" />
 <Block Type="MyObjectBuilder_LandingGear" Subtype="K_Imperial_Reborn_TIE_Fighter_LandingGearPad" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Reborn_TIE_Fighter_Weaponry" />
+            </Blocks>
+        </BlockVariantGroup>
+		
+<BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Fo" />
+            <Icon>Textures\GUI\Icons\Ships\TIERebornFighter\RebornTie.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
+            <Description>Description_BlockGroup_TurretGroup</Description>
+            <Blocks>
+<Block Type="MyObjectBuilder_Cockpit" Subtype="K_Imperial_Reborn_FirstOrder_TIE_Fighter_Cockpit" />
+<Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_Reborn_FirstOrder_TIE_Fighter_InverseEngine" />
+<Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_Reborn_FirstOrder_TIE_Fighter_MainEngine" />
+<Block Type="MyObjectBuilder_Gyro" Subtype="K_Imperial_Reborn_FirstOrder_TIE_Fighter_Strut_Gyro" />
+<Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_Imperial_Reborn_FirstOrder_TIE_Fighter_Strut_Battery" />
+<Block Type="MyObjectBuilder_SolarPanel" Subtype="K_Imperial_Reborn_FirstOrder_TIE_Fighter_Wing" />
+<Block Type="MyObjectBuilder_ShipConnector" Subtype="K_Imperial_Reborn_FirstOrder_TIE_Fighter_Connector" />
+<Block Type="MyObjectBuilder_CameraBlock" Subtype="K_Imperial_Reborn_FirstOrder_TIE_Fighter_CameraHatch" />
+<Block Type="MyObjectBuilder_ShipConnector" Subtype="K_Imperial_Reborn_FirstOrder_TIE_Fighter_Connector" />
+<Block Type="MyObjectBuilder_RadioAntenna" Subtype="K_Imperial_Reborn_FirstOrder_TIE_Fighter_Antenna" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Reborn_FirstOrder_TIE_Fighter_Weaponry" />
             </Blocks>
         </BlockVariantGroup>
 		
  <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ImperialHQTIEInterceptor" />
-            <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+            <Icon>Textures\GUI\Icons\Ships\TIERebornInterceptor\RebornInterceptorCock.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
             <Blocks>
 <Block Type="MyObjectBuilder_Cockpit" Subtype="K_Imperial_Reborn_TIE_Interceptor_Cockpit" />
-<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Reborn_TIE_Interceptor_Weaponry" />
-<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Reborn_TIE_Interceptor_WingTipA" />
-<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Reborn_TIE_Interceptor_WingTipB" />
-<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Reborn_TIE_Interceptor_Launcher" />
 <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_Reborn_TIE_Interceptor_InverseEngine" />
 <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_Reborn_TIE_Interceptor_MainEngine" />
 <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_Reborn_TIE_Fighter_SecondaryEngine" />
@@ -257,17 +412,20 @@
 <Block Type="MyObjectBuilder_CameraBlock" Subtype="K_Imperial_Reborn_TIE_Interceptor_CameraHatch" />
 <Block Type="MyObjectBuilder_JumpDrive" Subtype="K_Imperial_Reborn_TIE_Interceptor_Hyperdrive" />
 <Block Type="MyObjectBuilder_OxygenGenerator" Subtype="K_Imperial_Reborn_TIE_Interceptor_LifeSupport" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Reborn_TIE_Interceptor_Weaponry" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Reborn_TIE_Interceptor_WingTipA" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Reborn_TIE_Interceptor_WingTipB" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Reborn_TIE_Interceptor_Launcher" />
             </Blocks>
         </BlockVariantGroup>		
 
 <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ImperialHQTIEDroid" />
-            <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+            <Icon>Textures\GUI\Icons\Ships\TIERebornDroid\RebornDroid.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
             <Blocks>
 <Block Type="MyObjectBuilder_RemoteControl" Subtype="K_Imperial_Reborn_TIE_Droid_Core" />
-<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Reborn_TIE_Droid_Weaponry" />
 <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_Reborn_TIE_Droid_ReverseEngine" />
 <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_Reborn_TIE_Droid_MainEngine" />
 <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_Reborn_TIE_Fighter_SecondaryEngine" />
@@ -277,21 +435,18 @@
 <Block Type="MyObjectBuilder_SolarPanel" Subtype="K_Imperial_Reborn_TIE_Droid_Wing_B" />
 <Block Type="MyObjectBuilder_ShipConnector" Subtype="K_Imperial_Reborn_TIE_Droid_Connector" />
 <Block Type="MyObjectBuilder_RadioAntenna" Subtype="K_Imperial_Reborn_TIE_Droid_Antenna" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Reborn_TIE_Droid_Weaponry" />
             </Blocks>
         </BlockVariantGroup>		
 
 
 <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ImperialHQTIEDefender" />
-            <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+            <Icon>Textures\GUI\Icons\Ships\TIERebornDefender\RebornDef.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
             <Blocks>
 <Block Type="MyObjectBuilder_Cockpit" Subtype="K_Imperial_Reborn_TIE_Defender_Cockpit" />
-<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Reborn_TIE_Defender_BodyWeaponry" />
-<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Reborn_TIE_Defender_Wing_Top_Weaponry" />
-<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Reborn_TIE_Defender_Wing_Right_Weaponry" />
-<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Reborn_TIE_Defender_Wing_Left_Weaponry" />
 <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_Reborn_TIE_Defender_InverseEngine" />
 <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_Reborn_TIE_Defender_MainEngine" />
 <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_Reborn_TIE_Defender_SecondaryEngine" />
@@ -303,8 +458,60 @@
 <Block Type="MyObjectBuilder_ShipConnector" Subtype="K_Imperial_Reborn_TIE_Defender_Connector" />
 <Block Type="MyObjectBuilder_CameraBlock" Subtype="K_Imperial_Reborn_TIE_Defender_CameraHatch" />
 <Block Type="MyObjectBuilder_JumpDrive" Subtype="K_Imperial_Reborn_TIE_Defender_Hyperdrive" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Reborn_TIE_Defender_BodyWeaponry" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Reborn_TIE_Defender_Wing_Top_Weaponry" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Reborn_TIE_Defender_Wing_Right_Weaponry" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Reborn_TIE_Defender_Wing_Left_Weaponry" />
             </Blocks>
         </BlockVariantGroup>				
+
+<BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ImperialHQTIEOppressor" />
+            <Icon>Textures\GUI\Icons\Ships\TIERebornOppressor\RebornOppressor.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
+            <Description>Description_BlockGroup_TurretGroup</Description>
+            <Blocks>
+<Block Type="MyObjectBuilder_Cockpit" Subtype="K_Imperial_Reborn_TIE_Oppressor_Cockpit" />
+<Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_Reborn_TIE_Oppressor_InverseEngine" />
+<Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_Reborn_TIE_Oppressor_MainEngine" />
+<Block Type="MyObjectBuilder_Gyro" Subtype="K_Imperial_Reborn_TIE_Oppressor_Gyro" />
+<Block Type="MyObjectBuilder_SolarPanel" Subtype="K_Imperial_Reborn_TIE_Oppressor_SolarWingI" />
+<Block Type="MyObjectBuilder_SolarPanel" Subtype="K_Imperial_Reborn_TIE_Oppressor_SolarWingB" />
+<Block Type="MyObjectBuilder_SolarPanel" Subtype="K_Imperial_Reborn_TIE_Oppressor_SolarWingII" />
+<Block Type="MyObjectBuilder_SolarPanel" Subtype="K_Imperial_Reborn_TIE_Oppressor_SolarWingBII" />
+<Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_Imperial_Reborn_TIE_Oppressor_Battery" />
+<Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_Imperial_Reborn_TIE_Oppressor_BatteryII" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Reborn_TIE_Oppressor_Weaponry" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Reborn_TIE_Oppressor_HeavyBay" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Reborn_TIE_Oppressor_HeavyLauncher" />
+            </Blocks>
+        </BlockVariantGroup>		
+
+<BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Customs" />
+            <Icon>Textures\GUI\Icons\Ships\TieDrone\DroidScout.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
+            <Description>Description_BlockGroup_TurretGroup</Description>
+            <Blocks>
+<Block Type="MyObjectBuilder_SolarPanel" Subtype="K_TIE_V9_Wing" />            
+<Block Type="MyObjectBuilder_SolarPanel" Subtype="K_TIE_Custom_V7_Wing" />            
+<Block Type="MyObjectBuilder_SolarPanel" Subtype="K_TIE_CustomI_Wing" />
+<Block Type="MyObjectBuilder_SolarPanel" Subtype="K_TIE_CustomII_Wing" />
+<Block Type="MyObjectBuilder_SolarPanel" Subtype="K_TIE_CustomII_Wing_Armor" />
+<Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_TIE_Armored_BatteryStrut" />
+<Block Type="MyObjectBuilder_Thrust" Subtype="K_TIE_CustomI_EngineMain" />
+<Block Type="MyObjectBuilder_Thrust" Subtype="K_TIE_CustomII_Wing_EngineArray" />
+<Block Type="MyObjectBuilder_Cockpit" Subtype="K_TIE_Fighter_Cockpit_Tailored_I" />
+<Block Type="MyObjectBuilder_WeaponBlock" Subtype="K_TIE_Armored_Weaponry" />
+<Block Type="MyObjectBuilder_WeaponBlock" Subtype="K_TIE_CustomII_Wing_CannonArray" />
+<Block Type="MyObjectBuilder_WeaponBlock" Subtype="K_TIE_Attachable_RocketPod" />
+<Block Type="MyObjectBuilder_WeaponBlock" Subtype="K_TIE_CustomII_Wing_MissileArray" />
+<Block Type="MyObjectBuilder_WeaponBlock" Subtype="K_TIE_Attachable_RocketPod_Huntertester" />
+<Block Type="MyObjectBuilder_WeaponBlock" Subtype="K_TIE_WRIII_Wing" />
+<Block Type="MyObjectBuilder_WeaponBlock" Subtype="K_TIE_Mangler_TurbolaserWing" />
+            </Blocks>
+        </BlockVariantGroup>		
+
 
         <!-- Republic_Ships -->	
 	
@@ -314,43 +521,43 @@
             <DisplayName>DisplayName_BlockGroup_TurretGroup1</DisplayName>
             <Description>Description_BlockGroup_TurretGroup1</Description>
             <Blocks>
-				<Block Type="MyObjectBuilder_Cockpit" Subtype="Ionizer_Cockpit" />
-				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="Ionizer_LC" />
-				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="Ionizer_IonWingA" />
-				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="Ionizer_IonWingB" />
-				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="Ionizer_TorpedoLauncher" />
-				<Block Type="MyObjectBuilder_BatteryBlock" Subtype="Ionizer_Battery" />
-				<Block Type="MyObjectBuilder_Reactor" Subtype="Ionizer_Reactor" />
-				<Block Type="MyObjectBuilder_Gyro" Subtype="Ionizer_Gyro" />
-				<Block Type="MyObjectBuilder_Thrust" Subtype="Ionizer_MainEngine" />
-				<Block Type="MyObjectBuilder_Thrust" Subtype="Ionizer_MainEngineReverse" />
-				<Block Type="MyObjectBuilder_Thrust" Subtype="Ionizer_SubEngineI"/>
-				<Block Type="MyObjectBuilder_Thrust" Subtype="Ionizer_SubEngineII" />
-				<Block Type="MyObjectBuilder_OxygenGenerator" Subtype="Ionizer_LifeSupport" />
-				<Block Type="MyObjectBuilder_JumpDrive" Subtype="Ionizer_Hyperdrive" />
+				<Block Type="MyObjectBuilder_Cockpit" Subtype="K_NewRepublic_Ionizer_Cockpit" />
+				<Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_NewRepublic_Ionizer_Battery" />
+				<Block Type="MyObjectBuilder_Reactor" Subtype="K_NewRepublic_Ionizer_Reactor" />
+				<Block Type="MyObjectBuilder_Gyro" Subtype="K_NewRepublic_Ionizer_Gyro" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_Ionizer_MainEngine" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_Ionizer_MainEngineReverse" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_Ionizer_SubEngineI"/>
+				<Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_Ionizer_SubEngineII" />
+				<Block Type="MyObjectBuilder_OxygenGenerator" Subtype="K_NewRepublic_Ionizer_LifeSupport" />
+				<Block Type="MyObjectBuilder_JumpDrive" Subtype="K_NewRepublic_Ionizer_Hyperdrive" />
+				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_Ionizer_LC" />
+				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_Ionizer_IonWingA" />
+				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_Ionizer_IonWingB" />
+				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_Ionizer_TorpedoLauncher" />                
             </Blocks>
         </BlockVariantGroup>
 
         <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AWing_Gyro" />
-            <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Rz2" />
+            <Icon>Textures\GUI\Icons\Ships\Rz2\Rz2.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup2</DisplayName>
             <Description>Description_BlockGroup_TurretGroup2</Description>
             <Blocks>
-				<Block Type="MyObjectBuilder_Cockpit" Subtype="AWing_Cockpit" />
-				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="AWing_Launcher" />
-				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="AWing_LaserCannon" />
-				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="AWing_AMS" />
-				<Block Type="MyObjectBuilder_BatteryBlock" Subtype="AWing_PowerCell" />
-				<Block Type="MyObjectBuilder_Reactor" Subtype="AWing_Reactor" />
-				<Block Type="MyObjectBuilder_Gyro" Subtype="AWing_Gyro" />
-				<Block Type="MyObjectBuilder_Thrust" Subtype="AWing_MainEngine" />
-				<Block Type="MyObjectBuilder_Thrust" Subtype="AWing_MainEngineII" />
-				<Block Type="MyObjectBuilder_JumpDrive" Subtype="AWing_Hyperdrive" />
-				<Block Type="MyObjectBuilder_CameraBlock" Subtype="AWing_Camera" />
-				<Block Type="MyObjectBuilder_LandingGear" Subtype="AWing_LandingGear" />
-				<Block Type="MyObjectBuilder_RadioAntenna" Subtype="AWing_Antenna" />
-				<Block Type="MyObjectBuilder_RemoteControl" Subtype="AWing_RC" />
+				<Block Type="MyObjectBuilder_Cockpit" Subtype="K_NewRepublic_AWing_Cockpit" />
+				<Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_NewRepublic_AWing_PowerCell" />
+				<Block Type="MyObjectBuilder_Reactor" Subtype="K_NewRepublic_AWing_Reactor" />
+				<Block Type="MyObjectBuilder_Gyro" Subtype="K_NewRepublic_AWing_Gyro" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_AWing_MainEngine" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_AWing_MainEngineII" />
+				<Block Type="MyObjectBuilder_JumpDrive" Subtype="K_NewRepublic_AWing_Hyperdrive" />
+				<Block Type="MyObjectBuilder_CameraBlock" Subtype="K_NewRepublic_AWing_Camera" />
+				<Block Type="MyObjectBuilder_LandingGear" Subtype="K_NewRepublic_AWing_LandingGear" />
+				<Block Type="MyObjectBuilder_RadioAntenna" Subtype="K_NewRepublic_AWing_Antenna" />
+				<Block Type="MyObjectBuilder_RemoteControl" Subtype="K_NewRepublic_AWing_RC" />
+				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_AWing_Launcher" />
+				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_AWing_LaserCannon" />
+				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_AWing_AMS" />                
             </Blocks>
         </BlockVariantGroup>
 		
@@ -361,149 +568,146 @@
             <DisplayName>DisplayName_BlockGroup_TurretGroup2</DisplayName>
             <Description>Description_BlockGroup_TurretGroup2</Description>
             <Blocks>
-				<Block Type="MyObjectBuilder_Cockpit" Subtype="EWing_Cockpit" />
-				<Block Type="MyObjectBuilder_AdvancedDoor" Subtype="EWing_Hatch" />
-				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="EWing_RoofGun" />
-				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="EWing_WingGunA" />
-				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="EWing_WingGunB" />
-				<Block Type="MyObjectBuilder_BatteryBlock" Subtype="EWing_Battery" />
-				<Block Type="MyObjectBuilder_Reactor" Subtype="EWing_Reactor" />
-				<Block Type="MyObjectBuilder_Gyro" Subtype="EWing_GyroI" />
-				<Block Type="MyObjectBuilder_Gyro" Subtype="EWing_GyroII" />
-				<Block Type="MyObjectBuilder_Thrust" Subtype="EWing_EngineForward" />
-				<Block Type="MyObjectBuilder_Thrust" Subtype="EWing_EngineInverted" />
-				<Block Type="MyObjectBuilder_JumpDrive" Subtype="EWing_Hyperdrive" />
-				<Block Type="MyObjectBuilder_LandingGear" Subtype="EWing_LandingGear" />
-				<Block Type="MyObjectBuilder_RadioAntenna" Subtype="EWing_Antenna" />
-				<Block Type="MyObjectBuilder_RemoteControl" Subtype="EWing_RC" />
-				<Block Type="MyObjectBuilder_OxygenGenerator" Subtype="EWing_LifeSupport" />          
+				<Block Type="MyObjectBuilder_Cockpit" Subtype="K_NewRepublic_EWing_Cockpit" />
+				<Block Type="MyObjectBuilder_AdvancedDoor" Subtype="K_NewRepublic_EWing_Hatch" />
+				<Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_NewRepublic_EWing_Battery" />
+				<Block Type="MyObjectBuilder_Reactor" Subtype="K_NewRepublic_EWing_Reactor" />
+				<Block Type="MyObjectBuilder_Gyro" Subtype="K_NewRepublic_EWing_GyroI" />
+				<Block Type="MyObjectBuilder_Gyro" Subtype="K_NewRepublic_EWing_GyroII" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_EWing_EngineForward" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_EWing_EngineInverted" />
+				<Block Type="MyObjectBuilder_JumpDrive" Subtype="K_NewRepublic_EWing_Hyperdrive" />
+				<Block Type="MyObjectBuilder_LandingGear" Subtype="K_NewRepublic_EWing_LandingGear" />
+				<Block Type="MyObjectBuilder_RadioAntenna" Subtype="K_NewRepublic_EWing_Antenna" />
+				<Block Type="MyObjectBuilder_RemoteControl" Subtype="K_NewRepublic_EWing_RC" />
+				<Block Type="MyObjectBuilder_OxygenGenerator" Subtype="K_NewRepublic_EWing_LifeSupport" />   
+				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_EWing_RoofGun" />
+				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_EWing_WingGunA" />
+				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_EWing_WingGunB" />                       
             </Blocks>
         </BlockVariantGroup>
 		
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="XWing_70_Gyro" />
-            <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+            <Icon>Textures\GUI\Icons\Ships\T70\T70.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup2</DisplayName>
             <Description>Description_BlockGroup_TurretGroup2</Description>
             <Blocks>
-				<Block Type="MyObjectBuilder_Cockpit" Subtype="XWing_70_Cockpit" />
-				<Block Type="MyObjectBuilder_AdvancedDoor" Subtype="XWing_70_Hatch" />
-				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="XWing_70_Weaponry_Wing_A" />
-				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="XWing_70_Weaponry_Wing_B" />
-				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="XWing_70_ProtonTorpedoLauncher" />
+				<Block Type="MyObjectBuilder_Cockpit" Subtype="K_NewRepublic_XWing_70_Cockpit" />
+				<Block Type="MyObjectBuilder_AdvancedDoor" Subtype="K_NewRepublic_XWing_70_Hatch" />
 				<Block Type="MyObjectBuilder_BatteryBlock" Subtype="XWing_70_Battery" />
-				<Block Type="MyObjectBuilder_Reactor" Subtype="XWing_70_Reactor" />
-				<Block Type="MyObjectBuilder_Gyro" Subtype="XWing_70_Gyro" />
-				<Block Type="MyObjectBuilder_Thrust" Subtype="XWing_70_Engine_Reverse_A" />
-				<Block Type="MyObjectBuilder_Thrust" Subtype="XWing_70_Engine_Reverse_B" />
-				<Block Type="MyObjectBuilder_Thrust" Subtype="XWing_70_Engine_Main"/>
-				<Block Type="MyObjectBuilder_JumpDrive" Subtype="XWing_70_Hyperdrive" />
-				<Block Type="MyObjectBuilder_LandingGear" Subtype="XWing_70_LandingGearr" />
-				<Block Type="MyObjectBuilder_RadioAntenna" Subtype="XWing_70_Antenna" />
-				<Block Type="MyObjectBuilder_OxygenGenerator" Subtype="XWing_70_LifeSupport" />
-                <Block Type="MyObjectBuilder_ShipConnector" Subtype="XWing_70_Connector" />          
+				<Block Type="MyObjectBuilder_Reactor" Subtype="K_NewRepublic_XWing_70_Reactor" />
+				<Block Type="MyObjectBuilder_Gyro" Subtype="K_NewRepublic_XWing_70_Gyro" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_XWing_70_Engine_Reverse_A" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_XWing_70_Engine_Reverse_B" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_XWing_70_Engine_Main"/>
+				<Block Type="MyObjectBuilder_JumpDrive" Subtype="K_NewRepublic_XWing_70_Hyperdrive" />
+				<Block Type="MyObjectBuilder_LandingGear" Subtype="K_NewRepublic_XWing_70_LandingGearr" />
+				<Block Type="MyObjectBuilder_RadioAntenna" Subtype="K_NewRepublic_XWing_70_Antenna" />
+				<Block Type="MyObjectBuilder_OxygenGenerator" Subtype="K_NewRepublic_XWing_70_LifeSupport" />
+                <Block Type="MyObjectBuilder_ShipConnector" Subtype="K_NewRepublic_XWing_70_Connector" />   
+				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_XWing_70_Weaponry_Wing_A" />
+				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_XWing_70_Weaponry_Wing_B" />
+				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_XWing_70_ProtonTorpedoLauncher" />                       
             </Blocks>
         </BlockVariantGroup>
 				
                 
         <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="XWing_XJ5_Gyro" />
-            <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="XWingXJ5" />
+            <Icon>Textures\GUI\Icons\Ships\Xj5\XJ5.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup2</DisplayName>
             <Description>Description_BlockGroup_TurretGroup2</Description>
             <Blocks>
-				<Block Type="MyObjectBuilder_Cockpit" Subtype="XWing_XJ5_Cockpit" />
-				<Block Type="MyObjectBuilder_AdvancedDoor" Subtype="XWing_XJ5_Hatch" />
-				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="XWing_XJ5_Weaponry_Wing_A" />
-				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="XWing_XJ5_Weaponry_Wing_B" />
-				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="XWing_XJ5_ProtonTorpedoLauncher" />
-				<Block Type="MyObjectBuilder_BatteryBlock" Subtype="XWing_XJ5_Battery" />
-				<Block Type="MyObjectBuilder_Reactor" Subtype="XWing_XJ5_Reactor" />
-				<Block Type="MyObjectBuilder_Gyro" Subtype="XWing_XJ5_Gyro" />
-				<Block Type="MyObjectBuilder_Thrust" Subtype="XWing_XJ5_Engine_Reverse_A" />
-				<Block Type="MyObjectBuilder_Thrust" Subtype="XWing_XJ5_Engine_Reverse_B" />
-				<Block Type="MyObjectBuilder_Thrust" Subtype="XWing_XJ5_Engine_Main"/>
-				<Block Type="MyObjectBuilder_JumpDrive" Subtype="XWing_XJ5_Hyperdrive" />
-				<Block Type="MyObjectBuilder_RadioAntenna" Subtype="XWing_XJ5_Antenna" />
-				<Block Type="MyObjectBuilder_RemoteControl" Subtype="XWing_XJ5_RC" />
-				<Block Type="MyObjectBuilder_OxygenGenerator" Subtype="XWing_XJ5_LifeSupport" />
-                <Block Type="MyObjectBuilder_ShipConnector" Subtype="XWing_XJ5_Connector" />                       
+				<Block Type="MyObjectBuilder_Cockpit" Subtype="K_NewRepublic_XWing_XJ5_Cockpit" />
+				<Block Type="MyObjectBuilder_AdvancedDoor" Subtype="K_NewRepublic_XWing_XJ5_Hatch" />
+				<Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_NewRepublic_XWing_XJ5_Battery" />
+				<Block Type="MyObjectBuilder_Reactor" Subtype="K_NewRepublic_XWing_XJ5_Reactor" />
+				<Block Type="MyObjectBuilder_Gyro" Subtype="K_NewRepublic_XWing_XJ5_Gyro" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_XWing_XJ5_Engine_Reverse_A" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_XWing_XJ5_Engine_Reverse_B" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_XWing_XJ5_Engine_Main"/>
+				<Block Type="MyObjectBuilder_JumpDrive" Subtype="K_NewRepublic_XWing_XJ5_Hyperdrive" />
+				<Block Type="MyObjectBuilder_RadioAntenna" Subtype="K_NewRepublic_XWing_XJ5_Antenna" />
+				<Block Type="MyObjectBuilder_RemoteControl" Subtype="K_NewRepublic_XWing_XJ5_RC" />
+				<Block Type="MyObjectBuilder_OxygenGenerator" Subtype="K_NewRepublic_XWing_XJ5_LifeSupport" />
+                <Block Type="MyObjectBuilder_ShipConnector" Subtype="K_NewRepublic_XWing_XJ5_Connector" /> 
+				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_XWing_XJ5_Weaponry_Wing_A" />
+				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_XWing_XJ5_Weaponry_Wing_B" />
+				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_XWing_XJ5_ProtonTorpedoLauncher" />                                      
             </Blocks>
         </BlockVariantGroup>
 				
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="YWing_GyroWing" />
-            <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+            <Icon>Textures\GUI\Icons\Ships\Y-wing\Ywing.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup2</DisplayName>
             <Description>Description_BlockGroup_TurretGroup2</Description>
             <Blocks>
-				<Block Type="MyObjectBuilder_Gyro" Subtype="YWing_GyroWing" />
-				<Block Type="MyObjectBuilder_Cockpit" Subtype="YWing_CockpitA" />
-				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="YWing_LaserCannon" />
-				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="YWing_BombBay" />
-				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="YWing_IonTurret" />
-				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="YWing_TorpedoLauncher" />
-				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="YWing_YWing_LaserTurret" />
-				<Block Type="MyObjectBuilder_Reactor" Subtype="YWing_Reactor" />
-				<Block Type="MyObjectBuilder_Thrust" Subtype="YWing_Engine_Main_I" />
-				<Block Type="MyObjectBuilder_Thrust" Subtype="YWing_Engine_Main_II" />
-				<Block Type="MyObjectBuilder_Thrust" Subtype="YWing_Engine_Secondary_I"/>
-				<Block Type="MyObjectBuilder_Thrust" Subtype="YWing_Engine_Secondary_I"/>
-				<Block Type="MyObjectBuilder_JumpDrive" Subtype="YWing_Hyperdrive" />
-				<Block Type="MyObjectBuilder_OxygenGenerator" Subtype="YWing_Lifesupport" />
-                <Block Type="MyObjectBuilder_CargoContainer" Subtype=">YWing_Storage" />          
+				<Block Type="MyObjectBuilder_Cockpit" Subtype="K_NewRepublic_YWing_CockpitA" />            
+				<Block Type="MyObjectBuilder_Gyro" Subtype="K_NewRepublic_YWing_GyroWing" />
+				<Block Type="MyObjectBuilder_Reactor" Subtype="K_NewRepublic_YWing_Reactor" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_YWing_Engine_Main_I" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_YWing_Engine_Main_II" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_YWing_Engine_Secondary_I"/>
+				<Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_YWing_Engine_Secondary_I"/>
+				<Block Type="MyObjectBuilder_JumpDrive" Subtype="K_NewRepublic_YWing_Hyperdrive" />
+				<Block Type="MyObjectBuilder_OxygenGenerator" Subtype="K_NewRepublic_YWing_Lifesupport" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="K_NewRepublic_YWing_Storage" />  
+				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_YWing_LaserCannon" />
+				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_YWing_BombBay" />
+				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_YWing_IonTurret" />
+				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_YWing_TorpedoLauncher" />
+				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_YWing_YWing_LaserTurret" />                        
             </Blocks>
         </BlockVariantGroup>
 
         
         <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="H60_Gyro" />
-            <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="H60" />
+            <Icon>Textures\GUI\Icons\Ships\Tempest\H60.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup2</DisplayName>
             <Description>Description_BlockGroup_TurretGroup2</Description>
-            <Blocks>
-				<Block Type="MyObjectBuilder_Gyro" Subtype="H60_Gyro" />            
-                <Block Type="MyObjectBuilder_Cockpit" Subtype="H60_Cockpit_A" />
-				<Block Type="MyObjectBuilder_Cockpit" Subtype="H60_Cockpit_B" />
-				<Block Type="MyObjectBuilder_AdvancedDoor" Subtype="H60_Cockpit_A_Hatch" />
-				<Block Type="MyObjectBuilder_AdvancedDoor" Subtype="H60_Cockpit_B_Hatch" />
-				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="H60_BombBay" />
-				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="H60_ProtonLauncher" />
-				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="H60_MediumLaserCannon" />
-				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="H60_IonCannon" />
-				<Block Type="MyObjectBuilder_BatteryBlock" Subtype="H60_Battery" />
-				<Block Type="MyObjectBuilder_Reactor" Subtype="H60_Reactor" />
-				<Block Type="MyObjectBuilder_Thrust" Subtype="H60_Engine_Inverse" />
-				<Block Type="MyObjectBuilder_Thrust" Subtype="H60_Engine_Primary" />
-				<Block Type="MyObjectBuilder_Thrust" Subtype="H60_Engine_Cockpit"/>
-				<Block Type="MyObjectBuilder_JumpDrive" Subtype="H60_Hyperdrive" />
-				<Block Type="MyObjectBuilder_RadioAntenna" Subtype="H60_Antenna" />         
+            <Blocks>          
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="K_NewRepublic_H60_Cockpit_A" />
+				<Block Type="MyObjectBuilder_Cockpit" Subtype="K_NewRepublic_H60_Cockpit_B" />
+				<Block Type="MyObjectBuilder_Gyro" Subtype="K_NewRepublic_H60_Gyro" />                  
+				<Block Type="MyObjectBuilder_AdvancedDoor" Subtype="K_NewRepublic_H60_Cockpit_A_Hatch" />
+				<Block Type="MyObjectBuilder_AdvancedDoor" Subtype="K_NewRepublic_H60_Cockpit_B_Hatch" />
+				<Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_NewRepublic_H60_Battery" />
+				<Block Type="MyObjectBuilder_Reactor" Subtype="K_NewRepublic_H60_Reactor" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_H60_Engine_Inverse" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_H60_Engine_Primary" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_H60_Engine_Cockpit"/>
+				<Block Type="MyObjectBuilder_JumpDrive" Subtype="K_NewRepublic_H60_Hyperdrive" />
+				<Block Type="MyObjectBuilder_RadioAntenna" Subtype="K_NewRepublic_H60_Antenna" />        
+				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_H60_BombBay" />
+				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_H60_ProtonLauncher" />
+				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_H60_MediumLaserCannon" />
+				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_H60_IonCannon" />                 
             </Blocks>
         </BlockVariantGroup>
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="K_Pirates_StarViper_Cockpit" />
-            <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+            <Icon>Textures\GUI\Icons\Ships\Starviper\SViper.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup2</DisplayName>
             <Description>Description_BlockGroup_TurretGroup2</Description>
-            <Blocks>
-				<Block Type="MyObjectBuilder_Gyro" Subtype="K_Pirates_StarViper_Gyro" />            
+            <Blocks>      
                 <Block Type="MyObjectBuilder_Cockpit" Subtype="K_Pirates_StarViper_Cockpit" />
-				<Block Type="MyObjectBuilder_AdvancedDoor" Subtype="K_Pirates_StarViper_Wing_A" />
+				<Block Type="MyObjectBuilder_Gyro" Subtype="K_Pirates_StarViper_Gyro" />      				
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="K_Pirates_StarViper_Wing_A" />
 				<Block Type="MyObjectBuilder_AdvancedDoor" Subtype="K_Pirates_StarViper_Wing_B" />
-				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Pirates_StarViper_Weaponry_LaserCannon" />
-				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Pirates_StarViper_Weaponry_SlugThrower" />
 				<Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_Pirates_StarViper_Battery" />
-				<Block Type="MyObjectBuilder_Reactor" Subtype="H60_Reactor" />
 				<Block Type="MyObjectBuilder_Thrust" Subtype="K_Pirates_StarViper_Engine_Main" />
 				<Block Type="MyObjectBuilder_Thrust" Subtype="K_Neutral_Engine_Mando_SecondaryThruster" />
-				<Block Type="MyObjectBuilder_Thrust" Subtype="H60_Engine_Cockpit"/>
 				<Block Type="MyObjectBuilder_JumpDrive" Subtype="K_Pirates_StarViper_Hyperdrive" />
-				<Block Type="MyObjectBuilder_RadioAntenna" Subtype="H60_Antenna" /> 
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="K_Pirates_StarViper_CargoPod" />
-                <Block Type="MyObjectBuilder_ShipConnector" Subtype="K_Pirates_StarViper_Connector" />        
+                <Block Type="MyObjectBuilder_ShipConnector" Subtype="K_Pirates_StarViper_Connector" />     
+				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Pirates_StarViper_Weaponry_LaserCannon" />
+				<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Pirates_StarViper_Weaponry_SlugThrower" />                   
             </Blocks>
         </BlockVariantGroup>
 
@@ -586,54 +790,54 @@
             <DisplayName>DisplayName_BlockGroup_TurretGroup11</DisplayName>
             <Description>Description_BlockGroup_TurretGroup11</Description>
             <Blocks>
-                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_A9Interceptor_Engine_A" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_A9Interceptor_Engine_B" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Chiss_Clawcraft_ReverseEngine" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Chiss_Clawcraft_PrimaryEngine" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Chiss_Clawcraft_SecondaryEngine" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_Dropship_Guild_EngineMain" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_Dropship_Guild_EngineSecondary" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_HowlRunner_ReverseEngine" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_HowlRunner_MainEngine" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_Engine_LG_L_I" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_Engine_LG_S_I" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_Generic_ManeuveringThrust" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_Generics_Thruster_LG_Main" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_Generics_HydroThruster_LG_Main" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_ProbeDroid_Top_Thruster" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_ProbeDroid_Bottom_Thruster" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_ProbeDroid_Bottom_III" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_PatrolCraft_MainEngine" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="AWing_MainEngine" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="AWing_MainEngineII" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="EWing_EngineForward" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="EWing_EngineInverted" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="H60_Engine_Inverse" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="H60_Engine_Primary" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="H60_Engine_Cockpit" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="Ionizer_MainEngineReverse" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="Ionizer_MainEngine" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="Ionizer_SubEngineI" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="Ionizer_SubEngineII" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="Shared_SecondaryThruster" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="Shared_SecondaryThruster_Light" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="XWing_70_Engine_Reverse_A" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="XWing_70_Engine_Reverse_B" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="XWing_70_Engine_Main" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="XWing_XJ5_Engine_Reverse_A" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="XWing_XJ5_Engine_Reverse_B" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="XWing_XJ5_Engine_Main" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="YWing_Engine_Main_I" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="YWing_Engine_Main_II" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="YWing_Engine_Secondary_I" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="YWing_Engine_Secondary_II" />
                 <Block Type="MyObjectBuilder_Thrust" Subtype="K_Pirates_Thrusters_Light" />
                 <Block Type="MyObjectBuilder_Thrust" Subtype="K_Pirates_Thrusters_LightRec" />
                 <Block Type="MyObjectBuilder_Thrust" Subtype="K_Pirates_Thrusters_LightMid" />
                 <Block Type="MyObjectBuilder_Thrust" Subtype="K_Pirates_Thrusters_Heavy" />
                 <Block Type="MyObjectBuilder_Thrust" Subtype="K_Pirates_Thrusters_Light_SG" />
                 <Block Type="MyObjectBuilder_Thrust" Subtype="K_Pirates_Thrusters_LightRec_SG" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Pirates_Thrusters_LightMid_SG" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Pirates_Thrusters_LightMid_SG" />            
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_Dropship_Guild_EngineMain" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_Dropship_Guild_EngineSecondary" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_Engine_LG_L_I" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_Engine_LG_S_I" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_Generic_ManeuveringThrust" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_Generics_Thruster_LG_Main" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_Generics_HydroThruster_LG_Main" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_PatrolCraft_MainEngine" />                
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_A9Interceptor_Engine_A" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_A9Interceptor_Engine_B" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Chiss_Clawcraft_ReverseEngine" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Chiss_Clawcraft_PrimaryEngine" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Chiss_Clawcraft_SecondaryEngine" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_HowlRunner_ReverseEngine" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_HowlRunner_MainEngine" />                                
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_ProbeDroid_Top_Thruster" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_ProbeDroid_Bottom_Thruster" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Imperial_ProbeDroid_Bottom_III" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_AWing_MainEngine" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_AWing_MainEngineII" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_EWing_EngineForward" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_EWing_EngineInverted" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_H60_Engine_Inverse" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_H60_Engine_Primary" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_H60_Engine_Cockpit" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_Ionizer_MainEngineReverse" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_Ionizer_MainEngine" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_Ionizer_SubEngineI" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_Ionizer_SubEngineII" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_Shared_SecondaryThruster" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_Shared_SecondaryThruster_Light" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_XWing_70_Engine_Reverse_A" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_XWing_70_Engine_Reverse_B" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_XWing_70_Engine_Main" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_XWing_XJ5_Engine_Reverse_A" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_XWing_XJ5_Engine_Reverse_B" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_XWing_XJ5_Engine_Main" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_YWing_Engine_Main_I" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_YWing_Engine_Main_II" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_YWing_Engine_Secondary_I" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_YWing_Engine_Secondary_II" />
                 <Block Type="MyObjectBuilder_Thrust" Subtype="K_Rebellion_RZ1_MainEngine_A" />
                 <Block Type="MyObjectBuilder_Thrust" Subtype="K_Rebellion_RZ1_MainEngine_B" />
                 <Block Type="MyObjectBuilder_Thrust" Subtype="K_Rebellion_RZ1_MainEngine_A_Upgrade" />
@@ -699,13 +903,13 @@
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_Imperial_Power_Battery_Nox" />
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_Imperial_ProbeDroid_Core" />
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_Imperial_PatrolCraft_PowerCore" />
-                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="AWing_PowerCell" />
-                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="EWing_Battery" />
-                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="H60_Battery" />
-                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="Ionizer_Battery" />
-                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="PowerSupplies_Battery" />
-                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="XWing_70_Battery" />
-                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="XWing_XJ5_Battery" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_NewRepublic_AWing_PowerCell" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_NewRepublic_EWing_Battery" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_NewRepublic_H60_Battery" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_NewRepublic_Ionizer_Battery" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_NewRepublic_PowerSupplies_Battery" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_NewRepublic_XWing_70_Battery" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_NewRepublic_XWing_XJ5_Battery" />
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_Rebellion_SentryTower_Battery" />
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_Rebellion_Battery" />
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_Rebellion_AWing_Render" />
@@ -759,10 +963,10 @@
                 <Block Type="MyObjectBuilder_Reactor" Subtype="K_Imperial_Reactors_Exonium_PowerCoreHeavy" />
                 <Block Type="MyObjectBuilder_Reactor" Subtype="K_TIE_Fighter_Reactor" />
                 <Block Type="MyObjectBuilder_Reactor" Subtype="K_TIE_Bomber_Pod_Center" />
-                <Block Type="MyObjectBuilder_Reactor" Subtype="AWing_Reactor" />
-                <Block Type="MyObjectBuilder_Reactor" Subtype="EWing_Reactor" />
-                <Block Type="MyObjectBuilder_Reactor" Subtype="H60_Reactor" />
-                <Block Type="MyObjectBuilder_Reactor" Subtype="Ionizer_Reactor" />
+                <Block Type="MyObjectBuilder_Reactor" Subtype="K_NewRepublic_AWing_Reactor" />
+                <Block Type="MyObjectBuilder_Reactor" Subtype="K_NewRepublic_EWing_Reactor" />
+                <Block Type="MyObjectBuilder_Reactor" Subtype="K_NewRepublic_H60_Reactor" />
+                <Block Type="MyObjectBuilder_Reactor" Subtype="K_NewRepublic_Ionizer_Reactor" />
                 <Block Type="MyObjectBuilder_Reactor" Subtype="PowerSupplies_SyncGenerator" />
                 <Block Type="MyObjectBuilder_Reactor" Subtype="XWing_70_Reactor" />
                 <Block Type="MyObjectBuilder_Reactor" Subtype="XWing_XJ5_Reactor" />
@@ -796,14 +1000,14 @@
                 <Block Type="MyObjectBuilder_Gyro" Subtype="K_Imperial_HowlRunner_Gyro_B" />
                 <Block Type="MyObjectBuilder_Gyro" Subtype="K_Imperial_ProbeDroid_Bottom_II" />
                 <Block Type="MyObjectBuilder_Gyro" Subtype="K_Imperial_PatrolCraft_GyroCore" />
-                <Block Type="MyObjectBuilder_Gyro" Subtype="AWing_Gyro" />
-                <Block Type="MyObjectBuilder_Gyro" Subtype="EWing_GyroI" />
-                <Block Type="MyObjectBuilder_Gyro" Subtype="EWing_GyroII" />
-                <Block Type="MyObjectBuilder_Gyro" Subtype="H60_Gyro" />
-                <Block Type="MyObjectBuilder_Gyro" Subtype="Ionizer_Gyro" />
-                <Block Type="MyObjectBuilder_Gyro" Subtype="XWing_70_Gyro" />
-                <Block Type="MyObjectBuilder_Gyro" Subtype="XWing_XJ5_Gyro" />
-                <Block Type="MyObjectBuilder_Gyro" Subtype="YWing_GyroWing" />
+                <Block Type="MyObjectBuilder_Gyro" Subtype="K_NewRepublic_AWing_Gyro" />
+                <Block Type="MyObjectBuilder_Gyro" Subtype="K_NewRepublic_EWing_GyroI" />
+                <Block Type="MyObjectBuilder_Gyro" Subtype="K_NewRepublic_EWing_GyroII" />
+                <Block Type="MyObjectBuilder_Gyro" Subtype="K_NewRepublic_H60_Gyro" />
+                <Block Type="MyObjectBuilder_Gyro" Subtype="K_NewRepublic_Ionizer_Gyro" />
+                <Block Type="MyObjectBuilder_Gyro" Subtype="K_NewRepublic_XWing_70_Gyro" />
+                <Block Type="MyObjectBuilder_Gyro" Subtype="K_NewRepublic_XWing_XJ5_Gyro" />
+                <Block Type="MyObjectBuilder_Gyro" Subtype="K_NewRepublic_YWing_GyroWing" />
                 <Block Type="MyObjectBuilder_Gyro" Subtype="K_Rebellion_RZ1_Gyro_Stock" />
                 <Block Type="MyObjectBuilder_Gyro" Subtype="K_Rebellion_RZ1_Gyro_Upgrade1" />
                 <Block Type="MyObjectBuilder_Gyro" Subtype="K_Imperial_SpeederBike_Gyro" />
@@ -852,7 +1056,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AssemblerGroup2" />
-            <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
+            <Icon>Textures\GUI\Icons\ReeAss\Micro.dds</Icon>
             <DisplayName>DisplayName_Block_Assembler2</DisplayName>
             <Description>Description_Assembler2</Description>
             <Blocks>

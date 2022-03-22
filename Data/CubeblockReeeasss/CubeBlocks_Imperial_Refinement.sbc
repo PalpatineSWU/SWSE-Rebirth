@@ -10,7 +10,7 @@
 	   <Description> Light Hardware. 
 	   Capable of refining All Vanilla and Basic SW Resources.
 	   Large-Grid 1x2x1</Description>
-      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_LightRefinery.dds</Icon>
+      <Icon>Textures\GUI\Icons\ReeAss\Lightref.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
@@ -76,7 +76,7 @@
 	   <Description> Refinery Hardware. 
 	   Capable of refining All Vanilla, most SW Metals, and Common Crystals.
 	   Large-Grid 1x2x3</Description>
-       <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_Foundry.dds</Icon>
+       <Icon>Textures\GUI\Icons\ReeAss\Found.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="3" />
@@ -138,7 +138,7 @@
         <SubtypeId>K_Imperial_Refinement_ProcessingFacility</SubtypeId>
       </Id>
       <DisplayName>Republic Resource-Processing-Facility</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
+      <Icon>Textures\GUI\Icons\ReeAss\Repros.dds</Icon>
 	   <Description>Standardized Imperial Heavy-Refinery: Refines old-world and Imperial resources, with large internal storage.
 	   Handles any Resource provided.
 	   Large-Grid 5x5x5</Description>
@@ -202,139 +202,7 @@
       </TieredUpdateTimes>         
     </Definition>
 	
-	<Definition xsi:type="MyObjectBuilder_RefineryDefinition">
-      <Id>
-        <TypeId>Refinery</TypeId>
-        <SubtypeId>K_Imperial_RecyclingPlant_ImperialScrap</SubtypeId>
-      </Id>
-      <DisplayName>Republic Recycling Center</DisplayName>
-	   <Description> Light Hardware. Automatically collects non-standard components (hull plates, self-generated ammo), and recycles them into raw materials.
-	   Acts as Refinery, for Non-normal components , to make small amounts of Starwars Resources.
-	   Large-Grid 3x3x3</Description>
-      <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
-      <CubeSize>Large</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="3" y="3" z="3" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Power\K_Imperial_Reactor_AdvancedModel_Large.mwm</Model>
-      <Components>
-        <Component Subtype="DuraSteel" Count="110" />
-        <Component Subtype="ImperialConstruction" Count="35" />
-        <Component Subtype="StandardCabling" Count="12" />
-        <Component Subtype="TranspariSteel" Count="85" />
-        <Component Subtype="Computer" Count="15" />
-        <Component Subtype="DuraSteel" Count="60" />
-      </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
-      <MirroringZ>Y</MirroringZ>
-      <MirroringY>Z</MirroringY>
-      
-      <BlockPairName>K_Imperial_RecyclingPlant_ImperialScrap</BlockPairName>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>20</BuildTimeSeconds>
-      <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>2</InventoryMaxVolume>
-      <InventorySize>
-        <X>2</X>
-        <Y>2</Y>
-        <Z>2</Z>
-      </InventorySize>
-      <InventoryFillFactorMin>0.3</InventoryFillFactorMin>
-      <InventoryFillFactorMax>0.6</InventoryFillFactorMax>         
-      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-      <OperationalPowerConsumption>3.5</OperationalPowerConsumption>
-      <BlueprintClasses>
-        <Class>K_Imperial_Resource_Conversion</Class>
-		  </BlueprintClasses>
-      <RefineSpeed>6</RefineSpeed>
-      <MaterialEfficiency>1</MaterialEfficiency>
-      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
-      <DamagedSound>K_Imperial_Explosion_Electronic</DamagedSound>
-      <PrimarySound>K_Imperial_IdleDroidNoise</PrimarySound>
-      <ActionSound>K_Imperial_FactoryWorking</ActionSound>
-      <DestroyEffect>Imperial_Explosion</DestroyEffect>
-      <DestroySound>K_Imperial_Explosion_Critical</DestroySound>
-	  
-      <EmissiveColorPreset>K_Imperial_Factory_Red</EmissiveColorPreset>
-     
-      <OreAmountPerPullRequest>100</OreAmountPerPullRequest>
-      <TieredUpdateTimes>
-          <unsignedInt>60</unsignedInt>
-          <unsignedInt>120</unsignedInt>
-          <unsignedInt>240</unsignedInt>
-      </TieredUpdateTimes>       
-    </Definition>
-	
-	
-	<Definition xsi:type="MyObjectBuilder_RefineryDefinition">
-      <Id>
-        <TypeId>Refinery</TypeId>
-        <SubtypeId>K_Imperial_Refinement_Phrik</SubtypeId>
-      </Id>
-      <DisplayName>Republic Phrik Processing Plant</DisplayName>
-	   <Description> Refinement Hardware. Required to refine and output Phrik, for the use in specialist practices.
-	   Large-Grid 3x3x3</Description>
-      <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
-      <CubeSize>Large</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="3" y="3" z="5" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Center x="1" y="0" z="1" /> 
-      <Model>Models\Manufacturing\K_Imperial_Assembly_PhrikFoundry_Large.mwm</Model>
-     <Components>
-        <Component Subtype="DuraSteel" Count="45" />
-        <Component Subtype="ImperialConstruction" Count="110" />
-        <Component Subtype="HeavyDutyCabling" Count="15" />
-        <Component Subtype="ImperialGeneralParts" Count="35" />
-		 <Component Subtype="PowerConverter" Count="12" />
-        <Component Subtype="Computer" Count="100" />
-		<Component Subtype="ImperialGeneralParts" Count="2" />
-		<Component Subtype="ImperialConstruction" Count="110" />
-        <Component Subtype="DuraSteel" Count="115" />
-      </Components>
-      <CriticalComponent Subtype="ImperialGeneralParts" Index="0" />
-      <MirroringZ>Y</MirroringZ>
-      <MirroringY>Z</MirroringY>
-      
-      <BlockPairName>K_Imperial_Refinement_Phrik</BlockPairName>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>20</BuildTimeSeconds>
-      <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>2</InventoryMaxVolume>
-      <InventorySize>
-        <X>2</X>
-        <Y>2</Y>
-        <Z>2</Z>
-      </InventorySize>
-      <InventoryFillFactorMin>0.3</InventoryFillFactorMin>
-      <InventoryFillFactorMax>0.6</InventoryFillFactorMax>         
-      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-      <OperationalPowerConsumption>0.33</OperationalPowerConsumption>
-      <BlueprintClasses>
-        <Class>Phrik_Imperial</Class>
-		       </BlueprintClasses>
-      <RefineSpeed>1</RefineSpeed>
-      <MaterialEfficiency>1</MaterialEfficiency>
-      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
-      <DamagedSound>K_Imperial_Explosion_Electronic</DamagedSound>
-      <PrimarySound>K_Imperial_IdleDroidNoise</PrimarySound>
-      <ActionSound>K_Imperial_FactoryWorking</ActionSound>
-      <DestroyEffect>Imperial_Explosion</DestroyEffect>
-      <DestroySound>K_Imperial_Explosion_Critical</DestroySound>
-	  
-      <EmissiveColorPreset>K_Imperial_Factory_Red</EmissiveColorPreset>
-     
-      <OreAmountPerPullRequest>100</OreAmountPerPullRequest>
-      <TieredUpdateTimes>
-          <unsignedInt>60</unsignedInt>
-          <unsignedInt>120</unsignedInt>
-          <unsignedInt>240</unsignedInt>
-      </TieredUpdateTimes> 
 
-    </Definition>
-	
 	
   </CubeBlocks>
 </Definitions>

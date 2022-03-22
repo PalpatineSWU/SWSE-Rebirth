@@ -11,7 +11,7 @@
         <SubtypeId>K_Imperial_Reborn_TIE_Bomber_Cockpit</SubtypeId>
       </Id>
       <DisplayName>TIE Bomber Cockpit (HQ)</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornBomber\RebornCock.dds</Icon>
 	   <Description>The Iconic Cockpit of the TIE Series, to get the full interior, use with an TIE Core\Life-Support.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -80,7 +80,7 @@
       </Id>
       <DisplayName>TIE Bomber Weaponry (HQ) Functioning Turret</DisplayName>
 	   <Description>Standard TIE Armament of twin L-s1 laser cannons. Fires a volley of 15 rounds per reload cycle.</Description>
-      <Icon>Textures\GUI\Icons\Blocks\Imp_SG_TwinCannons.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornBomber\Reborn.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -129,7 +129,7 @@
       <DisplayName>TIE Bomber Inverse-Engine (HQ)</DisplayName>
 	   <Description>Primary Engine unit of the TIE Interceptor, superior to the standard TIE engine unit.
 	   Install onto the Gas Storage unit of standard TIE constructions.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_MainThruster.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornBomber\RebornTh.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		<IsStandAlone>true</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -202,7 +202,7 @@
       <DisplayName>TIE Bomber Main-Engine (HQ)</DisplayName>
 	   <Description>Primary Engine unit of the TIE Interceptor, superior to the standard TIE engine unit.
 	   Install onto the Gas Storage unit of standard TIE constructions.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_MainThruster.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornBomber\RebornTh.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		<IsStandAlone>true</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -274,7 +274,7 @@
       </Id>
       <DisplayName>TIE Bomber Strut-Gyro (HQ)</DisplayName>
 	   <Description>TIE Gyro, attached via the Strut end, acting as the mount point for the Wings of the TIE.</Description>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Gyro.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornBomber\RebornGy.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -316,7 +316,7 @@
       </Id>
       <DisplayName>TIE Bomber Strut-Battery (HQ)</DisplayName>
 	  <Description>Strut for the TIE Fighter, acts as a primary Energy source for long-term use.</Description>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Strut.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornBomber\RebornBa.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -361,7 +361,7 @@
       </Id>
       <DisplayName>TIE Bomber Chassis-Battery (HQ)</DisplayName>
 	  <Description>Strut for the TIE Fighter, acts as a primary Energy source for long-term use.</Description>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Strut.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornBomber\RebornBa.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -405,7 +405,7 @@
         <SubtypeId>K_Imperial_Reborn_TIE_Bomber_LinkageUnit</SubtypeId>
       </Id>
       <DisplayName>TIE Bomber Cargo-Linkage (HQ)</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornBomber\RebornCar.dds</Icon>
       <Description>Description_SmallCargoContainer</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -449,7 +449,7 @@
         <SubtypeId>K_Imperial_Reborn_TIE_Bomber_HeadStorage</SubtypeId>
       </Id>
       <DisplayName>TIE Bomber Cargo-Linkage (HQ)</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornBomber\RebornCar.dds</Icon>
       <Description>Description_SmallCargoContainer</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -496,7 +496,7 @@
       </Id>
       <DisplayName>TIE Bomber Wing (HQ)</DisplayName>
 	   <Description>Classic TIE Wing, acts as an Solar Panel, providing Idle secondary power-intake.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Wing_Fighter.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornBomber\RebornSol.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -551,7 +551,7 @@
       </Id>
       <DisplayName>Bomber Bomb-Bay (HQ) Functioning</DisplayName>
 	   <Description>Massive damage. Fires a volley of 5 rounds per reload cycle.</Description>
-      <Icon>Textures\GUI\Icons\Blocks\Imp_SG_BombsGeneric.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornBomber\Reborn.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -604,7 +604,7 @@
       <DisplayName>TIE Bomber Launcher (HQ)</DisplayName>
 	   <Description>Standard TIE Bomber Launcher.
 	   Ordnance: Concussion, Proton-Torpedo, Magpulse, Scrampulse, Flare</Description>
-    <Icon>Textures\GUI\Icons\Blocks\Imp_SG_MissilesGeneric.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornBomber\Reborn.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -654,7 +654,7 @@
       </Id>
       <DisplayName>TIE Light Launcher-Attachment (HQ)</DisplayName>
 	   <Description>Standard TIE Armament of twin L-s1 laser cannons. Fires a volley of 15 rounds per reload cycle.</Description>
-       <Icon>Textures\GUI\Icons\Blocks\Imp_SG_MissilesGeneric.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornBomber\Reborn.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -702,7 +702,7 @@
       </Id>
       <DisplayName>TIE Bomber Camera (HQ Hatch)</DisplayName>
 	   <Description>Camera for the TIE Model, allowing easier automation and remote operation of the TIE unit.</Description>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornBomber\Reborn.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>

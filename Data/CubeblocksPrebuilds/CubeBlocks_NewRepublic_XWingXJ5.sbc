@@ -9,10 +9,10 @@
 <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
       <Id>
         <TypeId>Cockpit</TypeId>
-        <SubtypeId>XWing_XJ5_Cockpit</SubtypeId>
+        <SubtypeId>K_NewRepublic_XWing_XJ5_Cockpit</SubtypeId>
       </Id>
       <DisplayName>New Republic X-Wing XJ5 Cockpit</DisplayName>
-    <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\Xj5\XJ5Cock.dds</Icon>
 	   <Description>New Republic X-Wing Cockpit, with full LCD Support built-in, Internal oxygen-supply. Pair with XJ5's specific Canopy, for full visual and practical use.</Description>
       <CubeSize>Small</CubeSize>
        <Public>true</Public>
@@ -71,10 +71,10 @@
 <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
       <Id>
         <TypeId>AdvancedDoor</TypeId>
-        <SubtypeId>XWing_XJ5_Hatch</SubtypeId>
+        <SubtypeId>K_NewRepublic_XWing_XJ5_Hatch</SubtypeId>
       </Id>
       <DisplayName>New Republic X-Wing XJ5 Canopy</DisplayName>
-     <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\Xj5\XJ5.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
 	  <Description>New Republic X-Wing Canopy, designed to be mounted onto the top of the Cockpit, and restricts access to the cockpit controls.</Description>
@@ -141,11 +141,11 @@
 <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
       <Id>
         <TypeId>BatteryBlock</TypeId>
-        <SubtypeId>XWing_XJ5_Battery</SubtypeId>
+        <SubtypeId>K_NewRepublic_XWing_XJ5_Battery</SubtypeId>
       </Id>
       <DisplayName>New Republic X-Wing XJ5 Battery</DisplayName>
 	  <Description>New Republic E-Wing Battery unit, mounted onto the front of the E-Wing, supplies a max of 25 units, with a storage of 45 units.</Description>
-     <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\Xj5\XJ5Bat.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -189,11 +189,11 @@
 <Definition xsi:type="MyObjectBuilder_GyroDefinition">
       <Id>
         <TypeId>Gyro</TypeId>
-        <SubtypeId>XWing_XJ5_Gyro</SubtypeId>
+        <SubtypeId>K_NewRepublic_XWing_XJ5_Gyro</SubtypeId>
       </Id>
       <DisplayName>New Republic X-Wing XJ5 Gyro</DisplayName>
 	   <Description>New Republic E-Wing Wing Module, packing Gyro Power.</Description>
-    <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\Xj5\XJ5Gy.dds</Icon>
       <CubeSize>Small</CubeSize>
        <Public>true</Public>
 	  <GuiVisible>true</GuiVisible>
@@ -239,11 +239,11 @@
 <Definition xsi:type="MyObjectBuilder_RadioAntennaDefinition">
       <Id>
         <TypeId>RadioAntenna</TypeId>
-        <SubtypeId>XWing_XJ5_Antenna</SubtypeId>
+        <SubtypeId>K_NewRepublic_XWing_XJ5_Antenna</SubtypeId>
       </Id>
        <DisplayName>New Republic X-Wing XJ5 Antenna</DisplayName>
 	   <Description>New Republic Antenna Unit, for the E-Wing, installed on the Hyperdrive.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\Xj5\XJ5Ant.dds</Icon>
 	   <IsStandAlone>false</IsStandAlone>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -279,11 +279,11 @@
 <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
-        <SubtypeId>XWing_XJ5_Reactor</SubtypeId>
+        <SubtypeId>K_NewRepublic_XWing_XJ5_Reactor</SubtypeId>
       </Id>
       <DisplayName>New Republic X-Wing XJ5 Reactor</DisplayName>
 	  	   <Description>New Republic X-Wing T70 Reactor, Runs on Synthetic Fuel, and has an effective output of 50 Units.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\Xj5\XJ5Re.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -352,11 +352,11 @@
 <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
       <Id>
         <TypeId>OxygenGenerator</TypeId>
-        <SubtypeId>XWing_XJ5_LifeSupport</SubtypeId>
+        <SubtypeId>K_NewRepublic_XWing_XJ5_LifeSupport</SubtypeId>
       </Id>
        <DisplayName>New Republic X-Wing XJ5 Life-Support</DisplayName>
 	   <Description>New Republic X-Wing T70 Life-Support System.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\Xj5\XJ5OxGen.dds</Icon>
 	   <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -433,12 +433,12 @@
 <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
       <Id>
         <TypeId>JumpDrive</TypeId>
-        <SubtypeId>XWing_XJ5_Hyperdrive</SubtypeId>
+        <SubtypeId>K_NewRepublic_XWing_XJ5_Hyperdrive</SubtypeId>
       </Id>
       <DisplayName>New Republic X-Wing XJ5 Hyperdrive</DisplayName>
 	   <Description>New Republic Technology.
 	   Allows the X-Wing to hyperspace travel, and has a quick-charge time.</Description>
-       <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\Xj5\XJ5Jd.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -478,11 +478,11 @@
 <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>XWing_XJ5_Engine_Reverse_A</SubtypeId>
+        <SubtypeId>K_NewRepublic_XWing_XJ5_Engine_Reverse_A</SubtypeId>
       </Id>
       <DisplayName>New Republic X-Wing XJ5 Inverse-Engine (I)</DisplayName>
 	  <Description>New Republic X-Wing Inverse Engine, designed for pairing with the Primary-Engine.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\Xj5\XJ5Th.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		 <IsStandAlone>false</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -555,11 +555,11 @@
 <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>XWing_XJ5_Engine_Reverse_B</SubtypeId>
+        <SubtypeId>K_NewRepublic_XWing_XJ5_Engine_Reverse_B</SubtypeId>
       </Id>
       <DisplayName>New Republic X-Wing XJ5 Inverse-Engine (II)</DisplayName>
 	  <Description>New Republic X-Wing Inverse Engine, designed for pairing with the Primary-Engine.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\Xj5\XJ5Th.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		 <IsStandAlone>false</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -632,11 +632,11 @@
 <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>XWing_XJ5_Engine_Main</SubtypeId>
+        <SubtypeId>K_NewRepublic_XWing_XJ5_Engine_Main</SubtypeId>
       </Id>
       <DisplayName>New Republic X-Wing XJ5 Main-Engine</DisplayName>
 	  <Description>New Republic X-Wing Main Engine, designed for pairing with the Inverse-Engine.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\Xj5\XJ5Th.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		 <IsStandAlone>false</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -709,11 +709,11 @@
 		
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
-        <SubtypeId>XWing_XJ5_Weaponry_Wing_A</SubtypeId>
+        <SubtypeId>K_NewRepublic_XWing_XJ5_Weaponry_Wing_A</SubtypeId>
       </Id>
      <DisplayName>New Republic X-Wing XJ5 Weaponry (A)</DisplayName>
 	  <Description>NON FUNCTIOING New Republic X-Wing Wing with Heavy Laser-Cannon.</Description>
-     <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\Xj5\XJ5.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -766,11 +766,11 @@
 		
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
-        <SubtypeId>XWing_XJ5_Weaponry_Wing_B</SubtypeId>
+        <SubtypeId>K_NewRepublic_XWing_XJ5_Weaponry_Wing_B</SubtypeId>
       </Id>
      <DisplayName>New Republic X-Wing XJ5 Weaponry (B)</DisplayName>
 	  <Description>NON FUNCTIOING New Republic X-Wing Wing with Heavy Laser-Cannon.</Description>
-     <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\Xj5\XJ5.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -823,14 +823,14 @@
 		
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
-        <SubtypeId>XWing_XJ5_Launcher</SubtypeId>
+        <SubtypeId>K_NewRepublic_XWing_XJ5_Launcher</SubtypeId>
       </Id>
      <DisplayName>New Republic X-Wing XJ5 Launcher</DisplayName>
 	  <Description>NON FUNCTIOING New Republic X-Wing Launcher.
 	  Standard Missile: Proton-Torpedo (Lock-On), Concussion Missile
 	   Speciality Missiles: MagPulse, Nano, ScramPulse
 	   Missile Range: 3km</Description>
-     <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\Xj5\XJ5.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -878,45 +878,6 @@
       <MinFov>0.1</MinFov>
       <MaxFov>1.04719755</MaxFov>
     </Definition>	
-	
-	
-	 <Definition xsi:type="MyObjectBuilder_ShipConnectorDefinition">
-      <Id>
-        <TypeId>ShipConnector</TypeId>
-        <SubtypeId>XWing_70_Connector</SubtypeId>
-      </Id>
-       <DisplayName>New Republic X-Wing T70 Connector</DisplayName>
-	  <Description>New Republic X-Wing Connector for Battery Recharge.</Description>
-     <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
-	        <CubeSize>Small</CubeSize>
-	  <GuiVisible>true</GuiVisible>
-	   <IsStandAlone>false</IsStandAlone>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="3" y="3" z="2" />
-      <ModelOffset x="0" y="0" z="0" />
-	   <Model>Models\NewRepublic\XWing_70\X_Wing_70T_Connector_Small.mwm</Model>
-      <Components>
-        <Component Subtype="LightweightDurasteel" Count="15" />
-		<Component Subtype="ImperialGeneralParts" Count="5" />
-			<Component Subtype="Computer" Count="13" />
-			 <Component Subtype="LightweightDurasteel" Count="25" />
-      </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
-	  <MountPoints>
-	          <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="3" />
-      </MountPoints>
-      <BlockPairName>XWing_70_Connector</BlockPairName>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>25</BuildTimeSeconds>
-      <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
-	  <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
-      <DamagedSound>ParticleHeavyMech</DamagedSound>
-      <ActionSound>K_Imperial_Cockpit</ActionSound>
-      <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
-      <DestroyEffect>Imperial_Explosion</DestroyEffect>
-      <DestroySound>K_Imperial_Explosion_Generic</DestroySound>
-    </Definition>	
-	
+		
   </CubeBlocks>
 </Definitions>

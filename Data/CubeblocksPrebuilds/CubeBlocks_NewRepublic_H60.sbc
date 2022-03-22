@@ -8,11 +8,11 @@
 	<Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
-        <SubtypeId>H60_Reactor</SubtypeId>
+        <SubtypeId>K_NewRepublic_H60_Reactor</SubtypeId>
       </Id>
 	   <DisplayName>New Republic H-60 Reactor</DisplayName>
 		<Description>New Republic Power-Plant for H-60 Tempest Bomber, runs on Synthetic Fuel.</Description>
-       <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+       <Icon>Textures\GUI\Icons\Ships\Tempest\H60Cock.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -86,11 +86,11 @@
 	<Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
       <Id>
         <TypeId>BatteryBlock</TypeId>
-        <SubtypeId>H60_Battery</SubtypeId>
+        <SubtypeId>K_NewRepublic_H60_Battery</SubtypeId>
       </Id>
       <DisplayName>New Republic H-60 Battery</DisplayName>
 	  <Description>New Republic Power-Storage for H-60 Tempest Bomber, covers a large surface area with 100 unit storage.</Description>
-    <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+       <Icon>Textures\GUI\Icons\Ships\Tempest\H60Bat.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -129,10 +129,10 @@
 	<Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
       <Id>
         <TypeId>JumpDrive</TypeId>
-        <SubtypeId>H60_Hyperdrive</SubtypeId>
+        <SubtypeId>K_NewRepublic_H60_Hyperdrive</SubtypeId>
       </Id>
       <DisplayName>New Republic H-60 Hyperdrive</DisplayName>
-       <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+       <Icon>Textures\GUI\Icons\Ships\Tempest\H60Jd.dds</Icon>
 	    <Description>Hyperdrive for the New Republic H-60 Tempest, with a higher weight capacity than typical craft.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -173,11 +173,11 @@
 	<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>H60_Engine_Inverse</SubtypeId>
+        <SubtypeId>K_NewRepublic_H60_Engine_Inverse</SubtypeId>
       </Id>
       <DisplayName>New Republic H-60 Engine (I)</DisplayName>
 	   <Description>Reverse-Engine of the New Republic H-60 Tempest, Quiet and Large, this installs onto the back of the Reactor.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+       <Icon>Textures\GUI\Icons\Ships\Tempest\H60Th.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		 <IsStandAlone>false</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -247,12 +247,12 @@
 	<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>H60_Engine_Primary</SubtypeId>
+        <SubtypeId>K_NewRepublic_H60_Engine_Primary</SubtypeId>
       </Id>
       <DisplayName>New Republic H-60 Engine (II)</DisplayName>
 	   <Description>Primary Engine for the New Republic H-60 Tempest, loud and large.
 	   Install onto Engine II.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+       <Icon>Textures\GUI\Icons\Ships\Tempest\H60Th.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		 <IsStandAlone>false</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -322,11 +322,11 @@
 	<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>H60_Engine_Cockpit</SubtypeId>
+        <SubtypeId>K_NewRepublic_H60_Engine_Cockpit</SubtypeId>
       </Id>
       <DisplayName>New Republic H-60 Engine (III)</DisplayName>
 	   <Description>Smaller Engine-Set for the New Republic H-60 Tempest, Install onto the first Cockpit.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+       <Icon>Textures\GUI\Icons\Ships\Tempest\H60Th.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		 <IsStandAlone>false</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -397,7 +397,7 @@
       <Public>false</Public>
       <Id>
         <TypeId>LargeMissileTurret</TypeId>
-           <SubtypeId>H60_BombBay</SubtypeId>
+           <SubtypeId>K_NewRepublic_H60_BombBay</SubtypeId>
       </Id>
       <DisplayName>New Republic H-60 Bomb-Bay (Proton-Bomb)</DisplayName>
 	   <Description>New Republic H-60 Tempest Bomb-Bay.
@@ -406,7 +406,7 @@ Weapon: Proton-Bomb
 Salvo: 6
 Range: 1200-3000
 </Description>
-      <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+       <Icon>Textures\GUI\Icons\Ships\Tempest\H60.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -473,7 +473,7 @@ Range: 1200-3000
       <Public>false</Public>
       <Id>
         <TypeId>LargeMissileTurret</TypeId>
-           <SubtypeId>H60_ProtonLauncher</SubtypeId>
+           <SubtypeId>K_NewRepublic_H60_ProtonLauncher</SubtypeId>
       </Id>
       <DisplayName>New Republic H-60 Proton-Torpedo Launcher</DisplayName>
 	   <Description>New Republic H-60 Tempest Launcher, mounted onto the Front Chassis.
@@ -481,7 +481,7 @@ Limit: 2
 Weapon: Proton-Torpedo
 Salvo: 8
 Range: 1200</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+       <Icon>Textures\GUI\Icons\Ships\Tempest\H60.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -549,7 +549,7 @@ Range: 1200</Description>
       <Public>false</Public>
       <Id>
         <TypeId>LargeMissileTurret</TypeId>
-           <SubtypeId>H60_IonCannon</SubtypeId>
+           <SubtypeId>K_NewRepublic_H60_IonCannon</SubtypeId>
       </Id>
       <DisplayName>New Republic H-60 Ion-Cannon Turret</DisplayName>
 	   <Description>New Republic H-60 Tempest Ion-Cannon, with full firing arc.
@@ -557,7 +557,7 @@ Range: 1200</Description>
 Weapon: Ion-Cannon
 Salvo: 1
 Range: 700</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+       <Icon>Textures\GUI\Icons\Ships\Tempest\H60.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -626,7 +626,7 @@ Range: 700</Description>
       <Public>false</Public>
       <Id>
         <TypeId>LargeMissileTurret</TypeId>
-           <SubtypeId>H60_MediumLaserCannon</SubtypeId>
+           <SubtypeId>K_NewRepublic_H60_MediumLaserCannon</SubtypeId>
       </Id>
       <DisplayName>New Republic H-60 Medium-Laser Cannon Turret</DisplayName>
 	   <Description>New Republic Medium-Caliber Laser-Cannon for the H-60 Tempest, Limited Elevation Control.
@@ -634,7 +634,7 @@ Limit: 4
 Weapon: Medium Laser-Cannon
 Salvo: 4
 Range: 450</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+       <Icon>Textures\GUI\Icons\Ships\Tempest\H60.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -702,11 +702,11 @@ Range: 450</Description>
 	<Definition xsi:type="MyObjectBuilder_GyroDefinition">
       <Id>
         <TypeId>Gyro</TypeId>
-        <SubtypeId>H60_Gyro</SubtypeId>
+        <SubtypeId>K_NewRepublic_H60_Gyro</SubtypeId>
       </Id>
       <DisplayName>New Republic H-60 Gyro</DisplayName>
 	   <Description>New Republic H-60 Tempest Gyro, capable of handling the heavy Mass, and is decently armored.</Description>
-    <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+       <Icon>Textures\GUI\Icons\Ships\Tempest\H60Gy.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -745,11 +745,11 @@ Range: 450</Description>
 	 <Definition xsi:type="MyObjectBuilder_RadioAntennaDefinition">
       <Id>
         <TypeId>RadioAntenna</TypeId>
-        <SubtypeId>H60_Antenna</SubtypeId>
+        <SubtypeId>K_NewRepublic_H60_Antenna</SubtypeId>
       </Id>
        <DisplayName>New Republic H-60 Antenna</DisplayName>
 	   <Description>New Republic H-60 Antenna Unit, designed for mounting onto the Bomb-Bay.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+       <Icon>Textures\GUI\Icons\Ships\Tempest\H60Ant.dds</Icon>
 	   <IsStandAlone>false</IsStandAlone>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -784,10 +784,10 @@ Range: 450</Description>
 	<Definition xsi:type="MyObjectBuilder_CockpitDefinition">
       <Id>
         <TypeId>Cockpit</TypeId>
-        <SubtypeId>H60_Cockpit_A</SubtypeId>
+        <SubtypeId>K_NewRepublic_H60_Cockpit_A</SubtypeId>
       </Id>
       <DisplayName>New Republic H-60 Cockpit (A)</DisplayName>
-    <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+       <Icon>Textures\GUI\Icons\Ships\Tempest\H60Cock.dds</Icon>
 	   <Description>New Republic Cockpit for the H-60 Tempest, best suited for Piloting.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -844,10 +844,10 @@ Range: 450</Description>
 	<Definition xsi:type="MyObjectBuilder_CockpitDefinition">
       <Id>
         <TypeId>Cockpit</TypeId>
-        <SubtypeId>H60_Cockpit_B</SubtypeId>
+        <SubtypeId>K_NewRepublic_H60_Cockpit_B</SubtypeId>
       </Id>
       <DisplayName>New Republic H-60 Cockpit (B)</DisplayName>
-    <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+       <Icon>Textures\GUI\Icons\Ships\Tempest\H60Cock.dds</Icon>
 	   <Description>New Republic Cockpit for the H-60 Tempest, best suited for turret control.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -903,10 +903,10 @@ Range: 450</Description>
 	<Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
       <Id>
         <TypeId>AdvancedDoor</TypeId>
-        <SubtypeId>H60_Cockpit_A_Hatch</SubtypeId>
+        <SubtypeId>K_NewRepublic_H60_Cockpit_A_Hatch</SubtypeId>
       </Id>
       <DisplayName>New Republic H-60 Canopy A</DisplayName>
-     <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+       <Icon>Textures\GUI\Icons\Ships\Tempest\H60Cock.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
 	  <Description>Sliding Canopy, for the H-60 Cockpit A</Description>
@@ -962,10 +962,10 @@ Range: 450</Description>
 <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
       <Id>
         <TypeId>AdvancedDoor</TypeId>
-        <SubtypeId>H60_Cockpit_B_Hatch</SubtypeId>
+        <SubtypeId>K_NewRepublic_H60_Cockpit_B_Hatch</SubtypeId>
       </Id>
       <DisplayName>New Republic H-60 Canopy B</DisplayName>
-     <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+       <Icon>Textures\GUI\Icons\Ships\Tempest\H60Cock.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
 	  <Description>Sliding Canopy for the H-60 Tempest Cockpit B.</Description>

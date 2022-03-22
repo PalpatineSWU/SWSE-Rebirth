@@ -9,13 +9,13 @@
 		<Public>false</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
-        <SubtypeId>YWing_LaserCannon</SubtypeId>
+        <SubtypeId>K_NewRepublic_YWing_LaserCannon</SubtypeId>
       </Id>
       <DisplayName>New Republic Y-Wing Laser-Cannon</DisplayName>
 	   <Description>New Republic Laser-Cannon Pair.
 Range: 300m
 </Description>
-      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Y-wing\Ywing.dds</Icon>
       <CubeSize>Small</CubeSize>
  <Public>false</Public>
 	  <GuiVisible>true</GuiVisible>
@@ -63,13 +63,13 @@ Range: 300m
 		
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
-        <SubtypeId>YWing_BombBay</SubtypeId>
+        <SubtypeId>K_NewRepublic_YWing_BombBay</SubtypeId>
       </Id>
       <DisplayName>New Republic Y-Wing Bomb-Bay</DisplayName>
 	   <Description>NON FUNCTIONAL Bomb-Bay 
 Payload: Proton-Bomb, CL-3, Magpulse
 </Description>
-      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Y-wing\Ywing.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -116,12 +116,12 @@ Payload: Proton-Bomb, CL-3, Magpulse
 		<Public>false</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
-        <SubtypeId>YWing_TorpedoLauncher</SubtypeId>
+        <SubtypeId>K_NewRepublic_YWing_TorpedoLauncher</SubtypeId>
       </Id>
       <DisplayName>New Republic Y-Wing Torpedo-Launcher</DisplayName>
 	   <Description>New Republic Torpedo Launcher.
 Payload: Advanced Proton Torpedo, Concussion Missile, Ion-Torpedo, Flare</Description>
-      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Y-wing\Ywing.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -168,13 +168,13 @@ Payload: Advanced Proton Torpedo, Concussion Missile, Ion-Torpedo, Flare</Descri
 		<Public>false</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
-        <SubtypeId>YWing_IonTurret</SubtypeId>
+        <SubtypeId>K_NewRepublic_YWing_IonTurret</SubtypeId>
       </Id>
       <DisplayName>New Republic Y-Wing Roof Turret (Ion-Cannon)</DisplayName>
 	   <Description>New Republic Turret: Ion-Cannon Variant.
        Weaponry: Ion Cannon
 	   Range: 300 Meters</Description>
-      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Y-wing\Ywing.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -218,13 +218,13 @@ Payload: Advanced Proton Torpedo, Concussion Missile, Ion-Torpedo, Flare</Descri
 		<Public>false</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
-        <SubtypeId>YWing_LaserTurret</SubtypeId>
+        <SubtypeId>K_NewRepublic_YWing_LaserTurret</SubtypeId>
       </Id>
       <DisplayName>New Republic Y-Wing Roof Turret (Laser-Cannon)</DisplayName>
 	   <Description>New Republic Turret: Laser-Cannon Variant.
        Weaponry: Laser Cannon
 	   Range: 300 Meters</Description>
-      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Y-wing\Ywing.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -269,10 +269,10 @@ Payload: Advanced Proton Torpedo, Concussion Missile, Ion-Torpedo, Flare</Descri
 <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
       <Id>
         <TypeId>Cockpit</TypeId>
-        <SubtypeId>YWing_CockpitA</SubtypeId>
+        <SubtypeId>K_NewRepublic_YWing_CockpitA</SubtypeId>
       </Id>
       <DisplayName>New Republic Y-Wing Cockpit</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\FighterCockpit.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Y-wing\YwingCock.dds</Icon>
 	   <Description>New Republic RZ2-2 Cockpit with full LCD Support.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -327,11 +327,11 @@ Payload: Advanced Proton Torpedo, Concussion Missile, Ion-Torpedo, Flare</Descri
 <Definition xsi:type="MyObjectBuilder_GyroDefinition">
       <Id>
         <TypeId>Gyro</TypeId>
-        <SubtypeId>YWing_GyroWing</SubtypeId>
+        <SubtypeId>K_NewRepublic_YWing_GyroWing</SubtypeId>
       </Id>
       <DisplayName>New Republic Y-Wing Gyro</DisplayName>
 	   <Description>New Republic RZ-2 Gyroscopic Control System.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\gyro.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Y-wing\YwinGy.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -368,11 +368,11 @@ Payload: Advanced Proton Torpedo, Concussion Missile, Ion-Torpedo, Flare</Descri
 <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
-        <SubtypeId>YWing_Reactor</SubtypeId>
+        <SubtypeId>K_NewRepublic_YWing_Reactor</SubtypeId>
       </Id>
       <DisplayName>New Republic Y-Wing Reactor</DisplayName>
 	    <Description>New Republic Y-Wing Reactor, provides 20 Units.</Description>
-     <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Y-wing\YwingRe.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -438,10 +438,10 @@ Payload: Advanced Proton Torpedo, Concussion Missile, Ion-Torpedo, Flare</Descri
  <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
       <Id>
         <TypeId>OxygenGenerator</TypeId>
-        <SubtypeId>YWing_Lifesupport</SubtypeId>
+        <SubtypeId>K_NewRepublic_YWing_Lifesupport</SubtypeId>
       </Id>
        <DisplayName>New Republic Y-Wing Life-Support</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Y-wing\YwingOx.dds</Icon>
 	   <Description>New Republic Life-Support System for the Y-Wing, uses Ice.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -515,10 +515,10 @@ Payload: Advanced Proton Torpedo, Concussion Missile, Ion-Torpedo, Flare</Descri
 <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> 
       <Id>
         <TypeId>CargoContainer</TypeId>
-        <SubtypeId>YWing_Storage</SubtypeId>
+        <SubtypeId>K_NewRepublic_YWing_Storage</SubtypeId>
       </Id>
        <DisplayName>New Republic Y-Wing Storage Container</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Y-wing\YwingCont.dds</Icon>
       <Description>Description_SmallCargoContainer</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -548,12 +548,12 @@ Payload: Advanced Proton Torpedo, Concussion Missile, Ion-Torpedo, Flare</Descri
 <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
       <Id>
         <TypeId>JumpDrive</TypeId>
-        <SubtypeId>YWing_Hyperdrive</SubtypeId>
+        <SubtypeId>K_NewRepublic_YWing_Hyperdrive</SubtypeId>
       </Id>
       <DisplayName>New Republic Y-Wing Hyperdrive</DisplayName>
 	   <Description>New Republic Technology, mounts on the Y-Wing's Life-Support. Easily fits onto other starfighters.
 	   Allows the Y-Wing to hyperspace travel, but has a slow-charge time.</Description>
-       <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Y-wing\YwingJd.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -601,11 +601,11 @@ Payload: Advanced Proton Torpedo, Concussion Missile, Ion-Torpedo, Flare</Descri
 <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>YWing_Engine_Main_I</SubtypeId>
+        <SubtypeId>K_NewRepublic_YWing_Engine_Main_I</SubtypeId>
       </Id>
       <DisplayName>New Republic Y-Wing Engine (I)</DisplayName>
 	   <Description>New Republic Y-Wing Engine Unit.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Y-wing\YwingTh.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		 <IsStandAlone>false</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -673,11 +673,11 @@ Payload: Advanced Proton Torpedo, Concussion Missile, Ion-Torpedo, Flare</Descri
 <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>YWing_Engine_Main_II</SubtypeId>
+        <SubtypeId>K_NewRepublic_YWing_Engine_Main_II</SubtypeId>
       </Id>
       <DisplayName>New Republic Y-Wing Engine (II)</DisplayName>
 	   <Description>New Republic Y-Wing Engine Unit.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Y-wing\YwingTh.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		 <IsStandAlone>false</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -749,11 +749,11 @@ Payload: Advanced Proton Torpedo, Concussion Missile, Ion-Torpedo, Flare</Descri
 <Definition xsi:type="MyObjectBuilder_ThrustDefinition"> <!--  Small Unit -->	
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>YWing_Engine_Secondary_I</SubtypeId>
+        <SubtypeId>K_NewRepublic_YWing_Engine_Secondary_I</SubtypeId>
       </Id>
       <DisplayName>New Republic Y-Wing Secondary-Engine (I)</DisplayName>
 	   <Description>New Republic Y-Wing Strut-Mounted Engine. Pylons designate force direction.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Y-wing\YwingTh.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		 <IsStandAlone>false</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -817,11 +817,11 @@ Payload: Advanced Proton Torpedo, Concussion Missile, Ion-Torpedo, Flare</Descri
 <Definition xsi:type="MyObjectBuilder_ThrustDefinition"> <!--  Small Unit -->	
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>YWing_Engine_Secondary_II</SubtypeId>
+        <SubtypeId>K_NewRepublic_YWing_Engine_Secondary_II</SubtypeId>
       </Id>
       <DisplayName>New Republic Y-Wing Secondary-Engine (II)</DisplayName>
 	   <Description>New Republic Y-Wing Strut-Mounted Engine. Pylons designate force direction.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Y-wing\YwingTh.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		 <IsStandAlone>false</IsStandAlone>
       <CubeSize>Small</CubeSize>

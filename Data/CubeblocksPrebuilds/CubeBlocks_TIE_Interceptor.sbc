@@ -9,7 +9,7 @@
       </Id>
 	   <Description>Iconic TIE Interceptor Wing. Acts as a Solar Panel, and the mounting for the Interceptor Wing guns.</Description>
       <DisplayName>TIE Interceptor Wing</DisplayName>
-       <Icon>Textures\GUI\Icons\TIE\TIE_Wing_Interceptor.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieInterceptor\TieIncepSol.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -44,16 +44,6 @@
       </PanelOrientation>
       <TwoSidedPanel>true</TwoSidedPanel>
       <PanelOffset>0.0</PanelOffset>
-	  <BlockVariants>
-	 			 <BlockVariant>
-          <TypeId>SmallMissileLauncher</TypeId>
-          <SubtypeId>K_TIE_Interceptor_Wing_TipWeapon</SubtypeId>
-        </BlockVariant>
-			 <BlockVariant>
-          <TypeId>SmallMissileLauncher</TypeId>
-          <SubtypeId>K_TIE_Interceptor_Wing_TipWeapon_Missile</SubtypeId>
-        </BlockVariant>
-	      </BlockVariants>
 		   <DestroySound>K_Imperial_Explosion_Critical</DestroySound>
 			   <DamageEffectName>Imperial_Damages_Electrical</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -68,7 +58,7 @@
       </Id>
 	   <Description>TIE Interceptor Primary Laser Cannon system, a pair of L-s9.3 laser cannon models.</Description>
       <DisplayName>TIE Interceptor Wing Tip</DisplayName>
-    <Icon>Textures\GUI\Icons\TIE\TIE_Wing_Interceptor.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieInterceptor\TieIncep.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
 	  <IsStandAlone>false</IsStandAlone>
@@ -113,7 +103,7 @@
 	   <Description>TIE Interceptor Variant wing-tip, replaces the laser Cannons for a set of 6 Missile-Tubes.
 	   Fires Standard TIE Missiles, with Tracking qualities.</Description>
       <DisplayName>TIE Interceptor Missile Wing Tip</DisplayName>
-        <Icon>Textures\GUI\Icons\TIE\TIE_Wing_Interceptor.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieInterceptor\TieIncep.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <IsStandAlone>false</IsStandAlone>
 	  <GuiVisible>false</GuiVisible>
@@ -157,7 +147,7 @@
       <DisplayName>TIE Interceptor Engine</DisplayName>
 	   <Description>Primary Engine unit of the TIE Interceptor, superior to the standard TIE engine unit.
 	   Install onto the Gas Storage unit of standard TIE constructions.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_MainThruster.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieInterceptor\TieIncepTh.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		 <IsStandAlone>false</IsStandAlone>
       <CubeSize>Small</CubeSize>

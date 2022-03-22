@@ -9,7 +9,7 @@
         <SubtypeId>K_Pirates_StarViper_Cockpit</SubtypeId>
       </Id>
       <DisplayName>Starviper Cockpit</DisplayName>
-   <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+   <Icon>Textures\GUI\Icons\Ships\Starviper\SViperCock.dds</Icon>
 	   <Description>Sometimes good men have to do bad things.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -67,7 +67,7 @@
       </Id>
       <DisplayName>Starviper Duel Heavy-Laser Cannon</DisplayName>
 	   <Description>Starviper Standard Weaponry, Duel-Mounted Heavy-Laser Cannon with linked-fire.</Description>
-     <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+   <Icon>Textures\GUI\Icons\Ships\Starviper\SViper.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -117,7 +117,7 @@
       </Id>
       <DisplayName>Starviper Duel Slug-Thrower</DisplayName>
 	   <Description>Starviper Ballistic Weaponry, Duel-Mounted Slug-Thrower with linked-fire.</Description>
-     <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+   <Icon>Textures\GUI\Icons\Ships\Starviper\SViper.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -167,7 +167,7 @@
       </Id>
       <DisplayName>Starviper Main Engine</DisplayName>
 	   <Description>Starviper Primary Engine, Rear-Mounted.</Description>
-     <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+   <Icon>Textures\GUI\Icons\Ships\Starviper\SViperTh.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		<IsStandAlone>true</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -241,7 +241,7 @@
       </Id>
       <DisplayName>Starviper Battery</DisplayName>
 	  <Description>Starviper Battery, acts as a primary Energy source for long-term use.</Description>
-    <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+   <Icon>Textures\GUI\Icons\Ships\Starviper\SViperBat.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -283,7 +283,7 @@
       </Id>
       <DisplayName>Starviper Gyro</DisplayName>
 	   <Description>Starviper Gyro, designed in Pairs.</Description>
-   <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+   <Icon>Textures\GUI\Icons\Ships\Starviper\SViperGy.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -320,7 +320,7 @@
         <SubtypeId>K_Pirates_StarViper_Hyperdrive</SubtypeId>
       </Id>
       <DisplayName>Starviper Hyperdrive</DisplayName>
-     <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+   <Icon>Textures\GUI\Icons\Ships\Starviper\SViperJd.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
 	  <Description>Starviper Hyperdrive System
@@ -363,7 +363,7 @@
         <SubtypeId>K_Pirates_StarViper_Wing_A</SubtypeId>
       </Id>
       <DisplayName>Starviper Wing(A)</DisplayName>
-     <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+   <Icon>Textures\GUI\Icons\Ships\Starviper\SViper.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
 	  <Description>TIE Hunter wings are lightly armored, and feature motion-capabilities.
@@ -419,7 +419,7 @@
         <SubtypeId>K_Pirates_StarViper_Wing_B</SubtypeId>
       </Id>
       <DisplayName>Starviper Wing(B)</DisplayName>
-     <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+   <Icon>Textures\GUI\Icons\Ships\Starviper\SViper.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
 	  <Description>TIE Hunter wings are lightly armored, and feature motion-capabilities.
@@ -475,7 +475,7 @@
         <SubtypeId>K_Pirates_StarViper_CargoPod</SubtypeId>
       </Id>
       <DisplayName>Starviper Cargo-Pod</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+   <Icon>Textures\GUI\Icons\Ships\Starviper\SViperCont.dds</Icon>
       <Description>Description_SmallCargoContainer</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -514,7 +514,7 @@
         <SubtypeId>K_Neutral_Engine_Mando_SecondaryThruster</SubtypeId>
       </Id>
       <DisplayName>Mandolorian Maneuvering Thruster</DisplayName>
-    <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+   <Icon>Textures\GUI\Icons\Ships\Starviper\SViperTh.dds</Icon>
 	   <Description>Secondary Engine, Quiet Audio.</Description>
 	    <ThrusterType>Ion</ThrusterType>
       <CubeSize>Small</CubeSize>
@@ -583,7 +583,7 @@
         <SubtypeId>K_Pirates_StarViper_Connector</SubtypeId>
       </Id>
       <DisplayName>Starviper Connector</DisplayName>
-     <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+   <Icon>Textures\GUI\Icons\Ships\Starviper\SViperConn.dds</Icon>
 	   <Description>Starviper Connector. Attach to Roof of Cargo Pod.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>

@@ -9,7 +9,7 @@
       </Id>
 	   <Description>Core of the TIE Drone, acts as a Remote-Control Unit of the entire TIE.</Description>
       <DisplayName>TIE Drone Core</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE_Drone.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieDrone\DroidRc.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -45,12 +45,6 @@
 			   <DamageEffectName>Imperial_Damages_Electrical</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
 	  <DestroyEffect>Imperial_ElectricalExplosion</DestroyEffect>
-	  	   <BlockVariants>
-	  <BlockVariant>
-          <TypeId>Cockpit</TypeId>
-          <SubtypeId>K_TIE_Drone_Cockpit</SubtypeId>
-        </BlockVariant>
-		      </BlockVariants>
     </Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_CockpitDefinition">
@@ -60,7 +54,7 @@
       </Id>
 	   <Description>Specialized Imperial Cockpit for optional Manual flight of the Drone. Has standard TIE Interior. </Description>
       <DisplayName>TIE Drone Eye-Plate</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieDrone\DroidCock.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -124,7 +118,7 @@
       </Id>
       <DisplayName>TIE Drone Wing (L)</DisplayName>
 	   <Description>TIE Drone Wing, of the Left Side.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Wing_Droid.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieDrone\DroidSol.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -158,12 +152,6 @@
       </PanelOrientation>
       <TwoSidedPanel>true</TwoSidedPanel>
       <PanelOffset>0.0</PanelOffset>
-	   <BlockVariants>
-	  <BlockVariant>
-          <TypeId>SolarPanel</TypeId>
-          <SubtypeId>K_TIE_Drone_Wing_B</SubtypeId>
-        </BlockVariant>
-		      </BlockVariants>
 			  <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
 			   <DestroySound>K_Imperial_Explosion_Critical</DestroySound>
 			   <DamageEffectName>Imperial_Damages_Electrical</DamageEffectName>
@@ -178,7 +166,7 @@
       </Id>
       <DisplayName>TIE Drone Wing (R)</DisplayName>
 	   <Description>TIE Drone wing of the Right Side.</Description>
-       <Icon>Textures\GUI\Icons\TIE\TIE_Wing_Droid.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieDrone\DroidSol.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -227,7 +215,7 @@
       </Id>
 	   <Description>Special Weapon-Equiped Wing model, for a Custom TIE Drone. Fires a Maser-Type weapon.</Description>
       <DisplayName>TIE Drone C-I Talon Wing</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieDrone\Droid.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>

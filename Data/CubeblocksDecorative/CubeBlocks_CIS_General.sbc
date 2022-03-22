@@ -25,12 +25,6 @@
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
       <NavigationDefinition>Default</NavigationDefinition>
-	   <BlockVariants>
-	  <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>K_CIS_Clutter_Rack_IS</SubtypeId>
-        </BlockVariant>
-		</BlockVariants>
     </Definition>
 	
 	
@@ -189,14 +183,7 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>30</PCU>
-	   <EmissiveColorPreset>K_Imperial_Spawn</EmissiveColorPreset>
-	   <BlockVariants>
-	  <BlockVariant>
-          <TypeId>MedicalRoom</TypeId>
-          <SubtypeId>K_CIS_SpawnPoint_Rack_I</SubtypeId>
-        </BlockVariant>
-		</BlockVariants>
-	   
+	   <EmissiveColorPreset>K_Imperial_Spawn</EmissiveColorPreset>	   
     </Definition>
 	
 	

@@ -15,7 +15,7 @@
      and has Conversion capabilities.
 	   Can not make Advanced components,
 	   Large-Grid 1x1x3</Description>
-      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_MicroAssembler.dds</Icon>
+      <Icon>Textures\GUI\Icons\ReeAss\Micro.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="3" />
@@ -69,7 +69,7 @@
         <SubtypeId>K_Imperial_Assembly_Factory_Light_I</SubtypeId>
       </Id>
       <DisplayName>Light Factory Assembler</DisplayName>
-      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_FactoryLight.dds</Icon>
+      <Icon>Textures\GUI\Icons\ReeAss\Lightfac.dds</Icon>
 	   <Description>
 	   Manufactures all intermediate Components
 	   Can not manufacture Turbolaser Parts, 
@@ -136,7 +136,7 @@
         <SubtypeId>K_Imperial_Assembly_Factory_Advanced_I</SubtypeId>
       </Id>
       <DisplayName>Advanced Factory Assembler</DisplayName>
-      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_FactoryAdvanced.dds</Icon>
+      <Icon>Textures\GUI\Icons\ReeAss\Advanced.dds</Icon>
 	   <Description>
       Manufactures Advanced components, 
       (Such as Turbolaser Technology)
@@ -213,7 +213,7 @@
       massive power for
       production 
 	    Small-Grid 3x1x3</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SurvivalKitSmall.dds</Icon>
+      <Icon>Textures\GUI\Icons\ReeAss\Micro.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="1" z="3" />
@@ -300,7 +300,7 @@
         <SubtypeId>K_Imperial_Assembly_TechPlant</SubtypeId>
       </Id>
       <DisplayName>Tech-Plan Assembler</DisplayName>
-      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_TechPlant.dds</Icon>
+      <Icon>Textures\GUI\Icons\ReeAss\Tech.dds</Icon>
 	   <Description>
      Composes advanced resources and 
      compounds from standard resources.
@@ -361,7 +361,7 @@
         <SubtypeId>K_Imperial_Assembly_MassAssembler</SubtypeId>
       </Id>
       <DisplayName>Mass Assembler</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
+      <Icon>Textures\GUI\Icons\ReeAss\Massass.dds</Icon>
 	   <Description>
      Building designed for replacement of Vanilla 
      Assembler and Micro-Factory at the same time.
@@ -477,7 +477,7 @@
 	   <Description> 
      Produces componets required for starfighters.
 	   Large-Grid 3x3x5</Description>
-      <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
+      <Icon>Textures\GUI\Icons\ReeAss\Starass.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="5" y="4" z="5" />

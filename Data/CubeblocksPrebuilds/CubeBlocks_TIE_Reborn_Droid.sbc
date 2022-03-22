@@ -9,7 +9,7 @@
         <SubtypeId>K_Imperial_Reborn_TIE_Droid_Core</SubtypeId>
       </Id>
       <DisplayName>TIE Droid Core (HQ)</DisplayName>
-      <Icon>Textures\GUI\Icons\Imperial_Probe.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornDroid\RebornDroidRc.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -53,7 +53,7 @@
       </Id>
       <DisplayName>TIE Droid Weaponry (HQ)</DisplayName>
 	   <Description>Standard TIE Armament of twin L-s1 laser cannons. Fires a volley of 15 rounds per reload cycle.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Weaponry.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornDroid\RebornDroid.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -103,7 +103,7 @@
       <DisplayName>TIE Droid Reverse-Engine(HQ)</DisplayName>
 	   <Description>Primary Engine unit of the TIE Interceptor, superior to the standard TIE engine unit.
 	   Install onto the Gas Storage unit of standard TIE constructions.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_MainThruster.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornDroid\RebornDroidTh.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		<IsStandAlone>true</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -176,7 +176,7 @@
       <DisplayName>TIE Droid Main-Engine (HQ)</DisplayName>
 	   <Description>Primary Engine unit of the TIE Interceptor, superior to the standard TIE engine unit.
 	   Install onto the Gas Storage unit of standard TIE constructions.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_MainThruster.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornDroid\RebornDroidTh.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		<IsStandAlone>true</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -248,7 +248,7 @@
       </Id>
       <DisplayName>TIE Droid Gyro (HQ)</DisplayName>
 	   <Description>TIE Gyro, attached via the Strut end, acting as the mount point for the Wings of the TIE.</Description>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Gyro.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornDroid\RebornDroidGy.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -290,7 +290,7 @@
       </Id>
       <DisplayName>TIE Droid Battery (HQ)</DisplayName>
 	  <Description>Strut for the TIE Fighter, acts as a primary Energy source for long-term use.</Description>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Strut.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornDroid\RebornDroidBa.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -337,7 +337,7 @@
       </Id>
       <DisplayName>TIE Droid Wing A (HQ)</DisplayName>
 	   <Description>Classic TIE Wing, acts as an Solar Panel, providing Idle secondary power-intake.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Wing_Fighter.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornDroid\RebornDroidSol.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -388,7 +388,7 @@
       </Id>
       <DisplayName>TIE Droid Wing B (HQ)</DisplayName>
 	   <Description>Classic TIE Wing, acts as an Solar Panel, providing Idle secondary power-intake.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Wing_Fighter.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornDroid\RebornDroidSol.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -438,7 +438,7 @@
         <SubtypeId>K_Imperial_Reborn_TIE_Droid_Connector</SubtypeId>
       </Id>
       <DisplayName>TIE Droid Connector (HQ)</DisplayName>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Hatch.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornDroid\RebornDroidConn.dds</Icon>
 	   <Description>TIE Fighter Connector Unit, install on the Roof \ Top of the TIE Core unit.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -483,7 +483,7 @@
       </Id>
       <DisplayName>TIE Droid Antenna (HQ)</DisplayName>
 	   <Description>Antenna Unit for the TIE, allowing remote control to remote access. Install anywhere on the TIE.</Description>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornDroid\RebornDroidAnt.dds</Icon>
 	   <IsStandAlone>true</IsStandAlone>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>

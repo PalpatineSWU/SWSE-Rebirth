@@ -10,7 +10,7 @@
         <SubtypeId>K_Imperial_SpeederBike_Engine</SubtypeId>
       </Id>
       <DisplayName>Speederbike Engine</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Speederbike\SpeederTh.dds</Icon>
 	   <Description>SpeederBike Primary engine. Audio matches the primary startup and swoop effects.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -82,7 +82,7 @@
         <SubtypeId>K_Imperial_SpeederBike_SideEngine_I</SubtypeId>
       </Id>
       <DisplayName>Speederbike Side-Engine A</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Speederbike\SpeederTh.dds</Icon>
 	   <Description>SpeederBike side-engine, used for side mounting. Audio matches these roles.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -153,7 +153,7 @@
         <SubtypeId>K_Imperial_SpeederBike_SideEngine_II</SubtypeId>
       </Id>
       <DisplayName>Speederbike Side-Engine B</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Speederbike\SpeederTh.dds</Icon>
 	   <Description>SpeederBike side-engine, used for side mounting. Audio matches these roles.</Description>
       <CubeSize>Small</CubeSize>
 	    <IsStandAlone>true</IsStandAlone>
@@ -224,7 +224,7 @@
         <SubtypeId>K_Imperial_SpeederBike_SideEngine_III</SubtypeId>
       </Id>
       <DisplayName>Speederbike Side-Engine C</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Speederbike\SpeederTh.dds</Icon>
 	   <Description>SpeederBike side-engine, used for Top, underside and braking positions. Audio matches these roles.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -297,7 +297,7 @@
       </Id>
       <DisplayName>Speederbike Battery</DisplayName>
 	  <Description>SpeederBike backup power storage, provides the bike with a flight time.</Description>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Strut.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Speederbike\SpeederBat.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -338,7 +338,7 @@
         <SubtypeId>K_Imperial_SpeederBike_Gyro</SubtypeId>
       </Id>
       <DisplayName>Speederbike Gyro</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Speederbike\SpeederGy.dds</Icon>
 	   <Description>SpeederBike gyroscoptic Controls, handles turning for the Bike.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -383,7 +383,7 @@
       </Id>
       <DisplayName>Speederbike Pilot</DisplayName>
 	   <Description>Limited Droid-Brain, designed for automated freight transport across sectors for specialized shipping.</Description>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Speederbike\SpeederRc.dds</Icon>
       <CubeSize>Small</CubeSize>
 	   <IsStandAlone>true</IsStandAlone>
 	  <GuiVisible>false</GuiVisible>
@@ -427,7 +427,7 @@
         <SubtypeId>K_Imperial_SpeederBike_Cockpit</SubtypeId>
       </Id>
       <DisplayName>Speederbike Seat</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Speederbike\SpeederCock.dds</Icon>
 	   <Description>The Seat for an Imperial Speeder Bike, seats a single pilot.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -482,7 +482,7 @@
       </Id>
       <DisplayName>Speederbike Gas Tank</DisplayName>
 	   <Description>Stores Gas for the Bike's primary reactor, rear, front and underside mountings.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_GasStorage.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Speederbike\SpeederTank.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -541,7 +541,7 @@
       <SubtypeId>K_Imperial_SpeederBike_Weaponry</SubtypeId>
       </Id>
       <DisplayName>Speederbike Weaponry</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE_Interceptor.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Speederbike\Speeder.dds</Icon>
 	  <Description>NON FUNCTIONAL SpeederBike laser-cannon array, slow firing and inaccurate.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>

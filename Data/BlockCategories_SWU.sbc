@@ -33,152 +33,85 @@
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
-        <SubtypeId/>
+        <SubtypeId>FighterCraft1</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Category_Cockpit</DisplayName>
-      <Name>Cockpits</Name>
+      <DisplayName>Fightercraft Cockpits</DisplayName>
+      <Name>Fightercraft Cockpits</Name>
+      <StrictSearch>true</StrictSearch>      
       <ItemIds>
-        <string>Cockpit/CockpitOpen</string>
-        <string>Cockpit/CockpitOpen</string>
-        <string>Cockpit/CockpitOpen</string>
+        <string>K_Rebellion_RZ1_Cockpit</string>
+        <string>K_Imperial_ProbeDroid_Top_Sensor</string>
+        <string>K_Pirates_StarViper_Cockpit</string>
+        <string>K_NewRepublic_Ionizer_Cockpit</string>
+        <string>K_NewRepublic_AWing_Cockpit</string>
+        <string>K_NewRepublic_EWing_Cockpit</string>
+        <string>K_NewRepublic_H60_Cockpit_A</string>
+        <string>K_NewRepublic_XWing_70_Cockpit</string>
+        <string>K_NewRepublic_XWing_XJ5_Cockpit</string>
+        <string>K_NewRepublic_YWing_CockpitA</string>        
+        <string>K_Imperial_A9Interceptor_Cockpit</string>
+        <string>K_Imperial_SpeederBike_Cockpit</string>
+        <string>K_Chiss_Clawcraft_Cockpit</string>        
+        <string>K_Imperial_A9Interceptor_Cockpit</string>
+        <string>K_Imperial_HowlRunner_Cockpit</string>
+        <string>K_TIE_AdvancedV1_Hyperdrive</string>
+        <string>K_TIE_Fighter_Cockpit</string>        
+        <string>K_TIE_Defender_Lifesupport</string>
+        <string>K_TIE_Interceptor_Wing</string>
+        <string>K_TIE_Bomber_Wing</string>
+        <string>K_TIE_Drone_Core</string>
+        <string>K_TIE_Hunter_Lifesupport</string>
+        <string>K_TIE_V9_Wing</string>
+        <string>K_Imperial_Reborn_TIE_Bomber_Cockpit</string>
+        <string>K_Imperial_Reborn_TIE_Avenger_Cockpit</string>
+        <string>K_Imperial_Reborn_TIE_Fighter_Cockpit</string>
+        <string>K_Imperial_Reborn_TIE_Interceptor_Cockpit</string>
+        <string>K_Imperial_Reborn_TIE_Droid_Core</string>
+        <string>K_Imperial_Reborn_TIE_Defender_Cockpit</string>
+        <string>K_Imperial_Reborn_TIE_Oppressor_Cockpit</string>
+        <string>K_Imperial_Reborn_FirstOrder_TIE_Fighter_Cockpit</string>
       </ItemIds>
     </Category>
 
 	   <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
-        <SubtypeId>ImperialMod_Starfighters</SubtypeId>
+        <SubtypeId>FighterCraft2</SubtypeId>
       </Id>
       <DisplayName>Fightercraft Sets</DisplayName>
       <Name>Sets of Fightercraft</Name>
       <ItemIds>
+        <string>K_Rebellion_RZ1_Cockpit</string>
+        <string>K_Imperial_ProbeDroid_Top_Sensor</string>
         <string>K_Pirates_StarViper_Cockpit</string>
-        <string>Ionizer_Cockpit</string>
-        <string>AWing_Cockpit</string>
-        <string>EWing_Cockpit</string>
-        <string>H60_Cockpit_A</string>
-        <string>XWing_70_Cockpit</string>
-        <string>XWing_XJ5_Cockpit</string>
+        <string>K_NewRepublic_Ionizer_Cockpit</string>
+        <string>K_NewRepublic_AWing_Cockpit</string>
+        <string>K_NewRepublic_EWing_Cockpit</string>
+        <string>K_NewRepublic_H60_Cockpit_A</string>
+        <string>K_NewRepublic_XWing_70_Cockpit</string>
+        <string>K_NewRepublic_XWing_XJ5_Cockpit</string>
+        <string>K_NewRepublic_YWing_CockpitA</string>        
         <string>K_Imperial_A9Interceptor_Cockpit</string>
-        <string>AWing_MainEngine</string>
-        <string>AWing_MainEngineII</string>
-        <string>AWing_Reactor</string>
-        <string>AWing_Gyro</string>
-        <string>AWing_Cockpit</string>
-        <string>AWing_Launcher</string>
-        <string>AWing_Camera</string>
-        <string>AWing_Hyperdrive</string>
-        <string>AWing_PowerCell</string>
-        <string>AWing_LaserCannon</string>
-        <string>AWing_AMS</string>
-        <string>AWing_LandingGear</string>
-        <string>AWing_Antenna</string>
-        <string>AWing_RC</string>
-        <string>EWing_Cockpit</string>
-        <string>EWing_Hatch</string>
-        <string>EWing_Reactor</string>
-        <string>EWing_Battery</string>
-        <string>EWing_RC</string>
-        <string>EWing_GyroI</string>
-        <string>EWing_GyroII</string>
-        <string>EWing_EngineForward</string>
-        <string>EWing_EngineInverted</string>
-        <string>EWing_LifeSupport</string>
-        <string>EWing_RoofGun</string>
-        <string>EWing_ProtonLauncher</string>
-        <string>EWing_WingGunA</string>
-        <string>EWing_WingGunB</string>
-        <string>EWing_Hyperdrive</string>
-        <string>EWing_Antenna</string>
-        <string>EWing_LandingGear</string>
-        <string>H60_Reactor</string>
-        <string>H60_Battery</string>
-        <string>H60_Hyperdrive</string>
-        <string>H60_Engine_Inverse</string>
-        <string>H60_Engine_Primary</string>
-        <string>H60_Engine_Cockpit</string>
-        <string>H60_BombBay</string>
-        <string>H60_ProtonLauncher</string>
-        <string>H60_IonCannon</string>
-        <string>H60_MediumLaserCannon</string>
-        <string>H60_Antenna</string>
-        <string>H60_Cockpit_A</string>
-        <string>H60_Cockpit_B</string>
-        <string>H60_Cockpit_A_Hatch</string>
-        <string>H60_Cockpit_B_Hatch</string>
-        <string>Ionizer_LC</string>
-        <string>Ionizer_IonWingA</string>
-        <string>Ionizer_IonWingB</string>
-        <string>Ionizer_TorpedoLauncher</string>
-        <string>Ionizer_Cockpit</string>
-        <string>Ionizer_Gyro</string>
-        <string>Ionizer_Reactor</string>
-        <string>Ionizer_LifeSupport</string>
-        <string>Ionizer_Battery</string>
-        <string>Ionizer_Hyperdrive</string>
-        <string>Ionizer_MainEngineReverse</string>
-        <string>Ionizer_MainEngine</string>
-        <string>Ionizer_SubEngineI</string>
-        <string>Ionizer_SubEngineII</string>
-        <string>Shared_SecondaryThruster</string>
-        <string>Shared_SecondaryThruster_Light</string>
-        <string>XWing_70_Cockpit</string>
-        <string>XWing_70_Hatch</string>
-        <string>XWing_70_Battery</string>
-        <string>XWing_70_Gyro</string>
-        <string>XWing_70_Antenna</string>
-        <string>XWing_70_Reactor</string>
-        <string>XWing_70_LifeSupport</string>
-        <string>XWing_70_Hyperdrive</string>
-        <string>XWing_70_Engine_Reverse_A</string>
-        <string>XWing_70_Engine_Reverse_B</string>
-        <string>XWing_70_Engine_Main</string>
-        <string>XWing_70_Weaponry_Wing_A</string>
-        <string>XWing_70_Weaponry_Wing_B</string>
-        <string>XWing_70_ProtonTorpedoLauncher</string>
-        <string>XWing_70_LandingGear</string>
-        <string>XWing_70_Connector</string>
-        <string>XWing_XJ5_Cockpit</string>
-        <string>XWing_XJ5_Hatch</string>
-        <string>XWing_XJ5_Battery</string>
-        <string>XWing_XJ5_Gyro</string>
-        <string>XWing_XJ5_Antenna</string>
-        <string>XWing_XJ5_Reactor</string>
-        <string>XWing_XJ5_LifeSupport</string>
-        <string>XWing_XJ5_Hyperdrive</string>
-        <string>XWing_XJ5_Engine_Reverse_A</string>
-        <string>XWing_XJ5_Engine_Reverse_B</string>
-        <string>XWing_XJ5_Engine_Main</string>
-        <string>XWing_XJ5_Weaponry_Wing_A</string>
-        <string>XWing_XJ5_Weaponry_Wing_B</string>
-        <string>XWing_XJ5_Launcher</string>
-        <string>XWing_70_Connector</string>
-        <string>YWing_LaserCannon</string>
-        <string>YWing_BombBay</string>
-        <string>YWing_TorpedoLauncher</string>
-        <string>YWing_IonTurret</string>
-        <string>YWing_LaserTurret</string>
-        <string>YWing_CockpitA</string>
-        <string>YWing_GyroWing</string>
-        <string>YWing_Reactor</string>
-        <string>YWing_Lifesupport</string>
-        <string>YWing_Storage</string>
-        <string>YWing_Hyperdrive</string>
-        <string>YWing_Engine_Main_I</string>
-        <string>YWing_Engine_Main_II</string>
-        <string>YWing_Engine_Secondary_I</string>
-        <string>YWing_Engine_Secondary_II</string>
-        <string>K_TIE_Fighter_Cockpit</string>
+        <string>K_Imperial_SpeederBike_Cockpit</string>
+        <string>K_Chiss_Clawcraft_Cockpit</string>        
+        <string>K_Imperial_A9Interceptor_Cockpit</string>
+        <string>K_Imperial_HowlRunner_Cockpit</string>
+        <string>K_TIE_AdvancedV1_Hyperdrive</string>
+        <string>K_TIE_Fighter_Cockpit</string>        
+        <string>K_TIE_Defender_Lifesupport</string>
         <string>K_TIE_Interceptor_Wing</string>
-        <string>K_TIE_Bomber_Pod</string>
+        <string>K_TIE_Bomber_Wing</string>
         <string>K_TIE_Drone_Core</string>
         <string>K_TIE_Hunter_Lifesupport</string>
-        <string>K_Imperial_HowlRunner_Cockpit</string>
-        <string>K_Imperial_A9Interceptor_Cockpit</string>
+        <string>K_TIE_V9_Wing</string>
+        <string>K_Imperial_Reborn_TIE_Bomber_Cockpit</string>
+        <string>K_Imperial_Reborn_TIE_Avenger_Cockpit</string>
         <string>K_Imperial_Reborn_TIE_Fighter_Cockpit</string>
         <string>K_Imperial_Reborn_TIE_Interceptor_Cockpit</string>
         <string>K_Imperial_Reborn_TIE_Droid_Core</string>
         <string>K_Imperial_Reborn_TIE_Defender_Cockpit</string>
+        <string>K_Imperial_Reborn_TIE_Oppressor_Cockpit</string>
+        <string>K_Imperial_Reborn_FirstOrder_TIE_Fighter_Cockpit</string>
       </ItemIds>
     </Category>
 	
@@ -456,29 +389,29 @@
 <string>K_Imperial_ProbeDroid_Bottom_Thruster</string>
 <string>K_Imperial_ProbeDroid_Bottom_III</string>
 <string>K_Imperial_PatrolCraft_MainEngine</string>
-<string>AWing_MainEngine</string>
-<string>AWing_MainEngineII</string>
-<string>EWing_EngineForward</string>
-<string>EWing_EngineInverted</string>
-<string>H60_Engine_Inverse</string>
-<string>H60_Engine_Primary</string>
-<string>H60_Engine_Cockpit</string>
-<string>Ionizer_MainEngineReverse</string>
-<string>Ionizer_MainEngine</string>
-<string>Ionizer_SubEngineI</string>
-<string>Ionizer_SubEngineII</string>
-<string>Shared_SecondaryThruster</string>
-<string>Shared_SecondaryThruster_Light</string>
-<string>XWing_70_Engine_Reverse_A</string>
-<string>XWing_70_Engine_Reverse_B</string>
-<string>XWing_70_Engine_Main</string>
-<string>XWing_XJ5_Engine_Reverse_A</string>
-<string>XWing_XJ5_Engine_Reverse_B</string>
-<string>XWing_XJ5_Engine_Main</string>
-<string>YWing_Engine_Main_I</string>
-<string>YWing_Engine_Main_II</string>
-<string>YWing_Engine_Secondary_I</string>
-<string>YWing_Engine_Secondary_II</string>
+<string>K_NewRepublic_AWing_MainEngine</string>
+<string>K_NewRepublic_AWing_MainEngineII</string>
+<string>K_NewRepublic_EWing_EngineForward</string>
+<string>K_NewRepublic_EWing_EngineInverted</string>
+<string>K_NewRepublic_H60_Engine_Inverse</string>
+<string>K_NewRepublic_H60_Engine_Primary</string>
+<string>K_NewRepublic_H60_Engine_Cockpit</string>
+<string>K_NewRepublic_Ionizer_MainEngineReverse</string>
+<string>K_NewRepublic_Ionizer_MainEngine</string>
+<string>K_NewRepublic_Ionizer_SubEngineI</string>
+<string>K_NewRepublic_Ionizer_SubEngineII</string>
+<string>K_NewRepublic_Shared_SecondaryThruster</string>
+<string>K_NewRepublic_Shared_SecondaryThruster_Light</string>
+<string>K_NewRepublic_XWing_70_Engine_Reverse_A</string>
+<string>K_NewRepublic_XWing_70_Engine_Reverse_B</string>
+<string>K_NewRepublic_XWing_70_Engine_Main</string>
+<string>K_NewRepublic_XWing_XJ5_Engine_Reverse_A</string>
+<string>K_NewRepublic_XWing_XJ5_Engine_Reverse_B</string>
+<string>K_NewRepublic_XWing_XJ5_Engine_Main</string>
+<string>K_NewRepublic_YWing_Engine_Main_I</string>
+<string>K_NewRepublic_YWing_Engine_Main_II</string>
+<string>K_NewRepublic_YWing_Engine_Secondary_I</string>
+<string>K_NewRepublic_YWing_Engine_Secondary_II</string>
 <string>K_Pirates_Thrusters_Light</string>
 <string>K_Pirates_Thrusters_LightRec</string>
 <string>K_Pirates_Thrusters_LightMid</string>

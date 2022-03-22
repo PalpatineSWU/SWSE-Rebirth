@@ -9,7 +9,7 @@
 		<Public>false</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
-        <SubtypeId>Ionizer_LC</SubtypeId>
+        <SubtypeId>K_NewRepublic_Ionizer_LC</SubtypeId>
       </Id>
       <DisplayName>New Republic Ionizer Laser-Cannon</DisplayName>
 	   <Description>New Republic Laser-Cannon Pair, 180-Degree Firing Arc.
@@ -65,7 +65,7 @@ Range: 450m
 		<Public>false</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
-        <SubtypeId>Ionizer_IonWingA</SubtypeId>
+        <SubtypeId>K_NewRepublic_Ionizer_IonWingA</SubtypeId>
       </Id>
       <DisplayName>New Republic Ionizer Wing (I)</DisplayName>
 	   <Description>New Republic Ionizer Dual-Ion-Cannon Wing
@@ -118,7 +118,7 @@ Weapon: Ion-Cannon 2x
 		<Public>false</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
-        <SubtypeId>Ionizer_IonWingB</SubtypeId>
+        <SubtypeId>K_NewRepublic_Ionizer_IonWingB</SubtypeId>
       </Id>
       <DisplayName>New Republic Ionizer Wing (II)</DisplayName>
 	   <Description>New Republic Ionizer Dual-Ion-Cannon Wing
@@ -171,7 +171,7 @@ Weapon: Ion-Cannon 2x
 		<Public>false</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
-        <SubtypeId>Ionizer_TorpedoLauncher</SubtypeId>
+        <SubtypeId>K_NewRepublic_Ionizer_TorpedoLauncher</SubtypeId>
       </Id>
       <DisplayName>New Republic Ionizer Warhead Launcher</DisplayName>
 	   <Description>New Republic Warhead Launcher.
@@ -221,7 +221,7 @@ Payload: Advanced Concussion, I7 Ion Pulse-Missile, Nano Missile,  Flare</Descri
 <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
       <Id>
         <TypeId>Cockpit</TypeId>
-        <SubtypeId>Ionizer_Cockpit</SubtypeId>
+        <SubtypeId>K_NewRepublic_Ionizer_Cockpit</SubtypeId>
       </Id>
       <DisplayName>New Republic Ionizer Cockpit</DisplayName>
       <Icon>Textures\GUI\Icons\Ships\ionizer\IonizerCock.dds</Icon>
@@ -279,7 +279,7 @@ Payload: Advanced Concussion, I7 Ion Pulse-Missile, Nano Missile,  Flare</Descri
 <Definition xsi:type="MyObjectBuilder_GyroDefinition">
       <Id>
         <TypeId>Gyro</TypeId>
-        <SubtypeId>Ionizer_Gyro</SubtypeId>
+        <SubtypeId>K_NewRepublic_Ionizer_Gyro</SubtypeId>
       </Id>
       <DisplayName>New Republic Ionizer Gyro</DisplayName>
 	   <Description>New Republic RZ-2 Gyroscopic Control System.</Description>
@@ -320,7 +320,7 @@ Payload: Advanced Concussion, I7 Ion Pulse-Missile, Nano Missile,  Flare</Descri
 <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
-        <SubtypeId>Ionizer_Reactor</SubtypeId>
+        <SubtypeId>K_NewRepublic_Ionizer_Reactor</SubtypeId>
       </Id>
       <DisplayName>New Republic Ionizer Reactor</DisplayName>
 	    <Description>New Republic Ionizer Synthetic-Fuel Reactor, provides 35 Units.</Description>
@@ -390,7 +390,7 @@ Payload: Advanced Concussion, I7 Ion Pulse-Missile, Nano Missile,  Flare</Descri
 <Definition xsi:type="MyObjectBuilder_OxygenFarmDefinition">
       <Id>
         <TypeId>OxygenFarm</TypeId>
-        <SubtypeId>Ionizer_LifeSupport</SubtypeId>
+        <SubtypeId>K_NewRepublic_Ionizer_LifeSupport</SubtypeId>
       </Id>
       <DisplayName>New Republic Ionizer Life-Support</DisplayName>
       <Icon>Textures\GUI\Icons\Ships\ionizer\Ionizer.dds</Icon>
@@ -451,7 +451,7 @@ Payload: Advanced Concussion, I7 Ion Pulse-Missile, Nano Missile,  Flare</Descri
 <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
       <Id>
         <TypeId>BatteryBlock</TypeId>
-        <SubtypeId>Ionizer_Battery</SubtypeId>
+        <SubtypeId>K_NewRepublic_Ionizer_Battery</SubtypeId>
       </Id>
       <DisplayName>New Republic Ionizer Battery</DisplayName>
 	  <Description>New Republic E-Wing Battery unit, mounted onto the front of the E-Wing, supplies a max of 25 units, with a storage of 45 units.</Description>
@@ -496,7 +496,7 @@ Payload: Advanced Concussion, I7 Ion Pulse-Missile, Nano Missile,  Flare</Descri
 <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
       <Id>
         <TypeId>JumpDrive</TypeId>
-        <SubtypeId>Ionizer_Hyperdrive</SubtypeId>
+        <SubtypeId>K_NewRepublic_Ionizer_Hyperdrive</SubtypeId>
       </Id>
       <DisplayName>New Republic Ionizer Hyperdrive</DisplayName>
 	   <Description>New Republic Technology, mounts on the E-Wing's Reactor Back-End.
@@ -547,7 +547,7 @@ Payload: Advanced Concussion, I7 Ion Pulse-Missile, Nano Missile,  Flare</Descri
 <Definition xsi:type="MyObjectBuilder_ThrustDefinition"> <!--  Deacceleration -->	
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>Ionizer_MainEngineReverse</SubtypeId>
+        <SubtypeId>K_NewRepublic_Ionizer_MainEngineReverse</SubtypeId>
       </Id>
       <DisplayName>New Republic Ionizer Engine (I)</DisplayName>
 	   <Description>New Republic Ionizer Engine Unit.</Description>
@@ -619,7 +619,7 @@ Payload: Advanced Concussion, I7 Ion Pulse-Missile, Nano Missile,  Flare</Descri
 <Definition xsi:type="MyObjectBuilder_ThrustDefinition"> <!--  Acceleration -->	
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>Ionizer_MainEngine</SubtypeId>
+        <SubtypeId>K_NewRepublic_Ionizer_MainEngine</SubtypeId>
       </Id>
       <DisplayName>New Republic Ionizer Engine (II)</DisplayName>
 	   <Description>New Republic Ionizer Engine Unit.</Description>
@@ -694,7 +694,7 @@ Payload: Advanced Concussion, I7 Ion Pulse-Missile, Nano Missile,  Flare</Descri
 <Definition xsi:type="MyObjectBuilder_ThrustDefinition"> <!--  Sub Engine -->	
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>Ionizer_SubEngineI</SubtypeId>
+        <SubtypeId>K_NewRepublic_Ionizer_SubEngineI</SubtypeId>
       </Id>
       <DisplayName>New Republic Ionizer Sub-Engine (I)</DisplayName>
 	   <Description>New Republic Ionizer Secondary Engine Unit. </Description>
@@ -767,7 +767,7 @@ Payload: Advanced Concussion, I7 Ion Pulse-Missile, Nano Missile,  Flare</Descri
 <Definition xsi:type="MyObjectBuilder_ThrustDefinition"> <!--  Sub Engine -->	
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>Ionizer_SubEngineII</SubtypeId>
+        <SubtypeId>K_NewRepublic_Ionizer_SubEngineII</SubtypeId>
       </Id>
       <DisplayName>New Republic Ionizer Sub-Engine (II)</DisplayName>
 	   <Description>New Republic Ionizer Secondary Engine Unit. Force Opposite to Mounting</Description>

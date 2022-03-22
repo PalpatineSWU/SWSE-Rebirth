@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
  <CubeBlocks>
- 
-
-	
-	
-	
 <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
       <Id>
         <TypeId>Cockpit</TypeId>
-        <SubtypeId>XWing_70_Cockpit</SubtypeId>
+        <SubtypeId>K_NewRepublic_XWing_70_Cockpit</SubtypeId>
       </Id>
       <DisplayName>New Republic X-Wing T70 Cockpit</DisplayName>
-    <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\T70\T70Cock.dds</Icon>
 	   <Description>New Republic X-Wing Cockpit, with full LCD Support built-in, Internal oxygen-supply. Pair with X-Wing or E-Wing Canopy, for full visual and practical use.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -70,10 +65,10 @@
 	<Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
       <Id>
         <TypeId>AdvancedDoor</TypeId>
-        <SubtypeId>XWing_70_Hatch</SubtypeId>
+        <SubtypeId>K_NewRepublic_XWing_70_Hatch</SubtypeId>
       </Id>
       <DisplayName>New Republic X-Wing T70 Canopy</DisplayName>
-     <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\T70\T70Cock.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
 	  <Description>New Republic X-Wing Canopy, designed to be mounted onto the top of the Cockpit, and restricts access to the cockpit controls.</Description>
@@ -140,11 +135,11 @@
 <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
       <Id>
         <TypeId>BatteryBlock</TypeId>
-        <SubtypeId>XWing_70_Battery</SubtypeId>
+        <SubtypeId>K_NewRepublic_XWing_70_Battery</SubtypeId>
       </Id>
       <DisplayName>New Republic X-Wing T70 Battery</DisplayName>
 	  <Description>New Republic E-Wing Battery unit, mounted onto the front of the E-Wing, supplies a max of 25 units, with a storage of 45 units.</Description>
-     <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\T70\T70Bat.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -188,11 +183,11 @@
 	<Definition xsi:type="MyObjectBuilder_GyroDefinition">
       <Id>
         <TypeId>Gyro</TypeId>
-        <SubtypeId>XWing_70_Gyro</SubtypeId>
+        <SubtypeId>K_NewRepublic_XWing_70_Gyro</SubtypeId>
       </Id>
       <DisplayName>New Republic X-Wing T70 Gyro</DisplayName>
 	   <Description>New Republic E-Wing Wing Module, packing Gyro Power.</Description>
-    <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\T70\T70Gyro.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -237,11 +232,11 @@
 	<Definition xsi:type="MyObjectBuilder_RadioAntennaDefinition">
       <Id>
         <TypeId>RadioAntenna</TypeId>
-        <SubtypeId>XWing_70_Antenna</SubtypeId>
+        <SubtypeId>K_NewRepublic_XWing_70_Antenna</SubtypeId>
       </Id>
        <DisplayName>New Republic X-Wing T70 Antenna</DisplayName>
 	   <Description>New Republic Antenna Unit, for the E-Wing, installed on the Hyperdrive.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\T70\T70Ant.dds</Icon>
 	   <IsStandAlone>false</IsStandAlone>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -277,11 +272,11 @@
 	<Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
-        <SubtypeId>XWing_70_Reactor</SubtypeId>
+        <SubtypeId>K_NewRepublic_XWing_70_Reactor</SubtypeId>
       </Id>
 	   <Description>New Republic X-Wing T70 Reactor, Runs on Synthetic Fuel, and has an effective output of 30 Units.</Description>
       <DisplayName>New Republic X-Wing T70 Reactor</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\T70\T70Re.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -350,11 +345,11 @@
 	 <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
       <Id>
         <TypeId>OxygenGenerator</TypeId>
-        <SubtypeId>XWing_70_LifeSupport</SubtypeId>
+        <SubtypeId>K_NewRepublic_XWing_70_LifeSupport</SubtypeId>
       </Id>
        <DisplayName>New Republic X-Wing T70 Life-Support</DisplayName>
 	   <Description>New Republic X-Wing T70 Life-Support System.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\T70\T70.dds</Icon>
 	   <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -431,12 +426,12 @@
 	<Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
       <Id>
         <TypeId>JumpDrive</TypeId>
-        <SubtypeId>XWing_70_Hyperdrive</SubtypeId>
+        <SubtypeId>K_NewRepublic_XWing_70_Hyperdrive</SubtypeId>
       </Id>
       <DisplayName>New Republic X-Wing T70 Hyperdrive</DisplayName>
 	   <Description>New Republic Technology.
 	   Allows the X-Wing to hyperspace travel, and has a quick-charge time.</Description>
-       <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\T70\T70Jd.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -476,11 +471,11 @@
 	<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>XWing_70_Engine_Reverse_A</SubtypeId>
+        <SubtypeId>K_NewRepublic_XWing_70_Engine_Reverse_A</SubtypeId>
       </Id>
       <DisplayName>New Republic X-Wing T70 Inverse-Engine (I)</DisplayName>
 	  <Description>New Republic X-Wing Inverse Engine, designed for pairing with the Primary-Engine.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\T70\T70Th.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		 <IsStandAlone>false</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -553,11 +548,11 @@
 	<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>XWing_70_Engine_Reverse_B</SubtypeId>
+        <SubtypeId>K_NewRepublic_XWing_70_Engine_Reverse_B</SubtypeId>
       </Id>
       <DisplayName>New Republic X-Wing T70 Inverse-Engine (II)</DisplayName>
 	  <Description>New Republic X-Wing Inverse Engine, designed for pairing with the Primary-Engine.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\T70\T70Th.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		 <IsStandAlone>false</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -630,11 +625,11 @@
 	<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>XWing_70_Engine_Main</SubtypeId>
+        <SubtypeId>K_NewRepublic_XWing_70_Engine_Main</SubtypeId>
       </Id>
       <DisplayName>New Republic X-Wing T70 Main-Engine</DisplayName>
 	  <Description>New Republic X-Wing Main Engine, designed for pairing with the Inverse-Engine.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\T70\T70Th.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		 <IsStandAlone>false</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -707,11 +702,11 @@
 		
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
-        <SubtypeId>XWing_70_Weaponry_Wing_A</SubtypeId>
+        <SubtypeId>K_NewRepublic_XWing_70_Weaponry_Wing_A</SubtypeId>
       </Id>
      <DisplayName>New Republic X-Wing T70 Weaponry (A)</DisplayName>
 	  <Description>NON FUNCTIOING  X-Wing Wing with Laser-Cannon.</Description>
-     <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\T70\T70.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -764,11 +759,11 @@
 		
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
-        <SubtypeId>XWing_70_Weaponry_Wing_B</SubtypeId>
+        <SubtypeId>K_NewRepublic_XWing_70_Weaponry_Wing_B</SubtypeId>
       </Id>
      <DisplayName>New Republic X-Wing T70 Weaponry (B)</DisplayName>
 	  <Description>NON FUNCTIOING c X-Wing Wing with Laser-Cannon.</Description>
-     <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\T70\T70.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -821,14 +816,14 @@
 		
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
-        <SubtypeId>XWing_70_ProtonTorpedoLauncher</SubtypeId>
+        <SubtypeId>K_NewRepublic_XWing_70_ProtonTorpedoLauncher</SubtypeId>
       </Id>
      <DisplayName>New Republic X-Wing T70 Launcher</DisplayName>
 	  <Description>NON FUNCTIOING  X-Wing Launcher.
 	  Standard Missile: Proton-Torpedo (Lock-On), Concussion Missile
 	   Speciality Missiles: MagPulse, Nano, ScramPulse
 	   Missile Range: 3km</Description>
-     <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\T70\T70.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -882,12 +877,12 @@
 	<Definition xsi:type="MyObjectBuilder_LandingGearDefinition">
       <Id>
         <TypeId>LandingGear</TypeId>
-        <SubtypeId>XWing_70_LandingGear</SubtypeId>
+        <SubtypeId>K_NewRepublic_XWing_70_LandingGear</SubtypeId>
       </Id>
     <DisplayName>New Republic X-Wing T70 Landing Pad</DisplayName>
 	  <Description>New Republic X-Wing Landing Gear Unit, Underside Mounting.</Description>
 	  <GuiVisible>true</GuiVisible>
-      <Icon>Textures\GUI\Icons\Cubes\landing_gear.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\T70\T70Lg.dds</Icon>
       <CubeSize>Small</CubeSize>
 	     <IsStandAlone>false</IsStandAlone>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -925,11 +920,11 @@
 	 <Definition xsi:type="MyObjectBuilder_ShipConnectorDefinition">
       <Id>
         <TypeId>ShipConnector</TypeId>
-        <SubtypeId>XWing_70_Connector</SubtypeId>
+        <SubtypeId>K_NewRepublic_XWing_70_Connector</SubtypeId>
       </Id>
        <DisplayName>New Republic X-Wing T70 Connector</DisplayName>
 	  <Description>New Republic X-Wing Connector for Battery Recharge.</Description>
-     <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+    <Icon>Textures\GUI\Icons\Ships\T70\T70Conn.dds</Icon>
 	        <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
 	   <IsStandAlone>false</IsStandAlone>

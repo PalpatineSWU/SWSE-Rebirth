@@ -1161,7 +1161,7 @@
         <SubtypeId>K_Imperial_SpeederBikeProp</SubtypeId>
       </Id>
       <DisplayName>Republic SpeederBike Prop</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\stairs.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\Speederbike\Speeder.dds</Icon>
       <Description>Republic SpeederBike Prop.</Description>
 	   <GuiVisible>true</GuiVisible>
       <CubeSize>Small</CubeSize>

@@ -4,14 +4,14 @@
  	
 		
 	<Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
-      <Public>false</Public>
+      <Public>true</Public>
       <Id>
         <TypeId>SmallMissileLauncher</TypeId>
         <SubtypeId>K_TIE_Bomber_Pod</SubtypeId>
       </Id>
 	   <Description>TIE Bomber Pod, acts as the TIE's frontal-facing Missile Launcher. Fires a Standard TIE Missile.</Description>
       <DisplayName>TIE Bomber Pod</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE_Bomber.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieBomber\TieBomb.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -37,20 +37,6 @@
 			   <DamageEffectName>Imperial_Damages_Electrical</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
 	  <DestroyEffect>Imperial_ElectricalExplosion</DestroyEffect>
-	  <BlockVariants>
-	    <BlockVariant>
-          <TypeId>SmallMissileLauncher</TypeId>
-          <SubtypeId>K_TIE_Bomber_Pod_CenterBombbay</SubtypeId>
-        </BlockVariant>
-	  <BlockVariant>
-          <TypeId>Reactor</TypeId>
-          <SubtypeId>K_TIE_Bomber_Pod_Center</SubtypeId>
-        </BlockVariant>
-	  <BlockVariant>
-          <TypeId>BatteryBlock</TypeId>
-          <SubtypeId>K_TIE_Bomber_Pod_End</SubtypeId>
-        </BlockVariant>
-			      </BlockVariants>
 				   <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
     </Definition>
 	
@@ -62,7 +48,7 @@
       </Id>
 	   <Description>TIE Bomber's primary ordance-system, allowing the release of the TIE's Photon-Bombs.</Description>
       <DisplayName>TIE Bomber Ordance Pod</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE_Bomber.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieBomber\TieBomb.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -98,7 +84,7 @@
       </Id>
 	   <Description>TIE Bomber Pod, acting as a Backup Reactor for the TIE, for Gameplay reasons.</Description>
       <DisplayName>TIE Bomber Pod-II</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE_Bomber.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieBomber\TieBombRe.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -159,7 +145,7 @@
       </Id>
 	   <Description>Closing Cap of the TIE Bomber Pods, this also acts as the TIE's primary power supply.</Description>
       <DisplayName>TIE Bomber Pod-End</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE_Bomber.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieBomber\TieBombBa.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -198,7 +184,7 @@
       </Id>
 	   <Description>TIE Engine Caliberated for the TIE Bomber's Acceleration capacity.</Description>
       <DisplayName>TIE Bomber Engine</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE_Bomber.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieBomber\TieBombTh.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -264,7 +250,7 @@
       </Id>
 	   <Description>Iconic TIE Bomber Wing. Acts as a Solar Panel.</Description>
       <DisplayName>TIE Bomber Wing</DisplayName>
-       <Icon>Textures\GUI\Icons\TIE\TIE_Wing_Bomber.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieBomber\TieBombSol.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>

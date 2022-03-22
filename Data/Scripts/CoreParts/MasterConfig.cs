@@ -19,16 +19,7 @@ namespace Scripts
 			SWU_ImperialWeapons_Turret_IonCannon_I,
 			SWU_ImperialWeapons_Turret_LaserCannon_Basic,
 			SWU_NeutralWeapons_Starviper_LaserCannon_A,
-			SWU_NeutralWeapons_Starviper_MassDriver_A);
-            ArmorDefinitions(SWU_TIE_Fighter_Reborn,
-			SWU_TIE_Bomber_Reborn,
-			SWU_TIE_Interceptor_Reborn,
-			SWU_TIE_Oppressor_Reborn,
-			SWU_TIE_Hunter_Reborn,
-			SWU_Imperial_HowlRunner,
-			SWU_Imperial_A9,
-			SWU_Imperial_Turret_Batteries,
-			SWU_Neutral_Beskar_Starviper
+			SWU_NeutralWeapons_Starviper_MassDriver_A
 			);
 
         }

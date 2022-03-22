@@ -14,7 +14,7 @@
       <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
 	   <Description>The TIE Hunter Cockpit, features different exterior hull customization options, and uses a different Paint layout.</Description>
       <CubeSize>Small</CubeSize>
-	  <GuiVisible>false</GuiVisible>
+	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="5" y="5" z="2" />
       <ModelOffset x="0" y="0" z="0" />
@@ -133,7 +133,7 @@
 	    <ThrusterType>Ion</ThrusterType>
 		<IsStandAlone>true</IsStandAlone>
       <CubeSize>Small</CubeSize>
-	  <GuiVisible>false</GuiVisible>
+	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="5" y="5" z="1" />
       <ModelOffset x="0" y="0" z="0" />
@@ -206,7 +206,7 @@
 	    <ThrusterType>Ion</ThrusterType>
 		<IsStandAlone>true</IsStandAlone>
       <CubeSize>Small</CubeSize>
-	  <GuiVisible>false</GuiVisible>
+	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="5" y="5" z="1" />
       <ModelOffset x="0" y="0" z="0" />
@@ -276,7 +276,7 @@
 	   <Description>TIE Gyro, attached via the Strut end, acting as the mount point for the Wings of the TIE.</Description>
      <Icon>Textures\GUI\Icons\TIE\TIE_Gyro.dds</Icon>
       <CubeSize>Small</CubeSize>
-	  <GuiVisible>false</GuiVisible>
+	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="5" y="5" z="2" />
       <ModelOffset x="0" y="0" z="0" />
