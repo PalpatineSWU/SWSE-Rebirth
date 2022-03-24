@@ -10,7 +10,7 @@
       </Id>
       <DisplayName>Pirate Thruster (Light)</DisplayName>
 	   <Description>Pirate Engine Unit, Rear-Mounted.</Description>
-     <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+     <Icon>Textures\GUI\Icons\Fuelburners\Piratethrustermedium.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		<IsStandAlone>true</IsStandAlone>
       <CubeSize>Large</CubeSize>
@@ -81,7 +81,7 @@
       </Id>
       <DisplayName>Pirate Thruster (Light Emissive-Recolour)</DisplayName>
 	   <Description>Pirate Engine Unit, Rear-Mounted.</Description>
-     <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+     <Icon>Textures\GUI\Icons\Fuelburners\Piratethrustermedium.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		<IsStandAlone>true</IsStandAlone>
       <CubeSize>Large</CubeSize>
@@ -152,7 +152,7 @@
       </Id>
       <DisplayName>Pirate Thruster (Light Mid)</DisplayName>
 	   <Description>Pirate Engine Unit, Front and Rear Mount Options. No Flame Visual</Description>
-     <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+     <Icon>Textures\GUI\Icons\Fuelburners\Piratethrustersmall.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		<IsStandAlone>true</IsStandAlone>
       <CubeSize>Large</CubeSize>
@@ -224,7 +224,7 @@
       </Id>
       <DisplayName>Pirate Thruster (Heavy)</DisplayName>
 	   <Description>Pirate Engine Unit, Rear-Mounted.</Description>
-     <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+     <Icon>Textures\GUI\Icons\Fuelburners\Piratethrusterlarge.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		<IsStandAlone>true</IsStandAlone>
       <CubeSize>Large</CubeSize>
@@ -297,7 +297,7 @@
       </Id>
       <DisplayName>Pirate Thruster (Light)</DisplayName>
 	   <Description>Pirate Engine Unit, Rear-Mounted.</Description>
-     <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+     <Icon>Textures\GUI\Icons\Fuelburners\Piratethrustermedium.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		<IsStandAlone>true</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -368,7 +368,7 @@
       </Id>
       <DisplayName>Pirate Thruster (Light Emissive-Recolour)</DisplayName>
 	   <Description>Pirate Engine Unit, Rear-Mounted.</Description>
-     <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+     <Icon>Textures\GUI\Icons\Fuelburners\Piratethrustermedium.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		<IsStandAlone>true</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -439,7 +439,7 @@
       </Id>
       <DisplayName>Pirate Thruster (Light Mid)</DisplayName>
 	   <Description>Pirate Engine Unit, Front and Rear Mount Options. No Flame Visual</Description>
-     <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+     <Icon>Textures\GUI\Icons\Fuelburners\Piratethrustersmall.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		<IsStandAlone>true</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -509,7 +509,7 @@
         <SubtypeId>K_Imperial_Generic_ManeuveringThrust</SubtypeId>
       </Id>
       <DisplayName>Republic Maneuvering Thruster</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE\TIE_SecondaryThruster.dds</Icon>
+      <Icon>Textures\GUI\Icons\Fuelburners\Manuvering.dds</Icon>
 	   <Description>Secondary Engine used for providing thrust in all directions. Install in any location.
 	   Less Effective than TIE Standard, but quiet.</Description>
 	    <ThrusterType>Ion</ThrusterType>
@@ -578,7 +578,7 @@
         <SubtypeId>K_Rebellion_Shared_SecondaryThruster</SubtypeId>
       </Id>
       <DisplayName>Rebellion Maneuvering Thruster</DisplayName>
-     <Icon>Textures\GUI\Icons\Cubes\thrust.dds</Icon>
+      <Icon>Textures\GUI\Icons\Fuelburners\Manuvering.dds</Icon>
 	   <Description>Secondary Engine used for providing thrust in all directions. Install in any location.</Description>
 	    <ThrusterType>Ion</ThrusterType>
       <CubeSize>Small</CubeSize>
@@ -647,7 +647,7 @@
         <SubtypeId>K_Rebellion_Shared_SecondaryThruster_Light</SubtypeId>
       </Id>
       <DisplayName>Rebellion Maneuvering Thruster (Light)</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\thrust.dds</Icon>
+      <Icon>Textures\GUI\Icons\Fuelburners\Manuvering.dds</Icon>
 	   <Description>Secondary Engine used for providing thrust in all directions. Install in any location.
 	   Has Less Thrust-Output, allowing slower speeds.</Description>
 	    <ThrusterType>Ion</ThrusterType>

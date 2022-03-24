@@ -9,7 +9,7 @@
       </Id>
       <DisplayName>Republic Hydrogen Engine</DisplayName>
       <Description> Low-grade Hydrogen-Based Power Generator. Requires Hydrogen Gas, for max output of 200 units.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\HydrogenEngineLarge.dds</Icon>
+      <Icon>Textures\GUI\Icons\Fuelburners\anthrohydro.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="3" z="1" />
@@ -74,7 +74,7 @@
         <SubtypeId>K_Imperial_Reactors_Anthractite_Basic</SubtypeId>
       </Id>
       <DisplayName>Republic Anthractite Generator</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor_large.dds</Icon>
+      <Icon>Textures\GUI\Icons\Fuelburners\anthrohydro.dds</Icon>
       <Description> Solid-Fuel Based Power Generation, requires Anthractite ore to burn. Provides 150 units of power.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -155,7 +155,7 @@
         <SubtypeId>K_Imperial_Reactors_Exonium_Small_LG</SubtypeId>
       </Id>
       <DisplayName>Republic Fusion-Reactor</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor_large.dds</Icon>
+      <Icon>Textures\GUI\Icons\Fuelburners\fusionre.dds</Icon>
       <Description> Fusion-Reactor Ouputs 250 units of power</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -228,7 +228,7 @@
         <SubtypeId>K_Imperial_Reactors_Exonium_Large_LG</SubtypeId>
       </Id>
       <DisplayName>Republic Heavy Fusion-Reactor</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor_large.dds</Icon>
+      <Icon>Textures\GUI\Icons\Fuelburners\heavyfusion.dds</Icon>
       <Description> Heavy Fusion Reactor Outputs 1000 Units of power</Description>
       <CubeSize>Large</CubeSize>
 	    <GuiVisible>false</GuiVisible>
@@ -304,7 +304,7 @@
         <SubtypeId>K_Imperial_Reactors_Exonium_PowerCoreHeavy</SubtypeId>
       </Id>
       <DisplayName>Republic Heavy Power-Core</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor_large.dds</Icon>
+      <Icon>Textures\GUI\Icons\Fuelburners\Heavypowercore.dds</Icon>
       <Description>High-Grade Imperial Reactor, more potent but more vulnerable to external damages due to exposed nature. Ouputs 1200 Units of power.</Description>
       <CubeSize>Large</CubeSize>
 	    <GuiVisible>false</GuiVisible>
@@ -380,7 +380,7 @@
       </Id>
       <DisplayName>Republic Hypermatter Reactor</DisplayName>
       <Description> High-Grade Hypermatter Reactor, outputs incredible energy per size. Requires Hypermatter Gas, for max output of 2300 units.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\HydrogenEngineLarge.dds</Icon>
+      <Icon>Textures\GUI\Icons\Fuelburners\hypermat.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="3" />
@@ -443,7 +443,7 @@
       </Id>
       <DisplayName>Republic Hypermatter Heavy-Reactor (WIP, Size will be changing)</DisplayName>
       <Description> High-Grade Hypermatter Reactor, outputs incredible energy per size. Requires Hypermatter Gas, for max output of 2800 units.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\HydrogenEngineLarge.dds</Icon>
+      <Icon>Textures\GUI\Icons\Fuelburners\heavyhypermat.dds</Icon>
       <CubeSize>Large</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>

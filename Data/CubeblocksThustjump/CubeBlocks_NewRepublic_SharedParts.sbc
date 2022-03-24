@@ -8,7 +8,7 @@
         <SubtypeId>K_NewRepublic_Shared_SecondaryThruster</SubtypeId>
       </Id>
       <DisplayName>New-Republic Maneuvering Thruster</DisplayName>
-     <Icon>Textures\GUI\Icons\Cubes\thrust.dds</Icon>
+      <Icon>Textures\GUI\Icons\Fuelburners\Manuvering.dds</Icon>
 	   <Description>Secondary Engine used for providing thrust in all directions. Install in any location.</Description>
 	    <ThrusterType>Ion</ThrusterType>
       <CubeSize>Small</CubeSize>
@@ -77,7 +77,7 @@
         <SubtypeId>K_NewRepublic_Shared_SecondaryThruster_Light</SubtypeId>
       </Id>
       <DisplayName>New-Republic Maneuvering Thruster (Light)</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\thrust.dds</Icon>
+      <Icon>Textures\GUI\Icons\Fuelburners\Manuvering.dds</Icon>
 	   <Description>Secondary Engine used for providing thrust in all directions. Install in any location.
 	   Has Less Thrust-Output, allowing slower speeds.</Description>
 	    <ThrusterType>Ion</ThrusterType>

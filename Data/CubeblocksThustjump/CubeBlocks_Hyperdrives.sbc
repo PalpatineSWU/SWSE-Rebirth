@@ -8,7 +8,7 @@
         <SubtypeId>K_Imperial_Misc_Hyperdrive6</SubtypeId>
       </Id>
       <DisplayName>Class 6 Hyperdrive(Jumpdrive)</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
+      <Icon>Textures\GUI\Icons\Fuelburners\JD.dds</Icon>
       <Description>Republic Hyperdrive Class 6</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -68,7 +68,7 @@
         <SubtypeId>K_Imperial_Misc_Hyperdrive5</SubtypeId>
       </Id>
       <DisplayName>Class 5 Hyperdrive</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
+      <Icon>Textures\GUI\Icons\Fuelburners\JD.dds</Icon>
       <Description>Republic Hyperdrive Class 5</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -128,7 +128,7 @@
         <SubtypeId>K_Imperial_Misc_Hyperdrive5_5</SubtypeId>
       </Id>
       <DisplayName>Class 5 HyperSkipdrive</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
+      <Icon>Textures\GUI\Icons\Fuelburners\JD.dds</Icon>
       <Description>HyperSkipdrive Class 5, fast to recharge but very short range</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -188,7 +188,7 @@
         <SubtypeId>K_Imperial_Misc_Hyperdrive4</SubtypeId>
       </Id>
       <DisplayName>Class 4 Hyperdrive</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
+      <Icon>Textures\GUI\Icons\Fuelburners\JD.dds</Icon>
       <Description>Republic Hyperdrive Class 4</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -248,7 +248,7 @@
         <SubtypeId>K_Imperial_Misc_Hyperdrive4M</SubtypeId>
       </Id>
       <DisplayName>Class 4 Heavy Mass Hyperdrive</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
+      <Icon>Textures\GUI\Icons\Fuelburners\JD.dds</Icon>
       <Description>5x Mass hauling 1/2 distance</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -309,7 +309,7 @@
         <SubtypeId>K_Imperial_Misc_Hyperdrive3</SubtypeId>
       </Id>
       <DisplayName>Class 3 Hyperdrive</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
+      <Icon>Textures\GUI\Icons\Fuelburners\JD.dds</Icon>
       <Description>Republic Hyperdrive Class 3</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -369,7 +369,7 @@
         <SubtypeId>K_Imperial_Misc_Hyperdrive2</SubtypeId>
       </Id>
       <DisplayName>Class 2 Hyperdrive</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
+      <Icon>Textures\GUI\Icons\Fuelburners\JD.dds</Icon>
       <Description>Republic Hyperdrive Class 2</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -430,7 +430,7 @@
         <SubtypeId>K_Imperial_Misc_Hyperdrive1</SubtypeId>
       </Id>
       <DisplayName>Class 1 Hyperdrive</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
+      <Icon>Textures\GUI\Icons\Fuelburners\JD.dds</Icon>
       <Description>Republic Hyperdrive Class 1</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -490,7 +490,7 @@
         <SubtypeId>K_Imperial_Misc_Hyperdrive1_2</SubtypeId>
       </Id>
       <DisplayName>Class .5 Hyperdrive</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
+      <Icon>Textures\GUI\Icons\Fuelburners\JD.dds</Icon>
       <Description>Republic Hyperdrive Class .5</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>

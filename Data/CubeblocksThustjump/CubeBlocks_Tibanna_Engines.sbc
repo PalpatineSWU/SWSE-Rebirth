@@ -8,7 +8,7 @@
         <SubtypeId>K_Imperial_ComponentTestBlock</SubtypeId>
       </Id>
       <DisplayName>Republic Components Tester (WIP)</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <Icon>Textures\GUI\Icons\Fuelburners\Smalltib.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -32,7 +32,7 @@
         <SubtypeId>K_Imperial_Engine_LG_L_I</SubtypeId>
       </Id>
       <DisplayName>Tibanna Large Thruster</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge.dds</Icon>
+      <Icon>Textures\GUI\Icons\Fuelburners\Bigtib.dds</Icon>
       <Description>Thruster that burns gas Tibanna, 5x hydrogen output and burn rate</Description>      
       <CubeSize>Large</CubeSize>
       <GuiVisible>true</GuiVisible>
@@ -130,7 +130,7 @@
       </Id>
       <DisplayName>Tibanna Thruster</DisplayName>
       <Description>Thruster that burns gas Tibanna, 5x hydrogen output and burn rate</Description>       
-      <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterSmall.dds</Icon>
+      <Icon>Textures\GUI\Icons\Fuelburners\Smalltib.dds</Icon>
 	   <GuiVisible>true</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>

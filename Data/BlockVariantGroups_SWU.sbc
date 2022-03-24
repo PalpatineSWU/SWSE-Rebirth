@@ -5,7 +5,7 @@
 
 <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="K_Imperial_Dropship_Guild_Battery" />
-            <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+            <Icon>Textures\GUI\Icons\BatteryandBio\BioTh.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
             <Blocks>
@@ -23,7 +23,7 @@
 
 <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="K_Imperial_PatrolCraft_Cockpit" />
-            <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+            <Icon>Textures\GUI\Icons\Ships\ipv4\Ipv4.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
             <Blocks>
@@ -713,7 +713,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="K_Imperial_Misc_Hyperdrive6" />
-            <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+            <Icon>Textures\GUI\Icons\Fuelburners\JD.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup2</DisplayName>
             <Description>Description_BlockGroup_TurretGroup2</Description>
             <Blocks>
@@ -786,14 +786,14 @@
 	
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ThrusterGroups" />
-            <Icon>Textures\GUI\Icons\TIE\TIE_SecondaryThruster.dds</Icon>
+            <Icon>Textures\GUI\Icons\Fuelburners\Piratethrusterlarge.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup11</DisplayName>
             <Description>Description_BlockGroup_TurretGroup11</Description>
             <Blocks>
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Pirates_Thrusters_Heavy" />
                 <Block Type="MyObjectBuilder_Thrust" Subtype="K_Pirates_Thrusters_Light" />
                 <Block Type="MyObjectBuilder_Thrust" Subtype="K_Pirates_Thrusters_LightRec" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Pirates_Thrusters_LightMid" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Pirates_Thrusters_Heavy" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="K_Pirates_Thrusters_LightMid" />                
                 <Block Type="MyObjectBuilder_Thrust" Subtype="K_Pirates_Thrusters_Light_SG" />
                 <Block Type="MyObjectBuilder_Thrust" Subtype="K_Pirates_Thrusters_LightRec_SG" />
                 <Block Type="MyObjectBuilder_Thrust" Subtype="K_Pirates_Thrusters_LightMid_SG" />            
@@ -1085,6 +1085,48 @@
                 <Block Type="MyObjectBuilder_OxygenGenerator" Subtype="K_Rebellion_Survival_OxygenGenerator1" />
                 <Block Type="MyObjectBuilder_OxygenGenerator" Subtype="K_Rebellion_Survival_OxygenGenerator2" />
                 <Block Type="MyObjectBuilder_OxygenGenerator" Subtype="K_Rebellion_Survival_OxygenGenerator3" /> 
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TankGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\OxygenTank.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_TankGroup</DisplayName>
+            <Description>Description_BlockGroup_TankGroup</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="OxygenTankSmall" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTank" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankSmall" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTank" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankSmall" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankIndustrial" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="K_Imperial_Gas_Storage_Bubble_Tibanna" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="K_Imperial_Gas_Storage_Bubble_Oxygen" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="K_Imperial_Gas_Storage_Bubble_hydrogen" />           
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="K_Imperial_Gas_Storage_I_L" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="K_Imperial_Gas_Storage_I_L_Oxygen" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="K_Imperial_Gas_Storage_I_L_Hydrogen" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="K_Imperial_Gas_Storage_I_L_Hypermatter" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="K_Imperial_Assembly_Factory_Phrik" />                    
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EnergyRenewableGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_EnergyRenewableGroup</DisplayName>
+            <Description>Description_BlockGroup_EnergyRenewableGroup</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanel" />
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="SmallBlockSolarPanel" />
+                <Block Type="MyObjectBuilder_WindTurbine" Subtype="LargeBlockWindTurbine" />
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="K_Imperial_SolarPanel_IA" />
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="K_Imperial_SolarPanel_IB" />
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="PowerSupplies_SolarArray" />
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="PowerSupplies_SolarPanel" />
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="K_Rebellion_SolarPanel" />     
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="K_Rebellion_SentryTower_Solar" />                
             </Blocks>
         </BlockVariantGroup>
 

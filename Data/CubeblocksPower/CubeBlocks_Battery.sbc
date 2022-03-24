@@ -9,7 +9,7 @@
       </Id>
       <DisplayName>New Republic Battery</DisplayName>
 	  <Description>New Republic Designed Standardized Battery unit, equal to Imperial-level output.</Description>
-    <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+    <Icon>Textures\GUI\Icons\BatteryandBio\Rebelpower.dds</Icon>
       <CubeSize>Large</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -49,7 +49,7 @@
         <SubtypeId>K_Rebellion_SentryTower_Battery</SubtypeId>
       </Id>
       <DisplayName>Rebellion Kauti Sentry-Tower Battery</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+      <Icon>Textures\GUI\Icons\BatteryandBio\KuatBattery.dds</Icon>
        <Description>Kauti Power-Cells stored into an hardened base, to allow planting of a Sentry Tower independently from Infrastructure.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -100,7 +100,7 @@
         <SubtypeId>K_Rebellion_Battery</SubtypeId>
       </Id>
       <DisplayName>Rebellion Kauti Battery</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+      <Icon>Textures\GUI\Icons\BatteryandBio\KuatBattery.dds</Icon>
        <Description>Kauti-Cell Designed Battery Bank.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -155,7 +155,7 @@
         <SubtypeId>K_Imperial_Power_Battery_Standard</SubtypeId>
       </Id>
       <DisplayName>Republic Power Bank (Battery)</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+      <Icon>Textures\GUI\Icons\BatteryandBio\Powerbank.dds</Icon>
       <Description> Standard Model Battery.
 	  Max Output: 100
 	  Max Input: 100
@@ -210,8 +210,8 @@
         <SubtypeId>K_Imperial_Power_Battery_Nox</SubtypeId>
       </Id>
       <DisplayName>Republic Power Bank (Nox Battery)</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
-            <Description> Backup Battery.
+      <Icon>Textures\GUI\Icons\BatteryandBio\Powerbank.dds</Icon>
+      <Description> Backup Battery.
 	  Max Output: 80
 	  Max Input: 80
 	  Storage: 3</Description>
@@ -264,7 +264,7 @@
         <SubtypeId>K_Imperial_Power_Battery_Small</SubtypeId>
       </Id>
       <DisplayName>Power Bank (Battery)</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+      <Icon>Textures\GUI\Icons\BatteryandBio\Powerbank.dds</Icon>
       <Description> Standard Model Battery. (Small-Grid Version)
 	  Max Output: 3
 	  Max Input: 3
@@ -319,7 +319,7 @@
         <SubtypeId>K_Imperial_Power_Battery_Nox_Small</SubtypeId>
       </Id>
       <DisplayName>Power Bank (Nox Battery)</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+      <Icon>Textures\GUI\Icons\BatteryandBio\Powerbank.dds</Icon>
             <Description> Backup Battery. (Small-Grid)
 	  Max Output: 3
 	  Max Input: 3

@@ -8,7 +8,7 @@
         <SubtypeId>K_Imperial_Generics_Thruster_LG_Main</SubtypeId>
       </Id>
       <DisplayName>Republic Ionic Thruster</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <Icon>Textures\GUI\Icons\Fuelburners\Republicthruster.dds</Icon>
 	   <Description> Ion-Based Large Ship Thruster , for General Purpose.</Description>
       <CubeSize>Large</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -85,7 +85,7 @@
         <SubtypeId>K_Imperial_Generics_HydroThruster_LG_Main</SubtypeId>
       </Id>
       <DisplayName>Republic Hydrogen-Type Thruster</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge.dds</Icon>
+      <Icon>Textures\GUI\Icons\Fuelburners\Republicthruster.dds</Icon>
       <Description> Gas-Based Large Ship Thruster , for General Purpose.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>

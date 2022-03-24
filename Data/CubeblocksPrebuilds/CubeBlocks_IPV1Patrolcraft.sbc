@@ -9,7 +9,7 @@
         <SubtypeId>K_Imperial_PatrolCraftTest</SubtypeId>
       </Id>
       <DisplayName>IPV-1 Prop</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\ipv4\Ipv4.dds</Icon>
       <CubeSize>Large</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -34,7 +34,7 @@
       </Id>
       <DisplayName>Republic IPV-1 System Patrol Craft Power-Core</DisplayName>
 	  <Description> Dedicated Power core for Freight units.</Description>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Strut.dds</Icon>
+     <Icon>Textures\GUI\Icons\Ships\ipv4\Ipv4Ba.dds</Icon>
       <CubeSize>Large</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -74,7 +74,7 @@
         <SubtypeId>K_Imperial_PatrolCraft_GyroCore</SubtypeId>
       </Id>
       <DisplayName>Republic IPV-1 System Patrol Craft Gyro-Core</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\ipv4\Ipv4Gyro.dds</Icon>
 	   <Description> Hauler Gyroscopic control systems.</Description>
       <CubeSize>Large</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -111,7 +111,7 @@
         <SubtypeId>K_Imperial_PatrolCraft_CargoBay</SubtypeId>
       </Id>
       <DisplayName>Republic IPV-1 System Patrol Craft Cargo</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\ipv4\Ipv4Jd.dds</Icon>
       <Description>Description_SmallCargoContainer</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -153,7 +153,7 @@
         <SubtypeId>K_Imperial_PatrolCraft_Cockpit</SubtypeId>
       </Id>
       <DisplayName>Republic IPV-1 System Patrol Craft Cockpit</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\ipv4\Ipv4Cock.dds</Icon>
 	   <Description>The Iconic Cockpit of the TIE Series, to get the full interior, use with an TIE Core\Life-Support.</Description>
       <CubeSize>Large</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -207,7 +207,7 @@
         <SubtypeId>K_Imperial_PatrolCraft_MainEngine</SubtypeId>
       </Id>
       <DisplayName>Republic IPV-1 System Patrol Craft Main Engine</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\ipv4\Ipv4Th.dds</Icon>
 	   <Description>Standardized Imperial Freight Engine Bay.</Description>
       <CubeSize>Large</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -276,7 +276,7 @@
       </Id>
       <DisplayName>Republic Compact-Antenna</DisplayName>
 	   <Description> Compact Communications system.</Description>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\ipv4\Ipv4Ant.dds</Icon>
 	   <IsStandAlone>false</IsStandAlone>
       <CubeSize>Large</CubeSize>
 	  <GuiVisible>false</GuiVisible>

@@ -8,7 +8,7 @@
         <SubtypeId>K_Imperial_SolarPanel_IA</SubtypeId>
       </Id>
       <DisplayName>Republic Solar Panel</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+      <Icon>Textures\GUI\Icons\Solar\Impsol.dds</Icon>
       <Description>Solar Panel of Imperial Construction.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -73,7 +73,7 @@
       </Id>
       <DisplayName>Republic Solar Panel (Mounting)</DisplayName>
 	   <GuiVisible>false</GuiVisible>
-      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+      <Icon>Textures\GUI\Icons\Solar\Impsol2.dds</Icon>
       <Description>Solar Panel of Imperial Construction.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -137,7 +137,7 @@
       </Id>
       <DisplayName>New Republic Optimized Solar Array</DisplayName>
 	   <GuiVisible>true</GuiVisible>
-      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+      <Icon>Textures\GUI\Icons\Solar\NRepsol2.dds</Icon>
       <Description>New Republic Designed Solar Collection Array, for Economic Power Solutions: Has a full output of 2.5 units when fully saturated.
 	  More Expensive than typical Arrays, with an inability of stacking, but far superior collection rate per unit.</Description>
       <CubeSize>Large</CubeSize>
@@ -196,7 +196,7 @@
       </Id>
       <DisplayName>New Republic Solar Panel</DisplayName>
 	   <GuiVisible>true</GuiVisible>
-      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+      <Icon>Textures\GUI\Icons\Solar\NRepsol.dds</Icon>
       <Description>New Republic Designed Solar Panel, has a max output of 0.8 Units when fully saturated.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -253,7 +253,7 @@
       </Id>
       <DisplayName>Rebellion Kauti Solar Panel (Rod-Type)</DisplayName>
 	   <GuiVisible>false</GuiVisible>
-      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+      <Icon>Textures\GUI\Icons\Solar\Kuatsolpol.dds</Icon>
       <Description>Salvaged together Solar Panel, in Kauti Cell fashion, of the Rebellion.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -310,7 +310,7 @@
       </Id>
       <DisplayName>Rebellion Kauti Sentry-Tower Solar</DisplayName>
 	   <GuiVisible>false</GuiVisible>
-      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+      <Icon>Textures\GUI\Icons\Solar\Kuatsolpol.dds</Icon>
       <Description>Salvaged together Solar Panel, in Kauti Cell fashion, of the Rebellion.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>

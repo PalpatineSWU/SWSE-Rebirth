@@ -11,7 +11,7 @@
         <SubtypeId>K_Imperial_Reborn_TIE_Hunter_Cockpit</SubtypeId>
       </Id>
       <DisplayName>TIE Hunter Cockpit (HQ)</DisplayName>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Cockpit.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieHunter\TieHunCock.dds</Icon>
 	   <Description>The TIE Hunter Cockpit, features different exterior hull customization options, and uses a different Paint layout.</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -80,7 +80,7 @@
       </Id>
       <DisplayName>TIE Hunter Weaponry (HQ) Functioning Turret Functionig</DisplayName>
 	   <Description>Standard TIE Armament of twin L-s1 laser cannons. Fires a volley of 15 rounds per reload cycle.</Description>
-      <Icon>Textures\GUI\Icons\Blocks\Imp_SG_TwinCannons.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieHunter\TieHun.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -129,7 +129,7 @@
       <DisplayName>TIE Hunter Inverse-Engine (HQ)</DisplayName>
 	   <Description>Primary Engine unit of the TIE Interceptor, superior to the standard TIE engine unit.
 	   Install onto the Gas Storage unit of standard TIE constructions.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_MainThruster.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieHunter\TieHunTh.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		<IsStandAlone>true</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -202,7 +202,7 @@
       <DisplayName>TIE Hunter Main-Engine (HQ)</DisplayName>
 	   <Description>Primary Engine unit of the TIE Interceptor, superior to the standard TIE engine unit.
 	   Install onto the Inverse Engine.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_MainThruster.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieHunter\TieHunTh.dds</Icon>
 	    <ThrusterType>Ion</ThrusterType>
 		<IsStandAlone>true</IsStandAlone>
       <CubeSize>Small</CubeSize>
@@ -274,7 +274,7 @@
       </Id>
       <DisplayName>TIE Hunter Gyro (HQ)</DisplayName>
 	   <Description>TIE Gyro, attached via the Strut end, acting as the mount point for the Wings of the TIE.</Description>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Gyro.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieHunter\TieHunGy.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -316,7 +316,7 @@
       </Id>
       <DisplayName>TIE Hunter Battery (HQ)</DisplayName>
 	  <Description>Strut for the TIE Fighter, acts as a primary Energy source for long-term use.</Description>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Strut.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieHunter\TieHunBa.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -364,7 +364,7 @@
       <DisplayName>TIE Hunter Solar-Pad (HQ)</DisplayName>
 	   <Description>Interceptor TIE Wing, acts as an Solar Panel, providing Idle secondary power-intake.
 	   Has increased output, enabling stronger Weaponry mounted onto the frame.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Wing_Fighter.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieHunter\TieHun.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -414,7 +414,7 @@
       <DisplayName>TIE Interceptor Camera (HQ Hatch)</DisplayName>
 	   <Description>Camera for the TIE Model, allowing easier automation and remote operation of the TIE unit.
 	   Interceptor Parts have a different Customization and Paint Scheme.</Description>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieHunter\TieHunCam.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -455,7 +455,7 @@
       <DisplayName>TIE Hunter Hyperdrive (HQ)</DisplayName>
 	   <Description>TIE Hyperdrive Add-on For the Underside Slot.
 	   Interceptor Parts have a different Customization and Paint Scheme.</Description>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieHunter\TieHunJd.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -499,7 +499,7 @@
       <DisplayName>TIE Hunter Lifesupport (HQ)</DisplayName>
 	   <Description>TIE Lifesupport Add-On for Underside Slot.
 	   Interceptor Parts have a different Customization and Paint Scheme.</Description>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieHunter\TieHunOx.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -581,7 +581,7 @@
       </Id>
       <DisplayName>TIE Hunter Wing I (HQ)</DisplayName>
 	   <Description>Standard TIE Hunter Wing, armed with Wing-Tip Laser-Cannons, and Ion-Cannon.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Weaponry.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieHunter\TieHun.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -634,7 +634,7 @@
       </Id>
       <DisplayName>TIE Hunter Cyclic Repeating Blaster Turret (HQ)</DisplayName>
 	   <Description>Cyclic Repeating Blaster Weapon System, commonly mounted onto TIE Hunters, to enhance available firepower.</Description>
-      <Icon>Textures\GUI\Icons\TIE\TIE_Weaponry.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieHunter\TieHun.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -687,7 +687,7 @@
       <DisplayName>TIE Hunter Launcher (HQ)</DisplayName>
 	   <Description>Hunter Launcher:
 	   Armaments: Concussion,  I-Flare,  Magpulse,  Scrampulse,  Interdiction, WEB</Description>
-      <Icon>Textures\GUI\Icons\Blocks\Imp_SG_MissilesGeneric.dds</Icon>
+      <Icon>Textures\GUI\Icons\Ships\TieHunter\TieHun.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>

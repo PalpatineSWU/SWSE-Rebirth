@@ -9,7 +9,7 @@
         <SubtypeId>K_CIS_Clutter_Rack_I</SubtypeId>
       </Id>
       <DisplayName>CIS Droid Rack</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <Icon>Textures\GUI\Icons\repspawns\rackfull.dds</Icon>
       <CubeSize>Large</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -34,7 +34,7 @@
         <SubtypeId>K_CIS_Clutter_BB2</SubtypeId>
       </Id>
       <DisplayName>CIS Static B2 Battledroid</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <Icon>Textures\GUI\Icons\repspawns\droid2.dds`  </Icon>
       <CubeSize>Large</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -59,7 +59,7 @@
         <SubtypeId>K_CIS_Clutter_Rack_IS</SubtypeId>
       </Id>
       <DisplayName>CIS Droid Small Rack</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <Icon>Textures\GUI\Icons\repspawns\rackhalf.dds</Icon>
       <CubeSize>Large</CubeSize>
 	  <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -83,7 +83,7 @@
         <SubtypeId>K_CIS_SpawnPoint_Rack_I</SubtypeId>
       </Id>
       <DisplayName>CIS BB1 Rack(Spawn)</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\medical_room.dds</Icon>
+      <Icon>Textures\GUI\Icons\repspawns\droidspawn.dds</Icon>
       <CubeSize>Large</CubeSize>
 	   <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -136,7 +136,7 @@
         <SubtypeId>K_CIS_SpawnPoint_Beacon_I</SubtypeId>
       </Id>
       <DisplayName>CIS Spawn Point</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\medical_room.dds</Icon>
+      <Icon>Textures\GUI\Icons\repspawns\cisspawn.dds</Icon>
       <CubeSize>Large</CubeSize>
 	   <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>

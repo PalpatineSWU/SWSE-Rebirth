@@ -173,9 +173,9 @@
         <SubtypeId>K_Imperial_Gas_Storage_Bubble_Tibanna</SubtypeId>
       </Id>
       <DisplayName>Tibanna Sphere Tank</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\HydrogenTank.dds</Icon>
+      <Icon>Textures\GUI\Icons\Fuelburners\tanksmal.dds</Icon>
       <Public>true</Public>
-	    <GuiVisible>false</GuiVisible>
+	    <GuiVisible>true</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -230,7 +230,7 @@
         <SubtypeId>K_Imperial_Gas_Storage_I_L</SubtypeId>
       </Id>
       <DisplayName>Republic Gas Tank (Tibanna)</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\HydrogenTank.dds</Icon>
+      <Icon>Textures\GUI\Icons\Fuelburners\tankmid.dds</Icon>
       <Public>true</Public>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -278,32 +278,6 @@
       <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
       <DestroySound>WepLrgWarheadExpl</DestroySound>
       <PCU>25</PCU>
-	   <BlockVariants>
-	  <BlockVariant>
-          <TypeId>OxygenTank</TypeId>
-          <SubtypeId>K_Imperial_Gas_Storage_I_L_Oxygen</SubtypeId>
-        </BlockVariant>
-		<BlockVariant>
-          <TypeId>OxygenTank</TypeId>
-          <SubtypeId>K_Imperial_Gas_Storage_I_L_Hydrogen</SubtypeId>
-        </BlockVariant>
-		<BlockVariant>
-          <TypeId>OxygenTank</TypeId>
-          <SubtypeId>K_Imperial_Gas_Storage_I_L_Hypermatter</SubtypeId>
-        </BlockVariant>
-		<BlockVariant>
-          <TypeId>OxygenTank</TypeId>
-          <SubtypeId>K_Imperial_Gas_Storage_Bubble_Tibanna</SubtypeId>
-        </BlockVariant>  
-		<BlockVariant>
-          <TypeId>OxygenTank</TypeId>
-          <SubtypeId>K_Imperial_Gas_Storage_Bubble_hydrogen</SubtypeId>
-        </BlockVariant>  
-		<BlockVariant>
-          <TypeId>OxygenTank</TypeId>
-          <SubtypeId>K_Imperial_Gas_Storage_Bubble_Oxygen</SubtypeId>
-        </BlockVariant>  
-					      </BlockVariants>
     </Definition>
 	
 	 <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
@@ -312,9 +286,9 @@
         <SubtypeId>K_Imperial_Gas_Storage_I_L_Oxygen</SubtypeId>
       </Id>
       <DisplayName>Republic Gas Tank (Oxygen)</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\HydrogenTank.dds</Icon>
+      <Icon>Textures\GUI\Icons\Fuelburners\tankmid.dds</Icon>
       <Public>true</Public>
-	    <GuiVisible>false</GuiVisible>
+	    <GuiVisible>true</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="5" z="1" />
@@ -370,9 +344,9 @@
         <SubtypeId>K_Imperial_Gas_Storage_Bubble_Oxygen</SubtypeId>
       </Id>
       <DisplayName>Oxygen Sphere Tank</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\HydrogenTank.dds</Icon>
+      <Icon>Textures\GUI\Icons\Fuelburners\tanksmal.dds</Icon>
       <Public>true</Public>
-	    <GuiVisible>false</GuiVisible>
+	    <GuiVisible>true</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -427,9 +401,9 @@
         <SubtypeId>K_Imperial_Gas_Storage_I_L_Hydrogen</SubtypeId>
       </Id>
       <DisplayName>Republic Gas Tank (Hydrogen)</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\HydrogenTank.dds</Icon>
+      <Icon>Textures\GUI\Icons\Fuelburners\tankmid.dds</Icon>
       <Public>true</Public>
-	    <GuiVisible>false</GuiVisible>
+	    <GuiVisible>true</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="5" z="1" />
@@ -485,9 +459,9 @@
         <SubtypeId>K_Imperial_Gas_Storage_Bubble_hydrogen</SubtypeId>
       </Id>
       <DisplayName>Hydrogen Sphere Tank</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\HydrogenTank.dds</Icon>
+      <Icon>Textures\GUI\Icons\Fuelburners\tanksmal.dds</Icon>
       <Public>true</Public>
-	    <GuiVisible>false</GuiVisible>
+	    <GuiVisible>true</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -543,9 +517,9 @@
         <SubtypeId>K_Imperial_Gas_Storage_I_L_Hypermatter</SubtypeId>
       </Id>
       <DisplayName>Republic Gas Tank (Hypermatter)</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\HydrogenTank.dds</Icon>
+      <Icon>Textures\GUI\Icons\Fuelburners\tankmid.dds</Icon>
       <Public>true</Public>
-	    <GuiVisible>false</GuiVisible>
+	    <GuiVisible>true</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="5" z="1" />
@@ -598,9 +572,9 @@
         <SubtypeId>K_Imperial_Assembly_Factory_Phrik</SubtypeId>
       </Id>
       <DisplayName>Large Hypermatter Tank</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\HydrogenTank.dds</Icon>
+      <Icon>Textures\GUI\Icons\Fuelburners\tanklarge.dds</Icon>
       <Public>true</Public>
-	    <GuiVisible>false</GuiVisible>
+	    <GuiVisible>true</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Center x="1" y="0" z="1" /> 

@@ -54,7 +54,7 @@
         <SubtypeId>K_Imperial_Dropship_Guild_EngineMain</SubtypeId>
       </Id>
       <DisplayName>Civilian Dropship Engine</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <Icon>Textures\GUI\Icons\BatteryandBio\BioTh.dds</Icon>
 	   <Description>Standardized Imperial Freight Engine Bay.</Description>
       <CubeSize>Large</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -128,7 +128,7 @@
         <SubtypeId>K_Imperial_Dropship_Guild_EngineSecondary</SubtypeId>
       </Id>
       <DisplayName>Civilian Dropship Engine II</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <Icon>Textures\GUI\Icons\BatteryandBio\BioTh2.dds</Icon>
 	   <Description>Standardized Imperial Freight Engine Bay.</Description>
       <CubeSize>Large</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -206,7 +206,7 @@
     high storage,
     long charge.
     </Description>
-     <Icon>Textures\GUI\Icons\TIE\TIE_Strut.dds</Icon>
+     <Icon>Textures\GUI\Icons\BatteryandBio\BioBa.dds</Icon>
       <CubeSize>Large</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -254,7 +254,7 @@
         <SubtypeId>K_Imperial_Dropship_Guild_Gyro</SubtypeId>
       </Id>
       <DisplayName>Civilian Dropship Gyro 3x15</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <Icon>Textures\GUI\Icons\BatteryandBio\BioGyro.dds</Icon>
 	   <Description> Hauler Gyroscopic control systems.</Description>
       <CubeSize>Large</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -349,7 +349,7 @@
       <DisplayName>Civilian Dropship Antenna</DisplayName>
 	   <Description> Relay Communications system, used for extending communication range across regions.
 	   Mod Note: Typically used for Spawning NPCs.</Description>
-      <Icon>Textures\GUI\Icons\TIE_Base.dds</Icon>
+      <Icon>Textures\GUI\Icons\BatteryandBio\Bioant.dds</Icon>
 	   <IsStandAlone>true</IsStandAlone>
       <CubeSize>Large</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -389,7 +389,7 @@
         <SubtypeId>K_Imperial_Dropship_Guild_CargoHull</SubtypeId>
       </Id>
       <DisplayName>Civilian Dropship Cargobay Container</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+      <Icon>Textures\GUI\Icons\BatteryandBio\BioCar.dds</Icon>
       <Description>Description_SmallCargoContainer</Description>
       <CubeSize>Large</CubeSize>
 	  <GuiVisible>false</GuiVisible>

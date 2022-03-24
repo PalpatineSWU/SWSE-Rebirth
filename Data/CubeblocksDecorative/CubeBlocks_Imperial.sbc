@@ -198,7 +198,7 @@
         <SubtypeId>K_Imperial_SpawnPoint_Beacon_I</SubtypeId>
       </Id>
       <DisplayName>Republic Spawn Point</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\medical_room.dds</Icon>
+      <Icon>Textures\GUI\Icons\repspawns\ree.dds</Icon>
 	   <Description> Spawn Point, has a Spinning Holographic of the Empire.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -259,7 +259,7 @@
         <SubtypeId>K_Imperial_SpawnPoint_Facility_I</SubtypeId>
       </Id>
       <DisplayName>Republic Medical Facility</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\medical_room.dds</Icon>
+      <Icon>Textures\GUI\Icons\repspawns\bigspawn.dds</Icon>
 	   <Description> Spawn Point, with 5 additional healing stations of Bacta.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -321,7 +321,7 @@
         <SubtypeId>K_Imperial_BactaTank</SubtypeId>
       </Id>
       <DisplayName>Republic Bacta-Tank(Healing-Only)</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\medical_room.dds</Icon>
+      <Icon>Textures\GUI\Icons\repspawns\bacta.dds</Icon>
 	   <Description> Healing Bacta, has no respawn capability.</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -381,7 +381,7 @@
       </Id>
       <DisplayName>Republic Hologram Planet Medical Node</DisplayName>
 	   <Description> Decoration, also acts as a Spawn-Point.</Description>
-      <Icon>Textures\GUI\Icons\Cubes\medical_room.dds</Icon>
+      <Icon>Textures\GUI\Icons\repspawns\galaxy.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />

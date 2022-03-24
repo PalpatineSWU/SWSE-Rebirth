@@ -538,7 +538,7 @@
     Compact spawn unit.
 	  Not capable of Component manufacturing.
 	  Small-Grid 1x1x2</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SurvivalKitSmall.dds</Icon>
+      <Icon>Textures\GUI\Icons\repspawns\compact.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="2" />
