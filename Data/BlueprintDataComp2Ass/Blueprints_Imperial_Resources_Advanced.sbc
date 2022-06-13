@@ -2,9 +2,6 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 <Blueprints>
 
-
-   
- 
 	<Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
@@ -18,7 +15,21 @@
       <Result Amount="1" TypeId="Ingot" SubtypeId="Cortosis" />
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
-	
+
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>MandolorianIron_Standard</SubtypeId>
+      </Id>
+      <DisplayName>Mandolorian Iron</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10000" TypeId="Ore" SubtypeId="Beskar" />
+		    <Item Amount="5000" TypeId="Ore" SubtypeId="Alum" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Beskar" />
+      <BaseProductionTimeInSeconds>250</BaseProductionTimeInSeconds>
+    </Blueprint>	
 
 	<Blueprint>
       <Id>
@@ -28,11 +39,11 @@
       <DisplayName>Phrik</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <Prerequisites>
-        <Item Amount="200" TypeId="Ore" SubtypeId="Phrik" />
+        <Item Amount="10000" TypeId="Ore" SubtypeId="Phrik" />
 		<Item Amount="20" TypeId="Ingot" SubtypeId="Chemical_Processing_Accellerite" />
       </Prerequisites>
-      <Result Amount="0.1" TypeId="Ingot" SubtypeId="Phrik" />
-      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Phrik" />
+      <BaseProductionTimeInSeconds>250</BaseProductionTimeInSeconds>
     </Blueprint>
 	
 	
@@ -213,12 +224,12 @@
       <DisplayName>Stabilized Proton</DisplayName>
       <Icon>Textures\GUI\Icons\Resources\SW_Resources_Hollinium.dds</Icon>
       <Prerequisites>
-        <Item Amount="1" TypeId="Ingot" SubtypeId="TibannaCanisters" />
+        <Item Amount=".5" TypeId="Ingot" SubtypeId="TibannaCanisters" />
 		 <Item Amount="0.1" TypeId="Ingot" SubtypeId="Hollinium" />
-		 <Item Amount="2" TypeId="Ingot" SubtypeId="Chemical_Processing_Polydex9" />
+		 <Item Amount=".5" TypeId="Ingot" SubtypeId="Chemical_Processing_Polydex9" />
 		<Item Amount="2" TypeId="Ingot" SubtypeId="Carbonite" />
       </Prerequisites>
-      <Result Amount="0.25" TypeId="Ingot" SubtypeId="Protons" />
+      <Result Amount="0.5" TypeId="Ingot" SubtypeId="Protons" />
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
     </Blueprint>
 	
@@ -230,12 +241,12 @@
       <DisplayName>Stablized Ionic Particles</DisplayName>
       <Icon>Textures\GUI\Icons\Resources\SW_Resources_Hollinium.dds</Icon>
       <Prerequisites>
-        <Item Amount="1" TypeId="Ingot" SubtypeId="TibannaCanisters" />
+        <Item Amount=".5" TypeId="Ingot" SubtypeId="TibannaCanisters" />
 		 <Item Amount="0.1" TypeId="Ingot" SubtypeId="Hollinium" />
-		 <Item Amount="2" TypeId="Ingot" SubtypeId="Chemical_Processing_Polydex9" />
+		 <Item Amount=".5" TypeId="Ingot" SubtypeId="Chemical_Processing_Polydex9" />
 		<Item Amount="2" TypeId="Ingot" SubtypeId="Carbonite" />
       </Prerequisites>
-      <Result Amount="0.25" TypeId="Ingot" SubtypeId="Ions" />
+      <Result Amount="0.5" TypeId="Ingot" SubtypeId="Ions" />
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
     </Blueprint>
 	

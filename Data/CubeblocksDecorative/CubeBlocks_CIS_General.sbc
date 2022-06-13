@@ -34,7 +34,7 @@
         <SubtypeId>K_CIS_Clutter_BB2</SubtypeId>
       </Id>
       <DisplayName>CIS Static B2 Battledroid</DisplayName>
-      <Icon>Textures\GUI\Icons\repspawns\droid2.dds`  </Icon>
+      <Icon>Textures\GUI\Icons\repspawns\droid2.dds</Icon>
       <CubeSize>Large</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>

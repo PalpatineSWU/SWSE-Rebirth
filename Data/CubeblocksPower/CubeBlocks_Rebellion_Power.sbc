@@ -27,9 +27,6 @@
         <Component Subtype="DuraSteel" Count="25" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-	  <MountPoints>
-        <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1" EndY="1" Default="true" />
-        </MountPoints>
            <BuildProgressModels>
         <Model BuildPercentUpperBound="0.45" File="Models\Power\K_Imperial_CombustionReactor_Large_Constr1.mwm" />
         <Model BuildPercentUpperBound="0.65" File="Models\Power\K_Imperial_CombustionReactor_Large_Constr2.mwm" />
@@ -180,11 +177,7 @@
     		 <Component Subtype="ImperialConstruction" Count="15" />
          <Component Subtype="LightweightDurasteel" Count="25" />
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
-	  <MountPoints>
-        <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1" EndY="1" Default="true" />
-        </MountPoints>
-       
+      <CriticalComponent Subtype="Computer" Index="0" />      
       <BlockPairName>PowerSupplies_SyncGenerator</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -333,14 +326,7 @@
         <Component Subtype="LightweightDurasteel" Count="45" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1" EndY="2" Default="true" />
-        <MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="1" EndY="1" />
-		<MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1" EndY="1" />
-		<MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="1" EndY="2" />
-		<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="1" EndY="2" />
-      </MountPoints>
-          <BlockPairName>K_Rebellion_Survival_Power_HydrogenGenerator</BlockPairName>
+      <BlockPairName>K_Rebellion_Survival_Power_HydrogenGenerator</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>

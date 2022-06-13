@@ -41,7 +41,7 @@
       <RequiredPowerInput>15</RequiredPowerInput>
       <AdaptibleInput>true</AdaptibleInput>
       <MaxStoredPower>15</MaxStoredPower>
-      <InitialStoredPowerRatio>1.0</InitialStoredPowerRatio>
+      <InitialStoredPowerRatio>0.5</InitialStoredPowerRatio>
 	   		   <DestroySound>K_SW_Explosion_Generic</DestroySound>
 		    <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
 			 <DestroyEffect>Imperial_Explosion</DestroyEffect>
@@ -405,11 +405,16 @@
       <Size x="5" y="3" z="2" />
       <ModelOffset x="0" y="0" z="0" />
 	 <Model>Models\Rebellion\Rz1\AWIng_Rz1_Hyperdrive_Small.mwm</Model>
-    <Components>
-        <Component Subtype="LightweightDurasteel" Count="35" />
-		<Component Subtype="HeavyDutyCabling" Count="2" />
-			<Component Subtype="Computer" Count="10" />
-			<Component Subtype="LightweightDurasteel" Count="35" />
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="40" />
+        <Component Subtype="PowerConverter" Count="5" />
+        <Component Subtype="GravityGenerator" Count="2" />
+        <Component Subtype="Detector" Count="2" />
+        <Component Subtype="PowerCell" Count="12" />
+        <Component Subtype="Hyperdrive_Basic" Count="36" />
+        <Component Subtype="Computer" Count="30" />
+        <Component Subtype="ImperialConstruction" Count="4" />
+        <Component Subtype="LightweightDurasteel" Count="20" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BlockPairName>K_Rebellion_RZ1_Hyperdrive_Stock</BlockPairName>
@@ -421,11 +426,11 @@
       <DamagedSound>ParticleWeapExpl</DamagedSound>
 
       <ResourceSinkGroup>Charging</ResourceSinkGroup>
-      <RequiredPowerInput>3</RequiredPowerInput>
-      <PowerNeededForJump>2</PowerNeededForJump>
+      <RequiredPowerInput>24</RequiredPowerInput>
+      <PowerNeededForJump>2.7</PowerNeededForJump>
 
-      <MaxJumpDistance>50000</MaxJumpDistance>
-      <MaxJumpMass>2500</MaxJumpMass>
+      <MaxJumpDistance>300000</MaxJumpDistance>
+      <MaxJumpMass>300000</MaxJumpMass>
       <EmissiveColorPreset>K_NewRepublic_Tech_I</EmissiveColorPreset>
       <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
       <DestroySound>WepLrgWarheadExpl</DestroySound>
@@ -447,11 +452,16 @@
       <Size x="5" y="3" z="2" />
       <ModelOffset x="0" y="0" z="0" />
 	 <Model>Models\Rebellion\Rz1\AWIng_Rz1_Hyperdrive_Small.mwm</Model>
-    <Components>
-        <Component Subtype="LightweightDurasteel" Count="135" />
-		<Component Subtype="HeavyDutyCabling" Count="22" />
-			<Component Subtype="Computer" Count="30" />
-			<Component Subtype="LightweightDurasteel" Count="325" />
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="40" />
+        <Component Subtype="PowerConverter" Count="5" />
+        <Component Subtype="GravityGenerator" Count="2" />
+        <Component Subtype="Detector" Count="2" />
+        <Component Subtype="PowerCell" Count="12" />
+        <Component Subtype="Hyperdrive_Basic" Count="36" />
+        <Component Subtype="Computer" Count="30" />
+        <Component Subtype="ImperialConstruction" Count="4" />
+        <Component Subtype="LightweightDurasteel" Count="20" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BlockPairName>K_Rebellion_RZ1_Hyperdrive_Stock2</BlockPairName>
@@ -463,11 +473,11 @@
       <DamagedSound>ParticleWeapExpl</DamagedSound>
 
       <ResourceSinkGroup>Charging</ResourceSinkGroup>
-      <RequiredPowerInput>10</RequiredPowerInput>
-      <PowerNeededForJump>2</PowerNeededForJump>
+      <RequiredPowerInput>24</RequiredPowerInput>
+      <PowerNeededForJump>2.7</PowerNeededForJump>
 
-      <MaxJumpDistance>50000</MaxJumpDistance>
-      <MaxJumpMass>2500</MaxJumpMass>
+      <MaxJumpDistance>300000</MaxJumpDistance>
+      <MaxJumpMass>300000</MaxJumpMass>
       <EmissiveColorPreset>K_NewRepublic_Tech_I</EmissiveColorPreset>
       <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
       <DestroySound>WepLrgWarheadExpl</DestroySound>
@@ -729,7 +739,7 @@
       <RequiredPowerInput>10</RequiredPowerInput>
       <AdaptibleInput>true</AdaptibleInput>
       <MaxStoredPower>10</MaxStoredPower>
-      <InitialStoredPowerRatio>1.0</InitialStoredPowerRatio>
+      <InitialStoredPowerRatio>0.5</InitialStoredPowerRatio>
 	   		   <DestroySound>K_SW_Explosion_Generic</DestroySound>
 		    <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
 			 <DestroyEffect>Imperial_Explosion</DestroyEffect>
@@ -771,7 +781,7 @@
       <RequiredPowerInput>20</RequiredPowerInput>
       <AdaptibleInput>true</AdaptibleInput>
       <MaxStoredPower>10</MaxStoredPower>
-      <InitialStoredPowerRatio>1.0</InitialStoredPowerRatio>
+      <InitialStoredPowerRatio>0.5</InitialStoredPowerRatio>
 	   		   <DestroySound>K_SW_Explosion_Generic</DestroySound>
 		    <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
 			 <DestroyEffect>Imperial_Explosion</DestroyEffect>
@@ -813,7 +823,7 @@
       <RequiredPowerInput>10</RequiredPowerInput>
       <AdaptibleInput>true</AdaptibleInput>
       <MaxStoredPower>50</MaxStoredPower>
-      <InitialStoredPowerRatio>1.0</InitialStoredPowerRatio>
+      <InitialStoredPowerRatio>0.5</InitialStoredPowerRatio>
 	   		   <DestroySound>K_SW_Explosion_Generic</DestroySound>
 		    <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
 			 <DestroyEffect>Imperial_Explosion</DestroyEffect>

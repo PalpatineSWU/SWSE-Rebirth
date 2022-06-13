@@ -269,7 +269,7 @@
       <RequiredPowerInput>5</RequiredPowerInput>
       <AdaptibleInput>true</AdaptibleInput>
       <MaxStoredPower>10</MaxStoredPower>
-      <InitialStoredPowerRatio>0.0</InitialStoredPowerRatio>
+      <InitialStoredPowerRatio>0.5</InitialStoredPowerRatio>
 	       <DestroySound>K_Imperial_Explosion_Generic</DestroySound>
 		    <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
 			 <DestroyEffect>Imperial_Explosion</DestroyEffect>
@@ -330,10 +330,16 @@
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
 	  <Model>Models\Pirate\Viper\K_StarViper_Hyperdrive_Small.mwm</Model>
-    <Components>
-        <Component Subtype="BeskarPlate" Count="35" />
-			<Component Subtype="Computer" Count="10" />
-			<Component Subtype="BeskarPlate" Count="35" />
+      <Components>
+        <Component Subtype="BeskarPlate" Count="40" />
+        <Component Subtype="PowerConverter" Count="5" />
+        <Component Subtype="GravityGenerator" Count="2" />
+        <Component Subtype="Detector" Count="2" />
+        <Component Subtype="PowerCell" Count="12" />
+        <Component Subtype="Hyperdrive_Basic" Count="36" />
+        <Component Subtype="Computer" Count="30" />
+        <Component Subtype="ImperialConstruction" Count="4" />
+        <Component Subtype="BeskarPlate" Count="20" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BlockPairName>K_Pirates_StarViper_Hyperdrive</BlockPairName>
@@ -345,11 +351,11 @@
       <DamagedSound>ParticleWeapExpl</DamagedSound>
 
       <ResourceSinkGroup>Charging</ResourceSinkGroup>
-      <RequiredPowerInput>15</RequiredPowerInput>
-      <PowerNeededForJump>2</PowerNeededForJump>
+      <RequiredPowerInput>24</RequiredPowerInput>
+      <PowerNeededForJump>2.7</PowerNeededForJump>
 
-      <MaxJumpDistance>500000</MaxJumpDistance>
-      <MaxJumpMass>10000</MaxJumpMass>
+      <MaxJumpDistance>300000</MaxJumpDistance>
+      <MaxJumpMass>300000</MaxJumpMass>
       <EmissiveColorPreset>K_Imperial_Hyperdrive_EmissiveSet_II</EmissiveColorPreset>
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
       <DestroySound>K_Imperial_Explosion_Critical</DestroySound>

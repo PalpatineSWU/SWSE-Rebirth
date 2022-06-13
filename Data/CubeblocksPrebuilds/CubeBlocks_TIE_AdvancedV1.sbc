@@ -83,12 +83,18 @@
       <Size x="5" y="5" z="1" />
       <ModelOffset x="0" y="0" z="0" />
 	  <Model>Models\TIE_AdvancedV1\K_TIE_Advancedv1_Hyperdrive_Small.mwm</Model>
-    <Components>
-        <Component Subtype="DuraSteel" Count="35" />
-			<Component Subtype="Computer" Count="10" />
-			<Component Subtype="DuraSteel" Count="35" />
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="40" />
+        <Component Subtype="PowerConverter" Count="5" />
+        <Component Subtype="GravityGenerator" Count="2" />
+        <Component Subtype="Detector" Count="2" />
+        <Component Subtype="PowerCell" Count="12" />
+        <Component Subtype="Hyperdrive_Basic" Count="36" />
+        <Component Subtype="Computer" Count="30" />
+        <Component Subtype="ImperialConstruction" Count="4" />
+        <Component Subtype="LightweightDurasteel" Count="20" />
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="Computer" Index="0" /> 
       <BlockPairName>K_TIE_AdvancedV1_Hyperdrive</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
@@ -98,11 +104,11 @@
       <DamagedSound>ParticleWeapExpl</DamagedSound>
 
       <ResourceSinkGroup>Charging</ResourceSinkGroup>
-      <RequiredPowerInput>15</RequiredPowerInput>
-      <PowerNeededForJump>2</PowerNeededForJump>
+      <RequiredPowerInput>24</RequiredPowerInput>
+      <PowerNeededForJump>2.7</PowerNeededForJump>
 
-      <MaxJumpDistance>50000</MaxJumpDistance>
-      <MaxJumpMass>20000</MaxJumpMass>
+      <MaxJumpDistance>300000</MaxJumpDistance>
+      <MaxJumpMass>300000</MaxJumpMass>
       <EmissiveColorPreset>K_Imperial_Hyperdrive_EmissiveSet</EmissiveColorPreset>
       <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
       <DestroySound>WepLrgWarheadExpl</DestroySound>
@@ -140,7 +146,7 @@
       <RequiredPowerInput>5</RequiredPowerInput>
       <AdaptibleInput>true</AdaptibleInput>
       <MaxStoredPower>30</MaxStoredPower>
-      <InitialStoredPowerRatio>0.0</InitialStoredPowerRatio>
+      <InitialStoredPowerRatio>0.5</InitialStoredPowerRatio>
     </Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">

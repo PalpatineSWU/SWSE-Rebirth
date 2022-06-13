@@ -36,7 +36,7 @@
       <RequiredPowerInput>12</RequiredPowerInput>
       <AdaptibleInput>true</AdaptibleInput>
       <MaxStoredPower>12</MaxStoredPower>
-      <InitialStoredPowerRatio>0.0</InitialStoredPowerRatio>
+      <InitialStoredPowerRatio>0.5</InitialStoredPowerRatio>
 	   		   <DestroySound>K_SW_Explosion_Generic</DestroySound>
 		    <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
 			 <DestroyEffect>Imperial_Explosion</DestroyEffect>
@@ -77,7 +77,7 @@
       <RequiredPowerInput>12</RequiredPowerInput>
       <AdaptibleInput>true</AdaptibleInput>
       <MaxStoredPower>5</MaxStoredPower>
-      <InitialStoredPowerRatio>0.0</InitialStoredPowerRatio>
+      <InitialStoredPowerRatio>0.5</InitialStoredPowerRatio>
 
       <InventorySize>
         <X>1</X>
@@ -132,7 +132,7 @@
       <RequiredPowerInput>8</RequiredPowerInput>
       <AdaptibleInput>true</AdaptibleInput>
       <MaxStoredPower>5</MaxStoredPower>
-      <InitialStoredPowerRatio>0.0</InitialStoredPowerRatio>
+      <InitialStoredPowerRatio>0.5</InitialStoredPowerRatio>
 
       <InventorySize>
         <X>1</X>
@@ -186,7 +186,7 @@
       <RequiredPowerInput>12</RequiredPowerInput>
       <AdaptibleInput>true</AdaptibleInput>
       <MaxStoredPower>5</MaxStoredPower>
-      <InitialStoredPowerRatio>0.0</InitialStoredPowerRatio>
+      <InitialStoredPowerRatio>0.5</InitialStoredPowerRatio>
 
       <InventorySize>
         <X>1</X>
@@ -241,7 +241,7 @@
       <RequiredPowerInput>8</RequiredPowerInput>
       <AdaptibleInput>true</AdaptibleInput>
       <MaxStoredPower>3</MaxStoredPower>
-      <InitialStoredPowerRatio>0.0</InitialStoredPowerRatio>
+      <InitialStoredPowerRatio>0.5</InitialStoredPowerRatio>
 
       <InventorySize>
         <X>1</X>
@@ -296,7 +296,7 @@
       <RequiredPowerInput>3</RequiredPowerInput>
       <AdaptibleInput>true</AdaptibleInput>
       <MaxStoredPower>5</MaxStoredPower>
-      <InitialStoredPowerRatio>0.0</InitialStoredPowerRatio>
+      <InitialStoredPowerRatio>0.5</InitialStoredPowerRatio>
 
       <InventorySize>
         <X>1</X>
@@ -351,7 +351,7 @@
       <RequiredPowerInput>8</RequiredPowerInput>
       <AdaptibleInput>true</AdaptibleInput>
       <MaxStoredPower>3</MaxStoredPower>
-      <InitialStoredPowerRatio>0.0</InitialStoredPowerRatio>
+      <InitialStoredPowerRatio>0.5</InitialStoredPowerRatio>
 
       <InventorySize>
         <X>1</X>

@@ -555,7 +555,7 @@
           <TypeId>GasProperties</TypeId>
           <SubtypeId>HypermatterGas</SubtypeId>
         </Id>
-        <MaxOutputPerSecond>200</MaxOutputPerSecond>
+        <MaxOutputPerSecond>20000</MaxOutputPerSecond>
       </ProducedGas>
       <OperationalPowerConsumption>0.01</OperationalPowerConsumption>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>

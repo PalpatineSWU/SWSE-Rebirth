@@ -9,7 +9,7 @@
       </Id>
       <DisplayName>Delivery to Abregado-rae</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\Abregado-rae.dds</Icon>
-	  <ExtraInventoryTooltipLine>Deliver this package to Abregado-rae for 6031 credits. It costs 2010 credits to take this delivery on.</ExtraInventoryTooltipLine>
+	  <ExtraInventoryTooltipLine>Deliver this package and one unit of Droids to Abregado-rae for 6031 credits. It costs 2010 credits to take this delivery on.</ExtraInventoryTooltipLine>
       <Size>
         <X>0.5</X>
         <Y>0.5</Y>
@@ -33,7 +33,7 @@
       </Id>
       <DisplayName>Delivery to Bastion</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\Bastion.dds</Icon>
-	  <ExtraInventoryTooltipLine>Deliver this package to Bastion for credits. It costs credits to take this delivery on.</ExtraInventoryTooltipLine>
+	  <ExtraInventoryTooltipLine>Deliver this package and one unit of Food to Bastion for credits. It costs credits to take this delivery on.</ExtraInventoryTooltipLine>
       <Size>
         <X>0.5</X>
         <Y>0.5</Y>
@@ -57,7 +57,7 @@
       </Id>
       <DisplayName>Delivery to Brentaal</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\Brentaal.dds</Icon>
-	  <ExtraInventoryTooltipLine>Deliver this package to Brentaal for 4687 credits. It costs 1562 credits to take this delivery on.</ExtraInventoryTooltipLine>
+	  <ExtraInventoryTooltipLine>Deliver this package and one unit of Military Supplies to Brentaal for 4687 credits. It costs 1562 credits to take this delivery on.</ExtraInventoryTooltipLine>
       <Size>
         <X>0.5</X>
         <Y>0.5</Y>
@@ -79,9 +79,9 @@
         <TypeId>Component</TypeId>
         <SubtypeId>QuestCompBD</SubtypeId>
       </Id>
-      <DisplayName>QuestCompBD</DisplayName>
+      <DisplayName>Delivery to Kuat</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\Kuat.dds</Icon>
-	  <ExtraInventoryTooltipLine>Deliver this package to Kuat for 5100 credits. It costs 1700 credits to take this delivery on.</ExtraInventoryTooltipLine>
+	  <ExtraInventoryTooltipLine>Deliver this package and one unit of Minerals to Kuat for 5100 credits. It costs 1700 credits to take this delivery on.</ExtraInventoryTooltipLine>
       <Size>
         <X>0.5</X>
         <Y>0.5</Y>
@@ -103,9 +103,9 @@
         <TypeId>Component</TypeId>
         <SubtypeId>QuestCompBE</SubtypeId>
       </Id>
-      <DisplayName>QuestCompBE</DisplayName>
+      <DisplayName>Delivery to Concordia</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\Concordia.dds</Icon>
-	  <ExtraInventoryTooltipLine>Deliver this package to Concordia for 5100 credits. It costs 1700 credits to take this delivery on.</ExtraInventoryTooltipLine>
+	  <ExtraInventoryTooltipLine>Deliver this package and one unit of Military Supplies to Concordia for 5100 credits. It costs 1700 credits to take this delivery on.</ExtraInventoryTooltipLine>
       <Size>
         <X>0.5</X>
         <Y>0.5</Y>
@@ -127,9 +127,9 @@
         <TypeId>Component</TypeId>
         <SubtypeId>QuestCompBF</SubtypeId>
       </Id>
-      <DisplayName>QuestCompBF</DisplayName>
+      <DisplayName>Delivery to Dathomir</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\Dathomir.dds</Icon>
-	  <ExtraInventoryTooltipLine>Deliver this package to Dathomir for 4200 credits. It costs 1400 credits to take this delivery on.</ExtraInventoryTooltipLine>
+	  <ExtraInventoryTooltipLine>Deliver this package and one unit of Industrial to Dathomir for 4200 credits. It costs 1400 credits to take this delivery on.</ExtraInventoryTooltipLine>
       <Size>
         <X>0.5</X>
         <Y>0.5</Y>
@@ -153,7 +153,7 @@
       </Id>
       <DisplayName>Delivery to Ilum</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\Ilum.dds</Icon>
-	  <ExtraInventoryTooltipLine>Deliver this package to Ilum for 4515 credits. It costs 1505 credits to take this delivery on.</ExtraInventoryTooltipLine>
+	  <ExtraInventoryTooltipLine>Deliver this package and one unit of Droids to Ilum for 4515 credits. It costs 1505 credits to take this delivery on.</ExtraInventoryTooltipLine>
       <Size>
         <X>0.5</X>
         <Y>0.5</Y>
@@ -177,7 +177,7 @@
       </Id>
       <DisplayName>Delivery to Tatooine</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\Tatooine.dds</Icon>
-	  <ExtraInventoryTooltipLine>Deliver this package to Tatooine for 11322 credits. It costs 3774 credits to take this delivery on.</ExtraInventoryTooltipLine>
+	  <ExtraInventoryTooltipLine>Deliver this package and one unit of Industrial to Tatooine for 11322 credits. It costs 3774 credits to take this delivery on.</ExtraInventoryTooltipLine>
       <Size>
         <X>0.5</X>
         <Y>0.5</Y>
@@ -201,7 +201,7 @@
       </Id>
       <DisplayName>Delivery to Bonadan</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\Bonadan.dds</Icon>
-	  <ExtraInventoryTooltipLine>Deliver this package to Bonadan for 7353 credits. It costs 2451 credits to take this delivery on.</ExtraInventoryTooltipLine>
+	  <ExtraInventoryTooltipLine>Deliver this package and one unit of Food to Bonadan for 7353 credits. It costs 2451 credits to take this delivery on.</ExtraInventoryTooltipLine>
       <Size>
         <X>0.5</X>
         <Y>0.5</Y>
@@ -225,7 +225,7 @@
       </Id>
       <DisplayName>Delivery to Eriadu</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\Eriadu.dds</Icon>
-	  <ExtraInventoryTooltipLine>Deliver this package to Eriadu for 11572 credits. It costs 3857 credits to take this delivery on.</ExtraInventoryTooltipLine>
+	  <ExtraInventoryTooltipLine>Deliver this package and one unit of Food to Eriadu for 11572 credits. It costs 3857 credits to take this delivery on.</ExtraInventoryTooltipLine>
       <Size>
         <X>0.5</X>
         <Y>0.5</Y>
@@ -324,7 +324,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>QuestCompBG</SubtypeId>
       </Id>
-      <DisplayName>QuestCompBG</DisplayName>
+      <DisplayName>Deliver to Ilum</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\Ilum.dds</Icon>
       <Prerequisites>
         <Item Amount="1505" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
@@ -384,7 +384,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>QuestCompBJ</SubtypeId>
       </Id>
-      <DisplayName>QuestCompBJ</DisplayName>
+      <DisplayName>Deliver to Eriadu</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\Eriadu.dds</Icon>
       <Prerequisites>
         <Item Amount="3857" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
@@ -401,6 +401,7 @@
       <DisplayName>Complete delivery from Abregado-rae</DisplayName>
      <Icon>Textures\GUI\Icons\Quests\Planetquests\Abregado-raeReward.dds</Icon>
       <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Technology" />
         <Item Amount="1" TypeId="Component" SubtypeId="QuestCompAB" />
       </Prerequisites>
       <Result Amount="6031" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
@@ -415,6 +416,7 @@
       <DisplayName>Complete delivery from Bastion</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\BastionReward.dds</Icon>
       <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Food" />
         <Item Amount="1" TypeId="Component" SubtypeId="QuestCompBB" />
       </Prerequisites>
       <Result Amount="1" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
@@ -429,6 +431,7 @@
       <DisplayName>Complete delivery from Brentaal</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\BrentaalReward.dds</Icon>
       <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="MedicalSupplies" />
         <Item Amount="1" TypeId="Component" SubtypeId="QuestCompCB" />
       </Prerequisites>
       <Result Amount="4687" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
@@ -444,6 +447,7 @@
       <DisplayName>Complete delivery from Concordia</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\ConcordiaReward.dds</Icon>
       <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="MedicalSupplies" />
         <Item Amount="1" TypeId="Component" SubtypeId="QuestCompEB" />
       </Prerequisites>
       <Result Amount="5100" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
@@ -459,6 +463,7 @@
       <DisplayName>Complete delivery from Dathomir</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\DathomirReward.dds</Icon>
       <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="MedicalSupplies" />
         <Item Amount="1" TypeId="Component" SubtypeId="QuestCompFB" />
       </Prerequisites>
       <Result Amount="4200" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
@@ -474,6 +479,7 @@
       <DisplayName>Complete delivery from Ilum</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\IlumReward.dds</Icon>
       <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="MedicalSupplies" />
         <Item Amount="1" TypeId="Component" SubtypeId="QuestCompGB" />
       </Prerequisites>
       <Result Amount="4515" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
@@ -489,6 +495,7 @@
       <DisplayName>Complete delivery from Kuat</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\KuatReward.dds</Icon>
       <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="LuxyryGoods" />
         <Item Amount="1" TypeId="Component" SubtypeId="QuestCompDB" />
       </Prerequisites>
       <Result Amount="5100" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
@@ -504,6 +511,7 @@
       <DisplayName>Complete delivery from Tatooine</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\TatooineReward.dds</Icon>
       <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Spice" />
         <Item Amount="1" TypeId="Component" SubtypeId="QuestCompHB" />
       </Prerequisites>
       <Result Amount="11322" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
@@ -519,6 +527,7 @@
       <DisplayName>Complete delivery from Bonadan</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\BonadanReward.dds</Icon>
       <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Minerals" />
         <Item Amount="1" TypeId="Component" SubtypeId="QuestCompIB" />
       </Prerequisites>
       <Result Amount="7353" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
@@ -534,6 +543,7 @@
       <DisplayName>Complete delivery from Eriadu</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\EriaduReward.dds</Icon>
       <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="LuxyryGoods" />
         <Item Amount="1" TypeId="Component" SubtypeId="QuestCompJB" />
       </Prerequisites>
       <Result Amount="11572" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />

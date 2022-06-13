@@ -258,7 +258,7 @@
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
       <StandbyPowerConsumption>0.000001</StandbyPowerConsumption>
-      <Capacity>2500000</Capacity>
+      <Capacity>7500000</Capacity>
       <InventoryMaxVolume>4</InventoryMaxVolume>
       <InventorySize>
         <X>2</X>
@@ -315,7 +315,7 @@
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
       <StandbyPowerConsumption>0.000001</StandbyPowerConsumption>
-      <Capacity>2500000</Capacity>
+      <Capacity>7500000</Capacity>
       <InventoryMaxVolume>4</InventoryMaxVolume>
       <InventorySize>
         <X>2</X>
@@ -430,7 +430,7 @@
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
       <StandbyPowerConsumption>0.000001</StandbyPowerConsumption>
-      <Capacity>2500000</Capacity>
+      <Capacity>7500000</Capacity>
       <InventoryMaxVolume>4</InventoryMaxVolume>
       <InventorySize>
         <X>2</X>
@@ -546,7 +546,7 @@
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
       <StandbyPowerConsumption>0.000001</StandbyPowerConsumption>
-      <Capacity>2500000</Capacity>
+      <Capacity>7500000</Capacity>
       <InventoryMaxVolume>4</InventoryMaxVolume>
       <InventorySize>
         <X>2</X>

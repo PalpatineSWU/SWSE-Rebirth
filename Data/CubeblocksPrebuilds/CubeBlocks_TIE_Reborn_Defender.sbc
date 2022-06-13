@@ -351,7 +351,7 @@
       <RequiredPowerInput>10</RequiredPowerInput>
       <AdaptibleInput>true</AdaptibleInput>
       <MaxStoredPower>20</MaxStoredPower>
-      <InitialStoredPowerRatio>0.0</InitialStoredPowerRatio>
+      <InitialStoredPowerRatio>0.5</InitialStoredPowerRatio>
 	       <DestroySound>K_Imperial_Explosion_Generic</DestroySound>
 		    <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
 			 <DestroyEffect>Imperial_Explosion</DestroyEffect>
@@ -686,11 +686,16 @@
       <Size x="3" y="3" z="1" />
       <ModelOffset x="0" y="0" z="0" />
 	  <Model>Models\Imperial_TIE_New\Defender\K_TIE_Reborn_Defender_Hyperdrive_Small.mwm</Model>
-    <Components>
-        <Component Subtype="DuraSteel" Count="5" />
-			<Component Subtype="StandardCabling" Count="8" />
-			<Component Subtype="Computer" Count="6" />
-			<Component Subtype="DuraSteel" Count="8" />
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="40" />
+        <Component Subtype="PowerConverter" Count="5" />
+        <Component Subtype="GravityGenerator" Count="2" />
+        <Component Subtype="Detector" Count="2" />
+        <Component Subtype="PowerCell" Count="12" />
+        <Component Subtype="Hyperdrive_Basic" Count="36" />
+        <Component Subtype="Computer" Count="30" />
+        <Component Subtype="ImperialConstruction" Count="4" />
+        <Component Subtype="LightweightDurasteel" Count="20" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
             <BlockPairName>K_Imperial_Reborn_TIE_Defender_Hyperdrive</BlockPairName>
@@ -698,12 +703,13 @@
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>120</BuildTimeSeconds>
-            <ResourceSinkGroup>Charging</ResourceSinkGroup>
-      <RequiredPowerInput>10</RequiredPowerInput>
-      <PowerNeededForJump>2</PowerNeededForJump>
+
+      <ResourceSinkGroup>Charging</ResourceSinkGroup>
+      <RequiredPowerInput>24</RequiredPowerInput>
+      <PowerNeededForJump>2.7</PowerNeededForJump>
 
       <MaxJumpDistance>300000</MaxJumpDistance>
-      <MaxJumpMass>70000</MaxJumpMass>
+      <MaxJumpMass>300000</MaxJumpMass>
       <EmissiveColorPreset>K_Imperial_Ship_EmissiveSet</EmissiveColorPreset>
       <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>

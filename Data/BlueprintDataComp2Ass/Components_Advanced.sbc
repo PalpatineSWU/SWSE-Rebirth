@@ -4,27 +4,28 @@
 
 <!--      Hull Components               -->
  
- <Component> <!--      Plate Elite          -->
+ 
+ <Component> <!--           Hull, Standard          -->
       <Id>
         <TypeId>Component</TypeId>
-        <SubtypeId>ImperviumPlate</SubtypeId>
+        <SubtypeId>DuraSteel</SubtypeId>
       </Id>
-      <DisplayName>Impervium Plate</DisplayName>
+      <DisplayName>Durasteel Plate</DisplayName>
       <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
-	  <ExtraInventoryTooltipLine>Rare alloy, the ore is nearly unobtainable.</ExtraInventoryTooltipLine>
+	  <ExtraInventoryTooltipLine>Republic Basic Component. Produced by Light Factory, Micro, Advanced Factory.</ExtraInventoryTooltipLine>
       <Size>
         <X>0.5</X>
         <Y>0.5</Y>
         <Z>0.01</Z>
       </Size>
-      <Mass>15</Mass>
+      <Mass>120</Mass>
       <Volume>3</Volume>
       <Model>Models\Components\K_Imperial_Components_Crate_Small.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>25000</MaxIntegrity>
+      <MaxIntegrity>1000</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
-      <Health>50</Health>
-	   <MinimalPricePerUnit>8500</MinimalPricePerUnit>
+      <Health>500</Health>
+	   <MinimalPricePerUnit>250</MinimalPricePerUnit>
 <CanPlayerOrder>true</CanPlayerOrder>
     </Component>
 	
@@ -41,19 +42,66 @@
         <Y>0.5</Y>
         <Z>0.01</Z>
       </Size>
-      <Mass>20</Mass>
+      <Mass>60</Mass>
       <Volume>3</Volume>
       <Model>Models\Components\K_Imperial_Components_Crate_Small.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>5000</MaxIntegrity>
+      <MaxIntegrity>2000</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
-      <Health>50</Health>
+      <Health>1000</Health>
 	   <MinimalPricePerUnit>2500</MinimalPricePerUnit>
 <CanPlayerOrder>true</CanPlayerOrder>
     </Component>
 	
+   <Component> 
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>BeskarPlate</SubtypeId>
+      </Id>
+      <DisplayName>Beskar Plate</DisplayName>
+	  <ExtraInventoryTooltipLine>Part of their religion</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_LWDuraSteel.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>60</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Components\K_Imperial_Components_Crate_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>2000</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>1000</Health>
+	   <MinimalPricePerUnit>35</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
 
- 
+ <Component> <!--      Plate Elite          -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ImperviumPlate</SubtypeId>
+      </Id>
+      <DisplayName>Impervium Plate</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+	  <ExtraInventoryTooltipLine>Rare alloy, the ore is nearly unobtainable.</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>120</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Components\K_Imperial_Components_Crate_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>3000</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>1500</Health>
+	   <MinimalPricePerUnit>8500</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+
+ <!--      Hull Components               -->
  <!--     Construction  Components                -->
  
   <Component> <!--        Construction, Polyplast        -->

@@ -6,7 +6,7 @@
         <TypeId>MyObjectBuilder_GasProperties</TypeId>
         <SubtypeId>HypermatterGas</SubtypeId>
       </Id>
-      <EnergyDensity>20000.001556</EnergyDensity>  <!-- MWh/litres -->
+      <EnergyDensity>2000000.001556</EnergyDensity>  <!-- MWh/litres -->
     </Gas>
 	  <Gas>
       <Id>

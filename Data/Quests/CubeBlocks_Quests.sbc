@@ -1,291 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
  <CubeBlocks>
-<!--CONVERT TO STORE  --> 
-<Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+<!--CONVERT TO STORE  -->   
+  <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <public>false</public>
       <Id>
         <TypeId>Assembler</TypeId>
         <SubtypeId>NPCEriadu</SubtypeId>
       </Id>
       <DisplayName>Eriadu NPC</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
-	   <Description>Eriadu NPC</Description>
-      <CubeSize>Large</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="3" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Assemblers\Rebellion_ExileOutfitter_Large.mwm</Model>
-      <Components>
-        <Component Subtype="NPC" Count="1" />
-        <Component Subtype="Computer" Count="1" />
-      </Components>
-      <CriticalComponent Subtype="NPC" Index="0" />
-      <MountPoints>
-         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="1" Default="true" />
-              </MountPoints>
-            <BlockPairName>NPCEriadu</BlockPairName>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>80</BuildTimeSeconds>
-      <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>1</InventoryMaxVolume>
-      <InventorySize>
-        <X>8000</X>
-        <Y>8000</Y>
-        <Z>8000</Z>
-      </InventorySize>
-      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
-      <AssemblySpeed>30</AssemblySpeed>
-      <BlueprintClasses>
-		<Class>NPCEriadu</Class>   
-      </BlueprintClasses>
-      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-      <DamagedSound>ParticleHeavyMech</DamagedSound>
-      <PrimarySound>BlockAssembler</PrimarySound>
-      <ActionSound>BlockAssemblerProcess</ActionSound>
-      <DestroyEffect>Explosion_Missile</DestroyEffect>
-      <DestroySound>WepSmallMissileExpl</DestroySound>
-	  <EmissiveColorPreset>Default</EmissiveColorPreset>
-	       </Definition>
-
-  <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
-      <Id>
-        <TypeId>Assembler</TypeId>
-        <SubtypeId>NPCBrentaal</SubtypeId>
-      </Id>
-      <DisplayName>Brentaal IV NPC</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
-	   <Description>Brentaal IV NPC</Description>
-      <CubeSize>Large</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="3" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Assemblers\Rebellion_ExileOutfitter_Large.mwm</Model>
-      <Components>
-        <Component Subtype="NPC" Count="1" />
-        <Component Subtype="Computer" Count="1" />
-      </Components>
-      <CriticalComponent Subtype="NPC" Index="0" />
-      <MountPoints>
-         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="1" Default="true" />
-              </MountPoints>
-            <BlockPairName>NPCBrentaal</BlockPairName>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>80</BuildTimeSeconds>
-      <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>1</InventoryMaxVolume>
-      <InventorySize>
-        <X>8000</X>
-        <Y>8000</Y>
-        <Z>8000</Z>
-      </InventorySize>
-      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
-      <AssemblySpeed>30</AssemblySpeed>
-      <BlueprintClasses>
-       	<Class>NPCBrentaal</Class>
-      </BlueprintClasses>
-      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-      <DamagedSound>ParticleHeavyMech</DamagedSound>
-      <PrimarySound>BlockAssembler</PrimarySound>
-      <ActionSound>BlockAssemblerProcess</ActionSound>
-      <DestroyEffect>Explosion_Missile</DestroyEffect>
-      <DestroySound>WepSmallMissileExpl</DestroySound>
-	  <EmissiveColorPreset>Default</EmissiveColorPreset>
-	       </Definition>
-
- <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
-      <Id>
-        <TypeId>Assembler</TypeId>
-        <SubtypeId>NPCAbregado-rae</SubtypeId>
-      </Id>
-      <DisplayName>Abregado-rae NPC</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
-	   <Description>NPC</Description>
-      <CubeSize>Large</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="3" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Assemblers\Rebellion_StarfighterChopshop_Large.mwm</Model>
-      <Components>
-        <Component Subtype="NPC" Count="1" />
-        <Component Subtype="Computer" Count="1" />
-      </Components>
-      <CriticalComponent Subtype="NPC" Index="0" />
-      <MountPoints>
-         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="1" Default="true" />
-              </MountPoints>
-            <BlockPairName>NPCAbregado-rae</BlockPairName>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>80</BuildTimeSeconds>
-      <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>1</InventoryMaxVolume>
-      <InventorySize>
-        <X>8000</X>
-        <Y>8000</Y>
-        <Z>8000</Z>
-      </InventorySize>
-      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
-      <AssemblySpeed>50</AssemblySpeed>
-      <BlueprintClasses>
-       	<Class>NPCAbregado-rae</Class>
-	</BlueprintClasses>
-      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-      <DamagedSound>ParticleHeavyMech</DamagedSound>
-      <PrimarySound>BlockAssembler</PrimarySound>
-      <ActionSound>BlockAssemblerProcess</ActionSound>
-      <DestroyEffect>Explosion_Missile</DestroyEffect>
-      <DestroySound>WepSmallMissileExpl</DestroySound>
-	  <EmissiveColorPreset>Default</EmissiveColorPreset>
-	       </Definition>
-
- <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
-      <Id>
-        <TypeId>Assembler</TypeId>
-        <SubtypeId>NPCBonadan</SubtypeId>
-      </Id>
-      <DisplayName>Bonadan NPC</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
-	   <Description>NPC</Description>
-      <CubeSize>Large</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="3" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Assemblers\Rebellion_StarfighterChopshop_Large.mwm</Model>
-      <Components>
-        <Component Subtype="NPC" Count="1" />
-        <Component Subtype="Computer" Count="1" />
-      </Components>
-      <CriticalComponent Subtype="NPC" Index="0" />
-      <MountPoints>
-         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="1" Default="true" />
-              </MountPoints>
-            <BlockPairName>NPCBonadan</BlockPairName>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>80</BuildTimeSeconds>
-      <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>1</InventoryMaxVolume>
-      <InventorySize>
-        <X>8000</X>
-        <Y>8000</Y>
-        <Z>8000</Z>
-      </InventorySize>
-      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
-      <AssemblySpeed>50</AssemblySpeed>
-      <BlueprintClasses>
-       	<Class>NPCBonadan</Class>
-	</BlueprintClasses>
-      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-      <DamagedSound>ParticleHeavyMech</DamagedSound>
-      <PrimarySound>BlockAssembler</PrimarySound>
-      <ActionSound>BlockAssemblerProcess</ActionSound>
-      <DestroyEffect>Explosion_Missile</DestroyEffect>
-      <DestroySound>WepSmallMissileExpl</DestroySound>
-	  <EmissiveColorPreset>Default</EmissiveColorPreset>
-	       </Definition>		   
-		   
-		   
-<Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
-      <Id>
-        <TypeId>Assembler</TypeId>
-        <SubtypeId>NPCKuat</SubtypeId>
-      </Id>
-      <DisplayName>Kuat NPC</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
-	   <Description>Kuat NPC</Description>
-      <CubeSize>Large</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="3" y="3" z="6" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Assemblers\Rebellion_StarfighterYard_Large.mwm</Model>
-      <Components>
-        <Component Subtype="NPC" Count="1" />
-        <Component Subtype="Computer" Count="1" />
-      </Components>
-      <CriticalComponent Subtype="NPC" Index="0" />
-      <MountPoints>
-         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="6" Default="true" />
-              </MountPoints>
-            <BlockPairName>NPCKuat</BlockPairName>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>80</BuildTimeSeconds>
-      <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>3</InventoryMaxVolume>
-      <InventorySize>
-        <X>8000</X>
-        <Y>8000</Y>
-        <Z>8000</Z>
-      </InventorySize>
-      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
-      <AssemblySpeed>30</AssemblySpeed>
-      <BlueprintClasses>
-     	<Class>NPCKuat</Class>
-      </BlueprintClasses>
-      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-      <DamagedSound>ParticleHeavyMech</DamagedSound>
-      <PrimarySound>BlockAssembler</PrimarySound>
-      <ActionSound>BlockAssemblerProcess</ActionSound>
-      <DestroyEffect>Explosion_Missile</DestroyEffect>
-      <DestroySound>WepSmallMissileExpl</DestroySound>
-	  <EmissiveColorPreset>Default</EmissiveColorPreset>
-	       </Definition>		   
-		   
-<Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
-      <Id>
-        <TypeId>Assembler</TypeId>
-        <SubtypeId>NPCBastion</SubtypeId>
-      </Id>
-      <DisplayName>Bastion NPC</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
-	   <Description>Bastion NPC</Description>
-      <CubeSize>Large</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="3" y="3" z="6" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Assemblers\Rebellion_StarfighterYard_Large.mwm</Model>
-      <Components>
-        <Component Subtype="NPC" Count="1" />
-        <Component Subtype="Computer" Count="1" />
-      </Components>
-      <CriticalComponent Subtype="NPC" Index="0" />
-      <MountPoints>
-         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="6" Default="true" />
-              </MountPoints>
-            <BlockPairName>NPCBastion</BlockPairName>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>80</BuildTimeSeconds>
-      <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>3</InventoryMaxVolume>
-      <InventorySize>
-        <X>8000</X>
-        <Y>8000</Y>
-        <Z>8000</Z>
-      </InventorySize>
-      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
-      <AssemblySpeed>30</AssemblySpeed>
-      <BlueprintClasses>
-     	<Class>NPCBastion</Class>
-      </BlueprintClasses>
-      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-      <DamagedSound>ParticleHeavyMech</DamagedSound>
-      <PrimarySound>BlockAssembler</PrimarySound>
-      <ActionSound>BlockAssemblerProcess</ActionSound>
-      <DestroyEffect>Explosion_Missile</DestroyEffect>
-      <DestroySound>WepSmallMissileExpl</DestroySound>
-	  <EmissiveColorPreset>Default</EmissiveColorPreset>
-	       </Definition>		   
-		   
-  <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
-      <public>false</public>
-      <Id>
-        <TypeId>Assembler</TypeId>
-        <SubtypeId>NPCConcordia</SubtypeId>
-      </Id>
-      <DisplayName>Concordia NPC</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
 	   <Description>Concordia NPC</Description>
       <CubeSize>Large</CubeSize>
@@ -301,11 +24,11 @@
       <MountPoints>
          <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
               </MountPoints>
-            <BlockPairName>NPCConcordia</BlockPairName>
+            <BlockPairName>NPCEriadu</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>80</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>1</InventoryMaxVolume>
+      <InventoryMaxVolume>400</InventoryMaxVolume>
       <InventorySize>
         <X>1</X>
         <Y>1</Y>
@@ -315,7 +38,286 @@
       <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
       <AssemblySpeed>30</AssemblySpeed>
       <BlueprintClasses>
-        <Class>NPCConcordia</Class> 
+        <Class>NPCEriadu</Class> 
+	</BlueprintClasses>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>BlockAssembler</PrimarySound>
+      <ActionSound>BlockAssemblerProcess</ActionSound>
+      <DestroyEffect>Explosion_Missile</DestroyEffect>
+      <DestroySound>WepSmallMissileExpl</DestroySound>
+	  <EmissiveColorPreset>Default</EmissiveColorPreset>
+	       </Definition>
+
+  <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <public>false</public>
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>NPCBrentaal</SubtypeId>
+      </Id>
+      <DisplayName>Brentaal IV NPC</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
+	   <Description>Ilum NPC</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Rebellion\Machinery\Rebellion_Refinery_Large.mwm</Model>
+      <Components>
+        <Component Subtype="NPC" Count="1" />
+        <Component Subtype="Computer" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="NPC" Index="0" />
+      <MountPoints>
+         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+              </MountPoints>
+            <BlockPairName>NPCBrentaal</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>80</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>400</InventoryMaxVolume>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.03</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
+      <AssemblySpeed>30</AssemblySpeed>
+      <BlueprintClasses>
+        <Class>NPCBrentaal</Class>
+	</BlueprintClasses>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>BlockAssembler</PrimarySound>
+      <ActionSound>BlockAssemblerProcess</ActionSound>
+      <DestroyEffect>Explosion_Missile</DestroyEffect>
+      <DestroySound>WepSmallMissileExpl</DestroySound>
+	  <EmissiveColorPreset>Default</EmissiveColorPreset>
+	       </Definition>
+
+  <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <public>false</public>
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>NPCAbregado-rae</SubtypeId>
+      </Id>
+      <DisplayName>Abregado-rae NPC</DisplayName>
+	   <Description>NPC</Description>
+      <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Rebellion\Machinery\Rebellion_ScrapRefinery_Large.mwm</Model>
+      <Components>
+        <Component Subtype="NPC" Count="1" />
+        <Component Subtype="Computer" Count="1" />        
+      </Components>
+      <CriticalComponent Subtype="NPC" Index="0" />
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <BlockPairName>NPCAbregado-rae</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>80</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>400</InventoryMaxVolume>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.03</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
+      <AssemblySpeed>30</AssemblySpeed>
+      <BlueprintClasses>
+        <Class>NPCAbregado-rae</Class>
+	</BlueprintClasses>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>BlockAssembler</PrimarySound>
+      <ActionSound>BlockAssemblerProcess</ActionSound>
+      <DestroyEffect>Explosion_Missile</DestroyEffect>
+      <DestroySound>WepSmallMissileExpl</DestroySound>
+	  <EmissiveColorPreset>Default</EmissiveColorPreset>
+	       </Definition>
+
+  <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <public>false</public>
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>NPCBonadan</SubtypeId>
+      </Id>
+      <DisplayName>Bonadan NPC</DisplayName>
+	   <Description>Bonadan NPC</Description>
+      <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Rebellion\Machinery\Rebellion_ScrapRefinery_Large.mwm</Model>
+      <Components>
+        <Component Subtype="NPC" Count="1" />
+        <Component Subtype="Computer" Count="1" />        
+      </Components>
+      <CriticalComponent Subtype="NPC" Index="0" />
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <BlockPairName>NPCBonadan</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>80</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>400</InventoryMaxVolume>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.03</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
+      <AssemblySpeed>30</AssemblySpeed>
+      <BlueprintClasses>
+        <Class>NPCBonadan</Class>     
+	</BlueprintClasses>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>BlockAssembler</PrimarySound>
+      <ActionSound>BlockAssemblerProcess</ActionSound>
+      <DestroyEffect>Explosion_Missile</DestroyEffect>
+      <DestroySound>WepSmallMissileExpl</DestroySound>
+	  <EmissiveColorPreset>Default</EmissiveColorPreset>
+	       </Definition>		   
+		   
+  <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <public>false</public>
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>NPCKuat</SubtypeId>
+      </Id>
+      <DisplayName>Kuat NPC</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
+	   <Description>Kuat NPC</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Rebellion\Machinery\Rebellion_Refinery_Large.mwm</Model>
+      <Components>
+        <Component Subtype="NPC" Count="1" />
+        <Component Subtype="Computer" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="NPC" Index="0" />
+      <MountPoints>
+         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+              </MountPoints>
+            <BlockPairName>NPCKuat</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>80</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>400</InventoryMaxVolume>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.03</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
+      <AssemblySpeed>30</AssemblySpeed>
+      <BlueprintClasses>
+        <Class>NPCKuat</Class> 
+	</BlueprintClasses>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>BlockAssembler</PrimarySound>
+      <ActionSound>BlockAssemblerProcess</ActionSound>
+      <DestroyEffect>Explosion_Missile</DestroyEffect>
+      <DestroySound>WepSmallMissileExpl</DestroySound>
+	  <EmissiveColorPreset>Default</EmissiveColorPreset>
+	       </Definition>
+
+  <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <public>false</public>
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>NPCBastion</SubtypeId>
+      </Id>
+      <DisplayName>Bastion NPC</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
+	   <Description>Bastion NPC</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Rebellion\Machinery\Rebellion_Refinery_Large.mwm</Model>
+      <Components>
+        <Component Subtype="NPC" Count="1" />
+        <Component Subtype="Computer" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="NPC" Index="0" />
+      <MountPoints>
+         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+              </MountPoints>
+            <BlockPairName>NPCBastion</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>80</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>400</InventoryMaxVolume>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.03</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
+      <AssemblySpeed>30</AssemblySpeed>
+      <BlueprintClasses>
+        <Class>NPCBastion</Class>
+	</BlueprintClasses>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>BlockAssembler</PrimarySound>
+      <ActionSound>BlockAssemblerProcess</ActionSound>
+      <DestroyEffect>Explosion_Missile</DestroyEffect>
+      <DestroySound>WepSmallMissileExpl</DestroySound>
+	  <EmissiveColorPreset>Default</EmissiveColorPreset>
+	       </Definition>
+
+  <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <public>false</public>
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>NPCConcordia</SubtypeId>
+      </Id>
+      <DisplayName>Concordia NPC</DisplayName>
+	   <Description>Concordia NPC</Description>
+      <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Rebellion\Machinery\Rebellion_ScrapRefinery_Large.mwm</Model>
+      <Components>
+        <Component Subtype="NPC" Count="1" />
+        <Component Subtype="Computer" Count="1" />        
+      </Components>
+      <CriticalComponent Subtype="NPC" Index="0" />
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>     
+      <BlockPairName>NPCConcordia</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>80</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>400</InventoryMaxVolume>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.03</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
+      <AssemblySpeed>30</AssemblySpeed>
+      <BlueprintClasses>
+        <Class>NPCConcordia</Class>
 	</BlueprintClasses>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -333,26 +335,25 @@
         <SubtypeId>NPCIlum</SubtypeId>
       </Id>
       <DisplayName>Ilum NPC</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
 	   <Description>Ilum NPC</Description>
+      <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="2" y="1" z="3" />
+      <Size x="2" y="1" z="2" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Rebellion\Machinery\Rebellion_Refinery_Large.mwm</Model>
+      <Model>Models\Rebellion\Machinery\Rebellion_ScrapRefinery_Large.mwm</Model>
       <Components>
         <Component Subtype="NPC" Count="1" />
-        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="Computer" Count="1" />        
       </Components>
       <CriticalComponent Subtype="NPC" Index="0" />
-      <MountPoints>
-         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-              </MountPoints>
-            <BlockPairName>NPCIlum</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>      
+      <BlockPairName>NPCIlum</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>80</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>1</InventoryMaxVolume>
+      <InventoryMaxVolume>400</InventoryMaxVolume>
       <InventorySize>
         <X>1</X>
         <Y>1</Y>
@@ -362,7 +363,7 @@
       <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
       <AssemblySpeed>30</AssemblySpeed>
       <BlueprintClasses>
-        <Class>NPCIlum</Class>
+        <Class>NPCIlum</Class>     
 	</BlueprintClasses>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -393,13 +394,12 @@
       </Components>
       <CriticalComponent Subtype="NPC" Index="0" />
       <MirroringZ>Y</MirroringZ>
-      <MirroringY>Z</MirroringY>
-      
+      <MirroringY>Z</MirroringY>      
       <BlockPairName>NPCDathomir</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>80</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>1</InventoryMaxVolume>
+      <InventoryMaxVolume>400</InventoryMaxVolume>
       <InventorySize>
         <X>1</X>
         <Y>1</Y>
@@ -441,12 +441,11 @@
       <CriticalComponent Subtype="NPC" Index="0" />
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
-      
       <BlockPairName>NPCTatooine</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>80</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>1</InventoryMaxVolume>
+      <InventoryMaxVolume>400</InventoryMaxVolume>
       <InventorySize>
         <X>1</X>
         <Y>1</Y>

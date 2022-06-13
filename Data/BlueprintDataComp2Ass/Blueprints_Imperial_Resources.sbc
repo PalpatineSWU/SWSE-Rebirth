@@ -166,24 +166,6 @@
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
     </Blueprint>
 	
-	
-	<Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>MandolorianIron_Standard</SubtypeId>
-      </Id>
-      <DisplayName>Mandolorian Iron</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
-      <Prerequisites>
-        <Item Amount="10000" TypeId="Ore" SubtypeId="Beskar" />
-		    <Item Amount="5000" TypeId="Ore" SubtypeId="Alum" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Ingot" SubtypeId="Beskar" />
-      <BaseProductionTimeInSeconds>5000</BaseProductionTimeInSeconds>
-    </Blueprint>
-	
-	
-	
 	<Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
@@ -197,23 +179,7 @@
       <Result Amount="1" TypeId="Ingot" SubtypeId="Carbonite" />
       <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
     </Blueprint>
-	
 
-	
-	<Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Anthracite</SubtypeId>
-      </Id>
-      <DisplayName>Anthracite</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
-      <Prerequisites>
-        <Item Amount="1" TypeId="Ore" SubtypeId="Anthracite" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Ingot" SubtypeId="Anthracite" />
-      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
-    </Blueprint>
-	
 	<Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>

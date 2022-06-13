@@ -6,9 +6,8 @@
         <TypeId>Refinery</TypeId>
         <SubtypeId>K_Imperial_Refinement_Refinery_Light_I</SubtypeId>
       </Id>
-      <DisplayName>Republic Light Refinery</DisplayName>
-	   <Description> Light Hardware. 
-	   Capable of refining All Vanilla and Basic SW Resources.
+      <DisplayName>Light Refinery</DisplayName>
+	   <Description>Hardware capable of refining All Vanilla and Basic SW Resources.
 	   Large-Grid 1x2x1</Description>
       <Icon>Textures\GUI\Icons\ReeAss\Lightref.dds</Icon>
       <CubeSize>Large</CubeSize>
@@ -72,7 +71,7 @@
         <TypeId>Refinery</TypeId>
         <SubtypeId>K_Imperial_Refinement_Foundry_Light_I</SubtypeId>
       </Id>
-      <DisplayName>Republic Light Foundry</DisplayName>
+      <DisplayName>Light Foundry Refinery</DisplayName>
 	   <Description> Refinery Hardware. 
 	   Capable of refining All Vanilla, most SW Metals, and Common Crystals.
 	   Large-Grid 1x2x3</Description>
@@ -137,7 +136,7 @@
         <TypeId>Refinery</TypeId>
         <SubtypeId>K_Imperial_Refinement_ProcessingFacility</SubtypeId>
       </Id>
-      <DisplayName>Republic Resource-Processing-Facility</DisplayName>
+      <DisplayName>Resource Processing Facility (Refinery)</DisplayName>
       <Icon>Textures\GUI\Icons\ReeAss\Repros.dds</Icon>
 	   <Description>Standardized Imperial Heavy-Refinery: Refines old-world and Imperial resources, with large internal storage.
 	   Handles any Resource provided.

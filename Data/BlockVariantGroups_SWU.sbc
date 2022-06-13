@@ -712,7 +712,7 @@
         </BlockVariantGroup>
 
         <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="K_Imperial_Misc_Hyperdrive6" />
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Hyperdrivesbigsmall" />
             <Icon>Textures\GUI\Icons\Fuelburners\JD.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup2</DisplayName>
             <Description>Description_BlockGroup_TurretGroup2</Description>
@@ -725,11 +725,44 @@
                 <Block Type="MyObjectBuilder_JumpDrive" Subtype="K_Imperial_Misc_Hyperdrive3" />
                 <Block Type="MyObjectBuilder_JumpDrive" Subtype="K_Imperial_Misc_Hyperdrive2" />
                 <Block Type="MyObjectBuilder_JumpDrive" Subtype="K_Imperial_Misc_Hyperdrive1" />
-                <Block Type="MyObjectBuilder_JumpDrive" Subtype="K_Imperial_Misc_Hyperdrive1_2" />                                
+                <Block Type="MyObjectBuilder_JumpDrive" Subtype="K_Imperial_Misc_Hyperdrive1_2" />
+				<Block Type="MyObjectBuilder_JumpDrive" Subtype="K_Imperial_Misc_HyperdriveSmall6" />    
+				<Block Type="MyObjectBuilder_JumpDrive" Subtype="K_Imperial_Misc_HyperdriveSmall5" />
+                <Block Type="MyObjectBuilder_JumpDrive" Subtype="K_Imperial_Misc_HyperdriveSmall5_5" />                      
+                <Block Type="MyObjectBuilder_JumpDrive" Subtype="K_Imperial_Misc_HyperdriveSmall4" />
+                <Block Type="MyObjectBuilder_JumpDrive" Subtype="K_Imperial_Misc_HyperdriveSmall4M" />
+                <Block Type="MyObjectBuilder_JumpDrive" Subtype="K_Imperial_Misc_HyperdriveSmall3" />
+                <Block Type="MyObjectBuilder_JumpDrive" Subtype="K_Imperial_Misc_HyperdriveSmall2" />
+                <Block Type="MyObjectBuilder_JumpDrive" Subtype="K_Imperial_Misc_HyperdriveSmall1" />
+                <Block Type="MyObjectBuilder_JumpDrive" Subtype="K_Imperial_Misc_HyperdriveSmall1_2" />                                                                              
             </Blocks>
         </BlockVariantGroup>
 
-
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Prebuildhyperdives" />
+            <Icon>Textures\GUI\Icons\Fuelburners\JD.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_TurretGroup2</DisplayName>
+            <Description>Description_BlockGroup_TurretGroup2</Description>
+            <Blocks>
+		    	<Block Type="MyObjectBuilder_JumpDrive" Subtype="K_Chiss_Clawcraft_Hyperdrive" />
+		    	<Block Type="MyObjectBuilder_JumpDrive" Subtype="K_NewRepublic_AWing_Hyperdrive" />
+		    	<Block Type="MyObjectBuilder_JumpDrive" Subtype="K_NewRepublic_EWing_Hyperdrive" />
+		    	<Block Type="MyObjectBuilder_JumpDrive" Subtype="K_NewRepublic_H60_Hyperdrive" />
+		    	<Block Type="MyObjectBuilder_JumpDrive" Subtype="K_NewRepublic_Ionizer_Hyperdrive" />
+		    	<Block Type="MyObjectBuilder_JumpDrive" Subtype="K_NewRepublic_XWing_70_Hyperdrive" />
+		    	<Block Type="MyObjectBuilder_JumpDrive" Subtype="K_NewRepublic_XWing_XJ5_Hyperdrive" />
+		    	<Block Type="MyObjectBuilder_JumpDrive" Subtype="K_NewRepublic_YWing_Hyperdrive" />
+		    	<Block Type="MyObjectBuilder_JumpDrive" Subtype="K_Rebellion_RZ1_Hyperdrive_Stock" />
+		    	<Block Type="MyObjectBuilder_JumpDrive" Subtype="K_Rebellion_RZ1_Hyperdrive_Stock2" />
+		    	<Block Type="MyObjectBuilder_JumpDrive" Subtype="K_Pirates_StarViper_Hyperdrive" />
+		    	<Block Type="MyObjectBuilder_JumpDrive" Subtype="K_TIE_AdvancedV1_Hyperdrive" />
+		    	<Block Type="MyObjectBuilder_JumpDrive" Subtype="K_TIE_Hunter_Hyperdrive" />
+		    	<Block Type="MyObjectBuilder_JumpDrive" Subtype="K_Imperial_Reborn_TIE_Avenger_Hyperdrive" />
+		    	<Block Type="MyObjectBuilder_JumpDrive" Subtype="K_Imperial_Reborn_TIE_Defender_Hyperdrive" />
+		    	<Block Type="MyObjectBuilder_JumpDrive" Subtype="K_Imperial_Reborn_TIE_Hunter_Hyperdrive" />
+		    	<Block Type="MyObjectBuilder_JumpDrive" Subtype="K_Imperial_Reborn_TIE_Interceptor_Hyperdrive" />                                                         
+            </Blocks>
+        </BlockVariantGroup>
         <!-- Ship Tools-->
 
         <BlockVariantGroup>
