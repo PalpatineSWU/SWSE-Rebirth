@@ -743,7 +743,7 @@
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
       <NavigationDefinition>Default</NavigationDefinition>
-	   <WeaponDefinitionId Subtype="K_NR_Gun" />
+	   <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
       <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
@@ -800,7 +800,7 @@
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
       <NavigationDefinition>Default</NavigationDefinition>
-	   <WeaponDefinitionId Subtype="K_NR_Gun" />
+	   <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
       <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
@@ -861,7 +861,7 @@
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
       <NavigationDefinition>Default</NavigationDefinition>
-	   <WeaponDefinitionId Subtype="K_NR_Gun" />
+	   <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
       <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>

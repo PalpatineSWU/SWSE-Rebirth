@@ -60,7 +60,6 @@
 	
 
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-		<Public>false</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Pirates_StarViper_Weaponry_LaserCannon</SubtypeId>
@@ -87,7 +86,7 @@
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
       <NavigationDefinition>Default</NavigationDefinition>
-	   <WeaponDefinitionId Subtype="K_NEU_Gun" />
+	   <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
       <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
@@ -110,7 +109,6 @@
 	
 	
 	<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-		<Public>false</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Pirates_StarViper_Weaponry_SlugThrower</SubtypeId>
@@ -137,7 +135,7 @@
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
       <NavigationDefinition>Default</NavigationDefinition>
-	   <WeaponDefinitionId Subtype="K_NEU_Gun" />
+	   <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
       <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>

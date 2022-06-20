@@ -462,6 +462,56 @@
       </ItemIds>
     </Category>
 
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+        <Id>
+            <TypeId>GuiBlockCategoryDefinition</TypeId>
+            <SubtypeId>AAAvailableWeapons</SubtypeId>
+        </Id>
+        <StrictSearch>true</StrictSearch>        
+        <DisplayName>Available Weapons</DisplayName>
+        <Name>AvailableWeapons</Name>
+        <ItemIds>
+            <string>K_Imperial_A9Interceptor_Weaponry</string>
+            <string>K_Imperial_HowlRunner_Weaponry_A</string>
+            <string>K_Imperial_HowlRunner_Weaponry_B</string>
+            <string>K_Pirates_StarViper_Weaponry_LaserCannon</string>
+            <string>K_Pirates_StarViper_Weaponry_SlugThrower</string>
+            <string>K_Imperial_Reborn_TIE_Fighter_Weaponry</string>
+            <string>K_Imperial_Reborn_TIE_Oppressor_Weaponry</string>
+            <string>K_Imperial_Reborn_TIE_Hunter_Weaponry</string>
+            <string>K_Imperial_Reborn_TIE_Interceptor_Weaponry</string>
+            <string>K_Imperial_Reborn_TIE_Bomber_Weaponry</string>
+            <string>K_Imperial_Reborn_TIE_Avenger_Weaponry</string>
+            <string>K_Imperial_Reborn_TIE_Bomber_BombBay</string>
+            <string>K_Chiss_Clawcraft_WingCannon</string>
+            <string>K_Chiss_Clawcraft_WingCannonII</string>
+            <string>K_TIE_Attachable_RocketPod</string>
+            <string>K_Imperial_Tower_AntiInfantry_Basic</string>
+            <string>K_Imperial_Tower_TurboLaser_3x</string>
+            <string>K_Imperial_Tower_PDT_Basic</string>
+            <string>K_Imperial_Tower_Heavy</string>
+            <string>K_Imperial_PatrolCraft_LaserCannonTurret</string>
+            <string>K_SW_IMP_DefenseBattery_DIC</string>
+            <string>K_SW_IMP_DefenseBattery_DLC</string>
+            <string>K_SW_IMP_DefenseHeavyBattery_DMDC</string>
+            <string>K_SW_IMP_DefenseHeavyBattery_DTC</string>
+            <string>K_SW_IMP_DefenseBattery_DTC</string>
+            <string>K_SW_IMP_DefenseBattery_HIC</string>
+            <string>K_SW_IMP_DefenseHeavyBattery_LHVC</string>
+            <string>K_SW_IMP_DefenseHeavyBattery_PTL</string>
+            <string>K_SW_IMP_RecessedEmplacement_CML</string>
+            <string>K_SW_IMP_RecessedEmplacement_DIC</string>
+            <string>K_SW_IMP_RecessedEmplacement_DTC</string>
+            <string>K_SW_IMP_LancerAA_A</string>
+            <string>K_SW_IMP_LancerAA_B</string>
+            <string>K_Imperial_Tower_LaserCannon_Basic</string>
+            <string>K_Imperial_Tower_ConcussionMissile</string>
+            <string>K_Imperial_Guild_LaserCannonTurret</string>
+            <string>K_Imperial_Tower_IonCannon_Basic</string>
+            <string>K_Imperial_Octoturbolaser_Turret_Normal</string>
+            <string>K_Imperial_Tower_TurboLaser_Basic</string>
+        </ItemIds>
+    </Category>
 
   </CategoryClasses>
 </Definitions>

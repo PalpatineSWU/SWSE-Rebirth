@@ -1181,9 +1181,83 @@
             </Blocks>
         </BlockVariantGroup>
 
+<BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Pstarwarsweapons" />
+            <Icon>Textures\GUI\Icons\Imperial_TurboTower.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
+            <Description>Description_BlockGroup_TurretGroup</Description>
+            <Blocks>
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Tower_LaserCannon_Basic" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Guild_LaserCannonTurret" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Tower_Heavy" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Octoturbolaser_Turret_Normal" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Tower_IonCannon_Basic" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Tower_ConcussionMissile" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Tower_TurboLaser_Basic" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_IMP_DefenseBattery_DLC" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_IMP_DefenseBattery_DTC" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_IMP_DefenseBattery_DIC" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_IMP_DefenseBattery_HIC" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_IMP_DefenseHeavyBattery_DTC" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_IMP_DefenseHeavyBattery_PTL" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_IMP_RecessedEmplacement_DTC" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_IMP_RecessedEmplacement_DIC" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_IMP_LancerAA_A" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_IMP_LancerAA_B" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Tower_PDT_Basic" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Tower_TurboLaser_3x" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Tower_AntiInfantry_Basic" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_IMP_DefenseHeavyBattery_DMDC" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_IMP_DefenseHeavyBattery_LHVC" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_IMP_RecessedEmplacement_CML" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_PatrolCraft_LaserCannonTurret" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_PatrolCraft_TorpLauncher" />
+            </Blocks>
+        </BlockVariantGroup>
 
+<BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ntarded" />
+            <Icon>Textures\GUI\Icons\Imperial_TurboTower.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
+            <Description>Description_BlockGroup_TurretGroup</Description>
+            <Blocks>
+
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_Chiss_Turret_MegaMaser" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_Chiss_Turret_Maser" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_Pirates_Turret_LaserCannon" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_Pirates_Turret_TurbolaserCannon" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_Pirates_Turret_AbominationA" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_Pirates_Turret_Repeater" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_Pirates_Turret_HeavyLaserCannon" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_Pirates_Turret_Harkon" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_Pirates_Turret_Slugger" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_General_PopupTurret_1" />
+<Block Type="MyObjectBuilder_WeaponBlock" Subtype="K_MasterFile_Neutral_Pulsewave_Turret_Cannon" />
+<Block Type="MyObjectBuilder_WeaponBlock" Subtype="Turrets_Light_ProtectorLaserCannon" />
+<Block Type="MyObjectBuilder_WeaponBlock" Subtype="Turrets_Light_AMS" />
+<Block Type="MyObjectBuilder_WeaponBlock" Subtype="Turrets_Light_NanoMissileTurret" />
+<Block Type="MyObjectBuilder_WeaponBlock" Subtype="K_Rebellion_Hoth_LaserCannonTurret" />
+
+
+
+            </Blocks>
+        </BlockVariantGroup>
         <!--  -->
+<BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ntarded2" />
+            <Icon>Textures\GUI\Icons\Imperial_TurboTower.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
+            <Description>Description_BlockGroup_TurretGroup</Description>
+            <Blocks>
+<Block Type="MyObjectBuilder_WeaponBlock" Subtype="K_MasterFile_Neutral_Pulsewave_Turret_Blaster" />
+<Block Type="MyObjectBuilder_WeaponBlock" Subtype="K_MasterFile_Neutral_Pulsewave_Turret_Repeater" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_Chiss_FM_Maser" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_Pirates_FixedMount_LaserCannon" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_Pirates_FixedMount_Machinegun" />
+<Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_FM_LaserCannon_01" />
 
+            </Blocks>
+        </BlockVariantGroup>
 
     </BlockVariantGroups>
 </Definitions>

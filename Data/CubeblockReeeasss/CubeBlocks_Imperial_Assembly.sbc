@@ -404,9 +404,9 @@
       <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
       <BlueprintClasses>
         <Class>K_Imperial_MicroFactoryVanilla</Class>
-		<Class>K_Imperial_Resource_Conversion</Class>
-    <Class>BuildPlanner</Class>
-		 <Class>Components</Class>
+	    	<Class>K_Imperial_Resource_Conversion</Class>
+        <Class>BuildPlanner</Class>
+		    <Class>Components</Class>
         <Class>EliteTools</Class>
 		    <Class>EliteConsumables</Class>
 	      </BlueprintClasses>

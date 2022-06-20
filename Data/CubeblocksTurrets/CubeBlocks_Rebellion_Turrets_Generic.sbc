@@ -3,12 +3,12 @@
  <CubeBlocks>
 
 <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
-    <Public>false</Public>
+    <Public>true</Public>
        <Id>
         <TypeId>LargeMissileTurret</TypeId>
            <SubtypeId>K_Rebellion_General_LaserCannonTurret</SubtypeId>
       </Id>
-      <DisplayName>Rebellion Kauti Laser-Cannon Emplacement (Quad-AA)</DisplayName>
+      <DisplayName>Rebellion Kauti Laser-Cannon Emplacement (Quad-AA) Turret</DisplayName>
 	   <Description>Light Quad Laser-Cannon Turret, of Rebellion construction using Kauti-Cell styling.</Description>
     <Icon>Textures\GUI\Icons\Cubes\missile_turret.dds</Icon>
       <CubeSize>Large</CubeSize>
@@ -49,7 +49,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
        <OverlayTexture>Textures\GUI\Screens\K_Imperial_Overlay_Turret_1_A.dds</OverlayTexture>
-      <WeaponDefinitionId Subtype="K_REB_Gun" />
+      <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <InventoryMaxVolume>0.384</InventoryMaxVolume>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -71,12 +71,12 @@
 	  </Definition>
 	
 <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
-      <Public>false</Public>
+      <Public>true</Public>
       <Id>
         <TypeId>LargeMissileTurret</TypeId>
            <SubtypeId>K_Rebellion_General_LIonCannonTurret</SubtypeId>
       </Id>
-      <DisplayName>Rebellion Kauti Ion-Cannon Emplacement (Light)</DisplayName>
+      <DisplayName>Rebellion Kauti Ion-Cannon Emplacement (Light) Turret</DisplayName>
 	   <Description>Light IonCannon Turret, of Rebellion construction using Kauti-Cell styling.
 	   Best used against Shields, with an EMP after-effect chance: Struggles to damage against physical armor.
 	   Less Effect on Small-Grid Fighters.</Description>
@@ -119,7 +119,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
        <OverlayTexture>Textures\GUI\Screens\K_Imperial_Overlay_Turret_1_A.dds</OverlayTexture>
-      <WeaponDefinitionId Subtype="K_REB_Gun" />
+      <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <InventoryMaxVolume>0.384</InventoryMaxVolume>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -142,12 +142,12 @@
 	  
 	  
 <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
-      <Public>false</Public>
+      <Public>true</Public>
       <Id>
         <TypeId>LargeMissileTurret</TypeId>
            <SubtypeId>K_Rebellion_SentryTower_Turret</SubtypeId>
       </Id>
-      <DisplayName>Rebellion Kauti Sentry-Tower (Micro Laser-Cannon)</DisplayName>
+      <DisplayName>Rebellion Kauti Sentry-Tower (Micro Laser-Cannon) Turret</DisplayName>
 	   <Description>Kauti-Cell Designed Tower, intended to be used with the Sentry-Tower parts, to form a light defensive sentry.
 	   Effective against Infantry, with middling effect on Small-grid; Struggles to scratch Heavy armor.</Description>
      <Icon>Textures\GUI\Icons\Cubes\missile_turret.dds</Icon>
@@ -190,7 +190,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
        <OverlayTexture>Textures\GUI\Screens\K_Imperial_Overlay_Turret_1_A.dds</OverlayTexture>
-      <WeaponDefinitionId Subtype="K_REB_Gun" />
+      <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <InventoryMaxVolume>0.384</InventoryMaxVolume>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -213,7 +213,7 @@
 	
 
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition"> <!-- Underground Turret-->
-      <Public>false</Public>
+      <Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Rebellion_General_PopupTurret_1</SubtypeId>
@@ -249,7 +249,7 @@
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
       <NavigationDefinition>Default</NavigationDefinition>
-	   <WeaponDefinitionId Subtype="K_REB_Gun" />
+	   <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
       <MinElevationDegrees>-15</MinElevationDegrees>

@@ -3,12 +3,12 @@
  <CubeBlocks>
 
 		 <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
-      <Public>false</Public>
+      <Public>true</Public>
       <Id>
         <TypeId>LargeMissileTurret</TypeId>
            <SubtypeId>K_Rebellion_Hoth_LaserCannonTurret</SubtypeId>
       </Id>
-      <DisplayName>Rebellion Kauti Laser-Cannon Emplacement (Hoth)</DisplayName>
+      <DisplayName>Rebellion Kauti Laser-Cannon Emplacement (Hoth) Turret</DisplayName>
 	   <Description>Armored Laser-Cannon Turret, of Rebellion construction using Kauti-Cell styling.</Description>
        <Icon>Textures\GUI\Icons\Cubes\missile_turret.dds</Icon>
       <CubeSize>Large</CubeSize>
@@ -49,7 +49,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
        <OverlayTexture>Textures\GUI\Screens\K_Imperial_Overlay_Turret_1_A.dds</OverlayTexture>
-      <WeaponDefinitionId Subtype="K_REB_Gun" />
+      <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <InventoryMaxVolume>0.384</InventoryMaxVolume>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>

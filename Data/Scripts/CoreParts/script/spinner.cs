@@ -12,7 +12,7 @@ using VRageMath;
 
 namespace EquinoxStuff
 {
-    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_MedicalRoom), false, "K_Imperial_SpawnPoint_Beacon_I","K_Imperial_SpawnPoint_Globe_I" )]
+    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_MedicalRoom), false, "K_Imperial_SpawnPoint_Beacon_I","K_Imperial_SpawnPoint_Globe_I", "K_CIS_SpawnPoint_Beacon_I" )]
     public class MedicalSpinner : EnabledSpinner
     {
         // Spin SubpartName at 10 degrees per second

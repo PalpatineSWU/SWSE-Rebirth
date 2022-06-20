@@ -5,7 +5,7 @@
 <!-- Tibanna -->	
 
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_SW_Pirates_Turret_LaserCannon</SubtypeId>
@@ -36,7 +36,7 @@
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
       <NavigationDefinition>Default</NavigationDefinition>
-	   <WeaponDefinitionId Subtype="K_NEU_Gun" />
+	   <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
       <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
@@ -60,7 +60,7 @@
 
 	
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_SW_Pirates_Turret_TurbolaserCannon</SubtypeId>
@@ -92,7 +92,7 @@
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
       <NavigationDefinition>Default</NavigationDefinition>
-	   <WeaponDefinitionId Subtype="K_NEU_Gun" />
+	   <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
       <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
@@ -116,7 +116,7 @@
 	
 	
 	<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_SW_Pirates_Turret_AbominationA</SubtypeId>
@@ -152,7 +152,7 @@
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
       <NavigationDefinition>Default</NavigationDefinition>
-	   <WeaponDefinitionId Subtype="K_NEU_Gun" />
+	   <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
       <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
@@ -176,7 +176,7 @@
 
 
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_SW_Pirates_Turret_Repeater</SubtypeId>
@@ -208,7 +208,7 @@
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
       <NavigationDefinition>Default</NavigationDefinition>
-	   <WeaponDefinitionId Subtype="K_NEU_Gun" />
+	   <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
       <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
@@ -231,7 +231,7 @@
 
 	
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_SW_Pirates_Turret_HeavyLaserCannon</SubtypeId>
@@ -263,7 +263,7 @@
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
       <NavigationDefinition>Default</NavigationDefinition>
-	   <WeaponDefinitionId Subtype="K_NEU_Gun" />
+	   <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
       <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
@@ -287,7 +287,7 @@
 	
 	
 	<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_SW_Pirates_Turret_Harkon</SubtypeId>
@@ -320,7 +320,7 @@
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
       <NavigationDefinition>Default</NavigationDefinition>
-	   <WeaponDefinitionId Subtype="K_NEU_Gun" />
+	   <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
       <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
@@ -345,7 +345,7 @@
 <!-- Kinetics -->	
 	
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_SW_Pirates_Turret_Slugger</SubtypeId>
@@ -379,7 +379,7 @@
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
       <NavigationDefinition>Default</NavigationDefinition>
-	   <WeaponDefinitionId Subtype="K_NEU_Gun" />
+	   <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
       <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
@@ -406,12 +406,12 @@
 <!-- Fixed Mount -->
 
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_SW_Pirates_FixedMount_LaserCannon</SubtypeId>
       </Id>
-      <DisplayName>Pirate Laser-Cannon</DisplayName>
+      <DisplayName>Pirate Laser-Cannon Turret</DisplayName>
 	   <Description>Pirate Laser-Cannon, typical weapon for uglies or ramshackled vessels.</Description>
     <Icon>Textures\GUI\Icons\Cubes\missile_turret.dds</Icon>
       <CubeSize>Small</CubeSize>
@@ -434,7 +434,7 @@
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
       <NavigationDefinition>Default</NavigationDefinition>
-	   <WeaponDefinitionId Subtype="K_NEU_Gun" />
+	   <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
       <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
@@ -456,12 +456,12 @@
     </Definition>	
 	
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_SW_Pirates_FixedMount_Machinegun</SubtypeId>
       </Id>
-      <DisplayName>Pirate Machinegun (Box)</DisplayName>
+      <DisplayName>Pirate Machinegun (Box) Turret</DisplayName>
 	   <Description>Pirate Machine, typical ballistic with both external Ammo Manual-feed, and rear automatic Ammo feed.</Description>
     <Icon>Textures\GUI\Icons\Cubes\missile_turret.dds</Icon>
       <CubeSize>Small</CubeSize>
@@ -484,7 +484,7 @@
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
       <NavigationDefinition>Default</NavigationDefinition>
-	   <WeaponDefinitionId Subtype="K_NEU_Gun" />
+	   <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
       <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
@@ -504,6 +504,117 @@
       <MinFov>0.1</MinFov>
       <MaxFov>1.04719755</MaxFov>
     </Definition>	
+
+<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+				  <Id>
+			<TypeId>ConveyorSorter</TypeId>
+       <SubtypeId>K_Imperial_PatrolCraft_TorpLauncher</SubtypeId>
+      </Id>
+      <DisplayName>Imperial Medium-Concussion-Missile Launcher</DisplayName>
+       <Icon>Textures\GUI\Icons\Cubes\missile_launcher.dds</Icon>
+	  <Description>Imperial Manufactured Single-Tube Belt-Fed Launcher, uses the Imperial Concussion Missiles.
+	  Top and Rear loading Access ports, are available on this model of Launcher.</Description>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\IPV1\IPV1_PatrolCraft_TorpLauncher_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="60" />
+        <Component Subtype="ImperialConstruction" Count="45" />
+        <Component Subtype="PowerConverter" Count="30" />
+        <Component Subtype="ImperialGeneralParts" Count="30" />
+	    	<Component Subtype="Blaster_Mechanism" Count="16" />
+        <Component Subtype="Computer" Count="35" />
+        <Component Subtype="ImperialConstruction" Count="40" />
+        <Component Subtype="DuraSteel" Count="95" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>K_Imperial_PatrolCraft_TorpLauncher</BlockPairName>
+	       <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	   <WeaponDefinitionId Subtype="K_Imperial_GenericTurboLaser_Single" />
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <InventoryMaxVolume>0.24</InventoryMaxVolume>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+     <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
+      <PCU>600</PCU>      
+    </Definition> 	
 	
+<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+				  <Id>
+			<TypeId>ConveyorSorter</TypeId>
+           <SubtypeId>K_Imperial_PatrolCraft_LaserCannonTurret</SubtypeId>
+      </Id>
+      <DisplayName>Imperial Heavy-Laser-Cannon Quad-Turret</DisplayName>
+      <Icon>Textures\GUI\Icons\Imperial_LaserTower.dds</Icon>
+	   <Description>Imperial Manufactured Dedicated anti-large heavy-laser cannon.
+	  Uses Self-Generating Ammunition.</Description>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\IPV1\IPV1_Turret_Base_Large.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="DuraSteel" Count="60" />
+        <Component Subtype="ImperialConstruction" Count="45" />
+        <Component Subtype="PowerConverter" Count="30" />
+        <Component Subtype="ImperialGeneralParts" Count="30" />
+	    	<Component Subtype="Blaster_Mechanism" Count="16" />
+        <Component Subtype="Computer" Count="35" />
+        <Component Subtype="ImperialConstruction" Count="40" />
+        <Component Subtype="DuraSteel" Count="95" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+        <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>K_Imperial_PatrolCraft_LaserCannonTurret</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+       <OverlayTexture>Textures\GUI\Screens\K_Imperial_Overlay_Turret_1_A.dds</OverlayTexture>
+      <WeaponDefinitionId Subtype="K_IMP_Gun" />
+      <InventoryMaxVolume>0.2</InventoryMaxVolume>
+      <DamageEffectName>Imperial_Damages_Electrical</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <MinElevationDegrees>-5</MinElevationDegrees>
+      <MaxElevationDegrees>180</MaxElevationDegrees>
+      <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+      <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+      <IdleRotation>false</IdleRotation>
+      <MaxRangeMeters>1000</MaxRangeMeters>
+      <RotationSpeed>0.004</RotationSpeed>
+      <ElevationSpeed>0.004 </ElevationSpeed>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <MinFov>0.1</MinFov>
+      <MaxFov>1.04719755</MaxFov>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
+	  <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+	  </Definition>	     
+
   </CubeBlocks>
 </Definitions>

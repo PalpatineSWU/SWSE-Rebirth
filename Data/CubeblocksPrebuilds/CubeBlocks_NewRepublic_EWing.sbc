@@ -662,7 +662,7 @@ Range: 450</Description>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
-      <WeaponDefinitionId Subtype="K_NR_Gun" />
+      <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <InventoryMaxVolume>0.384</InventoryMaxVolume>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -739,7 +739,7 @@ Range: 450</Description>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
        <OverlayTexture>Textures\GUI\Screens\K_Imperial_Overlay_Turret_1_A.dds</OverlayTexture>
-      <WeaponDefinitionId Subtype="K_NR_Gun" />
+      <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <InventoryMaxVolume>0.384</InventoryMaxVolume>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -817,7 +817,7 @@ Range: 450</Description>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
        <OverlayTexture>Textures\GUI\Screens\K_Imperial_Overlay_Turret_1_A.dds</OverlayTexture>
-      <WeaponDefinitionId Subtype="K_NR_Gun" />
+      <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <InventoryMaxVolume>0.384</InventoryMaxVolume>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -894,7 +894,7 @@ Range: 450</Description>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
        <OverlayTexture>Textures\GUI\Screens\K_Imperial_Overlay_Turret_1_A.dds</OverlayTexture>
-      <WeaponDefinitionId Subtype="K_NR_Gun" />
+      <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <InventoryMaxVolume>0.384</InventoryMaxVolume>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>

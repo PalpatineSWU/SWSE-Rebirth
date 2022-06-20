@@ -587,5 +587,63 @@
     </Sound>
   
   
+  <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>K_Imperial_ConnectorSealB</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>900</MaxDistance>
+      <PreventSynchronization>1</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>0.3</Volume>
+	  <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\Destruction\ConnectorSeal_B.wav</Start>
+        </Wave>
+		        </Waves>
+    </Sound>
+  
+  <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>K_Imperial_ConnectorSealA</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>900</MaxDistance>
+      <PreventSynchronization>1</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>0.3</Volume>
+	  <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\Destruction\ConnectorSeal_A.wav</Start>
+        </Wave>
+		        </Waves>
+    </Sound>
+  
+  <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>K_Imperial_Ewingshutdown</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>900</MaxDistance>
+      <PreventSynchronization>1</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>0.3</Volume>
+	  <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\Engines\EWing_EngineShutdown.wav</Start>
+        </Wave>
+		        </Waves>
+    </Sound>
+  
+
   </Sounds>
 </Definitions>

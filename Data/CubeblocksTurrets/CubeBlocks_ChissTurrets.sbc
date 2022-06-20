@@ -5,7 +5,7 @@
 	
 
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_SW_Chiss_Turret_Maser</SubtypeId>
@@ -36,7 +36,7 @@
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
       <NavigationDefinition>Default</NavigationDefinition>
-	   <WeaponDefinitionId Subtype="K_NEU_Gun" />
+	   <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
       <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
@@ -59,7 +59,7 @@
 	
 
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_SW_Chiss_Turret_MegaMaser</SubtypeId>
@@ -90,7 +90,7 @@
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
       <NavigationDefinition>Default</NavigationDefinition>
-	   <WeaponDefinitionId Subtype="K_NEU_Gun" />
+	   <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
       <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
@@ -114,12 +114,12 @@
 	
 	
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_SW_Chiss_FM_Maser</SubtypeId>
       </Id>
-      <DisplayName>Chiss Maser</DisplayName>
+      <DisplayName>Chiss Maser Turret</DisplayName>
 	   <Description>Chiss Designed Fixed-Mount, acts as a typical energy-weapon.</Description>
  <Icon>Textures\GUI\Icons\Cubes\missile_turret.dds</Icon>
       <CubeSize>Small</CubeSize>
@@ -142,7 +142,7 @@
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
       <NavigationDefinition>Default</NavigationDefinition>
-	   <WeaponDefinitionId Subtype="K_NEU_Gun" />
+	   <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
       <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>

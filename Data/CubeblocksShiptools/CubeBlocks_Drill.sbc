@@ -541,10 +541,10 @@
             <BuildTimeSeconds>68</BuildTimeSeconds>
 
             <ResourceSinkGroup>Defense</ResourceSinkGroup>
-            <SensorRadius>5</SensorRadius>
-            <SensorOffset>5</SensorOffset>
-            <CutOutRadius>5</CutOutRadius>
-            <CutOutOffset>5</CutOutOffset>
+            <SensorRadius>6</SensorRadius>
+            <SensorOffset>6</SensorOffset>
+            <CutOutRadius>6</CutOutRadius>
+            <CutOutOffset>6</CutOutOffset>
             <ParticleOffset>
                 <X>0</X>
                 <Y>0</Y>
@@ -625,10 +625,10 @@
             <Center x="0" y="0" z="2"/>
 
             <ResourceSinkGroup>Defense</ResourceSinkGroup>
-            <SensorRadius>7</SensorRadius>
-            <SensorOffset>7</SensorOffset>
-            <CutOutRadius>7</CutOutRadius>
-            <CutOutOffset>7</CutOutOffset>
+            <SensorRadius>8</SensorRadius>
+            <SensorOffset>8</SensorOffset>
+            <CutOutRadius>8</CutOutRadius>
+            <CutOutOffset>8</CutOutOffset>
             <ParticleOffset>
                 <X>0</X>
                 <Y>0</Y>

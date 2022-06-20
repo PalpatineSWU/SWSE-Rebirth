@@ -1,120 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
  <CubeBlocks>
- 
-
- <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
-      <Public>false</Public>
-      <Id>
-        <TypeId>SmallMissileLauncher</TypeId>
-       <SubtypeId>K_Imperial_Generic_LaserCannonMulti_L</SubtypeId>
-      </Id>
-      <DisplayName>Republic Laser-Cannon (Generic) (Awaiting Switch)</DisplayName>
-       <Icon>Textures\GUI\Icons\Cubes\missile_launcher.dds</Icon>
-	   <Description>Imperial Manufactured Multi-Barrel Light-Laser Cannon, uses Generic Laser Canisters.</Description>
-      <CubeSize>Large</CubeSize>
-	  <GuiVisible>false</GuiVisible>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="3" />
-      <ModelOffset x="0" y="0" z="0" />
-	  <Model>Models\Imperial\K_Imperial_StockLaserCannon_Multi_Large.mwm</Model>
-      <Components>
-        <Component Subtype="DuraSteel" Count="60" />
-		<Component Subtype="PowerConverter" Count="5" />
-		<Component Subtype="Blaster_Mechanism" Count="15" />
-		<Component Subtype="StandardCabling" Count="25" />
-		<Component Subtype="ImperialConstruction" Count="65" />
-		<Component Subtype="Computer" Count="25" />
-		<Component Subtype="ImperialConstruction" Count="45" />
-		<Component Subtype="DuraSteel" Count="60" />
-      </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
-      <BlockPairName>K_Imperial_Generic_LaserCannonMulti</BlockPairName>
-	   <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.25" File="Models\Imperial\K_Imperial_StockLaserCannon_Multi_Large_Constr1.mwm" />
-        <Model BuildPercentUpperBound="0.50" File="Models\Imperial\K_Imperial_StockLaserCannon_Multi_Large_Constr2.mwm" />
-		<Model BuildPercentUpperBound="0.99" File="Models\Imperial\K_Imperial_StockLaserCannon_Multi_Large_Constr2.mwm" />
-      </BuildProgressModels>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>25</BuildTimeSeconds>
-      <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
-	   <WeaponDefinitionId Subtype="K_IMP_Gun" />
-      <ResourceSinkGroup>Defense</ResourceSinkGroup>
-      <InventoryMaxVolume>0.24</InventoryMaxVolume>
-      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
-     <DestroyEffect>Imperial_Explosion</DestroyEffect>
-      <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
-      <PCU>425</PCU>      
-    </Definition> 
-	
-	<Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
-     <Public>false</Public>
-      <Id>
-        <TypeId>SmallMissileLauncher</TypeId>
-       <SubtypeId>K_Imperial_Generic_TurbolaserSingle</SubtypeId>
-      </Id>
-      <DisplayName>Republic Turbolaser(Generic) (Awaiting Switch)</DisplayName>
-       <Icon>Textures\GUI\Icons\Cubes\missile_launcher.dds</Icon>
-	  <Description>Imperial Manufactured Single-Barrel Turbolaser, uses the standard Turbolaser Canisters.</Description>
-      <CubeSize>Large</CubeSize>
-	  <GuiVisible>false</GuiVisible>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="3" />
-      <ModelOffset x="0" y="0" z="0" />
-	  <Model>Models\Imperial\K_Imperial_StockTurboLaser_Single_Large.mwm</Model>
-      <Components>
-        <Component Subtype="DuraSteel" Count="60" />
-		<Component Subtype="TurboLaser_PartII" Count="1" />
-		<Component Subtype="StandardPowerCell" Count="10" />
-		<Component Subtype="TurboLaser_Part" Count="5" />
-		<Component Subtype="ImperialGeneralParts" Count="25" />
-		<Component Subtype="HeavyDutyCabling" Count="25" />
-		<Component Subtype="ImperialConstruction" Count="65" />
-		<Component Subtype="Computer" Count="25" />
-		<Component Subtype="ImperialConstruction" Count="45" />
-		<Component Subtype="DuraSteel" Count="60" />
-      </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
-      <BlockPairName>K_Imperial_Generic_TurbolaserSingle</BlockPairName>
-	  <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.25" File="Models\Imperial\K_Imperial_StockTurboLaser_Single_Large_Constr1.mwm" />
-        <Model BuildPercentUpperBound="0.50" File="Models\Imperial\K_Imperial_StockTurboLaser_Single_Large_Constr2.mwm" />
-		<Model BuildPercentUpperBound="0.99" File="Models\Imperial\K_Imperial_StockTurboLaser_Single_Large_Constr2.mwm" />
-      </BuildProgressModels>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>25</BuildTimeSeconds>
-      <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
-	   <WeaponDefinitionId Subtype="K_IMP_Gun" />
-      <ResourceSinkGroup>Defense</ResourceSinkGroup>
-      <InventoryMaxVolume>0.24</InventoryMaxVolume>
-      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
-     <DestroyEffect>Imperial_Explosion</DestroyEffect>
-      <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
-      <PCU>600</PCU>      
-    </Definition> 
-	
 
 	<!-- AI -->
 	<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-			<Public>false</Public>
-      	  <Id>
+				  <Id>
 			<TypeId>ConveyorSorter</TypeId>
            <SubtypeId>K_Imperial_Tower_AntiInfantry_Basic</SubtypeId>
       </Id>
-      <DisplayName>Republic Anti-Infantry Turret</DisplayName>
+      <DisplayName>Imperial Anti-Infantry Turret SWWC</DisplayName>
 	   <Description>Dedicated Imperial Anti-Infantry turret, that is ineffective against ships but lethal towards Characters.</Description>
       <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_TurretAntiInfantry.dds</Icon>
       <CubeSize>Large</CubeSize>
-	  <GuiVisible>false</GuiVisible>
+	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Imperial_Turrets\K_Imperial_AntiPersonalTurret_Large.mwm</Model>
-      <UseModelIntersection>false</UseModelIntersection>
+      <UseModelIntersection>true</UseModelIntersection>
       <Components>
         <Component Subtype="DuraSteel" Count="10" />
         <Component Subtype="ImperialConstruction" Count="30" />
@@ -173,20 +76,20 @@
 	
 	<!-- PDT -->
 	 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-			<Public>false</Public>
-      	  <Id>
+				  <Id>
 			<TypeId>ConveyorSorter</TypeId>
            <SubtypeId>K_Imperial_Tower_PDT_Basic</SubtypeId>
       </Id>
-      <DisplayName>Republic Point-Defense Turret</DisplayName>
+      <DisplayName>Imperial Point-Defense Turret SWWC</DisplayName>
       <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_TurretPDT.dds</Icon>
       <CubeSize>Large</CubeSize>
-	  <GuiVisible>false</GuiVisible>
+	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\IMP\Turret\K_Imperial_Turret_PDT_Large.mwm</Model>
-      <UseModelIntersection>false</UseModelIntersection>
+      <UseModelIntersection>true</UseModelIntersection>
+	  <GeneralDamageMultiplier>0.25</GeneralDamageMultiplier>
       <Components>
         <Component Subtype="DuraSteel" Count="20" />
         <Component Subtype="ImperialConstruction" Count="30" />
@@ -196,7 +99,7 @@
 		<Component Subtype="Blaster_Mechanism" Count="9" />
         <Component Subtype="Computer" Count="12" />
         <Component Subtype="ImperialConstruction" Count="10" />
-        <Component Subtype="DuraSteel" Count="35" />
+        <Component Subtype="DuraSteel" Count="110" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -244,19 +147,19 @@
 	
 	<!-- Turbolaser -->
 	<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-			<Public>false</Public>
-      	  <Id>
+				  <Id>
 			<TypeId>ConveyorSorter</TypeId>
            <SubtypeId>K_Imperial_Tower_TurboLaser_Basic</SubtypeId>
       </Id>
-      <DisplayName>Republic Turbolaser Turret</DisplayName>
+      <DisplayName>Imperial Turbolaser Turret SWWC</DisplayName>
       <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_TurretTurbo1x.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\IMP\Turret\K_SW_TurboLaser_A_Large.mwm</Model>
-      <UseModelIntersection>false</UseModelIntersection>
+      <UseModelIntersection>true</UseModelIntersection>
+	   <GeneralDamageMultiplier>0.25</GeneralDamageMultiplier>
       <Components>
         <Component Subtype="DuraSteel" Count="60" />
         <Component Subtype="ImperialConstruction" Count="30" />
@@ -266,7 +169,7 @@
 		     <Component Subtype="TurboLaser_Part" Count="5" />
         <Component Subtype="Computer" Count="12" />
         <Component Subtype="ImperialConstruction" Count="10" />
-        <Component Subtype="DuraSteel" Count="70" />
+        <Component Subtype="DuraSteel" Count="210" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -315,12 +218,11 @@
 	
 <!-- Turbolaser Large -->	
 	 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-			<Public>false</Public>
-      	  <Id>
+				  <Id>
 			<TypeId>ConveyorSorter</TypeId>
            <SubtypeId>K_Imperial_Tower_TurboLaser_3x</SubtypeId>
       </Id>
-      <DisplayName>Republic Turbolaser Turret(3x)</DisplayName>
+      <DisplayName>Imperial Turbolaser Turret(3x) SWWC</DisplayName>
       <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_TurretTurbo3x.dds</Icon>
 	   <Description>Imperial Design. Higher Powered Turbolaser than Standard Tower, with slight 1-meter radial blast.</Description>
       <CubeSize>Large</CubeSize>
@@ -329,7 +231,8 @@
       <Size x="3" y="3" z="3" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\IMP\Turret\K_SW_TurboLaser_3x_Large.mwm</Model>
-      <UseModelIntersection>false</UseModelIntersection>
+      <UseModelIntersection>true</UseModelIntersection>
+	  <GeneralDamageMultiplier>0.25</GeneralDamageMultiplier>
       <Components>
         <Component Subtype="DuraSteel" Count="150" />
         <Component Subtype="ImperialConstruction" Count="110" />
@@ -340,7 +243,7 @@
 		  <Component Subtype="TurboLaser_Part" Count="35" />
         <Component Subtype="Computer" Count="44" />
         <Component Subtype="ImperialConstruction" Count="110" />
-        <Component Subtype="DuraSteel" Count="500" />
+        <Component Subtype="DuraSteel" Count="1500" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -386,14 +289,155 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
 	  </Definition>
 	  
+
+<!-- Ion -->	 
+	<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+				  <Id>
+			<TypeId>ConveyorSorter</TypeId>
+           <SubtypeId>K_Imperial_Tower_IonCannon_Basic</SubtypeId>
+      </Id>
+      <DisplayName>Imperial Ion-Cannon Turret SWWC</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_TurretIonC.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	   <Description>Imperial Ion-Cannon system, disables affected targets with specialized ion blasts.</Description>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\IMP\Turret\K_SW_IonCannon_A_Large.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="DuraSteel" Count="60" />
+        <Component Subtype="ImperialConstruction" Count="30" />
+        <Component Subtype="PowerConverter" Count="115" />
+        <Component Subtype="ImperialGeneralParts" Count="45" />
+        <Component Subtype="Motor" Count="16" />
+        <Component Subtype="Computer" Count="12" />
+		  <Component Subtype="IonCapacitor" Count="60" />
+		  <Component Subtype="PowerConverter" Count="45" />
+        <Component Subtype="ImperialConstruction" Count="10" />
+        <Component Subtype="DuraSteel" Count="1220" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+        <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>K_Imperial_Tower_IonCannon_Basic</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+       <OverlayTexture>Textures\GUI\Screens\K_Imperial_Overlay_Turret_1_A.dds</OverlayTexture>
+      <WeaponDefinitionId Subtype="K_IMP_Gun" />
+      <InventoryMaxVolume>0.384</InventoryMaxVolume>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <MinElevationDegrees>-15</MinElevationDegrees>
+      <MaxElevationDegrees>75</MaxElevationDegrees>
+      <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+      <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+      <IdleRotation>false</IdleRotation>
+      <MaxRangeMeters>1300</MaxRangeMeters>
+      <RotationSpeed>0.0002</RotationSpeed>
+      <ElevationSpeed>0.0002 </ElevationSpeed>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+	  <AiEnabled>false</AiEnabled>
+      <MinFov>0.1</MinFov>
+      <MaxFov>1.04719755</MaxFov>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+	  </Definition>
+	
+<!-- Concussion Missile -->
+	<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+				  <Id>
+			<TypeId>ConveyorSorter</TypeId>
+           <SubtypeId>K_Imperial_Tower_ConcussionMissile</SubtypeId>
+      </Id>
+      <DisplayName>Imperial Concussion-Missile Turret SWWC</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_TurretConcussion.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\IMP\Turret\K_SW_ConcussionTurret_Large.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="DuraSteel" Count="60" />
+        <Component Subtype="ImperialConstruction" Count="30" />
+        <Component Subtype="PowerConverter" Count="5" />
+        <Component Subtype="ImperialGeneralParts" Count="6" />
+        <Component Subtype="Motor" Count="16" />
+        <Component Subtype="Computer" Count="12" />
+        <Component Subtype="ImperialConstruction" Count="10" />
+        <Component Subtype="DuraSteel" Count="560" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+        <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>K_Imperial_Tower_ConcussionMissile</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+       <OverlayTexture>Textures\GUI\Screens\K_Imperial_Overlay_Turret_1_A.dds</OverlayTexture>
+      <WeaponDefinitionId Subtype="K_IMP_Gun" />
+      <InventoryMaxVolume>0.384</InventoryMaxVolume>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <MinElevationDegrees>-15</MinElevationDegrees>
+      <MaxElevationDegrees>75</MaxElevationDegrees>
+      <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+      <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+      <IdleRotation>false</IdleRotation>
+	  <AiEnabled>false</AiEnabled>
+      <MaxRangeMeters>1500</MaxRangeMeters>
+      <RotationSpeed>0.005</RotationSpeed>
+      <ElevationSpeed>0.005 </ElevationSpeed>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <MinFov>0.1</MinFov>
+      <MaxFov>1.04719755</MaxFov>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+	  </Definition>
+	
 	 <!-- Mass Driver --> 
 	 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-				 <Public>false</Public>
-          <Id>
+				  <Id>
 			<TypeId>ConveyorSorter</TypeId>
            <SubtypeId>K_Imperial_Tower_MassDriverReinforced_1x</SubtypeId>
       </Id>
-      <DisplayName>Republic Reinforced Mass-Driver Turret</DisplayName>
+      <DisplayName>Imperial Reinforced Mass-Driver Turret BROKEN</DisplayName>
       <Icon>Textures\GUI\Icons\Imperial_TurboTower.dds</Icon>
 	   <Description>Imperial Turret Emplacement. Fires Armor-Piercing kinetic rounds.</Description>
       <CubeSize>Large</CubeSize>
@@ -402,7 +446,7 @@
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Imperial_Turrets\K_SW_MassDriver_Large.mwm</Model>
-      <UseModelIntersection>false</UseModelIntersection>
+      <UseModelIntersection>true</UseModelIntersection>
       <Components>
         <Component Subtype="DuraSteel" Count="150" />
         <Component Subtype="ImperialConstruction" Count="110" />
@@ -456,15 +500,14 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
 	   <AiEnabled>false</AiEnabled>
 	  </Definition>
-	  
+
 	  <!-- OCT Turbolaser -->
 	<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-				 <Public>false</Public>
-          <Id>
+				  <Id>
 			<TypeId>ConveyorSorter</TypeId>
            <SubtypeId>K_Imperial_Tower_OctoTurret</SubtypeId>
       </Id>
-      <DisplayName>Republic Octo-Turbolaser Turret(General) (Awaiting Switch)</DisplayName>
+      <DisplayName>Imperial Octo-Turbolaser Turret(General) (Awaiting Switch)</DisplayName>
       <Icon>Textures\GUI\Icons\Imperial_TurboTower.dds</Icon>
 	   <Description>Large Imperial Turbolaser Battery.</Description>
       <CubeSize>Large</CubeSize>
@@ -473,7 +516,7 @@
       <Size x="3" y="1" z="3" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Imperial\K_Imperial_OctoTurret_Large.mwm</Model>
-      <UseModelIntersection>false</UseModelIntersection>
+      <UseModelIntersection>true</UseModelIntersection>
       <Components>
         <Component Subtype="DuraSteel" Count="240" />
         <Component Subtype="ImperialConstruction" Count="110" />
@@ -483,7 +526,7 @@
 		<Component Subtype="TurboLaser_Part" Count="60" />
         <Component Subtype="Computer" Count="110" />
         <Component Subtype="ImperialConstruction" Count="110" />
-        <Component Subtype="DuraSteel" Count="650" />
+        <Component Subtype="DuraSteel" Count="3650" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -530,20 +573,19 @@
 	  
 	  <!-- Maser -->
 	<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-				 <Public>false</Public>
-          <Id>
+				  <Id>
 			<TypeId>ConveyorSorter</TypeId>
            <SubtypeId>K_Imperial_Tower_Maser_Basic</SubtypeId>
       </Id>
-      <DisplayName>Republic Maser Turret (Awaiting Switch)</DisplayName>
+      <DisplayName>Imperial Maser Turret (Awaiting Switch)</DisplayName>
       <Icon>Textures\GUI\Icons\Imperial_TurboTower.dds</Icon>
       <CubeSize>Large</CubeSize>
-	  <GuiVisible>false</GuiVisible>
+	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Imperial\K_SW_Maser_A_Large.mwm</Model>
-      <UseModelIntersection>false</UseModelIntersection>
+      <UseModelIntersection>true</UseModelIntersection>
       <Components>
         <Component Subtype="DuraSteel" Count="60" />
         <Component Subtype="ImperialConstruction" Count="30" />
@@ -552,7 +594,7 @@
         <Component Subtype="Motor" Count="16" />
         <Component Subtype="Computer" Count="12" />
         <Component Subtype="ImperialConstruction" Count="10" />
-        <Component Subtype="DuraSteel" Count="60" />
+        <Component Subtype="DuraSteel" Count="360" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -596,158 +638,13 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
 	  </Definition>
-	 
-<!-- Ion -->	 
+
 	<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-				 <Public>false</Public>
-          <Id>
-			<TypeId>ConveyorSorter</TypeId>
-           <SubtypeId>K_Imperial_Tower_IonCannon_Basic</SubtypeId>
-      </Id>
-      <DisplayName>Republic Ion-Cannon Turret</DisplayName>
-      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_TurretIonC.dds</Icon>
-      <CubeSize>Large</CubeSize>
-	   <Description>Imperial Ion-Cannon system, disables affected targets with specialized ion blasts.</Description>
-	  <GuiVisible>false</GuiVisible>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\IMP\Turret\K_SW_IonCannon_A_Large.mwm</Model>
-      <UseModelIntersection>false</UseModelIntersection>
-      <Components>
-        <Component Subtype="DuraSteel" Count="60" />
-        <Component Subtype="ImperialConstruction" Count="30" />
-        <Component Subtype="PowerConverter" Count="115" />
-        <Component Subtype="ImperialGeneralParts" Count="45" />
-        <Component Subtype="Motor" Count="16" />
-        <Component Subtype="Computer" Count="12" />
-		  <Component Subtype="IonCapacitor" Count="60" />
-		  <Component Subtype="PowerConverter" Count="45" />
-        <Component Subtype="ImperialConstruction" Count="10" />
-        <Component Subtype="DuraSteel" Count="220" />
-      </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
-      </MountPoints>
-        <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-        <StaticMode>
-          <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0</MinAllowed>
-        </StaticMode>
-        <DynamicMode>
-          <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0.01</MinAllowed>
-        </DynamicMode>
-      </VoxelPlacement>
-      <BlockPairName>K_Imperial_Tower_IonCannon_Basic</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>40</BuildTimeSeconds>
-       <OverlayTexture>Textures\GUI\Screens\K_Imperial_Overlay_Turret_1_A.dds</OverlayTexture>
-      <WeaponDefinitionId Subtype="K_IMP_Gun" />
-      <InventoryMaxVolume>0.384</InventoryMaxVolume>
-      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <ResourceSinkGroup>Defense</ResourceSinkGroup>
-      <MinElevationDegrees>-15</MinElevationDegrees>
-      <MaxElevationDegrees>75</MaxElevationDegrees>
-      <MinAzimuthDegrees>-180</MinAzimuthDegrees>
-      <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
-      <IdleRotation>false</IdleRotation>
-      <MaxRangeMeters>1300</MaxRangeMeters>
-      <RotationSpeed>0.0002</RotationSpeed>
-      <ElevationSpeed>0.0002 </ElevationSpeed>
-      <EmissiveColorPreset>Default</EmissiveColorPreset>
-	  <AiEnabled>false</AiEnabled>
-      <MinFov>0.1</MinFov>
-      <MaxFov>1.04719755</MaxFov>
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-	  </Definition>
-	
-<!-- Concussion Missile -->
-	<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-				 <Public>false</Public>
-          <Id>
-			<TypeId>ConveyorSorter</TypeId>
-           <SubtypeId>K_Imperial_Tower_ConcussionMissile</SubtypeId>
-      </Id>
-      <DisplayName>Republic Concussion-Missile Turret</DisplayName>
-      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_TurretConcussion.dds</Icon>
-      <CubeSize>Large</CubeSize>
-	  <GuiVisible>false</GuiVisible>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\IMP\Turret\K_SW_ConcussionTurret_Large.mwm</Model>
-      <UseModelIntersection>false</UseModelIntersection>
-      <Components>
-        <Component Subtype="DuraSteel" Count="60" />
-        <Component Subtype="ImperialConstruction" Count="30" />
-        <Component Subtype="PowerConverter" Count="5" />
-        <Component Subtype="ImperialGeneralParts" Count="6" />
-        <Component Subtype="Motor" Count="16" />
-        <Component Subtype="Computer" Count="12" />
-        <Component Subtype="ImperialConstruction" Count="10" />
-        <Component Subtype="DuraSteel" Count="60" />
-      </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
-      </MountPoints>
-        <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-        <StaticMode>
-          <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0</MinAllowed>
-        </StaticMode>
-        <DynamicMode>
-          <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0.01</MinAllowed>
-        </DynamicMode>
-      </VoxelPlacement>
-      <BlockPairName>K_Imperial_Tower_ConcussionMissile</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>40</BuildTimeSeconds>
-       <OverlayTexture>Textures\GUI\Screens\K_Imperial_Overlay_Turret_1_A.dds</OverlayTexture>
-      <WeaponDefinitionId Subtype="K_IMP_Gun" />
-      <InventoryMaxVolume>0.384</InventoryMaxVolume>
-      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <ResourceSinkGroup>Defense</ResourceSinkGroup>
-      <MinElevationDegrees>-15</MinElevationDegrees>
-      <MaxElevationDegrees>75</MaxElevationDegrees>
-      <MinAzimuthDegrees>-180</MinAzimuthDegrees>
-      <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
-      <IdleRotation>false</IdleRotation>
-	  <AiEnabled>false</AiEnabled>
-      <MaxRangeMeters>1500</MaxRangeMeters>
-      <RotationSpeed>0.005</RotationSpeed>
-      <ElevationSpeed>0.005 </ElevationSpeed>
-      <EmissiveColorPreset>Default</EmissiveColorPreset>
-      <MinFov>0.1</MinFov>
-      <MaxFov>1.04719755</MaxFov>
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-	  </Definition>
-	
-	
-	<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-				 <Public>false</Public>
-          <Id>
+				  <Id>
 			<TypeId>ConveyorSorter</TypeId>
            <SubtypeId>K_Imperial_Ship_Heavy</SubtypeId>
       </Id>
-      <DisplayName>Republic Heavy Ship Turret (Awaiting Switch)</DisplayName>
+      <DisplayName>Imperial Heavy Ship Turret (Awaiting Switch)</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\missile_turret.dds</Icon>
       <CubeSize>Large</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -755,7 +652,7 @@
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Imperial\K_Imperial_Ship_HeavyTower_Large.mwm</Model>
-      <UseModelIntersection>false</UseModelIntersection>
+      <UseModelIntersection>true</UseModelIntersection>
       <Components>
         <Component Subtype="DuraSteel" Count="5" />
         <Component Subtype="ImperialConstruction" Count="30" />
@@ -812,12 +709,11 @@
 	
 	
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-				<Public>false</Public>
-          <Id>
+				  <Id>
 			<TypeId>ConveyorSorter</TypeId>
            <SubtypeId>K_Imperial_Ship_Light</SubtypeId>
       </Id>
-      <DisplayName>Republic Light Ship Turret (Awaiting Switch)</DisplayName>
+      <DisplayName>Imperial Light Ship Turret (Awaiting Switch)</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\missile_turret.dds</Icon>
       <CubeSize>Large</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -825,7 +721,7 @@
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Imperial\K_Imperial_Ship_TurretSmall_Large.mwm</Model>
-      <UseModelIntersection>false</UseModelIntersection>
+      <UseModelIntersection>true</UseModelIntersection>
       <Components>
         <Component Subtype="DuraSteel" Count="5" />
         <Component Subtype="ImperialConstruction" Count="30" />
@@ -879,17 +775,113 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
     </Definition>
+
+<!--FF
+
+ <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+      <Id>
+        <TypeId>SmallMissileLauncher</TypeId>
+       <SubtypeId>K_Imperial_Generic_LaserCannonMulti_L</SubtypeId>
+      </Id>
+      <DisplayName>Imperial Laser-Cannon (Generic) (Awaiting Switch)</DisplayName>
+       <Icon>Textures\GUI\Icons\Cubes\missile_launcher.dds</Icon>
+	   <Description>Imperial Manufactured Multi-Barrel Light-Laser Cannon, uses Generic Laser Canisters.</Description>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Imperial\K_Imperial_StockLaserCannon_Multi_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="60" />
+		<Component Subtype="PowerConverter" Count="5" />
+		<Component Subtype="Blaster_Mechanism" Count="15" />
+		<Component Subtype="StandardCabling" Count="25" />
+		<Component Subtype="ImperialConstruction" Count="65" />
+		<Component Subtype="Computer" Count="25" />
+		<Component Subtype="ImperialConstruction" Count="45" />
+		<Component Subtype="DuraSteel" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>K_Imperial_Generic_LaserCannonMulti</BlockPairName>
+	   <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.25" File="Models\Imperial\K_Imperial_StockLaserCannon_Multi_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\Imperial\K_Imperial_StockLaserCannon_Multi_Large_Constr2.mwm" />
+		<Model BuildPercentUpperBound="0.99" File="Models\Imperial\K_Imperial_StockLaserCannon_Multi_Large_Constr2.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	   <WeaponDefinitionId Subtype="K_IMP_Gun" />
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <InventoryMaxVolume>0.24</InventoryMaxVolume>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+     <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
+      <PCU>425</PCU>      
+	  <BlockVariants>
+			 <BlockVariant>
+          <TypeId>SmallMissileLauncher</TypeId>
+          <SubtypeId>K_Imperial_Generic_TurbolaserSingle</SubtypeId>
+        </BlockVariant>
+				      </BlockVariants>
+    </Definition> 
 	
-	
-	
-	
+	<Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+      <Id>
+        <TypeId>SmallMissileLauncher</TypeId>
+       <SubtypeId>K_Imperial_Generic_TurbolaserSingle</SubtypeId>
+      </Id>
+      <DisplayName>Imperial Turbolaser(Generic) (Awaiting Switch)</DisplayName>
+       <Icon>Textures\GUI\Icons\Cubes\missile_launcher.dds</Icon>
+	  <Description>Imperial Manufactured Single-Barrel Turbolaser, uses the standard Turbolaser Canisters.</Description>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Imperial\K_Imperial_StockTurboLaser_Single_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="60" />
+		<Component Subtype="TurboLaser_PartII" Count="1" />
+		<Component Subtype="StandardPowerCell" Count="10" />
+		<Component Subtype="TurboLaser_Part" Count="5" />
+		<Component Subtype="ImperialGeneralParts" Count="25" />
+		<Component Subtype="HeavyDutyCabling" Count="25" />
+		<Component Subtype="ImperialConstruction" Count="65" />
+		<Component Subtype="Computer" Count="25" />
+		<Component Subtype="ImperialConstruction" Count="45" />
+		<Component Subtype="DuraSteel" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>K_Imperial_Generic_TurbolaserSingle</BlockPairName>
+	  <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.25" File="Models\Imperial\K_Imperial_StockTurboLaser_Single_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\Imperial\K_Imperial_StockTurboLaser_Single_Large_Constr2.mwm" />
+		<Model BuildPercentUpperBound="0.99" File="Models\Imperial\K_Imperial_StockTurboLaser_Single_Large_Constr2.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	   <WeaponDefinitionId Subtype="K_IMP_Gun" />
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <InventoryMaxVolume>0.24</InventoryMaxVolume>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+     <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
+      <PCU>600</PCU>      
+    </Definition> 
+
 	 <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
-     <Public>false</Public>
       <Id>
         <TypeId>SmallMissileLauncher</TypeId>
         <SubtypeId>K_Imperial_Missile_Type_II</SubtypeId>
       </Id>
-      <DisplayName>Republic Rocket-Launcher (Awaiting Switch)</DisplayName>
+      <DisplayName>Imperial Rocket-Launcher (Awaiting Switch)</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\missile_launcher.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -932,12 +924,11 @@
     </Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
-   <Public>false</Public>
       <Id>
         <TypeId>SmallMissileLauncher</TypeId>
         <SubtypeId>K_Imperial_Missile_Type_I</SubtypeId>
       </Id>
-      <DisplayName>Republic Torpedo-Launcher (Awaiting Switch)</DisplayName>
+      <DisplayName>Imperial Torpedo-Launcher (Awaiting Switch)</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\missile_launcher.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -978,12 +969,11 @@
 	
 	
 	<Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
-    <Public>false</Public>
       <Id>
         <TypeId>SmallMissileLauncher</TypeId>
         <SubtypeId>K_Imperial_Spinal_Superweapon</SubtypeId>
       </Id>
-      <DisplayName>Republic Heavy Beam Cannon (Awaiting Switch)</DisplayName>
+      <DisplayName>Imperial Heavy Beam Cannon (Awaiting Switch)</DisplayName>
       <Icon>Textures\GUI\Icons\TIE_Interceptor.dds</Icon>
       <CubeSize>Large</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -1013,7 +1003,7 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
 	    <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
     </Definition>
-	
+	-->
 
   </CubeBlocks>
 </Definitions>

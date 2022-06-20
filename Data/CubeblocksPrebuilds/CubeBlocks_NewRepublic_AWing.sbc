@@ -352,7 +352,7 @@ Limit: 2
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
       <NavigationDefinition>Default</NavigationDefinition>
-	   <WeaponDefinitionId Subtype="K_NR_Gun" />
+	   <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
       <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
@@ -562,7 +562,7 @@ Range: 500</Description>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
        <OverlayTexture>Textures\GUI\Screens\K_Imperial_Overlay_Turret_1_A.dds</OverlayTexture>
-      <WeaponDefinitionId Subtype="K_NR_Gun" />
+      <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <InventoryMaxVolume>0.384</InventoryMaxVolume>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -635,7 +635,7 @@ Range: 300</Description>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
        <OverlayTexture>Textures\GUI\Screens\K_Imperial_Overlay_Turret_1_A.dds</OverlayTexture>
-      <WeaponDefinitionId Subtype="K_NR_Gun" />
+      <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <InventoryMaxVolume>0.384</InventoryMaxVolume>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>

@@ -4,7 +4,7 @@
  
 	
 	 <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
-     <Public>false</Public>
+     <Public>true</Public>
       <Id>
         <TypeId>LargeMissileTurret</TypeId>
            <SubtypeId>Turrets_Light_ProtectorLaserCannon</SubtypeId>
@@ -53,7 +53,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
        <OverlayTexture>Textures\GUI\Screens\K_Imperial_Overlay_Turret_1_A.dds</OverlayTexture>
-      <WeaponDefinitionId Subtype="K_NR_Gun" />
+      <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <InventoryMaxVolume>0.384</InventoryMaxVolume>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -75,7 +75,7 @@
 	  </Definition>
 	
 	 <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
-      <Public>false</Public>
+      <Public>true</Public>
       <Id>
         <TypeId>LargeMissileTurret</TypeId>
            <SubtypeId>Turrets_Light_AMS</SubtypeId>
@@ -124,7 +124,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
        <OverlayTexture>Textures\GUI\Screens\K_Imperial_Overlay_Turret_1_A.dds</OverlayTexture>
-      <WeaponDefinitionId Subtype="K_NR_Gun" />
+      <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <InventoryMaxVolume>0.384</InventoryMaxVolume>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -147,7 +147,7 @@
 	  
 	  
 	   <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
-      <Public>false</Public>
+      <Public>true</Public>
       <Id>
         <TypeId>LargeMissileTurret</TypeId>
            <SubtypeId>Turrets_Light_NanoMissileTurret</SubtypeId>
@@ -196,7 +196,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
        <OverlayTexture>Textures\GUI\Screens\K_Imperial_Overlay_Turret_1_A.dds</OverlayTexture>
-      <WeaponDefinitionId Subtype="K_NR_Gun" />
+      <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <InventoryMaxVolume>0.384</InventoryMaxVolume>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>

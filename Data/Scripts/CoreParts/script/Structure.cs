@@ -223,7 +223,7 @@ namespace Scripts
                 public struct MountPointDef
                 {
                     [ProtoMember(1)] internal string SubtypeId;
-                    [ProtoMember(2)] internal string SpinPartId; 
+                    [ProtoMember(2)] internal string SpinPartId;
                     [ProtoMember(3)] internal string MuzzlePartId;
                     [ProtoMember(4)] internal string AzimuthPartId;
                     [ProtoMember(5)] internal string ElevationPartId;
@@ -438,6 +438,9 @@ namespace Scripts
                     [ProtoMember(18)] internal bool SpinFree;
                     [ProtoMember(19)] internal bool StayCharged;
                     [ProtoMember(20)] internal int MagsToLoad;
+                    [ProtoMember(21)] internal int MaxActiveProjectiles;
+                    [ProtoMember(22)] internal int MaxReloads;
+
                 }
 
 
@@ -483,8 +486,8 @@ namespace Scripts
                     [ProtoMember(8)] internal int MinElevation;
                     [ProtoMember(9)] internal float InventorySize;
                     [ProtoMember(10)] internal HardwareType Type;
-					[ProtoMember(11)] internal int HomeAzimuth;
-					[ProtoMember(12)] internal int HomeElevation;
+                    [ProtoMember(11)] internal int HomeAzimuth;
+                    [ProtoMember(12)] internal int HomeElevation;
                     [ProtoMember(13)] internal CriticalDef CriticalReaction;
                     [ProtoMember(14)] internal float IdlePower;
 
@@ -510,6 +513,7 @@ namespace Scripts
                     [ProtoMember(6)] internal bool FiringSoundPerShot;
                     [ProtoMember(7)] internal string PreFiringSound;
                     [ProtoMember(8)] internal uint FireSoundEndDelay;
+                    [ProtoMember(9)] internal bool FireSoundNoBurst;
                 }
 
                 [ProtoContract]
@@ -562,6 +566,8 @@ namespace Scripts
                 [ProtoMember(24)] internal AreaOfDamageDef AreaOfDamage;
                 [ProtoMember(25)] internal EwarDef Ewar;
                 [ProtoMember(26)] internal bool IgnoreVoxels;
+                [ProtoMember(27)] internal bool Synchronize;
+                [ProtoMember(28)] internal double HeatModifier;
 
                 [ProtoContract]
                 public struct DamageScaleDef
@@ -795,10 +801,19 @@ namespace Scripts
                     [ProtoMember(9)] internal float Offset;
                     [ProtoMember(10)] internal int MaxChildren;
                     [ProtoMember(11)] internal TimedSpawnDef TimedSpawns;
+                    [ProtoMember(12)] internal bool FireSound; // not used, can remove
+                    [ProtoMember(13)] internal Vector3D AdvOffset;
 
                     [ProtoContract]
                     public struct TimedSpawnDef
                     {
+                        public enum PointTypes
+                        {
+                            Direct,
+                            Lead,
+                            Predict,
+                        }
+
                         [ProtoMember(1)] internal bool Enable;
                         [ProtoMember(2)] internal int Interval;
                         [ProtoMember(3)] internal int StartTime;
@@ -806,12 +821,24 @@ namespace Scripts
                         [ProtoMember(5)] internal double Proximity;
                         [ProtoMember(6)] internal bool ParentDies;
                         [ProtoMember(7)] internal bool PointAtTarget;
+                        [ProtoMember(8)] internal int GroupSize;
+                        [ProtoMember(9)] internal int GroupDelay;
+                        [ProtoMember(10)] internal PointTypes PointType;
+                        [ProtoMember(11)] internal float DirectAimCone;
                     }
                 }
 
                 [ProtoContract]
                 public struct PatternDef
                 {
+                    public enum PatternModes
+                    {
+                        Never,
+                        Weapon,
+                        Fragment,
+                        Both,
+                    }
+
                     [ProtoMember(1)] internal string[] Patterns;
                     [ProtoMember(2)] internal bool Enable;
                     [ProtoMember(3)] internal float TriggerChance;
@@ -820,6 +847,7 @@ namespace Scripts
                     [ProtoMember(6)] internal int RandomMin;
                     [ProtoMember(7)] internal int RandomMax;
                     [ProtoMember(8)] internal int PatternSteps;
+                    [ProtoMember(9)] internal PatternModes Mode;
                 }
 
                 [ProtoContract]
@@ -1086,6 +1114,7 @@ namespace Scripts
                     [ProtoMember(6)] internal string PlayerHitSound;
                     [ProtoMember(7)] internal string FloatingHitSound;
                     [ProtoMember(8)] internal string ShieldHitSound;
+                    [ProtoMember(9)] internal string ShotSound;
                 }
 
                 [ProtoContract]
@@ -1100,6 +1129,7 @@ namespace Scripts
                         DetectTravelTo,
                         DetectSmart,
                         DetectFixed,
+                        DroneAdvanced,
                     }
 
                     [ProtoMember(1)] internal float MaxTrajectory;
@@ -1108,7 +1138,7 @@ namespace Scripts
                     [ProtoMember(4)] internal float TargetLossDegree;
                     [ProtoMember(5)] internal int TargetLossTime;
                     [ProtoMember(6)] internal int MaxLifeTime;
-                    [ProtoMember(7)] internal int FieldTime;
+                    [ProtoMember(7)] internal int DeaccelTime;
                     [ProtoMember(8)] internal Randomize SpeedVariance;
                     [ProtoMember(9)] internal Randomize RangeVariance;
                     [ProtoMember(10)] internal GuidanceType Guidance;
@@ -1132,6 +1162,7 @@ namespace Scripts
                         [ProtoMember(10)] internal bool KeepAliveAfterTargetLoss;
                         [ProtoMember(11)] internal float OffsetRatio;
                         [ProtoMember(12)] internal int OffsetTime;
+                        [ProtoMember(13)] internal bool CheckFutureIntersection;
                     }
 
                     [ProtoContract]
@@ -1178,4 +1209,3 @@ namespace Scripts
         }
     }
 }
-
