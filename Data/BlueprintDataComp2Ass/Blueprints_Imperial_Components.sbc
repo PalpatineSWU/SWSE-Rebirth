@@ -416,6 +416,7 @@
       <Icon>Textures\GUI\Icons\Components\SW_Component_WeaponParts.dds</Icon>
       <Prerequisites>
         <Item Amount="2.5" TypeId="Ingot" SubtypeId="DuraSteel_Ingot" />
+		<Item Amount="2" TypeId="Ingot" SubtypeId="Advanced_Hyerbaride" />
 		<Item Amount="3" TypeId="Ingot" SubtypeId="Norax" />
 		<Item Amount="7" TypeId="Ingot" SubtypeId="Polymer" />
 		<Item Amount="1.2" TypeId="Ingot" SubtypeId="Carbonite" />

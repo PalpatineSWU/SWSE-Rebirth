@@ -364,7 +364,42 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
     </Definition>
 	
-	
+	<Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+      <Public>false</Public>
+      <Id>
+        <TypeId>SmallMissileLauncher</TypeId>
+        <SubtypeId>K_TIE_Drone_CI_Wing</SubtypeId>
+      </Id>
+	   <Description>Special Weapon-Equiped Wing model, for a Custom TIE Drone. Fires a Maser-Type weapon.</Description>
+      <DisplayName>TIE Drone C-I Talon Wing</DisplayName>
+      <Icon>Textures\GUI\Icons\Ships\TieDrone\Droid.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="15" z="23" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\TIE_Drone\K_TIE_Drone_CI_Wing_Small.mwm</Model>
+     <Components>
+        <Component Subtype="DuraSteel" Count="20" />
+		<Component Subtype="Computer" Count="3" />
+		<Component Subtype="IonWingCircuitry" Count="15" />
+		<Component Subtype="TranspariSteel" Count="15" />
+		    <Component Subtype="DuraSteel" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="TranspariSteel" Index="0" />
+      <BlockPairName>K_TIE_Drone_CI_Wing</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	   <WeaponDefinitionId Subtype="K_IMP_Gun" />
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <InventoryMaxVolume>0.24</InventoryMaxVolume>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+    </Definition>	
 	
 	<Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
       <Public>false</Public>
@@ -555,7 +590,7 @@
         <TypeId>SmallMissileLauncher</TypeId>
         <SubtypeId>K_TIE_Attachable_RocketPod</SubtypeId>
       </Id>
-      <DisplayName>Seeker Rocket-Pod Functioning</DisplayName>
+      <DisplayName>Tie Custom Rocket-Launcher</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -588,7 +623,7 @@
 	
 	
 	 <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
-     <Public>false</Public>
+     <Public>true</Public>
       <Id>
         <TypeId>SmallMissileLauncher</TypeId>
         <SubtypeId>K_TIE_Attachable_RocketPod_Huntertester</SubtypeId>

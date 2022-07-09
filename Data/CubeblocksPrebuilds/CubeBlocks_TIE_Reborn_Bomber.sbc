@@ -78,8 +78,8 @@
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Imperial_Reborn_TIE_Bomber_Weaponry</SubtypeId>
       </Id>
-      <DisplayName>TIE Bomber Weaponry (HQ) Functioning Turret</DisplayName>
-	   <Description>Standard TIE Armament of twin L-s1 laser cannons. Fires a volley of 15 rounds per reload cycle.</Description>
+      <DisplayName>. TIE Bomber Laser-Cannon</DisplayName>
+	   <Description>Laser</Description>
       <Icon>Textures\GUI\Icons\Ships\TIERebornBomber\Reborn.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -549,8 +549,8 @@
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Imperial_Reborn_TIE_Bomber_BombBay</SubtypeId>
       </Id>
-      <DisplayName>Bomber Bomb-Bay (HQ) Functioning</DisplayName>
-	   <Description>Massive damage. Fires a volley of 5 rounds per reload cycle.</Description>
+      <DisplayName>. Tie Bomber Rocket-Launcher V</DisplayName>
+	   <Description>Launcher</Description>
       <Icon>Textures\GUI\Icons\Ships\TIERebornBomber\Reborn.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -596,14 +596,13 @@
     </Definition>	
 
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition"> <!-- Primary Body Launcher	-->
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Imperial_Reborn_TIE_Bomber_PrimaryLauncher</SubtypeId>
       </Id>
-      <DisplayName>TIE Bomber Launcher (HQ)</DisplayName>
-	   <Description>Standard TIE Bomber Launcher.
-	   Ordnance: Concussion, Proton-Torpedo, Magpulse, Scrampulse, Flare</Description>
+      <DisplayName>. TIE Bomber Rocket-Launcher II(HQ)</DisplayName>
+	   <Description>Launcher</Description>
       <Icon>Textures\GUI\Icons\Ships\TIERebornBomber\Reborn.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -647,13 +646,13 @@
 
 	
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition"> <!-- Light Launcher	-->
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Imperial_Reborn_TIE_Bomber_LightLauncher</SubtypeId>
       </Id>
-      <DisplayName>TIE Light Launcher-Attachment (HQ)</DisplayName>
-	   <Description>Standard TIE Armament of twin L-s1 laser cannons. Fires a volley of 15 rounds per reload cycle.</Description>
+      <DisplayName>. TIE Bomber Rocket-Launcher (HQ)</DisplayName>
+	   <Description>Launcher</Description>
       <Icon>Textures\GUI\Icons\Ships\TIERebornBomber\Reborn.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>

@@ -78,8 +78,8 @@
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Imperial_Reborn_TIE_Interceptor_Weaponry</SubtypeId>
       </Id>
-      <DisplayName>TIE Interceptor Weaponry (HQ) Functioning Turret</DisplayName>
-	   <Description>Standard TIE Armament of twin L-s1 laser cannons. Fires a volley of 15 rounds per reload cycle.</Description>
+      <DisplayName>. TIE Interceptor Laser-Cannon</DisplayName>
+	   <Description>Laser</Description>
       <Icon>Textures\GUI\Icons\Ships\TIERebornInterceptor\RebornInterceptorLa.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -623,13 +623,13 @@
 	
 	
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Imperial_Reborn_TIE_Interceptor_WingTipA</SubtypeId>
       </Id>
-      <DisplayName>TIE Interceptor Wing Tip A (HQ)</DisplayName>
-	   <Description>Standard TIE Interceptor Wing tip, equipped with a L-s1 laser cannon. Fires a volley of 15 rounds per reload cycle.</Description>
+      <DisplayName>. TIE Interceptor Wing Tip A Laser-Cannon (HQ)</DisplayName>
+	   <Description>Laser</Description>
       <Icon>Textures\GUI\Icons\Ships\TIERebornInterceptor\RebornInterceptor.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -672,13 +672,13 @@
     </Definition>	
 	
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Imperial_Reborn_TIE_Interceptor_WingTipB</SubtypeId>
       </Id>
-      <DisplayName>TIE Interceptor Wing Tip B (HQ)</DisplayName>
-	   <Description>Standard TIE Interceptor Wing tip, equipped with a L-s1 laser cannon. Fires a volley of 15 rounds per reload cycle.</Description>
+      <DisplayName>. TIE Interceptor Wing Tip B Laser-Cannon (HQ)</DisplayName>
+	   <Description>Laser</Description>
       <Icon>Textures\GUI\Icons\Ships\TIERebornInterceptor\RebornInterceptor.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -721,16 +721,13 @@
     </Definition>	
 	
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Imperial_Reborn_TIE_Interceptor_Launcher</SubtypeId>
       </Id>
-      <DisplayName>TIE Interceptor Launcher (HQ)</DisplayName>
-	   <Description>Post-Endor TIE Interceptor Additional Weaponry, intended to fire Imperial Ordnance.
-	   Standard Missile: Concussion Missile (Lock-On)
-	   Speciality Missiles: ScramPulse, MagPulse, Interdiction
-	   Missile Range: 3km</Description>
+      <DisplayName>. TIE Interceptor Flare-Launcher</DisplayName>
+	   <Description>Flare Launcher</Description>
       <Icon>Textures\GUI\Icons\Ships\TIERebornInterceptor\RebornInterceptor.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>

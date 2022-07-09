@@ -714,8 +714,8 @@
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_NewRepublic_XWing_XJ5_Weaponry_Wing_A</SubtypeId>
       </Id>
-     <DisplayName>New Republic X-Wing XJ5 Weaponry (A)</DisplayName>
-	  <Description>NON FUNCTIOING New Republic X-Wing Wing with Heavy Laser-Cannon.</Description>
+     <DisplayName>. New Republic X-Wing XJ5 Maser-Cannon (A)</DisplayName>
+	  <Description>Maser</Description>
     <Icon>Textures\GUI\Icons\Ships\Xj5\XJ5.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -771,8 +771,8 @@
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_NewRepublic_XWing_XJ5_Weaponry_Wing_B</SubtypeId>
       </Id>
-     <DisplayName>New Republic X-Wing XJ5 Weaponry (B)</DisplayName>
-	  <Description>NON FUNCTIOING New Republic X-Wing Wing with Heavy Laser-Cannon.</Description>
+     <DisplayName>. New Republic X-Wing XJ5 Maser-Cannon (B)</DisplayName>
+	  <Description>Maser</Description>
     <Icon>Textures\GUI\Icons\Ships\Xj5\XJ5.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -828,11 +828,8 @@
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_NewRepublic_XWing_XJ5_Launcher</SubtypeId>
       </Id>
-     <DisplayName>New Republic X-Wing XJ5 Launcher</DisplayName>
-	  <Description>NON FUNCTIOING New Republic X-Wing Launcher.
-	  Standard Missile: Proton-Torpedo (Lock-On), Concussion Missile
-	   Speciality Missiles: MagPulse, Nano, ScramPulse
-	   Missile Range: 3km</Description>
+     <DisplayName>. New Republic X-Wing XJ5 Flare-Launcher</DisplayName>
+	  <Description>Flare Launcher</Description>
     <Icon>Textures\GUI\Icons\Ships\Xj5\XJ5.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>

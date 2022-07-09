@@ -37,6 +37,8 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Manufacturing\K_Imperial_Assembly_MicroFactory_Large.mwm" />
       </BuildProgressModels>        
       <EdgeType>Light</EdgeType>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>80</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
@@ -106,6 +108,8 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Imperial\Manufacturing\K_Imperial_Manufacturing_Factory_Light_Large_Constr3.mwm" />
       </BuildProgressModels>
       <EdgeType>Light</EdgeType>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>80</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
@@ -176,6 +180,8 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Imperial\Manufacturing\K_Imperial_Manufacturing_Factory_Advanced_Large.mwm" />
       </BuildProgressModels> 
       <EdgeType>Light</EdgeType>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>80</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
@@ -332,6 +338,8 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Manufacturing\K_Imperial_Assembly_OreTechPlant_Large.mwm" />
       </BuildProgressModels>        
       <EdgeType>Light</EdgeType>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>80</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventoryMaxVolume>3</InventoryMaxVolume>
@@ -391,6 +399,8 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Manufacturing\K_Imperial_Assembly_MassAssembler_Large.mwm" />
       </BuildProgressModels>           
       <EdgeType>Light</EdgeType>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>80</BuildTimeSeconds>
 	  <AssemblySpeed>10</AssemblySpeed>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
@@ -503,6 +513,8 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Manufacturing\K_Imperial_Assembly_MAWFacility_Large.mwm" />
        </BuildProgressModels>   
       <EdgeType>Light</EdgeType>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>80</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>

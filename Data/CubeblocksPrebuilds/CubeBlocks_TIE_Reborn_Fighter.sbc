@@ -119,8 +119,8 @@
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Imperial_Reborn_TIE_Fighter_Weaponry</SubtypeId>
       </Id>
-      <DisplayName>TIE Fighter Weaponry (HQ)</DisplayName>
-	   <Description>Standard TIE Armament of twin L-s1 laser cannons. Fires a volley of 15 rounds per reload cycle.</Description>
+      <DisplayName>. TIE Fighter Laser-Cannon (HQ)</DisplayName>
+	   <Description>Laser</Description>
      <Icon>Textures\GUI\Icons\Ships\TIERebornFighter\RebornTie.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>

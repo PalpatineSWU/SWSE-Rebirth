@@ -584,15 +584,15 @@
       <DestroySound>K_Imperial_Explosion_Generic</DestroySound>
     </Definition>
 	
-	<Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
-      <Id>
-        <TypeId>SmallMissileLauncher</TypeId>
+	<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+				  <Id>
+			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Chiss_Clawcraft_WingCannon</SubtypeId>
       </Id>
-      <DisplayName>Clawcraft Wing-Cannon</DisplayName>
+      <DisplayName>Clawcraft Wing Maser-Cannon</DisplayName>
       <Icon>Textures\GUI\Icons\Ships\Chiss\Chiss.dds</Icon>
       <CubeSize>Small</CubeSize>
-	  <Description>NON FUNCTIONALChiss Wing pattern, with integrated Maser weaponry.</Description>
+	  <Description>Maser</Description>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="4" y="7" z="23" />
@@ -622,15 +622,15 @@
 	   <EmissiveColorPreset>K_Imperial_Ship_EmissiveSet</EmissiveColorPreset>
     </Definition>
 	
-	<Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
-      <Id>
-        <TypeId>SmallMissileLauncher</TypeId>
+	<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+				  <Id>
+			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Chiss_Clawcraft_WingCannonII</SubtypeId>
       </Id>
-      <DisplayName>Clawcraft Wing-Cannon(II)</DisplayName>
+      <DisplayName>Clawcraft Wing Maser-Cannon(II)</DisplayName>
       <Icon>Textures\GUI\Icons\Ships\Chiss\Chiss.dds</Icon>
       <CubeSize>Small</CubeSize>
-	  <Description>NON FUNCTIONAL Chiss Wing pattern, with integrated Maser weaponry.</Description>
+	  <Description>Maser</Description>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="4" y="7" z="23" />

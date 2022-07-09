@@ -78,8 +78,8 @@
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Imperial_Reborn_TIE_Avenger_Weaponry</SubtypeId>
       </Id>
-      <DisplayName>TIE Avenger Weaponry (HQ) Functioning Turret</DisplayName>
-	   <Description>Standard TIE Armament of twin L-s1 laser cannons. Fires a volley of 15 rounds per reload cycle.</Description>
+      <DisplayName>. TIE Avenger Laser-Cannon</DisplayName>
+	   <Description>Laser</Description>
       <Icon>Textures\GUI\Icons\Ships\TIERebornAvenger\Avenger.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -508,16 +508,16 @@
 	
 	
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition"> <!-- Gun Tip -->
-				  <Public>false</Public>
+				  <Public>true</Public>
           <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Imperial_Reborn_TIE_Avenger_WingTipA</SubtypeId> 
       </Id>
-      <DisplayName>TIE Avenger Wing Tip A (HQ)</DisplayName>
-	   <Description>Standard TIE Avenger Wing tip, equipped with a L-s1 laser cannon. Fires a volley of 15 rounds per reload cycle.</Description>
+      <DisplayName>. TIE Avenger Wing Tip A Laser-Cannon (HQ)</DisplayName>
+	   <Description>Laser</Description>
       <Icon>Textures\GUI\Icons\Ships\TIERebornAvenger\Avenger.dds</Icon>
       <CubeSize>Small</CubeSize>
-	  <GuiVisible>false</GuiVisible>
+	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="5" z="13" />
       <ModelOffset x="0" y="0" z="0" />
@@ -557,16 +557,16 @@
     </Definition>	
 	
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition"> <!-- Gun Tip -->
-				 <Public>false</Public>
+				 <Public>true</Public>
           <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Imperial_Reborn_TIE_Avenger_WingTipB</SubtypeId> 
       </Id>
-      <DisplayName>TIE Avenger Wing Tip B (HQ)</DisplayName>
+      <DisplayName>. TIE Avenger Wing Tip B Laser-Cannon (HQ)</DisplayName>
 	   <Description>Standard TIE Avenger Wing tip, equipped with a L-s1 laser cannon. Fires a volley of 15 rounds per reload cycle.</Description>
       <Icon>Textures\GUI\Icons\Ships\TIERebornAvenger\Avenger.dds</Icon>
       <CubeSize>Small</CubeSize>
-	  <GuiVisible>false</GuiVisible>
+	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="5" z="13" />
       <ModelOffset x="0" y="0" z="0" />
@@ -659,17 +659,16 @@
 
 
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Imperial_Reborn_TIE_Avenger_Launcher</SubtypeId>
       </Id>
-      <DisplayName>TIE Avenger Launcher (HQ)</DisplayName>
-	   <Description>TIE Avenger Side-Mounted Launcher.
-	   Ordnance: Concussion, Proton-Torpedo, I-Flare, Interdiction </Description>
+      <DisplayName>. TIE Avenger Flare-Launcher</DisplayName>
+	   <Description>Flare Launcher</Description>
       <Icon>Textures\GUI\Icons\Ships\TIERebornAvenger\Avenger.dds</Icon>
       <CubeSize>Small</CubeSize>
-	  <GuiVisible>false</GuiVisible>
+	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="2" y="2" z="2" />
       <ModelOffset x="0" y="0" z="0" />

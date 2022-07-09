@@ -64,8 +64,8 @@
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Pirates_StarViper_Weaponry_LaserCannon</SubtypeId>
       </Id>
-      <DisplayName>Starviper Duel Heavy-Laser Cannon</DisplayName>
-	   <Description>Starviper Standard Weaponry, Duel-Mounted Heavy-Laser Cannon with linked-fire.</Description>
+      <DisplayName>. Starviper Dual Laser-Cannon</DisplayName>
+	   <Description>Laser</Description>
    <Icon>Textures\GUI\Icons\Ships\Starviper\SViper.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -113,8 +113,8 @@
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Pirates_StarViper_Weaponry_SlugThrower</SubtypeId>
       </Id>
-      <DisplayName>Starviper Duel Slug-Thrower</DisplayName>
-	   <Description>Starviper Ballistic Weaponry, Duel-Mounted Slug-Thrower with linked-fire.</Description>
+      <DisplayName>Starviper Duel Maser-Cannon</DisplayName>
+	   <Description>Maser</Description>
    <Icon>Textures\GUI\Icons\Ships\Starviper\SViper.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>

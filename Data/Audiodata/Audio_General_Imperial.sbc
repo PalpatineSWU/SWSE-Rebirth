@@ -2,6 +2,262 @@
 <Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Sounds>
     <!--IHarpo, a glorious man. Damnable Keen file structure.-->
+
+  <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>K_NR_RZ2_EngineMain</SubtypeId>
+      </Id>
+      <Category>SHIP_JET</Category>
+      <MaxDistance>700</MaxDistance>
+      <Volume>0.6</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\RZ2\RZ2_Boost.wav</Start>
+          <Loop>Audio\RZ2\RZ2_Engine.wav</Loop>
+          <End>Audio\RZ2\EngineShutdownGeneric.wav</End>
+        </Wave>
+      </Waves>
+    </Sound>
+
+<Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>K_NR_Missile_Light_Tracking</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>450</MaxDistance>
+      <PreventSynchronization>1</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>0.4</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\Missiles\armco_tie_missile_guided_arc.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+	<Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>K_NR_Torpedo_Launch</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>450</MaxDistance>
+      <PreventSynchronization>1</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>0.4</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\Missiles\NR_ProtonTorp_A.wav</Start>
+        </Wave>
+		 <Wave Type="D3">
+          <Start>Audio\Missiles\NR_ProtonTorp_B.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+	
+	
+	  <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>K_NR_LaserCannon_Light</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>645</MaxDistance>
+      <PreventSynchronization>1</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>0.4</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\LaserCannon\LightCannon_A.wav</Start>
+        </Wave>
+		 <Wave Type="D3">
+       <Start>Audio\LaserCannon\LightCannon_B.wav</Start>
+        </Wave>
+		 <Wave Type="D3">
+         <Start>Audio\LaserCannon\LightCannon_C.wav</Start>
+        </Wave>
+		      </Waves>
+    </Sound>
+	
+	 <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>K_NR_IonCannon_Light</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>645</MaxDistance>
+      <PreventSynchronization>1</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>0.4</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\WEP\NR_LightIonCannon_A.wav</Start>
+        </Wave>
+		 <Wave Type="D3">
+       <Start>Audio\WEP\NR_LightIonCannon_B.wav</Start>
+        </Wave>
+		 <Wave Type="D3">
+         <Start>Audio\WEP\NR_LightIonCannon_C.wav</Start>
+        </Wave>
+		      </Waves>
+    </Sound>
+	
+	 <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>K_NR_IonCannon_Heavy</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>3000</MaxDistance>
+      <PreventSynchronization>1</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>0.4</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\WEP\NR_HeavyIonCannon_A.wav</Start>
+        </Wave>
+		 <Wave Type="D3">
+       <Start>Audio\WEP\NR_HeavyIonCannon_B.wav</Start>
+        </Wave>
+		 <Wave Type="D3">
+         <Start>Audio\WEP\NR_HeavyIonCannon_C.wav</Start>
+        </Wave>
+		      </Waves>
+    </Sound>
+	
+	 <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>K_NR_LaserCannon_XWing</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>445</MaxDistance>
+      <PreventSynchronization>1</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>0.4</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\LaserCannon\NR_LaserCannon_XWing_A.wav</Start>
+        </Wave>
+		 <Wave Type="D3">
+       <Start>Audio\LaserCannon\NR_LaserCannon_XWing_B.wav</Start>
+        </Wave>
+		 <Wave Type="D3">
+         <Start>Audio\LaserCannon\NR_LaserCannon_XWing_C.wav</Start>
+        </Wave>
+		<Wave Type="D3">
+         <Start>Audio\LaserCannon\NR_LaserCannon_XWing_D.wav</Start>
+        </Wave>
+		      </Waves>
+    </Sound>
+	
+	
+	<Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>K_NR_IonCannon_ProjectileSound</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>400</MaxDistance>
+      <PreventSynchronization>1</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>0.4</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\WEP\NR_IonCannon_ProjectileTravel.wav</Start>
+        </Wave>
+				      </Waves>
+    </Sound>
+	
+	
+		<Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>K_NR_IonCannon_Hit</SubtypeId>
+      </Id>
+      <Category>WEP_EXPL</Category>
+      <MaxDistance>400</MaxDistance>
+      <PreventSynchronization>1</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>0.4</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\WEP\IonCannon_Hit.wav</Start>
+        </Wave>
+				      </Waves>
+    </Sound>
+	
+	
+	<Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>K_NR_LaserCannon_Average</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>645</MaxDistance>
+      <PreventSynchronization>1</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>0.4</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\LaserCannon\NR_LaserCannon_A.wav</Start>
+        </Wave>
+		 <Wave Type="D3">
+       <Start>Audio\LaserCannon\NR_LaserCannon_B.wav</Start>
+        </Wave>
+		 <Wave Type="D3">
+         <Start>Audio\LaserCannon\NR_LaserCannon_C.wav</Start>
+        </Wave>
+		      </Waves>
+    </Sound>
+	
+	 <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>K_NR_LaserCannon_Heavy</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>645</MaxDistance>
+      <PreventSynchronization>1</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>0.4</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\LaserCannon\NR_HeavyLaserCannon_A.wav</Start>
+        </Wave>
+		 <Wave Type="D3">
+       <Start>Audio\LaserCannon\NR_HeavyLaserCannon_B.wav</Start>
+        </Wave>
+		 <Wave Type="D3">
+         <Start>Audio\LaserCannon\NR_HeavyLaserCannon_C.wav</Start>
+        </Wave>
+		      </Waves>
+    </Sound>
+
     <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
@@ -631,19 +887,18 @@
         <SubtypeId>K_Imperial_Ewingshutdown</SubtypeId>
       </Id>
       <Category>SHOT</Category>
-      <MaxDistance>900</MaxDistance>
+      <MaxDistance>9</MaxDistance>
       <PreventSynchronization>1</PreventSynchronization>
       <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
       <DynamicMusicAmount>3</DynamicMusicAmount>
-      <Volume>0.3</Volume>
+      <Volume>1</Volume>
 	  <Loopable>false</Loopable>
       <Waves>
         <Wave Type="D3">
-          <Start>Audio\Engines\EWing_EngineShutdown.wav</Start>
+          <Start>Audio\LaserCannon\mixkit-powerful-air-whooshes-3220.wav</Start>
         </Wave>
 		        </Waves>
     </Sound>
   
-
   </Sounds>
 </Definitions>

@@ -368,16 +368,13 @@
 	
 
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Imperial_HowlRunner_Weaponry_A</SubtypeId>
       </Id>
-      <DisplayName>Civilian Howlrunner Laser Cannon (A)</DisplayName>
-	  <Description>
-    (COSMETIC NON FUNTION FOR NOW)
-	  2x3x12 Space Requirements
-    </Description>
+      <DisplayName>. Howlrunner Laser-Cannon (A)</DisplayName>
+	  <Description>Laser</Description>
       <Icon>Textures\GUI\Icons\Ships\Howlrunner\Howl.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -422,16 +419,13 @@
 	
 	
 	<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Imperial_HowlRunner_Weaponry_B</SubtypeId>
       </Id>
-      <DisplayName>Civilian Howlrunner Laser Cannon (B)</DisplayName>
-	  <Description>
-    (COSMETIC NON FUNTION FOR NOW)
-	  2x3x12 Space Requirements
-    </Description>
+      <DisplayName>. Howlrunner Laser-Cannon (B)</DisplayName>
+	  <Description>Laser</Description>
       <Icon>Textures\GUI\Icons\Ships\Howlrunner\Howl.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>

@@ -833,17 +833,13 @@
 <!-- Wing Gun Slot --> <!-- Stock, Overcharged, Targeting, Slugthrower, -->
 
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">  <!-- Stock -->
-<Public>false</Public>
+<Public>true</Public>
 <Id>
 			<TypeId>ConveyorSorter</TypeId>
            <SubtypeId>K_Rebellion_RZ1_LaserCannon_Stock</SubtypeId>
       </Id>
-      <DisplayName>Rebellion A-Wing RZ-1 Laser-Cannon (Stock)</DisplayName>
-	   <Description>Rebellion A-Wing Pivot-Laser-Cannon. Limited Forward Firing Arc.
-Limit: No Limit
-Weapon: Laser-Cannon
-Salvo: 2
-Range: 300</Description>
+      <DisplayName>. Rebellion A-Wing RZ-1 Laser-Cannon</DisplayName>
+	   <Description>Laser</Description>
      <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -910,18 +906,13 @@ Range: 300</Description>
 	
 	
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">  <!-- Overcharged -->
-<Public>false</Public>
+<Public>true</Public>
 <Id>
 			<TypeId>ConveyorSorter</TypeId>
            <SubtypeId>K_Rebellion_RZ1_LaserCannon_OverchargeUpgrade</SubtypeId>
       </Id>
-      <DisplayName>Rebellion A-Wing RZ-1 Laser-Cannon (Overcharge)</DisplayName>
-	   <Description>Rebellion A-Wing Pivot-Laser-Cannon. Limited Forward Firing Arc.
-Limit: Unlimited
-Weapon: Laser-Cannon
-Upgrade: +160 Damage, -Accuracy
-Salvo: 1
-Range: 300</Description>
+      <DisplayName>. Rebellion A-Wing RZ-1 Maser-Cannon</DisplayName>
+	   <Description>Maser</Description>
      <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -988,18 +979,13 @@ Range: 300</Description>
 	
 
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">  <!-- Targeting -->
-<Public>false</Public>
+<Public>true</Public>
 <Id>
 			<TypeId>ConveyorSorter</TypeId>
            <SubtypeId>K_Rebellion_RZ1_LaserCannon_TargetingUpgrade</SubtypeId>
       </Id>
-      <DisplayName>Rebellion A-Wing RZ-1 Laser-Cannon (Targeting)</DisplayName>
-	   <Description>Rebellion A-Wing Pivot-Laser-Cannon. Limited Forward Firing Arc.
-Limit: Unlimited
-Weapon: Laser-Cannon
-Upgrade: +Accuracy, +Velocity
-Salvo: 2
-Range: 300</Description>
+      <DisplayName>. Rebellion A-Wing RZ-1 Maser-Cannon II</DisplayName>
+	   <Description>Maser</Description>
      <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -1065,18 +1051,13 @@ Range: 300</Description>
 	  </Definition>
 	
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">  <!-- Supercharger -->
-<Public>false</Public>
+<Public>true</Public>
 <Id>
 			<TypeId>ConveyorSorter</TypeId>
            <SubtypeId>K_Rebellion_RZ1_LaserCannon_SuperchargerUpgrade</SubtypeId>
       </Id>
-      <DisplayName>Rebellion A-Wing RZ-1 Laser-Cannon (Supercharger)</DisplayName>
-	   <Description>Rebellion A-Wing Pivot-Laser-Cannon. Limited Forward Firing Arc.
-Limit: 4
-Weapon: Laser-Cannon, Supercharge Toggle
-Upgrade: +200Damage, +75Self-Damage
-Salvo: 2
-Range: 300</Description>
+      <DisplayName>. Rebellion A-Wing RZ-1 Ion-Cannon</DisplayName>
+	   <Description>Ion-Cannon</Description>
      <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -1146,17 +1127,13 @@ Range: 300</Description>
 <!-- AMS Slot --> <!-- Flare Launcher, Laser-Cannon, Micro Minelauncher -->
 
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition"> <!-- Stock -->
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Rebellion_RZ1_RearLauncher_Flare</SubtypeId>
       </Id>
-      <DisplayName>Rebellion RZ-1 A-Wing Rear-Launcher (Stock-Flare)</DisplayName>
-	   <Description>Rebellion A-Wing Rear-Mounted Launcher.
-Limit: No Limit
-Projectile: Flare
-Capacity: 1 per Cycle
-</Description>
+      <DisplayName>. Rebellion RZ-1 A-Wing Flare-Launcher</DisplayName>
+	   <Description>Flare</Description>
      <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -1209,18 +1186,13 @@ Capacity: 1 per Cycle
 <!-- Launcher Slot -->  <!-- Launcher , Specialized Launcher, Micro Launcher, Mortar -->
 
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition"> <!-- Stock -->
-		
+<Public>false</Public>		
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Rebellion_RZ1_Launcher_Stock</SubtypeId>
       </Id>
-      <DisplayName>Rebellion RZ-1 A-Wing Launcher (Stock)</DisplayName>
-	   <Description>NON FUNCTIONAL Concussion-Missile Launcher.
-Limit: 2
-Standard Missile: Concussion Missile
-Speciality Missiles: None
-Capacity: 4 per Cycle
-Missile Range: 3km</Description>
+      <DisplayName>Rebellion RZ-1 A-Wing Launcher (Bork)</DisplayName>
+	   <Description>Bork</Description>
      <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -1270,13 +1242,8 @@ Missile Range: 3km</Description>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Rebellion_RZ1_Launcher_MicroLaunchUpgrade</SubtypeId>
       </Id>
-      <DisplayName>Rebellion RZ-1 A-Wing Launcher (Micro-Launch)</DisplayName>
-	   <Description>Rebellion Micro-Missile Launcher.
-Limit: 1
-Standard Missile: Micro Missile
-Speciality Missiles: None
-Capacity: 16 per Cycle
-Missile Range: 2km</Description>
+      <DisplayName>. Rebellion RZ-1 A-Wing Laser-Cannon</DisplayName>
+	   <Description>Laser</Description>
      <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -1322,18 +1289,13 @@ Missile Range: 2km</Description>
 		
 
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition"> <!-- Specialist -->
-		
+<Public>false</Public>		
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Rebellion_RZ1_Launcher_SpecialistUpgrade</SubtypeId>
       </Id>
-      <DisplayName>Rebellion RZ-1 A-Wing Launcher (Specialist)</DisplayName>
-	   <Description>NON FUNCTIONAL Dyanmic-Missile Launcher.
-Limit: 1
-Standard Missile: Concussion Missile
-Speciality Missiles: HE Rocket
-Capacity: 4 per Cycle
-Missile Range: 3km</Description>
+      <DisplayName>Rebellion RZ-1 A-Wing Borked</DisplayName>
+	   <Description>Bork</Description>
      <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -1384,13 +1346,8 @@ Missile Range: 3km</Description>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Rebellion_RZ1_Launcher_MortarUpgrade</SubtypeId>
       </Id>
-      <DisplayName>Rebellion RZ-1 A-Wing Launcher (Mortar)</DisplayName>
-	   <Description>NON FUNCTIONAL Haywired Mortar Launcher.
-Limit: 1
-Standard Missile: Light Mortar Round (Anti-Infantry)
-Speciality Missiles: None
-Capacity: 1 per Cycle
-Missile Range: 1km</Description>
+      <DisplayName>. Rebellion RZ-1 A-Wing Special-Motar</DisplayName>
+	   <Description>Special</Description>
      <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -1629,12 +1586,8 @@ Function: Ram-Prow, Milage may differ.
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Rebellion_RZ1_Nose_Gun</SubtypeId>
       </Id>
-   <DisplayName>Rebellion RZ-1 A-Wing Nose Cannon</DisplayName>
-	   <Description>Rebellion A-Wing Nose modified with Light Laser Cannons.
-Limit: 1
-Weapon: Light Laser-Cannon
-Salvo: 2
-Range: 300</Description>
+   <DisplayName>. Rebellion RZ-1 A-Wing Laser-Cannon</DisplayName>
+	   <Description>Laser</Description>
      <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>

@@ -6,15 +6,13 @@
 
 <!--  Weaponry -->
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition"> <!--  Laser  -->	
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_NewRepublic_Ionizer_LC</SubtypeId>
       </Id>
-      <DisplayName>New Republic Ionizer Laser-Cannon</DisplayName>
-	   <Description>New Republic Laser-Cannon Pair, 180-Degree Firing Arc.
-Range: 450m
-</Description>
+      <DisplayName>New Republic Ionizer Maser-Cannon</DisplayName>
+	   <Description>Maser</Description>
       <Icon>Textures\GUI\Icons\Ships\ionizer\Ionizer.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -62,15 +60,13 @@ Range: 450m
     </Definition>
 	
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition"> <!--  Wing A  -->	
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_NewRepublic_Ionizer_IonWingA</SubtypeId>
       </Id>
-      <DisplayName>New Republic Ionizer Wing (I)</DisplayName>
-	   <Description>New Republic Ionizer Dual-Ion-Cannon Wing
-Weapon: Ion-Cannon 2x
-</Description>
+      <DisplayName>. New Republic Ionizer Wing Laser-Cannon (I)</DisplayName>
+	   <Description>Laser</Description>
       <Icon>Textures\GUI\Icons\Ships\ionizer\Ionizer.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -115,15 +111,13 @@ Weapon: Ion-Cannon 2x
     </Definition>
 	
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition"> <!--  Wing B  -->	
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_NewRepublic_Ionizer_IonWingB</SubtypeId>
       </Id>
-      <DisplayName>New Republic Ionizer Wing (II)</DisplayName>
-	   <Description>New Republic Ionizer Dual-Ion-Cannon Wing
-Weapon: Ion-Cannon 2x
-</Description>
+      <DisplayName>. New Republic Ionizer Wing Laser-Cannon(II)</DisplayName>
+	   <Description>Laser</Description>
       <Icon>Textures\GUI\Icons\Ships\ionizer\Ionizer.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -168,14 +162,13 @@ Weapon: Ion-Cannon 2x
     </Definition>
 		
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition"> <!--  Torp  -->	
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_NewRepublic_Ionizer_TorpedoLauncher</SubtypeId>
       </Id>
-      <DisplayName>New Republic Ionizer Warhead Launcher</DisplayName>
-	   <Description>New Republic Warhead Launcher.
-Payload: Advanced Concussion, I7 Ion Pulse-Missile, Nano Missile,  Flare</Description>
+      <DisplayName>. New Republic Ionizer Flare-Launcher</DisplayName>
+	   <Description>Flare</Description>
       <Icon>Textures\GUI\Icons\Ships\ionizer\Ionizer.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>

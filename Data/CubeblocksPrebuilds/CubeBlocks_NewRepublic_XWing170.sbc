@@ -707,8 +707,8 @@
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_NewRepublic_XWing_70_Weaponry_Wing_A</SubtypeId>
       </Id>
-     <DisplayName>New Republic X-Wing T70 Weaponry (A)</DisplayName>
-	  <Description>NON FUNCTIOING  X-Wing Wing with Laser-Cannon.</Description>
+     <DisplayName>. New Republic X-Wing T70 Laser-Cannon (A)</DisplayName>
+	  <Description>Laser</Description>
     <Icon>Textures\GUI\Icons\Ships\T70\T70.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -764,8 +764,8 @@
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_NewRepublic_XWing_70_Weaponry_Wing_B</SubtypeId>
       </Id>
-     <DisplayName>New Republic X-Wing T70 Weaponry (B)</DisplayName>
-	  <Description>NON FUNCTIOING c X-Wing Wing with Laser-Cannon.</Description>
+     <DisplayName>. New Republic X-Wing T70 Laser-Cannon (B)</DisplayName>
+	  <Description>Laser</Description>
     <Icon>Textures\GUI\Icons\Ships\T70\T70.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -821,11 +821,8 @@
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_NewRepublic_XWing_70_ProtonTorpedoLauncher</SubtypeId>
       </Id>
-     <DisplayName>New Republic X-Wing T70 Launcher</DisplayName>
-	  <Description>NON FUNCTIOING  X-Wing Launcher.
-	  Standard Missile: Proton-Torpedo (Lock-On), Concussion Missile
-	   Speciality Missiles: MagPulse, Nano, ScramPulse
-	   Missile Range: 3km</Description>
+     <DisplayName>. New Republic X-Wing T70 Flare-Launcher</DisplayName>
+	  <Description>Flare Launcher</Description>
     <Icon>Textures\GUI\Icons\Ships\T70\T70.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>

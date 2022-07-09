@@ -319,17 +319,13 @@
 	
 	
 	<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_NewRepublic_AWing_Launcher</SubtypeId>
       </Id>
-      <DisplayName>New Republic RZ-2 A-Wing Launcher-System</DisplayName>
-	   <Description>New Republic Concussion-Missile Launcher.
-Limit: 2
-	   Standard Missile: Concussion Missile
-	   Speciality Missiles: ScramPulse
-	   Missile Range: 3km</Description>
+      <DisplayName>New Republic RZ-2 A-Wing Launcher-System Borked</DisplayName>
+	   <Description>Broken</Description>
       <Icon>Textures\GUI\Icons\Ships\Rz2\Rz2.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -508,17 +504,13 @@ Limit: 2
     </Definition>
 	
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-<Public>false</Public>
+<Public>true</Public>
 <Id>
 			<TypeId>ConveyorSorter</TypeId>
            <SubtypeId>K_NewRepublic_AWing_LaserCannon</SubtypeId>
       </Id>
-      <DisplayName>New Republic RZ-2 A-Wing Laser-Cannon</DisplayName>
-	   <Description>New Republic Swivel Laser-Cannon.
-Limit: 4
-Weapon: Laser-Cannon
-Salvo: 6
-Range: 500</Description>
+      <DisplayName>. New Republic RZ-2 A-Wing Laser-Cannon</DisplayName>
+	   <Description>Laser</Description>
       <Icon>Textures\GUI\Icons\Ships\Rz2\Rz2.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -585,17 +577,13 @@ Range: 500</Description>
     </Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-<Public>false</Public>
+<Public>true</Public>
 <Id>
 			<TypeId>ConveyorSorter</TypeId>
            <SubtypeId>K_NewRepublic_AWing_AMS</SubtypeId>
       </Id>
-      <DisplayName>New Republic RZ-2 A-Wing AMS</DisplayName>
-	   <Description>New Republic Anti-Missile-System.
-Limit: 3
-Weapon: Beam-Cannon
-Salvo: Beam
-Range: 300</Description>
+      <DisplayName>. New Republic RZ-2 A-Wing AMS Laser-Cannon</DisplayName>
+	   <Description>Laser</Description>
       <Icon>Textures\GUI\Icons\Ships\Rz2\Rz2.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>

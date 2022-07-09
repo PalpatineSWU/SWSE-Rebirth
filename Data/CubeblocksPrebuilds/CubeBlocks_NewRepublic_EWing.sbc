@@ -609,17 +609,13 @@
 	
 	
 	<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
            <SubtypeId>K_NewRepublic_EWing_RoofGun</SubtypeId>
       </Id>
-      <DisplayName>New Republic E-Wing Laser-Cannon (Roof)</DisplayName>
-	   <Description>New Republic Heavy Laser-Cannon, mounted on the E-Wing's Roof.
-	   Limit: No Limit
-Weapon: Heavy Laser-Cannon
-Salvo: 3-Burst
-Range: 450</Description>
+      <DisplayName>. New Republic E-Wing Laser-Cannon (Roof)</DisplayName>
+	   <Description>Laser</Description>
     <Icon>Textures\GUI\Icons\Ships\e-wing\EWing.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -685,17 +681,13 @@ Range: 450</Description>
 	  
 	  
 	 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
            <SubtypeId>K_NewRepublic_EWing_ProtonLauncher</SubtypeId>
       </Id>
-      <DisplayName>New Republic E-Wing Proton-Torpedo Launcher (2)</DisplayName>
-	   <Description>New Republic Twin Proton Torpedo-Launcher, mounted on the E-Wing's underside.
-	   Limit: 3
-	   Standard Missile: Proton-Torpedo (Lock-On), Concussion Missile
-	   Speciality Missiles: MagPulse, Nano
-	   Missile Range: 3km</Description>
+      <DisplayName>. New Republic E-Wing Laser-Cannon (2)</DisplayName>
+	   <Description>Laser</Description>
     <Icon>Textures\GUI\Icons\Ships\e-wing\EWing.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -762,17 +754,13 @@ Range: 450</Description>
 	  
 	  
 	   <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
            <SubtypeId>K_NewRepublic_EWing_WingGunA</SubtypeId>
       </Id>
-      <DisplayName>New Republic E-Wing Laser-Cannon (Wing A)</DisplayName>
-	   <Description>New Republic Heavy Laser-Cannon, mounted on the E-Wing's wings.
-	   Limit: 1
-Weapon: Heavy Laser-Cannon
-Salvo: 3-Burst
-Range: 450</Description>
+      <DisplayName>. New Republic E-Wing Laser-Cannon (Wing A)</DisplayName>
+	   <Description>Laser</Description>
     <Icon>Textures\GUI\Icons\Ships\e-wing\EWing.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -839,17 +827,13 @@ Range: 450</Description>
 	  </Definition>
 	  
 	<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
            <SubtypeId>K_NewRepublic_EWing_WingGunB</SubtypeId>
       </Id>
-      <DisplayName>New Republic E-Wing Laser-Cannon (Wing B)</DisplayName>
-	   <Description>New Republic Heavy Laser-Cannon, mounted on the E-Wing's Roof.
-	   Limit: 1
-Weapon: Heavy Laser-Cannon
-Salvo: 3-Burst
-Range: 450</Description>
+      <DisplayName>. New Republic E-Wing Laser-Cannon (Wing B)</DisplayName>
+	   <Description>Laser</Description>
     <Icon>Textures\GUI\Icons\Ships\e-wing\EWing.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>

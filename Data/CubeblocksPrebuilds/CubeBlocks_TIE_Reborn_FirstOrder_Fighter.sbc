@@ -10,7 +10,7 @@
         <TypeId>Cockpit</TypeId>
         <SubtypeId>K_Imperial_Reborn_FirstOrder_TIE_Fighter_Cockpit</SubtypeId>
       </Id>
-      <DisplayName>FO TIE Fighter Cockpit (HQ)</DisplayName>
+      <DisplayName>First-Order TIE Fighter Cockpit (HQ)</DisplayName>
       <Icon>Textures\GUI\Icons\Ships\TieRebornFO\FOCock.dds</Icon>
 	   <Description>First Order TIE Cockpit.</Description>
       <CubeSize>Small</CubeSize>
@@ -73,12 +73,12 @@
     </Definition>
 	
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Imperial_Reborn_FirstOrder_TIE_Fighter_Weaponry</SubtypeId>
       </Id>
-      <DisplayName>FO TIE Fighter Weaponry (HQ)</DisplayName>
+      <DisplayName>. First-Order TIE Fighter Laser-Cannon (HQ)</DisplayName>
 	   <Description>First-Order TIE Armament of twin L-s1 laser cannons. Fires a volley of 15 rounds per reload cycle.</Description>
       <Icon>Textures\GUI\Icons\Ships\TieRebornFO\FO.dds</Icon>
       <CubeSize>Small</CubeSize>
@@ -126,7 +126,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>K_Imperial_Reborn_FirstOrder_TIE_Fighter_InverseEngine</SubtypeId>
       </Id>
-      <DisplayName>FO TIE Fighter Inverse-Engine (HQ)</DisplayName>
+      <DisplayName>First-Order TIE Fighter Inverse-Engine (HQ)</DisplayName>
 	   <Description>Primary Engine unit of the First Order TIE Fighter.
 	   Install onto the rear of the Cockpit unit of First-Order TIE Chassis, or standard TIE Chassis.</Description>
       <Icon>Textures\GUI\Icons\Ships\TieRebornFO\FOTh.dds</Icon>
@@ -199,7 +199,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>K_Imperial_Reborn_FirstOrder_TIE_Fighter_MainEngine</SubtypeId>
       </Id>
-      <DisplayName>FO TIE Fighter Main-Engine (HQ)</DisplayName>
+      <DisplayName>First-Order TIE Fighter Main-Engine (HQ)</DisplayName>
 	   <Description>Primary Engine unit of the First Order TIE, rear-mounted onto the reverse-Engine.
 	   Install onto the Gas Storage unit of standard TIE constructions.</Description>
       <Icon>Textures\GUI\Icons\Ships\TieRebornFO\FOTh.dds</Icon>
@@ -272,7 +272,7 @@
         <TypeId>Gyro</TypeId>
         <SubtypeId>K_Imperial_Reborn_FirstOrder_TIE_Fighter_Strut_Gyro</SubtypeId>
       </Id>
-      <DisplayName>FO TIE Gyro (HQ)</DisplayName>
+      <DisplayName>First-Order TIE Gyro (HQ)</DisplayName>
 	   <Description>First Order TIE Gyro, mount onto the Strut battery.</Description>
       <Icon>Textures\GUI\Icons\Ships\TieRebornFO\FOGy.dds</Icon>
       <CubeSize>Small</CubeSize>
@@ -314,7 +314,7 @@
         <TypeId>BatteryBlock</TypeId>
         <SubtypeId>K_Imperial_Reborn_FirstOrder_TIE_Fighter_Strut_Battery</SubtypeId>
       </Id>
-      <DisplayName>FO TIE Strut Battery (HQ)</DisplayName>
+      <DisplayName>First-Order TIE Strut Battery (HQ)</DisplayName>
 	  <Description>First Order TIE Strut, mount onto the Cockpit body.</Description>
       <Icon>Textures\GUI\Icons\Ships\TieRebornFO\FOBa.dds</Icon>
       <CubeSize>Small</CubeSize>
@@ -361,7 +361,7 @@
         <TypeId>SolarPanel</TypeId>
         <SubtypeId>K_Imperial_Reborn_FirstOrder_TIE_Fighter_Wing</SubtypeId>
       </Id>
-      <DisplayName>FO TIE Fighter Wing (HQ)</DisplayName>
+      <DisplayName>First-Order TIE Fighter Wing (HQ)</DisplayName>
 	   <Description>First Order TIE Wing, improved Intake compared to the Standard TIE.</Description>
       <Icon>Textures\GUI\Icons\Ships\TieRebornFO\FOSol.dds</Icon>
       <CubeSize>Small</CubeSize>
@@ -410,7 +410,7 @@
         <TypeId>ShipConnector</TypeId>
         <SubtypeId>K_Imperial_Reborn_FirstOrder_TIE_Fighter_Connector</SubtypeId>
       </Id>
-      <DisplayName>FO TIE Hatch (HQ Connector)</DisplayName>
+      <DisplayName>First-Order TIE Hatch (HQ Connector)</DisplayName>
       <Icon>Textures\GUI\Icons\Ships\TieRebornFO\FOConn.dds</Icon>
 	   <Description>First Order TIE Hatch, mount onto the Central Chassis.</Description>
       <CubeSize>Small</CubeSize>
@@ -453,7 +453,7 @@
         <TypeId>CameraBlock</TypeId>
         <SubtypeId>K_Imperial_Reborn_FirstOrder_TIE_Fighter_CameraHatch</SubtypeId>
       </Id>
-      <DisplayName>FO TIE Camera (HQ Hatch)</DisplayName>
+      <DisplayName>First-Order TIE Camera (HQ Hatch)</DisplayName>
 	   <Description>First Order Hatch, mount typically onto the underside of the Chassis.</Description>
       <Icon>Textures\GUI\Icons\Ships\TieRebornFO\FOCam.dds</Icon>
       <CubeSize>Small</CubeSize>
@@ -493,7 +493,7 @@
         <TypeId>RadioAntenna</TypeId>
         <SubtypeId>K_Imperial_Reborn_FirstOrder_TIE_Fighter_Antenna</SubtypeId>
       </Id>
-       <DisplayName>FO TIE Antenna (HQ)</DisplayName>
+       <DisplayName>First-Order TIE Antenna (HQ)</DisplayName>
 	   <Description>Antenna Unit for the TIE, allowing remote control to remote access. Install anywhere on the TIE.</Description>
       <Icon>Textures\GUI\Icons\Ships\TieRebornFO\FOAnt.dds</Icon>
 	   <IsStandAlone>false</IsStandAlone>

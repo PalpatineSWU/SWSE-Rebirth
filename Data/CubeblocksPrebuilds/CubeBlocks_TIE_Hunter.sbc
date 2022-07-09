@@ -460,7 +460,7 @@
     </Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
-      <Public>true</Public>
+      <Public>false</Public>
       <Id>
         <TypeId>SmallMissileLauncher</TypeId>
         <SubtypeId>K_TIE_Hunter_Weaponry_HullGun</SubtypeId>
@@ -497,7 +497,7 @@
     </Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
-     <Public>true</Public>
+     <Public>false</Public>
       <Id>
         <TypeId>SmallMissileLauncher</TypeId>
         <SubtypeId>K_TIE_Hunter_Weaponry_MissilePods</SubtypeId>
@@ -534,7 +534,7 @@
     </Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
-      <Public>true</Public>
+      <Public>false</Public>
       <Id>
         <TypeId>SmallMissileLauncher</TypeId>
         <SubtypeId>K_TIE_Hunter_Weaponry_IonCannon</SubtypeId>

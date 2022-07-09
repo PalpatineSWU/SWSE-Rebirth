@@ -46,13 +46,13 @@
 	
 	
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Imperial_Reborn_TIE_Droid_Weaponry</SubtypeId>
       </Id>
-      <DisplayName>TIE Droid Weaponry (HQ)</DisplayName>
-	   <Description>Standard TIE Armament of twin L-s1 laser cannons. Fires a volley of 15 rounds per reload cycle.</Description>
+      <DisplayName>. TIE Droid Laser-Cannon (HQ)</DisplayName>
+	   <Description>Laser</Description>
       <Icon>Textures\GUI\Icons\Ships\TIERebornDroid\RebornDroid.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>

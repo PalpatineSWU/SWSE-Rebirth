@@ -78,8 +78,8 @@
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Imperial_Reborn_TIE_Oppressor_Weaponry</SubtypeId>
       </Id>
-      <DisplayName>TIE Oppressor Weaponry (HQ) Functioning Turret</DisplayName>
-	   <Description>Oppressor Chassis Armament of twin L-s1 laser cannons. Fires a volley of 15 rounds per reload cycle.</Description>
+      <DisplayName>. TIE Oppressor Laser-Cannon</DisplayName>
+	   <Description>Laser</Description>
       <Icon>Textures\GUI\Icons\Ships\TIERebornOppressor\RebornOppressorLa.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -95,7 +95,7 @@
 			<Component Subtype="DuraSteel" Count="10" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <BlockPairName>K_Imperial_Reborn_TIE_Hunter_Weaponry</BlockPairName>
+      <BlockPairName>K_Imperial_Reborn_TIE_Hunter_Weaponrscscy</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
@@ -604,18 +604,13 @@
 
 	
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Imperial_Reborn_TIE_Oppressor_HeavyBay</SubtypeId>
       </Id>
-      <DisplayName>TIE Oppressor Heavy-Bay (HQ)</DisplayName>
-	   <Description>TIE Oppressor Standard Heavy Bomb Bay.
-	   Ordnance: Proton Bomb, CL-2 Bomb , Concussion Bomb, Magpulse Bomb, Missile-Jammer Bomb, MIC02 Bomb
-	   CL-2: Anti-Starfighter Cluster
-	   Missile-Jammer: Anti-Missile Lock-Jamming\Lock-Disruption Field Emitter Cluster
-	   Concussion: Anti-Armor Cluster
-	   MIC02: Micro-Ionic-Charge mk2 Cluster</Description>
+      <DisplayName>. TIE Oppressor Flare-Launcher</DisplayName>
+	   <Description>Flare Launcher</Description>
       <Icon>Textures\GUI\Icons\Ships\TIERebornOppressor\RebornOppressor.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -661,15 +656,13 @@
     </Definition>	
 	
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Imperial_Reborn_TIE_Oppressor_HeavyLauncher</SubtypeId>
       </Id>
-      <DisplayName>TIE Oppressor Heavy Launcher (HQ)</DisplayName>
-	   <Description>Center-Pod Mounted Underside Heavy Launcher, for the TIE Oppressor.
-	   Ordnance: Concussion , I-7 Ionic-Pulse-Missile , ST2mk4-MIRV , I-Flare, Interdiction
-	   </Description>
+      <DisplayName>. TIE Oppressor Rocket-Launcher (HQ)</DisplayName>
+	   <Description>Launcher</Description>
       <Icon>Textures\GUI\Icons\Ships\TIERebornOppressor\RebornOppressor.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>

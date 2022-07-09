@@ -78,8 +78,8 @@
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Imperial_Reborn_TIE_Hunter_Weaponry</SubtypeId>
       </Id>
-      <DisplayName>TIE Hunter Weaponry (HQ) Functioning Turret Functionig</DisplayName>
-	   <Description>Standard TIE Armament of twin L-s1 laser cannons. Fires a volley of 15 rounds per reload cycle.</Description>
+      <DisplayName>. TIE Hunter Laser-Cannon</DisplayName>
+	   <Description>Laser</Description>
       <Icon>Textures\GUI\Icons\Ships\TieHunter\TieHun.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -580,16 +580,16 @@
 	
 	
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Imperial_Reborn_TIE_Hunter_WingCannon_A</SubtypeId>
       </Id>
-      <DisplayName>TIE Hunter Wing I (HQ)</DisplayName>
-	   <Description>Standard TIE Hunter Wing, armed with Wing-Tip Laser-Cannons, and Ion-Cannon.</Description>
+      <DisplayName>. TIE Hunter Wing I Laser-Cannon (HQ)</DisplayName>
+	   <Description>Laser</Description>
       <Icon>Textures\GUI\Icons\Ships\TieHunter\TieHun.dds</Icon>
       <CubeSize>Small</CubeSize>
-	  <GuiVisible>false</GuiVisible>
+	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="3" />
       <ModelOffset x="0" y="0" z="0" />
@@ -633,16 +633,16 @@
     </Definition>	
 	
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Imperial_Reborn_TIE_Hunter_CyclicRepeatingBlaster</SubtypeId>
       </Id>
-      <DisplayName>TIE Hunter Cyclic Repeating Blaster Turret (HQ)</DisplayName>
-	   <Description>Cyclic Repeating Blaster Weapon System, commonly mounted onto TIE Hunters, to enhance available firepower.</Description>
+      <DisplayName>. TIE Hunter Cyclic Repeating Laser-Cannon (HQ)</DisplayName>
+	   <Description>Laser</Description>
       <Icon>Textures\GUI\Icons\Ships\TieHunter\TieHun.dds</Icon>
       <CubeSize>Small</CubeSize>
-	  <GuiVisible>false</GuiVisible>
+	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="1" z="3" />
       <ModelOffset x="0" y="0" z="0" />
@@ -685,17 +685,16 @@
     </Definition>	
 	
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Imperial_Reborn_TIE_Hunter_Launcher</SubtypeId>
       </Id>
-      <DisplayName>TIE Hunter Launcher (HQ)</DisplayName>
-	   <Description>Hunter Launcher:
-	   Armaments: Concussion,  I-Flare,  Magpulse,  Scrampulse,  Interdiction, WEB</Description>
+      <DisplayName>. TIE Hunter Rocket-Launcher (HQ)</DisplayName>
+	   <Description>Launcher</Description>
       <Icon>Textures\GUI\Icons\Ships\TieHunter\TieHun.dds</Icon>
       <CubeSize>Small</CubeSize>
-	  <GuiVisible>false</GuiVisible>
+	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="2" y="1" z="2" />
       <ModelOffset x="0" y="0" z="0" />

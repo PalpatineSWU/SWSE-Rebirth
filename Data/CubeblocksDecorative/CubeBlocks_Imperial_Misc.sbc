@@ -918,9 +918,10 @@
       <PCU>35</PCU>
     </Definition>
 	
- <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
+	<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+		
+		  <Id>
+			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Rebellion_Decor_HangarEmpty</SubtypeId>
       </Id>
       <DisplayName>Rebellion Kauti Hangar</DisplayName>

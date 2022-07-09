@@ -3,14 +3,13 @@
  <CubeBlocks>
  	
 		
-	<Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
-      <Public>true</Public>
-      <Id>
-        <TypeId>SmallMissileLauncher</TypeId>
+	<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+				  <Id>
+			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_TIE_Bomber_Pod</SubtypeId>
       </Id>
-	   <Description>TIE Bomber Pod, acts as the TIE's frontal-facing Missile Launcher. Fires a Standard TIE Missile.</Description>
-      <DisplayName>TIE Bomber Pod</DisplayName>
+      <DisplayName>. TIE Bomber Rocket-Launcher IV</DisplayName>
+	    <Description>Launcher</Description>
       <Icon>Textures\GUI\Icons\Ships\TieBomber\TieBomb.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -40,14 +39,13 @@
 				   <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
     </Definition>
 	
-	<Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
-      <Public>false</Public>
-      <Id>
-        <TypeId>SmallMissileLauncher</TypeId>
+	<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+				  <Id>
+			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_TIE_Bomber_Pod_CenterBombbay</SubtypeId>
       </Id>
-	   <Description>TIE Bomber's primary ordance-system, allowing the release of the TIE's Photon-Bombs.</Description>
-      <DisplayName>TIE Bomber Ordance Pod</DisplayName>
+      <DisplayName>TIE Bomber Rocket-Launcher III</DisplayName>
+	    <Description>Launcher</Description>
       <Icon>Textures\GUI\Icons\Ships\TieBomber\TieBomb.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>

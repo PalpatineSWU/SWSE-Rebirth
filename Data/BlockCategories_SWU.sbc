@@ -497,7 +497,7 @@
             <string>K_SW_IMP_DefenseHeavyBattery_DTC</string>
             <string>K_SW_IMP_DefenseBattery_DTC</string>
             <string>K_SW_IMP_DefenseBattery_HIC</string>
-            <string>K_SW_IMP_DefenseHeavyBattery_LHVC</string>
+            <string>P_Tractorbeam</string>
             <string>K_SW_IMP_DefenseHeavyBattery_PTL</string>
             <string>K_SW_IMP_RecessedEmplacement_CML</string>
             <string>K_SW_IMP_RecessedEmplacement_DIC</string>
@@ -510,8 +510,79 @@
             <string>K_Imperial_Tower_IonCannon_Basic</string>
             <string>K_Imperial_Octoturbolaser_Turret_Normal</string>
             <string>K_Imperial_Tower_TurboLaser_Basic</string>
+            <string>K_Imperial_Reborn_TIE_Interceptor_Launcher</string>
+            <string>K_Imperial_SpeederBike_Weaponry</string>
+            <string>K_Imperial_Reborn_TIE_Avenger_Launcher</string>
+            <string>K_Imperial_Reborn_TIE_Avenger_WingTipA</string>
+            <string>K_Imperial_Reborn_TIE_Avenger_WingTipB</string>
+            <string>K_Imperial_Reborn_TIE_Avenger_Launcher</string>
+            <string>K_Imperial_Reborn_TIE_Bomber_PrimaryLauncher</string>
+            <string>K_Imperial_Reborn_TIE_Bomber_LightLauncher</string>
+            <string>K_TIE_Bomber_Pod</string>
+            <string>K_TIE_Bomber_Pod_CenterBombbay</string>
+            <string>K_Imperial_Reborn_TIE_Defender_BodyWeaponry</string>
+            <string>K_Imperial_Reborn_TIE_Defender_Wing_Left_Weaponry</string>
+            <string>K_Imperial_Reborn_TIE_Defender_Wing_Top_Weaponry</string>
+            <string>K_Imperial_Reborn_TIE_Defender_Wing_Right_Weaponry</string>
+            <string>K_Imperial_Reborn_TIE_Hunter_CyclicRepeatingBlaster</string>
+            <string>K_Imperial_Reborn_TIE_Hunter_Launcher</string>
+            <string>K_Imperial_Reborn_TIE_Hunter_WingCannon_A</string>
+            <string>K_Imperial_Reborn_TIE_Interceptor_WingTipA</string>
+            <string>K_Imperial_Reborn_TIE_Interceptor_WingTipB</string>
+            <string>K_Imperial_Reborn_TIE_Oppressor_HeavyBay</string>
+            <string>K_Imperial_Reborn_TIE_Oppressor_HeavyLauncher</string>
+            <string>K_NewRepublic_XWing_70_Weaponry_Wing_A</string>
+            <string>K_NewRepublic_XWing_70_Weaponry_Wing_B</string>
+            <string>K_NewRepublic_XWing_70_ProtonTorpedoLauncher</string>
+            <string>K_NewRepublic_XWing_XJ5_Weaponry_Wing_A</string>
+            <string>K_NewRepublic_XWing_XJ5_Weaponry_Wing_B</string>
+            <string>K_NewRepublic_XWing_XJ5_ProtonTorpedoLauncher</string>
+            <string>K_NewRepublic_YWing_LaserCannon</string>
+            <string>K_NewRepublic_YWing_BombBay</string>
+            <string>K_NewRepublic_YWing_IonTurret</string>
+            <string>K_NewRepublic_YWing_TorpedoLauncher</string>
+            <string>K_NewRepublic_YWing_YWing_LaserTurret</string>
+            <string>K_NewRepublic_Turrets_Light_NanoMissileTurret</string>
+            <string>K_NewRepublic_Turrets_Light_ProtectorLaserCannon</string>
+            <string>K_NewRepublic_Turrets_Light_AMS</string>
+            <string>K_NewRepublic_Ionizer_LC</string>
+            <string>K_NewRepublic_Ionizer_IonWingA</string>
+            <string>K_NewRepublic_Ionizer_IonWingB</string>
+            <string>K_NewRepublic_Ionizer_TorpedoLauncher</string>
+            <string>K_NewRepublic_H60_BombBay</string>
+            <string>K_NewRepublic_H60_ProtonLauncher</string>
+            <string>K_NewRepublic_H60_MediumLaserCannon</string>
+            <string>K_NewRepublic_H60_IonCannon</string>
+            <string>K_NewRepublic_EWing_RoofGun</string>
+            <string>K_NewRepublic_EWing_WingGunA</string>
+            <string>K_NewRepublic_EWing_WingGunB</string>
+            <string>K_NewRepublic_EWing_ProtonLauncher</string>
+            <string>K_NewRepublic_AWing_Launcher</string>
+            <string>K_NewRepublic_AWing_LaserCannon</string>
+            <string>K_NewRepublic_AWing_AMS</string> 
+            <string>K_Rebellion_General_LaserCannonTurret</string> 
+            <string>K_Rebellion_General_LIonCannonTurret</string> 
+            <string>K_Rebellion_SentryTower_Turret</string> 
+            <string>K_Rebellion_FM_LaserCannon_01</string> 
+            <string>K_Rebellion_General_PopupTurret_1</string> 
+            <string>K_Rebellion_RZ1_LaserCannon_Stock</string> 
+            <string>K_Rebellion_RZ1_LaserCannon_OverchargeUpgrade</string> 
+            <string>K_Rebellion_RZ1_LaserCannon_TargetingUpgrade</string> 
+            <string>K_Rebellion_RZ1_LaserCannon_SuperchargerUpgrade</string> 
+            <string>K_Rebellion_RZ1_RearLauncher_Flare</string> 
+            <string>K_Rebellion_RZ1_Launcher_Stock</string> 
+            <string>K_Rebellion_RZ1_Launcher_MicroLaunchUpgrade</string> 
+            <string>K_Rebellion_RZ1_Launcher_SpecialistUpgrade</string> 
+            <string>K_Rebellion_RZ1_Launcher_MortarUpgrade</string> 
+            <string>K_Rebellion_RZ1_Nose_Ram</string> 
+            <string>K_Rebellion_RZ1_Nose_Gun</string> 
+            <string>K_Imperial_Broadside_Body_ConcussionLauncher</string>
+            <string>InterdictionSphere</string>
+            <string>K_Imperial_PatrolCraft_TorpLauncher</string> 
+            <string>K_NewRepublic_YWing_LaserTurret</string>            
         </ItemIds>
     </Category>
+
 
   </CategoryClasses>
 </Definitions>

@@ -64,13 +64,13 @@
 	
 
 	<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Imperial_A9Interceptor_Weaponry</SubtypeId>
       </Id>
-      <DisplayName>Civilian A9 Weapon-Array</DisplayName>
-	   <Description>Standard TIE Armament of twin L-s1 laser cannons. Fires a volley of 15 rounds per reload cycle.</Description>
+      <DisplayName>. A9 Laser-Cannon</DisplayName>
+	   <Description>Laser-Cannon</Description>
      <Icon>Textures\GUI\Icons\Ships\A9\A9.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>

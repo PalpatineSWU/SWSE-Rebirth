@@ -73,16 +73,13 @@
     </Definition>
 	
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition"> <!-- Body Weaponry Launchers -->
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Imperial_Reborn_TIE_Defender_BodyWeaponry</SubtypeId>
       </Id>
-      <DisplayName>TIE Defender Launchers (HQ)</DisplayName>
-	   <Description>Standard Defender Armament of Twin Launch Tubes, built into the frame.
-	   Ammunitions: Concussion, Advanced Proton Torpedo, Ion-Torpedo, Magpulse, I-Flare, Interdiction, MIRV
-	   Salvo: 4
-	   Range: 3km</Description>
+      <DisplayName>. TIE Defender Laser-Cannon (HQ)</DisplayName>
+	   <Description>Laser</Description>
       <Icon>Textures\GUI\Icons\Ships\TIERebornDefender\RebornDef.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -409,16 +406,13 @@
     </Definition>
 	
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition"> <!-- Wing Top Weaponry -->
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Imperial_Reborn_TIE_Defender_Wing_Top_Weaponry</SubtypeId>
       </Id>
-      <DisplayName>TIE Defender Wing Top Weaponry (HQ)</DisplayName>
-	   <Description>Standard Defender Armament of Wing Weaponry, built into the forward frame.
-	   Systems: Ion Cannon(2), Laser Cannon (2)
-	   Salvo: 4, 3
-	   Range: 300m, Fall-Off 150</Description>
+      <DisplayName>. TIE Defender Top Laser-Cannon (HQ)</DisplayName>
+	   <Description>Laser</Description>
       <Icon>Textures\GUI\Icons\Ships\TIERebornDefender\RebornDef.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -512,16 +506,13 @@
     </Definition>
 
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition"> <!-- Wing Right Weaponry -->
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Imperial_Reborn_TIE_Defender_Wing_Right_Weaponry</SubtypeId>
       </Id>
-      <DisplayName>TIE Defender Wing Right Weaponry (HQ)</DisplayName>
-	    <Description>Standard Defender Armament of Wing Weaponry, built into the forward frame.
-	   Systems: Laser Cannon (4)
-	   Salvo: 3(2x), 3
-	   Range: 300m, Fall-Off 150</Description>
+      <DisplayName>. TIE Defender Right Wing Laser-Cannon (HQ)</DisplayName>
+	    <Description>Laser</Description>
       <Icon>Textures\GUI\Icons\Ships\TIERebornDefender\RebornDef.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -616,16 +607,13 @@
     </Definition>
 	
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition"> <!-- Wing Left Weaponry -->
-		<Public>false</Public>
+		<Public>true</Public>
 		  <Id>
 			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Imperial_Reborn_TIE_Defender_Wing_Left_Weaponry</SubtypeId>
       </Id>
-      <DisplayName>TIE Defender Wing Left Weaponry (HQ)</DisplayName>
-	    <Description>Standard Defender Armament of Wing Weaponry, built into the forward frame.
-	   Systems: Laser Cannon (4)
-	   Salvo: 3(2x), 3
-	   Range: 300m, Fall-Off 150</Description>
+      <DisplayName>. TIE Defender Left Wing Laser-Cannon (HQ)</DisplayName>
+	    <Description>Laser-Cannon</Description>
       <Icon>Textures\GUI\Icons\Ships\TIERebornDefender\RebornDef.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>

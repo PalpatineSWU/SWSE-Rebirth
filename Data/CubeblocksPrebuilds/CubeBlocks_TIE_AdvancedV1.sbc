@@ -150,7 +150,7 @@
     </Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
-      <Public>true</Public>
+      <Public>false</Public>
       <Id>
         <TypeId>SmallMissileLauncher</TypeId>
         <SubtypeId>K_TIE_AdvancedV1_Weaponry</SubtypeId>

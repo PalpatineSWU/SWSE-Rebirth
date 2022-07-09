@@ -148,14 +148,13 @@
 	  	      </Definition>
 	
 
-	 <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
-    <Public>false</Public>
-      <Id>
-        <TypeId>SmallMissileLauncher</TypeId>
+	<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+				  <Id>
+			<TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_TIE_Fighter_Weaponry</SubtypeId>
       </Id>
-      <DisplayName>TIE Weapon-System</DisplayName>
-	   <Description>Standard TIE Armament of twin L-s1 laser cannons. Fires a volley of 15 rounds per reload cycle.</Description>
+      <DisplayName>. TIE Laser-Cannon</DisplayName>
+	   <Description>Laser</Description>
       <Icon>Textures\GUI\Icons\Ships\TIE\Tie.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>false</GuiVisible>
@@ -681,7 +680,7 @@
         <TypeId>MyProgrammableBlock</TypeId>
         <SubtypeId>K_TIE_Fighter_PB</SubtypeId>
       </Id>
-      <DisplayName>TIE Programming Unit</DisplayName>
+      <DisplayName>TIE Programable Block</DisplayName>
 	   <Description>Programming Block, to allow scripting on the TIE. Install in any section of the TIE.</Description>
       <Icon>Textures\GUI\Icons\Ships\TIE\TieProg.dds</Icon>
       <CubeSize>Small</CubeSize>

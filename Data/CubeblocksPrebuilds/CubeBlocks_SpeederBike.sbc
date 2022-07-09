@@ -540,9 +540,9 @@
 			<TypeId>ConveyorSorter</TypeId>
       <SubtypeId>K_Imperial_SpeederBike_Weaponry</SubtypeId>
       </Id>
-      <DisplayName>Speederbike Weaponry</DisplayName>
+      <DisplayName>. Speederbike Laser-Cannon</DisplayName>
       <Icon>Textures\GUI\Icons\Ships\Speederbike\Speeder.dds</Icon>
-	  <Description>NON FUNCTIONAL SpeederBike laser-cannon array, slow firing and inaccurate.</Description>
+	  <Description>laser-cannon</Description>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>

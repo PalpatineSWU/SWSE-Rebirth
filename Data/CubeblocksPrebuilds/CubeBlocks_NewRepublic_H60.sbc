@@ -397,18 +397,13 @@
 	
 	
 	<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
-      <Public>false</Public>
+      <Public>true</Public>
       <Id>
         <TypeId>LargeMissileTurret</TypeId>
            <SubtypeId>K_NewRepublic_H60_BombBay</SubtypeId>
       </Id>
-      <DisplayName>New Republic H-60 Bomb-Bay (Proton-Bomb)</DisplayName>
-	   <Description>New Republic H-60 Tempest Bomb-Bay.
-Limit: 1
-Weapon: Proton-Bomb
-Salvo: 6
-Range: 1200-3000
-</Description>
+      <DisplayName>. New Republic H-60 Flare-Launcher</DisplayName>
+	   <Description>Flare Launcher</Description>
        <Icon>Textures\GUI\Icons\Ships\Tempest\H60.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -473,7 +468,7 @@ Range: 1200-3000
 	  
 	  
 	  <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
-      <Public>false</Public>
+      <Public>true</Public>
       <Id>
         <TypeId>LargeMissileTurret</TypeId>
            <SubtypeId>K_NewRepublic_H60_ProtonLauncher</SubtypeId>
@@ -549,17 +544,13 @@ Range: 1200</Description>
 	  </Definition>
 	  
 	  <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
-      <Public>false</Public>
+      <Public>true</Public>
       <Id>
         <TypeId>LargeMissileTurret</TypeId>
            <SubtypeId>K_NewRepublic_H60_IonCannon</SubtypeId>
       </Id>
-      <DisplayName>New Republic H-60 Ion-Cannon Turret</DisplayName>
-	   <Description>New Republic H-60 Tempest Ion-Cannon, with full firing arc.
-	   Limit: 4
-Weapon: Ion-Cannon
-Salvo: 1
-Range: 700</Description>
+      <DisplayName>. New Republic H-60 Ion-Cannon Turret</DisplayName>
+	   <Description>Ion-Cannon</Description>
        <Icon>Textures\GUI\Icons\Ships\Tempest\H60.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
@@ -626,17 +617,13 @@ Range: 700</Description>
 	  
 	  
 	  <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
-      <Public>false</Public>
+      <Public>true</Public>
       <Id>
         <TypeId>LargeMissileTurret</TypeId>
            <SubtypeId>K_NewRepublic_H60_MediumLaserCannon</SubtypeId>
       </Id>
-      <DisplayName>New Republic H-60 Medium-Laser Cannon Turret</DisplayName>
-	   <Description>New Republic Medium-Caliber Laser-Cannon for the H-60 Tempest, Limited Elevation Control.
-Limit: 4
-Weapon: Medium Laser-Cannon
-Salvo: 4
-Range: 450</Description>
+      <DisplayName>. New Republic H-60 Laser-Cannon</DisplayName>
+	   <Description>Laser</Description>
        <Icon>Textures\GUI\Icons\Ships\Tempest\H60.dds</Icon>
       <CubeSize>Small</CubeSize>
 	  <GuiVisible>true</GuiVisible>
