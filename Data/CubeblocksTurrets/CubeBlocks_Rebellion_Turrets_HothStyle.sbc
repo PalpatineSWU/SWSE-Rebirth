@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <CubeBlocks>
+
+		 <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+      <Public>false</Public>
+      <Id>
+        <TypeId>LargeMissileTurret</TypeId>
+           <SubtypeId>K_Rebellion_Hoth_LaserCannonTurret</SubtypeId>
+      </Id>
+      <DisplayName>Rebellion Kauti Laser-Cannon Emplacement (Hoth)</DisplayName>
+	   <Description>Armored Laser-Cannon Turret, of Rebellion construction using Kauti-Cell styling.</Description>
+       <Icon>Textures\GUI\Icons\Cubes\missile_turret.dds</Icon>
+      <CubeSize>Large</CubeSize>
+	  <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Turrets\Rebellion_Turret_HothLaserCannon_Large.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+              <Component Subtype="LightweightDurasteel" Count="6" />
+			<Component Subtype="StandardPowerCell" Count="3" />
+			<Component Subtype="Blaster_Mechanism" Count="6" />
+		<Component Subtype="Computer" Count="13" />
+		<Component Subtype="ImperialConstruction" Count="33" />
+		 <Component Subtype="LightweightDurasteel" Count="33" />
+      </Components>
+		      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+	      </MountPoints>
+        <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>K_Rebellion_Hoth_LaserCannonTurret</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+       <OverlayTexture>Textures\GUI\Screens\K_Imperial_Overlay_Turret_1_A.dds</OverlayTexture>
+      <WeaponDefinitionId Subtype="K_REB_Gun" />
+      <InventoryMaxVolume>0.384</InventoryMaxVolume>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <MinElevationDegrees>-15</MinElevationDegrees>
+      <MaxElevationDegrees>75</MaxElevationDegrees>
+      <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+      <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+      <IdleRotation>false</IdleRotation>
+	  <AiEnabled>false</AiEnabled>
+      <MaxRangeMeters>1200</MaxRangeMeters>
+      <RotationSpeed>0.0005</RotationSpeed>
+      <ElevationSpeed>0.0002 </ElevationSpeed>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <MinFov>0.1</MinFov>
+      <MaxFov>1.04719755</MaxFov>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+	  </Definition>
+	
+	
+	
+  </CubeBlocks>
+</Definitions>

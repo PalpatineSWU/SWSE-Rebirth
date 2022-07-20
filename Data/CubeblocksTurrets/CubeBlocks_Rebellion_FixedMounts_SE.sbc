@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <CubeBlocks>
+ 
+	<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition"> <!-- Laser Cannon Light -->
+		<Public>false</Public>
+		  <Id>
+			<TypeId>ConveyorSorter</TypeId>
+        <SubtypeId>K_Rebellion_FM_LaserCannon_01</SubtypeId>
+      </Id>
+   <DisplayName>Rebellion Laser-Cannon</DisplayName>
+	   <Description>Rebellion Light Laser Cannon, in a slant-mounting.
+Weapon: Light Laser-Cannon
+Cycle: 1.3 Seconds
+Range: 300</Description>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <CubeSize>Small</CubeSize>
+	  <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+       <IsStandAlone>true</IsStandAlone>
+      <Size x="1" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+	  <Model>Models\Rebellion\FixedMount\K_REB_SG_LaserCannon_Small.mwm</Model>
+       <Components>
+        <Component Subtype="LightweightDurasteel" Count="7" />
+		 	<Component Subtype="StandardPowerCell" Count="2" />
+			<Component Subtype="Blaster_Mechanism" Count="2" />
+			<Component Subtype="Computer" Count="3" />
+			<Component Subtype="LightweightDurasteel" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>K_Rebellion_FM_LaserCannon_01</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>11</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+	   <WeaponDefinitionId Subtype="K_REB_Gun" />
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <InventoryMaxVolume>1</InventoryMaxVolume>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_SW_Explosion_Generic</DestroySound>
+	   <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
+	    <MinElevationDegrees>-15</MinElevationDegrees>
+      <MaxElevationDegrees>75</MaxElevationDegrees>
+      <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+      <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+      <IdleRotation>false</IdleRotation>
+	  <AiEnabled>false</AiEnabled>
+      <MaxRangeMeters>3000</MaxRangeMeters>
+      <RotationSpeed>0.0005</RotationSpeed>
+      <ElevationSpeed>0.0002 </ElevationSpeed>
+      <MinFov>0.1</MinFov>
+      <MaxFov>1.04719755</MaxFov>
+    </Definition>
+			
+
+	
+  </CubeBlocks>
+</Definitions>

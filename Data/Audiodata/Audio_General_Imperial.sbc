@@ -895,7 +895,7 @@
 	  <Loopable>false</Loopable>
       <Waves>
         <Wave Type="D3">
-          <Start>Audio\LaserCannon\mixkit-powerful-air-whooshes-3220.wav</Start>
+          <Start>Audio\Destruction\ConnectorSeal_A.wav</Start>
         </Wave>
 		        </Waves>
     </Sound>

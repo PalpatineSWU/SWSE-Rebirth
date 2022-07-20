@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <CubeBlocks>
+
+      <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+			<TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>TestBlock_1</SubtypeId>
+      </Id>
+      <DisplayName>TestBlock 1</DisplayName>
+      <Model>Models\Ammo\K_ConcussionMissile_A_Small.mwm</Model>
+          <Icon>Textures\GUI\Icons\TIE_Interceptor.dds</Icon>
+          <CubeSize>Small</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Components>
+            <Component Subtype="DuraSteel" Count="20" />
+          </Components>
+          <CriticalComponent Subtype="DuraSteel" Index="0" />
+          <BlockPairName>TestBlock_1</BlockPairName>
+          <EdgeType>Light</EdgeType>
+          <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+          <DamagedSound>ParticleWeapExpl</DamagedSound>
+          <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+          <DestroySound>WepSmallWarheadExpl</DestroySound>
+	        <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
+          </Definition>
+
+      <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+			<TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>TestBlock_2</SubtypeId>
+      </Id>
+      <DisplayName>TestBlock 2</DisplayName>
+      <Model>Models\Ammo\K_ConcussionMissile_New_Small.mwm</Model>
+          <Icon>Textures\GUI\Icons\TIE_Interceptor.dds</Icon>
+          <CubeSize>Small</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Components>
+            <Component Subtype="DuraSteel" Count="20" />
+          </Components>
+          <CriticalComponent Subtype="DuraSteel" Index="0" />
+          <BlockPairName>TestBlock_2</BlockPairName>
+          <EdgeType>Light</EdgeType>
+          <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+          <DamagedSound>ParticleWeapExpl</DamagedSound>
+          <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+          <DestroySound>WepSmallWarheadExpl</DestroySound>
+	        <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
+          </Definition>
+
+      <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+			<TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>TestBlock_3</SubtypeId>
+      </Id>
+      <DisplayName>TestBlock 3</DisplayName>
+      <Model>Models\Ammo\K_Imperial_Missile_A_Small.mwm</Model>
+          <Icon>Textures\GUI\Icons\TIE_Interceptor.dds</Icon>
+          <CubeSize>Small</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Components>
+            <Component Subtype="DuraSteel" Count="20" />
+          </Components>
+          <CriticalComponent Subtype="DuraSteel" Index="0" />
+          <BlockPairName>TestBlock_3</BlockPairName>
+          <EdgeType>Light</EdgeType>
+          <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+          <DamagedSound>ParticleWeapExpl</DamagedSound>
+          <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+          <DestroySound>WepSmallWarheadExpl</DestroySound>
+	        <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
+          </Definition>
+
+      <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+			<TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>TestBlock_4</SubtypeId>
+      </Id>
+      <DisplayName>TestBlock 4</DisplayName>
+      <Model>Models\Ammo\K_Imperial_Missile_B_Flare_Small.mwm</Model>
+          <Icon>Textures\GUI\Icons\TIE_Interceptor.dds</Icon>
+          <CubeSize>Small</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Components>
+            <Component Subtype="DuraSteel" Count="20" />
+          </Components>
+          <CriticalComponent Subtype="DuraSteel" Index="0" />
+          <BlockPairName>TestBlock_4</BlockPairName>
+          <EdgeType>Light</EdgeType>
+          <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+          <DamagedSound>ParticleWeapExpl</DamagedSound>
+          <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+          <DestroySound>WepSmallWarheadExpl</DestroySound>
+	        <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
+          </Definition>
+
+      <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+			<TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>TestBlock_5</SubtypeId>
+      </Id>
+      <DisplayName>TestBlock 5</DisplayName>
+      <Model>Models\Ammo\K_Imperial_Missile_C_Sharp_Small.mwm</Model>
+          <Icon>Textures\GUI\Icons\TIE_Interceptor.dds</Icon>
+          <CubeSize>Small</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Components>
+            <Component Subtype="DuraSteel" Count="20" />
+          </Components>
+          <CriticalComponent Subtype="DuraSteel" Index="0" />
+          <BlockPairName>TestBlock_5</BlockPairName>
+          <EdgeType>Light</EdgeType>
+          <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+          <DamagedSound>ParticleWeapExpl</DamagedSound>
+          <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+          <DestroySound>WepSmallWarheadExpl</DestroySound>
+	        <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
+          </Definition>
+
+      <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+			<TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>TestBlock_6</SubtypeId>
+      </Id>
+      <DisplayName>TestBlock 6</DisplayName>
+      <Model>Models\Ammo\K_Imperial_Missile_D_Assault_Small.mwm</Model>
+          <Icon>Textures\GUI\Icons\TIE_Interceptor.dds</Icon>
+          <CubeSize>Small</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Components>
+            <Component Subtype="DuraSteel" Count="20" />
+          </Components>
+          <CriticalComponent Subtype="DuraSteel" Index="0" />
+          <BlockPairName>TestBlock_6</BlockPairName>
+          <EdgeType>Light</EdgeType>
+          <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+          <DamagedSound>ParticleWeapExpl</DamagedSound>
+          <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+          <DestroySound>WepSmallWarheadExpl</DestroySound>
+	        <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
+          </Definition>
+
+      <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+			<TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>TestBlock_7</SubtypeId>
+      </Id>
+      <DisplayName>TestBlock 7</DisplayName>
+      <Model>Models\Ammo\K_Imperial_Torp_Small.mwm</Model>
+          <Icon>Textures\GUI\Icons\TIE_Interceptor.dds</Icon>
+          <CubeSize>Small</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Components>
+            <Component Subtype="DuraSteel" Count="20" />
+          </Components>
+          <CriticalComponent Subtype="DuraSteel" Index="0" />
+          <BlockPairName>TestBlock_7</BlockPairName>
+          <EdgeType>Light</EdgeType>
+          <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+          <DamagedSound>ParticleWeapExpl</DamagedSound>
+          <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+          <DestroySound>WepSmallWarheadExpl</DestroySound>
+	        <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
+          </Definition>
+
+      <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+			<TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>TestBlock_8</SubtypeId>
+      </Id>
+      <DisplayName>TestBlock 8</DisplayName>
+      <Model>Models\Ammo\K_Pirate_Slug_Large.mwm</Model>
+          <Icon>Textures\GUI\Icons\TIE_Interceptor.dds</Icon>
+          <CubeSize>Small</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Components>
+            <Component Subtype="DuraSteel" Count="20" />
+          </Components>
+          <CriticalComponent Subtype="DuraSteel" Index="0" />
+          <BlockPairName>TestBlock_8</BlockPairName>
+          <EdgeType>Light</EdgeType>
+          <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+          <DamagedSound>ParticleWeapExpl</DamagedSound>
+          <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+          <DestroySound>WepSmallWarheadExpl</DestroySound>
+	        <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
+          </Definition>
+
+      <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+			<TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>TestBlock_9</SubtypeId>
+      </Id>
+      <DisplayName>TestBlock 9</DisplayName>
+      <Model>Models\Ammo\K_TIE_Bomber_Bomb_Small.mwm</Model>
+          <Icon>Textures\GUI\Icons\TIE_Interceptor.dds</Icon>
+          <CubeSize>Small</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Components>
+            <Component Subtype="DuraSteel" Count="20" />
+          </Components>
+          <CriticalComponent Subtype="DuraSteel" Index="0" />
+          <BlockPairName>TestBlock_9</BlockPairName>
+          <EdgeType>Light</EdgeType>
+          <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+          <DamagedSound>ParticleWeapExpl</DamagedSound>
+          <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+          <DestroySound>WepSmallWarheadExpl</DestroySound>
+	        <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
+          </Definition>
+
+      <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+			<TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>TestBlock_10</SubtypeId>
+      </Id>
+      <DisplayName>TestBlock 10</DisplayName>
+      <Model>Models\Ammo\LG - Assault Concussion Missile.mwm</Model>
+          <Icon>Textures\GUI\Icons\TIE_Interceptor.dds</Icon>
+          <CubeSize>Small</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Components>
+            <Component Subtype="DuraSteel" Count="20" />
+          </Components>
+          <CriticalComponent Subtype="DuraSteel" Index="0" />
+          <BlockPairName>TestBlock_10</BlockPairName>
+          <EdgeType>Light</EdgeType>
+          <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+          <DamagedSound>ParticleWeapExpl</DamagedSound>
+          <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+          <DestroySound>WepSmallWarheadExpl</DestroySound>
+	        <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
+          </Definition>
+
+      <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+			<TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>TestBlock_11</SubtypeId>
+      </Id>
+      <DisplayName>TestBlock 11</DisplayName>
+      <Model>Models\Ammo\LG - Heavy Concussion Missile.mwm</Model>
+          <Icon>Textures\GUI\Icons\TIE_Interceptor.dds</Icon>
+          <CubeSize>Small</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Components>
+            <Component Subtype="DuraSteel" Count="20" />
+          </Components>
+          <CriticalComponent Subtype="DuraSteel" Index="0" />
+          <BlockPairName>TestBlock_11</BlockPairName>
+          <EdgeType>Light</EdgeType>
+          <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+          <DamagedSound>ParticleWeapExpl</DamagedSound>
+          <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+          <DestroySound>WepSmallWarheadExpl</DestroySound>
+	        <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
+          </Definition>
+
+      <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+			<TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>TestBlock_12</SubtypeId>
+      </Id>
+      <DisplayName>TestBlock 12</DisplayName>
+      <Model>Models\Ammo\LG - Medium Concussion Missile.mwm</Model>
+          <Icon>Textures\GUI\Icons\TIE_Interceptor.dds</Icon>
+          <CubeSize>Small</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Components>
+            <Component Subtype="DuraSteel" Count="20" />
+          </Components>
+          <CriticalComponent Subtype="DuraSteel" Index="0" />
+          <BlockPairName>TestBlock_12</BlockPairName>
+          <EdgeType>Light</EdgeType>
+          <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+          <DamagedSound>ParticleWeapExpl</DamagedSound>
+          <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+          <DestroySound>WepSmallWarheadExpl</DestroySound>
+	        <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
+          </Definition>
+
+      <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+			<TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>TestBlock_13</SubtypeId>
+      </Id>
+      <DisplayName>TestBlock 13</DisplayName>
+      <Model>Models\Ammo\LG - Proton Torpedo.mwm</Model>
+          <Icon>Textures\GUI\Icons\TIE_Interceptor.dds</Icon>
+          <CubeSize>Small</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Components>
+            <Component Subtype="DuraSteel" Count="20" />
+          </Components>
+          <CriticalComponent Subtype="DuraSteel" Index="0" />
+          <BlockPairName>TestBlock_13</BlockPairName>
+          <EdgeType>Light</EdgeType>
+          <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+          <DamagedSound>ParticleWeapExpl</DamagedSound>
+          <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+          <DestroySound>WepSmallWarheadExpl</DestroySound>
+	        <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
+          </Definition>
+
+      <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+			<TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>TestBlock_14</SubtypeId>
+      </Id>
+      <DisplayName>TestBlock 14</DisplayName>
+      <Model>Models\Ammo\MacroShell_Small.mwm</Model>
+          <Icon>Textures\GUI\Icons\TIE_Interceptor.dds</Icon>
+          <CubeSize>Small</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Components>
+            <Component Subtype="DuraSteel" Count="20" />
+          </Components>
+          <CriticalComponent Subtype="DuraSteel" Index="0" />
+          <BlockPairName>TestBlock_14</BlockPairName>
+          <EdgeType>Light</EdgeType>
+          <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+          <DamagedSound>ParticleWeapExpl</DamagedSound>
+          <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+          <DestroySound>WepSmallWarheadExpl</DestroySound>
+	        <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
+          </Definition>
+
+      <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+			<TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>TestBlock_15</SubtypeId>
+      </Id>
+      <DisplayName>TestBlock 15</DisplayName>
+      <Model>Models\Ammo\MissileProjectile_Small.mwm</Model>
+          <Icon>Textures\GUI\Icons\TIE_Interceptor.dds</Icon>
+          <CubeSize>Small</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Components>
+            <Component Subtype="DuraSteel" Count="20" />
+          </Components>
+          <CriticalComponent Subtype="DuraSteel" Index="0" />
+          <BlockPairName>TestBlock_15</BlockPairName>
+          <EdgeType>Light</EdgeType>
+          <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+          <DamagedSound>ParticleWeapExpl</DamagedSound>
+          <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+          <DestroySound>WepSmallWarheadExpl</DestroySound>
+	        <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
+          </Definition>
+
+      <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+			<TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>TestBlock_16</SubtypeId>
+      </Id>
+      <DisplayName>TestBlock 16</DisplayName>
+      <Model>Models\Ammo\Projectile_Missile.mwm</Model>
+          <Icon>Textures\GUI\Icons\TIE_Interceptor.dds</Icon>
+          <CubeSize>Small</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Components>
+            <Component Subtype="DuraSteel" Count="20" />
+          </Components>
+          <CriticalComponent Subtype="DuraSteel" Index="0" />
+          <BlockPairName>TestBlock_16</BlockPairName>
+          <EdgeType>Light</EdgeType>
+          <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+          <DamagedSound>ParticleWeapExpl</DamagedSound>
+          <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+          <DestroySound>WepSmallWarheadExpl</DestroySound>
+	        <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
+          </Definition>
+
+      <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+			<TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>TestBlock_17</SubtypeId>
+      </Id>
+      <DisplayName>TestBlock 17</DisplayName>
+      <Model>Models\Ammo\SG - Heavy Concussion Missile.mwm</Model>
+          <Icon>Textures\GUI\Icons\TIE_Interceptor.dds</Icon>
+          <CubeSize>Small</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Components>
+            <Component Subtype="DuraSteel" Count="20" />
+          </Components>
+          <CriticalComponent Subtype="DuraSteel" Index="0" />
+          <BlockPairName>TestBlock_17</BlockPairName>
+          <EdgeType>Light</EdgeType>
+          <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+          <DamagedSound>ParticleWeapExpl</DamagedSound>
+          <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+          <DestroySound>WepSmallWarheadExpl</DestroySound>
+	        <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
+          </Definition>
+
+      <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+			<TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>TestBlock_18</SubtypeId>
+      </Id>
+      <DisplayName>TestBlock 18</DisplayName>
+      <Model>Models\Ammo\SG - Heavy Torpedo.mwm</Model>
+          <Icon>Textures\GUI\Icons\TIE_Interceptor.dds</Icon>
+          <CubeSize>Small</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Components>
+            <Component Subtype="DuraSteel" Count="20" />
+          </Components>
+          <CriticalComponent Subtype="DuraSteel" Index="0" />
+          <BlockPairName>TestBlock_18</BlockPairName>
+          <EdgeType>Light</EdgeType>
+          <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+          <DamagedSound>ParticleWeapExpl</DamagedSound>
+          <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+          <DestroySound>WepSmallWarheadExpl</DestroySound>
+	        <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
+          </Definition>
+
+      <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+			<TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>TestBlock_19</SubtypeId>
+      </Id>
+      <DisplayName>TestBlock 19</DisplayName>
+      <Model>Models\Ammo\SG - Light Concussion Missile.mwm</Model>
+          <Icon>Textures\GUI\Icons\TIE_Interceptor.dds</Icon>
+          <CubeSize>Small</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Components>
+            <Component Subtype="DuraSteel" Count="20" />
+          </Components>
+          <CriticalComponent Subtype="DuraSteel" Index="0" />
+          <BlockPairName>TestBlock_19</BlockPairName>
+          <EdgeType>Light</EdgeType>
+          <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+          <DamagedSound>ParticleWeapExpl</DamagedSound>
+          <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+          <DestroySound>WepSmallWarheadExpl</DestroySound>
+	        <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
+          </Definition>
+
+      <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+			<TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>TestBlock_20</SubtypeId>
+      </Id>
+      <DisplayName>TestBlock 20</DisplayName>
+      <Model>Models\Ammo\SG - Medium Concussion Missile.mwm</Model>
+          <Icon>Textures\GUI\Icons\TIE_Interceptor.dds</Icon>
+          <CubeSize>Small</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Components>
+            <Component Subtype="DuraSteel" Count="20" />
+          </Components>
+          <CriticalComponent Subtype="DuraSteel" Index="0" />
+          <BlockPairName>TestBlock_20</BlockPairName>
+          <EdgeType>Light</EdgeType>
+          <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+          <DamagedSound>ParticleWeapExpl</DamagedSound>
+          <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+          <DestroySound>WepSmallWarheadExpl</DestroySound>
+	        <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
+          </Definition>
+
+      <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+			<TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>TestBlock_21</SubtypeId>
+      </Id>
+      <DisplayName>TestBlock 21</DisplayName>
+      <Model>Models\Ammo\SG - Proton Torpedo.mwm</Model>
+          <Icon>Textures\GUI\Icons\TIE_Interceptor.dds</Icon>
+          <CubeSize>Small</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Components>
+            <Component Subtype="DuraSteel" Count="20" />
+          </Components>
+          <CriticalComponent Subtype="DuraSteel" Index="0" />
+          <BlockPairName>TestBlock_21</BlockPairName>
+          <EdgeType>Light</EdgeType>
+          <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+          <DamagedSound>ParticleWeapExpl</DamagedSound>
+          <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+          <DestroySound>WepSmallWarheadExpl</DestroySound>
+	        <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
+          </Definition>
+
+      <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+			<TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>TestBlock_22</SubtypeId>
+      </Id>
+      <DisplayName>TestBlock 22</DisplayName>
+      <Model>Models\Ammo\SG - Seeker Missile.mwm</Model>
+          <Icon>Textures\GUI\Icons\TIE_Interceptor.dds</Icon>
+          <CubeSize>Small</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Components>
+            <Component Subtype="DuraSteel" Count="20" />
+          </Components>
+          <CriticalComponent Subtype="DuraSteel" Index="0" />
+          <BlockPairName>TestBlock_22</BlockPairName>
+          <EdgeType>Light</EdgeType>
+          <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+          <DamagedSound>ParticleWeapExpl</DamagedSound>
+          <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+          <DestroySound>WepSmallWarheadExpl</DestroySound>
+	        <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
+          </Definition>
+
+      <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+			<TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>TestBlock_23</SubtypeId>
+      </Id>
+      <DisplayName>TestBlock 23</DisplayName>
+      <Model>Models\Ammo\SG - Seismic-Bomb.mwm</Model>
+          <Icon>Textures\GUI\Icons\TIE_Interceptor.dds</Icon>
+          <CubeSize>Small</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Components>
+            <Component Subtype="DuraSteel" Count="20" />
+          </Components>
+          <CriticalComponent Subtype="DuraSteel" Index="0" />
+          <BlockPairName>TestBlock_23</BlockPairName>
+          <EdgeType>Light</EdgeType>
+          <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+          <DamagedSound>ParticleWeapExpl</DamagedSound>
+          <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+          <DestroySound>WepSmallWarheadExpl</DestroySound>
+	        <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
+          </Definition>
+
+      <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+			<TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>TestBlock_24</SubtypeId>
+      </Id>
+      <DisplayName>TestBlock 24</DisplayName>
+      <Model>Models\Ammo\SG - Space Bomb.mwm</Model>
+          <Icon>Textures\GUI\Icons\TIE_Interceptor.dds</Icon>
+          <CubeSize>Small</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Components>
+            <Component Subtype="DuraSteel" Count="20" />
+          </Components>
+          <CriticalComponent Subtype="DuraSteel" Index="0" />
+          <BlockPairName>TestBlock_24</BlockPairName>
+          <EdgeType>Light</EdgeType>
+          <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+          <DamagedSound>ParticleWeapExpl</DamagedSound>
+          <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+          <DestroySound>WepSmallWarheadExpl</DestroySound>
+	        <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
+          </Definition>
+
+   </CubeBlocks>
+</Definitions>
