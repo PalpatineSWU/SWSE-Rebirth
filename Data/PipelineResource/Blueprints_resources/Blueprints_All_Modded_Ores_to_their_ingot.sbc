@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+
+    <!--Basic Resources-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Durasteel</SubtypeId>
+      </Id>
+      <DisplayName>Durasteel Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_DuraSteel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Ore" SubtypeId="Dooninum" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="DuraSteel_Ingot" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Carbonite</SubtypeId>
+      </Id>
+      <DisplayName>Carbonite</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="15" TypeId="Ore" SubtypeId="Carbonite" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Carbonite" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Alum</SubtypeId>
+      </Id>
+      <DisplayName>Alum</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Alum" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Alum" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Exonium</SubtypeId>
+      </Id>
+      <DisplayName>Exonium</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Exonium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Exonium" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Norax</SubtypeId>
+      </Id>
+      <DisplayName>Norax</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Norax" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Norax" />
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Lommite</SubtypeId>
+      </Id>
+      <DisplayName>Lommite</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="35" TypeId="Ore" SubtypeId="Lommite" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Lommite" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <!--Basic Resources-->
+
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Crystal_Guerrerite</SubtypeId>
+      </Id>
+      <DisplayName>Guerrerite</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="45" TypeId="Ore" SubtypeId="Guerrerite" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Guerrerite_Crystal" />
+      <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Rubindum</SubtypeId>
+      </Id>
+      <DisplayName>Rubindum</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Hollinium.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Rubindum" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Rubindum" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Zalfaric</SubtypeId>
+      </Id>
+      <DisplayName>Zalfaric</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Ore" SubtypeId="Zalfaric" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Zalfaric" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Zersium</SubtypeId>
+      </Id>
+      <DisplayName>Zersium</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Ore" SubtypeId="Zersium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Zersium" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <!--Saber Resources-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Lignan-1</SubtypeId>
+      </Id>
+      <DisplayName>Lignan Kyber Crystal</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_DuraSteel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="500" TypeId="Ore" SubtypeId="Lignan" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Lignan" />
+      <BaseProductionTimeInSeconds>5000</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Shraki-1</SubtypeId>
+      </Id>
+      <DisplayName>Shraki Crystal</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_DuraSteel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="500" TypeId="Ore" SubtypeId="Shraki" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Shraki" />
+      <BaseProductionTimeInSeconds>5000</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Hollinium</SubtypeId>
+      </Id>
+      <DisplayName>Hollinium</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Hollinium.dds</Icon>
+      <Prerequisites>
+        <Item Amount="35" TypeId="Ore" SubtypeId="Hollinium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Hollinium" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+  </Blueprints>
+</Definitions>

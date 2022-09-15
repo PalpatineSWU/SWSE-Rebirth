@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <PhysicalItems>
+
+        <PhysicalItem>
+            <Id>
+                <TypeId>PhysicalGunObject</TypeId>
+                <SubtypeId>HandDrillScannerItem</SubtypeId>
+            </Id>
+            <DisplayName>Hand Scanner</DisplayName>
+            <Icon>Textures\Tools\HandScanner.dds</Icon>
+            <Description>A Hand scanner that is used to locate ores.</Description>
+            <Size>
+                <X>1.2</X>
+                <Y>0.6</Y>
+                <Z>0.3</Z>
+            </Size>
+            <Mass>22</Mass>
+            <Volume>25</Volume>
+            <Model>Models\HandScanner\HandScanner.mwm</Model>
+        </PhysicalItem>
+
+        <PhysicalItem>
+            <Id>
+                <TypeId>PhysicalGunObject</TypeId>
+                <SubtypeId>HandDrillSWItem</SubtypeId>
+            </Id>
+            <DisplayName>Laser Drill</DisplayName>
+            <Icon>Textures\Tools\HandDrillSW.dds</Icon>
+            <Description>A standard laser hand drill in use since the old republic.</Description>
+            <Size>
+                <X>1.2</X>
+                <Y>0.6</Y>
+                <Z>0.3</Z>
+            </Size>
+            <Mass>22</Mass>
+            <Volume>25</Volume>
+            <Model>Models\HandDrillSW\HandDrillSW.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <ExtraInventoryTooltipLineId>A highpowered, high yeld ore collecting tool.</ExtraInventoryTooltipLineId>
+            <MinimumOfferAmount>1</MinimumOfferAmount>
+            <MaximumOfferAmount>3</MaximumOfferAmount>
+            <MinimumOrderAmount>5</MinimumOrderAmount>
+            <MaximumOrderAmount>10</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+            <ActionSound>K_Imperial_FactoryWorking</ActionSound>
+        </PhysicalItem>
+
+    </PhysicalItems>
+</Definitions>

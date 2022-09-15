@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>8_Imperial_PowerGen_Basics</SubtypeId>
+      </Id>
+      <DisplayName>Power Converter (low amperage)</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_8.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1.25" TypeId="Ingot" SubtypeId="Norax" />
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Polymer" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="PowerGen_Basics" />
+      <BaseProductionTimeInSeconds>13</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>8_Imperial_PowerConverter</SubtypeId>
+      </Id>
+      <DisplayName>Power Converter (High Amperage)</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_14.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="DuraSteel_Ingot" />
+        <Item Amount="4" TypeId="Ingot" SubtypeId="Norax" />
+        <Item Amount="2" TypeId="Ingot" SubtypeId="Guerrerite_Crystal" />
+        <Item Amount="6" TypeId="Ingot" SubtypeId="Alum" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="PowerConverter" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+  </Blueprints>
+</Definitions>

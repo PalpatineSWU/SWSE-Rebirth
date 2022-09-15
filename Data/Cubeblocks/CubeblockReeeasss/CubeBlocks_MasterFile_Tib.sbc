@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+      <Id>
+        <TypeId>OxygenGenerator</TypeId>
+        <SubtypeId>K_SWMasterFile_TibannaAccumulator</SubtypeId>
+      </Id>
+      <DisplayName>Tibanna Accumulator</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
+      <Description>Tibanna Production Machinery, requires Specific Atmospheric Environments to function:Bonadan</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="3" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\MasterFile\Tibanna\K_TibannaAccumulator_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="60" />
+        <Component Subtype="ImperialConstruction" Count="25" />
+        <Component Subtype="PowerConverter" Count="2" />
+        <Component Subtype="ImperialGeneralParts" Count="15" />
+        <Component Subtype="Computer" Count="15" />
+        <Component Subtype="ImperialConstruction" Count="15" />
+        <Component Subtype="DuraSteel" Count="30" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <IsAirTight>true</IsAirTight>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OxygenGeneratorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenGeneratorConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenGeneratorConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_SWMasterFile_TibannaAccumulator</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>22</BuildTimeSeconds>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <IceConsumptionPerSecond>50</IceConsumptionPerSecond>
+      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>2</OperationalPowerConsumption>
+      <ProducedGases>
+        <GasInfo>
+          <Id>
+            <TypeId>GasProperties</TypeId>
+            <SubtypeId>TibannaGas</SubtypeId>
+          </Id>
+          <IceToGasRatio>10000</IceToGasRatio>
+        </GasInfo>
+      </ProducedGases>
+      <BlueprintClasses>
+      </BlueprintClasses>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <GenerateSound>BlockOxyGenProcess</GenerateSound>
+      <IdleSound>BlockOxyGenIdle</IdleSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <PCU>50</PCU>
+    </Definition>
+    <!-- 
+ 	 <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+      <Id>
+        <TypeId>OxygenGenerator</TypeId>
+        <SubtypeId>K_Imperial_GasMachines_OxygenGenerator</SubtypeId>
+      </Id>
+      <DisplayName>Republic Oxygen-Generator</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
+      <Description> Dedicated Ice-to-Oxygen Conversion equipment, rapidly processes Ice into Oxygen, while bleeding off hydrogen gas.</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="3" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Manufacturing\K_Imperial_Hardware_Gas_Generator_Oxygen_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="110" />
+        <Component Subtype="ImperialConstruction" Count="5" />
+        <Component Subtype="LargeTube" Count="2" />
+        <Component Subtype="Motor" Count="4" />
+        <Component Subtype="Computer" Count="5" />
+        <Component Subtype="DuraSteel" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+        <MountPoint Side="Front" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+        <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" Default="true" />
+        <MountPoint Side="Top" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+        <MountPoint Side="Left" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+        <MountPoint Side="Right" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+      </MountPoints>
+      <IsAirTight>true</IsAirTight>
+      <MirroringY>X</MirroringY>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Manufacturing\K_Imperial_Hardware_Gas_Generator_Oxygen_Large.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Manufacturing\K_Imperial_Hardware_Gas_Generator_Oxygen_Large.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Manufacturing\K_Imperial_Hardware_Gas_Generator_Oxygen_Large.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Imperial_GasMachines_OxygenGenerator</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+            <IceConsumptionPerSecond>25</IceConsumptionPerSecond>
+            <InventoryMaxVolume>4</InventoryMaxVolume>
+            <InventorySize>
+                <X>2</X>
+                <Y>2</Y>
+                <Z>2</Z>
+            </InventorySize>
+
+            <InventoryFillFactorMin>0.3</InventoryFillFactorMin>
+            <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
+
+            <FuelPullAmountFromConveyorInMinutes>2.2</FuelPullAmountFromConveyorInMinutes>
+
+            <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+            <OperationalPowerConsumption>0.5</OperationalPowerConsumption>
+            <ProducedGases>
+                <GasInfo>
+                    <Id>
+                        <TypeId>GasProperties</TypeId>
+                        <SubtypeId>Oxygen</SubtypeId>
+                    </Id>
+                    <IceToGasRatio>10</IceToGasRatio>
+                </GasInfo>
+                <GasInfo>
+                    <Id>
+                        <TypeId>GasProperties</TypeId>
+                        <SubtypeId>Hydrogen</SubtypeId>
+                    </Id>
+                    <IceToGasRatio>20</IceToGasRatio>
+                </GasInfo>
+            </ProducedGases>
+            <BlueprintClasses>
+                <Class>Ice</Class>
+                <Class>OxygenBottles</Class>
+                <Class>HydrogenBottles</Class>
+            </BlueprintClasses>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <GenerateSound>BlockOxyGenProcess</GenerateSound>
+      <IdleSound>BlockOxyGenIdle</IdleSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+      <PCU>50</PCU>      
+    </Definition>
+
+	            -->
+
+
+
+    <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
+      <Id>
+        <TypeId>OxygenTank</TypeId>
+        <SubtypeId>K_Imperial_Gas_Storage_Bubble_Tibanna</SubtypeId>
+      </Id>
+      <DisplayName>Tibanna Sphere Tank</DisplayName>
+      <Icon>Textures\GUI\Icons\Fuelburners\tanksmal.dds</Icon>
+      <Public>true</Public>
+      <GuiVisible>true</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Manufacturing\K_Imperial_HydrogenStorage_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="15" />
+        <Component Subtype="ImperialGeneralParts" Count="35" />
+        <Component Subtype="Computer" Count="3" />
+        <Component Subtype="ImperialConstruction" Count="15" />
+        <Component Subtype="DuraSteel" Count="35" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BlockPairName>K_Imperial_Gas_Storage_Bubble_Tibanna</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
+      <StandbyPowerConsumption>0.000001</StandbyPowerConsumption>
+      <Capacity>500000</Capacity>
+      <InventoryMaxVolume>2</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <StoredGasId>
+        <TypeId>GasProperties</TypeId>
+        <SubtypeId>TibannaGas</SubtypeId>
+      </StoredGasId>
+      <BlueprintClasses>
+        <Class>HydrogenBottles</Class>
+      </BlueprintClasses>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <EmissiveColorPreset>K_Imperial_GasStorage_Hydrogen</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
+      <Id>
+        <TypeId>OxygenTank</TypeId>
+        <SubtypeId>K_Imperial_Gas_Storage_I_L</SubtypeId>
+      </Id>
+      <DisplayName>Republic Gas Tank (Tibanna)</DisplayName>
+      <Icon>Textures\GUI\Icons\Fuelburners\tankmid.dds</Icon>
+      <Public>true</Public>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="5" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Manufacturing\K_Imperial_Hardware_Gas_Storage_I_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="160" />
+        <Component Subtype="ImperialGeneralParts" Count="140" />
+        <Component Subtype="Computer" Count="8" />
+        <Component Subtype="ImperialConstruction" Count="40" />
+        <Component Subtype="DuraSteel" Count="120" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BlockPairName>K_Imperial_Gas_Storage_I_L</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
+      <StandbyPowerConsumption>0.000001</StandbyPowerConsumption>
+      <Capacity>7500000</Capacity>
+      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <StoredGasId>
+        <TypeId>GasProperties</TypeId>
+        <SubtypeId>TibannaGas</SubtypeId>
+      </StoredGasId>
+      <BlueprintClasses>
+      </BlueprintClasses>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <EmissiveColorPreset>K_Imperial_GasStorage_Tibanna</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
+      <Id>
+        <TypeId>OxygenTank</TypeId>
+        <SubtypeId>K_Imperial_Gas_Storage_I_L_Oxygen</SubtypeId>
+      </Id>
+      <DisplayName>Republic Gas Tank (Oxygen)</DisplayName>
+      <Icon>Textures\GUI\Icons\Fuelburners\tankmid.dds</Icon>
+      <Public>true</Public>
+      <GuiVisible>true</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="5" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Manufacturing\K_Imperial_Hardware_Gas_Storage_I_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="160" />
+        <Component Subtype="ImperialGeneralParts" Count="140" />
+        <Component Subtype="Computer" Count="8" />
+        <Component Subtype="ImperialConstruction" Count="40" />
+        <Component Subtype="DuraSteel" Count="120" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BlockPairName>K_Imperial_Gas_Storage_I_L_Oxygen</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
+      <StandbyPowerConsumption>0.000001</StandbyPowerConsumption>
+      <Capacity>7500000</Capacity>
+      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <StoredGasId>
+        <TypeId>GasProperties</TypeId>
+        <SubtypeId>Oxygen</SubtypeId>
+      </StoredGasId>
+      <BlueprintClasses>
+        <Class>OxygenBottles</Class>
+      </BlueprintClasses>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <EmissiveColorPreset>K_Imperial_GasStorage_Oxygen</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
+      <Id>
+        <TypeId>OxygenTank</TypeId>
+        <SubtypeId>K_Imperial_Gas_Storage_Bubble_Oxygen</SubtypeId>
+      </Id>
+      <DisplayName>Oxygen Sphere Tank</DisplayName>
+      <Icon>Textures\GUI\Icons\Fuelburners\tanksmal.dds</Icon>
+      <Public>true</Public>
+      <GuiVisible>true</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Manufacturing\K_Imperial_HydrogenStorage_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="15" />
+        <Component Subtype="ImperialGeneralParts" Count="35" />
+        <Component Subtype="Computer" Count="3" />
+        <Component Subtype="ImperialConstruction" Count="15" />
+        <Component Subtype="DuraSteel" Count="35" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BlockPairName>K_Imperial_Gas_Storage_Bubble_Oxygen</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
+      <StandbyPowerConsumption>0.000001</StandbyPowerConsumption>
+      <Capacity>500000</Capacity>
+      <InventoryMaxVolume>2</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <StoredGasId>
+        <TypeId>GasProperties</TypeId>
+        <SubtypeId>Oxygen</SubtypeId>
+      </StoredGasId>
+      <BlueprintClasses>
+        <Class>OxygenBottles</Class>
+      </BlueprintClasses>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <EmissiveColorPreset>K_Imperial_GasStorage_Hydrogen</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
+      <Id>
+        <TypeId>OxygenTank</TypeId>
+        <SubtypeId>K_Imperial_Gas_Storage_I_L_Hydrogen</SubtypeId>
+      </Id>
+      <DisplayName>Republic Gas Tank (Hydrogen)</DisplayName>
+      <Icon>Textures\GUI\Icons\Fuelburners\tankmid.dds</Icon>
+      <Public>true</Public>
+      <GuiVisible>true</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="5" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Manufacturing\K_Imperial_Hardware_Gas_Storage_I_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="160" />
+        <Component Subtype="ImperialGeneralParts" Count="140" />
+        <Component Subtype="Computer" Count="8" />
+        <Component Subtype="ImperialConstruction" Count="40" />
+        <Component Subtype="DuraSteel" Count="120" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BlockPairName>K_Imperial_Gas_Storage_I_L_Hydrogen</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
+      <StandbyPowerConsumption>0.000001</StandbyPowerConsumption>
+      <Capacity>7500000</Capacity>
+      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <StoredGasId>
+        <TypeId>GasProperties</TypeId>
+        <SubtypeId>Hydrogen</SubtypeId>
+      </StoredGasId>
+      <BlueprintClasses>
+        <Class>HydrogenBottles</Class>
+      </BlueprintClasses>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <EmissiveColorPreset>K_Imperial_GasStorage_Hydrogen</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
+      <Id>
+        <TypeId>OxygenTank</TypeId>
+        <SubtypeId>K_Imperial_Gas_Storage_Bubble_hydrogen</SubtypeId>
+      </Id>
+      <DisplayName>Hydrogen Sphere Tank</DisplayName>
+      <Icon>Textures\GUI\Icons\Fuelburners\tanksmal.dds</Icon>
+      <Public>true</Public>
+      <GuiVisible>true</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Manufacturing\K_Imperial_HydrogenStorage_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="15" />
+        <Component Subtype="ImperialGeneralParts" Count="35" />
+        <Component Subtype="Computer" Count="3" />
+        <Component Subtype="ImperialConstruction" Count="15" />
+        <Component Subtype="DuraSteel" Count="35" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BlockPairName>K_Imperial_Gas_Storage_Bubble_hydrogen</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
+      <StandbyPowerConsumption>0.000001</StandbyPowerConsumption>
+      <Capacity>500000</Capacity>
+      <InventoryMaxVolume>2</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <StoredGasId>
+        <TypeId>GasProperties</TypeId>
+        <SubtypeId>Hydrogen</SubtypeId>
+      </StoredGasId>
+      <BlueprintClasses>
+        <Class>HydrogenBottles</Class>
+      </BlueprintClasses>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <EmissiveColorPreset>K_Imperial_GasStorage_Hydrogen</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
+      <Id>
+        <TypeId>OxygenTank</TypeId>
+        <SubtypeId>K_Imperial_Gas_Storage_I_L_Hypermatter</SubtypeId>
+      </Id>
+      <DisplayName>Republic Gas Tank (Hypermatter)</DisplayName>
+      <Icon>Textures\GUI\Icons\Fuelburners\tankmid.dds</Icon>
+      <Public>true</Public>
+      <GuiVisible>true</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="5" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Manufacturing\K_Imperial_Hardware_Gas_Storage_I_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="160" />
+        <Component Subtype="ImperialGeneralParts" Count="140" />
+        <Component Subtype="Computer" Count="8" />
+        <Component Subtype="ImperialConstruction" Count="40" />
+        <Component Subtype="DuraSteel" Count="120" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BlockPairName>K_Imperial_Gas_Storage_I_L_Hypermatter</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
+      <StandbyPowerConsumption>0.000001</StandbyPowerConsumption>
+      <Capacity>7500000</Capacity>
+      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <StoredGasId>
+        <TypeId>GasProperties</TypeId>
+        <SubtypeId>HypermatterGas</SubtypeId>
+      </StoredGasId>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <EmissiveColorPreset>K_Imperial_GasStorage_Hypermatter</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
+      <Id>
+        <TypeId>OxygenTank</TypeId>
+        <SubtypeId>K_Imperial_Assembly_Factory_Phrik</SubtypeId>
+      </Id>
+      <DisplayName>Large Hypermatter Tank</DisplayName>
+      <Icon>Textures\GUI\Icons\Fuelburners\tanklarge.dds</Icon>
+      <Public>true</Public>
+      <GuiVisible>true</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Center x="1" y="0" z="1" />
+      <Size x="3" y="5" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Refinement\K_Imperial_Assembly_PhrikRefinery_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="160" />
+        <Component Subtype="ImperialGeneralParts" Count="140" />
+        <Component Subtype="Computer" Count="8" />
+        <Component Subtype="ImperialConstruction" Count="40" />
+        <Component Subtype="DuraSteel" Count="120" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>K_Imperial_Assembly_Factory_Phrik</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
+      <StandbyPowerConsumption>0.000001</StandbyPowerConsumption>
+      <Capacity>37500000</Capacity>
+      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <StoredGasId>
+        <TypeId>GasProperties</TypeId>
+        <SubtypeId>HypermatterGas</SubtypeId>
+      </StoredGasId>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <EmissiveColorPreset>K_Imperial_GasStorage_Hypermatter</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+    </Definition>
+
+
+  </CubeBlocks>
+</Definitions>

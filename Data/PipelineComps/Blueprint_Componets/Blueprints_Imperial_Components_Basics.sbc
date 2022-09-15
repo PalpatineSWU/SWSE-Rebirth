@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+    <!--Basic Resources-->
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>9_Imperial_GeneralParts</SubtypeId>
+      </Id>
+      <DisplayName>General Mechanical Supplies</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_12.dds</Icon>
+      <Prerequisites>
+        <Item Amount="12" TypeId="Ingot" SubtypeId="DuraSteel_Ingot" />
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Carbonite" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="ImperialGeneralParts" />
+      <BaseProductionTimeInSeconds>1.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>9_Imperial_Construction</SubtypeId>
+      </Id>
+      <DisplayName>General Construction Supplies</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Ingot_2_13.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="DuraSteel_Ingot" />
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Alum" />
+      </Prerequisites>
+      <Result Amount="3" TypeId="Component" SubtypeId="ImperialConstruction" />
+      <BaseProductionTimeInSeconds>1.65</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>9_Imperial_CommunicationsEquipment</SubtypeId>
+      </Id>
+      <DisplayName>General Communication Equipment</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_2.dds</Icon>
+      <Prerequisites>
+        <Item Amount="7" TypeId="Ingot" SubtypeId="DuraSteel_Ingot" />
+        <Item Amount="6" TypeId="Ingot" SubtypeId="Carbonite" />
+        <Item Amount="4" TypeId="Ingot" SubtypeId="Polymer" />
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Lommite" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="CommunicationsEquipment" />
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+  </Blueprints>
+</Definitions>

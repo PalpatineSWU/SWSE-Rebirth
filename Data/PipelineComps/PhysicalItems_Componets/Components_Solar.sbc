@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Components>
+
+    <Component>      <!--          Solar            -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>SolarCircuitry</SubtypeId>
+      </Id>
+      <DisplayName>Solar Cell (Standard)</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_3.dds</Icon>
+      <ExtraInventoryTooltipLine>Starwars Basic Component. Produced by Light Factory, Micro Factory for Imperials.</ExtraInventoryTooltipLine>
+      <Size>
+        <X>1</X>
+        <Y>0.5</Y>
+        <Z>0.05</Z>
+      </Size>
+      <Mass>6</Mass>
+      <Volume>12</Volume>
+      <Model>Models\Components\SolarCell.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>1</MaxIntegrity>
+      <DropProbability>0.1</DropProbability>
+      <Health>11</Health>
+      <MinimalPricePerUnit>115</MinimalPricePerUnit>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+
+    <Component>      <!--        Ionic Wing             -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>IonWingCircuitry</SubtypeId>
+      </Id>
+      <DisplayName>Solar Cell (Ion)</DisplayName>
+      <ExtraInventoryTooltipLine>Republic Basic Component. Produced by Light Factory, Advanced Factory.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_3.dds</Icon>
+      <Size>
+        <X>1</X>
+        <Y>0.5</Y>
+        <Z>0.05</Z>
+      </Size>
+      <Mass>6</Mass>
+      <Volume>12</Volume>
+      <Model>Models\Components\SolarCell.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>1</MaxIntegrity>
+      <DropProbability>0.1</DropProbability>
+      <Health>11</Health>
+      <MinimalPricePerUnit>1000</MinimalPricePerUnit>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+
+  </Components>
+</Definitions>

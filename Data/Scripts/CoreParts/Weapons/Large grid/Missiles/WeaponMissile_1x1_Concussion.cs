@@ -125,7 +125,7 @@ namespace Scripts {
                 },
                 Loading = new LoadingDef
                 {
-                    RateOfFire = 300, // Set this to 3600 for beam weapons. This is how fast your Gun fires.
+                    RateOfFire = 30, // Set this to 3600 for beam weapons. This is how fast your Gun fires.
                     BarrelsPerShot = 2, // How many muzzles will fire a projectile per fire event.
                     TrajectilesPerBarrel = 1, // Number of projectiles per muzzle per fire event.
                     SkipBarrels = 0, // Number of muzzles to skip after each fire event.

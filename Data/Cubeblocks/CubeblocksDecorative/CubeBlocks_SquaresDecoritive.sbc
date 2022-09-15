@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_BackgroundScreen</SubtypeId>
+      </Id>
+      <DisplayName>Republic Emissive Light Cube</DisplayName>
+      <Icon>Textures\GUI\Icons\Cosmetic\REcolorablelightcube.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_Background_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_BackgroundScreen</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_BackgroundFakeLights</SubtypeId>
+      </Id>
+      <DisplayName>Republic Light Cube</DisplayName>
+      <Icon>Textures\GUI\Icons\Cosmetic\REcolorablelights1.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_FakeLightBackdrop_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_BackgroundFakeLights</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_BackgroundFakeLightsII</SubtypeId>
+      </Id>
+      <DisplayName>Republic Light Cube II</DisplayName>
+      <Icon>Textures\GUI\Icons\Cosmetic\REcolorablelights.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_FakeLightBackdropII_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_BackgroundFakeLightsII</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Fortress_Wall</SubtypeId>
+      </Id>
+      <DisplayName>Republic Fortress Wall</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\cover_wall.dds</Icon>
+      <Description> Heavily-Armored Wall Segment.</Description>
+      <GuiVisible>true</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_FortressWall_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="250" />
+        <Component Subtype="Construction" Count="345" />
+        <Component Subtype="DuraSteel" Count="2500" />
+      </Components>
+      <CriticalComponent Subtype="ImperialConstruction" Index="0" />
+      <BlockPairName>K_Imperial_Fortress_Wall</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>65</BuildTimeSeconds>
+      <PCU>1</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_ReflectiveSurface_I_Cube</SubtypeId>
+      </Id>
+      <DisplayName>Republic Mirror-Cube (Floor)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cosmetic\MirrorCube.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_MirrorCube_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="50" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_ReflectiveSurface_I_Cube</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Wall_I</SubtypeId>
+      </Id>
+      <DisplayName>Republic Wall</DisplayName>
+      <Icon>Textures\GUI\Icons\Cosmetic\REcube.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_Wall_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="240" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Wall_I</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Wall_Curve</SubtypeId>
+      </Id>
+      <DisplayName>Republic Curved Wall</DisplayName>
+      <Icon>Textures\GUI\Icons\Cosmetic\REcubeRound.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_WallCurve_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="240" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Wall_Curve</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Staircase</SubtypeId>
+      </Id>
+      <DisplayName>Republic Staircase</DisplayName>
+      <Icon>Textures\GUI\Icons\Cosmetic\REcubeStairs.dds</Icon>
+      <Description> Staircase.</Description>
+      <GuiVisible>true</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_Stairway_Large.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="110" />
+        <Component Subtype="Construction" Count="45" />
+        <Component Subtype="SteelPlate" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="ImperialConstruction" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1"/>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BlockPairName>K_Imperial_Staircase</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>8</BuildTimeSeconds>
+      <PCU>1</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Wall_CurveCorner</SubtypeId>
+      </Id>
+      <DisplayName>Republic Curved Corner Wall</DisplayName>
+      <Icon>Textures\GUI\Icons\Cosmetic\REcubeTriagnle.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_WallCurveCorner_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="240" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Wall_CurveCorner</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_WS_TC_Armor_Imperial_Decal_Cube</SubtypeId>
+      </Id>
+      <DisplayName>Empire Stripe Cube</DisplayName>
+      <Icon>Textures\GUI\Icons\Cosmetic\Cube_Stripedcube.dds</Icon>
+      <Description>Description_InteriorWall</Description>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>StandaloneBox</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_DecalA_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_DecalA_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="DuraSteel" Count="5" />
+        <Component Subtype="ImperialGeneralParts" Count="8" />
+        <Component Subtype="DuraSteel" Count="10" />
+        <Component Subtype="ImperialGeneralParts" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="ImperialGeneralParts" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_WS_TC_Armor_Imperial_Decal_Cube</BlockPairName>
+      <MirroringY>X</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <PCU>1</PCU>
+      <IsAirTight>true</IsAirTight>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      <BlockVariants>
+      </BlockVariants>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_WS_TC_Armor_Imperial_DecorWall_Logo_Empire</SubtypeId>
+      </Id>
+      <DisplayName>Empire Cube Icon (Imperial)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cosmetic\Cube_empirecube.dds</Icon>
+      <Description>Description_InteriorWall</Description>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>StandaloneBox</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Logo_Empire_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Logo_Empire_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="DuraSteel" Count="5" />
+        <Component Subtype="ImperialGeneralParts" Count="8" />
+        <Component Subtype="DuraSteel" Count="10" />
+        <Component Subtype="ImperialGeneralParts" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="ImperialGeneralParts" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_WS_TC_Armor_Imperial_DecorWall_Logo_Empire</BlockPairName>
+      <MirroringY>X</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <PCU>1</PCU>
+      <IsAirTight>true</IsAirTight>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_WS_TC_Armor_Imperial_DecorWall_LogoTrim_Empire</SubtypeId>
+      </Id>
+      <DisplayName>Empire Cube Icon (Imperial - With Trim)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cosmetic\Cube_empirecubestriped.dds</Icon>
+      <Description>Description_InteriorWall</Description>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>StandaloneBox</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Logo_EmpireTrim_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Logo_EmpireTrim_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="DuraSteel" Count="5" />
+        <Component Subtype="ImperialGeneralParts" Count="8" />
+        <Component Subtype="DuraSteel" Count="10" />
+        <Component Subtype="ImperialGeneralParts" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="ImperialGeneralParts" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_WS_TC_Armor_Imperial_DecorWall_LogoTrim_Empire</BlockPairName>
+      <MirroringY>X</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <PCU>1</PCU>
+      <IsAirTight>true</IsAirTight>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

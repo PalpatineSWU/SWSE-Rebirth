@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClasses>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>K_Imperial_MicroFactoryVanilla</SubtypeId>
+      </Id>
+      <DisplayName>Microfactory</DisplayName>
+      <Icon>Textures\GUI\Icons\Production\K_SW_Production_Base_Inactive.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\Production\K_SW_Production_Base.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\Production\K_SW_Production_Base.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>K_Imperial_Factory_Basic_I</SubtypeId>
+      </Id>
+      <DisplayName>Light Factory</DisplayName>
+      <Icon>Textures\GUI\Icons\Production\K_SW_Production_Base_Inactive.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\Production\K_SW_Production_Base.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\Production\K_SW_Production_Base.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>K_Imperial_Factory_Advanced_I</SubtypeId>
+      </Id>
+      <DisplayName>Advanced Factory</DisplayName>
+      <Icon>Textures\GUI\Icons\Production\K_SW_Production_Base_Inactive.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\Production\K_SW_Production_Base.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\Production\K_SW_Production_Base.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>K_Imperial_Starfighter_Parts_Basic</SubtypeId>
+      </Id>
+      <DisplayName>Starfighters Basic</DisplayName>
+      <Icon>Textures\GUI\Icons\Production\K_SW_Production_ImpSpecial_Inactive.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\Production\K_SW_Production_ImpSpecial.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\Production\K_SW_Production_ImpSpecial.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+
+
+  </BlueprintClasses>
+
+  <BlueprintClassEntries>
+
+    <!--Microfactory-->
+
+    <Entry Class="K_Imperial_MicroFactoryVanilla" BlueprintSubtypeId="1_Imperial_StandardPowerCell" />
+    <Entry Class="K_Imperial_MicroFactoryVanilla" BlueprintSubtypeId="2_Imperial_StandardCabling" />
+    <Entry Class="K_Imperial_MicroFactoryVanilla" BlueprintSubtypeId="3_Imperial_Hyperdrive_Basic" />
+    <Entry Class="K_Imperial_MicroFactoryVanilla" BlueprintSubtypeId="4_Imperial_FissionComponent" />
+    <Entry Class="K_Imperial_MicroFactoryVanilla" BlueprintSubtypeId="5_Imperial_Repulsor" />
+    <Entry Class="K_Imperial_MicroFactoryVanilla" BlueprintSubtypeId="8_Imperial_PowerGen_Basics" />
+    <Entry Class="K_Imperial_MicroFactoryVanilla" BlueprintSubtypeId="9_Imperial_Durasteel_Plate" />
+    <Entry Class="K_Imperial_MicroFactoryVanilla" BlueprintSubtypeId="9_Imperial_GeneralParts" />
+    <Entry Class="K_Imperial_MicroFactoryVanilla" BlueprintSubtypeId="9_Imperial_Construction" />
+    <Entry Class="K_Imperial_MicroFactoryVanilla" BlueprintSubtypeId="9_Imperial_CommunicationsEquipment" />
+
+    <!--Microfactory-->
+
+    <!--Lightfactory-->
+
+
+    <Entry Class="K_Imperial_Factory_Basic_I" BlueprintSubtypeId="1_Imperial_AlternatePowerCell" />
+    <Entry Class="K_Imperial_Factory_Basic_I" BlueprintSubtypeId="2_Imperial_HeavyDutyCabling" />
+    <Entry Class="K_Imperial_Factory_Basic_I" BlueprintSubtypeId="3_Imperial_Hyperdrive_Advanced" />
+    <Entry Class="K_Imperial_Factory_Basic_I" BlueprintSubtypeId="4_Imperial_FissionAdvancedController" />
+    <Entry Class="K_Imperial_Factory_Basic_I" BlueprintSubtypeId="5_Imperial_ThrusterParts_Ion" />
+    <Entry Class="K_Imperial_Factory_Basic_I" BlueprintSubtypeId="7_Imperial_BlasterMechanism" />
+    <Entry Class="K_Imperial_Factory_Basic_I" BlueprintSubtypeId="7_Imperial_TurboLaserMech" />
+    <Entry Class="K_Imperial_Factory_Basic_I" BlueprintSubtypeId="8_Imperial_PowerConverter" />
+    <Entry Class="K_Imperial_Factory_Basic_I" BlueprintSubtypeId="8_Imperial_Solar" />
+    <Entry Class="K_Imperial_Factory_Basic_I" BlueprintSubtypeId="9_Imperial_LWDurasteel" />
+    <Entry Class="K_Imperial_Factory_Basic_I" BlueprintSubtypeId="9_Imperial_TranspariSteel" />
+    <!--Lightfactory-->
+
+    <!--Advanced Fac-->
+    <Entry Class="K_Imperial_Factory_Advanced_I" BlueprintSubtypeId="1_Imperial_NeurodiumPowerCell" />
+    <Entry Class="K_Imperial_Factory_Advanced_I" BlueprintSubtypeId="2_Imperial_PolyplastCabling" />
+    <Entry Class="K_Imperial_Factory_Advanced_I" BlueprintSubtypeId="3_Imperial_Hyperdrive_Elite" />
+    <Entry Class="K_Imperial_Factory_Advanced_I" BlueprintSubtypeId="4_Imperial_Reactors_Ionic" />
+    <Entry Class="K_Imperial_Factory_Advanced_I" BlueprintSubtypeId="5_Imperial_ThrusterParts_Advanced_Ion" />
+    <Entry Class="K_Imperial_Factory_Advanced_I" BlueprintSubtypeId="7_Imperial_MaserMechanism" />
+    <Entry Class="K_Imperial_Factory_Advanced_I" BlueprintSubtypeId="7_Imperial_IonCapacitor" />
+    <Entry Class="K_Imperial_Factory_Advanced_I" BlueprintSubtypeId="8_Imperial_IonWingCircuitry" />
+    <Entry Class="K_Imperial_Factory_Advanced_I" BlueprintSubtypeId="9_Imperial_Beskarplate" />
+    <Entry Class="K_Imperial_Factory_Advanced_I" BlueprintSubtypeId="9_Imperial_Phrikplate" />
+    <Entry Class="K_Imperial_Factory_Advanced_I" BlueprintSubtypeId="Resources_Advanced_Protons" />
+    <Entry Class="K_Imperial_Factory_Advanced_I" BlueprintSubtypeId="Resources_Advanced_Ions" />
+    <!--Advanced Fac-->
+
+    <!--Starfighters-->
+    <Entry Class="K_Imperial_Starfighter_Parts_Basic" BlueprintSubtypeId="9_Imperial_LWDurasteel" />
+    <Entry Class="K_Imperial_Starfighter_Parts_Basic" BlueprintSubtypeId="9_Imperial_TranspariSteel" />
+    <Entry Class="K_Imperial_Starfighter_Parts_Basic" BlueprintSubtypeId="8_Imperial_PowerConverter" />
+    <Entry Class="K_Imperial_Starfighter_Parts_Basic" BlueprintSubtypeId="1_Imperial_StandardPowerCell" />
+    <Entry Class="K_Imperial_Starfighter_Parts_Basic" BlueprintSubtypeId="8_Imperial_IonWingCircuitry" />
+    <Entry Class="K_Imperial_Starfighter_Parts_Basic" BlueprintSubtypeId="5_Imperial_ThrusterParts_Ion" />
+    <Entry Class="K_Imperial_Starfighter_Parts_Basic" BlueprintSubtypeId="7_Imperial_BlasterMechanism" />
+    <!--Starfighters-->
+
+    <!--Tools-->
+    <Entry Class="EliteTools" BlueprintSubtypeId="HandDrillScannerItem" />
+    <Entry Class="EliteTools" BlueprintSubtypeId="HandDrillSWItem" />
+    <Entry Class="EliteTools" BlueprintSubtypeId="AngleGrinder_LukeSaberItem" />
+    <Entry Class="EliteTools" BlueprintSubtypeId="AngleGrinder_LukeSaberRevItem" />
+    <Entry Class="EliteTools" BlueprintSubtypeId="AngleGrinder_DarthSaberItem" />
+    <Entry Class="EliteTools" BlueprintSubtypeId="AngleGrinder_MaulSaberItem" />
+    <Entry Class="EliteTools" BlueprintSubtypeId="AngleGrinder_MaulCaneSaberItem" />
+    <Entry Class="EliteTools" BlueprintSubtypeId="AngleGrinder_DukuSaberItem" />
+    <Entry Class="EliteTools" BlueprintSubtypeId="AngleGrinder_KananSaberItem" />
+    <Entry Class="EliteTools" BlueprintSubtypeId="AngleGrinder_EzraTrainSaberItem" />
+    <Entry Class="EliteTools" BlueprintSubtypeId="AngleGrinder_EzraSaberItem" />
+    <Entry Class="EliteTools" BlueprintSubtypeId="AngleGrinder_ArkolisSaberItem" />
+    <Entry Class="EliteTools" BlueprintSubtypeId="AngleGrinder_PalpatineSaberItem" />
+
+    <Entry Class="BasicTools" BlueprintSubtypeId="HandDrillScannerItem" />
+    <Entry Class="BasicTools" BlueprintSubtypeId="HandDrillSWItem" />
+    <Entry Class="BasicTools" BlueprintSubtypeId="AngleGrinder_LukeSaberItem" />
+    <Entry Class="BasicTools" BlueprintSubtypeId="AngleGrinder_LukeSaberRevItem" />
+    <Entry Class="BasicTools" BlueprintSubtypeId="AngleGrinder_DarthSaberItem" />
+    <Entry Class="BasicTools" BlueprintSubtypeId="AngleGrinder_MaulSaberItem" />
+    <Entry Class="BasicTools" BlueprintSubtypeId="AngleGrinder_MaulCaneSaberItem" />
+    <Entry Class="BasicTools" BlueprintSubtypeId="AngleGrinder_DukuSaberItem" />
+    <Entry Class="BasicTools" BlueprintSubtypeId="AngleGrinder_KananSaberItem" />
+    <Entry Class="BasicTools" BlueprintSubtypeId="AngleGrinder_EzraTrainSaberItem" />
+    <Entry Class="BasicTools" BlueprintSubtypeId="AngleGrinder_EzraSaberItem" />
+    <Entry Class="BasicTools" BlueprintSubtypeId="AngleGrinder_ArkolisSaberItem" />
+    <Entry Class="BasicTools" BlueprintSubtypeId="AngleGrinder_PalpatineSaberItem" />
+    <!--Tools-->
+
+  </BlueprintClassEntries>
+</Definitions>

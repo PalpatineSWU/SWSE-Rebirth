@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Components>
+
+    <Component>      <!--       Thruster, Repulsor              -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ThrusterParts_Repulsor</SubtypeId>
+      </Id>
+      <DisplayName>Thruster Comp (Repulsor)</DisplayName>
+      <ExtraInventoryTooltipLine>Republic Basic Component. Produced by Light Factory.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_thrust.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>10</Mass>
+      <Volume>25</Volume>
+      <Model>Models\Ammo\K_Imperial_Torp_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>15</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>20</Health>
+      <MinimalPricePerUnit>600</MinimalPricePerUnit>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+
+    <Component>      <!--     Thruster Component, Ion                -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ThrusterParts_Ion</SubtypeId>
+      </Id>
+      <DisplayName>Thruster Comp (Ionic)</DisplayName>
+      <ExtraInventoryTooltipLine>Republic Advanced Component. Produced by Advanced Factory.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_thrust.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>40</Mass>
+      <Volume>5</Volume>
+      <Model>Models\Ammo\K_Imperial_Torp_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>30</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>35</Health>
+      <MinimalPricePerUnit>6000</MinimalPricePerUnit>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+
+    <Component>      <!--     Thruster Component, Advanced                -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ThrusterParts_Advanced_Ion</SubtypeId>
+      </Id>
+      <DisplayName>Thruster Comp (Advanced Ionic)</DisplayName>
+      <ExtraInventoryTooltipLine>Republic Advanced Component. Produced by Advanced Factory.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_thrust.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>20</Mass>
+      <Volume>5</Volume>
+      <Model>Models\Ammo\K_Imperial_Torp_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>30</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>35</Health>
+      <MinimalPricePerUnit>35000</MinimalPricePerUnit>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+
+  </Components>
+</Definitions>

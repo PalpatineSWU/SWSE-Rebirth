@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClasses>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>Standard</SubtypeId>
+      </Id>
+      <DisplayName>Refinement</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>Metals</SubtypeId>
+      </Id>
+      <DisplayName>Metals</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>Crystals</SubtypeId>
+      </Id>
+      <DisplayName>Crystals</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>Polymers</SubtypeId>
+      </Id>
+      <DisplayName>Polymers</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AdvancedMetals</SubtypeId>
+      </Id>
+      <DisplayName>High-Metals</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\Production\K_SW_Production_Conversion.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>MandoMetalurgy</SubtypeId>
+      </Id>
+      <DisplayName>High-Metals</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\Production\K_SW_Production_Conversion.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AdvancedCrystals</SubtypeId>
+      </Id>
+      <DisplayName>Advanced Crystals</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\Production\K_SW_Production_Conversion.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+  </BlueprintClasses>
+
+  <BlueprintClassEntries>
+    <!--Currently this is set to allow all refineries to refine everything-->
+    <Entry Class="Metals" BlueprintSubtypeId="K_Imperial_Durasteel" />
+    <Entry Class="Metals" BlueprintSubtypeId="Lommite" />
+    <Entry Class="Metals" BlueprintSubtypeId="Alum" />
+    <Entry Class="Metals" BlueprintSubtypeId="Carbonite" />
+    <Entry Class="Metals" BlueprintSubtypeId="Zalfaric" />
+    <Entry Class="Metals" BlueprintSubtypeId="Zersium" />
+    <Entry Class="Metals" BlueprintSubtypeId="Crystal_Guerrerite" />
+    <Entry Class="Metals" BlueprintSubtypeId="Exonium" />
+    <Entry Class="Metals" BlueprintSubtypeId="Norax" />
+    <Entry Class="Metals" BlueprintSubtypeId="Hollinium" />
+    <Entry Class="Metals" BlueprintSubtypeId="Rubindum" />
+    <Entry Class="Metals" BlueprintSubtypeId="Shraki-1" />
+    <Entry Class="Metals" BlueprintSubtypeId="Lignan-1" />
+  </BlueprintClassEntries>
+</Definitions>
+

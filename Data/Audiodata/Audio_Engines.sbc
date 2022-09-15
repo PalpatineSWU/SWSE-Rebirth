@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
-<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Sounds>
     <!--IHarpo, a glorious man. Damnable Keen file structure.-->
-	 <!--Praise Enenra , whom has fixed this TIE Sounds.-->
-   
+    <!--Praise Enenra , whom has fixed this TIE Sounds.-->
 
-    
+
+
     <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
@@ -23,9 +24,9 @@
         </Wave>
       </Waves>
     </Sound>
-	
-	
-	  <Sound>
+
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Imperial_Engine_Secondary</SubtypeId>
@@ -42,8 +43,8 @@
         </Wave>
       </Waves>
     </Sound>
-	
-	 <Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_ChissFighter_Engine_I</SubtypeId>
@@ -60,9 +61,9 @@
         </Wave>
       </Waves>
     </Sound>
-	
-	
-	 <Sound>
+
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_ChissFighter_Engine_II</SubtypeId>
@@ -79,8 +80,8 @@
         </Wave>
       </Waves>
     </Sound>
-	
-	 <Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Imperial_LargeEngine_Low</SubtypeId>
@@ -97,9 +98,9 @@
         </Wave>
       </Waves>
     </Sound>
-	
-	
-	 <Sound>
+
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Imperial_Engine_Small_Low</SubtypeId>
@@ -116,6 +117,6 @@
         </Wave>
       </Waves>
     </Sound>
-	
+
   </Sounds>
 </Definitions>

@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PhysicalItems>
+
+    <!--Particles -->
+    <PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Protons</SubtypeId>
+        <!-- Accumulated Protons, used in high explosive proton weaponry. -->
+        <!-- Low Yield-->
+      </Id>
+      <DisplayName>Refined Particles (Proton)</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Ingot_2_9.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>0.25</Mass>
+      <Volume>0.1</Volume>
+      <Model>Models\Resources\K_Imperial_Particles_Proton_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>Protons</IconSymbol>
+      <MinimalPricePerUnit>35000</MinimalPricePerUnit>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+
+    <PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Ions</SubtypeId>
+        <!-- Accumulated Ionic particles, used in anti-shield Ion-cannon weaponry. -->
+        <!-- Low Yield-->
+      </Id>
+      <DisplayName>Refined Particles (Ionic)</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Ingot_2_9_2.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>0.25</Mass>
+      <Volume>0.1</Volume>
+      <Model>Models\Resources\K_Imperial_Particles_Ion_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>Ions</IconSymbol>
+      <MinimalPricePerUnit>12000</MinimalPricePerUnit>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+
+    <!--Solid "Gas"-->
+
+    <PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>SyntheticFuel</SubtypeId>
+        <!--Artifically Created Cheap fuel, used to run Generators lacking proper supply chains-->
+        <!-- Unnaturally Produced-->
+      </Id>
+      <DisplayName>Fuel (Synthetic Canisters)</DisplayName>
+      <ExtraInventoryTooltipLine>Cheap Solid-Fuel. Artifically created.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_SynthFuel.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>1.5</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Resources\K_Imperial_Ingot_SynthFuel_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>SythFuel</IconSymbol>
+      <MinimalPricePerUnit>25</MinimalPricePerUnit>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+
+  </PhysicalItems>
+</Definitions>

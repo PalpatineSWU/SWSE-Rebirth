@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition">
+      <Id>
+        <TypeId>SurvivalKit</TypeId>
+        <SubtypeId>K_Imperial_SurvivalKit</SubtypeId>
+      </Id>
+      <DisplayName>Survival-Unit</DisplayName>
+      <Description>
+      A survival unit made for
+      emergencies, requires
+      massive power for
+      production 
+	    Small-Grid 3x1x3</Description>
+      <Icon>Textures\GUI\Icons\ReeAss\Micro.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="2" y="0" z="2" />
+      <Model>Models\CivilHardware\K_Imperial_BasicSurvivalKit_Small.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="Construction" Count="2" />
+        <Component Subtype="Medical" Count="3" />
+        <Component Subtype="Motor" Count="4" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="5" />
+        <Component Subtype="SteelPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.25" File="Models\CivilHardware\K_Imperial_BasicSurvivalKit_Small_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\CivilHardware\K_Imperial_BasicSurvivalKit_Small_Constr2.mwm" />
+        <Model BuildPercentUpperBound="0.75" File="Models\CivilHardware\K_Imperial_BasicSurvivalKit_Small_Constr3.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="Models\CivilHardware\K_Imperial_BasicSurvivalKit_Small_Constr4.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Imperial_Assembly_Factory_Micro</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <BlueprintClasses>
+        <Class>BasicIngots</Class>
+        <Class>BasicTools</Class>
+        <Class>BasicComponents</Class>
+        <Class>BuildPlanner</Class>
+        <Class>Consumables</Class>
+        <Class>K_Imperial_MicroFactoryVanilla</Class>
+        <Class>K_Imperial_Resource_Conversion</Class>
+      </BlueprintClasses>
+      <AssemblySpeed>.5</AssemblySpeed>
+      <ScreenAreas>
+        <ScreenArea Name="CockpitScreen_01" DisplayName="Top panel" />
+        <ScreenArea Name="CockpitScreen_02" DisplayName="Bottom panel" />
+      </ScreenAreas>
+
+      <StandbyPowerConsumption>0.015</StandbyPowerConsumption>
+      <OperationalPowerConsumption>200</OperationalPowerConsumption>
+      <InventoryMaxVolume>1</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+
+      <!-- 
+      <OtherInventoryMaxVolume>2</OtherInventoryMaxVolume>
+      <RefinerySound>BlockRafineryProcess</RefinerySound> -->
+
+      <!-- <HealingAllowed>true</HealingAllowed>
+      <RefuelingAllowed>true</RefuelingAllowed>
+      <HealingSound>BlockMedicalProgress</HealingSound>
+      <SoundVolumeModifierRefinery>0.6</SoundVolumeModifierRefinery>
+      <SoundVolumeModifierAssembler>0.6</SoundVolumeModifierAssembler> -->
+
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PrimarySound>K_Imperial_IdleDroidNoise</PrimarySound>
+      <ActionSound>K_Imperial_FactoryWorking</ActionSound>
+      <ProgressSound>K_Imperial_IdleDroidNoise</ProgressSound>
+      <EmissiveColorPreset>K_Imperial_Ship_EmissiveSet</EmissiveColorPreset>
+
+      <!-- <RefineMaterialAmountModifier>0.15</RefineMaterialAmountModifier>
+      <RefineDuration>6</RefineDuration>
+      <MaterialEfficiency>0.35</MaterialEfficiency>
+      <OreAmountPerPullRequest>500</OreAmountPerPullRequest>
+      <AssemblerPriority>0</AssemblerPriority> -->
+      <PCU>140</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition">
+      <Id>
+        <TypeId>SurvivalKit</TypeId>
+        <SubtypeId>Medical_SurvivalKit_SG</SubtypeId>
+      </Id>
+      <DisplayName>Compact Survival-Unit</DisplayName>
+      <Description>
+    Compact spawn unit.
+	  Not capable of Component manufacturing.
+	  Small-Grid 1x1x2</Description>
+      <Icon>Textures\GUI\Icons\repspawns\compact.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Construction\Medical\K_NR_Survivalkit_Small.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="Construction" Count="2" />
+        <Component Subtype="Medical" Count="3" />
+        <Component Subtype="Motor" Count="4" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="5" />
+        <Component Subtype="SteelPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <BlockPairName>Medical_SurvivalKit_SG</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <BlueprintClasses>
+      </BlueprintClasses>
+      <AssemblySpeed>1</AssemblySpeed>
+      <ScreenAreas>
+        <ScreenArea Name="CockpitScreen_01" DisplayName="Top panel" />
+        <ScreenArea Name="CockpitScreen_02" DisplayName="Bottom panel" />
+      </ScreenAreas>
+
+      <StandbyPowerConsumption>0.015</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.2</OperationalPowerConsumption>
+      <InventoryMaxVolume>1</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PrimarySound>K_Imperial_IdleDroidNoise</PrimarySound>
+      <ActionSound>K_Imperial_FactoryWorking</ActionSound>
+      <ProgressSound>K_Imperial_IdleDroidNoise</ProgressSound>
+      <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
+      <PCU>140</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_MedicalRoomDefinition">
+      <Id>
+        <TypeId>MedicalRoom</TypeId>
+        <SubtypeId>K_CIS_SpawnPoint_Rack_I</SubtypeId>
+      </Id>
+      <DisplayName>CIS BB1 Rack(Spawn)</DisplayName>
+      <Icon>Textures\GUI\Icons\repspawns\droidspawn.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\CIS\K_CIS_Spawnpoint_Rack_Large.mwm</Model>
+      <IdleSound>BlockMedical</IdleSound>
+      <ProgressSound>BlockMedicalProgress</ProgressSound>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="220" />
+        <Component Subtype="Construction" Count="80" />
+        <Component Subtype="MetalGrid" Count="60" />
+        <Component Subtype="SmallTube" Count="20" />
+        <Component Subtype="LargeTube" Count="5" />
+        <Component Subtype="Display" Count="10" />
+        <Component Subtype="Computer" Count="10" />
+        <Component Subtype="Medical" Count="15" />
+        <Component Subtype="InteriorPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="Medical" Index="0" />
+      <Center x="0" y="0" z="0" />
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>K_CIS_SpawnPoint_Rack_I</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>50</BuildTimeSeconds>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>110</PCU>
+      <EmissiveColorPreset>K_Imperial_Spawn</EmissiveColorPreset>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_MedicalRoomDefinition">
+      <Id>
+        <TypeId>MedicalRoom</TypeId>
+        <SubtypeId>K_CIS_SpawnPoint_Beacon_I</SubtypeId>
+      </Id>
+      <DisplayName>CIS Spawn Point</DisplayName>
+      <Icon>Textures\GUI\Icons\repspawns\cisspawn.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\CIS\K_CIS_Spawnpoint_Large.mwm</Model>
+      <IdleSound>BlockMedical</IdleSound>
+      <ProgressSound>BlockMedicalProgress</ProgressSound>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="220" />
+        <Component Subtype="Construction" Count="80" />
+        <Component Subtype="MetalGrid" Count="60" />
+        <Component Subtype="SmallTube" Count="20" />
+        <Component Subtype="LargeTube" Count="5" />
+        <Component Subtype="Display" Count="10" />
+        <Component Subtype="Computer" Count="10" />
+        <Component Subtype="Medical" Count="15" />
+        <Component Subtype="InteriorPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="Medical" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <Center x="0" y="0" z="0" />
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>K_CIS_SpawnPoint_Beacon_I</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>50</BuildTimeSeconds>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>30</PCU>
+      <EmissiveColorPreset>K_Imperial_Spawn</EmissiveColorPreset>
+    </Definition>
+
+
+    <Definition xsi:type="MyObjectBuilder_MedicalRoomDefinition">
+      <Id>
+        <TypeId>MedicalRoom</TypeId>
+        <SubtypeId>K_Imperial_SpawnPoint_Beacon_I</SubtypeId>
+      </Id>
+      <DisplayName>Republic Spawn Point</DisplayName>
+      <Icon>Textures\GUI\Icons\repspawns\ree.dds</Icon>
+      <Description> Spawn Point, has a Spinning Holographic of the Empire.</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Medical\K_Imperial_Spawnpoint_Large.mwm</Model>
+      <IdleSound>BlockMedical</IdleSound>
+      <ProgressSound>BlockMedicalProgress</ProgressSound>
+      <Components>
+        <Component Subtype="SteelPlate" Count="220" />
+        <Component Subtype="Construction" Count="80" />
+        <Component Subtype="MetalGrid" Count="60" />
+        <Component Subtype="SmallTube" Count="20" />
+        <Component Subtype="LargeTube" Count="5" />
+        <Component Subtype="Display" Count="10" />
+        <Component Subtype="Computer" Count="10" />
+        <Component Subtype="Medical" Count="15" />
+        <Component Subtype="SteelPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="Medical" Index="0" />
+      <Center x="0" y="0" z="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Medical\K_Imperial_Spawnpoint_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.8" File="Models\Medical\K_Imperial_Spawnpoint_Large.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>K_Imperial_SpawnPoint_Beacon_I</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>50</BuildTimeSeconds>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>30</PCU>
+      <EmissiveColorPreset>K_Imperial_Spawn</EmissiveColorPreset>
+    </Definition>
+
+
+    <Definition xsi:type="MyObjectBuilder_MedicalRoomDefinition">
+      <Id>
+        <TypeId>MedicalRoom</TypeId>
+        <SubtypeId>K_Imperial_SpawnPoint_Facility_I</SubtypeId>
+      </Id>
+      <DisplayName>Republic Medical Facility</DisplayName>
+      <Icon>Textures\GUI\Icons\repspawns\bigspawn.dds</Icon>
+      <Description> Spawn Point, with 5 additional healing stations of Bacta.</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="5" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Medical\K_Imperial_MedicalBuilding_Large.mwm</Model>
+      <IdleSound>K_Imperial_IdleElectronics</IdleSound>
+      <ProgressSound>K_Imperial_Heal</ProgressSound>
+      <Components>
+        <Component Subtype="DuraSteel" Count="100" />
+        <Component Subtype="Construction" Count="165" />
+        <Component Subtype="MetalGrid" Count="60" />
+        <Component Subtype="SmallTube" Count="20" />
+        <Component Subtype="LargeTube" Count="5" />
+        <Component Subtype="Display" Count="10" />
+        <Component Subtype="Computer" Count="10" />
+        <Component Subtype="Medical" Count="30" />
+        <Component Subtype="Construction" Count="145" />
+        <Component Subtype="DuraSteel" Count="500" />
+      </Components>
+      <CriticalComponent Subtype="Medical" Index="0" />
+      <Center x="0" y="0" z="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="5" EndY="5" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Medical\K_Imperial_MedicalBuilding_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Medical\K_Imperial_MedicalBuilding_Large_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Medical\K_Imperial_MedicalBuilding_Large_Constr3.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>K_Imperial_SpawnPoint_Facility_I</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>50</BuildTimeSeconds>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>30</PCU>
+      <EmissiveColorPreset>K_Imperial_Ship_EmissiveSet</EmissiveColorPreset>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_MedicalRoomDefinition">
+      <Id>
+        <TypeId>MedicalRoom</TypeId>
+        <SubtypeId>K_Imperial_BactaTank</SubtypeId>
+      </Id>
+      <DisplayName>Republic Bacta-Tank(Healing-Only)</DisplayName>
+      <Icon>Textures\GUI\Icons\repspawns\bacta.dds</Icon>
+      <Description> Healing Bacta, has no respawn capability.</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Medical\K_Imperial_BactaTank_Large.mwm</Model>
+      <IdleSound>K_Imperial_IdleElectronics</IdleSound>
+      <ProgressSound>K_Imperial_Heal</ProgressSound>
+      <Components>
+        <Component Subtype="DuraSteel" Count="25" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="BulletproofGlass" Count="15" />
+        <Component Subtype="Computer" Count="10" />
+        <Component Subtype="Medical" Count="5" />
+        <Component Subtype="Construction" Count="15" />
+        <Component Subtype="BulletproofGlass" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="Medical" Index="0" />
+      <Center x="0" y="0" z="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Medical\K_Imperial_BactaTank_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.8" File="Models\Medical\K_Imperial_BactaTank_Large_Constr2.mwm" />
+      </BuildProgressModels>
+      <RespawnAllowed>false</RespawnAllowed>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>K_Imperial_BactaTank</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>50</BuildTimeSeconds>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>30</PCU>
+      <EmissiveColorPreset>K_Imperial_Ship_EmissiveSet</EmissiveColorPreset>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_MedicalRoomDefinition">
+      <Id>
+        <TypeId>MedicalRoom</TypeId>
+        <SubtypeId>K_Imperial_SpawnPoint_Globe_I</SubtypeId>
+      </Id>
+      <DisplayName>Republic Hologram Planet Medical Node</DisplayName>
+      <Description> Decoration, also acts as a Spawn-Point.</Description>
+      <Icon>Textures\GUI\Icons\repspawns\galaxy.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <RespawnAllowed>true</RespawnAllowed>
+      <Model>Models\Misc\K_Imperial_Globe_Large.mwm</Model>
+      <IdleSound>BlockMedical</IdleSound>
+      <ProgressSound>BlockMedicalProgress</ProgressSound>
+      <Components>
+        <Component Subtype="SteelPlate" Count="220" />
+        <Component Subtype="Construction" Count="80" />
+        <Component Subtype="MetalGrid" Count="60" />
+        <Component Subtype="Girder" Count="20" />
+        <Component Subtype="Girder" Count="5" />
+        <Component Subtype="Display" Count="10" />
+        <Component Subtype="Computer" Count="10" />
+        <Component Subtype="Medical" Count="15" />
+        <Component Subtype="SteelPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="Medical" Index="0" />
+      <Center x="0" y="0" z="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>K_Imperial_SpawnPoint_Globe_I</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>50</BuildTimeSeconds>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>30</PCU>
+      <EmissiveColorPreset>K_Imperial_Spawn</EmissiveColorPreset>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

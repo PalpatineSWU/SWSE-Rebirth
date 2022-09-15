@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+      <Id>
+        <TypeId>SolarPanel</TypeId>
+        <SubtypeId>K_Imperial_SolarPanel_IA</SubtypeId>
+      </Id>
+      <DisplayName>Republic Solar Panel</DisplayName>
+      <Icon>Textures\GUI\Icons\Solar\Impsol.dds</Icon>
+      <Description>Solar Panel of Imperial Construction.</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_SolarPanel_Large.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="ImperialConstruction" Count="7" />
+        <Component Subtype="ImperialGeneralParts" Count="2" />
+        <Component Subtype="Computer" Count="2" />
+        <Component Subtype="SolarCircuitry" Count="64" />
+        <Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="SolarCircuitry" Index="0" />
+      <Center x="0" y="0" z="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="2" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="2" Default="true" />
+        <MountPoint Side="Top" StartX="3.8" StartY="0.9" EndX="4" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0.9" EndX="0.2" EndY="1" />
+        <MountPoint Side="Bottom" StartX="3.8" StartY="0" EndX="4" EndY="0.1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="0.1" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.2" EndY="2" />
+        <MountPoint Side="Front" StartX="3.8" StartY="0" EndX="4" EndY="2" />
+      </MountPoints>
+
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Misc\K_Imperial_SolarPanel_Large.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Misc\K_Imperial_SolarPanel_Large.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Misc\K_Imperial_SolarPanel_Large.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Imperial_SolarPanel_IA</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+
+      <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+      <MaxPowerOutput>0.5</MaxPowerOutput>
+
+      <PanelOrientation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-1</Z>
+      </PanelOrientation>
+      <TwoSidedPanel>true</TwoSidedPanel>
+      <PanelOffset>1.0</PanelOffset>
+      <DamageEffectName>Damage_Electrical_Damaged_SolarPanels</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <PhysicalMaterial>Glass</PhysicalMaterial>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>55</PCU>
+      <IsAirTight>false</IsAirTight>
+
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+      <Id>
+        <TypeId>SolarPanel</TypeId>
+        <SubtypeId>K_Imperial_SolarPanel_IB</SubtypeId>
+      </Id>
+      <DisplayName>Republic Solar Panel (Mounting)</DisplayName>
+      <GuiVisible>false</GuiVisible>
+      <Icon>Textures\GUI\Icons\Solar\Impsol2.dds</Icon>
+      <Description>Solar Panel of Imperial Construction.</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_SolarPanel_II_Large.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="ImperialConstruction" Count="7" />
+        <Component Subtype="ImperialGeneralParts" Count="2" />
+        <Component Subtype="Computer" Count="2" />
+        <Component Subtype="SolarCircuitry" Count="64" />
+        <Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="SolarCircuitry" Index="0" />
+      <Center x="0" y="0" z="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="2" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="2" Default="true" />
+        <MountPoint Side="Top" StartX="3.8" StartY="0.9" EndX="4" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0.9" EndX="0.2" EndY="1" />
+        <MountPoint Side="Bottom" StartX="3.8" StartY="0" EndX="4" EndY="0.1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="0.1" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.2" EndY="2" />
+        <MountPoint Side="Front" StartX="3.8" StartY="0" EndX="4" EndY="2" />
+      </MountPoints>
+
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Misc\K_Imperial_SolarPanel_Large.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Misc\K_Imperial_SolarPanel_Large.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Misc\K_Imperial_SolarPanel_Large.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Imperial_SolarPanel_IB</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+
+      <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+      <MaxPowerOutput>0.5</MaxPowerOutput>
+
+      <PanelOrientation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-1</Z>
+      </PanelOrientation>
+      <TwoSidedPanel>true</TwoSidedPanel>
+      <PanelOffset>1.0</PanelOffset>
+      <DamageEffectName>Damage_Electrical_Damaged_SolarPanels</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <PhysicalMaterial>Glass</PhysicalMaterial>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>55</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+      <Id>
+        <TypeId>SolarPanel</TypeId>
+        <SubtypeId>PowerSupplies_SolarArray</SubtypeId>
+      </Id>
+      <DisplayName>New Republic Optimized Solar Array</DisplayName>
+      <GuiVisible>true</GuiVisible>
+      <Icon>Textures\GUI\Icons\Solar\NRepsol2.dds</Icon>
+      <Description>New Republic Designed Solar Collection Array, for Economic Power Solutions: Has a full output of 2.5 units when fully saturated.
+	  More Expensive than typical Arrays, with an inability of stacking, but far superior collection rate per unit.</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Construction\Power\K_NR_SolarFarm_Large.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="225" />
+        <Component Subtype="ImperialConstruction" Count="175" />
+        <Component Subtype="SolarCircuitry" Count="300" />
+        <Component Subtype="Computer" Count="250" />
+        <Component Subtype="TranspariSteel" Count="200" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <Center x="2" y="0" z="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="1" />
+
+      </MountPoints>
+
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SolarPanelConstruction1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelConstruction2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelConstruction3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>PowerSupplies_SolarArray</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>150</BuildTimeSeconds>
+
+      <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+      <MaxPowerOutput>2.5</MaxPowerOutput>
+
+      <PanelOrientation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-1</Z>
+      </PanelOrientation>
+      <TwoSidedPanel>true</TwoSidedPanel>
+      <PanelOffset>1.0</PanelOffset>
+      <DamageEffectName>Damage_Electrical_Damaged_SolarPanels</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <PhysicalMaterial>Glass</PhysicalMaterial>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>55</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+
+    <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+      <Id>
+        <TypeId>SolarPanel</TypeId>
+        <SubtypeId>PowerSupplies_SolarPanel</SubtypeId>
+      </Id>
+      <DisplayName>New Republic Solar Panel</DisplayName>
+      <GuiVisible>true</GuiVisible>
+      <Icon>Textures\GUI\Icons\Solar\NRepsol.dds</Icon>
+      <Description>New Republic Designed Solar Panel, has a max output of 0.8 Units when fully saturated.</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Construction\Power\K_NR_SolarFarmSmall_Large.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="95" />
+        <Component Subtype="ImperialConstruction" Count="90" />
+        <Component Subtype="SolarCircuitry" Count="100" />
+        <Component Subtype="Computer" Count="45" />
+        <Component Subtype="TranspariSteel" Count="90" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+
+      </MountPoints>
+
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SolarPanelConstruction1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelConstruction2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelConstruction3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>PowerSupplies_SolarPanel</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>75</BuildTimeSeconds>
+
+      <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+      <MaxPowerOutput>0.8</MaxPowerOutput>
+
+      <PanelOrientation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-1</Z>
+      </PanelOrientation>
+      <TwoSidedPanel>true</TwoSidedPanel>
+      <PanelOffset>1.0</PanelOffset>
+      <DamageEffectName>Damage_Electrical_Damaged_SolarPanels</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <PhysicalMaterial>Glass</PhysicalMaterial>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>55</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+      <Id>
+        <TypeId>SolarPanel</TypeId>
+        <SubtypeId>K_Rebellion_SolarPanel</SubtypeId>
+      </Id>
+      <DisplayName>Rebellion Kauti Solar Panel (Rod-Type)</DisplayName>
+      <GuiVisible>false</GuiVisible>
+      <Icon>Textures\GUI\Icons\Solar\Kuatsolpol.dds</Icon>
+      <Description>Salvaged together Solar Panel, in Kauti Cell fashion, of the Rebellion.</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Solar\Rebellion_Solar_Large.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="4" />
+        <Component Subtype="ImperialConstruction" Count="7" />
+        <Component Subtype="SolarCircuitry" Count="8" />
+        <Component Subtype="Computer" Count="2" />
+        <Component Subtype="TranspariSteel" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <Center x="0" y="0" z="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+
+      </MountPoints>
+
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SolarPanelConstruction1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelConstruction2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelConstruction3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Rebellion_SolarPanel</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+
+      <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+      <MaxPowerOutput>0.7</MaxPowerOutput>
+
+      <PanelOrientation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-1</Z>
+      </PanelOrientation>
+      <TwoSidedPanel>true</TwoSidedPanel>
+      <PanelOffset>1.0</PanelOffset>
+      <DamageEffectName>Damage_Electrical_Damaged_SolarPanels</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <PhysicalMaterial>Glass</PhysicalMaterial>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>55</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+      <Id>
+        <TypeId>SolarPanel</TypeId>
+        <SubtypeId>K_Rebellion_SentryTower_Solar</SubtypeId>
+      </Id>
+      <DisplayName>Rebellion Kauti Sentry-Tower Solar</DisplayName>
+      <GuiVisible>false</GuiVisible>
+      <Icon>Textures\GUI\Icons\Solar\Kuatsolpol.dds</Icon>
+      <Description>Salvaged together Solar Panel, in Kauti Cell fashion, of the Rebellion.</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Security\Rebellion_Turret_ScoutTower_Solar_Large.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="4" />
+        <Component Subtype="ImperialConstruction" Count="7" />
+        <Component Subtype="SolarCircuitry" Count="8" />
+        <Component Subtype="Computer" Count="2" />
+        <Component Subtype="TranspariSteel" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <Center x="0" y="0" z="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+
+      </MountPoints>
+
+      <BlockPairName>K_Rebellion_SentryTower_Solar</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+
+      <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+      <MaxPowerOutput>0.3</MaxPowerOutput>
+
+      <PanelOrientation>
+        <X>0</X>
+        <Y>-1</Y>
+        <Z>0</Z>
+      </PanelOrientation>
+      <TwoSidedPanel>true</TwoSidedPanel>
+      <PanelOffset>1.0</PanelOffset>
+      <DamageEffectName>Damage_Electrical_Damaged_SolarPanels</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <PhysicalMaterial>Glass</PhysicalMaterial>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>55</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <CubeBlocks>
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_1</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_1</DisplayName>
+	  <Model>Models\Components\K_Imperial_Components_Box_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Box.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock1</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_2</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_2</DisplayName>
+	  <Model>Models\Components\K_Imperial_Components_Conduits_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_2.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock2</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>
+
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_3</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_3</DisplayName>
+	  <Model>Models\Components\K_Imperial_Components_Crate_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_3.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock3</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>    
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_4</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_4</DisplayName>
+	  <Model>Models\Components\K_Imperial_Components_DuraSteelCrate_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_4.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock4</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_5</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_5</DisplayName>
+	  <Model>Models\Components\K_Imperial_Components_Fission_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_5.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock5</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>
+
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_6</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_6</DisplayName>
+	  <Model>Models\Components\K_Imperial_Components_HeavyConduit_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_6.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock6</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>    
+
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_7</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_7</DisplayName>
+	  <Model>Models\Components\K_Imperial_Components_PowerCell_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_7.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock7</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_8</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_8</DisplayName>
+	  <Model>Models\Components\K_Imperial_Components_PowerComverter_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_8.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock8</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>
+
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_9</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_9</DisplayName>
+	  <Model>Models\Components\K_Imperial_Components_PowerConverter_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_10.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock9</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>    
+
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_10</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_10</DisplayName>
+	  <Model>Models\Components\K_Imperial_Components_ProductionControl_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_10.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock10</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_11</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_11</DisplayName>
+	  <Model>Models\Components\K_Imperial_Components_Storage_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_12.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock11</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>
+
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_12</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_12</DisplayName>
+	  <Model>Models\Components\K_Imperial_Components_Supplies_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_12.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock12</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>    
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_13</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_13</DisplayName>
+	  <Model>Models\Components\K_Imperial_Components_TurboLaser_Battery_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_13.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock13</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_14</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_14</DisplayName>
+	  <Model>Models\Components\K_Imperial_Components_TurboLaser_Mechanism_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_14.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock14</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>
+
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_15</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_15</DisplayName>
+	  <Model>Models\Components\K_Imperial_Components_WeaponCapacitor_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_15.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock15</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>    
+
+  </CubeBlocks>
+</Definitions>

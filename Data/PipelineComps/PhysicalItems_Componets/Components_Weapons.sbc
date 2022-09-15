@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Components>
+
+    <Component>      <!--          Blaster           -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Blaster_Mechanism</SubtypeId>
+      </Id>
+      <DisplayName>Blaster Mechanisim</DisplayName>
+      <ExtraInventoryTooltipLine>Republic Basic Component. Produced by Light Factory, Micro Factory.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_15.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>3</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_WeaponCapacitor_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>25</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>25</Health>
+      <MinimalPricePerUnit>545</MinimalPricePerUnit>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+
+
+    <Component>      <!--           Turbolaser           -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>TurboLaser_Part</SubtypeId>
+      </Id>
+      <DisplayName>Blaster Mechanisim (Laser)</DisplayName>
+      <ExtraInventoryTooltipLine>Republic Advanced Component. Produced by Advanced Factory.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_13.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>35</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Components\K_Imperial_Components_TurboLaser_Battery_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>25</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>25</Health>
+      <MinimalPricePerUnit>560000</MinimalPricePerUnit>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+
+    <Component>      <!--        Maser             -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Maser_Mechanism</SubtypeId>
+      </Id>
+      <DisplayName>Blaster Mechanisim (Maser)</DisplayName>
+      <ExtraInventoryTooltipLine>Chiss Weaponry Component. Produced by Advanced Factory.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Ingot_2_7.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>5</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Resources\K_Imperial_Particles_Ion_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>25</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>25</Health>
+      <MinimalPricePerUnit>750</MinimalPricePerUnit>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+
+    <Component>      <!--      Capacitor, Ion               -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>IonCapacitor</SubtypeId>
+      </Id>
+      <DisplayName>Blaster Mechanisim (Ionic)</DisplayName>
+      <ExtraInventoryTooltipLine>Republic Advanced Component. Produced by Advanced Factory.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_5.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>40</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_Fission_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>40</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>40</Health>
+      <MinimalPricePerUnit>25000</MinimalPricePerUnit>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+
+  </Components>
+</Definitions>

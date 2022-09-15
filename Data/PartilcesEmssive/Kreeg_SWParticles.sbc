@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<ParticleEffects>
 		<ParticleEffect xsi:type="MyObjectBuilder_ParticleEffect">
 			<Id>
@@ -405,7 +406,7 @@
 						</Property>
 					</Properties>
 				</ParticleGeneration>
-				
+
 			</ParticleGenerations>
 			<ParticleLights />
 			<ParticleSounds />
@@ -715,7 +716,7 @@
 						<Property Name="Streaks" Type="Bool" AnimationType="Const">
 							<ValueBool>false</ValueBool>
 						</Property>
-						<Property Name="Rotation reference" Type="Enum" AnimationType="Const"> <!-- [0] "Camera", [1] "Local", [2] "Local and camera" -->
+						<Property Name="Rotation reference" Type="Enum" AnimationType="Const">							<!-- [0] "Camera", [1] "Local", [2] "Local and camera" -->
 							<ValueInt>0</ValueInt>
 						</Property>
 						<Property Name="Angle" Type="Vector3" AnimationType="Const">
@@ -1213,7 +1214,7 @@
 			<ParticleLights />
 			<ParticleSounds />
 		</ParticleEffect>
-		
+
 		<ParticleEffect xsi:type="MyObjectBuilder_ParticleEffect">
 			<Id>
 				<TypeId>ParticleEffect</TypeId>
@@ -1519,7 +1520,7 @@
 						<Property Name="Streaks" Type="Bool" AnimationType="Const">
 							<ValueBool>false</ValueBool>
 						</Property>
-						<Property Name="Rotation reference" Type="Enum" AnimationType="Const"> <!-- [0] "Camera", [1] "Local", [2] "Local and camera" -->
+						<Property Name="Rotation reference" Type="Enum" AnimationType="Const">							<!-- [0] "Camera", [1] "Local", [2] "Local and camera" -->
 							<ValueInt>0</ValueInt>
 						</Property>
 						<Property Name="Angle" Type="Vector3" AnimationType="Const">
@@ -2017,7 +2018,7 @@
 			<ParticleLights />
 			<ParticleSounds />
 		</ParticleEffect>
-		
+
 		<ParticleEffect xsi:type="MyObjectBuilder_ParticleEffect">
 			<Id>
 				<TypeId>ParticleEffect</TypeId>
@@ -2323,7 +2324,7 @@
 						<Property Name="Streaks" Type="Bool" AnimationType="Const">
 							<ValueBool>false</ValueBool>
 						</Property>
-						<Property Name="Rotation reference" Type="Enum" AnimationType="Const"> <!-- [0] "Camera", [1] "Local", [2] "Local and camera" -->
+						<Property Name="Rotation reference" Type="Enum" AnimationType="Const">							<!-- [0] "Camera", [1] "Local", [2] "Local and camera" -->
 							<ValueInt>0</ValueInt>
 						</Property>
 						<Property Name="Angle" Type="Vector3" AnimationType="Const">
@@ -2821,7 +2822,7 @@
 			<ParticleLights />
 			<ParticleSounds />
 		</ParticleEffect>
-		
+
 		<ParticleEffect xsi:type="MyObjectBuilder_ParticleEffect">
 			<Id>
 				<TypeId>ParticleEffect</TypeId>
@@ -3127,7 +3128,7 @@
 						<Property Name="Streaks" Type="Bool" AnimationType="Const">
 							<ValueBool>false</ValueBool>
 						</Property>
-						<Property Name="Rotation reference" Type="Enum" AnimationType="Const"> <!-- [0] "Camera", [1] "Local", [2] "Local and camera" -->
+						<Property Name="Rotation reference" Type="Enum" AnimationType="Const">							<!-- [0] "Camera", [1] "Local", [2] "Local and camera" -->
 							<ValueInt>0</ValueInt>
 						</Property>
 						<Property Name="Angle" Type="Vector3" AnimationType="Const">
@@ -3625,9 +3626,9 @@
 			<ParticleLights />
 			<ParticleSounds />
 		</ParticleEffect>
-		
-		
-		
+
+
+
 	</ParticleEffects>
 </Definitions>
 

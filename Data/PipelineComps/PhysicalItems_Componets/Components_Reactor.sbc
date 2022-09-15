@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Components>
+
+
+    <Component>      <!--         Reactor Component, Fission            -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>FissionComponent</SubtypeId>
+      </Id>
+      <DisplayName>Reactor Comp. (Fission)</DisplayName>
+      <ExtraInventoryTooltipLine>Republic Advanced Component. Produced by Advanced Factory.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Ingot_2_14.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>40</Mass>
+      <Volume>5</Volume>
+      <Model>Models\Resources\K_Resource_SalvageTech_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>5</Health>
+      <MinimalPricePerUnit>35000</MinimalPricePerUnit>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+
+    <Component>      <!--       Reactor Components, Controller               -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>FissionAdvancedController</SubtypeId>
+      </Id>
+      <DisplayName>Reactor Comp. (Advanced Fission)</DisplayName>
+      <ExtraInventoryTooltipLine>Republic Advanced Component. Produced by Advanced Factory.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Ingot_2_14.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>15</Mass>
+      <Volume>2</Volume>
+      <Model>Models\Resources\K_Resource_SalvageTech_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>5</Health>
+      <MinimalPricePerUnit>65000</MinimalPricePerUnit>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+
+    <Component>      <!--             Reactor Component, Ionic        -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Reactors_Ionic</SubtypeId>
+      </Id>
+      <DisplayName>Reactor Comp. (Ion)</DisplayName>
+      <ExtraInventoryTooltipLine>Republic Advanced Component. Produced by Advanced Factory.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Ingot_2_14.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>40</Mass>
+      <Volume>5</Volume>
+      <Model>Models\Resources\K_Resource_SalvageTech_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>5</Health>
+      <MinimalPricePerUnit>50000</MinimalPricePerUnit>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+
+  </Components>
+</Definitions>

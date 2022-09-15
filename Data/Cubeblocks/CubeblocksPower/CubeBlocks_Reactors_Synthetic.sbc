@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>K_Rebellion_Generator_Synth</SubtypeId>
+      </Id>
+      <DisplayName>Synthetic Reactor (Class III)</DisplayName>
+      <Icon>Textures\GUI\Icons\Fuelburners\impsynth.dds</Icon>
+      <Description></Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Power\Rebellion_Reactor_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="100" />
+        <Component Subtype="ImperialConstruction" Count="80" />
+        <Component Subtype="PowerGen_Basics" Count="8" />
+        <Component Subtype="StandardCabling" Count="16" />
+        <Component Subtype="FissionComponent" Count="200" />
+        <Component Subtype="ImperialGeneralParts" Count="12" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="DuraSteel" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>K_Rebellion_Generator_Synth</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>100</BuildTimeSeconds>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+
+      <MaxPowerOutput>45</MaxPowerOutput>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+
+      <!-- 
+                Values are volume fill ratio, means how much fuel reactor pulls from conveyor system to the inventory.
+                If volume fill ratio is bellow minimum, reactor starts pulling fuel up to maximum value.
+                Warning: Changing these values will affect performance.
+            -->
+      <InventoryFillFactorMin>0.001</InventoryFillFactorMin>
+      <InventoryFillFactorMax>0.002</InventoryFillFactorMax>
+
+      <!-- 
+                This is how much of fuel is pulled from conveyor system in one tick.
+                It's in minutes, means that it will pull X minutes of fuel in one tick.
+                Warning: Changing this value will affect performance.
+            -->
+      <FuelPullAmountFromConveyorInMinutes>10.0</FuelPullAmountFromConveyorInMinutes>
+
+      <FuelInfos>
+        <FuelInfo>
+          <Id>
+            <TypeId>Ingot</TypeId>
+            <SubtypeId>SyntheticFuel</SubtypeId>
+          </Id>
+        </FuelInfo>
+      </FuelInfos>
+
+      <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
+      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+      <DamagedSound>ParticleReactor</DamagedSound>
+      <EmissiveColorPreset>K_Imperial_Factory_Red</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>K_Imperial_Reactors_SythFuel_Basic</SubtypeId>
+      </Id>
+      <DisplayName>Synthetic Reactor (Class II)</DisplayName>
+      <Icon>Textures\GUI\Icons\Fuelburners\Resynth.dds</Icon>
+      <Description></Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="3" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Power\K_Imperial_Reactor_PowerCoreAnimated_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="150" />
+        <Component Subtype="ImperialConstruction" Count="120" />
+        <Component Subtype="PowerGen_Basics" Count="12" />
+        <Component Subtype="StandardCabling" Count="24" />
+        <Component Subtype="FissionComponent" Count="300" />
+        <Component Subtype="ImperialGeneralParts" Count="18" />
+        <Component Subtype="Computer" Count="75" />
+        <Component Subtype="DuraSteel" Count="90" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.45" File="Models\Power\K_Imperial_CombustionReactor_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.65" File="Models\Power\K_Imperial_CombustionReactor_Large_Constr2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Imperial_Reactors_SythFuel_Basic</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>100</BuildTimeSeconds>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+
+      <MaxPowerOutput>66</MaxPowerOutput>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+
+      <!-- 
+                Values are volume fill ratio, means how much fuel reactor pulls from conveyor system to the inventory.
+                If volume fill ratio is bellow minimum, reactor starts pulling fuel up to maximum value.
+                Warning: Changing these values will affect performance.
+            -->
+      <InventoryFillFactorMin>0.001</InventoryFillFactorMin>
+      <InventoryFillFactorMax>0.002</InventoryFillFactorMax>
+
+      <!-- 
+                This is how much of fuel is pulled from conveyor system in one tick.
+                It's in minutes, means that it will pull X minutes of fuel in one tick.
+                Warning: Changing this value will affect performance.
+            -->
+      <FuelPullAmountFromConveyorInMinutes>10.0</FuelPullAmountFromConveyorInMinutes>
+
+      <FuelInfos>
+        <FuelInfo>
+          <Id>
+            <TypeId>Ingot</TypeId>
+            <SubtypeId>SyntheticFuel</SubtypeId>
+          </Id>
+        </FuelInfo>
+      </FuelInfos>
+      <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
+      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+      <DamagedSound>ParticleReactor</DamagedSound>
+      <EmissiveColorPreset>K_Imperial_Factory_Red</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>PowerSupplies_SyncGenerator</SubtypeId>
+      </Id>
+      <DisplayName>Synthetic Reactor (Class I)</DisplayName>
+      <Icon>Textures\GUI\Icons\Fuelburners\Heavysynth.dds</Icon>
+      <Description></Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Power\K_Imperial_Reactor_AdvancedModel_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="800" />
+        <Component Subtype="ImperialConstruction" Count="70" />
+        <Component Subtype="PowerGen_Basics" Count="40" />
+        <Component Subtype="StandardCabling" Count="40" />
+        <Component Subtype="FissionComponent" Count="2000" />
+        <Component Subtype="ImperialGeneralParts" Count="20" />
+        <Component Subtype="Computer" Count="75" />
+        <Component Subtype="DuraSteel" Count="200" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>PowerSupplies_SyncGenerator</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>100</BuildTimeSeconds>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+
+      <MaxPowerOutput>600</MaxPowerOutput>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+
+      <!-- 
+                Values are volume fill ratio, means how much fuel reactor pulls from conveyor system to the inventory.
+                If volume fill ratio is bellow minimum, reactor starts pulling fuel up to maximum value.
+                Warning: Changing these values will affect performance.
+            -->
+      <InventoryFillFactorMin>0.001</InventoryFillFactorMin>
+      <InventoryFillFactorMax>0.002</InventoryFillFactorMax>
+
+      <!-- 
+                This is how much of fuel is pulled from conveyor system in one tick.
+                It's in minutes, means that it will pull X minutes of fuel in one tick.
+                Warning: Changing this value will affect performance.
+            -->
+      <FuelPullAmountFromConveyorInMinutes>10.0</FuelPullAmountFromConveyorInMinutes>
+
+      <FuelInfos>
+        <FuelInfo>
+          <Id>
+            <TypeId>Ingot</TypeId>
+            <SubtypeId>SyntheticFuel</SubtypeId>
+          </Id>
+        </FuelInfo>
+      </FuelInfos>
+      <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
+      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+      <DamagedSound>ParticleReactor</DamagedSound>
+      <EmissiveColorPreset>K_Imperial_Factory_Red</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

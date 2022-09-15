@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+      <Id>
+        <TypeId>Cockpit</TypeId>
+        <SubtypeId>OpenCockpitSmalllol</SubtypeId>
+      </Id>
+      <DisplayName>Lololol Cockpit</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\OpenCockpitSmall.dds</Icon>
+      <Description>Why tho?</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="1" />
+      <Model>Models\Cubes\Large\StandingBridge.mwm</Model>
+      <CharacterAnimation>Jetpack</CharacterAnimation>
+      <ModelOffset x="0" y=".5" z="1" />
+      <Components>
+        <Component Subtype="InteriorPlate" Count="10" />
+        <Component Subtype="Construction" Count="15" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Computer" Count="15" />
+        <Component Subtype="Display" Count="2" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="InteriorPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Display" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OpenCockpitSmallConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OpenCockpitSmallConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>OpenCockpitNope</BlockPairName>
+      <ScreenAreas>
+        <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="512" ScreenWidth="5" ScreenHeight="3" Script="TSS_ArtificialHorizon" />
+      </ScreenAreas>
+      <VoxelPlacement>
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <EnableFirstPerson>true</EnableFirstPerson>
+      <EnableShipControl>true</EnableShipControl>
+      <EnableBuilderCockpit>false</EnableBuilderCockpit>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
+      <IsPressurized>false</IsPressurized>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <PCU>50</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_BeaconDefinition">
+      <Id>
+        <TypeId>Beacon</TypeId>
+        <SubtypeId>K_Imperial_Tech_RepulsorJammingDevice</SubtypeId>
+      </Id>
+      <DisplayName>Decorative Beacon</DisplayName>
+      <IsStandAlone>true</IsStandAlone>
+      <Description></Description>
+      <Icon>Textures\GUI\Icons\Cosmetic\REbeacon.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Imperial\K_Imperial_RepulsorLiftJammer_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="125" />
+        <Component Subtype="StandardCabling" Count="425" />
+        <Component Subtype="PowerConverter" Count="42" />
+        <Component Subtype="ImperialGeneralParts" Count="300" />
+        <Component Subtype="PowerGen_Basics" Count="65" />
+        <Component Subtype="StandardPowerCell" Count="300"/>
+        <Component Subtype="Computer" Count="300" />
+        <Component Subtype="ImperialConstruction" Count="224" />
+        <Component Subtype="DuraSteel" Count="400" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>K_Imperial_Tech_RepulsorJammingDevice</BlockPairName>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <BuildTimeSeconds>50</BuildTimeSeconds>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <Flare>BeaconLarge</Flare>
+      <EmissiveColorPreset>Beacon</EmissiveColorPreset>
+      <DestroyEffect>Imperial_Explosion_Sparks</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Fighter_MassDriver</SubtypeId>
+      </Id>
+      <DisplayName>Republic Mass-Driver F</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="4" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Imperial\K_Imperial_Fighter_MassDriver_Small.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Fighter_MassDriver</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Sounds>
     <!--IHarpo, a glorious man. Damnable Keen file structure.-->
     <Sound>
@@ -13,21 +14,21 @@
       <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
       <DynamicMusicAmount>3</DynamicMusicAmount>
       <Volume>0.3</Volume>
-	  <Loopable>false</Loopable>
+      <Loopable>false</Loopable>
       <Waves>
         <Wave Type="D3">
           <Start>Audio\Weapons\BlasterCannon_A.wav</Start>
         </Wave>
-		<Wave Type="D3">
+        <Wave Type="D3">
           <Start>Audio\Weapons\BlasterCannon_B.wav</Start>
         </Wave>
-		<Wave Type="D3">
+        <Wave Type="D3">
           <Start>Audio\Weapons\BlasterCannon_C.wav</Start>
         </Wave>
-        </Waves>
+      </Waves>
     </Sound>
-	
-	 <Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Imperial_LightLaserCannon</SubtypeId>
@@ -38,18 +39,18 @@
       <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
       <DynamicMusicAmount>3</DynamicMusicAmount>
       <Volume>0.3</Volume>
-	  <Loopable>false</Loopable>
+      <Loopable>false</Loopable>
       <Waves>
-   		<Wave Type="D3">
+        <Wave Type="D3">
           <Start>Audio\Weapons\LightCannon_B.wav</Start>
         </Wave>
-		<Wave Type="D3">
+        <Wave Type="D3">
           <Start>Audio\Weapons\LightCannon_C.wav</Start>
         </Wave>
-        </Waves>
+      </Waves>
     </Sound>
-	
-	 <Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Imperial_HeavyLaserCannon</SubtypeId>
@@ -60,21 +61,21 @@
       <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
       <DynamicMusicAmount>3</DynamicMusicAmount>
       <Volume>0.3</Volume>
-	  <Loopable>false</Loopable>
+      <Loopable>false</Loopable>
       <Waves>
         <Wave Type="D3">
           <Start>Audio\Weapons\HeavyBlaster_A.wav</Start>
         </Wave>
-		<Wave Type="D3">
+        <Wave Type="D3">
           <Start>Audio\Weapons\HeavyBlaster_B.wav</Start>
         </Wave>
-		<Wave Type="D3">
+        <Wave Type="D3">
           <Start>Audio\Weapons\HeavyBlaster_C.wav</Start>
         </Wave>
-        </Waves>
+      </Waves>
     </Sound>
-	
-	<Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Imperial_IonCannon</SubtypeId>
@@ -85,15 +86,15 @@
       <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
       <DynamicMusicAmount>3</DynamicMusicAmount>
       <Volume>0.4</Volume>
-	  <Loopable>false</Loopable>
+      <Loopable>false</Loopable>
       <Waves>
         <Wave Type="D3">
           <Start>Audio\IonCannon_A.wav</Start>
         </Wave>
-        </Waves>
+      </Waves>
     </Sound>
-	
-	<Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Imperial_MassDriver</SubtypeId>
@@ -104,15 +105,15 @@
       <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
       <DynamicMusicAmount>3</DynamicMusicAmount>
       <Volume>1</Volume>
-	  <Loopable>false</Loopable>
+      <Loopable>false</Loopable>
       <Waves>
         <Wave Type="D3">
           <Start>Audio\Weapons\MassDriver_Large.wav</Start>
         </Wave>
-	        </Waves>
+      </Waves>
     </Sound>
-	
-	<Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Imperial_Maser</SubtypeId>
@@ -123,15 +124,15 @@
       <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
       <DynamicMusicAmount>3</DynamicMusicAmount>
       <Volume>0.4</Volume>
-	  <Loopable>false</Loopable>
+      <Loopable>false</Loopable>
       <Waves>
         <Wave Type="D3">
           <Start>Audio\Maser_IonCannon_1B.wav</Start>
         </Wave>
-        </Waves>
+      </Waves>
     </Sound>
-	
-	<Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Imperial_BeamWeapon</SubtypeId>
@@ -142,15 +143,15 @@
       <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
       <DynamicMusicAmount>3</DynamicMusicAmount>
       <Volume>0.4</Volume>
-	  <Loopable>false</Loopable>
+      <Loopable>false</Loopable>
       <Waves>
         <Wave Type="D3">
           <Start>Audio\Weapons\Beam_A.wav</Start>
         </Wave>
-        </Waves>
+      </Waves>
     </Sound>
-	
-	<Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Imperial_Launcher</SubtypeId>
@@ -161,15 +162,15 @@
       <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
       <DynamicMusicAmount>3</DynamicMusicAmount>
       <Volume>0.7</Volume>
-	  <Loopable>false</Loopable>
+      <Loopable>false</Loopable>
       <Waves>
         <Wave Type="D3">
           <Start>Audio\TorpedoLaunch_1.wav</Start>
         </Wave>
-        </Waves>
+      </Waves>
     </Sound>
-	
-	<Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Sith_Silence</SubtypeId>
@@ -180,15 +181,15 @@
       <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
       <DynamicMusicAmount>0</DynamicMusicAmount>
       <Volume>0.0</Volume>
-	  <Loopable>false</Loopable>
+      <Loopable>false</Loopable>
       <Waves>
         <Wave Type="D3">
           <Start>Audio\TorpedoLaunch_1.wav</Start>
         </Wave>
-        </Waves>
+      </Waves>
     </Sound>
-	
-	<Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Imperial_TurboLaser</SubtypeId>
@@ -213,10 +214,10 @@
         <Wave Type="D3">
           <Start>Audio\IMP\armco_imp_turblaser_A_4_arc.wav</Start>
         </Wave>
-        </Waves>
-      </Sound>
-	  
-	  <Sound>
+      </Waves>
+    </Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Imperial_Explosion_Generic</SubtypeId>
@@ -238,13 +239,13 @@
         <Wave Type="D3">
           <Start>Audio\Destruction\BlockExplosion_C.wav</Start>
         </Wave>
-		 <Wave Type="D3">
+        <Wave Type="D3">
           <Start>Audio\Destruction\BlockExplosion_D.wav</Start>
         </Wave>
-                </Waves>
-      </Sound>
-	  
-	   <Sound>
+      </Waves>
+    </Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Imperial_Explosion_Cockpit</SubtypeId>
@@ -266,10 +267,10 @@
         <Wave Type="D3">
           <Start>Audio\Destruction\BlockExplosion_D.wav</Start>
         </Wave>
-                </Waves>
-      </Sound>
-	  
-	   <Sound>
+      </Waves>
+    </Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Imperial_Explosion_LargeScale</SubtypeId>
@@ -291,10 +292,10 @@
         <Wave Type="D3">
           <Start>Audio\Destruction\Explosion_C.wav</Start>
         </Wave>
-                </Waves>
-      </Sound>
-	  
-	   <Sound>
+      </Waves>
+    </Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Imperial_Explosion_Glass</SubtypeId>
@@ -313,13 +314,13 @@
         <Wave Type="D3">
           <Start>Audio\Destruction\GenericImpact_A.wav</Start>
         </Wave>
-		<Wave Type="D3">
+        <Wave Type="D3">
           <Start>Audio\Destruction\BlockExplosion_D.wav</Start>
         </Wave>
-                       </Waves>
-      </Sound>
-	  
-	  <Sound>
+      </Waves>
+    </Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Imperial_Explosion_TypeII</SubtypeId>
@@ -338,10 +339,10 @@
         <Wave Type="D3">
           <Start>Audio\Destruction\BlockExplosion_D.wav</Start>
         </Wave>
-                       </Waves>
-      </Sound>
-	  
-	  <Sound>
+      </Waves>
+    </Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Imperial_Explosion_Critical</SubtypeId>
@@ -357,18 +358,18 @@
         <Wave Type="D3">
           <Start>Audio\Destruction\WingDestruction_A.wav</Start>
         </Wave>
-		<!--
+        <!--
         <Wave Type="D3">
           <Start>Audio\Destruction\WingDestruction_B.wav</Start>
         </Wave>
 		-->
-		 <Wave Type="D3">
+        <Wave Type="D3">
           <Start>Audio\Destruction\WingDestruction_C.wav</Start>
-        </Wave> 
-                       </Waves>
-      </Sound>
-	  
-	  <Sound>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Imperial_Explosion_Electronic</SubtypeId>
@@ -390,143 +391,143 @@
         <Wave Type="D3">
           <Start>Audio\Destruction\Electrical_C.wav</Start>
         </Wave>
-                </Waves>
-      </Sound>
-	
-  <Sound>
+      </Waves>
+    </Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Imperial_Cockpit</SubtypeId>
       </Id>
       <Category>BLOCK</Category>
       <MaxDistance>15</MaxDistance>
-        <Volume>0.3</Volume>
+      <Volume>0.3</Volume>
       <Loopable>false</Loopable>
       <Waves>
         <Wave Type="D3">
           <Start>Audio\Destruction\Cockpit_A.wav</Start>
         </Wave>
-		 <Wave Type="D3">
+        <Wave Type="D3">
           <Start>Audio\Destruction\Cockpit_B.wav</Start>
         </Wave>
-		 <Wave Type="D3">
+        <Wave Type="D3">
           <Start>Audio\Destruction\Cockpit_C.wav</Start>
         </Wave>
-		                       </Waves>
-      </Sound>
-	  
-	   <Sound>
+      </Waves>
+    </Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Imperial_Heal</SubtypeId>
       </Id>
       <Category>BLOCK</Category>
       <MaxDistance>15</MaxDistance>
-        <Volume>0.3</Volume>
+      <Volume>0.3</Volume>
       <Loopable>false</Loopable>
       <Waves>
         <Wave Type="D3">
           <Start>Audio\Mechanical\TerminalAccess_A.wav</Start>
         </Wave>
-		 <Wave Type="D3">
+        <Wave Type="D3">
           <Start>Audio\Mechanical\TerminalAccess_A.wav</Start>
         </Wave>
-		 <Wave Type="D3">
+        <Wave Type="D3">
           <Start>Audio\Mechanical\TerminalAccess_A.wav</Start>
         </Wave>
-		                       </Waves>
-      </Sound>
-	  
-	  <Sound>
+      </Waves>
+    </Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Imperial_IdleDroidNoise</SubtypeId>
       </Id>
-       <Category>BLOCK</Category>
-       <MaxDistance>9</MaxDistance>
+      <Category>BLOCK</Category>
+      <MaxDistance>9</MaxDistance>
       <UpdateDistance>30</UpdateDistance>
-        <Volume>0.3</Volume>
+      <Volume>0.3</Volume>
       <Loopable>true</Loopable>
       <Waves>
         <Wave Type="D3">
-       		    <Loop>Audio\Mechanical\TheRatDroidSequence.wav</Loop>
-			
+          <Loop>Audio\Mechanical\TheRatDroidSequence.wav</Loop>
+
         </Wave>
-		                       </Waves>
-      </Sound>
-	  
-	   <Sound>
+      </Waves>
+    </Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Imperial_IdleReactor_Waves</SubtypeId>
       </Id>
-       <Category>BLOCK</Category>
-       <MaxDistance>16</MaxDistance>
+      <Category>BLOCK</Category>
+      <MaxDistance>16</MaxDistance>
       <UpdateDistance>30</UpdateDistance>
-        <Volume>1</Volume>
+      <Volume>1</Volume>
       <Loopable>true</Loopable>
       <Waves>
         <Wave Type="D3">
-       		    <Loop>Audio\IMP\PowerCore_Idles.wav</Loop>
-			
+          <Loop>Audio\IMP\PowerCore_Idles.wav</Loop>
+
         </Wave>
-		                       </Waves>
-      </Sound>
-	  
-	   <Sound>
+      </Waves>
+    </Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Imperial_IdleProbeDroid</SubtypeId>
       </Id>
-       <Category>BLOCK</Category>
-       <MaxDistance>30</MaxDistance>
+      <Category>BLOCK</Category>
+      <MaxDistance>30</MaxDistance>
       <UpdateDistance>100</UpdateDistance>
-        <Volume>0.7</Volume>
+      <Volume>0.7</Volume>
       <Loopable>true</Loopable>
       <Waves>
         <Wave Type="D3">
-       		    <Loop>Audio\Mechanical\ProbeDroid_A_Long.wav</Loop>
-			
+          <Loop>Audio\Mechanical\ProbeDroid_A_Long.wav</Loop>
+
         </Wave>
-		                       </Waves>
-      </Sound>
-	  
-	   <Sound>
+      </Waves>
+    </Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Imperial_FactoryWorking</SubtypeId>
       </Id>
       <Category>BLOCK</Category>
-       <MaxDistance>9</MaxDistance>
+      <MaxDistance>9</MaxDistance>
       <UpdateDistance>30</UpdateDistance>
-        <Volume>0.3</Volume>
+      <Volume>0.3</Volume>
       <Loopable>true</Loopable>
       <Waves>
         <Wave Type="D3">
-        		    <Loop>Audio\Mechanical\FactoryPress_A.wav</Loop>
-			          </Wave>
-		 		                       </Waves>
-      </Sound>
-	  
-		  
-	  <Sound>
+          <Loop>Audio\Mechanical\FactoryPress_A.wav</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Imperial_IdleElectronics</SubtypeId>
       </Id>
-       <Category>BLOCK</Category>
-       <MaxDistance>12</MaxDistance>
+      <Category>BLOCK</Category>
+      <MaxDistance>12</MaxDistance>
       <UpdateDistance>30</UpdateDistance>
-        <Volume>0.2</Volume>
+      <Volume>0.2</Volume>
       <Loopable>true</Loopable>
       <Waves>
         <Wave Type="D3">
-        		    <Loop>Audio\Mechanical\IdleWarble_A.wav</Loop>
-		        </Wave>
-				                       </Waves>
-      </Sound>
-  
-  <Sound>
+          <Loop>Audio\Mechanical\IdleWarble_A.wav</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Imperial_Maser_Light</SubtypeId>
@@ -537,14 +538,14 @@
       <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
       <DynamicMusicAmount>3</DynamicMusicAmount>
       <Volume>0.3</Volume>
-	  <Loopable>false</Loopable>
+      <Loopable>false</Loopable>
       <Waves>
         <Wave Type="D3">
           <Start>Audio\Weapons\MaserWeapon.wav</Start>
         </Wave>
-		        </Waves>
+      </Waves>
     </Sound>
-  
-  
+
+
   </Sounds>
 </Definitions>

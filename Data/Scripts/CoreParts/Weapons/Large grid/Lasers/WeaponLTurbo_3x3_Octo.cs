@@ -23,7 +23,7 @@ namespace Scripts {
                         AzimuthPartId = "ImpOctoTurret_Rot", // Your Rotating Subpart, the bit that moves sideways.
                         ElevationPartId = "ImpOctoTurret_Ele",// Your Elevating Subpart, that bit that moves up.
                         DurabilityMod = 0.25f, // GeneralDamageMultiplier, 0.25f = 25% damage taken.
-                        IconName = "Laser turrets.dds" // Overlay for block inventory slots, like reactors, refineries, etc.
+                        IconName = "\\Textures\\GUI\\Icons\\Turrets\\Octo_Turbolaser-Cannon_3x3.dds" // Overlay for block inventory slots, like reactors, refineries, etc.
                     },             
                  },
                 Muzzles = new[] {

@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <CubeBlocks>
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_Re_1</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_Re_1</DisplayName>
+	  <Model>Models\Resources\K_Imperial_Ingot_Alum_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Resources\Ingots\SW_Resources_Ingot_1.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock_Re_1</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_Re_2</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_Re_2</DisplayName>
+	  <Model>Models\Resources\K_Imperial_Ingot_Beskar_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Resources\Ingots\SW_Resources_Ingot_2.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock_Re_2</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>
+
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_Re_3</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_Re_3</DisplayName>
+	  <Model>Models\Resources\K_Imperial_Ingot_Carbonite_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Resources\Ingots\SW_Resources_Ingot_3.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock_Re_3</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>    
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_Re_4</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_Re_4</DisplayName>
+	  <Model>Models\Resources\K_Imperial_Ingot_Cortosis_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Resources\Ingots\SW_Resources_Ingot_4.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock_Re_4</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_Re_5</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_Re_5</DisplayName>
+	  <Model>Models\Resources\K_Imperial_Ingot_Dooninum_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Resources\Ingots\SW_Resources_Ingot_5.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock_Re_5</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>
+
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_Re_6</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_Re_6</DisplayName>
+	  <Model>Models\Resources\K_Imperial_Ingot_Doonium_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Resources\Ingots\SW_Resources_Ingot_6.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock_Re_6</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>    
+
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_Re_7</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_Re_7</DisplayName>
+	  <Model>Models\Resources\K_Imperial_Ingot_Exonium_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Resources\Ingots\SW_Resources_Ingot_7.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock_Re_7</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_Re_8</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_Re_8</DisplayName>
+	  <Model>Models\Resources\K_Imperial_Ingot_Guerrerite_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Resources\Ingots\SW_Resources_Ingot_8.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock_Re_8</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>
+
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_Re_9</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_Re_9</DisplayName>
+	  <Model>Models\Resources\K_Imperial_Ingot_Hollinium_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Resources\Ingots\SW_Resources_Ingot_9.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock_Re_9</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>    
+
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_Re_10</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_Re_10</DisplayName>
+	  <Model>Models\Resources\K_Imperial_Ingot_Lignan_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Resources\Ingots\SW_Resources_Ingot_10.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock_Re_10</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_Re_11</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_Re_11</DisplayName>
+	  <Model>Models\Resources\K_Imperial_Ingot_Lommite_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Resources\Ingots\SW_Resources_Ingot_11.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock_Re_11</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>
+
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_Re_12</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_Re_12</DisplayName>
+	  <Model>Models\Resources\K_Imperial_Ingot_Norax_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Resources\Ingots\SW_Resources_Ingot_12.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock_Re_12</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>    
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_Re_13</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_Re_13</DisplayName>
+	  <Model>Models\Resources\K_Imperial_Ingot_Phrik_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Resources\Ingots\SW_Resources_Ingot_13.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock_Re_13</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_Re_14</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_Re_14</DisplayName>
+	  <Model>Models\Resources\K_Imperial_Ingot_Polymer_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Resources\Ingots\SW_Resources_Ingot_14.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock_Re_14</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>
+
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_Re_15</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_Re_15</DisplayName>
+	  <Model>Models\Resources\K_Imperial_Ingot_Rubindum_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Resources\Ingots\SW_Resources_Ingot_15.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock_Re_15</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>    
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_Re_2_1</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_Re_2_1</DisplayName>
+	  <Model>Models\Resources\K_Imperial_Ingot_SynthFuel_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock_Re_2_1</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_Re_2_2</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_Re_2_2</DisplayName>
+	  <Model>Models\Resources\K_Imperial_Ingot_SynthFuel_Spinner_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock_Re_2_2</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>
+
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_Re_2_3</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_Re_2_3</DisplayName>
+	  <Model>Models\Resources\K_Imperial_Ingot_Tibanna_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock_Re_2_3</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>    
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_Re_2_4</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_Re_2_4</DisplayName>
+	  <Model>Models\Resources\K_Imperial_Ingot_TibannaSpinner_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock_Re_2_4</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_Re_2_5</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_Re_2_5</DisplayName>
+	  <Model>Models\Resources\K_Imperial_Ingot_Zersium_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock_Re_2_5</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>
+
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_Re_2_6</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_Re_2_6</DisplayName>
+	  <Model>Models\Resources\K_Imperial_Ore_Dooninum_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock_Re_2_6</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>    
+
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_Re_2_7</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_Re_2_7</DisplayName>
+	  <Model>Models\Resources\K_Imperial_Ore_Doonium_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock_Re_2_7</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_Re_2_8</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_Re_2_8</DisplayName>
+	  <Model>Models\Resources\K_Imperial_Particles_Ion_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock_Re_2_8</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>
+
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_Re_2_9</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_Re_2_9</DisplayName>
+	  <Model>Models\Resources\K_Imperial_Particles_Proton_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock_Re_2_9</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>    
+
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_Re_2_10</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_Re_2_10</DisplayName>
+	  <Model>Models\Resources\K_Imperial_Particles_Proton_Spinner_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock_Re_2_10</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_Re_2_11</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_Re_2_11</DisplayName>
+	  <Model>Models\Resources\K_Resource_SalvageChemicals_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock_Re_2_11</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>
+
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_Re_2_12</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_Re_2_12</DisplayName>
+	  <Model>Models\Resources\K_Resource_SalvageDarksideFragments_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock_Re_2_12</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>    
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_Re_2_13</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_Re_2_13</DisplayName>
+	  <Model>Models\Resources\K_Resource_SalvageMetal_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock_Re_2_13</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_Re_2_14</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_Re_2_14</DisplayName>
+	  <Model>Models\Resources\K_Resource_SalvageTech_Small.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock_Re_2_14</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>
+
+
+	<Definition>
+          <Id>
+                <TypeId>CubeBlock</TypeId>
+    <SubtypeId>Comptester_Re_2_15</SubtypeId>
+          </Id>
+    <DisplayName>Comptester_Re_2_15</DisplayName>
+	  <Model>Models\Armor_Sith_Apprentice\K_Imperial_Plate_RoyalEdgeDouble_Large.mwm</Model>      
+                <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+                <CubeSize>Small</CubeSize>
+	              <GuiVisible>true</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1" />
+                <ModelOffset x="0" y="0" z="0" />
+                <Components>
+                  <Component Subtype="DuraSteel" Count="1" />
+                </Components>
+                <CriticalComponent Subtype="DuraSteel" Index="0" />
+                <BlockPairName>K_Imperial_ComponentTestBlock_Re_2_15</BlockPairName>
+                <EdgeType>Light</EdgeType>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

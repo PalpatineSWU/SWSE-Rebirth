@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
+  <!--
+    Microsoft ResX Schema
+
     Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
     associated with the data types.
-    
+
     Example:
-    
+
     ... ado.net/XML headers & schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
@@ -26,79 +26,79 @@
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
-                
-    There are any number of "resheader" rows that contain simple 
+
+    There are any number of "resheader" rows that contain simple
     name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
     mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
     extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
     read any of the formats listed below.
-    
+
     mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
-    
+
     mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
+    value   : The object must be serialized into a byte array
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -119,119 +119,142 @@
   </resheader>
   <data name="Advanced_Hyerbaride" xml:space="preserve">
     <value>Hyperbaride</value>
+    <comment/>
   </data>
   <data name="Alum" xml:space="preserve">
     <value>Raw Alum</value>
+    <comment/>
   </data>
   <data name="Alum1" xml:space="preserve">
     <value>Alum</value>
+    <comment/>
   </data>
   <data name="Beskar" xml:space="preserve">
     <value>Raw Beskar</value>
+    <comment/>
   </data>
   <data name="Beskar1" xml:space="preserve">
     <value>Mandolorian Iron</value>
+    <comment/>
   </data>
   <data name="Carbonite" xml:space="preserve">
     <value>Raw Carbonite</value>
+    <comment/>
   </data>
   <data name="Carbonite1" xml:space="preserve">
     <value>Carbonite</value>
-  </data>
-  <data name="Cortosis" xml:space="preserve">
-    <value>Raw Cortosis</value>
-  </data>
-  <data name="Cortosis1" xml:space="preserve">
-    <value>Cortosis</value>
-  </data>
-  <data name="Dooninum" xml:space="preserve">
-    <value>Raw Dooninum</value>
+    <comment/>
   </data>
   <data name="Dooninum" xml:space="preserve">
     <value>Durasteel</value>
+    <comment/>
   </data>
   <data name="IconSymbol_Durasteel" xml:space="preserve">
     <value>Du</value>
+    <comment/>
   </data>
   <data name="Exonium" xml:space="preserve">
     <value>Raw Exonium</value>
+    <comment/>
   </data>
   <data name="Exonium1" xml:space="preserve">
     <value>Exonium</value>
+    <comment/>
   </data>
   <data name="Guerrerite" xml:space="preserve">
     <value>Raw Guerrerite</value>
+    <comment/>
   </data>
   <data name="Guerrerite1" xml:space="preserve">
     <value>Guerrerite</value>
+    <comment/>
   </data>
   <data name="Hollinium" xml:space="preserve">
     <value>Raw Hollinium</value>
+    <comment/>
   </data>
   <data name="Hollinium1" xml:space="preserve">
     <value>Hollinium</value>
+    <comment/>
   </data>
   <data name="Ions" xml:space="preserve">
     <value>Stablized Ionic Particles</value>
+    <comment/>
   </data>
   <data name="Lignan" xml:space="preserve">
     <value>Lignan Fragments</value>
+    <comment/>
   </data>
   <data name="Lignan1" xml:space="preserve">
     <value>Lignan</value>
+    <comment/>
   </data>
   <data name="Lommite" xml:space="preserve">
     <value>Lommite Ore</value>
+    <comment/>
   </data>
   <data name="Lommite1" xml:space="preserve">
     <value>Lommite</value>
+    <comment/>
   </data>
   <data name="Norax" xml:space="preserve">
     <value>Raw Norax</value>
+    <comment/>
   </data>
   <data name="Norax1" xml:space="preserve">
     <value>Norax</value>
+    <comment/>
   </data>
   <data name="Phrik" xml:space="preserve">
     <value>Raw Phrik</value>
+    <comment/>
   </data>
-   <data name="Anthracite" xml:space="preserve">
+  <data name="Anthracite" xml:space="preserve">
     <value>Anthracite</value>
+    <comment/>
   </data>
   <data name="Phrik1" xml:space="preserve">
     <value>Phrik</value>
+    <comment/>
   </data>
   <data name="Polymer" xml:space="preserve">
     <value>Polymer</value>
-  </data>
-  <data name="PolymerAlloy" xml:space="preserve">
-    <value>Monomorphic-Alloy</value>
+    <comment/>
   </data>
   <data name="Protons" xml:space="preserve">
     <value>Stablized Proton Particles</value>
+    <comment/>
   </data>
   <data name="Rubindum" xml:space="preserve">
     <value>Raw Rubindum</value>
+    <comment/>
   </data>
   <data name="Rubindum1" xml:space="preserve">
     <value>Rubindum</value>
+    <comment/>
   </data>
   <data name="Shraki" xml:space="preserve">
     <value>Raw Shraki</value>
+    <comment/>
   </data>
-   <data name="Shraki1" xml:space="preserve">
+  <data name="Shraki1" xml:space="preserve">
     <value>Kyber Crystal</value>
+    <comment/>
   </data>
   <data name="TibannaCanisters" xml:space="preserve">
     <value>Tibanna Canisters</value>
+    <comment/>
   </data>
   <data name="Zalfaric" xml:space="preserve">
     <value>Raw Zalfaric</value>
+    <comment/>
   </data>
   <data name="Zersium" xml:space="preserve">
     <value>Raw Zersium</value>
+    <comment/>
   </data>
   <data name="Zersium1" xml:space="preserve">
     <value>Zersium</value>
+    <comment/>
   </data>
 </root>

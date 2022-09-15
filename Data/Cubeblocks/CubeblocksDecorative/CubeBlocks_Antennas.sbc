@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+
+    <Definition xsi:type="MyObjectBuilder_RadioAntennaDefinition">
+      <Id>
+        <TypeId>RadioAntenna</TypeId>
+        <SubtypeId>K_Imperial_Dropship_Guild_AntennaSpawner</SubtypeId>
+      </Id>
+      <DisplayName>Civilian Dropship Antenna</DisplayName>
+      <Description> Relay Communications system, used for extending communication range across regions.
+	   Mod Note: Typically used for Spawning NPCs.</Description>
+      <Icon>Textures\GUI\Icons\BatteryandBio\Bioant.dds</Icon>
+      <IsStandAlone>true</IsStandAlone>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="4" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Guild\K_Imperial_GuildDropship_Antenna_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="60" />
+        <Component Subtype="StandardCabling" Count="40" />
+        <Component Subtype="ImperialGeneralParts" Count="60" />
+        <Component Subtype="ImperialConstruction" Count="30" />
+        <Component Subtype="Computer" Count="8" />
+        <Component Subtype="CommunicationsEquipment" Count="40" />
+        <Component Subtype="DuraSteel" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="CommunicationsEquipment" Index="0" />
+      <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="3" />
+      <BlockPairName>K_Imperial_Dropship_Guild_AntennaSpawner</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>Imperial_Explosion_Sparks</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
+      <EmissiveColorPreset>K_Imperial_Ship_EmissiveSet</EmissiveColorPreset>
+      <PCU>100</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_RadioAntennaDefinition">
+      <Id>
+        <TypeId>RadioAntenna</TypeId>
+        <SubtypeId>K_Imperial_ShieldGeneratorProp</SubtypeId>
+      </Id>
+      <DisplayName>Republic Shield Array</DisplayName>
+      <Icon>Textures\GUI\Icons\Cosmetic\Sheildgen.dds</Icon>
+      <Description>Description_RadioAntenna</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="5" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_ShieldGeneratorProp_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="60" />
+        <Component Subtype="StandardCabling" Count="40" />
+        <Component Subtype="ImperialGeneralParts" Count="60" />
+        <Component Subtype="ImperialConstruction" Count="30" />
+        <Component Subtype="Computer" Count="8" />
+        <Component Subtype="CommunicationsEquipment" Count="40" />
+        <Component Subtype="DuraSteel" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="CommunicationsEquipment" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+
+      <BlockPairName>K_Imperial_ShieldGeneratorProp</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <BuildTimeSeconds>50</BuildTimeSeconds>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+      <DamageEffectName>Damage_Electrical_Damaged_Antenna</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_RadioAntennaDefinition">
+      <Id>
+        <TypeId>RadioAntenna</TypeId>
+        <SubtypeId>K_Imperial_Antenna_I</SubtypeId>
+      </Id>
+      <DisplayName>Republic Antenna Array</DisplayName>
+      <Icon>Textures\GUI\Icons\Cosmetic\Reant_1.dds</Icon>
+      <Description>Description_RadioAntenna</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="3" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_Antenna_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="60" />
+        <Component Subtype="StandardCabling" Count="40" />
+        <Component Subtype="ImperialGeneralParts" Count="60" />
+        <Component Subtype="ImperialConstruction" Count="30" />
+        <Component Subtype="Computer" Count="8" />
+        <Component Subtype="CommunicationsEquipment" Count="40" />
+        <Component Subtype="DuraSteel" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="CommunicationsEquipment" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="2" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Misc\K_Imperial_Antenna_Large.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Misc\K_Imperial_Antenna_Large.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Misc\K_Imperial_Antenna_Large.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Imperial_Antenna_I</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <BuildTimeSeconds>50</BuildTimeSeconds>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+      <DamageEffectName>Damage_Electrical_Damaged_Antenna</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_RadioAntennaDefinition">
+      <Id>
+        <TypeId>RadioAntenna</TypeId>
+        <SubtypeId>K_Imperial_Antenna_II</SubtypeId>
+      </Id>
+      <DisplayName>Republic Antenna Array II</DisplayName>
+      <Icon>Textures\GUI\Icons\Cosmetic\Reant_2.dds</Icon>
+      <Description>Description_RadioAntenna</Description>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="3" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_AntennaII_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="60" />
+        <Component Subtype="StandardCabling" Count="40" />
+        <Component Subtype="ImperialGeneralParts" Count="60" />
+        <Component Subtype="ImperialConstruction" Count="30" />
+        <Component Subtype="Computer" Count="8" />
+        <Component Subtype="CommunicationsEquipment" Count="40" />
+        <Component Subtype="DuraSteel" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="CommunicationsEquipment" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="2" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Misc\K_Imperial_Antenna_Large.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Misc\K_Imperial_Antenna_Large.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Misc\K_Imperial_Antenna_Large.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Imperial_Antenna_II</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <BuildTimeSeconds>50</BuildTimeSeconds>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+      <DamageEffectName>Damage_Electrical_Damaged_Antenna</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_RadioAntennaDefinition">
+      <Id>
+        <TypeId>RadioAntenna</TypeId>
+        <SubtypeId>K_Imperial_PatrolCraft_CompactAntenna</SubtypeId>
+      </Id>
+      <DisplayName>Republic Compact-Antenna</DisplayName>
+      <Description> Compact Communications system.</Description>
+      <Icon>Textures\GUI\Icons\Cosmetic\Ant_compact.dds</Icon>
+      <IsStandAlone>false</IsStandAlone>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\IPV1_PatrolCraft_CompactAntenna_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="60" />
+        <Component Subtype="StandardCabling" Count="40" />
+        <Component Subtype="ImperialGeneralParts" Count="60" />
+        <Component Subtype="ImperialConstruction" Count="30" />
+        <Component Subtype="Computer" Count="8" />
+        <Component Subtype="CommunicationsEquipment" Count="40" />
+        <Component Subtype="DuraSteel" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="CommunicationsEquipment" Index="0" />
+      <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="3" />
+      <BlockPairName>K_Imperial_PatrolCraft_CompactAntenna</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>Imperial_Explosion_Sparks</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
+      <EmissiveColorPreset>K_Imperial_Drone_EmissiveSet</EmissiveColorPreset>
+      <PCU>100</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

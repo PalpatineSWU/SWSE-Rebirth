@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>8_Imperial_Solar</SubtypeId>
+      </Id>
+      <DisplayName>Solar Cell (Standard)</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_3.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Carbonite" />
+        <Item Amount="6" TypeId="Ingot" SubtypeId="Lommite" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="SolarCircuitry" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>8_Imperial_IonWingCircuitry</SubtypeId>
+      </Id>
+      <DisplayName>Solar Cell (Ion)</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_3.dds</Icon>
+      <Prerequisites>
+        <Item Amount="15" TypeId="Ingot" SubtypeId="Carbonite" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Ions" />
+        <Item Amount="18" TypeId="Ingot" SubtypeId="Lommite" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="IonWingCircuitry" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+
+  </Blueprints>
+</Definitions>

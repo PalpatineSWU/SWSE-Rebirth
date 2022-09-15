@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Sounds>
     <!--IHarpo, a glorious man. Damnable Keen file structure.-->
     <Sound>
@@ -13,15 +14,15 @@
       <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
       <DynamicMusicAmount>3</DynamicMusicAmount>
       <Volume>0.4</Volume>
-	  <Loopable>false</Loopable>
+      <Loopable>false</Loopable>
       <Waves>
         <Wave Type="D3">
           <Start>Audio\TIE Laser 1A.wav</Start>
         </Wave>
-        </Waves>
+      </Waves>
     </Sound>
-	
-	<Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Imperial_TIE_Shot_Defender</SubtypeId>
@@ -32,15 +33,15 @@
       <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
       <DynamicMusicAmount>1</DynamicMusicAmount>
       <Volume>0.3</Volume>
-	  <Loopable>false</Loopable>
+      <Loopable>false</Loopable>
       <Waves>
         <Wave Type="D3">
           <Start>Audio\TIE Laser 1B_Low.wav</Start>
         </Wave>
-        </Waves>
+      </Waves>
     </Sound>
-	
-	 <Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Imperial_TIE_ShotII</SubtypeId>
@@ -51,15 +52,15 @@
       <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
       <DynamicMusicAmount>3</DynamicMusicAmount>
       <Volume>0.2</Volume>
-	  <Loopable>false</Loopable>
+      <Loopable>false</Loopable>
       <Waves>
         <Wave Type="D3">
           <Start>Audio\TIE Laser 1C.wav</Start>
         </Wave>
-        </Waves>
+      </Waves>
     </Sound>
 
-	 <Sound>
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Imperial_Turret_Shot</SubtypeId>
@@ -70,15 +71,15 @@
       <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
       <DynamicMusicAmount>3</DynamicMusicAmount>
       <Volume>0.3</Volume>
-	  <Loopable>false</Loopable>
+      <Loopable>false</Loopable>
       <Waves>
         <Wave Type="D3">
           <Start>Audio\TIE Laser 2E.wav</Start>
         </Wave>
-        </Waves>
+      </Waves>
     </Sound>
-	
-	 <Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Imperial_Silence</SubtypeId>
@@ -89,15 +90,15 @@
       <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
       <DynamicMusicAmount>3</DynamicMusicAmount>
       <Volume>0.0</Volume>
-	  <Loopable>false</Loopable>
+      <Loopable>false</Loopable>
       <Waves>
         <Wave Type="D3">
           <Start>Audio\TIE Laser 2E.wav</Start>
         </Wave>
-        </Waves>
+      </Waves>
     </Sound>
-	
-	 <Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_TIE_Engine_I</SubtypeId>
@@ -108,7 +109,7 @@
       <Loopable>true</Loopable>
       <Waves>
         <Wave Type="D2">
-		<Start>Audio\TIE_Core_Startup_I.wav</Start>
+          <Start>Audio\TIE_Core_Startup_I.wav</Start>
           <Loop>Audio\ENGINEINTTI.wav</Loop>
         </Wave>
         <Wave Type="D3">
@@ -117,8 +118,8 @@
         </Wave>
       </Waves>
     </Sound>
-	
-	<Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_TIE_Engine_Sides</SubtypeId>
@@ -129,7 +130,7 @@
       <Loopable>true</Loopable>
       <Waves>
         <Wave Type="D2">
-		<Start>Audio\TIE_Core_Startup_I.wav</Start>
+          <Start>Audio\TIE_Core_Startup_I.wav</Start>
           <Loop>Audio\ENGINEINTTI.wav</Loop>
         </Wave>
         <Wave Type="D3">
@@ -138,8 +139,8 @@
         </Wave>
       </Waves>
     </Sound>
-	
-	 <Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_TIE_GridPower</SubtypeId>
@@ -153,7 +154,7 @@
         <Wave Type="D3">
           <Start>Audio\TIE_Core_Startup_I.wav</Start>
           <Loop>Audio\TIE_Core_Startup_I.wav</Loop>
-        <End>Audio\TIE_Core_Startup_I.wav</End>
+          <End>Audio\TIE_Core_Startup_I.wav</End>
         </Wave>
         <Wave Type="D2">
           <Start>Audio\TIE_Core_Startup_I.wav</Start>
@@ -162,6 +163,6 @@
         </Wave>
       </Waves>
     </Sound>
-  
+
   </Sounds>
 </Definitions>

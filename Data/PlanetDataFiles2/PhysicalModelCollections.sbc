@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <!-- Earth Planet -->
   <!-- Foliage -->
-  
+
   <Definition xsi:type="VR.PhysicalModelCollectionDefinition">
     <Id>
       <TypeId>PhysicalModelCollectionDefinition</TypeId>
@@ -11,13 +12,13 @@
     <Items>
       <Item TypeId="TreeDefinition" SubtypeId="K_Lush_Forest_SpruceTree" Weight="0.7"/>
       <Item TypeId="TreeDefinition" SubtypeId="K_Lush_Forest_SpruceTreeII" Weight="0.7"/>
-	   <Item TypeId="TreeDefinition" SubtypeId="K_Lush_Forest_Tree_Tall_A" Weight="0.2"/>
-	  <Item TypeId="TreeDefinition" SubtypeId="K_Lush_Forest_Tree" Weight="0.4"/>
-	  <Item TypeId="TreeDefinition" SubtypeId="K_Lush_Forest_Pine" Weight="0.4"/>
-	   <Item TypeId="TreeDefinition" SubtypeId="K_Lush_Forest_SpruceTreeIII" Weight="0.3"/>
+      <Item TypeId="TreeDefinition" SubtypeId="K_Lush_Forest_Tree_Tall_A" Weight="0.2"/>
+      <Item TypeId="TreeDefinition" SubtypeId="K_Lush_Forest_Tree" Weight="0.4"/>
+      <Item TypeId="TreeDefinition" SubtypeId="K_Lush_Forest_Pine" Weight="0.4"/>
+      <Item TypeId="TreeDefinition" SubtypeId="K_Lush_Forest_SpruceTreeIII" Weight="0.3"/>
     </Items>
   </Definition>
-  
+
   <Definition xsi:type="VR.PhysicalModelCollectionDefinition">
     <Id>
       <TypeId>PhysicalModelCollectionDefinition</TypeId>
@@ -26,10 +27,10 @@
     <Items>
       <Item TypeId="TreeDefinition" SubtypeId="K_Lush_Forest_SpruceTree" Weight="0.4"/>
       <Item TypeId="TreeDefinition" SubtypeId="K_Lush_Forest_SpruceTreeII" Weight="0.3"/>
-	   <Item TypeId="TreeDefinition" SubtypeId="K_Lush_Forest_SpruceTreeIII" Weight="0.6"/>
+      <Item TypeId="TreeDefinition" SubtypeId="K_Lush_Forest_SpruceTreeIII" Weight="0.6"/>
     </Items>
   </Definition>
-  
+
   <Definition xsi:type="VR.PhysicalModelCollectionDefinition">
     <Id>
       <TypeId>PhysicalModelCollectionDefinition</TypeId>
@@ -38,10 +39,10 @@
     <Items>
       <Item TypeId="TreeDefinition" SubtypeId="K_Lush_Snow_SpruceTree_I" Weight="0.5"/>
       <Item TypeId="TreeDefinition" SubtypeId="K_Lush_Snow_SpruceTree_II" Weight="0.5"/>
-	      </Items>
+    </Items>
   </Definition>
-  
-  
+
+
   <Definition xsi:type="VR.PhysicalModelCollectionDefinition">
     <Id>
       <TypeId>PhysicalModelCollectionDefinition</TypeId>
@@ -50,12 +51,12 @@
     <Items>
       <Item TypeId="TreeDefinition" SubtypeId="K_Lush_Snow_SpruceTree_I" Weight="0.5"/>
       <Item TypeId="TreeDefinition" SubtypeId="K_Lush_Snow_SpruceTree_II" Weight="0.5"/>
-	      </Items>
+    </Items>
   </Definition>
-  
+
   <!-- Ice Plains-->
-  
-   <Definition xsi:type="VR.PhysicalModelCollectionDefinition">
+
+  <Definition xsi:type="VR.PhysicalModelCollectionDefinition">
     <Id>
       <TypeId>PhysicalModelCollectionDefinition</TypeId>
       <SubtypeId>K_Ice_Spikes_Collection</SubtypeId>
@@ -63,11 +64,11 @@
     <Items>
       <Item TypeId="TreeDefinition" SubtypeId="K_Snowworld_IceSpike" Weight="1"/>
       <Item TypeId="TreeDefinition" SubtypeId="K_Snowworld_IcePatch" Weight="0.5"/>
-	      </Items>
+    </Items>
   </Definition>
-  
+
   <!-- Snow Forest-->
-  
+
   <Definition xsi:type="VR.PhysicalModelCollectionDefinition">
     <Id>
       <TypeId>PhysicalModelCollectionDefinition</TypeId>
@@ -76,11 +77,11 @@
     <Items>
       <Item TypeId="TreeDefinition" SubtypeId="K_Bastian_Tree_A" Weight="0.5"/>
       <Item TypeId="TreeDefinition" SubtypeId="K_Bastian_IcePatch_A" Weight="0.5"/>
-	   <Item TypeId="TreeDefinition" SubtypeId="K_Bastian_Tree_B" Weight="0.5"/>
-	      </Items>
+      <Item TypeId="TreeDefinition" SubtypeId="K_Bastian_Tree_B" Weight="0.5"/>
+    </Items>
   </Definition>
-  
-  
+
+
   <Definition xsi:type="VR.PhysicalModelCollectionDefinition">
     <Id>
       <TypeId>PhysicalModelCollectionDefinition</TypeId>
@@ -89,10 +90,10 @@
     <Items>
       <Item TypeId="TreeDefinition" SubtypeId="K_Bastian_Bush" Weight="0.5"/>
       <Item TypeId="TreeDefinition" SubtypeId="K_Bastian_IcePatch_A" Weight="0.5"/>
-	      </Items>
+    </Items>
   </Definition>
-  
-   <Definition xsi:type="VR.PhysicalModelCollectionDefinition">
+
+  <Definition xsi:type="VR.PhysicalModelCollectionDefinition">
     <Id>
       <TypeId>PhysicalModelCollectionDefinition</TypeId>
       <SubtypeId>K_Bastian_SnowPlains</SubtypeId>
@@ -100,36 +101,36 @@
     <Items>
       <Item TypeId="TreeDefinition" SubtypeId="K_Bastian_IcePatch_A" Weight="0.5"/>
       <Item TypeId="TreeDefinition" SubtypeId="K_Snowworld_IceSpike" Weight="0.5"/>
-	      </Items>
+    </Items>
   </Definition>
-  
+
   <!-- Bulb Forest-->
-  
+
   <!-- Dark Forest-->
-  
-   <Definition xsi:type="VR.PhysicalModelCollectionDefinition">
+
+  <Definition xsi:type="VR.PhysicalModelCollectionDefinition">
     <Id>
       <TypeId>PhysicalModelCollectionDefinition</TypeId>
       <SubtypeId>K_DarkForest_Collection</SubtypeId>
     </Id>
     <Items>
       <Item TypeId="TreeDefinition" SubtypeId="K_Dark_Forest_Tree_A" Weight="0.20"/>
-	  <Item TypeId="TreeDefinition" SubtypeId="K_Dark_Forest_Tree_D" Weight="0.25"/>
-	  <Item TypeId="TreeDefinition" SubtypeId="K_Dark_Forest_Tree_C" Weight="0.25"/>
-	   <Item TypeId="TreeDefinition" SubtypeId="K_Dark_Forest_Obelisk" Weight="0.01"/>
-	  <Item TypeId="TreeDefinition" SubtypeId="K_Dark_Forest_Tree_B" Weight="0.40"/>
-	  <Item TypeId="TreeDefinition" SubtypeId="K_Dark_Forest_Tree_A" Weight="0.20"/>
-	  <Item TypeId="TreeDefinition" SubtypeId="K_Dark_Forest_Tree_B" Weight="0.20"/>
-	  <Item TypeId="TreeDefinition" SubtypeId="K_Dark_Forest_Tree_C" Weight="0.10"/>
-	  <Item TypeId="TreeDefinition" SubtypeId="K_Corrupted_Forest_Tree_A" Weight="0.20"/>    
-	  <Item TypeId="TreeDefinition" SubtypeId="K_Corrupted_Forest_Tree_B" Weight="0.20"/>    
-	  <Item TypeId="TreeDefinition" SubtypeId="K_Corrupted_Forest_Tree_C" Weight="0.20"/>    
-	  <Item TypeId="TreeDefinition" SubtypeId="K_Corrupted_Forest_Tree_D" Weight="0.20"/>    
-	  <Item TypeId="TreeDefinition" SubtypeId="K_Corrupted_Forest_Tree_E" Weight="0.20"/>        
-    	      </Items>
+      <Item TypeId="TreeDefinition" SubtypeId="K_Dark_Forest_Tree_D" Weight="0.25"/>
+      <Item TypeId="TreeDefinition" SubtypeId="K_Dark_Forest_Tree_C" Weight="0.25"/>
+      <Item TypeId="TreeDefinition" SubtypeId="K_Dark_Forest_Obelisk" Weight="0.01"/>
+      <Item TypeId="TreeDefinition" SubtypeId="K_Dark_Forest_Tree_B" Weight="0.40"/>
+      <Item TypeId="TreeDefinition" SubtypeId="K_Dark_Forest_Tree_A" Weight="0.20"/>
+      <Item TypeId="TreeDefinition" SubtypeId="K_Dark_Forest_Tree_B" Weight="0.20"/>
+      <Item TypeId="TreeDefinition" SubtypeId="K_Dark_Forest_Tree_C" Weight="0.10"/>
+      <Item TypeId="TreeDefinition" SubtypeId="K_Corrupted_Forest_Tree_A" Weight="0.20"/>
+      <Item TypeId="TreeDefinition" SubtypeId="K_Corrupted_Forest_Tree_B" Weight="0.20"/>
+      <Item TypeId="TreeDefinition" SubtypeId="K_Corrupted_Forest_Tree_C" Weight="0.20"/>
+      <Item TypeId="TreeDefinition" SubtypeId="K_Corrupted_Forest_Tree_D" Weight="0.20"/>
+      <Item TypeId="TreeDefinition" SubtypeId="K_Corrupted_Forest_Tree_E" Weight="0.20"/>
+    </Items>
   </Definition>
-  
-  
+
+
   <Definition xsi:type="VR.PhysicalModelCollectionDefinition">
     <Id>
       <TypeId>PhysicalModelCollectionDefinition</TypeId>
@@ -137,33 +138,33 @@
     </Id>
     <Items>
       <Item TypeId="TreeDefinition" SubtypeId="K_Dark_Bush_Large" Weight="0.8"/>
-	   <Item TypeId="TreeDefinition" SubtypeId="K_Dark_TreePatch_A" Weight="0.3"/>
-	
-    	      </Items>
+      <Item TypeId="TreeDefinition" SubtypeId="K_Dark_TreePatch_A" Weight="0.3"/>
+
+    </Items>
   </Definition>
-  
+
   <!-- Crystal Grove-->
-  
+
   <!-- Corrupted Forest-->
-  
-   <Definition xsi:type="VR.PhysicalModelCollectionDefinition">
+
+  <Definition xsi:type="VR.PhysicalModelCollectionDefinition">
     <Id>
       <TypeId>PhysicalModelCollectionDefinition</TypeId>
       <SubtypeId>K_CorruptedForest_Collection</SubtypeId>
     </Id>
     <Items>
       <Item TypeId="TreeDefinition" SubtypeId="K_Corrupted_Forest_Tree_A" Weight="0.20"/>
-	  <Item TypeId="TreeDefinition" SubtypeId="K_Corrupted_Forest_Tree_B" Weight="0.30"/>
-	  <Item TypeId="TreeDefinition" SubtypeId="K_Corrupted_Forest_Tree_C" Weight="0.30"/>
-	   <Item TypeId="TreeDefinition" SubtypeId="K_Corrupted_Forest_Tree_E" Weight="0.20"/>
-	  <Item TypeId="TreeDefinition" SubtypeId="K_Corrupted_Forest_Tree_D" Weight="0.10"/>
-	  <Item TypeId="TreeDefinition" SubtypeId="K_Corrupted_Forest_Tree_D" Weight="0.10"/>
-    	      </Items>
+      <Item TypeId="TreeDefinition" SubtypeId="K_Corrupted_Forest_Tree_B" Weight="0.30"/>
+      <Item TypeId="TreeDefinition" SubtypeId="K_Corrupted_Forest_Tree_C" Weight="0.30"/>
+      <Item TypeId="TreeDefinition" SubtypeId="K_Corrupted_Forest_Tree_E" Weight="0.20"/>
+      <Item TypeId="TreeDefinition" SubtypeId="K_Corrupted_Forest_Tree_D" Weight="0.10"/>
+      <Item TypeId="TreeDefinition" SubtypeId="K_Corrupted_Forest_Tree_D" Weight="0.10"/>
+    </Items>
   </Definition>
-  
-  
+
+
   <!-- Aut Forest  -->
-   <Definition xsi:type="VR.PhysicalModelCollectionDefinition">
+  <Definition xsi:type="VR.PhysicalModelCollectionDefinition">
     <Id>
       <TypeId>PhysicalModelCollectionDefinition</TypeId>
       <SubtypeId>K_Forest_Aut</SubtypeId>
@@ -171,12 +172,12 @@
     <Items>
       <Item TypeId="TreeDefinition" SubtypeId="K_Forest_Aut_Tree_B" Weight="0.5"/>
       <Item TypeId="TreeDefinition" SubtypeId="K_Lush_Forest_SpruceTreeII" Weight="0.1"/>
-	   <Item TypeId="TreeDefinition" SubtypeId="K_Forest_Aut_Tree_A" Weight="0.5"/>
-	    <Item TypeId="TreeDefinition" SubtypeId="K_Forest_Aut_Tree_C" Weight="0.5"/>
-		 <Item TypeId="TreeDefinition" SubtypeId="K_Forest_Aut_Tree_D" Weight="0.5"/>
-		    <Item TypeId="TreeDefinition" SubtypeId="K_Lush_Snow_SpruceTree_I" Weight="0.1"/>
+      <Item TypeId="TreeDefinition" SubtypeId="K_Forest_Aut_Tree_A" Weight="0.5"/>
+      <Item TypeId="TreeDefinition" SubtypeId="K_Forest_Aut_Tree_C" Weight="0.5"/>
+      <Item TypeId="TreeDefinition" SubtypeId="K_Forest_Aut_Tree_D" Weight="0.5"/>
+      <Item TypeId="TreeDefinition" SubtypeId="K_Lush_Snow_SpruceTree_I" Weight="0.1"/>
     </Items>
   </Definition>
-  
+
 
 </Definitions>

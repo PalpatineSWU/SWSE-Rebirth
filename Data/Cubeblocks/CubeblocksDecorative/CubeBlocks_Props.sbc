@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+      <Id>
+        <TypeId>Cockpit</TypeId>
+        <SubtypeId>K_Imperial_Chiss_Test</SubtypeId>
+      </Id>
+      <DisplayName>Chiss Clawcraft Test Cockpit</DisplayName>
+      <Icon>Textures\GUI\Icons\Ships\Chiss\ChissCock.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="7" y="7" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Chiss\K_Chiss_Clawcraft_Small.mwm</Model>
+      <InteriorModel>Models\Chiss\K_Chiss_Clawcraft_Small.mwm</InteriorModel>
+      <GlassModel>Models\Cubes\Large\CockpitGlass.mwm</GlassModel>
+      <CharacterAnimation>cockpit1_large</CharacterAnimation>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="400" />
+        <Component Subtype="Computer" Count="100" />
+        <Component Subtype="LightweightDurasteel" Count="800" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>K_Imperial_Chiss_Test</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <EnableFirstPerson>true</EnableFirstPerson>
+      <EnableShipControl>true</EnableShipControl>
+      <EnableBuilderCockpit>false</EnableBuilderCockpit>
+      <IsPressurized>true</IsPressurized>
+      <OxygenCapacity>200</OxygenCapacity>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <PrimarySound>BlockCockpitLrg</PrimarySound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <RaycastOffset>
+        <X>0.016</X>
+        <Y>0.4983</Y>
+        <Z>0.15</Z>
+      </RaycastOffset>
+      <EmissiveColorPreset>K_Imperial_Ship_EmissiveSet</EmissiveColorPreset>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>K_Rebellion_AWing_Render</SubtypeId>
+      </Id>
+      <DisplayName>RZ-1s A-Wing Render</DisplayName>
+      <Description></Description>
+      <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1Bat.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="11" y="3" z="22" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Rebellion\Rz1\AWIng_Rz1_Small.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="5" />
+        <Component Subtype="StandardPowerCell" Count="2" />
+        <Component Subtype="Computer" Count="5" />
+        <Component Subtype="ImperialConstruction" Count="3" />
+        <Component Subtype="LightweightDurasteel" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>K_Rebellion_AWing_Render</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>25</MaxPowerOutput>
+      <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <RequiredPowerInput>15</RequiredPowerInput>
+      <AdaptibleInput>true</AdaptibleInput>
+      <MaxStoredPower>15</MaxStoredPower>
+      <InitialStoredPowerRatio>0.5</InitialStoredPowerRatio>
+      <DestroySound>K_SW_Explosion_Generic</DestroySound>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>K_Imperial_Reborn_TIE_Fighter_RenderTest</SubtypeId>
+      </Id>
+      <DisplayName>Reborn TIE Render</DisplayName>
+      <Description>backup power storage, provides the bike with a flight time.</Description>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornFighter\RebornTieBa.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="11" y="17" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Imperial_TIE_New\K_TIE_Reborn_Small.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="5" />
+        <Component Subtype="StandardPowerCell" Count="2" />
+        <Component Subtype="Computer" Count="5" />
+        <Component Subtype="ImperialConstruction" Count="3" />
+        <Component Subtype="LightweightDurasteel" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>K_Imperial_Reborn_TIE_Fighter_RenderTest</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>100</MaxPowerOutput>
+      <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <RequiredPowerInput>5</RequiredPowerInput>
+      <AdaptibleInput>true</AdaptibleInput>
+      <MaxStoredPower>5</MaxStoredPower>
+      <InitialStoredPowerRatio>0.5</InitialStoredPowerRatio>
+      <DestroySound>K_Imperial_Explosion_Generic</DestroySound>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <GeneralDamageMultiplier>1.2</GeneralDamageMultiplier>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Hangar_TIE</SubtypeId>
+      </Id>
+      <DisplayName>Republic TIE Prop</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="5" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_Hangar_TIEProp_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="500" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Hangar_TIE</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_TIEWingRack_A</SubtypeId>
+      </Id>
+      <DisplayName>Republic TIE Wing Rack</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_Props.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="5" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_TIE_WingRack_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="20" />
+        <Component Subtype="SolarCircuitry" Count="15" />
+        <Component Subtype="BulletproofGlass" Count="15" />
+        <Component Subtype="DuraSteel" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <BlockPairName>K_Imperial_Misc_TIEWingRack_A</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_TIEWingRack_B</SubtypeId>
+      </Id>
+      <DisplayName>Republic TIE Wing Rack(B)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_Props.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="5" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_TIE_WingAssembly_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="20" />
+        <Component Subtype="SolarCircuitry" Count="15" />
+        <Component Subtype="BulletproofGlass" Count="15" />
+        <Component Subtype="DuraSteel" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <BlockPairName>K_Imperial_Misc_TIEWingRack_B</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_ATST</SubtypeId>
+      </Id>
+      <DisplayName>Republic AT-ST (Prop)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_Props.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="5" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_WalkerProp_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="200" />
+        <Component Subtype="SolarCircuitry" Count="15" />
+        <Component Subtype="BulletproofGlass" Count="15" />
+        <Component Subtype="DuraSteel" Count="500" />
+      </Components>
+      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <BlockPairName>K_Imperial_Misc_ATST</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_ATPT</SubtypeId>
+      </Id>
+      <DisplayName>Republic AT-PT (Prop)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_Props.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_AT_PT_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="155" />
+        <Component Subtype="SolarCircuitry" Count="15" />
+        <Component Subtype="BulletproofGlass" Count="15" />
+        <Component Subtype="DuraSteel" Count="345" />
+      </Components>
+      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <BlockPairName>K_Imperial_Misc_ATPT</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Test_Mauler</SubtypeId>
+      </Id>
+      <DisplayName>Republic TIE Mauler (Prop)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_Props.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\TIE_Mauler\K_Imperial_TIEMauler_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="200" />
+        <Component Subtype="SolarCircuitry" Count="15" />
+        <Component Subtype="BulletproofGlass" Count="15" />
+        <Component Subtype="DuraSteel" Count="500" />
+      </Components>
+      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <BlockPairName>K_Imperial_Test_Mauler</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_SpeederBikeProp</SubtypeId>
+      </Id>
+      <DisplayName>Republic SpeederBike Prop</DisplayName>
+      <Icon>Textures\GUI\Icons\Ships\Speederbike\Speeder.dds</Icon>
+      <Description>Republic SpeederBike Prop.</Description>
+      <GuiVisible>true</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="14" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\SpeederBike\K_Imperial_Speederbike_Small.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="110" />
+        <Component Subtype="Construction" Count="45" />
+        <Component Subtype="SteelPlate" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="ImperialConstruction" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="14" Default="true" />
+      </MountPoints>
+      <BlockPairName>K_Imperial_SpeederBikeProp</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>8</BuildTimeSeconds>
+      <PCU>1</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_PatrolCraftTest</SubtypeId>
+      </Id>
+      <DisplayName>IPV-1 Prop</DisplayName>
+      <Icon>Textures\GUI\Icons\Ships\ipv4\Ipv4.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\IPV1\IPV1_PatrolCraft_Tester_Large.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BlockPairName>K_Imperial_PatrolCraftTest</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_ComponentTestBlock</SubtypeId>
+      </Id>
+      <DisplayName>Republic Components Tester (WIP)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Components\K_Imperial_Components_Storage_Small.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_ComponentTestBlock</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+
+
+  </CubeBlocks>
+</Definitions>

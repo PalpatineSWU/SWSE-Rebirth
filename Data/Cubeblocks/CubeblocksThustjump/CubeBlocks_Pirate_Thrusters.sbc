@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>K_Pirates_Thrusters_Light</SubtypeId>
+      </Id>
+      <DisplayName>Pirate Thruster (Light) (Class III)</DisplayName>
+      <Description>Pirate Engine Unit, Rear-Mounted.</Description>
+      <Icon>Textures\GUI\Icons\Fuelburners\Piratethrustermedium.dds</Icon>
+      <ThrusterType>Ion</ThrusterType>
+      <IsStandAlone>true</IsStandAlone>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Pirate\Thrusters\K_Pirate_Thruster_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="15" />
+        <Component Subtype="ImperialConstruction" Count="40" />
+        <Component Subtype="StandardCabling" Count="8" />
+        <Component Subtype="ThrusterParts_Repulsor" Count="40" />
+        <Component Subtype="ImperialConstruction" Count="20" />
+        <Component Subtype="DuraSteel" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="ThrusterParts_Repulsor" Index="0" />
+      <BlockPairName>K_Pirates_Thrusters_Light</BlockPairName>
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>2000000</ForceMagnitude>
+      <MaxPowerConsumption>0.201</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>5</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+
+      <FlameDamageLengthScale>0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>1</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1</X>
+        <Y>45</Y>
+        <Z>0</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>1</X>
+        <Y>45</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>SmallGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>800</FlameVisibilityDistance>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>K_Starwars_Engine_Low</PrimarySound>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_SW_Explosion_Generic</DestroySound>
+      <EmissiveColorPreset>K_SW__Pirate_Engine_Green</EmissiveColorPreset>
+    </Definition>
+
+
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>K_Pirates_Thrusters_LightRec</SubtypeId>
+      </Id>
+      <DisplayName>Pirate Thruster (Light Emissive-Recolour) (Class III)</DisplayName>
+      <Description>Pirate Engine Unit, Rear-Mounted.</Description>
+      <Icon>Textures\GUI\Icons\Fuelburners\Piratethrustermedium.dds</Icon>
+      <ThrusterType>Ion</ThrusterType>
+      <IsStandAlone>true</IsStandAlone>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Pirate\Thrusters\K_Pirate_Thruster_Rec_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="15" />
+        <Component Subtype="ImperialConstruction" Count="40" />
+        <Component Subtype="StandardCabling" Count="8" />
+        <Component Subtype="ThrusterParts_Repulsor" Count="40" />
+        <Component Subtype="ImperialConstruction" Count="20" />
+        <Component Subtype="DuraSteel" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="ThrusterParts_Repulsor" Index="0" />
+      <BlockPairName>K_Pirates_Thrusters_LightRec</BlockPairName>
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>2000000</ForceMagnitude>
+      <MaxPowerConsumption>0.201</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>5</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+
+      <FlameDamageLengthScale>0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>1</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1</X>
+        <Y>45</Y>
+        <Z>0</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>1</X>
+        <Y>45</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>SmallGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>800</FlameVisibilityDistance>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>K_Starwars_Engine_Low</PrimarySound>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_SW_Explosion_Generic</DestroySound>
+      <EmissiveColorPreset>K_SW__Pirate_Engine_Green</EmissiveColorPreset>
+    </Definition>
+
+
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>K_Pirates_Thrusters_LightMid</SubtypeId>
+      </Id>
+      <DisplayName>Pirate Thruster (Light Mid) (Class III)</DisplayName>
+      <Description>Pirate Engine Unit, Front and Rear Mount Options. No Flame Visual</Description>
+      <Icon>Textures\GUI\Icons\Fuelburners\Piratethrustersmall.dds</Icon>
+      <ThrusterType>Ion</ThrusterType>
+      <IsStandAlone>true</IsStandAlone>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Pirate\Thrusters\K_Pirate_Thruster_Midd_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="15" />
+        <Component Subtype="ImperialConstruction" Count="40" />
+        <Component Subtype="StandardCabling" Count="8" />
+        <Component Subtype="ThrusterParts_Repulsor" Count="20" />
+        <Component Subtype="ImperialConstruction" Count="20" />
+        <Component Subtype="DuraSteel" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="ThrusterParts_Repulsor" Index="0" />
+      <BlockPairName>K_Pirates_Thrusters_LightMid</BlockPairName>
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>500000</ForceMagnitude>
+      <MaxPowerConsumption>0.201</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>5</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+
+      <FlameDamageLengthScale>0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>1</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1</X>
+        <Y>45</Y>
+        <Z>0</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>1</X>
+        <Y>45</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>SmallGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>200</FlameVisibilityDistance>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>K_Starwars_Engine_Low</PrimarySound>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_SW_Explosion_Generic</DestroySound>
+      <EmissiveColorPreset>K_SW__Pirate_Engine_Green</EmissiveColorPreset>
+    </Definition>
+
+
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>K_Pirates_Thrusters_Heavy</SubtypeId>
+      </Id>
+      <DisplayName>Pirate Thruster (Heavy) (Class III)</DisplayName>
+      <Description>Pirate Engine Unit, Rear-Mounted.</Description>
+      <Icon>Textures\GUI\Icons\Fuelburners\Piratethrusterlarge.dds</Icon>
+      <ThrusterType>Ion</ThrusterType>
+      <IsStandAlone>true</IsStandAlone>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Pirate\Thrusters\K_Pirate_ThrusterHeavy_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="15" />
+        <Component Subtype="ImperialConstruction" Count="40" />
+        <Component Subtype="StandardCabling" Count="8" />
+        <Component Subtype="ThrusterParts_Repulsor" Count="80" />
+        <Component Subtype="ImperialConstruction" Count="20" />
+        <Component Subtype="DuraSteel" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="ThrusterParts_Repulsor" Index="0" />
+      <BlockPairName>K_Pirates_Thrusters_Heavy</BlockPairName>
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>4000000</ForceMagnitude>
+      <MaxPowerConsumption>0.201</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>5</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+
+      <FlameDamageLengthScale>0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>1</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1</X>
+        <Y>45</Y>
+        <Z>0</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>1</X>
+        <Y>45</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>SmallGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>200</FlameVisibilityDistance>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>K_Starwars_Engine_Low</PrimarySound>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_SW_Explosion_Generic</DestroySound>
+      <EmissiveColorPreset>K_SW__Pirate_Engine_Green</EmissiveColorPreset>
+    </Definition>
+
+
+<!-- Small Grid -->
+
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>K_Pirates_Thrusters_Light_SG</SubtypeId>
+      </Id>
+      <DisplayName>Pirate Thruster (Class III)</DisplayName>
+      <Description>Pirate Engine Unit, Rear-Mounted.</Description>
+      <Icon>Textures\GUI\Icons\Fuelburners\Piratethrustermedium.dds</Icon>
+      <ThrusterType>Ion</ThrusterType>
+      <IsStandAlone>true</IsStandAlone>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Pirate\Thrusters\K_Pirate_Thruster_Small.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="1" />
+        <Component Subtype="ImperialConstruction" Count="1" />
+        <Component Subtype="StandardCabling" Count="5" />
+        <Component Subtype="ThrusterParts_Repulsor" Count="2" />
+        <Component Subtype="ImperialConstruction" Count="1" />
+        <Component Subtype="LightweightDurasteel" Count="4" />
+      </Components>
+      <CriticalComponent Subtype="ThrusterParts_Repulsor" Index="0" />
+      <BlockPairName>K_Pirates_Thrusters_Light</BlockPairName>
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>200000</ForceMagnitude>
+      <MaxPowerConsumption>0.201</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>5</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+
+      <FlameDamageLengthScale>0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>1</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1</X>
+        <Y>45</Y>
+        <Z>0</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>1</X>
+        <Y>45</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>SmallGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>200</FlameVisibilityDistance>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>K_Starwars_Engine_Low</PrimarySound>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_SW_Explosion_Generic</DestroySound>
+      <EmissiveColorPreset>K_SW__Pirate_Engine_Green</EmissiveColorPreset>
+    </Definition>
+
+
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>K_Pirates_Thrusters_LightRec_SG</SubtypeId>
+      </Id>
+      <DisplayName>Pirate Thruster (Class II)</DisplayName>
+      <Description>Pirate Engine Unit, Rear-Mounted.</Description>
+      <Icon>Textures\GUI\Icons\Fuelburners\Piratethrustermedium.dds</Icon>
+      <ThrusterType>Ion</ThrusterType>
+      <IsStandAlone>true</IsStandAlone>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Pirate\Thrusters\K_Pirate_Thruster_Rec_Small.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="1" />
+        <Component Subtype="ImperialConstruction" Count="1" />
+        <Component Subtype="StandardCabling" Count="5" />
+        <Component Subtype="ThrusterParts_Ion" Count="2" />
+        <Component Subtype="ImperialConstruction" Count="1" />
+        <Component Subtype="LightweightDurasteel" Count="4" />
+      </Components>
+      <CriticalComponent Subtype="ThrusterParts_Ion" Index="0" />
+      <BlockPairName>K_Pirates_Thrusters_LightRec</BlockPairName>
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>400000</ForceMagnitude>
+      <MaxPowerConsumption>0.201</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>5</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+
+      <FlameDamageLengthScale>0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>1</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1</X>
+        <Y>45</Y>
+        <Z>0</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>1</X>
+        <Y>45</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>SmallGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>800</FlameVisibilityDistance>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>K_Starwars_Engine_Low</PrimarySound>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_SW_Explosion_Generic</DestroySound>
+      <EmissiveColorPreset>K_SW__Pirate_Engine_Green</EmissiveColorPreset>
+    </Definition>
+
+
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>K_Pirates_Thrusters_LightMid_SG</SubtypeId>
+      </Id>
+      <DisplayName>Pirate Thruster (Class I)</DisplayName>
+      <Description>Pirate Engine Unit, Front and Rear Mount Options. No Flame Visual</Description>
+      <Icon>Textures\GUI\Icons\Fuelburners\Piratethrustersmall.dds</Icon>
+      <ThrusterType>Ion</ThrusterType>
+      <IsStandAlone>true</IsStandAlone>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Pirate\Thrusters\K_Pirate_Thruster_Midd_Small.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="1" />
+        <Component Subtype="ImperialConstruction" Count="1" />
+        <Component Subtype="StandardCabling" Count="5" />
+        <Component Subtype="ThrusterParts_Advanced_Ion" Count="2" />
+        <Component Subtype="ImperialConstruction" Count="1" />
+        <Component Subtype="LightweightDurasteel" Count="4" />
+      </Components>
+      <CriticalComponent Subtype="ThrusterParts_Advanced_Ion" Index="0" />
+      <BlockPairName>K_Pirates_Thrusters_LightMid</BlockPairName>
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>800000</ForceMagnitude>
+      <MaxPowerConsumption>0.201</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>5</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+
+      <FlameDamageLengthScale>0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>1</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1</X>
+        <Y>45</Y>
+        <Z>0</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>1</X>
+        <Y>45</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>SmallGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>200</FlameVisibilityDistance>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>K_Starwars_Engine_Low</PrimarySound>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_SW_Explosion_Generic</DestroySound>
+      <EmissiveColorPreset>K_SW__Pirate_Engine_Green</EmissiveColorPreset>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

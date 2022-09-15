@@ -7,7 +7,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>QuestCompAA</SubtypeId>
       </Id>
-      <DisplayName>Delivery to Abregado-rae</DisplayName>
+      <DisplayName>z Delivery to Abregado-rae</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\Abregado-rae.dds</Icon>
 	  <ExtraInventoryTooltipLine>Deliver this package and one unit of Food to Abregado-rae for credits. It costs credits to take this delivery on.</ExtraInventoryTooltipLine>
       <Size>
@@ -31,7 +31,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>QuestCompAB</SubtypeId>
       </Id>
-      <DisplayName>Delivery to Bastion</DisplayName>
+      <DisplayName>z Delivery to Bastion</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\Bastion.dds</Icon>
 	  <ExtraInventoryTooltipLine>Deliver this package and one unit of Technology to Bastion for 6031 credits. It costs 2010 credits to take this delivery on.</ExtraInventoryTooltipLine>
       <Size>
@@ -55,7 +55,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>QuestCompAC</SubtypeId>
       </Id>
-      <DisplayName>Delivery to Brentaal</DisplayName>
+      <DisplayName>z Delivery to Brentaal</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\Brentaal.dds</Icon>
 	  <ExtraInventoryTooltipLine>Deliver this package and one unit of Spice to Brentaal for 2850 credits. It costs 950 credits to take this delivery on.</ExtraInventoryTooltipLine>
       <Size>
@@ -79,7 +79,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>QuestCompAD</SubtypeId>
       </Id>
-      <DisplayName>Delivery to Kuat</DisplayName>
+      <DisplayName>z Delivery to Kuat</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\Kuat.dds</Icon>
 	  <ExtraInventoryTooltipLine>Deliver this package and one unit of Technology to Kuat for 5475 credits. It costs 1825 credits to take this delivery on.</ExtraInventoryTooltipLine>
       <Size>
@@ -103,7 +103,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>QuestCompAE</SubtypeId>
       </Id>
-      <DisplayName>Delivery to Concordia</DisplayName>
+      <DisplayName>z Delivery to Concordia</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\Concordia.dds</Icon>
 	  <ExtraInventoryTooltipLine>Deliver this package and one unit of Spice to Concordia for 5782 credits. It costs 1927 credits to take this delivery on.</ExtraInventoryTooltipLine>
       <Size>
@@ -127,7 +127,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>QuestCompAF</SubtypeId>
       </Id>
-      <DisplayName>Delivery to Dathomir</DisplayName>
+      <DisplayName>z Delivery to Dathomir</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\Dathomir.dds</Icon>
 	  <ExtraInventoryTooltipLine>Deliver this package and one unit of MedicalSupplies to Dathomir for 5767 credits. It costs 1922 credits to take this delivery on.</ExtraInventoryTooltipLine>
       <Size>
@@ -151,7 +151,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>QuestCompAG</SubtypeId>
       </Id>
-      <DisplayName>Delivery to Ilum</DisplayName>
+      <DisplayName>z Delivery to Ilum</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\Ilum.dds</Icon>
 	  <ExtraInventoryTooltipLine>Deliver this package and one unit of Food to Ilum for 5338 credits. It costs 1779 credits to take this delivery on.</ExtraInventoryTooltipLine>
       <Size>
@@ -175,7 +175,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>QuestCompAH</SubtypeId>
       </Id>
-      <DisplayName>Delivery to Tatooine</DisplayName>
+      <DisplayName>z Delivery to Tatooine</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\Tatooine.dds</Icon>
 	  <ExtraInventoryTooltipLine>Deliver this package and one unit of Food to Tatooine for 5517 credits. It costs 1839 credits to take this delivery on.</ExtraInventoryTooltipLine>
       <Size>
@@ -199,7 +199,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>QuestCompAI</SubtypeId>
       </Id>
-      <DisplayName>Delivery to Bonadan</DisplayName>
+      <DisplayName>z Delivery to Bonadan</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\Bonadan.dds</Icon>
 	  <ExtraInventoryTooltipLine>Deliver this package and one unit of Spice to Bonadan for 9346 credits. It costs 3115 credits to take this delivery on.</ExtraInventoryTooltipLine>
       <Size>
@@ -223,7 +223,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>QuestCompAJ</SubtypeId>
       </Id>
-      <DisplayName>Delivery to Eriadu</DisplayName>
+      <DisplayName>z Delivery to Eriadu</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\Eriadu.dds</Icon>
 	  <ExtraInventoryTooltipLine>Deliver this package and one unit of Spice to Eriadu for 4321 credits. It costs 1440 credits to take this delivery on.</ExtraInventoryTooltipLine>
       <Size>

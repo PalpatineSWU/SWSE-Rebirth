@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <!-- Concussion Missile -->
+
+    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+      <Public>true</Public>
+      <Id>
+        <TypeId>ConveyorSorter</TypeId>
+        <SubtypeId>K_Imperial_PatrolCraft_TorpLauncher</SubtypeId>
+      </Id>
+      <DisplayName>. Fixxed Rocket-Launcher</DisplayName>
+      <Icon>Textures\GUI\Icons\Turrets\Missile turrets.dds</Icon>
+      <Description>Imperial Manufactured Single-Tube Belt-Fed Launcher, uses the Imperial Concussion Missiles.
+	  Top and Rear loading Access ports, are available on this model of Launcher.</Description>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\IPV1\IPV1_PatrolCraft_TorpLauncher_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="60" />
+        <Component Subtype="ImperialConstruction" Count="45" />
+        <Component Subtype="PowerConverter" Count="30" />
+        <Component Subtype="ImperialGeneralParts" Count="30" />
+        <Component Subtype="Blaster_Mechanism" Count="16" />
+        <Component Subtype="Computer" Count="35" />
+        <Component Subtype="ImperialConstruction" Count="40" />
+        <Component Subtype="DuraSteel" Count="95" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>K_Imperial_PatrolCraft_TorpLauncher</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <WeaponDefinitionId Subtype="K_IMP_Gun" />
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <InventoryMaxVolume>0.24</InventoryMaxVolume>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
+      <PCU>600</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+      <Id>
+        <TypeId>ConveyorSorter</TypeId>
+        <SubtypeId>K_Imperial_Tower_ConcussionMissile</SubtypeId>
+      </Id>
+      <DisplayName>. Rocket-Launcher 1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Turrets\Missile turrets.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\IMP\Turret\K_SW_ConcussionTurret_Large.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="DuraSteel" Count="60" />
+        <Component Subtype="StandardPowerCell" Count="150" />
+        <Component Subtype="TurboLaser_Part" Count="30" />
+        <Component Subtype="TurboLaser_Part" Count="15" />
+        <Component Subtype="PowerConverter" Count="15" />
+        <Component Subtype="HeavyDutyCabling" Count="15" />
+        <Component Subtype="Computer" Count="90" />
+        <Component Subtype="ImperialConstruction" Count="10" />
+        <Component Subtype="DuraSteel" Count="560" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>K_Imperial_Tower_ConcussionMissile</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <OverlayTexture>Textures\GUI\Screens\K_Imperial_Overlay_Turret_1_A.dds</OverlayTexture>
+      <WeaponDefinitionId Subtype="K_IMP_Gun" />
+      <InventoryMaxVolume>0.384</InventoryMaxVolume>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <MinElevationDegrees>-15</MinElevationDegrees>
+      <MaxElevationDegrees>75</MaxElevationDegrees>
+      <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+      <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+      <IdleRotation>false</IdleRotation>
+      <AiEnabled>false</AiEnabled>
+      <MaxRangeMeters>1500</MaxRangeMeters>
+      <RotationSpeed>0.005</RotationSpeed>
+      <ElevationSpeed>0.005 </ElevationSpeed>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <MinFov>0.1</MinFov>
+      <MaxFov>1.04719755</MaxFov>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+    </Definition>
+    <!-- Concussion Missile -->
+
+    <!--Desi -->
+    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+      <Id>
+        <TypeId>ConveyorSorter</TypeId>
+        <SubtypeId>K_NewRepublic_Turrets_Light_AMS</SubtypeId>
+      </Id>
+      <DisplayName>. Designator</DisplayName>
+      <Description>Dedignator</Description>
+      <Icon>Textures\GUI\Icons\Turrets\Desig.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Construction\Turrets\K_NR_Turret_AMS_Large.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="5" />
+        <Component Subtype="StandardPowerCell" Count="2" />
+        <Component Subtype="Blaster_Mechanism" Count="2" />
+        <Component Subtype="Computer" Count="5" />
+        <Component Subtype="ImperialConstruction" Count="3" />
+        <Component Subtype="LightweightDurasteel" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>Turrets_Light_AMS</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <OverlayTexture>Textures\GUI\Screens\K_Imperial_Overlay_Turret_1_A.dds</OverlayTexture>
+      <WeaponDefinitionId Subtype="K_IMP_Gun" />
+      <InventoryMaxVolume>0.384</InventoryMaxVolume>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <MinElevationDegrees>-15</MinElevationDegrees>
+      <MaxElevationDegrees>75</MaxElevationDegrees>
+      <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+      <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+      <IdleRotation>false</IdleRotation>
+      <AiEnabled>false</AiEnabled>
+      <MaxRangeMeters>500</MaxRangeMeters>
+      <RotationSpeed>0.0005</RotationSpeed>
+      <ElevationSpeed>0.0002 </ElevationSpeed>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <MinFov>0.1</MinFov>
+      <MaxFov>1.04719755</MaxFov>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+    </Definition>
+    <!--Desi -->
+
+    <!--Ewar -->
+    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+
+      <Id>
+        <TypeId>ConveyorSorter</TypeId>
+        <SubtypeId>P_Tractorbeam</SubtypeId>
+      </Id>
+      <DisplayName>. Tractor beam</DisplayName>
+      <Icon>Textures\GUI\Icons\Turrets\EWAR.dds</Icon>
+      <Description>This weapon emitts a beam that can push, pull or stop targets. It has a range of 1km.</Description>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="3" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\IMP\Turret\K_SW_DefenseTurretHeavyBattery_LHVC_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="110" />
+        <Component Subtype="ImperialConstruction" Count="90" />
+        <Component Subtype="PowerConverter" Count="600" />
+        <Component Subtype="ImperialGeneralParts" Count="350" />
+        <Component Subtype="TurboLaser_Part" Count="150" />
+        <Component Subtype="TurboLaser_Part" Count="150" />
+        <Component Subtype="IonCapacitor" Count="150" />
+        <Component Subtype="Computer" Count="600" />
+        <Component Subtype="ImperialConstruction" Count="210" />
+        <Component Subtype="DuraSteel" Count="1600" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="5" EndY="5" />
+      </MountPoints>
+      <BlockPairName>P_Tractorbeam</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <WeaponDefinitionId Subtype="K_IMP_Gun" />
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <InventoryMaxVolume>1</InventoryMaxVolume>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_SW_Explosion_Generic</DestroySound>
+      <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
+      <MinElevationDegrees>-15</MinElevationDegrees>
+      <MaxElevationDegrees>75</MaxElevationDegrees>
+      <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+      <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+      <IdleRotation>false</IdleRotation>
+      <AiEnabled>false</AiEnabled>
+      <MaxRangeMeters>3000</MaxRangeMeters>
+      <RotationSpeed>0.0005</RotationSpeed>
+      <ElevationSpeed>0.0002 </ElevationSpeed>
+      <MinFov>0.1</MinFov>
+      <MaxFov>1.04719755</MaxFov>
+      <GeneralDamageMultiplier>1</GeneralDamageMultiplier>
+    </Definition>
+    <!--Ewar -->
+
+    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+
+      <Id>
+        <TypeId>ConveyorSorter</TypeId>
+        <SubtypeId>InterdictionSphere</SubtypeId>
+      </Id>
+      <DisplayName>. Interdiction Sphere</DisplayName>
+      <Icon>Textures\GUI\Icons\Turrets\Sphere.dds</Icon>
+      <Description>Interdiction Sphere</Description>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="5" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_Technology_Indiction_Sphere_Large.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="2500" />
+        <Component Subtype="Construction" Count="400" />
+        <Component Subtype="LargeTube" Count="40" />
+        <Component Subtype="MetalGrid" Count="500" />
+        <Component Subtype="Motor" Count="40" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="SteelPlate" Count="1000" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>InterdictionSphere</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PrimarySound>BlockGyroscope</PrimarySound>
+      <ResourceSinkGroup>Gyro</ResourceSinkGroup>
+      <RequiredPowerInput>1.25</RequiredPowerInput>
+      <DamageEffectName>Imperial_Damages_Electrical</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
+    </Definition>
+
+
+  </CubeBlocks>
+</Definitions>

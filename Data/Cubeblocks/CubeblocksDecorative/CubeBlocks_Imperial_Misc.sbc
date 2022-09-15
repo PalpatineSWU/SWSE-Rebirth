@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_CIS_Clutter_Rack_I</SubtypeId>
+      </Id>
+      <DisplayName>CIS Droid Rack</DisplayName>
+      <Icon>Textures\GUI\Icons\repspawns\rackfull.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\CIS\K_CIS_DroidRack_Large.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BlockPairName>K_CIS_Clutter_Rack_I</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_CIS_Clutter_BB2</SubtypeId>
+      </Id>
+      <DisplayName>CIS Static B2 Battledroid</DisplayName>
+      <Icon>Textures\GUI\Icons\repspawns\droid2.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\StaticProps\K_CIS_B2_WIP_Static_Large.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BlockPairName>K_CIS_Clutter_BB2</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_CIS_Clutter_Rack_IS</SubtypeId>
+      </Id>
+      <DisplayName>CIS Droid Small Rack</DisplayName>
+      <Icon>Textures\GUI\Icons\repspawns\rackhalf.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\CIS\K_CIS_DroidRack_S_Large.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BlockPairName>K_CIS_Clutter_Rack_IS</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_StorageBoxPile_I</SubtypeId>
+      </Id>
+      <DisplayName>Republic Box Pile</DisplayName>
+      <Icon>Textures\GUI\Icons\Cosmetic\Boxpile.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_StorageBoxPile_I_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BlockPairName>K_Imperial_Misc_StorageBoxPile_I</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Misc_StorageBoxPile_II</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Misc_StorageBox_Drinks</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_StorageBoxPile_II</SubtypeId>
+      </Id>
+      <DisplayName>Republic Box Pile(2)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cosmetic\Boxpile2.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_StorageBoxPile_II_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BlockPairName>K_Imperial_Misc_StorageBoxPile_II</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_StorageBox_Drinks</SubtypeId>
+      </Id>
+      <DisplayName>Republic Coffee\Tea Box</DisplayName>
+      <Icon>Textures\GUI\Icons\Cosmetic\Boxpile3.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_Storage_Coffee_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BlockPairName>K_Imperial_Misc_StorageBox_Drinks</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+
+      <Id>
+        <TypeId>ConveyorSorter</TypeId>
+        <SubtypeId>K_Rebellion_Decor_HangarEmpty</SubtypeId>
+      </Id>
+      <DisplayName>Rebellion Kauti Hangar</DisplayName>
+      <Icon>Textures\GUI\Icons\Cosmetic\Hangar.dds</Icon>
+      <Description>Rebellion Hangar Cover, for sheltering small starfighters.</Description>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="6" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Prefabrications\Rebellion_Starfighter_Hangar_Large.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="5" />
+        <Component Subtype="ImperialConstruction" Count="2" />
+        <Component Subtype="LightweightDurasteel" Count="100" />
+      </Components>
+      <CriticalComponent Subtype="ImperialConstruction" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="6" />
+      </MountPoints>
+      <BlockPairName>K_Rebellion_Decor_HangarEmpty</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_GyroDefinition">
+      <Id>
+        <TypeId>Gyro</TypeId>
+        <SubtypeId>K_Imperial_Misc_InterdictionSphere</SubtypeId>
+      </Id>
+      <DisplayName>Gyroscopic Ball</DisplayName>
+      <Icon>Textures\GUI\Icons\Turrets\Gyroball.dds</Icon>
+      <Description>A heavy metal spherical gyroscope of enormous proportions, 250 times a normal gyro output.</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="5" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_Technology_Indiction_Sphere_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="3000" />
+        <Component Subtype="ImperialConstruction" Count="500" />
+        <Component Subtype="StandardCabling" Count="50" />
+        <Component Subtype="ImperialGeneralParts" Count="625" />
+        <Component Subtype="Motor" Count="50" />
+        <Component Subtype="Computer" Count="62" />
+        <Component Subtype="DuraSteel" Count="1250" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>K_Imperial_Misc_InterdictionSphere</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PrimarySound>BlockGyroscope</PrimarySound>
+      <ResourceSinkGroup>Gyro</ResourceSinkGroup>
+      <ForceMagnitude>8400000000</ForceMagnitude>
+      <RequiredPowerInput>1.25</RequiredPowerInput>
+      <DamageEffectName>Imperial_Damages_Electrical</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
+      <PCU>50</PCU>
+      <IsAirTight>true</IsAirTight>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_GyroDefinition">
+      <Id>
+        <TypeId>Gyro</TypeId>
+        <SubtypeId>K_Imperial_Dropship_Guild_Gyro</SubtypeId>
+      </Id>
+      <DisplayName>Civilian Dropship Gyro 3x15</DisplayName>
+      <Icon>Textures\GUI\Icons\BatteryandBio\BioGyro.dds</Icon>
+      <Description> Hauler Gyroscopic control systems.</Description>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Guild\K_Imperial_GuildDropship_TopHull_Gyro_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="350" />
+        <Component Subtype="ImperialConstruction" Count="280" />
+        <Component Subtype="StandardCabling" Count="28" />
+        <Component Subtype="ImperialGeneralParts" Count="350" />
+        <Component Subtype="Motor" Count="28" />
+        <Component Subtype="Computer" Count="35" />
+        <Component Subtype="DuraSteel" Count="700" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="2" />
+      </MountPoints>
+      <BlockPairName>K_Imperial_Dropship_Guild_Gyro</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PrimarySound>BlockGyroscope</PrimarySound>
+      <ResourceSinkGroup>Gyro</ResourceSinkGroup>
+      <ForceMagnitude>1008000000</ForceMagnitude>
+      <RequiredPowerInput>1.2</RequiredPowerInput>
+      <DamageEffectName>Imperial_Damages_Electrical</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
+      <PCU>50</PCU>
+      <IsAirTight>true</IsAirTight>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
+    </Definition>
+
+
+    <Definition xsi:type="MyObjectBuilder_RemoteControlDefinition">
+      <Id>
+        <TypeId>RemoteControl</TypeId>
+        <SubtypeId>K_Imperial_Dropship_Guild_RC 3x3</SubtypeId>
+      </Id>
+      <DisplayName>Civilian Dropship Auto-Pilot Remote Controller-Unit</DisplayName>
+      <Description>Limited Droid-Brain, designed for automated freight transport across sectors for specialized shipping.</Description>
+      <Icon>Textures\GUI\Icons\BatteryandBio\BioGyro.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <IsStandAlone>true</IsStandAlone>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Guild\K_Imperial_GuildDropship_Cockpit_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="45" />
+        <Component Subtype="ImperialConstruction" Count="90" />
+        <Component Subtype="Motor" Count="9" />
+        <Component Subtype="Computer" Count="135" />
+        <Component Subtype="ImperialGeneralParts" Count="45" />
+        <Component Subtype="BulletproofGlass" Count="100" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>K_Imperial_Dropship_Guild_RC</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" />
+      </MountPoints>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.01</RequiredPowerInput>
+      <EnableFirstPerson>false</EnableFirstPerson>
+      <EnableShipControl>true</EnableShipControl>
+      <EnableBuilderCockpit>false</EnableBuilderCockpit>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>K_Imperial_Drone_EmissiveSet</EmissiveColorPreset>
+      <DestroyEffect>Imperial_Explosion_Sparks</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
+      <GeneralDamageMultiplier>0.6</GeneralDamageMultiplier>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>K_Imperial_Dropship_Guild_CargoHull</SubtypeId>
+      </Id>
+      <DisplayName>Civilian Dropship Cargobay Container</DisplayName>
+      <Icon>Textures\GUI\Icons\BatteryandBio\BioCar.dds</Icon>
+      <Description>Description_SmallCargoContainer</Description>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="1" z="9" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Guild\K_Imperial_GuildDropship_Hull_Large.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="30" />
+        <Component Subtype="Construction" Count="35" />
+        <Component Subtype="Girder" Count="80" />
+        <Component Subtype="Computer" Count="35" />
+        <Component Subtype="Construction" Count="245" />
+        <Component Subtype="SteelPlate" Count="200" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+
+      <BlockPairName>K_Imperial_Dropship_Guild_CargoHull</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+      <GeneralDamageMultiplier>0.6</GeneralDamageMultiplier>
+    </Definition>
+
+
+    <Definition xsi:type="MyObjectBuilder_RemoteControlDefinition">
+      <Id>
+        <TypeId>RemoteControl</TypeId>
+        <SubtypeId>K_Imperial_Guild_Controller_FakeCockpit</SubtypeId>
+        <!-- Station control seat -->
+      </Id>
+      <DisplayName>Civialian Remote Controller-Unit</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Cockpit.dds</Icon>
+      <Description> Civil Issue, attached to the Guild Automated Protocol Units. (NPC part)</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Guild\K_Imperial_Guild_Controller_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="5" />
+        <Component Subtype="ImperialConstruction" Count="10" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Computer" Count="15" />
+        <Component Subtype="ImperialGeneralParts" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>K_Imperial_Guild_Controller_FakeCockpit</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <MirroringY>Z</MirroringY>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.01</RequiredPowerInput>
+      <EnableFirstPerson>false</EnableFirstPerson>
+      <EnableShipControl>true</EnableShipControl>
+      <EnableBuilderCockpit>false</EnableBuilderCockpit>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Fortress_Wall</SubtypeId>
+      </Id>
+      <DisplayName>Republic Fortress Wall</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\ArtificialMass.dds</Icon>
+      <Description> Heavily-Armored Wall Segment.</Description>
+      <GuiVisible>true</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\VirtualMassBlock.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="250" />
+        <Component Subtype="Construction" Count="345" />
+        <Component Subtype="DuraSteel" Count="2500" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Fortress_Wall</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>65</BuildTimeSeconds>
+      <PCU>1</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

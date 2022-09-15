@@ -26,7 +26,6 @@ namespace Scripts
             Imperial_Turrets_DefenseHeavyBattery_PTL,
             Imperial_Turrets_RecessedEmplacement_DTC,
             Imperial_Turrets_RecessedEmplacement_DIC,
-            Imperial_Turrets_RecessedEmplacement_CML,
             Imperial_Turrets_LancerAA_TowerA,
             Imperial_Turrets_LancerAA_TowerB,
             Imperial_Turrets_LaserCannon_PDT,         
@@ -114,7 +113,6 @@ namespace Scripts
             Rebellion_FixedMount_LaserCannon_01,
             Imperial_Weaponry_TIE_RebornAvenger_Tip_One,            
             Imperial_Turrets_DefenseHeavyBattery_DMDC,
-            Imperial_Turrets_Hangar,
             Wep_InterdictionSphere,
             Imperial_Turrets_DefenseHeavyBattery_HVC6);
         }

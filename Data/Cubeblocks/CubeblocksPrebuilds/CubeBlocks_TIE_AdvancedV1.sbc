@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+      <Id>
+        <TypeId>AdvancedDoor</TypeId>
+        <SubtypeId>K_TIE_AdvancedV1_Wing</SubtypeId>
+      </Id>
+      <DisplayName>TIE Advanced-V1 Wing</DisplayName>
+      <Icon>Textures\GUI\Icons\Ships\TIEAdvanced\TieAd.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\TIE_AdvancedV1\K_TIE_AdvancedV1_Wing_Small.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="20" />
+        <Component Subtype="Computer" Count="3" />
+        <Component Subtype="SolarCell" Count="15" />
+        <Component Subtype="BulletproofGlass" Count="15" />
+        <Component Subtype="LightweightDurasteel" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <BlockPairName>K_TIE_AdvancedV1_Wing</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+      <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+      <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+      <DamageEffectId>212</DamageEffectId>
+      <Subparts>
+        <SubpartDefinition>
+          <Name>K_TIE_AdvancedV1_Wing_I_Small</Name>
+          <!-- ID = 0 -->
+        </SubpartDefinition>
+        <SubpartDefinition>
+          <Name>K_TIE_AdvancedV1_Wing_II_Small</Name>
+          <!-- ID = 0 -->
+        </SubpartDefinition>
+
+      </Subparts>
+      <OpeningSequence>
+        <Opening>
+          <IDs>0</IDs>
+          <Move>Rotate</Move>
+          <RotationAxis>Z</RotationAxis>
+          <PivotPosition x="0.0" y="0.0" z="0.0" />
+          <MaxOpen>45</MaxOpen>
+          <Speed>20</Speed>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+
+        <Opening>
+          <IDs>1</IDs>
+          <Move>Rotate</Move>
+          <RotationAxis>Z</RotationAxis>
+          <PivotPosition x="0.0" y="0.0" z="0.0" />
+          <MaxOpen>-45</MaxOpen>
+          <Speed>20</Speed>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+      </OpeningSequence>
+    </Definition>
+
+
+    <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
+      <Id>
+        <TypeId>JumpDrive</TypeId>
+        <SubtypeId>K_TIE_AdvancedV1_Hyperdrive</SubtypeId>
+      </Id>
+      <DisplayName>TIE Advanced-V1 Hyperdrive (Class III)</DisplayName>
+      <Icon>Textures\GUI\Icons\Ships\TIEAdvanced\TieAdHd.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="5" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\TIE_AdvancedV1\K_TIE_Advancedv1_Hyperdrive_Small.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="4" />
+        <Component Subtype="PowerConverter" Count="5" />
+        <Component Subtype="GravityGenerator" Count="2" />
+        <Component Subtype="Detector" Count="2" />
+        <Component Subtype="AlternatePowerCell" Count="10" />
+        <Component Subtype="Hyperdrive_Advanced" Count="30" />
+        <Component Subtype="Computer" Count="30" />
+        <Component Subtype="ImperialConstruction" Count="4" />
+        <Component Subtype="LightweightDurasteel" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>K_TIE_AdvancedV1_Hyperdrive</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+
+      <ResourceSinkGroup>Charging</ResourceSinkGroup>
+      <RequiredPowerInput>25</RequiredPowerInput>
+      <PowerNeededForJump>2.5</PowerNeededForJump>
+
+      <MaxJumpDistance>500000</MaxJumpDistance>
+      <MaxJumpMass>500000</MaxJumpMass>
+      <EmissiveColorPreset>K_Imperial_Hyperdrive_EmissiveSet</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>K_TIE_AdvancedV1_Pylon</SubtypeId>
+      </Id>
+      <DisplayName>TIE Advanced-V1 Pylon (Class II)</DisplayName>
+      <Icon>Textures\GUI\Icons\Ships\TIEAdvanced\TieAdBa.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\TIE_AdvancedV1\K_TIE_Advancedv1_Pylon_Small.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="54" />
+        <Component Subtype="ImperialConstruction" Count="27" />
+        <Component Subtype="AlternatePowerCell" Count="54">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="54" />
+        <Component Subtype="ImperialConstruction" Count="27" />
+        <Component Subtype="LightweightDurasteel" Count="54" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>K_TIE_AdvancedV1_Pylon</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>8</BuildTimeSeconds>
+
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>16.2</MaxPowerOutput>
+
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <RequiredPowerInput>16.2</RequiredPowerInput>
+      <MaxStoredPower>5.4</MaxStoredPower>
+      <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+      <RechargeMultiplier>0.8</RechargeMultiplier>
+
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <IsAirTight>true</IsAirTight>
+      <PCU>15</PCU>
+      <TargetingGroups>
+        <string>PowerSystems</string>
+      </TargetingGroups>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+      <Public>false</Public>
+      <Id>
+        <TypeId>SmallMissileLauncher</TypeId>
+        <SubtypeId>K_TIE_AdvancedV1_Weaponry</SubtypeId>
+      </Id>
+      <DisplayName>TIE Advanced-V1 Weapon-System</DisplayName>
+      <Icon>Textures\GUI\Icons\Ships\TIEAdvanced\TieAd.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="7" y="7" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\TIE\K_TIE_Fighter_Weaponry_Small.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="25" />
+        <Component Subtype="Computer" Count="45" />
+        <Component Subtype="LightweightDurasteel" Count="25" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>K_TIE_AdvancedV1_Weaponry</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <WeaponDefinitionId Subtype="K_IMP_Gun" />
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <InventoryMaxVolume>1</InventoryMaxVolume>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

@@ -1,0 +1,143 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <PhysicalItems>
+
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ingot</TypeId>
+                <SubtypeId>Tokens_Slave</SubtypeId>
+            </Id>
+            <DisplayName>Space Credit Slave Token</DisplayName>
+            <ExtraInventoryTooltipLine>Electronic Chip presenting ownership of a quanity of Slaves in the Galaxy.</ExtraInventoryTooltipLine>
+            <Icon>Textures\GUI\Icons\Resources\SW_Resources_Dooninum.dds</Icon>
+            <Size>
+                <X>0.01</X>
+                <Y>0.01</Y>
+                <Z>0.01</Z>
+            </Size>
+            <Mass>0.001</Mass>
+            <Volume>0.02</Volume>
+            <Model>Models\Resources\K_Imperial_Ore_Dooninum_Small.mwm</Model>
+            <PhysicalMaterial>Stone</PhysicalMaterial>
+            <IconSymbol>*Token</IconSymbol>
+            <MinimalPricePerUnit>2000</MinimalPricePerUnit>
+            <CanPlayerOrder>false</CanPlayerOrder>
+        </PhysicalItem>
+
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ingot</TypeId>
+                <SubtypeId>Tokens_KKED</SubtypeId>
+            </Id>
+            <DisplayName>Space Credit KKED Token</DisplayName>
+            <ExtraInventoryTooltipLine>Electronic Chip representing value to the KKED Group.</ExtraInventoryTooltipLine>
+            <Icon>Textures\GUI\Icons\Resources\SW_Resources_Dooninum.dds</Icon>
+            <Size>
+                <X>0.01</X>
+                <Y>0.01</Y>
+                <Z>0.01</Z>
+            </Size>
+            <Mass>0.001</Mass>
+            <Volume>0.02</Volume>
+            <Model>Models\Resources\K_Imperial_Ore_Dooninum_Small.mwm</Model>
+            <PhysicalMaterial>Stone</PhysicalMaterial>
+            <IconSymbol>*Token</IconSymbol>
+            <MinimalPricePerUnit>2000</MinimalPricePerUnit>
+            <CanPlayerOrder>false</CanPlayerOrder>
+        </PhysicalItem>
+
+
+        <!--            Credits         -->
+        <PhysicalItem xsi:type="MyObjectBuilder_PhysicalItemDefinition">            <!--            Cartel       -->
+            <Id>
+                <TypeId>PhysicalObject</TypeId>
+                <SubtypeId>K_SWM_Credit_Cartel</SubtypeId>
+            </Id>
+            <DisplayName>Space Credit Cartel Chip</DisplayName>
+            <Description>Pirate Currency, used for select Market conversions.
+			Convertable to Galactic Standard, via Black-Market access points.</Description>
+            <Icon>Textures\GUI\Icons\Items\SpaceCredit.dds</Icon>
+            <Size>
+                <X>0.001</X>
+                <Y>0.001</Y>
+                <Z>0.001</Z>
+            </Size>
+            <Mass>0.001</Mass>
+            <Volume>0.001</Volume>
+            <MaxStackAmount>1000000</MaxStackAmount>
+            <Model>Models\Components\SpaceCredit.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MinimalPricePerUnit>1</MinimalPricePerUnit>
+        </PhysicalItem>
+
+        <PhysicalItem xsi:type="MyObjectBuilder_PhysicalItemDefinition">            <!--            Coin       -->
+            <Id>
+                <TypeId>PhysicalObject</TypeId>
+                <SubtypeId>K_SWM_Credit_ImperialCoin</SubtypeId>
+            </Id>
+            <DisplayName>Space Credit Coinage</DisplayName>
+            <Description>Physical Currency, used for select Market conversions.
+			Convertable to Galactic Standard, via Market access points.</Description>
+            <Icon>Textures\GUI\Icons\Items\SpaceCredit.dds</Icon>
+            <Size>
+                <X>0.001</X>
+                <Y>0.001</Y>
+                <Z>0.001</Z>
+            </Size>
+            <Mass>0.001</Mass>
+            <Volume>0.001</Volume>
+            <MaxStackAmount>2000</MaxStackAmount>
+            <Model>Models\Components\SpaceCredit.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MinimalPricePerUnit>1</MinimalPricePerUnit>
+        </PhysicalItem>
+
+        <PhysicalItem xsi:type="MyObjectBuilder_PhysicalItemDefinition">            <!--            Favor , Imperial      -->
+            <Id>
+                <TypeId>PhysicalObject</TypeId>
+                <SubtypeId>K_SWM_Favor_Imp</SubtypeId>
+            </Id>
+            <DisplayName>Space Credit (Imperial)</DisplayName>
+            <Description>Computer Chip, exchangeable for Favorable equipment in select Imperial Vendors.
+			Purchasable typically via Imperial Markets access points
+			Convertable to Galactic Standard, through most other Faction Markets.</Description>
+            <Icon>Textures\GUI\Icons\Items\SpaceCredit.dds</Icon>
+            <Size>
+                <X>0.001</X>
+                <Y>0.001</Y>
+                <Z>0.001</Z>
+            </Size>
+            <Mass>0.001</Mass>
+            <Volume>0.001</Volume>
+            <MaxStackAmount>1000000</MaxStackAmount>
+            <Model>Models\Components\SpaceCredit.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MinimalPricePerUnit>1000</MinimalPricePerUnit>
+        </PhysicalItem>
+
+        <PhysicalItem xsi:type="MyObjectBuilder_PhysicalItemDefinition">            <!--            Favor , New Republic      -->
+            <Id>
+                <TypeId>PhysicalObject</TypeId>
+                <SubtypeId>K_SWM_Favor_NR</SubtypeId>
+            </Id>
+            <DisplayName>Space Credit (New Republic)</DisplayName>
+            <Description>Computer Chip, exchangeable for Favorable equipment in select New Republic Vendors.
+			Purchasable typically via New Republic Markets access points
+			Convertable to Galactic Standard, through most other Faction Markets.</Description>
+            <Icon>Textures\GUI\Icons\Items\SpaceCredit.dds</Icon>
+            <Size>
+                <X>0.001</X>
+                <Y>0.001</Y>
+                <Z>0.001</Z>
+            </Size>
+            <Mass>0.001</Mass>
+            <Volume>0.001</Volume>
+            <MaxStackAmount>1000000</MaxStackAmount>
+            <Model>Models\Components\SpaceCredit.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MinimalPricePerUnit>1000</MinimalPricePerUnit>
+        </PhysicalItem>
+
+    </PhysicalItems>
+</Definitions>

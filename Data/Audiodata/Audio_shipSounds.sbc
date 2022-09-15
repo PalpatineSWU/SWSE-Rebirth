@@ -1,8 +1,9 @@
 <?xml version="1.0"?>
-<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Sounds>
-  
-  <Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_TIE_Run_Slow</SubtypeId>
@@ -15,15 +16,15 @@
       <RealisticVolumeChange>0.6</RealisticVolumeChange>
       <Waves>
         <Wave Type="D2">
-         <Start>Audio\TIE_Engine_Experiment_I_A.wav</Start>
+          <Start>Audio\TIE_Engine_Experiment_I_A.wav</Start>
         </Wave>
         <Wave Type="D3">
           <Loop>Audio\TIE_Engine_Experiment_I_A.wav</Loop>
         </Wave>
       </Waves>
     </Sound>
-  
-  
-  
+
+
+
   </Sounds>
 </Definitions>

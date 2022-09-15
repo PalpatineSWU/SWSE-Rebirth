@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+
+
+    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">      <!-- Underground Turret-->
+      <Public>false</Public>
+      <Id>
+        <TypeId>ConveyorSorter</TypeId>
+        <SubtypeId>K_Rebellion_General_PopupTurret_1</SubtypeId>
+      </Id>
+      <DisplayName>. Rebellion Underground Turret</DisplayName>
+      <Description>Laser Broken lol</Description>
+      <Icon>Textures\GUI\Icons\Cubes\missile_turret.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Rebellion\Turrets\K_Rebellion_TrapTurret_LaserCannon_Large.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="115" />
+        <Component Subtype="StandardPowerCell" Count="40" />
+        <Component Subtype="Blaster_Mechanism" Count="12" />
+        <Component Subtype="Computer" Count="100" />
+        <Component Subtype="ImperialConstruction" Count="225" />
+        <Component Subtype="DuraSteel" Count="225" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BlockPairName>K_Rebellion_General_PopupTurret_1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <WeaponDefinitionId Subtype="K_IMP_Gun" />
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+      <Public>false</Public>
+      <Id>
+        <TypeId>ConveyorSorter</TypeId>
+        <SubtypeId>K_Imperial_PatrolCraft_LaserCannonTurret</SubtypeId>
+      </Id>
+      <DisplayName>. Imperial Heavy-Laser-Cannon Quad-Turret</DisplayName>
+      <Icon>Textures\GUI\Icons\Imperial_LaserTower.dds</Icon>
+      <Description>Laser Broken lol</Description>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\IPV1\IPV1_Turret_Base_Large.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="DuraSteel" Count="60" />
+        <Component Subtype="ImperialConstruction" Count="45" />
+        <Component Subtype="PowerConverter" Count="30" />
+        <Component Subtype="ImperialGeneralParts" Count="30" />
+        <Component Subtype="Blaster_Mechanism" Count="16" />
+        <Component Subtype="Computer" Count="35" />
+        <Component Subtype="ImperialConstruction" Count="40" />
+        <Component Subtype="DuraSteel" Count="95" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>K_Imperial_PatrolCraft_LaserCannonTurret</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <OverlayTexture>Textures\GUI\Screens\K_Imperial_Overlay_Turret_1_A.dds</OverlayTexture>
+      <WeaponDefinitionId Subtype="K_IMP_Gun" />
+      <InventoryMaxVolume>0.2</InventoryMaxVolume>
+      <DamageEffectName>Imperial_Damages_Electrical</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <MinElevationDegrees>-5</MinElevationDegrees>
+      <MaxElevationDegrees>180</MaxElevationDegrees>
+      <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+      <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+      <IdleRotation>false</IdleRotation>
+      <MaxRangeMeters>1000</MaxRangeMeters>
+      <RotationSpeed>0.004</RotationSpeed>
+      <ElevationSpeed>0.004 </ElevationSpeed>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <MinFov>0.1</MinFov>
+      <MaxFov>1.04719755</MaxFov>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
+      <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+    </Definition>
+
+
+
+  </CubeBlocks>
+</Definitions>

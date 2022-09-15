@@ -1,0 +1,266 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Conversion_Carbonite</SubtypeId>
+      </Id>
+      <DisplayName>Carbonite</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Ingots\SW_Resources_Ingot_3.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Nickel" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Carbonite" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Conversion_DuraSteel</SubtypeId>
+      </Id>
+      <DisplayName>Durasteel</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Ingots\SW_Resources_Ingot_5.dds</Icon>
+      <Prerequisites>
+        <Item Amount="21" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="DuraSteel_Ingot" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Conversion_Alum</SubtypeId>
+      </Id>
+      <DisplayName>Alum</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Ingots\SW_Resources_Ingot_11.dds</Icon>
+      <Prerequisites>
+        <Item Amount="21" TypeId="Ingot" SubtypeId="Cobalt" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Alum" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Conversion_Lommite</SubtypeId>
+      </Id>
+      <DisplayName>Lommite</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Ingots\SW_Resources_Ingot_9.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Silicon" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Lommite" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Conversion_Norax</SubtypeId>
+      </Id>
+      <DisplayName>Norax</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Ingots\SW_Resources_Ingot_12.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Silver" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Norax" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Conversion_Guerrerite</SubtypeId>
+      </Id>
+      <DisplayName>Guerrerite</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Ingots\SW_Resources_Ingot_8.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Gold" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Guerrerite_Crystal" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Conversion_Exonium</SubtypeId>
+      </Id>
+      <DisplayName>Exonium</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Ingots\SW_Resources_Ingot_7.dds</Icon>
+      <Prerequisites>
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Uranium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Exonium" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Conversion_Hollinium</SubtypeId>
+      </Id>
+      <DisplayName>Hollinium</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Ingots\SW_Resources_Ingot_6.dds</Icon>
+      <Prerequisites>
+        <Item Amount="25" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Hollinium" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Conversion_Rubindum</SubtypeId>
+      </Id>
+      <DisplayName>Rubindum</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Ingots\SW_Resources_Ingot_2_6.dds</Icon>
+      <Prerequisites>
+        <Item Amount="15" TypeId="Ingot" SubtypeId="Platinum" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Rubindum" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <!-- Polymer -->
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Conversion_ZZPolymer</SubtypeId>
+      </Id>
+      <DisplayName>Polymer</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Polymer.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Ore" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Polymer" />
+      <BaseProductionTimeInSeconds>0.25</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Conversion_ZZPolymer_Gravel</SubtypeId>
+      </Id>
+      <DisplayName>Polymer</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Polymer.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2.5" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Polymer" />
+      <BaseProductionTimeInSeconds>0.25</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SynthFuel2</SubtypeId>
+      </Id>
+      <DisplayName>Fuel (Synthetic Canisters)</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_SynthFuel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Polymer" />
+        <Item Amount="5" TypeId="Ore" SubtypeId="Anthracite" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="SyntheticFuel" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SynthFuel3</SubtypeId>
+      </Id>
+      <DisplayName>Fuel (Synthetic Canisters)</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_SynthFuel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Polymer" />
+        <Item Amount="5" TypeId="Ore" SubtypeId="Exonium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="SyntheticFuel" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ZMandolorianIron_Standard</SubtypeId>
+      </Id>
+      <DisplayName>Beskar</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Ingots\SW_Resources_Ingot_2.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Ore" SubtypeId="Beskar" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Alum" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Beskar" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ZPhrik</SubtypeId>
+      </Id>
+      <DisplayName>Phrik</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Ingots\SW_Resources_Ingot_13.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Ore" SubtypeId="Phrik" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Carbonite" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Phrik" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+  </Blueprints>
+
+  <BlueprintClasses>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>K_Imperial_Resource_Conversion</SubtypeId>
+      </Id>
+      <DisplayName>Resource Conversion</DisplayName>
+      <Icon>Textures\GUI\Icons\Production\K_SW_Production_Conversion_Inactive.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\Production\K_SW_Production_Conversion.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\Production\K_SW_Production_Conversion.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+  </BlueprintClasses>
+
+  <BlueprintClassEntries>
+
+
+    <Entry Class="K_Imperial_Resource_Conversion" BlueprintSubtypeId="SynthFuel2" />
+    <Entry Class="K_Imperial_Resource_Conversion" BlueprintSubtypeId="SynthFuel3" />
+    <Entry Class="K_Imperial_Resource_Conversion" BlueprintSubtypeId="ZPhrik" />
+    <Entry Class="K_Imperial_Resource_Conversion" BlueprintSubtypeId="ZMandolorianIron_Standard" />
+ />
+
+    <Entry Class="K_Imperial_Resource_Conversion" BlueprintSubtypeId="Conversion_DuraSteel" />
+    <Entry Class="K_Imperial_Resource_Conversion" BlueprintSubtypeId="Conversion_Lommite" />
+    <Entry Class="K_Imperial_Resource_Conversion" BlueprintSubtypeId="Conversion_Carbonite"/>
+    <Entry Class="K_Imperial_Resource_Conversion" BlueprintSubtypeId="Conversion_Alum" />
+    <Entry Class="K_Imperial_Resource_Conversion" BlueprintSubtypeId="Conversion_Norax" />
+    <Entry Class="K_Imperial_Resource_Conversion" BlueprintSubtypeId="Conversion_Guerrerite" />
+    <Entry Class="K_Imperial_Resource_Conversion" BlueprintSubtypeId="Conversion_Exonium" />
+    <Entry Class="K_Imperial_Resource_Conversion" BlueprintSubtypeId="Conversion_Hollinium" />
+    <Entry Class="K_Imperial_Resource_Conversion" BlueprintSubtypeId="Conversion_Rubindum" />
+    <Entry Class="K_Imperial_Resource_Conversion" BlueprintSubtypeId="Conversion_ZZPolymer" />
+    <Entry Class="K_Imperial_Resource_Conversion" BlueprintSubtypeId="Conversion_ZZPolymer_Gravel" />
+
+  </BlueprintClassEntries>
+
+</Definitions>

@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>5_Imperial_Repulsor</SubtypeId>
+      </Id>
+      <DisplayName>Thruster Comp (Repulsor)</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_thrust.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Alum" />
+        <Item Amount="30" TypeId="Ingot" SubtypeId="DuraSteel_Ingot" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Guerrerite_Crystal" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="ThrusterParts_Repulsor" />
+      <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>5_Imperial_ThrusterParts_Ion</SubtypeId>
+      </Id>
+      <DisplayName>Thruster Comp (Ionic)</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_thrust.dds</Icon>
+      <Prerequisites>
+        <Item Amount="30" TypeId="Ingot" SubtypeId="Alum" />
+        <Item Amount="60" TypeId="Ingot" SubtypeId="DuraSteel_Ingot" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Guerrerite_Crystal" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Ions" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="ThrusterParts_Ion" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>5_Imperial_ThrusterParts_Advanced_Ion</SubtypeId>
+      </Id>
+      <DisplayName>Thruster Comp (Advanced Ionic)</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_thrust.dds</Icon>
+      <Prerequisites>
+        <Item Amount="90" TypeId="Ingot" SubtypeId="Alum" />
+        <Item Amount="90" TypeId="Ingot" SubtypeId="DuraSteel_Ingot" />
+        <Item Amount="25" TypeId="Ingot" SubtypeId="Guerrerite_Crystal" />
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Ions" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="ThrusterParts_Advanced_Ion" />
+      <BaseProductionTimeInSeconds>500</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+
+  </Blueprints>
+</Definitions>

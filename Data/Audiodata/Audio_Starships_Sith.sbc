@@ -1,13 +1,14 @@
 <?xml version="1.0"?>
-<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Sounds>
     <!--IHarpo, a glorious man. Damnable Keen file structure.-->
-	 <!--Praise Enenra , whom has fixed this TIE Sounds.-->
-   
-	
-	
-	
-	<Sound>
+    <!--Praise Enenra , whom has fixed this TIE Sounds.-->
+
+
+
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Sith_Missile_Tracking</SubtypeId>
@@ -26,9 +27,9 @@
       </Waves>
     </Sound>
 
-   
 
-	
+
+
 
   </Sounds>
 </Definitions>

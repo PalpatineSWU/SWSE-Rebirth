@@ -1,0 +1,1470 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!--Concordia -->
+  <Definition xsi:type="PlanetGeneratorDefinition">
+    <Id>
+      <TypeId>PlanetGeneratorDefinition</TypeId>
+      <SubtypeId>Concordia</SubtypeId>
+    </Id>
+    <!--!!!Important!! Read if you want to mod Planets! -->
+    <!--Following tag switches off loading from certain color channels. Its performance measure in cases where channels are not used-->
+    <!--Make sure you are not modding a switched off channel-->
+    <PlanetMaps Material="true" Ores="true" Biome="true" Occlusion="true"/>
+
+    <MesherPostprocessing xsi:type="MyObjectBuilder_VoxelMesherComponentDefinition">
+      <PostprocessingSteps>
+        <Step xsi:type="MyObjectBuilder_VoxelPostprocessingDecimate" ForPhysics="true">
+          <LodSettings>
+            <Settings FromLod="0">
+              <FeatureAngle>15</FeatureAngle>
+              <EdgeThreshold>.04</EdgeThreshold>
+              <PlaneThreshold>.02</PlaneThreshold>
+            </Settings>
+            <Settings FromLod="1">
+              <FeatureAngle>15</FeatureAngle>
+              <EdgeThreshold>.04</EdgeThreshold>
+              <PlaneThreshold>.04</PlaneThreshold>
+            </Settings>
+            <Settings FromLod="2">
+              <FeatureAngle>15</FeatureAngle>
+              <EdgeThreshold>.06</EdgeThreshold>
+              <PlaneThreshold>.06</PlaneThreshold>
+            </Settings>
+          </LodSettings>
+        </Step>
+      </PostprocessingSteps>
+    </MesherPostprocessing>
+
+    <SurfaceDetail>
+      <Texture>Data/PlanetDataFiles/Extra/material_detail_4</Texture>
+      <Size>384</Size>
+      <Scale>15</Scale>
+      <Slope Min="30" Max="80" />
+      <Transition>10</Transition>
+    </SurfaceDetail>
+
+    <CustomMaterialTable>
+      <Material Material="K_Lush_Grass_Top" Value ="10" MaxDepth ="3"/>
+      <Material Material="AlienSand" Value ="40" MaxDepth ="3"/>
+      <Material Material="K_Lush_Soil" Value ="70" MaxDepth ="3"/>
+      <Material Material="K_Lush_GrassII_Top" Value ="100" MaxDepth ="3"/>
+      <Material Material="AlienSnow" Value ="130" MaxDepth ="3"/>
+      <Material Material="K_Lush_Stone" Value ="160" MaxDepth ="3"/>
+      <Material Material="K_Lush_Stone_Desert" Value ="180" MaxDepth ="3"/>
+    </CustomMaterialTable>
+
+    <DistortionTable>
+      <Distortion Type="Perlin" Value ="92" Frequency="10" Height="4" LayerCount="6"/>
+    </DistortionTable>
+
+    <OreMappings>
+      <!-- Tier 1 !INSERT ONLY IN BLUE CHANNEL! -->
+      <!-- Fe 1-->
+      <Ore Value="1" Type="K_Imperial_Voxel_Alum01" Start="10" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="4" Type="K_Imperial_Voxel_Alum01" Start="12" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="8" Type="K_Lush_Stone" Start="14" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
+
+      <!-- Fe 2-->
+      <Ore Value="12" Type="K_Lush_Stone" Start="25" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="16" Type="K_Imperial_Voxel_Alum01" Start="28" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="20" Type="K_Imperial_Voxel_Beskar" Start="34" Depth="6" TargetColor="#616c83" ColorInfluence="15"/>
+
+      <!-- Ni 1-->
+      <Ore Value="24" Type="K_Lush_Stone" Start="10" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="28" Type="K_Imperial_Voxel_Alum01" Start="11" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="32" Type="K_Lush_Stone" Start="11" Depth="6" TargetColor="#616c83" ColorInfluence="15"/>
+
+      <!-- Ni 2-->
+      <Ore Value="36" Type="K_Imperial_Voxel_Alum01" Start="24" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="40" Type="K_Lush_Stone" Start="27" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="44" Type="K_Imperial_Voxel_Alum01" Start="30" Depth="8" TargetColor="#616c83" ColorInfluence="15"/>
+
+      <!-- Si 1-->
+      <Ore Value="48" Type="K_Imperial_Voxel_Lommite01" Start="9" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="52" Type="K_Imperial_Voxel_Beskar" Start="25" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="56" Type="K_Imperial_Voxel_Lommite01" Start="10" Depth="6" TargetColor="#616c83" ColorInfluence="15"/>
+
+      <!-- Si 2-->
+      <Ore Value="60" Type="K_Imperial_Voxel_Beskar" Start="32" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="64" Type="K_Imperial_Voxel_Lommite01" Start="25" Depth="7" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="68" Type="K_Imperial_Voxel_Alum01" Start="27" Depth="9" TargetColor="#616c83" ColorInfluence="15"/>
+
+
+      <!-- ORE Tier 2 -->
+      <!-- Co 1-->
+      <Ore Value="72" Type="K_Imperial_Voxel_Norax01" Start="20" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="76" Type="K_Imperial_Voxel_Norax01" Start="22" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="80" Type="K_Imperial_Voxel_Guerrerite01" Start="26" Depth="6" TargetColor="#616c83" ColorInfluence="15"/>
+
+      <!-- Co 2-->
+      <Ore Value="84" Type="K_Imperial_Voxel_Beskar" Start="23" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="88" Type="K_Imperial_Voxel_Guerrerite01" Start="55" Depth="6" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="92" Type="K_Imperial_Voxel_Beskar" Start="30" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
+
+      <!-- Ag 1-->
+      <Ore Value="96" Type="K_Imperial_Voxel_Beskar" Start="14" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="100" Type="K_Imperial_Voxel_Exonium01" Start="25" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="104" Type="K_Lush_Stone" Start="31" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
+
+      <!-- Ag 2-->
+      <Ore Value="108" Type="K_Imperial_Voxel_Carbonite01" Start="55" Depth="8" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="112" Type="K_Imperial_Voxel_Carbonite01" Start="58" Depth="9" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="116" Type="K_Imperial_Voxel_Beskar" Start="35" Depth="11" TargetColor="#616c83" ColorInfluence="15"/>
+
+      <!-- Mg 1-->
+      <Ore Value="120" Type="K_Imperial_Voxel_Beskar" Start="65" Depth="1" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="124" Type="K_Imperial_Voxel_Alum01" Start="26" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="128" Type="K_Imperial_Voxel_Carbonite01" Start="29" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
+
+      <!-- Mg 2-->
+      <Ore Value="132" Type="K_Imperial_Voxel_Alum01" Start="53" Depth="7" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="136" Type="K_Imperial_Voxel_Beskar" Start="25" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="140" Type="K_Imperial_Voxel_Exonium01" Start="59" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
+
+
+      <!-- ORE Tier 3 -->
+      <!-- U 1-->
+      <Ore Value="144" Type="Ice_01" Start="32" Depth="2" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="148" Type="K_Imperial_Voxel_Beskar" Start="25" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="152" Type="Ice_01" Start="38" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
+
+      <!-- U 2-->
+      <Ore Value="156" Type="Ice_01" Start="80" Depth="8" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="160" Type="Ice_01" Start="89" Depth="9" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="164" Type="Ice_01" Start="96" Depth="11" TargetColor="#616c83" ColorInfluence="15"/>
+
+      <!-- Au 1-->
+      <Ore Value="168" Type="K_Imperial_Voxel_Beskar" Start="25" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="172" Type="K_Imperial_Voxel_Beskar" Start="33" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="176" Type="K_Imperial_Voxel_Exonium01" Start="45" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
+
+      <!-- Au 2-->
+      <Ore Value="180" Type="K_Imperial_Voxel_Alum01" Start="100" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="184" Type="K_Imperial_Voxel_Exonium01" Start="107" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="188" Type="K_Imperial_Voxel_Alum01" Start="112" Depth="8" TargetColor="#616c83" ColorInfluence="15"/>
+    </OreMappings>
+
+    <!-- Rules that define where Ambient sounds should be played defined by angle from equator -->
+    <SoundRules>
+      <!-- AlienIceland Day + Night -->
+      <SoundRule>
+        <Height Min="0" Max="0.42"/>
+        <Latitude Min="55" Max="80"/>
+        <SunAngleFromZenith Min="0" Max="180"/>
+        <EnvironmentSound>AmbAlienIceland</EnvironmentSound>
+      </SoundRule>
+
+      <!-- AlienPole Day + Night -->
+      <SoundRule>
+        <Height Min="0" Max="0.42"/>
+        <Latitude Min="80" Max="90"/>
+        <SunAngleFromZenith Min="0" Max="180"/>
+        <EnvironmentSound>AmbAlienPole</EnvironmentSound>
+      </SoundRule>
+
+      <!-- Forest amb sound rule -->
+      <!-- Mountain wind - AMB Alien High -->
+      <SoundRule>
+        <Height Min="0.42" Max="1"/>
+        <Latitude Min="0" Max="90"/>
+        <SunAngleFromZenith Min="0" Max="180"/>
+        <EnvironmentSound>AmbAlienHigh</EnvironmentSound>
+      </SoundRule>
+
+      <!-- Alien forest -->
+      <!-- Day -->
+      <SoundRule>
+        <Height Min="0" Max="0.42"/>
+        <Latitude Min="15" Max="55"/>
+        <SunAngleFromZenith Min="0" Max="90"/>
+        <EnvironmentSound>AmbAlienForestDay</EnvironmentSound>
+      </SoundRule>
+
+      <!-- Night -->
+      <SoundRule>
+        <Height Min="0" Max="0.42"/>
+        <Latitude Min="15" Max="55"/>
+        <SunAngleFromZenith Min="90" Max="180"/>
+        <EnvironmentSound>AmbAlienForestNight</EnvironmentSound>
+      </SoundRule>
+      <!-- Forest amb sound rule END -->
+
+      <!-- Desert amb sound rule -->
+      <!-- Day + Night -->
+      <SoundRule>
+        <Height Min="0" Max="0.42"/>
+        <Latitude Min="0" Max="15"/>
+        <SunAngleFromZenith Min="0" Max="90"/>
+        <EnvironmentSound>AmbAlienDesertDay</EnvironmentSound>
+      </SoundRule>
+
+      <SoundRule>
+        <Height Min="0" Max="0.42"/>
+        <Latitude Min="0" Max="15"/>
+        <SunAngleFromZenith Min="90" Max="180"/>
+        <EnvironmentSound>AmbAlienDesertNight</EnvironmentSound>
+      </SoundRule>
+      <!-- Desert amb sound rule END -->
+    </SoundRules>
+
+    <MusicCategories>
+      <MusicCategory Category="Alien" Frequency="0.75" />
+      <MusicCategory Category="Mystery" Frequency="0.15" />
+      <MusicCategory Category="Danger" Frequency="0.1" />
+    </MusicCategories>
+
+    <!-- Rules that define where materials are generated -->
+    <ComplexMaterials>
+
+      <MaterialGroup Name="Lake areas" Value="82">
+
+        <!-- Pole Biome -->
+        <Rule>
+          <Layers>
+            <Layer Material="AlienSnow" Depth="20"/>
+          </Layers>
+          <Height Min="0.0" Max="1.0"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="5"/>
+        </Rule>
+      </MaterialGroup>
+
+      <MaterialGroup Name="DefaultSetUp" Value="0">
+        <!-- Pole Biom -->
+        <Rule>
+          <Layers>
+            <Layer Material="AlienSnow" Depth="5"/>
+            <Layer Material="AlienIce" Depth="50"/>
+          </Layers>
+          <Height Min="0.0" Max="1.0"/>
+          <Latitude Min="80" Max="90"/>
+          <Slope Min="0" Max="30"/>
+        </Rule>
+        <Rule>
+          <Layers>
+            <Layer Material="AlienIce" Depth="50"/>
+          </Layers>
+          <Height Min="0.0" Max="1.0"/>
+          <Latitude Min="80" Max="90"/>
+          <Slope Min="30" Max="90"/>
+        </Rule>
+        <!-- Pole Biom End -->
+
+        <!-- Mountain tops snow cover - in iceland/woodlands -->
+        <Rule>
+          <Layers>
+            <Layer Material="AlienSnow" Depth="2"/>
+          </Layers>
+          <Height Min="0.43" Max="1.0"/>
+          <Latitude Min="25" Max="80"/>
+          <Slope Min="0" Max="25"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="K_Lush_Grass_Top" Depth="2"/>
+          </Layers>
+          <Height Min="0.44" Max="1"/>
+          <Latitude Min="25" Max="80"/>
+          <Slope Min="25" Max="30"/>
+        </Rule>
+
+        <!-- Iceland Biom -->
+
+        <!-- Iceland / pole transition -->
+
+        <Rule>
+          <Layers>
+            <Layer Material="AlienSnow" Depth="5"/>
+            <Layer Material="AlienIce" Depth="50"/>
+          </Layers>
+          <Height Min="0.0" Max="1.0"/>
+          <Latitude Min="70" Max="80"/>
+          <Slope Min="0" Max="20"/>
+        </Rule>
+        <Rule>
+          <Layers>
+            <Layer Material="K_Lush_Grass_Top" Depth="1"/>
+          </Layers>
+          <Height Min="0.0" Max="1.0"/>
+          <Latitude Min="70" Max="80"/>
+          <Slope Min="20" Max="30"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="AlienSnow" Depth="5"/>
+            <Layer Material="AlienIce" Depth="50"/>
+          </Layers>
+          <Height Min="0.0" Max="1.0"/>
+          <Latitude Min="55" Max="70"/>
+          <Slope Min="0" Max="10"/>
+        </Rule>
+        <Rule>
+          <Layers>
+            <Layer Material="K_Lush_Grass_Top" Depth="1"/>
+          </Layers>
+          <Height Min="0.0" Max="1.0"/>
+          <Latitude Min="55" Max="70"/>
+          <Slope Min="10" Max="20"/>
+        </Rule>
+        <Rule>
+          <Layers>
+            <Layer Material="K_Lush_Grass_Top" Depth="1"/>
+          </Layers>
+          <Height Min="0.0" Max="0.51"/>
+          <Latitude Min="55" Max="70"/>
+          <Slope Min="20" Max="30"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="AlienSnow" Depth="5"/>
+            <Layer Material="AlienIce" Depth="50"/>
+          </Layers>
+          <Height Min="0.0" Max="1.0"/>
+          <Latitude Min="50" Max="55"/>
+          <Slope Min="15" Max="30"/>
+        </Rule>
+        <Rule>
+          <Layers>
+            <Layer Material="K_Lush_Grass_Top" Depth="1"/>
+          </Layers>
+          <Height Min="0.0" Max="1.0"/>
+          <Latitude Min="50" Max="55"/>
+          <Slope Min="8" Max="15"/>
+        </Rule>
+        <Rule>
+          <Layers>
+            <Layer Material="K_Lush_Grass_Top" Depth="1"/>
+            <Layer Material="K_Lush_Soil" Depth="5"/>
+          </Layers>
+          <Height Min="0.0" Max="0.51"/>
+          <Latitude Min="50" Max="55"/>
+          <Slope Min="0" Max="8"/>
+        </Rule>
+        <!-- Iceland / pole transition end -->
+
+        <Rule>
+          <Layers>
+            <Layer Material="K_Lush_Grass_Top" Depth="1"/>
+          </Layers>
+          <Height Min="0.0" Max="0.51"/>
+          <Latitude Min="45" Max="50"/>
+          <Slope Min="15" Max="30"/>
+        </Rule>
+        <Rule>
+          <Layers>
+            <Layer Material="K_Lush_Grass_Top" Depth="1"/>
+            <Layer Material="K_Lush_Soil" Depth="5"/>
+          </Layers>
+          <Height Min="0.0" Max="0.51"/>
+          <Latitude Min="45" Max="50"/>
+          <Slope Min="0" Max="15"/>
+        </Rule>
+
+        <!-- Iceland Biom End -->
+        <!-- Woodlands Biom -->
+
+        <!-- Woodland / Iceland transition -->
+
+        <Rule>
+          <Layers>
+            <Layer Material="K_Lush_Grass_Top" Depth="1"/>
+            <Layer Material="K_Lush_Soil" Depth="5"/>
+          </Layers>
+          <Height Min="0.0" Max="0.51"/>
+          <Latitude Min="40" Max="45"/>
+          <Slope Min="0" Max="20"/>
+        </Rule>
+        <Rule>
+          <Layers>
+            <Layer Material="K_Lush_Grass_Top" Depth="1"/>
+            <Layer Material="K_Lush_Soil" Depth="5"/>
+          </Layers>
+          <Height Min="0.0" Max="0.35"/>
+          <Latitude Min="40" Max="45"/>
+          <Slope Min="20" Max="30"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="K_Lush_Grass_Top" Depth="1"/>
+            <Layer Material="K_Lush_Soil" Depth="5"/>
+          </Layers>
+          <Height Min="0.0" Max="0.51"/>
+          <Latitude Min="35" Max="40"/>
+          <Slope Min="0" Max="10"/>
+        </Rule>
+        <Rule>
+          <Layers>
+            <Layer Material="K_Lush_GrassII_Top" Depth="1"/>
+          </Layers>
+          <Height Min="0.0" Max="0.51"/>
+          <Latitude Min="35" Max="40"/>
+          <Slope Min="20" Max="30"/>
+        </Rule>
+        <Rule>
+          <Layers>
+            <Layer Material="K_Lush_Grass_Top" Depth="1"/>
+            <Layer Material="K_Lush_Soil" Depth="5"/>
+          </Layers>
+          <Height Min="0.0" Max="0.35"/>
+          <Latitude Min="35" Max="40"/>
+          <Slope Min="10" Max="20"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="K_Lush_GrassII_Top" Depth="1"/>
+            <Layer Material="K_Lush_Soil" Depth="5"/>
+          </Layers>
+          <Height Min="0.0" Max="0.51"/>
+          <Latitude Min="30" Max="35"/>
+          <Slope Min="8" Max="15"/>
+        </Rule>
+        <Rule>
+          <Layers>
+            <Layer Material="K_Lush_GrassII_Top" Depth="1"/>
+          </Layers>
+          <Height Min="0.0" Max="0.51"/>
+          <Latitude Min="30" Max="35"/>
+          <Slope Min="15" Max="30"/>
+        </Rule>
+        <Rule>
+          <Layers>
+            <Layer Material="K_Lush_Grass_Top" Depth="1"/>
+            <Layer Material="K_Lush_Soil" Depth="5"/>
+          </Layers>
+          <Height Min="0.0" Max="0.35"/>
+          <Latitude Min="30" Max="35"/>
+          <Slope Min="0" Max="8"/>
+        </Rule>
+
+        <!-- Woodland / Iceland transition end -->
+
+        <!-- AlienRockyMountain transition  -->
+
+
+        <Rule>
+          <Layers>
+            <Layer Material="K_Lush_Stone_Desert" Depth="5"/>
+          </Layers>
+          <Height Min="0.0" Max="1.0"/>
+          <Latitude Min="10" Max="13"/>
+          <Slope Min="30" Max="70"/>
+        </Rule>
+        <Rule>
+          <Layers>
+            <Layer Material="K_Lush_Stone" Depth="5"/>
+          </Layers>
+          <Height Min="0.0" Max="1.0"/>
+          <Latitude Min="10" Max="13"/>
+          <Slope Min="70" Max="90"/>
+        </Rule>
+
+
+        <Rule>
+          <Layers>
+            <Layer Material="K_Lush_Stone" Depth="5"/>
+          </Layers>
+          <Height Min="0.0" Max="1.0"/>
+          <Latitude Min="13" Max="80"/>
+          <Slope Min="30" Max="90"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="K_Lush_Stone_Desert" Depth="5"/>
+          </Layers>
+          <Height Min="0.0" Max="1.0"/>
+          <Latitude Min="0" Max="10"/>
+          <Slope Min="30" Max="90"/>
+        </Rule>
+
+        <!-- AlienRockyMountain transition end -->
+
+        <!-- Top -->
+        <Rule>
+          <Layers>
+            <Layer Material="AlienSnow" Depth="5"/>
+          </Layers>
+          <Height Min="0.7" Max="1.0"/>
+          <Latitude Min="20" Max="90"/>
+          <Slope Min="0" Max="30"/>
+        </Rule>
+        <Rule>
+          <Layers>
+            <Layer Material="K_Lush_Soil" Depth="5"/>
+          </Layers>
+          <Height Min="0.51" Max="0.7"/>
+          <Latitude Min="0" Max="10"/>
+          <Slope Min="0" Max="90"/>
+        </Rule>
+        <!-- Tree line -->
+        <Rule>
+          <Layers>
+            <Layer Material="K_Lush_GrassII_Top" Depth="1"/>
+          </Layers>
+          <Height Min="0.44" Max="0.51"/>
+          <Latitude Min="20" Max="30"/>
+          <Slope Min="0" Max="30"/>
+        </Rule>
+        <!-- Pine line -->
+        <Rule>
+          <Layers>
+            <Layer Material="K_Lush_Grass_Top" Depth="1"/>
+            <Layer Material="K_Lush_Soil" Depth="5"/>
+          </Layers>
+          <Height Min="0.35" Max="0.44"/>
+          <Latitude Min="20" Max="30"/>
+          <Slope Min="0" Max="30"/>
+        </Rule>
+        <!-- Grass lands line -->
+        <Rule>
+          <Layers>
+            <Layer Material="K_Lush_Grass_Top" Depth="1"/>
+            <Layer Material="K_Lush_Soil" Depth="5"/>
+          </Layers>
+          <Height Min="0.0" Max="0.35"/>
+          <Latitude Min="20" Max="30"/>
+          <Slope Min="0" Max="25"/>
+        </Rule>
+        <Rule>
+          <Layers>
+            <Layer Material="K_Lush_GrassII_Top" Depth="1"/>
+            <Layer Material="K_Lush_Soil" Depth="5"/>
+          </Layers>
+          <Height Min="0.0" Max="0.35"/>
+          <Latitude Min="20" Max="30"/>
+          <Slope Min="25" Max="30"/>
+        </Rule>
+        <!-- Woodlands Biom End -->
+
+        <!-- Desert Biom -->
+
+        <!-- Desert / woodland transition -->
+
+        <Rule>
+          <Layers>
+            <Layer Material="K_Lush_Grass_Top" Depth="1"/>
+            <Layer Material="K_Lush_Soil" Depth="5"/>
+          </Layers>
+          <Height Min="0.0" Max="0.44"/>
+          <Latitude Min="15" Max="20"/>
+          <Slope Min="0" Max="20"/>
+        </Rule>
+        <Rule>
+          <Layers>
+            <Layer Material="K_Lush_Grass_Top" Depth="1"/>
+            <Layer Material="K_Lush_Stone_Desert" Depth="100"/>
+          </Layers>
+          <Height Min="0.0" Max="0.44"/>
+          <Latitude Min="15" Max="20"/>
+          <Slope Min="20" Max="30"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="K_Lush_Grass_Top" Depth="1"/>
+            <Layer Material="K_Lush_Soil" Depth="5"/>
+          </Layers>
+          <Height Min="0.0" Max="0.44"/>
+          <Latitude Min="10" Max="15"/>
+          <Slope Min="0" Max="15"/>
+        </Rule>
+        <Rule>
+          <Layers>
+            <Layer Material="K_Lush_Soil" Depth="1"/>
+            <Layer Material="K_Lush_Stone_Desert" Depth="100"/>
+          </Layers>
+          <Height Min="0.0" Max="0.44"/>
+          <Latitude Min="10" Max="15"/>
+          <Slope Min="15" Max="30"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="K_Lush_Grass_Top" Depth="1"/>
+            <Layer Material="K_Lush_Soil" Depth="5"/>
+          </Layers>
+          <Height Min="0.0" Max="0.44"/>
+          <Latitude Min="5" Max="10"/>
+          <Slope Min="15" Max="30"/>
+        </Rule>
+        <Rule>
+          <Layers>
+            <Layer Material="K_Lush_Grass_Top" Depth="1"/>
+            <Layer Material="K_Lush_Stone_Desert" Depth="100"/>
+          </Layers>
+          <Height Min="0.0" Max="0.44"/>
+          <Latitude Min="5" Max="10"/>
+          <Slope Min="0" Max="15"/>
+        </Rule>
+
+        <!-- Desert / woodland transition end-->
+
+        <!-- Top -->
+        <Rule>
+          <Layers>
+            <Layer Material="AlienSnow" Depth="5"/>
+            <Layer Material="K_Lush_Stone_Desert" Depth="100"/>
+          </Layers>
+          <Height Min="0.51" Max="1.0"/>
+          <Latitude Min="0" Max="20"/>
+          <Slope Min="0" Max="30"/>
+        </Rule>
+
+        <!-- Tree line + Pine line-->
+        <Rule>
+          <Layers>
+            <Layer Material="K_Lush_Soil" Depth="1"/>
+            <Layer Material="K_Lush_Stone_Desert" Depth="100"/>
+          </Layers>
+          <Height Min="0.35" Max="0.51"/>
+          <Latitude Min="0" Max="5"/>
+          <Slope Min="0" Max="15"/>
+        </Rule>
+        <Rule>
+          <Layers>
+            <Layer Material="K_Lush_Soil" Depth="1"/>
+            <Layer Material="K_Lush_Stone_Desert" Depth="100"/>
+          </Layers>
+          <Height Min="0.35" Max="0.51"/>
+          <Latitude Min="0" Max="5"/>
+          <Slope Min="15" Max="30"/>
+        </Rule>
+
+        <!-- Grass lands line -->
+        <Rule>
+          <Layers>
+            <Layer Material="AlienRockGrass" Depth="1"/>
+            <Layer Material="K_Lush_Soil" Depth="5"/>
+            <Layer Material="K_Lush_Stone_Desert" Depth="100"/>
+          </Layers>
+          <Height Min="0.0" Max="0.35"/>
+          <Latitude Min="0" Max="5"/>
+          <Slope Min="5" Max="20"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="AlienSand" Depth="2"/>
+            <Layer Material="K_Lush_Soil" Depth="5"/>
+            <Layer Material="K_Lush_Stone_Desert" Depth="100"/>
+          </Layers>
+          <Height Min="0.0" Max="0.35"/>
+          <Latitude Min="0" Max="5"/>
+          <Slope Min="0" Max="5"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="AlienSand" Depth="1"/>
+            <Layer Material="K_Lush_Soil" Depth="100"/>
+          </Layers>
+          <Height Min="0.0" Max="0.35"/>
+          <Latitude Min="0" Max="5"/>
+          <Slope Min="0" Max="10"/>
+        </Rule>
+
+        <!-- Desert Biome End -->
+      </MaterialGroup>
+    </ComplexMaterials>
+
+    <!-- Rules that define where environment items will spawn -->
+    <EnvironmentItems>
+
+      <!-- Flora items -->
+      <!-- Flora items end -->
+
+      <!-- Biom foliage -->
+
+      <!-- Biom foliage Alien -->
+      <Item>
+        <Biomes>
+          <Biome>85</Biome>
+        </Biomes>
+        <Materials>
+          <Material>AlienSnow</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="alienrockyterrain_snowtop_largestone" Density="0.001" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="SnowCoverageIronCore" ModifierId="AlienIcelandArea" Density="0.002" />
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Lush_SnowForest_Collection" Density="0.6"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="SnowBushForestLarge" Density="0.4"/>
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="80"/>
+          <Slope Min="0" Max="10"/>
+        </Rule>
+      </Item>
+
+      <Item>
+        <Biomes>
+          <Biome>85</Biome>
+        </Biomes>
+        <Materials>
+          <Material>AlienSnow</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienSnowFoliage" Density="0.2"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="SnowCoverageIronCore" ModifierId="AlienIcelandArea" Density="0.002" />
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Lush_SnowForest_Collection" Density="4"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="SnowBushForestLarge" Density="2"/>
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="80"/>
+          <Slope Min="0" Max="30"/>
+        </Rule>
+      </Item>
+
+      <Item>
+        <Biomes>
+          <Biome>85</Biome>
+        </Biomes>
+        <Materials>
+          <Material>K_Lush_GrassII_Top</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002" />
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Lush_Forest_Collection" Density="7"/>
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="80"/>
+          <Slope Min="0" Max="10"/>
+        </Rule>
+      </Item>
+
+      <Item>
+        <Biomes>
+          <Biome>85</Biome>
+        </Biomes>
+        <Materials>
+          <Material>K_Lush_GrassII_Top</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="K_Lush_ForestEdge_Collection" Density="0.2"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002" />
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Lush_Forest_Collection" Density="7"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="WoodGrassBushForestLarge" Density="2"/>
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="80"/>
+          <Slope Min="0" Max="30"/>
+        </Rule>
+      </Item>
+
+      <Item>
+        <Biomes>
+          <Biome>85</Biome>
+        </Biomes>
+        <Materials>
+          <Material>K_Lush_Grass_Top</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="alienrockymountain_largestone" Density="0.001" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002" />
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Lush_Forest_Collection" Density="7"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="WoodGrassBushForestLarge" Density="2"/>
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="80"/>
+          <Slope Min="0" Max="10"/>
+        </Rule>
+      </Item>
+
+      <Item>
+        <Biomes>
+          <Biome>85</Biome>
+        </Biomes>
+        <Materials>
+          <Material>K_Lush_GrassII_Top</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienYellowGrassFoliage" Density="0.2"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002" />
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Lush_Forest_Collection" Density="7"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="WoodGrassBushForestLarge" Density="1.3"/>
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="80"/>
+          <Slope Min="0" Max="30"/>
+        </Rule>
+      </Item>
+
+      <Item>
+        <Biomes>
+          <Biome>85</Biome>
+        </Biomes>
+        <Materials>
+          <Material>K_Lush_Grass_Top</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002" />
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Lush_Forest_Collection" Density="7"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="WoodGrassBushForestLarge" Density="1.5"/>
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="80"/>
+          <Slope Min="0" Max="10"/>
+        </Rule>
+      </Item>
+
+      <Item>
+        <Biomes>
+          <Biome>85</Biome>
+        </Biomes>
+        <Materials>
+          <Material>K_Lush_Grass_Top</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienGreenGrassFoliage" Density="0.2"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002" />
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Lush_Forest_Collection" Density="7"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="WoodGrassBushForestLarge" Density="2"/>
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="80"/>
+          <Slope Min="0" Max="30"/>
+        </Rule>
+      </Item>
+
+      <Item>
+        <Biomes>
+          <Biome>85</Biome>
+        </Biomes>
+        <Materials>
+          <Material>K_Lush_Grass_Top</Material>
+          <Material>Soil</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002" />
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Lush_ForestEdge_Collection" Density="4"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="WoodGrassBushForestLarge" Density="0.4"/>
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="80"/>
+          <Slope Min="0" Max="10"/>
+        </Rule>
+      </Item>
+
+      <Item>
+        <Biomes>
+          <Biome>85</Biome>
+        </Biomes>
+        <Materials>
+          <Material>K_Lush_Grass_Top</Material>
+          <Material>Soil</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienRockGrassFoliage" Density="0.2"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002" />
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Lush_ForestEdge_Collection" Density="3"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="WoodGrassBushForestLarge" Density="0.4"/>
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="80"/>
+          <Slope Min="0" Max="30"/>
+        </Rule>
+      </Item>
+
+      <Item>
+        <Biomes>
+          <Biome>85</Biome>
+        </Biomes>
+        <Materials>
+          <Material>AlienSand</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienDesertArea" Density="0.002" />
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="80"/>
+          <Slope Min="0" Max="10"/>
+        </Rule>
+      </Item>
+
+      <Item>
+        <Biomes>
+          <Biome>85</Biome>
+        </Biomes>
+        <Materials>
+          <Material>AlienSand</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienSandFoliage" Density="0.2"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienDesertArea" Density="0.002" />
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="80"/>
+          <Slope Min="0" Max="30"/>
+        </Rule>
+      </Item>
+      <!-- Biom foliage Alien end -->
+      <!-- Biom foliage end -->
+
+      <!-- Biom woods edge -->
+
+      <!-- Alien Biom woods edge -->
+      <Item>
+        <Biomes>
+          <Biome>113</Biome>
+        </Biomes>
+        <Materials>
+          <Material>AlienSnow</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Lush_SnowForest_Collection" Density="0.6"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="SnowBushForestLarge" Density="0.4"/>
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="75"/>
+          <Slope Min="0" Max="90"/>
+        </Rule>
+      </Item>
+
+      <Item>
+        <Biomes>
+          <Biome>113</Biome>
+        </Biomes>
+        <Materials>
+          <Material>K_Lush_Soil</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Lush_ForestEdge_Collection" Density="3"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="WoodGrassBushForestLarge" Density="0.4"/>
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="80"/>
+          <Slope Min="0" Max="90"/>
+        </Rule>
+      </Item>
+
+      <Item>
+        <Biomes>
+          <Biome>113</Biome>
+        </Biomes>
+        <Materials>
+          <Material>K_Lush_Grass_Top</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Lush_ForestEdge_Collection" Density="5"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="WoodGrassBushForestLarge" Density="0.8"/>
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="75"/>
+          <Slope Min="0" Max="90"/>
+        </Rule>
+      </Item>
+
+      <Item>
+        <Biomes>
+          <Biome>113</Biome>
+        </Biomes>
+        <Materials>
+          <Material>K_Lush_Grass_Top</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Lush_Forest_Collection" Density="7"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="WoodGrassBushForestLarge" Density="1"/>
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="75"/>
+          <Slope Min="0" Max="90"/>
+        </Rule>
+      </Item>
+
+      <Item>
+        <Biomes>
+          <Biome>113</Biome>
+        </Biomes>
+        <Materials>
+          <Material>K_Lush_Grass_Top</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Lush_ForestEdge_Collection" Density="6"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="WoodGrassBushForestLarge" Density="0.7"/>
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="75"/>
+          <Slope Min="0" Max="90"/>
+        </Rule>
+      </Item>
+
+      <Item>
+        <Biomes>
+          <Biome>113</Biome>
+        </Biomes>
+        <Materials>
+          <Material>K_Lush_Grass_Top</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Lush_ForestEdge_Collection" Density="5"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="WoodGrassBushForestLarge" Density="0.4"/>
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="75"/>
+          <Slope Min="0" Max="90"/>
+        </Rule>
+      </Item>
+
+      <Item>
+        <Biomes>
+          <Biome>113</Biome>
+        </Biomes>
+        <Materials>
+          <Material>AlienSand</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Lush_ForestEdge_Collection" Density="0.2"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienSandBushForestEdge" Density="0.4"/>
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="75"/>
+          <Slope Min="0" Max="90"/>
+        </Rule>
+      </Item>
+      <!-- Alien Biom woods edge end -->
+
+      <!-- Biom woods edge end -->
+
+      <!-- Alien Biom woods Medium -->
+      <Item>
+        <Biomes>
+          <Biome>141</Biome>
+        </Biomes>
+        <Materials>
+          <Material>AlienSnow</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Lush_SnowForest_Collection" Density="2"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="SnowBushForestLarge" Density="0.4"/>
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="75"/>
+          <Slope Min="0" Max="90"/>
+        </Rule>
+      </Item>
+
+      <Item>
+        <Biomes>
+          <Biome>141</Biome>
+        </Biomes>
+        <Materials>
+          <Material>K_Lush_Soil</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienGreenGrassFoliage" Density="0.7"/>
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="80"/>
+          <Slope Min="0" Max="90"/>
+        </Rule>
+      </Item>
+
+      <Item>
+        <Biomes>
+          <Biome>141</Biome>
+        </Biomes>
+        <Materials>
+          <Material>K_Lush_GrassII_Top</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Lush_ForestEdge_Collection" Density="4"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="WoodGrassBushForestLarge" Density="0.4"/>
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="75"/>
+          <Slope Min="0" Max="90"/>
+        </Rule>
+      </Item>
+
+      <Item>
+        <Biomes>
+          <Biome>141</Biome>
+        </Biomes>
+        <Materials>
+          <Material>K_Lush_GrassII_Top</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Lush_Forest_Collection" Density="7"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="WoodGrassBushForestLarge" Density="0.4"/>
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="75"/>
+          <Slope Min="0" Max="90"/>
+        </Rule>
+      </Item>
+
+      <Item>
+        <Biomes>
+          <Biome>141</Biome>
+        </Biomes>
+        <Materials>
+          <Material>K_Lush_Grass_Top</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Lush_Forest_Collection" Density="7"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="WoodGrassBushForestLarge" Density="0.4"/>
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="75"/>
+          <Slope Min="0" Max="90"/>
+        </Rule>
+      </Item>
+
+      <Item>
+        <Biomes>
+          <Biome>141</Biome>
+        </Biomes>
+        <Materials>
+          <Material>K_Lush_Grass_Top</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Lush_Forest_Collection" Density="7"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="WoodGrassBushForestLarge" Density="0.4"/>
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="75"/>
+          <Slope Min="0" Max="90"/>
+        </Rule>
+      </Item>
+
+      <Item>
+        <Biomes>
+          <Biome>141</Biome>
+        </Biomes>
+        <Materials>
+          <Material>AlienSand</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Desert_Tree_Collection" Density="0.3"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienSandBushForestMedium" Density="0.2"/>
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="75"/>
+          <Slope Min="0" Max="90"/>
+        </Rule>
+      </Item>
+      <!-- Alien Biom woods Medium end -->
+      <!-- Biom woods medium end -->
+
+      <!-- Biom woods large -->
+
+      <!-- Alien Biom woods Large -->
+      <Item>
+        <Biomes>
+          <Biome>198</Biome>
+        </Biomes>
+        <Materials>
+          <Material>AlienSnow</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Lush_SnowForest_Collection" Density="3"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="SnowBushForestLarge" Density="0.4"/>
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="75"/>
+          <Slope Min="0" Max="90"/>
+        </Rule>
+      </Item>
+
+      <Item>
+        <Biomes>
+          <Biome>198</Biome>
+        </Biomes>
+        <Materials>
+          <Material>K_Lush_GrassII_Top</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Lush_Forest_Collection" Density="7"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="WoodGrassBushForestLarge" Density="2"/>
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="75"/>
+          <Slope Min="0" Max="90"/>
+        </Rule>
+      </Item>
+
+      <Item>
+        <Biomes>
+          <Biome>198</Biome>
+        </Biomes>
+        <Materials>
+          <Material>K_Lush_Soil</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienGreenGrassFoliage" Density="0.8"/>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Lush_Forest_Collection" Density="3"/>
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="80"/>
+          <Slope Min="0" Max="90"/>
+        </Rule>
+      </Item>
+
+      <Item>
+        <Biomes>
+          <Biome>198</Biome>
+        </Biomes>
+        <Materials>
+          <Material>K_Lush_GrassII_Top</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Lush_Forest_Collection" Density="4"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="WoodGrassBushForestLarge" Density="0.5"/>
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="75"/>
+          <Slope Min="0" Max="90"/>
+        </Rule>
+      </Item>
+
+
+      <Item>
+        <Biomes>
+          <Biome>198</Biome>
+        </Biomes>
+        <Materials>
+          <Material>K_Lush_Grass_Top</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Lush_Forest_Collection" Density="8"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="WoodGrassBushForestLarge" Density="0.4"/>
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="75"/>
+          <Slope Min="0" Max="90"/>
+        </Rule>
+      </Item>
+
+      <Item>
+        <Biomes>
+          <Biome>198</Biome>
+        </Biomes>
+        <Materials>
+          <Material>AlienRockGrass</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Lush_Forest_Collection" Density="4"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="WoodGrassBushForestLarge" Density="0.4"/>
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="75"/>
+          <Slope Min="0" Max="90"/>
+        </Rule>
+      </Item>
+
+      <Item>
+        <Biomes>
+          <Biome>198</Biome>
+        </Biomes>
+        <Materials>
+          <Material>AlienSand</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Desert_Tree_Collection" Density="0.5"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienSandBushForestLarge" Density="0.2"/>
+        </Items>
+        <Rule>
+          <Height Min="0" Max="0.7"/>
+          <Latitude Min="0" Max="75"/>
+          <Slope Min="0" Max="90"/>
+        </Rule>
+      </Item>
+      <!-- Alien Biom woods Large end -->
+
+      <!-- Biom woods large end -->
+
+    </EnvironmentItems>
+
+    <MaximumOxygen>1</MaximumOxygen>
+    <SurfaceGravity>1</SurfaceGravity>
+    <DefaultSurfaceMaterial Material="K_Lush_Grass_Top" MaxDepth="1"/>
+    <DefaultSubSurfaceMaterial Material="K_Lush_Stone"/>
+
+    <HasAtmosphere>true</HasAtmosphere>
+
+    <!-- Alien Planet's Atmosphere -->
+        <AtmosphereSettings>
+            <RayleighScattering>
+                <X>100</X>
+                <Y>84</Y>
+                <Z>63</Z>
+            </RayleighScattering>
+            <MieScattering>50</MieScattering>
+            <MieColorScattering>
+                <X>44</X>
+                <Y>62</Y>
+                <Z>150</Z>
+            </MieColorScattering>
+            <RayleighHeight>36</RayleighHeight>
+            <RayleighHeightSpace>15</RayleighHeightSpace>
+            <RayleighTransitionModifier>0.4</RayleighTransitionModifier>
+            <MieHeight>200</MieHeight>
+            <MieG>0.999832332</MieG>
+            <Intensity>6</Intensity>
+            <SeaLevelModifier>1.0</SeaLevelModifier>
+            <AtmosphereTopModifier>1.1</AtmosphereTopModifier>
+            <FogIntensity>1.0</FogIntensity>
+            <Scale>1</Scale>
+            <SunColor>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </SunColor>
+            <SunSpecularColor>
+                <X>1</X>
+                <Y>0.984</Y>
+                <Z>0.843</Z>
+            </SunSpecularColor>
+        </AtmosphereSettings>
+
+
+      <!-- Alien Clouds layer -->
+
+      <CloudLayers>
+        <CloudLayer>
+          <!-- Far layer -->
+          <Color>
+            <X>0.1</X>
+            <Y>0.1</Y>
+            <Z>0.1</Z>
+            <W>1</W>
+          </Color>
+          <Model>Models\Environment\Sky\CloudSphere.mwm</Model>
+          <Textures>
+            <Texture>Textures\Models\Environment\Sky\EarthFarClouds.dds</Texture>
+          </Textures>
+          <RelativeAltitude>1</RelativeAltitude>
+          <RotationAxis>
+            <X>-0.2</X>
+            <Y>1</Y>
+            <Z>0.2</Z>
+          </RotationAxis>
+          <AngularVelocity>0.0002</AngularVelocity>
+          <InitialRotation>1.2</InitialRotation>
+          <ScalingEnabled>true</ScalingEnabled>
+          <FadeOutRelativeAltitudeStart>3.0</FadeOutRelativeAltitudeStart>
+          <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
+          <ApplyFogRelativeDistance>0.1</ApplyFogRelativeDistance>
+        </CloudLayer>
+        <!-- Near layers -->
+        <CloudLayer>
+          <Color>
+            <X>0.1</X>
+            <Y>0.1</Y>
+            <Z>0.1</Z>
+            <W>1</W>
+          </Color>
+          <Model>Models\Environment\Sky\CloudSphere.mwm</Model>
+          <Textures>
+            <Texture>Textures\Models\Environment\Sky\TitanSky.dds</Texture>
+          </Textures>
+          <RelativeAltitude>1</RelativeAltitude>
+          <RotationAxis>
+            <X>0</X>
+            <Y>1</Y>
+            <Z>0</Z>
+          </RotationAxis>
+          <AngularVelocity>0.0005</AngularVelocity>
+          <InitialRotation>0.15</InitialRotation>
+          <ScalingEnabled>false</ScalingEnabled>
+          <FadeOutRelativeAltitudeStart>0.5</FadeOutRelativeAltitudeStart>
+          <FadeOutRelativeAltitudeEnd>1.6</FadeOutRelativeAltitudeEnd>
+        </CloudLayer>
+        <CloudLayer>
+          <Color>
+            <X>0.1</X>
+            <Y>0.1</Y>
+            <Z>0.1</Z>
+            <W>1</W>
+          </Color>
+          <Model>Models\Environment\Sky\CloudSphere.mwm</Model>
+          <Textures>
+            <Texture>Textures\Models\Environment\Sky\TitanSky.dds</Texture>
+          </Textures>
+          <RelativeAltitude>1.5</RelativeAltitude>
+          <RotationAxis>
+            <X>0.2</X>
+            <Y>1</Y>
+            <Z>-0.2</Z>
+          </RotationAxis>
+          <AngularVelocity>0.0005</AngularVelocity>
+          <InitialRotation>2.5</InitialRotation>
+          <ScalingEnabled>false</ScalingEnabled>
+          <FadeOutRelativeAltitudeStart>0.7</FadeOutRelativeAltitudeStart>
+          <FadeOutRelativeAltitudeEnd>1.5</FadeOutRelativeAltitudeEnd>
+        </CloudLayer>
+      </CloudLayers>
+
+      <MaterialsMaxDepth Min="4000" Max="4000"/>
+      <MaterialsMinDepth Min="20" Max="20"/>
+
+      <HillParams Min = "-0.01" Max ="0.12"/>
+
+      <AnimalSpawnInfo>
+        <Animals>
+          <Animal Type="KreegMoldSpider_II"/>
+        </Animals>
+        <SpawnDelayMin>12000</SpawnDelayMin>
+        <SpawnDelayMax>60000</SpawnDelayMax>
+        <SpawnDistMin>100</SpawnDistMin>
+        <SpawnDistMax>600</SpawnDistMax>
+        <WaveCountMin>0</WaveCountMin>
+        <WaveCountMax>0</WaveCountMax>
+      </AnimalSpawnInfo>
+
+      <NightAnimalSpawnInfo>
+        <Animals>
+          <Animal Type="KreegMoldSpider"/>
+          <Animal Type="KreegMoldSpider"/>
+          <Animal Type="KreegMoldSpider_III"/>
+        </Animals>
+        <SpawnDelayMin>2000</SpawnDelayMin>
+        <SpawnDelayMax>60000</SpawnDelayMax>
+        <SpawnDistMin>100</SpawnDistMin>
+        <SpawnDistMax>300</SpawnDistMax>
+        <WaveCountMin>4</WaveCountMin>
+        <WaveCountMax>12</WaveCountMax>
+      </NightAnimalSpawnInfo>
+      <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
+    </Definition>
+
+
+  </Definitions>

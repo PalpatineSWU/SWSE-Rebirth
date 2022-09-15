@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>3_Imperial_Hyperdrive_Basic</SubtypeId>
+      </Id>
+      <DisplayName>Hyperdrive General</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_7.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="DuraSteel_Ingot" />
+        <Item Amount="15" TypeId="Ingot" SubtypeId="Rubindum" />
+        <Item Amount="30" TypeId="Ingot" SubtypeId="Polymer" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Hyperdrive_Basic" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>3_Imperial_Hyperdrive_Advanced</SubtypeId>
+      </Id>
+      <DisplayName>Hyperdrive Advanced</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_7.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="DuraSteel_Ingot" />
+        <Item Amount="25" TypeId="Ingot" SubtypeId="Rubindum" />
+        <Item Amount="15" TypeId="Ingot" SubtypeId="Guerrerite_Crystal" />
+        <Item Amount="30" TypeId="Ingot" SubtypeId="Polymer" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Hyperdrive_Advanced" />
+      <BaseProductionTimeInSeconds>500</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>3_Imperial_Hyperdrive_Elite</SubtypeId>
+      </Id>
+      <DisplayName>Hyperdrive Elite</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_7.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="DuraSteel_Ingot" />
+        <Item Amount="120" TypeId="Ingot" SubtypeId="Rubindum" />
+        <Item Amount="150" TypeId="Ingot" SubtypeId="Guerrerite_Crystal" />
+        <Item Amount="150" TypeId="Ingot" SubtypeId="Hollinium" />        
+        <Item Amount="30" TypeId="Ingot" SubtypeId="Polymer" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Hyperdrive_Elite" />
+      <BaseProductionTimeInSeconds>500</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+  </Blueprints>
+</Definitions>

@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <!--
   Usage:
   
@@ -49,49 +50,49 @@
       </Id>
       <Size x="0.8" y="0.8" z="0.8" />
     </EntityComponent>
-	
-	  <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
         <SubtypeId>K_Imperial_Reborn_TIE_Bomber_HeadStorage</SubtypeId>
       </Id>
       <Size x="0.5" y="0.5" z="0.5" />
     </EntityComponent>
-	
-	
-	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
         <SubtypeId>K_Imperial_Reborn_TIE_Bomber_LinkageUnit</SubtypeId>
       </Id>
       <Size x="0.8" y="0.8" z="0.8" />
     </EntityComponent>
-	
-	 <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
         <SubtypeId>K_Imperial_PatrolCraft_CargoBay</SubtypeId>
       </Id>
       <Size x="20" y="20" z="2" />
     </EntityComponent>
-	
-	 <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
         <SubtypeId>K_Imperial_Dropship_Guild_CargoHull</SubtypeId>
       </Id>
       <Size x="20" y="2" z="18" />
     </EntityComponent>
-	
-	 <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
         <SubtypeId>K_Imperial_MG_Cache_Storage</SubtypeId>
       </Id>
       <Size x="2" y="2" z="2" />
     </EntityComponent>
-	
-	
+
+
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
@@ -99,24 +100,24 @@
       </Id>
       <Size x="0.8" y="0.8" z="0.8" />
     </EntityComponent>
-	
-	 <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
         <SubtypeId>K_Imperial_Assembly_HeavyCargo</SubtypeId>
       </Id>
       <Size x="12" y="12" z="12" />
     </EntityComponent>
-	
-	 <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
         <SubtypeId>K_Imperial_Carrack_CargoShip_CargoContainer</SubtypeId>
       </Id>
       <Size x="2" y="2" z="2" />
     </EntityComponent>
-	
-	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
         <SubtypeId>K_Sith_Warship_HangarDeck</SubtypeId>
@@ -124,7 +125,7 @@
       <Size x="0.8" y="0.8" z="0.8" />
     </EntityComponent>
 
-	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
         <SubtypeId>K_Rebellion_Assembler_ExileOutfitter</SubtypeId>
@@ -132,20 +133,28 @@
       <Size x="800" y="800" z="800" />
     </EntityComponent>
 
-  	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
         <SubtypeId>K_Rebellion_Assembler_StarfighterYard</SubtypeId>
       </Id>
       <Size x="800" y="800" z="800" />
-    </EntityComponent>  
+    </EntityComponent>
 
-	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
         <SubtypeId>K_Rebellion_Assembler_Chopshop</SubtypeId>
       </Id>
       <Size x="800" y="800" z="800" />
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>LargeBlockSmallContainer_FCS</SubtypeId>
+      </Id>
+      <Size x="80000000" y="80000000" z="80000000" />
     </EntityComponent>
 
 
@@ -164,8 +173,8 @@
         <Script>SpaceStatEffect</Script>
       </Scripts>
     </EntityComponent>
-	
-	 <EntityComponent xsi:type="MyObjectBuilder_EntityStatComponentDefinition">
+
+    <EntityComponent xsi:type="MyObjectBuilder_EntityStatComponentDefinition">
       <Id>
         <TypeId>CharacterStatComponent</TypeId>
         <SubtypeId>k_starwars_empire_kreegtechnication_i</SubtypeId>
@@ -180,9 +189,9 @@
         <Script>SpaceStatEffect</Script>
       </Scripts>
     </EntityComponent>
-	
-	
-	<EntityComponent xsi:type="MyObjectBuilder_EntityStatComponentDefinition">
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_EntityStatComponentDefinition">
       <Id>
         <TypeId>CharacterStatComponent</TypeId>
         <SubtypeId>k_sw_chiss_engineer_i</SubtypeId>
@@ -197,8 +206,8 @@
         <Script>SpaceStatEffect</Script>
       </Scripts>
     </EntityComponent>
-	
-	<EntityComponent xsi:type="MyObjectBuilder_EntityStatComponentDefinition">
+
+    <EntityComponent xsi:type="MyObjectBuilder_EntityStatComponentDefinition">
       <Id>
         <TypeId>CharacterStatComponent</TypeId>
         <SubtypeId>k_starwars_empire_specialtrooper_i</SubtypeId>
@@ -213,8 +222,8 @@
         <Script>SpaceStatEffect</Script>
       </Scripts>
     </EntityComponent>
-	
-	<EntityComponent xsi:type="MyObjectBuilder_EntityStatComponentDefinition">
+
+    <EntityComponent xsi:type="MyObjectBuilder_EntityStatComponentDefinition">
       <Id>
         <TypeId>CharacterStatComponent</TypeId>
         <SubtypeId>k_starwars_empire_miner_i</SubtypeId>
@@ -229,9 +238,9 @@
         <Script>SpaceStatEffect</Script>
       </Scripts>
     </EntityComponent>
-	
-	
-	<EntityComponent xsi:type="MyObjectBuilder_EntityStatComponentDefinition">
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_EntityStatComponentDefinition">
       <Id>
         <TypeId>CharacterStatComponent</TypeId>
         <SubtypeId>k_sw_rebellionquickie</SubtypeId>
@@ -246,8 +255,8 @@
         <Script>SpaceStatEffect</Script>
       </Scripts>
     </EntityComponent>
-	
-	<EntityComponent xsi:type="MyObjectBuilder_EntityStatComponentDefinition">
+
+    <EntityComponent xsi:type="MyObjectBuilder_EntityStatComponentDefinition">
       <Id>
         <TypeId>CharacterStatComponent</TypeId>
         <SubtypeId>k_sw_rebellionquickierecolorable</SubtypeId>
@@ -262,7 +271,7 @@
         <Script>SpaceStatEffect</Script>
       </Scripts>
     </EntityComponent>
-   
+
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>

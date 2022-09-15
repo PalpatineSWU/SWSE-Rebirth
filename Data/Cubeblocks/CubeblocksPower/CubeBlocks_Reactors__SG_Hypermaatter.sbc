@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_HydrogenEngineDefinition">
+      <Id>
+        <TypeId>HydrogenEngine</TypeId>
+        <SubtypeId>K_Imperial_Reactors_Hypermatter_Basic_Small</SubtypeId>
+      </Id>
+      <DisplayName>Hypermatter Reactor (Class III)</DisplayName>
+      <Icon>Textures\GUI\Icons\Ships\Starviper\SViperCont.dds</Icon>
+      <Description></Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Pirate\Viper\K_StarViper_CargoPod_Small.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="3" />
+        <Component Subtype="ImperialConstruction" Count="30" />
+        <Component Subtype="PowerConverter" Count="6" />
+        <Component Subtype="PolyplastCabling" Count="3" />
+        <Component Subtype="Reactors_Ionic" Count="9" />
+        <Component Subtype="ImperialGeneralParts" Count="3" />
+        <Component Subtype="Computer" Count="30" />
+        <Component Subtype="DuraSteel" Count="6" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>K_Imperial_Reactors_Anthractite_Basic</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+
+      <MaxPowerOutput>6</MaxPowerOutput>
+      <FuelCapacity>50000</FuelCapacity>
+      <EmissiveColorPreset>K_Imperial_Factory_Red</EmissiveColorPreset>
+      <IsAirTight>false</IsAirTight>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <FuelInfos>
+        <FuelInfo>
+          <Id>
+            <TypeId>GasProperties</TypeId>
+            <SubtypeId>HypermatterGas</SubtypeId>
+          </Id>
+          <Ratio>1</Ratio>
+        </FuelInfo>
+      </FuelInfos>
+      <FuelProductionToCapacityMultiplier>1</FuelProductionToCapacityMultiplier>
+      <PrimarySound>ArcBlockHydrogenEngine</PrimarySound>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>Explosion_Warhead_02</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <TargetingGroups>
+        <string>PowerSystems</string>
+      </TargetingGroups>
+      <PCU>25</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_HydrogenEngineDefinition">
+      <Id>
+        <TypeId>HydrogenEngine</TypeId>
+        <SubtypeId>P_Reactor_SG_Hypermatter_3x3</SubtypeId>
+      </Id>
+      <DisplayName>Hypermatter Reactor (Class II)</DisplayName>
+      <Description></Description>
+      <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\CivilHardware\K_Imperial_EmergencyFoundry_Small.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="40" />
+        <Component Subtype="ImperialConstruction" Count="9" />
+        <Component Subtype="PowerConverter" Count="9" />
+        <Component Subtype="PolyplastCabling" Count="3" />
+        <Component Subtype="Reactors_Ionic" Count="95" />
+        <Component Subtype="ImperialGeneralParts" Count="5" />
+        <Component Subtype="Computer" Count="25" />
+        <Component Subtype="DuraSteel" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\CivilHardware\K_Imperial_EmergencyFoundry_Small_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\CivilHardware\K_Imperial_EmergencyFoundry_Small_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\CivilHardware\K_Imperial_EmergencyFoundry_Small_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Imperial_Reactors_Hypermatter_Medium</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <MaxPowerOutput>60</MaxPowerOutput>
+
+      <FuelCapacity>50000</FuelCapacity>
+      <EmissiveColorPreset>K_Imperial_Factory_Red</EmissiveColorPreset>
+      <IsAirTight>false</IsAirTight>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <FuelInfos>
+        <FuelInfo>
+          <Id>
+            <TypeId>GasProperties</TypeId>
+            <SubtypeId>HypermatterGas</SubtypeId>
+          </Id>
+          <Ratio>1</Ratio>
+        </FuelInfo>
+      </FuelInfos>
+      <FuelProductionToCapacityMultiplier>1</FuelProductionToCapacityMultiplier>
+      <PrimarySound>ArcBlockHydrogenEngine</PrimarySound>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>Explosion_Warhead_02</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <TargetingGroups>
+        <string>PowerSystems</string>
+      </TargetingGroups>
+      <PCU>25</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_HydrogenEngineDefinition">
+      <Id>
+        <TypeId>HydrogenEngine</TypeId>
+        <SubtypeId>P_Reactor_SG_Hypermatter_3x5x7</SubtypeId>
+      </Id>
+      <DisplayName>Hypermatter Reactor (Class I)</DisplayName>
+      <Description></Description>
+      <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="3" z="7" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Manufacturing\K_Imperial_SubFactory_Small.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="80" />
+        <Component Subtype="ImperialConstruction" Count="18" />
+        <Component Subtype="PowerConverter" Count="18" />
+        <Component Subtype="PolyplastCabling" Count="6" />
+        <Component Subtype="Reactors_Ionic" Count="190" />
+        <Component Subtype="ImperialGeneralParts" Count="10" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="DuraSteel" Count="40" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>K_Imperial_Reactors_Hypermatter_Heavy</BlockPairName>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.25" File="Models\Manufacturing\K_Imperial_SubFactory_Small.mwm" />
+        <Model BuildPercentUpperBound="0.75" File="Models\Manufacturing\K_Imperial_SubFactory_Small.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Manufacturing\K_Imperial_SubFactory_Small.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <MaxPowerOutput>240</MaxPowerOutput>
+
+      <FuelCapacity>50000</FuelCapacity>
+      <EmissiveColorPreset>K_Imperial_Factory_Red</EmissiveColorPreset>
+      <IsAirTight>false</IsAirTight>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <FuelInfos>
+        <FuelInfo>
+          <Id>
+            <TypeId>GasProperties</TypeId>
+            <SubtypeId>HypermatterGas</SubtypeId>
+          </Id>
+          <Ratio>1</Ratio>
+        </FuelInfo>
+      </FuelInfos>
+      <FuelProductionToCapacityMultiplier>1</FuelProductionToCapacityMultiplier>
+      <PrimarySound>ArcBlockHydrogenEngine</PrimarySound>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>Explosion_Warhead_02</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <TargetingGroups>
+        <string>PowerSystems</string>
+      </TargetingGroups>
+      <PCU>25</PCU>
+    </Definition>
+
+
+
+  </CubeBlocks>
+</Definitions>

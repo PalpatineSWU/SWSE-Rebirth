@@ -7,7 +7,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>QuestCompDA</SubtypeId>
       </Id>
-      <DisplayName>Delivery to Abregado-rae</DisplayName>
+      <DisplayName>z Delivery to Abregado-rae</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\Abregado-rae.dds</Icon>
 	  <ExtraInventoryTooltipLine>Deliver this package and one unit of LuxyryGoods to Abregado-rae for 5475 credits. It costs 1825 credits to take this delivery on.</ExtraInventoryTooltipLine>
       <Size>
@@ -31,7 +31,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>QuestCompDB</SubtypeId>
       </Id>
-      <DisplayName>Delivery to Bastion</DisplayName>
+      <DisplayName>z Delivery to Bastion</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\Bastion.dds</Icon>
 	  <ExtraInventoryTooltipLine>Deliver this package and one unit of LuxyryGoods to Bastion for 5100 credits. It costs 1700 credits to take this delivery on.</ExtraInventoryTooltipLine>
       <Size>
@@ -55,7 +55,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>QuestCompDC</SubtypeId>
       </Id>
-      <DisplayName>Delivery to Brentaal</DisplayName>
+      <DisplayName>z Delivery to Brentaal</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\Brentaal.dds</Icon>
 	  <ExtraInventoryTooltipLine>Deliver this package and one unit of LuxyryGoods to Brentaal for 3600 credits. It costs 1200 credits to take this delivery on.</ExtraInventoryTooltipLine>
       <Size>
@@ -79,7 +79,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>QuestCompDD</SubtypeId>
       </Id>
-      <DisplayName>Delivery to Kuat</DisplayName>
+      <DisplayName>z Delivery to Kuat</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\Kuat.dds</Icon>
 	  <ExtraInventoryTooltipLine>Deliver this package and one unit of Food to Kuat for credits. It costs credits to take this delivery on.</ExtraInventoryTooltipLine>
       <Size>
@@ -103,7 +103,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>QuestCompDE</SubtypeId>
       </Id>
-      <DisplayName>Delivery to Concordia</DisplayName>
+      <DisplayName>z Delivery to Concordia</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\Concordia.dds</Icon>
 	  <ExtraInventoryTooltipLine>Deliver this package and one unit of LuxyryGoods to Concordia for 2925 credits. It costs 975 credits to take this delivery on.</ExtraInventoryTooltipLine>
       <Size>
@@ -127,7 +127,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>QuestCompDF</SubtypeId>
       </Id>
-      <DisplayName>Delivery to Dathomir</DisplayName>
+      <DisplayName>z Delivery to Dathomir</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\Dathomir.dds</Icon>
 	  <ExtraInventoryTooltipLine>Deliver this package and one unit of Food to Dathomir for 3657 credits. It costs 1219 credits to take this delivery on.</ExtraInventoryTooltipLine>
       <Size>
@@ -151,7 +151,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>QuestCompDG</SubtypeId>
       </Id>
-      <DisplayName>Delivery to Ilum</DisplayName>
+      <DisplayName>z Delivery to Ilum</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\Ilum.dds</Icon>
 	  <ExtraInventoryTooltipLine>Deliver this package and one unit of Food to Ilum for 5073 credits. It costs 1691 credits to take this delivery on.</ExtraInventoryTooltipLine>
       <Size>
@@ -175,7 +175,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>QuestCompDH</SubtypeId>
       </Id>
-      <DisplayName>Delivery to Tatooine</DisplayName>
+      <DisplayName>z Delivery to Tatooine</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\Tatooine.dds</Icon>
 	  <ExtraInventoryTooltipLine>Deliver this package and one unit of Industrial to Tatooine for 6163 credits. It costs 2054 credits to take this delivery on.</ExtraInventoryTooltipLine>
       <Size>
@@ -199,7 +199,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>QuestCompDI</SubtypeId>
       </Id>
-      <DisplayName>Delivery to Bonadan</DisplayName>
+      <DisplayName>z Delivery to Bonadan</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\Bonadan.dds</Icon>
 	  <ExtraInventoryTooltipLine>Deliver this package and one unit of Sentients to Bonadan for 6517 credits. It costs credits 2172 to take this delivery on.</ExtraInventoryTooltipLine>
       <Size>
@@ -223,7 +223,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>QuestCompDJ</SubtypeId>
       </Id>
-      <DisplayName>Delivery to Eriadu</DisplayName>
+      <DisplayName>z Delivery to Eriadu</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\Eriadu.dds</Icon>
 	  <ExtraInventoryTooltipLine>Deliver this package and one unit of Sentients to Eriadu for 5898 credits. It costs credits 1966 to take this delivery on.</ExtraInventoryTooltipLine>
       <Size>

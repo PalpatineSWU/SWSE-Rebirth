@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<WaterConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<BlockConfigs>
+	<!-- Functional Blocks -->
+	<BlockConfig TypeId="HydrogenEngine" SubtypeId="K_Imperial_Reactors_Hydrogen_Basic" Volume="40" FunctionalUnderwater="true" FunctionalAboveWater="false" PlayDamageEffect="false" />
+  <BlockConfig TypeId="HydrogenEngine" SubtypeId="K_Rebellion_Survival_Power_HydrogenGenerator" Volume="40" FunctionalUnderwater="true" FunctionalAboveWater="false" PlayDamageEffect="false" />
+</BlockConfigs>
+  <PlanetConfigs>
+  </PlanetConfigs>
+  <CharacterConfigs>
+  </CharacterConfigs>
+</WaterConfig>

@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Components>
+
+    <Component>      <!--       Hyperdrive Class VII              -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Hyperdrive_Basic</SubtypeId>
+      </Id>
+      <DisplayName>Hyperdrive General</DisplayName>
+      <ExtraInventoryTooltipLine>Required for Hyperspace Travel.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_7.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>10</Mass>
+      <Volume>25</Volume>
+      <Model>Models\Components\K_Imperial_Components_PowerCell_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>15</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>20</Health>
+      <MinimalPricePerUnit>8500</MinimalPricePerUnit>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+
+    <Component>      <!--       Hyperdrive Class III              -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Hyperdrive_Advanced</SubtypeId>
+      </Id>
+      <DisplayName>Hyperdrive Advanced</DisplayName>
+      <ExtraInventoryTooltipLine>Required for Hyperspace Travel.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_7.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>10</Mass>
+      <Volume>25</Volume>
+      <Model>Models\Components\K_Imperial_Components_PowerCell_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>15</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>20</Health>
+      <MinimalPricePerUnit>32500</MinimalPricePerUnit>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+
+    <Component>      <!--       Hyperdrive Class I              -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Hyperdrive_Elite</SubtypeId>
+      </Id>
+      <DisplayName>Hyperdrive Elite</DisplayName>
+      <ExtraInventoryTooltipLine>Required for Hyperspace Travel.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_7.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>10</Mass>
+      <Volume>25</Volume>
+      <Model>Models\Components\K_Imperial_Components_PowerCell_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>15</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>20</Health>
+      <MinimalPricePerUnit>92500</MinimalPricePerUnit>
+      <CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+
+  </Components>
+</Definitions>

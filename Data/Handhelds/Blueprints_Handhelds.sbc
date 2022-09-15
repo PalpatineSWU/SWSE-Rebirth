@@ -1,0 +1,266 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>HandDrillSWItem</SubtypeId>
+      </Id>
+      <DisplayName>Laser Hand Drill</DisplayName>
+      <Icon>Textures\Tools\HandDrillSW.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="DuraSteel_Ingot" />
+        <Item Amount="4" TypeId="Ingot" SubtypeId="Exonium" />
+        <Item Amount="2" TypeId="Ingot" SubtypeId="Guerrerite_Crystal" />
+        <Item Amount="2" TypeId="Ingot" SubtypeId="Polymer" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Silver" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="HandDrillSWItem" />
+      <BaseProductionTimeInSeconds>5000</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>HandDrillScannerItem</SubtypeId>
+      </Id>
+      <DisplayName>Hand Scanner</DisplayName>
+      <Icon>Textures\Tools\HandScanner.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="DuraSteel_Ingot" />
+        <Item Amount="4" TypeId="Ingot" SubtypeId="Exonium" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Silver" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="HandDrillScannerItem" />
+      <BaseProductionTimeInSeconds>5000</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AngleGrinder_LukeSaberItem</SubtypeId>
+      </Id>
+      <DisplayName>Lukes Lightsaber</DisplayName>
+      <Icon>Textures\SWBlades\Icons\LukeSaber.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Shraki" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Silver" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AngleGrinder_LukeSaberItem" />
+      <BaseProductionTimeInSeconds>5000</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AngleGrinder_LukeSaberRevItem</SubtypeId>
+      </Id>
+      <DisplayName>Lukes Lightsaber ROJ</DisplayName>
+      <Icon>Textures\SWBlades\Icons\LukeSaberRev.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Shraki" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Silver" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AngleGrinder_LukeSaberRevItem" />
+      <BaseProductionTimeInSeconds>5000</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AngleGrinder_DarthSaberItem</SubtypeId>
+      </Id>
+      <DisplayName>Darth Vaders Lightsaber</DisplayName>
+      <Icon>Textures\SWBlades\Icons\DarthSaber.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Lignan" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Silver" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AngleGrinder_DarthSaberItem" />
+      <BaseProductionTimeInSeconds>5000</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AngleGrinder_DarkSaberItem</SubtypeId>
+      </Id>
+      <DisplayName>The-Darksaber</DisplayName>
+      <Icon>Textures\SWBlades\Icons\DarkSaber.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AngleGrinder_DarkSaberItem" />
+      <BaseProductionTimeInSeconds>5000</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AngleGrinder_MaulCaneSaberItem</SubtypeId>
+      </Id>
+      <DisplayName>Mauls Cane Saber</DisplayName>
+      <Icon>Textures\SWBlades\Icons\MaulCaneSaber.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Lignan" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1000" TypeId="Ore" SubtypeId="Organic" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Gold" />
+
+
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AngleGrinder_MaulCaneSaberItem" />
+      <BaseProductionTimeInSeconds>5000</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AngleGrinder_MaulSaberItem</SubtypeId>
+      </Id>
+      <DisplayName>Darth Maul Single Saber</DisplayName>
+      <Icon>Textures\SWBlades\Icons\LukeSaberRev.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Shraki" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Silver" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AngleGrinder_MaulSaberItem" />
+      <BaseProductionTimeInSeconds>5000</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AngleGrinder_MaceSaberItem</SubtypeId>
+      </Id>
+      <DisplayName>Mace Windu's Saber</DisplayName>
+      <Icon>Textures\SWBlades\Icons\MaceSaber.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Lignan" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Silver" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AngleGrinder_MaceSaberItem" />
+      <BaseProductionTimeInSeconds>5000</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AngleGrinder_DukuSaberItem</SubtypeId>
+      </Id>
+      <DisplayName>Duku's Saber</DisplayName>
+      <Icon>Textures\SWBlades\Icons\DukuSaber.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Shraki" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Silver" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AngleGrinder_DukuSaberItem" />
+      <BaseProductionTimeInSeconds>5000</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AngleGrinder_KananSaberItem</SubtypeId>
+      </Id>
+      <DisplayName>Kanan's Saber</DisplayName>
+      <Icon>Textures\SWBlades\Icons\KananSaber.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Lignan" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Silver" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AngleGrinder_KananSaberItem" />
+      <BaseProductionTimeInSeconds>5000</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AngleGrinder_EzraTrainSaberItem</SubtypeId>
+      </Id>
+      <DisplayName>Ezra's Training Saber</DisplayName>
+      <Icon>Textures\SWBlades\Icons\EzraTrainSaber.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Shraki" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Silver" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AngleGrinder_EzraTrainSaberItem" />
+      <BaseProductionTimeInSeconds>5000</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AngleGrinder_EzraSaberItem</SubtypeId>
+      </Id>
+      <DisplayName>Ezra's Jedi Saber</DisplayName>
+      <Icon>Textures\SWBlades\Icons\EzraSaber.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Shraki" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Silver" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AngleGrinder_EzraSaberItem" />
+      <BaseProductionTimeInSeconds>5000</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AngleGrinder_ArkolisSaberItem</SubtypeId>
+      </Id>
+      <DisplayName>Arkolis's Sith Saber</DisplayName>
+      <Icon>Textures\SWBlades\Icons\LukeSaberRev.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Lignan" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Silver" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AngleGrinder_ArkolisSaberItem" />
+      <BaseProductionTimeInSeconds>5000</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AngleGrinder_PalpatineSaberItem</SubtypeId>
+      </Id>
+      <DisplayName>Palpatine's Sith Saber</DisplayName>
+      <Icon>Textures\SWBlades\Icons\LukeSaberRev.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Lignan" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Silver" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AngleGrinder_PalpatineSaberItem" />
+      <BaseProductionTimeInSeconds>5000</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+
+  </Blueprints>
+</Definitions>

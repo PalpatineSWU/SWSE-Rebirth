@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>7_Imperial_BlasterMechanism</SubtypeId>
+      </Id>
+      <DisplayName>Blaster Mechanisim</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_15.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Exonium" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="DuraSteel_Ingot" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Lommite" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Blaster_Mechanism" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>7_Imperial_TurboLaserMech</SubtypeId>
+      </Id>
+      <DisplayName>Blaster Mechanisim (Laser)</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_13.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Carbonite" />
+        <Item Amount="15" TypeId="Ingot" SubtypeId="DuraSteel_Ingot" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Exonium" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Hollinium" />
+        <Item Amount="15" TypeId="Ingot" SubtypeId="Lommite" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="TurboLaser_Part" />
+      <BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>7_Imperial_MaserMechanism</SubtypeId>
+      </Id>
+      <DisplayName>Blaster Mechanisim (Maser)</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Ingot_2_7.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Carbonite" />
+        <Item Amount="15" TypeId="Ingot" SubtypeId="DuraSteel_Ingot" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Exonium" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Hollinium" />
+        <Item Amount="15" TypeId="Ingot" SubtypeId="Lommite" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Maser_Mechanism" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>7_Imperial_IonCapacitor</SubtypeId>
+      </Id>
+      <DisplayName>Blaster Mechanisim (Ionic)</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_5.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Carbonite" />
+        <Item Amount="15" TypeId="Ingot" SubtypeId="DuraSteel_Ingot" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Exonium" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Ions" />
+        <Item Amount="15" TypeId="Ingot" SubtypeId="Lommite" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="IonCapacitor" />
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+  </Blueprints>
+</Definitions>

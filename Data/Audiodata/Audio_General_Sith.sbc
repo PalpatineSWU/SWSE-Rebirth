@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Sounds>
     <!--IHarpo, a glorious man. Damnable Keen file structure.-->
     <Sound>
@@ -13,15 +14,15 @@
       <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
       <DynamicMusicAmount>3</DynamicMusicAmount>
       <Volume>0.4</Volume>
-	  <Loopable>false</Loopable>
+      <Loopable>false</Loopable>
       <Waves>
         <Wave Type="D3">
           <Start>Audio\Sith\Cannons\SithLaserCannon.wav</Start>
         </Wave>
-        </Waves>
+      </Waves>
     </Sound>
-	
-	 <Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Sith_RepeaterCannon</SubtypeId>
@@ -32,18 +33,18 @@
       <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
       <DynamicMusicAmount>3</DynamicMusicAmount>
       <Volume>0.4</Volume>
-	  <Loopable>false</Loopable>
+      <Loopable>false</Loopable>
       <Waves>
         <Wave Type="D3">
           <Start>Audio\Sith\Cannons\SithRepeater.wav</Start>
         </Wave>
-		 <Wave Type="D3">
+        <Wave Type="D3">
           <Start>Audio\Sith\Cannons\SithRepeater_B.wav</Start>
         </Wave>
-        </Waves>
+      </Waves>
     </Sound>
-	
-	 <Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Sith_DorsalCannon</SubtypeId>
@@ -54,20 +55,20 @@
       <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
       <DynamicMusicAmount>3</DynamicMusicAmount>
       <Volume>0.4</Volume>
-	  <Loopable>false</Loopable>
+      <Loopable>false</Loopable>
       <Waves>
         <Wave Type="D3">
           <Start>Audio\Sith\Cannons\SithDorsalCannon.wav</Start>
         </Wave>
-        </Waves>
+      </Waves>
     </Sound>
-	
-	 <Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Sith_Silence</SubtypeId>
       </Id>
-       <Category>SHIP_JET</Category>
+      <Category>SHIP_JET</Category>
       <MaxDistance>0</MaxDistance>
       <Volume>0.0</Volume>
       <Loopable>true</Loopable>
@@ -79,8 +80,8 @@
         </Wave>
       </Waves>
     </Sound>
-	
-	 <Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Sith_HeavyCannon</SubtypeId>
@@ -91,16 +92,16 @@
       <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
       <DynamicMusicAmount>3</DynamicMusicAmount>
       <Volume>1</Volume>
-	  <Loopable>false</Loopable>
+      <Loopable>false</Loopable>
       <Waves>
         <Wave Type="D3">
           <Start>Audio\Sith\Cannons\SithHeavyCannon.wav</Start>
         </Wave>
-        </Waves>
+      </Waves>
     </Sound>
-	
-	
-	 <Sound>
+
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Sith_Accelerator</SubtypeId>
@@ -111,20 +112,20 @@
       <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
       <DynamicMusicAmount>3</DynamicMusicAmount>
       <Volume>1</Volume>
-	  <Loopable>false</Loopable>
+      <Loopable>false</Loopable>
       <Waves>
         <Wave Type="D3">
           <Start>Audio\Sith\Cannons\Sith_Accelerator_A.wav</Start>
         </Wave>
-		 <Wave Type="D3">
+        <Wave Type="D3">
           <Start>Audio\Sith\Cannons\Sith_Accelerator_B.wav</Start>
         </Wave>
-		 <Wave Type="D3">
+        <Wave Type="D3">
           <Start>Audio\Sith\Cannons\Sith_Accelerator_C.wav</Start>
         </Wave>
-        </Waves>
+      </Waves>
     </Sound>
 
-  
+
   </Sounds>
 </Definitions>

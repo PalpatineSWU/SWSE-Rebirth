@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+
+    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+      <Id>
+        <TypeId>ConveyorSorter</TypeId>
+        <SubtypeId>K_TIE_Bomber_Pod</SubtypeId>
+      </Id>
+      <DisplayName>. TIE Bomber Rocket-Launcher IV</DisplayName>
+      <Description>Launcher</Description>
+      <Icon>Textures\GUI\Icons\Ships\TieBomber\TieBomb.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="7" y="7" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\TIE_Bomber\K_TIE_Bomber_CorePod_Small.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="50" />
+        <Component Subtype="ImperialConstruction" Count="15" />
+        <Component Subtype="Computer" Count="5" />
+        <Component Subtype="LightweightDurasteel" Count="150" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>K_TIE_Bomber_Pod</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <WeaponDefinitionId Subtype="K_IMP_Gun" />
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <InventoryMaxVolume>0.24</InventoryMaxVolume>
+      <DestroySound>K_Imperial_Explosion_Critical</DestroySound>
+      <DamageEffectName>Imperial_Damages_Electrical</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>Imperial_ElectricalExplosion</DestroyEffect>
+      <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+      <Id>
+        <TypeId>ConveyorSorter</TypeId>
+        <SubtypeId>K_TIE_Bomber_Pod_CenterBombbay</SubtypeId>
+      </Id>
+      <DisplayName>TIE Bomber Rocket-Launcher III</DisplayName>
+      <Description>Launcher</Description>
+      <Icon>Textures\GUI\Icons\Ships\TieBomber\TieBomb.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="7" y="7" z="7" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\TIE_Bomber\K_TIE_Bomber_Pod_Center_Weapon_Small.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="50" />
+        <Component Subtype="ImperialConstruction" Count="25" />
+        <Component Subtype="Computer" Count="5" />
+        <Component Subtype="LightweightDurasteel" Count="150" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>K_TIE_Bomber_Pod_CenterBombbay</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <WeaponDefinitionId Subtype="K_IMP_Gun" />
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <InventoryMaxVolume>0.24</InventoryMaxVolume>
+      <DestroySound>K_Imperial_Explosion_Critical</DestroySound>
+      <DamageEffectName>Imperial_Damages_Electrical</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>Imperial_ElectricalExplosion</DestroyEffect>
+      <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>K_TIE_Bomber_Pod_Center</SubtypeId>
+      </Id>
+      <Description>TIE Bomber Reactor</Description>
+      <DisplayName>TIE Bomber Reactor</DisplayName>
+      <Icon>Textures\GUI\Icons\Ships\TieBomber\TieBombRe.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="7" y="7" z="7" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\TIE_Bomber\K_TIE_Bomber_Pod_Center_Small.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="350" />
+        <Component Subtype="ImperialConstruction" Count="3500" />
+        <Component Subtype="PowerConverter" Count="700" />
+        <Component Subtype="HeavyDutyCabling" Count="350" />
+        <Component Subtype="FissionAdvancedController" Count="1050" />
+        <Component Subtype="ImperialGeneralParts" Count="350" />
+        <Component Subtype="Computer" Count="3500" />
+        <Component Subtype="LightweightDurasteel" Count="700" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>K_TIE_Bomber_Pod_Center</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <MaxPowerOutput>525</MaxPowerOutput>
+      <InventorySize>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </InventorySize>
+
+      <!-- 
+                Values are volume fill ratio, means how much fuel reactor pulls from conveyor system to the inventory.
+                If volume fill ratio is bellow minimum, reactor starts pulling fuel up to maximum value.
+                Warning: Changing these values will affect performance.
+            -->
+      <InventoryFillFactorMin>0.001</InventoryFillFactorMin>
+      <InventoryFillFactorMax>0.002</InventoryFillFactorMax>
+
+      <!-- 
+                This is how much of fuel is pulled from conveyor system in one tick.
+                It's in minutes, means that it will pull X minutes of fuel in one tick.
+                Warning: Changing this value will affect performance.
+            -->
+      <FuelPullAmountFromConveyorInMinutes>10.0</FuelPullAmountFromConveyorInMinutes>
+
+      <FuelId>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Exonium</SubtypeId>
+      </FuelId>
+      <PrimarySound>ShipSmNuclearSm</PrimarySound>
+      <DestroySound>K_Imperial_Explosion_Critical</DestroySound>
+      <DamageEffectName>Imperial_Damages_Electrical</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>Imperial_ElectricalExplosion</DestroyEffect>
+      <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>K_TIE_Bomber_Pod_End</SubtypeId>
+      </Id>
+      <Description>Closing Cap of the TIE Bomber Pods, this also acts as the TIE's primary power supply.</Description>
+      <DisplayName>TIE Bomber Pod-End Battery (Class II)</DisplayName>
+      <Icon>Textures\GUI\Icons\Ships\TieBomber\TieBombBa.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="7" y="7" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\TIE_Bomber\K_TIE_Bomber_Pod_End_Small.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="490" />
+        <Component Subtype="ImperialConstruction" Count="245" />
+        <Component Subtype="AlternatePowerCell" Count="490">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="490" />
+        <Component Subtype="ImperialConstruction" Count="245" />
+        <Component Subtype="LightweightDurasteel" Count="490" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>K_TIE_Bomber_Pod_End</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>8</BuildTimeSeconds>
+
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>148</MaxPowerOutput>
+
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <RequiredPowerInput>145</RequiredPowerInput>
+      <MaxStoredPower>49</MaxStoredPower>
+      <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+      <RechargeMultiplier>0.8</RechargeMultiplier>
+
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <Public>true</Public>
+      <DestroySound>K_Imperial_Explosion_Critical</DestroySound>
+      <DamageEffectName>Imperial_Damages_Electrical</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>Imperial_ElectricalExplosion</DestroyEffect>
+      <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+      <IsAirTight>true</IsAirTight>
+      <PCU>15</PCU>
+      <TargetingGroups>
+        <string>PowerSystems</string>
+      </TargetingGroups>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>K_TIE_Bomber_Pod_Engine</SubtypeId>
+      </Id>
+      <Description>TIE Engine Caliberated for the TIE Bomber's Acceleration capacity.</Description>
+      <DisplayName>TIE Bomber Thruster upgraded (Class II)</DisplayName>
+      <Icon>Textures\GUI\Icons\Ships\TieBomber\TieBombTh.dds</Icon>
+      <ThrusterType>Ion</ThrusterType>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="7" y="7" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\TIE_Bomber\K_TIE_Bomber_Pod_Cap_Small.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="1" />
+        <Component Subtype="ImperialConstruction" Count="1" />
+        <Component Subtype="StandardCabling" Count="5" />
+        <Component Subtype="ThrusterParts_Ion" Count="42" />
+        <Component Subtype="ImperialConstruction" Count="1" />
+        <Component Subtype="LightweightDurasteel" Count="4" />
+      </Components>
+      <CriticalComponent Subtype="ThrusterParts_Ion" Index="0" />
+      <BlockPairName>K_TIE_Bomber_Pod_Engine</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>4000000</ForceMagnitude>
+      <MaxPowerConsumption>0.201</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>5</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1.5</EffectivenessAtMaxInfluence>
+
+      <FlameDamageLengthScale>0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>1.0</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1</X>
+        <Y>0.3</Y>
+        <Z>0.3</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.9</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+        <W>1</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>SmallGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>800</FlameVisibilityDistance>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>K_TIE_Engine_Bomber</PrimarySound>
+      <DestroySound>K_Imperial_Explosion_Critical</DestroySound>
+      <DamageEffectName>Imperial_Damages_Electrical</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>Imperial_ElectricalExplosion</DestroyEffect>
+      <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+      <Id>
+        <TypeId>SolarPanel</TypeId>
+        <SubtypeId>K_TIE_Bomber_Wing</SubtypeId>
+      </Id>
+      <Description>Iconic TIE Bomber Wing. Acts as a Solar Panel.</Description>
+      <DisplayName>TIE Bomber Wing</DisplayName>
+      <Icon>Textures\GUI\Icons\Ships\TieBomber\TieBombSol.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="25" z="21" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\TIE_Bomber\K_TIE_Bomber_Wing_Small.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="40" />
+        <Component Subtype="Computer" Count="5" />
+        <Component Subtype="IonWingCircuitry" Count="15" />
+        <Component Subtype="TranspariSteel" Count="55" />
+        <Component Subtype="LightweightDurasteel" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="TranspariSteel" Index="0" />
+      <BlockPairName>K_TIE_Bomber_Wing</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+      <MaxPowerOutput>0.5</MaxPowerOutput>
+      <PanelOrientation>
+        <X>-1</X>
+        <Y>0</Y>
+        <Z>0</Z>
+      </PanelOrientation>
+      <TwoSidedPanel>true</TwoSidedPanel>
+      <PanelOffset>0.0</PanelOffset>
+      <DestroySound>K_Imperial_Explosion_Critical</DestroySound>
+      <DamageEffectName>Imperial_Damages_Electrical</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>Imperial_ElectricalExplosion</DestroyEffect>
+      <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+    </Definition>
+
+
+  </CubeBlocks>
+</Definitions>

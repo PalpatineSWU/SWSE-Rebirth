@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Hangar_Field_5xRed</SubtypeId>
+      </Id>
+      <DisplayName>Republic Red Hangar Field (5x-Static)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_HangarField.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="5" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_Hangar_Field_5xRed_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Hangar_Field_5xRed</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Misc_Hangar_Field_5xRedCorner</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Misc_Hangar_Field_1xRed</SubtypeId>
+        </BlockVariant>
+
+      </BlockVariants>
+    </Definition>
+
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Hangar_Field_5xRedCorner</SubtypeId>
+      </Id>
+      <DisplayName>Republic Red Hangar Field Corner(5x-Static)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_HangarField.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="5" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_Hangar_Field_5xCornerRed_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Hangar_Field_5xRedCorner</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Hangar_Field_2x_Green</SubtypeId>
+      </Id>
+      <DisplayName>Republic Green Hangar Field(2x-Static)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_HangarField.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_Hangar_Field_2x_Green_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Hangar_Field_2x_Green</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Hangar_Field_5x</SubtypeId>
+      </Id>
+      <DisplayName>Republic Hangar Field (5x-Static)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_HangarField.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="5" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_Hangar_Field_5x_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Hangar_Field_5x</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Misc_Hangar_Field_5xCorner</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Misc_Hangar_Field_3x</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Misc_Hangar_Field_1x</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Hangar_Field_5xCorner</SubtypeId>
+      </Id>
+      <DisplayName>Republic Hangar Field Corner(5x-Static)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_HangarField.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="5" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_Hangar_Field_5xCorner_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Hangar_Field_5xCorner</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Hangar_Field_3x</SubtypeId>
+      </Id>
+      <DisplayName>Republic Hangar Field(3x-Static)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_HangarField.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="3" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_Hangar_Field_3x_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Hangar_Field_3x</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Hangar_Field_2x</SubtypeId>
+      </Id>
+      <DisplayName>Republic Hangar Field(2x-Static)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_HangarField.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_Hangar_Field_2x_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Hangar_Field_2x</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Hangar_Field_1x</SubtypeId>
+      </Id>
+      <DisplayName>Republic Hangar Field(1x-Static)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_HangarField.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <Description>Frameless Hangar Field.</Description>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_Hangar_Field_Panel_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Hangar_Field_1x</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <HasPhysics>false</HasPhysics>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Hangar_Field_1xRed</SubtypeId>
+      </Id>
+      <DisplayName>Republic Hangar Field(1x-Static Red)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_HangarField.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <Description>Frameless Hangar Field.</Description>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_Hangar_Field_Panel_Red_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Hangar_Field_1x_Red</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <HasPhysics>false</HasPhysics>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Hangar_Field_1xGreen</SubtypeId>
+      </Id>
+      <DisplayName>Republic Hangar Field(1x-Static Green)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_HangarField.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <Description>Frameless Hangar Field.</Description>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_Hangar_Field_Panel_Green_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Hangar_Field_1xGreen</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <HasPhysics>false</HasPhysics>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Hangar_Field_6x</SubtypeId>
+      </Id>
+      <DisplayName>Republic Hangar Field(6x-Static)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_HangarField.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="6" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_Hangar_Field_6x_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Hangar_Field_6x</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Hangar_Field_7x</SubtypeId>
+      </Id>
+      <DisplayName>Republic Hangar Field(7x-Static)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_HangarField.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="7" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_Hangar_Field_7x_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Hangar_Field_7x</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+  </CubeBlocks>
+</Definitions>

@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>1_Imperial_StandardPowerCell</SubtypeId>
+      </Id>
+      <DisplayName>Power Cell (Standard)</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_10.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="DuraSteel_Ingot" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Exonium" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Polymer" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="StandardPowerCell" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>1_Imperial_AlternatePowerCell</SubtypeId>
+      </Id>
+      <DisplayName>Power Cell (Nox)</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_10.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="DuraSteel_Ingot" />
+        <Item Amount="25" TypeId="Ingot" SubtypeId="Exonium" />
+        <Item Amount="15" TypeId="Ingot" SubtypeId="Hollinium" />
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Polymer" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="AlternatePowerCell" />
+      <BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>1_Imperial_NeurodiumPowerCell</SubtypeId>
+      </Id>
+      <DisplayName>Power Cell (Neurodium)</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_10.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="DuraSteel_Ingot" />
+        <Item Amount="45" TypeId="Ingot" SubtypeId="Hollinium" />
+        <Item Amount="125" TypeId="Ingot" SubtypeId="Exonium" />
+        <Item Amount="9" TypeId="Ingot" SubtypeId="Polymer" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="NeurodiumPowerCell" />
+      <BaseProductionTimeInSeconds>500</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+  </Blueprints>
+</Definitions>

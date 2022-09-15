@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>K_Imperial_Dropship_Guild_Battery</SubtypeId>
+      </Id>
+      <DisplayName>Dropship Battery (Class III)</DisplayName>
+      <Description></Description>
+      <Icon>Textures\GUI\Icons\BatteryandBio\BioBa.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Guild\K_Imperial_GuildDropship_TopHull_Battery_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="200" />
+        <Component Subtype="ImperialConstruction" Count="100" />
+        <Component Subtype="StandardPowerCell" Count="800">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="250" />
+        <Component Subtype="ImperialConstruction" Count="200" />
+        <Component Subtype="DuraSteel" Count="600" />
+      </Components>
+      <CriticalComponent Subtype="StandardPowerCell" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>BatteryBigIII</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>240</MaxPowerOutput>
+
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <RequiredPowerInput>240</RequiredPowerInput>
+      <AdaptibleInput>true</AdaptibleInput>
+      <MaxStoredPower>60</MaxStoredPower>
+      <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+      <RechargeMultiplier>0.8</RechargeMultiplier>
+
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <Public>true</Public>
+      <DestroySound>K_Imperial_Explosion_Generic</DestroySound>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+      <PCU>15</PCU>
+      <IsAirTight>true</IsAirTight>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <TargetingGroups>
+        <string>PowerSystems</string>
+      </TargetingGroups>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>K_Imperial_Dropship_Guild_BatteryParallel</SubtypeId>
+      </Id>
+      <DisplayName>Dropship Battery (Class II)</DisplayName>
+      <Description></Description>
+      <Icon>Textures\GUI\Icons\BatteryandBio\BioBa.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Guild\K_Imperial_GuildDropship_TopHull_Battery_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="200" />
+        <Component Subtype="ImperialConstruction" Count="100" />
+        <Component Subtype="AlternatePowerCell" Count="800">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="250" />
+        <Component Subtype="ImperialConstruction" Count="200" />
+        <Component Subtype="DuraSteel" Count="600" />
+      </Components>
+      <CriticalComponent Subtype="AlternatePowerCell" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>BatteryBigII</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>360</MaxPowerOutput>
+
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <RequiredPowerInput>360</RequiredPowerInput>
+      <AdaptibleInput>true</AdaptibleInput>
+      <MaxStoredPower>90</MaxStoredPower>
+      <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+      <RechargeMultiplier>0.8</RechargeMultiplier>
+
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <Public>true</Public>
+      <DestroySound>K_Imperial_Explosion_Generic</DestroySound>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+      <PCU>15</PCU>
+      <IsAirTight>true</IsAirTight>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <TargetingGroups>
+        <string>PowerSystems</string>
+      </TargetingGroups>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>K_Imperial_Dropship_Guild_BatteryPRAISEJESUS</SubtypeId>
+      </Id>
+      <DisplayName>Dropship Battery (Class I)</DisplayName>
+      <Description></Description>
+      <Icon>Textures\GUI\Icons\BatteryandBio\BioBa.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Guild\K_Imperial_GuildDropship_TopHull_Battery_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="200" />
+        <Component Subtype="ImperialConstruction" Count="100" />
+        <Component Subtype="NeurodiumPowerCell" Count="800">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="250" />
+        <Component Subtype="ImperialConstruction" Count="200" />
+        <Component Subtype="DuraSteel" Count="600" />
+      </Components>
+      <CriticalComponent Subtype="NeurodiumPowerCell" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>BatteryBigI</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>480</MaxPowerOutput>
+
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <RequiredPowerInput>480</RequiredPowerInput>
+      <AdaptibleInput>true</AdaptibleInput>
+      <MaxStoredPower>120</MaxStoredPower>
+      <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+      <RechargeMultiplier>0.8</RechargeMultiplier>
+
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <Public>true</Public>
+      <DestroySound>K_Imperial_Explosion_Generic</DestroySound>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+      <PCU>15</PCU>
+      <IsAirTight>true</IsAirTight>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <TargetingGroups>
+        <string>PowerSystems</string>
+      </TargetingGroups>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

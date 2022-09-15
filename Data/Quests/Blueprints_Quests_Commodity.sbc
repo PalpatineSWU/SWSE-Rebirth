@@ -7,7 +7,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>Food</SubtypeId>
       </Id>
-      <DisplayName>Food</DisplayName>
+      <DisplayName>z Food</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Commodity\Food.dds</Icon>
 	  <ExtraInventoryTooltipLine>Food.</ExtraInventoryTooltipLine>
       <Size>
@@ -31,7 +31,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>Industrial</SubtypeId>
       </Id>
-      <DisplayName>Industrial</DisplayName>
+      <DisplayName>z Industrial</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Commodity\Industry.dds</Icon>
 	  <ExtraInventoryTooltipLine>Industrial.</ExtraInventoryTooltipLine>
       <Size>
@@ -55,7 +55,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>Spice</SubtypeId>
       </Id>
-      <DisplayName>Spice</DisplayName>
+      <DisplayName>z Spice</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Commodity\Spice.dds</Icon>
 	  <ExtraInventoryTooltipLine>Spice.</ExtraInventoryTooltipLine>
       <Size>
@@ -79,7 +79,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>Technology</SubtypeId>
       </Id>
-      <DisplayName>Technology</DisplayName>
+      <DisplayName>z Technology</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Commodity\Tech.dds</Icon>
 	  <ExtraInventoryTooltipLine>Technology.</ExtraInventoryTooltipLine>
       <Size>
@@ -103,7 +103,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>Droids</SubtypeId>
       </Id>
-      <DisplayName>Droids</DisplayName>
+      <DisplayName>z Droids</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Commodity\Droids.dds</Icon>
 	  <ExtraInventoryTooltipLine>Droids</ExtraInventoryTooltipLine>
       <Size>
@@ -127,7 +127,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>LuxyryGoods</SubtypeId>
       </Id>
-      <DisplayName>Luxury Goods</DisplayName>
+      <DisplayName>z Luxury Goods</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Commodity\Luxury.dds</Icon>
 	  <ExtraInventoryTooltipLine>LuxyryGoods</ExtraInventoryTooltipLine>
       <Size>
@@ -151,7 +151,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>MedicalSupplies</SubtypeId>
       </Id>
-      <DisplayName>MedicalS upplies</DisplayName>
+      <DisplayName>z MedicalS upplies</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Commodity\Medical.dds</Icon>
 	  <ExtraInventoryTooltipLine>Medical Supplies</ExtraInventoryTooltipLine>
       <Size>
@@ -175,7 +175,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>Sentients</SubtypeId>
       </Id>
-      <DisplayName>Sentients</DisplayName>
+      <DisplayName>z Sentients</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Commodity\People.dds</Icon>
 	  <ExtraInventoryTooltipLine>Sentients</ExtraInventoryTooltipLine>
       <Size>
@@ -199,7 +199,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>Minerals</SubtypeId>
       </Id>
-      <DisplayName>Minerals</DisplayName>
+      <DisplayName>z Minerals</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Commodity\Minerals.dds</Icon>
 	  <ExtraInventoryTooltipLine>Minerals</ExtraInventoryTooltipLine>
       <Size>
@@ -223,7 +223,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>MilitarySupplies</SubtypeId>
       </Id>
-      <DisplayName>Military Supplies</DisplayName>
+      <DisplayName>z Military Supplies</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Commodity\Military.dds</Icon>
 	  <ExtraInventoryTooltipLine>Military Supplies</ExtraInventoryTooltipLine>
       <Size>

@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+
+
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>K_Imperial_SpeederBike_Engine</SubtypeId>
+      </Id>
+      <DisplayName>Speederbike Thruster Primary</DisplayName>
+      <Icon>Textures\GUI\Icons\Ships\Speederbike\SpeederTh.dds</Icon>
+      <Description>SpeederBike Primary engine. Audio matches the primary startup and swoop effects.</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <IsStandAlone>true</IsStandAlone>
+      <ThrusterType>Ion</ThrusterType>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\SpeederBike\K_Imperial_Speederbike_EngineMain_Small.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="1" />
+        <Component Subtype="ImperialConstruction" Count="1" />
+        <Component Subtype="StandardCabling" Count="5" />
+        <Component Subtype="ThrusterParts_Repulsor" Count="12" />
+        <Component Subtype="ImperialConstruction" Count="1" />
+        <Component Subtype="DuraSteel" Count="4" />
+      </Components>
+      <CriticalComponent Subtype="ThrusterParts_Repulsor" Index="0" />
+      <BlockPairName>K_Imperial_SpeederBike_Engine</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>4000000</ForceMagnitude>
+      <MaxPowerConsumption>0.201</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>5</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>0.2</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1.5</EffectivenessAtMaxInfluence>
+
+      <FlameDamageLengthScale>0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>1.2</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1</X>
+        <Y>0.3</Y>
+        <Z>0.3</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.9</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+        <W>1</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>K_Imperial_TIE_EngineFlame</FlameLengthMaterial>
+      <FlameFlare>SmallGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>0</FlameVisibilityDistance>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>K_Speederbike</PrimarySound>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
+      <EmissiveColorPreset>K_Imperial_Engine_EmissiveSet</EmissiveColorPreset>
+      <GeneralDamageMultiplier>1.2</GeneralDamageMultiplier>
+    </Definition>
+
+
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>K_Imperial_SpeederBike_SideEngine_I</SubtypeId>
+      </Id>
+      <DisplayName>Speederbike Side-Thruster A</DisplayName>
+      <Icon>Textures\GUI\Icons\Ships\Speederbike\SpeederTh.dds</Icon>
+      <Description>SpeederBike side-engine, used for side mounting. Audio matches these roles.</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <IsStandAlone>true</IsStandAlone>
+      <ThrusterType>Ion</ThrusterType>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\SpeederBike\K_Imperial_Speederbike_Engine_I_Small.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="1" />
+        <Component Subtype="ImperialConstruction" Count="1" />
+        <Component Subtype="StandardCabling" Count="5" />
+        <Component Subtype="ThrusterParts_Repulsor" Count="12" />
+        <Component Subtype="ImperialConstruction" Count="1" />
+        <Component Subtype="DuraSteel" Count="4" />
+      </Components>
+      <CriticalComponent Subtype="ThrusterParts_Repulsor" Index="0" />
+      <BlockPairName>K_Imperial_SpeederBike_SideEngine_I</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>555000</ForceMagnitude>
+      <MaxPowerConsumption>0.201</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>5</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>0.1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+
+      <FlameDamageLengthScale>0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>1.2</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1</X>
+        <Y>0.3</Y>
+        <Z>0.3</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.9</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+        <W>1</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>K_Imperial_TIE_EngineFlame</FlameLengthMaterial>
+      <FlameFlare>SmallGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>0</FlameVisibilityDistance>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>K_Speederbike_secondary</PrimarySound>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
+      <EmissiveColorPreset>K_Imperial_Engine_EmissiveSet</EmissiveColorPreset>
+      <GeneralDamageMultiplier>1.2</GeneralDamageMultiplier>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>K_Imperial_SpeederBike_SideEngine_II</SubtypeId>
+      </Id>
+      <DisplayName>Speederbike Side-Thruster B</DisplayName>
+      <Icon>Textures\GUI\Icons\Ships\Speederbike\SpeederTh.dds</Icon>
+      <Description>SpeederBike side-engine, used for side mounting. Audio matches these roles.</Description>
+      <CubeSize>Small</CubeSize>
+      <IsStandAlone>true</IsStandAlone>
+      <GuiVisible>false</GuiVisible>
+      <ThrusterType>Ion</ThrusterType>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\SpeederBike\K_Imperial_Speederbike_Engine_II_Small.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="1" />
+        <Component Subtype="ImperialConstruction" Count="1" />
+        <Component Subtype="StandardCabling" Count="5" />
+        <Component Subtype="ThrusterParts_Repulsor" Count="12" />
+        <Component Subtype="ImperialConstruction" Count="1" />
+        <Component Subtype="DuraSteel" Count="4" />
+      </Components>
+      <CriticalComponent Subtype="ThrusterParts_Repulsor" Index="0" />
+      <BlockPairName>K_Imperial_SpeederBike_SideEngine_II</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>555000</ForceMagnitude>
+      <MaxPowerConsumption>0.201</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>5</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>0.1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+
+      <FlameDamageLengthScale>0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>1.2</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1</X>
+        <Y>0.3</Y>
+        <Z>0.3</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.9</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+        <W>1</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>K_Imperial_TIE_EngineFlame</FlameLengthMaterial>
+      <FlameFlare>SmallGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>0</FlameVisibilityDistance>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>K_Speederbike_secondary</PrimarySound>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
+      <EmissiveColorPreset>K_Imperial_Engine_EmissiveSet</EmissiveColorPreset>
+      <GeneralDamageMultiplier>1.2</GeneralDamageMultiplier>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>K_Imperial_SpeederBike_SideEngine_III</SubtypeId>
+      </Id>
+      <DisplayName>Speederbike Side-Thruster C</DisplayName>
+      <Icon>Textures\GUI\Icons\Ships\Speederbike\SpeederTh.dds</Icon>
+      <Description>SpeederBike side-engine, used for Top, underside and braking positions. Audio matches these roles.</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <IsStandAlone>true</IsStandAlone>
+      <ThrusterType>Ion</ThrusterType>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\SpeederBike\K_Imperial_Speederbike_Engine_III_Small.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="1" />
+        <Component Subtype="ImperialConstruction" Count="1" />
+        <Component Subtype="StandardCabling" Count="5" />
+        <Component Subtype="ThrusterParts_Repulsor" Count="12" />
+        <Component Subtype="ImperialConstruction" Count="1" />
+        <Component Subtype="DuraSteel" Count="4" />
+      </Components>
+      <CriticalComponent Subtype="ThrusterParts_Repulsor" Index="0" />
+      <BlockPairName>K_Imperial_SpeederBike_SideEngine_III</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>555000</ForceMagnitude>
+      <MaxPowerConsumption>0.201</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>5</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>0.1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+
+      <FlameDamageLengthScale>0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>1.2</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1</X>
+        <Y>0.3</Y>
+        <Z>0.3</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.9</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+        <W>1</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>K_Imperial_TIE_EngineFlame</FlameLengthMaterial>
+      <FlameFlare>SmallGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>0</FlameVisibilityDistance>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>K_Speederbike_secondary</PrimarySound>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
+      <EmissiveColorPreset>K_Imperial_Engine_EmissiveSet</EmissiveColorPreset>
+      <GeneralDamageMultiplier>1.2</GeneralDamageMultiplier>
+    </Definition>
+
+
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>K_Imperial_SpeederBike_Battery</SubtypeId>
+      </Id>
+      <DisplayName>Speederbike Battery (Class III)</DisplayName>
+      <Description>SpeederBike backup power storage, provides the bike with a flight time.</Description>
+      <Icon>Textures\GUI\Icons\Ships\Speederbike\SpeederBat.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\SpeederBike\K_Imperial_Speederbike_Battery_Small.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="2" />
+        <Component Subtype="ImperialConstruction" Count="1" />
+        <Component Subtype="StandardPowerCell" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="2" />
+        <Component Subtype="ImperialConstruction" Count="1" />
+        <Component Subtype="DuraSteel" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>K_Imperial_SpeederBike_Battery</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>8</BuildTimeSeconds>
+
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>0.4</MaxPowerOutput>
+
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <RequiredPowerInput>0.4</RequiredPowerInput>
+      <MaxStoredPower>0.1</MaxStoredPower>
+      <InitialStoredPowerRatio>1</InitialStoredPowerRatio>
+      <RechargeMultiplier>0.8</RechargeMultiplier>
+
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <Public>true</Public>
+      <DestroySound>K_Imperial_Explosion_Generic</DestroySound>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+      <IsAirTight>true</IsAirTight>
+      <PCU>15</PCU>
+      <TargetingGroups>
+        <string>PowerSystems</string>
+      </TargetingGroups>
+      <GeneralDamageMultiplier>1.2</GeneralDamageMultiplier>
+    </Definition>
+
+
+    <Definition xsi:type="MyObjectBuilder_GyroDefinition">
+      <Id>
+        <TypeId>Gyro</TypeId>
+        <SubtypeId>K_Imperial_SpeederBike_Gyro</SubtypeId>
+      </Id>
+      <DisplayName>Speederbike Gyro</DisplayName>
+      <Icon>Textures\GUI\Icons\Ships\Speederbike\SpeederGy.dds</Icon>
+      <Description>SpeederBike gyroscoptic Controls, handles turning for the Bike.</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\SpeederBike\K_Imperial_Speederbike_Gyro_Small.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="80" />
+        <Component Subtype="ImperialConstruction" Count="30" />
+        <Component Subtype="StandardCabling" Count="6" />
+        <Component Subtype="Motor" Count="12" />
+        <Component Subtype="Computer" Count="18" />
+        <Component Subtype="DuraSteel" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>K_Imperial_SpeederBike_Gyro</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PrimarySound>BlockGyroscope</PrimarySound>
+      <ResourceSinkGroup>Gyro</ResourceSinkGroup>
+      <ForceMagnitude>2240000</ForceMagnitude>
+      <RequiredPowerInput>0.00001</RequiredPowerInput>
+      <DamageEffectName>Imperial_Damages_Electrical</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
+      <GeneralDamageMultiplier>1.2</GeneralDamageMultiplier>
+    </Definition>
+
+
+    <Definition xsi:type="MyObjectBuilder_RemoteControlDefinition">
+      <Id>
+        <TypeId>RemoteControl</TypeId>
+        <SubtypeId>K_Imperial_SpeederBike_FakePilot</SubtypeId>
+      </Id>
+      <DisplayName>Speederbike Pilot Remote Control</DisplayName>
+      <Description>Limited Droid-Brain, designed for automated freight transport across sectors for specialized shipping.</Description>
+      <Icon>Textures\GUI\Icons\Ships\Speederbike\SpeederRc.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <IsStandAlone>true</IsStandAlone>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\SpeederBike\K_Imperial_Speederbike_FakePilot_Small.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="10" />
+        <Component Subtype="ImperialConstruction" Count="10" />
+        <Component Subtype="Motor" Count="10" />
+        <Component Subtype="Computer" Count="10" />
+        <Component Subtype="ImperialGeneralParts" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>K_Imperial_SpeederBike_FakePilot</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.01</RequiredPowerInput>
+      <EnableFirstPerson>false</EnableFirstPerson>
+      <EnableShipControl>true</EnableShipControl>
+      <EnableBuilderCockpit>false</EnableBuilderCockpit>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>K_Imperial_Drone_EmissiveSet</EmissiveColorPreset>
+      <DestroyEffect>Imperial_Explosion_Sparks</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
+      <GeneralDamageMultiplier>1.4</GeneralDamageMultiplier>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+      <Id>
+        <TypeId>Cockpit</TypeId>
+        <SubtypeId>K_Imperial_SpeederBike_Cockpit</SubtypeId>
+      </Id>
+      <DisplayName>Speederbike Seat Cockpit</DisplayName>
+      <Icon>Textures\GUI\Icons\Ships\Speederbike\SpeederCock.dds</Icon>
+      <Description>The Seat for an Imperial Speeder Bike, seats a single pilot.</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\SpeederBike\K_Imperial_Speederbike_Cockpit_Small.mwm</Model>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <InteriorModel>Models\SpeederBike\K_Imperial_Speederbike_Cockpit_Small.mwm</InteriorModel>
+      <GlassModel>Models\Cubes\Small\cockpitglass.mwm</GlassModel>
+      <CharacterAnimation>K_Animation_Engineer_Bike</CharacterAnimation>
+      <UsesDeformation>true</UsesDeformation>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="10" />
+        <Component Subtype="Construction" Count="15" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Computer" Count="15" />
+        <Component Subtype="Display" Count="2" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="InteriorPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Display" Index="0" />
+      <BlockPairName>K_Imperial_SpeederBike_Cockpit</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <EnableFirstPerson>true</EnableFirstPerson>
+      <EnableShipControl>true</EnableShipControl>
+      <EnableBuilderCockpit>true</EnableBuilderCockpit>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <OxygenCapacity>60</OxygenCapacity>
+      <IsPressurized>false</IsPressurized>
+      <GetInSound>K_Imperial_Cockpit</GetInSound>
+      <GetOutSound>K_Imperial_Cockpit</GetOutSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DestroySound>K_Imperial_Explosion_Glass</DestroySound>
+      <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+
+      <GeneralDamageMultiplier>1.3</GeneralDamageMultiplier>
+    </Definition>
+
+
+    <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
+      <Id>
+        <TypeId>OxygenTank</TypeId>
+        <SubtypeId>K_Imperial_SpeederBike_GasTank</SubtypeId>
+      </Id>
+      <DisplayName>Speederbike Gas Tank</DisplayName>
+      <Description>Stores Gas for the Bike's primary reactor, rear, front and underside mountings.</Description>
+      <Icon>Textures\GUI\Icons\Ships\Speederbike\SpeederTank.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\SpeederBike\K_Imperial_Speederbike_GasStorage_Small.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="5" />
+        <Component Subtype="Girder" Count="5" />
+        <Component Subtype="Computer" Count="10" />
+        <Component Subtype="LightweightDurasteel" Count="500" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+
+      <BlockPairName>K_Imperial_SpeederBike_GasTank</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
+      <StandbyPowerConsumption>0.000001</StandbyPowerConsumption>
+      <Capacity>16000</Capacity>
+      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <StoredGasId>
+        <TypeId>GasProperties</TypeId>
+        <SubtypeId>Hydrogen</SubtypeId>
+      </StoredGasId>
+      <BlueprintClasses>
+        <Class>HydrogenBottles</Class>
+      </BlueprintClasses>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Generic</DestroySound>
+      <PCU>25</PCU>
+      <GeneralDamageMultiplier>1.4</GeneralDamageMultiplier>
+    </Definition>
+
+
+    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+
+      <Id>
+        <TypeId>ConveyorSorter</TypeId>
+        <SubtypeId>K_Imperial_SpeederBike_Weaponry</SubtypeId>
+      </Id>
+      <DisplayName>. Speederbike Laser-Cannon</DisplayName>
+      <Icon>Textures\GUI\Icons\Ships\Speederbike\Speeder.dds</Icon>
+      <Description>laser-cannon</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="7" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\SpeederBike\K_Imperial_Speederbike_Weaponry_Small.mwm</Model>
+      <Components>
+        <Component Subtype="LightweightDurasteel" Count="5" />
+        <Component Subtype="Computer" Count="3" />
+        <Component Subtype="Construction" Count="2" />
+        <Component Subtype="Construction" Count="3" />
+        <Component Subtype="LightweightDurasteel" Count="500" />
+      </Components>
+      <CriticalComponent Subtype="LightweightDurasteel" Index="0" />
+      <BlockPairName>K_Imperial_SpeederBike_Weaponry</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <WeaponDefinitionId Subtype="K_IMP_Gun" />
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <InventoryMaxVolume>1</InventoryMaxVolume>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_SW_Explosion_Generic</DestroySound>
+      <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
+      <MinElevationDegrees>-15</MinElevationDegrees>
+      <MaxElevationDegrees>75</MaxElevationDegrees>
+      <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+      <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+      <IdleRotation>false</IdleRotation>
+      <AiEnabled>false</AiEnabled>
+      <MaxRangeMeters>300</MaxRangeMeters>
+      <RotationSpeed>0.0005</RotationSpeed>
+      <ElevationSpeed>0.0002 </ElevationSpeed>
+      <MinFov>0.1</MinFov>
+      <MaxFov>1.04719755</MaxFov>
+      <GeneralDamageMultiplier>1</GeneralDamageMultiplier>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_HydrogenEngineDefinition">
+      <Id>
+        <TypeId>HydrogenEngine</TypeId>
+        <SubtypeId>K_Rebellion_Survival_Power_HydrogenGenerator</SubtypeId>
+      </Id>
+      <DisplayName>Kauti Hydrogen Engine (Class II)</DisplayName>
+      <Description>Only works underwater but provides massive power output.</Description>
+      <Icon>Textures\GUI\Icons\Fuelburners\kuatihydo.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\SurvivalBits\Rebellion_GasGenerator_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="80" />
+        <Component Subtype="ImperialConstruction" Count="60" />
+        <Component Subtype="HeavyDutyCabling" Count="12" />
+        <Component Subtype="ImperialGeneralParts" Count="20" />
+        <Component Subtype="Computer" Count="4" />
+        <Component Subtype="PowerGen_Basics" Count="1" />
+        <Component Subtype="ImperialConstruction" Count="10" />
+        <Component Subtype="DuraSteel" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="PowerGen_Basics" Index="0" />
+      <BlockPairName>K_Rebellion_Survival_Power_HydrogenGenerator</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>120</BuildTimeSeconds>
+      <ResourceSinkGroup>Generators</ResourceSinkGroup>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <MaxPowerOutput>2400</MaxPowerOutput>
+      <FuelCapacity>100000</FuelCapacity>
+      <EmissiveColorPreset>K_Imperial_Ship_EmissiveSet</EmissiveColorPreset>
+      <IsAirTight>false</IsAirTight>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <FuelInfos>
+        <FuelInfo>
+          <Id>
+            <TypeId>GasProperties</TypeId>
+            <SubtypeId>Hydrogen</SubtypeId>
+          </Id>
+          <Ratio>0.001</Ratio>
+        </FuelInfo>
+      </FuelInfos>
+      <FuelProductionToCapacityMultiplier>1</FuelProductionToCapacityMultiplier>
+      <PrimarySound>K_Imperial_IdleReactor_Waves</PrimarySound>
+
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_TypeII</DestroySound>
+      <PCU>50</PCU>
+      <TargetingGroups>
+        <string>PowerSystems</string>
+      </TargetingGroups>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_HydrogenEngineDefinition">
+      <Id>
+        <TypeId>HydrogenEngine</TypeId>
+        <SubtypeId>K_Imperial_Reactors_Hydrogen_Basic</SubtypeId>
+      </Id>
+      <DisplayName>Kauti Hydrogen Engine (Class I)</DisplayName>
+      <Description>Only works underwater but provides massive power output.</Description>
+      <Icon>Textures\GUI\Icons\Fuelburners\anthrohydro.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="3" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Power\K_Imperial_CombustionReactor_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="80" />
+        <Component Subtype="ImperialConstruction" Count="60" />
+        <Component Subtype="PolyplastCabling" Count="12" />
+        <Component Subtype="ImperialGeneralParts" Count="20" />
+        <Component Subtype="Computer" Count="4" />
+        <Component Subtype="PowerConverter" Count="1" />
+        <Component Subtype="ImperialConstruction" Count="10" />
+        <Component Subtype="DuraSteel" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="PowerConverter" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.45" File="Models\Power\K_Imperial_CombustionReactor_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.65" File="Models\Power\K_Imperial_CombustionReactor_Large_Constr2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Imperial_Reactors_Hydrogen_Basic</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>120</BuildTimeSeconds>
+      <ResourceSinkGroup>Generators</ResourceSinkGroup>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <MaxPowerOutput>4800</MaxPowerOutput>
+      <FuelCapacity>100000</FuelCapacity>
+      <EmissiveColorPreset>K_Imperial_Ship_EmissiveSet</EmissiveColorPreset>
+      <IsAirTight>false</IsAirTight>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <FuelInfos>
+        <FuelInfo>
+          <Id>
+            <TypeId>GasProperties</TypeId>
+            <SubtypeId>Hydrogen</SubtypeId>
+          </Id>
+          <Ratio>0.001</Ratio>
+        </FuelInfo>
+      </FuelInfos>
+      <FuelProductionToCapacityMultiplier>1</FuelProductionToCapacityMultiplier>
+      <PrimarySound>K_Imperial_IdleReactor_Waves</PrimarySound>
+
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_TypeII</DestroySound>
+
+      <PCU>50</PCU>
+      <TargetingGroups>
+        <string>PowerSystems</string>
+      </TargetingGroups>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

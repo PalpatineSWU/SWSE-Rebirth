@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>K_Imperial_Reactors_Exonium_Small_LG</SubtypeId>
+      </Id>
+      <DisplayName>Fusion Reactor (Class III)</DisplayName>
+      <Icon>Textures\GUI\Icons\Fuelburners\fusionre.dds</Icon>
+      <Description></Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Power\K_Imperial_Reactor_basemodel_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="100" />
+        <Component Subtype="ImperialConstruction" Count="80" />
+        <Component Subtype="PowerConverter" Count="8" />
+        <Component Subtype="HeavyDutyCabling" Count="16" />
+        <Component Subtype="FissionAdvancedController" Count="200" />
+        <Component Subtype="ImperialGeneralParts" Count="12" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="DuraSteel" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>K_Imperial_Reactors_Exonium_Small</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>100</BuildTimeSeconds>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+
+      <MaxPowerOutput>69</MaxPowerOutput>
+
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+
+      <!-- 
+                Values are volume fill ratio, means how much fuel reactor pulls from conveyor system to the inventory.
+                If volume fill ratio is bellow minimum, reactor starts pulling fuel up to maximum value.
+                Warning: Changing these values will affect performance.
+            -->
+      <InventoryFillFactorMin>0.001</InventoryFillFactorMin>
+      <InventoryFillFactorMax>0.002</InventoryFillFactorMax>
+
+      <!-- 
+                This is how much of fuel is pulled from conveyor system in one tick.
+                It's in minutes, means that it will pull X minutes of fuel in one tick.
+                Warning: Changing this value will affect performance.
+            -->
+      <FuelPullAmountFromConveyorInMinutes>10.0</FuelPullAmountFromConveyorInMinutes>
+
+      <FuelInfos>
+        <FuelInfo>
+          <Id>
+            <TypeId>Ingot</TypeId>
+            <SubtypeId>Exonium</SubtypeId>
+          </Id>
+        </FuelInfo>
+      </FuelInfos>
+      <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
+      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+      <DamagedSound>ParticleReactor</DamagedSound>
+      <EmissiveColorPreset>K_Imperial_Factory_Red</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>
+      <TieredUpdateTimes>
+        <unsignedInt>900</unsignedInt>
+        <unsignedInt>1800</unsignedInt>
+        <unsignedInt>3600</unsignedInt>
+      </TieredUpdateTimes>
+      <TargetingGroups>
+        <string>PowerSystems</string>
+      </TargetingGroups>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>K_Imperial_Reactors_Exonium_PowerCoreHeavy</SubtypeId>
+      </Id>
+      <DisplayName>Fusion Reactor (Class II)</DisplayName>
+      <Icon>Textures\GUI\Icons\Fuelburners\Heavypowercore.dds</Icon>
+      <Description></Description>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="3" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Power\K_Imperial_GasReactorHydrogen_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="150" />
+        <Component Subtype="ImperialConstruction" Count="120" />
+        <Component Subtype="PowerConverter" Count="12" />
+        <Component Subtype="HeavyDutyCabling" Count="24" />
+        <Component Subtype="FissionAdvancedController" Count="300" />
+        <Component Subtype="ImperialGeneralParts" Count="18" />
+        <Component Subtype="Computer" Count="75" />
+        <Component Subtype="DuraSteel" Count="90" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>K_Imperial_Reactors_Exonium_PowerCoreHeavy</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>100</BuildTimeSeconds>
+
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <MaxPowerOutput>100</MaxPowerOutput>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+
+      <!-- 
+                Values are volume fill ratio, means how much fuel reactor pulls from conveyor system to the inventory.
+                If volume fill ratio is bellow minimum, reactor starts pulling fuel up to maximum value.
+                Warning: Changing these values will affect performance.
+            -->
+      <InventoryFillFactorMin>0.001</InventoryFillFactorMin>
+      <InventoryFillFactorMax>0.002</InventoryFillFactorMax>
+
+      <!-- 
+                This is how much of fuel is pulled from conveyor system in one tick.
+                It's in minutes, means that it will pull X minutes of fuel in one tick.
+                Warning: Changing this value will affect performance.
+            -->
+      <FuelPullAmountFromConveyorInMinutes>10.0</FuelPullAmountFromConveyorInMinutes>
+
+      <FuelInfos>
+        <FuelInfo>
+          <Id>
+            <TypeId>Ingot</TypeId>
+            <SubtypeId>Exonium</SubtypeId>
+          </Id>
+        </FuelInfo>
+      </FuelInfos>
+      <PrimarySound>K_Imperial_IdleReactor_Waves</PrimarySound>
+      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+      <DamagedSound>ParticleReactor</DamagedSound>
+      <EmissiveColorPreset>K_Imperial_Factory_Red</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>
+      <TieredUpdateTimes>
+        <unsignedInt>900</unsignedInt>
+        <unsignedInt>1800</unsignedInt>
+        <unsignedInt>3600</unsignedInt>
+      </TieredUpdateTimes>
+      <TargetingGroups>
+        <string>PowerSystems</string>
+      </TargetingGroups>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>K_Imperial_Reactors_Exonium_Large_LG</SubtypeId>
+      </Id>
+      <DisplayName>Fusion Reactor (Class I)</DisplayName>
+      <Icon>Textures\GUI\Icons\Fuelburners\heavyfusion.dds</Icon>
+      <Description></Description>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Power\K_Imperial_HypermatterReactor_A_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="800" />
+        <Component Subtype="ImperialConstruction" Count="70" />
+        <Component Subtype="PowerConverter" Count="40" />
+        <Component Subtype="HeavyDutyCabling" Count="40" />
+        <Component Subtype="Superconductor" Count="100" />
+        <Component Subtype="FissionAdvancedController" Count="2000" />
+        <Component Subtype="ImperialGeneralParts" Count="20" />
+        <Component Subtype="Computer" Count="75" />
+        <Component Subtype="DuraSteel" Count="200" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>K_Imperial_Reactors_Exonium_Large3</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>100</BuildTimeSeconds>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <MaxPowerOutput>900</MaxPowerOutput>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+
+      <!-- 
+                Values are volume fill ratio, means how much fuel reactor pulls from conveyor system to the inventory.
+                If volume fill ratio is bellow minimum, reactor starts pulling fuel up to maximum value.
+                Warning: Changing these values will affect performance.
+            -->
+      <InventoryFillFactorMin>0.001</InventoryFillFactorMin>
+      <InventoryFillFactorMax>0.002</InventoryFillFactorMax>
+
+      <!-- 
+                This is how much of fuel is pulled from conveyor system in one tick.
+                It's in minutes, means that it will pull X minutes of fuel in one tick.
+                Warning: Changing this value will affect performance.
+            -->
+      <FuelPullAmountFromConveyorInMinutes>10.0</FuelPullAmountFromConveyorInMinutes>
+
+      <FuelInfos>
+        <FuelInfo>
+          <Id>
+            <TypeId>Ingot</TypeId>
+            <SubtypeId>Exonium</SubtypeId>
+          </Id>
+        </FuelInfo>
+      </FuelInfos>
+      <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
+      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+      <DamagedSound>ParticleReactor</DamagedSound>
+      <EmissiveColorPreset>K_Imperial_Factory_Red</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>
+      <TieredUpdateTimes>
+        <unsignedInt>900</unsignedInt>
+        <unsignedInt>1800</unsignedInt>
+        <unsignedInt>3600</unsignedInt>
+      </TieredUpdateTimes>
+      <TargetingGroups>
+        <string>PowerSystems</string>
+      </TargetingGroups>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

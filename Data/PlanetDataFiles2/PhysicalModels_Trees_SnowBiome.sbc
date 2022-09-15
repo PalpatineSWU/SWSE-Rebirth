@@ -1,71 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <!--Version 01-->
- 
- 
+
+
   <!-- Ice Plains-->
-  
-   <Definition xsi:type="MyObjectBuilder_TreeDefinition">
+
+  <Definition xsi:type="MyObjectBuilder_TreeDefinition">
     <Id>
       <TypeId>TreeDefinition</TypeId>
       <SubtypeId>K_Bastian_Tree_A</SubtypeId>
     </Id>
     <Model>Models\Environment\Trees\K_Bastian_Tree_A_Large.mwm</Model>
-   <BranchesStartHeight>2.342</BranchesStartHeight>
+    <BranchesStartHeight>2.342</BranchesStartHeight>
     <PhysicalMaterial>Tree</PhysicalMaterial>
     <HitPoints>50</HitPoints>
     <CutEffect>ChipOff_Wood</CutEffect>
     <FallSound>ImpTreeFall</FallSound>
     <BreakSound>ImpTreeBreak</BreakSound>
   </Definition>
-  
-   <Definition xsi:type="MyObjectBuilder_TreeDefinition">
+
+  <Definition xsi:type="MyObjectBuilder_TreeDefinition">
     <Id>
       <TypeId>TreeDefinition</TypeId>
       <SubtypeId>K_Bastian_Tree_B</SubtypeId>
     </Id>
     <Model>Models\Environment\Trees\K_Bastian_Tree_B_Large.mwm</Model>
-   <BranchesStartHeight>2.342</BranchesStartHeight>
+    <BranchesStartHeight>2.342</BranchesStartHeight>
     <PhysicalMaterial>Tree</PhysicalMaterial>
     <HitPoints>50</HitPoints>
     <CutEffect>ChipOff_Wood</CutEffect>
     <FallSound>ImpTreeFall</FallSound>
     <BreakSound>ImpTreeBreak</BreakSound>
   </Definition>
-  
-  
-   <Definition xsi:type="MyObjectBuilder_TreeDefinition">
+
+
+  <Definition xsi:type="MyObjectBuilder_TreeDefinition">
     <Id>
       <TypeId>TreeDefinition</TypeId>
       <SubtypeId>K_Bastian_IcePatch_A</SubtypeId>
     </Id>
-  <Model>Models\Environment\Trees\K_IciclePatch_Large.mwm</Model>
-   <BranchesStartHeight>2.342</BranchesStartHeight>
+    <Model>Models\Environment\Trees\K_IciclePatch_Large.mwm</Model>
+    <BranchesStartHeight>2.342</BranchesStartHeight>
     <PhysicalMaterial>Ice</PhysicalMaterial>
     <HitPoints>50</HitPoints>
     <CutEffect>ChipOff_Wood</CutEffect>
     <FallSound>ImpTreeFall</FallSound>
     <BreakSound>ImpTreeBreak</BreakSound>
   </Definition>
-  
-    <Definition xsi:type="MyObjectBuilder_TreeDefinition">
+
+  <Definition xsi:type="MyObjectBuilder_TreeDefinition">
     <Id>
       <TypeId>TreeDefinition</TypeId>
       <SubtypeId>K_Bastian_Bush</SubtypeId>
     </Id>
     <Model>Models\Environment\Trees\K_Bastian_Bush_Large.mwm</Model>
-   <BranchesStartHeight>2.342</BranchesStartHeight>
+    <BranchesStartHeight>2.342</BranchesStartHeight>
     <PhysicalMaterial>Tree</PhysicalMaterial>
     <HitPoints>10</HitPoints>
     <CutEffect>ChipOff_Wood</CutEffect>
     <FallSound>ImpTreeFall</FallSound>
     <BreakSound>ImpTreeBreak</BreakSound>
   </Definition>
- 
- 
-   <!-- Ice Plains-->
-  
-   <Definition xsi:type="MyObjectBuilder_TreeDefinition">
+
+
+  <!-- Ice Plains-->
+
+  <Definition xsi:type="MyObjectBuilder_TreeDefinition">
     <Id>
       <TypeId>TreeDefinition</TypeId>
       <SubtypeId>K_Snowworld_IceSpike</SubtypeId>
@@ -78,9 +79,9 @@
     <FallSound>ImpTreeFall</FallSound>
     <BreakSound>RealWepShipGatlingImpIce</BreakSound>
   </Definition>
-  
-  
-   <Definition xsi:type="MyObjectBuilder_TreeDefinition">
+
+
+  <Definition xsi:type="MyObjectBuilder_TreeDefinition">
     <Id>
       <TypeId>TreeDefinition</TypeId>
       <SubtypeId>K_Snowworld_IcePatch</SubtypeId>
@@ -95,7 +96,7 @@
   </Definition>
 
   <!-- Snow Forest-->
-  
-  
-  
+
+
+
 </Definitions>

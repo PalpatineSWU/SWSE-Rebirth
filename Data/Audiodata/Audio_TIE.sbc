@@ -1,8 +1,9 @@
 <?xml version="1.0"?>
-<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Sounds>
     <!--IHarpo, a glorious man. Damnable Keen file structure.-->
-	 <!--Praise Enenra , whom has fixed this TIE Sounds.-->
+    <!--Praise Enenra , whom has fixed this TIE Sounds.-->
     <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
@@ -19,19 +20,19 @@
         <Wave Type="D3">
           <Start>Audio\TIE\armco_tie_laser_1_arc.wav</Start>
         </Wave>
-		 <Wave Type="D3">
-       <Start>Audio\TIE\armco_tie_laser_2_arc.wav</Start>
+        <Wave Type="D3">
+          <Start>Audio\TIE\armco_tie_laser_2_arc.wav</Start>
         </Wave>
-		 <Wave Type="D3">
-         <Start>Audio\TIE\armco_tie_laser_3_arc.wav</Start>
+        <Wave Type="D3">
+          <Start>Audio\TIE\armco_tie_laser_3_arc.wav</Start>
         </Wave>
-		 <Wave Type="D3">
-         <Start>Audio\TIE\armco_tie_laser_4_arc.wav</Start>
+        <Wave Type="D3">
+          <Start>Audio\TIE\armco_tie_laser_4_arc.wav</Start>
         </Wave>
       </Waves>
     </Sound>
-	
-	<Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Imperial_TIE_MissileShot</SubtypeId>
@@ -49,8 +50,8 @@
         </Wave>
       </Waves>
     </Sound>
-	
-	<Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Imperial_TIE_MissileShot_Tracking</SubtypeId>
@@ -170,8 +171,8 @@
         </Wave>
       </Waves>
     </Sound>
-	
-	<Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_TIE_Engine_Interceptor</SubtypeId>
@@ -188,8 +189,8 @@
         </Wave>
       </Waves>
     </Sound>
-	
-	<Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_TIE_Engine_Bomber</SubtypeId>
@@ -225,7 +226,7 @@
       </Waves>
     </Sound>
 
-	<Sound>
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Speederbike</SubtypeId>
@@ -242,8 +243,8 @@
         </Wave>
       </Waves>
     </Sound>
-	
-	<Sound>
+
+    <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Speederbike_secondary</SubtypeId>
@@ -260,7 +261,7 @@
         </Wave>
       </Waves>
     </Sound>
-	
+
     <!--<Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>

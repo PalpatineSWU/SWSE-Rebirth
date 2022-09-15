@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>9_Imperial_Durasteel_Plate</SubtypeId>
+      </Id>
+      <DisplayName>Plate (Durasteel)</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Compz_plate_Dura.dds</Icon>
+      <Prerequisites>
+        <Item Amount="21" TypeId="Ingot" SubtypeId="DuraSteel_Ingot" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="DuraSteel" />
+      <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>9_Imperial_LWDurasteel</SubtypeId>
+      </Id>
+      <DisplayName>Plate (Light-Weight Durasteel)</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Compz_plate_DuraLW.dds</Icon>
+      <Prerequisites>
+        <Item Amount="21" TypeId="Ingot" SubtypeId="DuraSteel_Ingot" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Polymer" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="LightweightDurasteel" />
+      <BaseProductionTimeInSeconds>0.75</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>9_Imperial_TranspariSteel</SubtypeId>
+      </Id>
+      <DisplayName>Plate (TranspariSteel)</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Compz_plate_Transparasteel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="15" TypeId="Ingot" SubtypeId="Lommite" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="TranspariSteel" />
+      <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>9_Imperial_Beskarplate</SubtypeId>
+      </Id>
+      <DisplayName>Plate (Beskar)</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Compz_plate_Beskar.dds</Icon>
+      <Prerequisites>
+        <Item Amount="21" TypeId="Ingot" SubtypeId="Beskar" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="BeskarPlate" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>9_Imperial_Phrikplate</SubtypeId>
+      </Id>
+      <DisplayName>Plate (Phrik)</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Compz_plate_Phrik.dds</Icon>
+      <Prerequisites>
+        <Item Amount="21" TypeId="Ingot" SubtypeId="Phrik" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="PhrikPlate" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>9_Imperial_Imperviumplate</SubtypeId>
+      </Id>
+      <DisplayName>Plate (Impervium)</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Compz_plate_Impervium.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Beskar" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="ImperviumPlate" />
+      <BaseProductionTimeInSeconds>500000</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+  </Blueprints>
+</Definitions>

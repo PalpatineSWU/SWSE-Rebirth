@@ -1,8 +1,9 @@
-<?xml version="1.0"  encoding="utf-8"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CategoryClasses>
- 
-	    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
@@ -13,7 +14,7 @@
       <IsToolCategory>true</IsToolCategory>
       <ItemIds>
         <string>HandDrillScannerItem</string>
-        <string>HandDrillSWItem</string>      
+        <string>HandDrillSWItem</string>
         <string>AngleGrinder_LukeSaberItem</string>
         <string>AngleGrinder_LukeSaberRevItem</string>
         <string>AngleGrinder_DarthSaberItem</string>
@@ -37,7 +38,7 @@
       </Id>
       <DisplayName>Fightercraft Cockpits</DisplayName>
       <Name>Fightercraft Cockpits</Name>
-      <StrictSearch>true</StrictSearch>      
+      <StrictSearch>true</StrictSearch>
       <ItemIds>
         <string>K_Rebellion_RZ1_Cockpit</string>
         <string>K_Imperial_ProbeDroid_Top_Sensor</string>
@@ -48,14 +49,14 @@
         <string>K_NewRepublic_H60_Cockpit_A</string>
         <string>K_NewRepublic_XWing_70_Cockpit</string>
         <string>K_NewRepublic_XWing_XJ5_Cockpit</string>
-        <string>K_NewRepublic_YWing_CockpitA</string>        
+        <string>K_NewRepublic_YWing_CockpitA</string>
         <string>K_Imperial_A9Interceptor_Cockpit</string>
         <string>K_Imperial_SpeederBike_Cockpit</string>
-        <string>K_Chiss_Clawcraft_Cockpit</string>        
+        <string>K_Chiss_Clawcraft_Cockpit</string>
         <string>K_Imperial_A9Interceptor_Cockpit</string>
         <string>K_Imperial_HowlRunner_Cockpit</string>
         <string>K_TIE_AdvancedV1_Hyperdrive</string>
-        <string>K_TIE_Fighter_Cockpit</string>        
+        <string>K_TIE_Fighter_Cockpit</string>
         <string>K_TIE_Defender_Lifesupport</string>
         <string>K_TIE_Interceptor_Wing</string>
         <string>K_TIE_Bomber_Wing</string>
@@ -73,7 +74,7 @@
       </ItemIds>
     </Category>
 
-	   <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId>FighterCraft2</SubtypeId>
@@ -90,14 +91,14 @@
         <string>K_NewRepublic_H60_Cockpit_A</string>
         <string>K_NewRepublic_XWing_70_Cockpit</string>
         <string>K_NewRepublic_XWing_XJ5_Cockpit</string>
-        <string>K_NewRepublic_YWing_CockpitA</string>        
+        <string>K_NewRepublic_YWing_CockpitA</string>
         <string>K_Imperial_A9Interceptor_Cockpit</string>
         <string>K_Imperial_SpeederBike_Cockpit</string>
-        <string>K_Chiss_Clawcraft_Cockpit</string>        
+        <string>K_Chiss_Clawcraft_Cockpit</string>
         <string>K_Imperial_A9Interceptor_Cockpit</string>
         <string>K_Imperial_HowlRunner_Cockpit</string>
         <string>K_TIE_AdvancedV1_Hyperdrive</string>
-        <string>K_TIE_Fighter_Cockpit</string>        
+        <string>K_TIE_Fighter_Cockpit</string>
         <string>K_TIE_Defender_Lifesupport</string>
         <string>K_TIE_Interceptor_Wing</string>
         <string>K_TIE_Bomber_Wing</string>
@@ -114,51 +115,75 @@
         <string>K_Imperial_Reborn_FirstOrder_TIE_Fighter_Cockpit</string>
       </ItemIds>
     </Category>
-	
-	 
-	   <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
-        <SubtypeId>Republic_Ships</SubtypeId>
-      </Id>
-      <DisplayName>Republic Ships</DisplayName>
-      <Name>Republic Ships</Name>
-      <ItemIds>
-      <string>K_Imperial_Dropship_Guild_Battery</string>
-      <string>K_Imperial_Dropship_Guild_Gyro</string>
-      <string>K_Imperial_Dropship_Guild_CargoHull</string>
-      <string>K_Imperial_Dropship_Guild_EngineMain</string>
-      <string>K_Imperial_Dropship_Guild_EngineSecondary</string>
-      <string>K_Imperial_Dropship_Guild_An</string>
-      </ItemIds>
-    </Category>
-		
-	 <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
-      <Id>
-        <TypeId>GuiBlockCategoryDefinition</TypeId>
-        <SubtypeId>ImperialMod_Decor</SubtypeId>
+        <SubtypeId>DecorativeBlocksStarWars</SubtypeId>
       </Id>
       <DisplayName>Decorative Blocks Star Wars</DisplayName>
-      <Name>Imperial</Name>
+      <Name>DecorativeBlocksStarWars</Name>
       <ItemIds>
+        <string>K_Imperial_ShieldGeneratorProp</string>
+        <string>K_Imperial_Antenna_I</string>
+        <string>K_Imperial_Antenna_II</string>
+        <string>K_Imperial_Misc_Door_I</string>
+        <string>K_Imperial_Misc_Door_II</string>
+        <string>K_Imperial_ControlPanel</string>
+        <string>K_Imperial_ButtonPanel_27</string>
+        <string>K_Imperial_Misc_Hangar_LandingGear</string>
+        <string>K_Imperial_Misc_Hangar_LandingGearII</string>
+        <string>K_Imperial_StationGravityGenerator</string>
+        <string>K_Imperial_GravityGenerator_SG</string>
+        <string>K_Imperial_Button_Single_Ped</string>
+        <string>K_Imperial_Spotlight</string>
+        <string>K_CIS_Clutter_Rack_I</string>
+        <string>K_CIS_Clutter_BB2</string>
+        <string>K_CIS_Clutter_Rack_IS</string>
+        <string>K_Imperial_Misc_StorageBoxPile_I</string>
+        <string>K_Imperial_Misc_StorageBoxPile_II</string>
+        <string>K_Imperial_Misc_StorageBox_Drinks</string>
+        <string>K_Rebellion_Decor_HangarEmpty</string>
         <string>K_Imperial_Port_Type_I</string>
         <string>K_Imperial_Port_Type_II</string>
-        <string>K_Imperial_Conveyor_Cables_I_Cube</string>
-        <string>K_Imperial_Misc_StorageBoxPile_I</string>
-        <string>K_Imperial_Misc_Walkway_I_Straight</string>
-        <string>K_Imperial_Misc_Walkway_I_Ramp</string>
+        <string>K_Imperial_Misc_BackgroundScreen</string>
+        <string>K_Imperial_Misc_BackgroundFakeLights</string>
+        <string>K_Imperial_Misc_BackgroundFakeLightsII</string>
+        <string>K_Imperial_Fortress_Wall</string>
         <string>K_Imperial_Misc_ReflectiveSurface_I_Cube</string>
         <string>K_Imperial_Misc_Wall_I</string>
-        <string>K_Imperial_Misc_Wall_ICap</string>
+        <string>K_Imperial_Misc_Wall_CurveCorner</string>
+        <string>K_Imperial_Misc_Wall_Curve</string>
         <string>K_Imperial_Misc_Passage_I</string>
-        <string>K_Imperial_Misc_Door_I</string>
-        <string>K_Imperial_Misc_Hangar_LandingGear</string>
-        <string>K_Imperial_Misc_Hangar_Field_5x</string>
+        <string>K_Imperial_Fence</string>
+        <string>K_Imperial_Fence_Corner</string>
+        <string>K_Imperial_Fence_GuardPost</string>
+        <string>K_Imperial_Fence_GuardPostReversed</string>
+        <string>K_Imperial_Staircase</string>
+        <string>K_Imperial_Misc_Walkway_I_Straight</string>
+        <string>K_Imperial_Misc_Walkway_I_Ramp</string>
+        <string>K_Imperial_Misc_Walkway_II_Corner</string>
+        <string>K_Imperial_Misc_Walkway_IV_Offset</string>
+        <string>K_Imperial_Misc_Walkway_IV_OffsetPillar</string>
+        <string>K_Imperial_Misc_Pillar_I</string>
+        <string>K_Imperial_Misc_Pillar_II</string>
+        <string>K_Imperial_Walkway_Bridge</string>
         <string>K_Imperial_Misc_Hangar_Field_5xRed</string>
+        <string>K_Imperial_Misc_Hangar_Field_5xRedCorner</string>
+        <string>K_Imperial_Misc_Hangar_Field_2x_Green</string>
+        <string>K_Imperial_Misc_Hangar_Field_5x</string>
+        <string>K_Imperial_Misc_Hangar_Field_5xCorner</string>
+        <string>K_Imperial_Misc_Hangar_Field_3x</string>
+        <string>K_Imperial_Misc_Hangar_Field_2x</string>
+        <string>K_Imperial_Misc_Hangar_Field_1x</string>
+        <string>K_Imperial_Misc_Hangar_Field_1xRed</string>
+        <string>K_Imperial_Misc_Hangar_Field_1xGreen</string>
+        <string>K_Imperial_Misc_Hangar_Field_6x</string>
+        <string>K_Imperial_Misc_Hangar_Field_7x</string>
       </ItemIds>
     </Category>
-	
-		 <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId>ImperialMod_Consoles</SubtypeId>
@@ -181,9 +206,9 @@
         <string>K_Imperial_ISD_New_Bridge_FrontCommand</string>
       </ItemIds>
     </Category>
-	
-	
-	 <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
@@ -195,24 +220,21 @@
         <string>K_Imperial_Assembly_Factory_Micro</string>
         <string>K_Imperial_Assembly_Factory_Light_I</string>
         <string>K_Imperial_Assembly_Factory_Advanced_I</string>
-        <string>K_Imperial_Assembly_Factory_Sub</string>
-        <string>K_Imperial_Assembly_TechPlant</string>
         <string>K_Imperial_Assembly_MassAssembler</string>
         <string>K_Imperial_Refinement_Refinery_Light_I</string>
         <string>K_Imperial_Refinement_Foundry_Light_I</string>
-        <string>K_Imperial_Refinement_EmergencyRefinery</string>
+        <string>P_Reactor_SG_Synth_3x3</string>
         <string>K_Imperial_Refinement_ProcessingFacility</string>
         <string>K_Imperial_RecyclingPlant_ImperialScrap</string>
         <string>K_Imperial_Refinement_Hypermatter_Accumulator</string>
-        <string>K_Imperial_Assembly_Factory_Sub</string>
         <string>K_Imperial_Assembly_Factory_Munitions</string>
         <string>K_Imperial_Assembly_Factory_MAW</string>
         <string>K_Imperial_RecyclingPlant_ImperialScrap</string>
-		  </ItemIds>
+      </ItemIds>
     </Category>
 
-    
-	    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
@@ -225,37 +247,37 @@
       <IsToolCategory>true</IsToolCategory>
       <ItemIds>
         <string>K_TIE_Interceptor_Wing_TipWeapon</string>
-	      <string>K_TIE_Interceptor_Wing_TipWeapon_Missile</string>
-	      <string>K_TIE_Fighter_Weaponry</string>
-	      <string>K_TIE_Defender_Weapon_Missile</string>
-  	    <string>K_TIE_Defender_Weapon_Laser</string>
-  	    <string>K_TIE_Defender_Weapon_MassDriver</string>
-	      <string>K_TIE_CustomII_Wing_CannonArray</string>
-	      <string>K_TIE_CustomII_Wing_MissileArray</string>
-		    <string>K_Imperial_Missile_Type_I</string>
-	      <string>K_Imperial_Missile_Type_II</string>
+        <string>K_TIE_Interceptor_Wing_TipWeapon_Missile</string>
+        <string>K_TIE_Fighter_Weaponry</string>
+        <string>K_TIE_Defender_Weapon_Missile</string>
+        <string>K_TIE_Defender_Weapon_Laser</string>
+        <string>K_TIE_Defender_Weapon_MassDriver</string>
+        <string>K_TIE_CustomII_Wing_CannonArray</string>
+        <string>K_TIE_CustomII_Wing_MissileArray</string>
+        <string>K_Imperial_Missile_Type_I</string>
+        <string>K_Imperial_Missile_Type_II</string>
         <string>K_TIE_Bomber_Pod</string>
-	      <string>K_TIE_Bomber_Pod_CenterBombbay</string>
-		    <string>K_TIE_Drone_CI_Wing</string>
-		  	<string>K_TIE_NIII_Wing</string>
-				<string>K_TIE_WRIII_Wing</string>
-				<string>K_TIE_Attachable_RocketPod</string>
-				<string>K_TIE_Hunter_Weaponry_IonCannon</string>
-				<string>K_TIE_Hunter_Weaponry_MissilePods</string>
-				<string>K_TIE_Hunter_Weaponry_HullGun</string>
-				<string>K_TIE_AdvancedV1_Weaponry</string>
-				<string>K_Imperial_NebulonImp_Turbolaser</string>
-				<string>K_Imperial_Generic_TurbolaserSingle</string>
-				<string>K_Imperial_Generic_LaserCannonMulti_L</string>
-				<string>K_TIE_LightIonCannon</string>
-				<string>K_Imperial_SpeederBike_Weaponry</string>
-				<string>K_Chiss_Clawcraft_WingCannon</string>
-				<string>K_Chiss_Clawcraft_WingCannonII</string>
-				<string>K_TIE_Mangler_TurbolaserWing</string>
+        <string>K_TIE_Bomber_Pod_CenterBombbay</string>
+        <string>K_TIE_Drone_CI_Wing</string>
+        <string>K_TIE_NIII_Wing</string>
+        <string>K_TIE_WRIII_Wing</string>
+        <string>K_TIE_Attachable_RocketPod</string>
+        <string>K_TIE_Hunter_Weaponry_IonCannon</string>
+        <string>K_TIE_Hunter_Weaponry_MissilePods</string>
+        <string>K_TIE_Hunter_Weaponry_HullGun</string>
+        <string>K_TIE_AdvancedV1_Weaponry</string>
+        <string>K_Imperial_NebulonImp_Turbolaser</string>
+        <string>K_Imperial_Generic_TurbolaserSingle</string>
+        <string>K_Imperial_Generic_LaserCannonMulti_L</string>
+        <string>K_TIE_LightIonCannon</string>
+        <string>K_Imperial_SpeederBike_Weaponry</string>
+        <string>K_Chiss_Clawcraft_WingCannon</string>
+        <string>K_Chiss_Clawcraft_WingCannonII</string>
+        <string>K_TIE_Mangler_TurbolaserWing</string>
       </ItemIds>
-	  </Category>
-	
-	 <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+    </Category>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
@@ -266,15 +288,16 @@
       <ShowAnimations>true</ShowAnimations>
       <IsAnimationCategory>true</IsAnimationCategory>
       <ItemIds>
-  
+
       </ItemIds>
     </Category>
-	
+
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
       </Id>
+      <StrictSearch>true</StrictSearch>
       <DisplayName>DisplayName_Category_ConveyorBlocks</DisplayName>
       <Name>Conveyors</Name>
       <ItemIds>
@@ -289,18 +312,10 @@
         <string>K_Imperial_Conveyor_Cables_I_Conv</string>
         <string>K_Imperial_Conveyor_Cables_I_Cube</string>
         <string>K_Imperial_Conveyor_GunTower_1x1x1</string>
-        <string>K_Imperial_Assembly_HeavyCargo</string>
-        <string>K_Imperial_Dropship_Guild_CargoHull</string>        
-        <string>K_Imperial_SupplyDepot</string>
-        <string>K_Imperial_SupplyDepot_AltII</string>
-        <string>YWing_Storage</string>  
-        <string>K_Pirates_StarViper_CargoPod</string>  
-        <string>K_Imperial_Reborn_TIE_Bomber_LinkageUnit</string>  
-        <string>K_Imperial_Reborn_TIE_Bomber_HeadStorage</string>  
       </ItemIds>
     </Category>
 
-	 <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId>Medical_Facilities</SubtypeId>
@@ -308,10 +323,10 @@
       <DisplayName>Medical Facilities</DisplayName>
       <Name>Medical Facilities</Name>
       <ItemIds>
-	      <string>K_CIS_Clutter_Rack_I</string>
-	      <string>K_CIS_Clutter_Rack_IS</string>
-	      <string>K_CIS_SpawnPoint_Rack_I</string>
-	      <string>K_CIS_SpawnPoint_Beacon_I</string>
+        <string>K_CIS_Clutter_Rack_I</string>
+        <string>K_CIS_Clutter_Rack_IS</string>
+        <string>K_CIS_SpawnPoint_Rack_I</string>
+        <string>K_CIS_SpawnPoint_Beacon_I</string>
         <string>K_Imperial_SpawnPoint_Beacon_I</string>
         <string>K_Imperial_SpawnPoint_Facility_I</string>
         <string>K_Imperial_BactaTank</string>
@@ -320,8 +335,8 @@
         <string>LargeMedicalRoom</string>
       </ItemIds>
     </Category>
-	
-      <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
@@ -363,7 +378,7 @@
       </ItemIds>
     </Category>
 
-	 <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId>Thrusters</SubtypeId>
@@ -371,216 +386,216 @@
       <DisplayName>Thrusters</DisplayName>
       <Name>Thrusters</Name>
       <ItemIds>
-<string>K_Imperial_A9Interceptor_Engine_A</string>
-<string>K_Imperial_A9Interceptor_Engine_B</string>
-<string>K_Chiss_Clawcraft_ReverseEngine</string>
-<string>K_Chiss_Clawcraft_PrimaryEngine</string>
-<string>K_Chiss_Clawcraft_SecondaryEngine</string>
-<string>K_Imperial_Dropship_Guild_EngineMain</string>
-<string>K_Imperial_Dropship_Guild_EngineSecondary</string>
-<string>K_Imperial_HowlRunner_ReverseEngine</string>
-<string>K_Imperial_HowlRunner_MainEngine</string>
-<string>K_Imperial_Engine_LG_L_I</string>
-<string>K_Imperial_Engine_LG_S_I</string>
-<string>K_Imperial_Generic_ManeuveringThrust</string>
-<string>K_Imperial_Generics_Thruster_LG_Main</string>
-<string>K_Imperial_Generics_HydroThruster_LG_Main</string>
-<string>K_Imperial_ProbeDroid_Top_Thruster</string>
-<string>K_Imperial_ProbeDroid_Bottom_Thruster</string>
-<string>K_Imperial_ProbeDroid_Bottom_III</string>
-<string>K_Imperial_PatrolCraft_MainEngine</string>
-<string>K_NewRepublic_AWing_MainEngine</string>
-<string>K_NewRepublic_AWing_MainEngineII</string>
-<string>K_NewRepublic_EWing_EngineForward</string>
-<string>K_NewRepublic_EWing_EngineInverted</string>
-<string>K_NewRepublic_H60_Engine_Inverse</string>
-<string>K_NewRepublic_H60_Engine_Primary</string>
-<string>K_NewRepublic_H60_Engine_Cockpit</string>
-<string>K_NewRepublic_Ionizer_MainEngineReverse</string>
-<string>K_NewRepublic_Ionizer_MainEngine</string>
-<string>K_NewRepublic_Ionizer_SubEngineI</string>
-<string>K_NewRepublic_Ionizer_SubEngineII</string>
-<string>K_NewRepublic_Shared_SecondaryThruster</string>
-<string>K_NewRepublic_Shared_SecondaryThruster_Light</string>
-<string>K_NewRepublic_XWing_70_Engine_Reverse_A</string>
-<string>K_NewRepublic_XWing_70_Engine_Reverse_B</string>
-<string>K_NewRepublic_XWing_70_Engine_Main</string>
-<string>K_NewRepublic_XWing_XJ5_Engine_Reverse_A</string>
-<string>K_NewRepublic_XWing_XJ5_Engine_Reverse_B</string>
-<string>K_NewRepublic_XWing_XJ5_Engine_Main</string>
-<string>K_NewRepublic_YWing_Engine_Main_I</string>
-<string>K_NewRepublic_YWing_Engine_Main_II</string>
-<string>K_NewRepublic_YWing_Engine_Secondary_I</string>
-<string>K_NewRepublic_YWing_Engine_Secondary_II</string>
-<string>K_Pirates_Thrusters_Light</string>
-<string>K_Pirates_Thrusters_LightRec</string>
-<string>K_Pirates_Thrusters_LightMid</string>
-<string>K_Pirates_Thrusters_Heavy</string>
-<string>K_Pirates_Thrusters_Light_SG</string>
-<string>K_Pirates_Thrusters_LightRec_SG</string>
-<string>K_Pirates_Thrusters_LightMid_SG</string>
-<string>K_Rebellion_RZ1_MainEngine_A</string>
-<string>K_Rebellion_RZ1_MainEngine_B</string>
-<string>K_Rebellion_RZ1_MainEngine_A_Upgrade</string>
-<string>K_Rebellion_RZ1_MainEngine_B_Upgrade</string>
-<string>K_Rebellion_Shared_SecondaryThruster</string>
-<string>K_Rebellion_Shared_SecondaryThruster_Light</string>
-<string>K_Imperial_SpeederBike_Engine</string>
-<string>K_Imperial_SpeederBike_SideEngine_I</string>
-<string>K_Imperial_SpeederBike_SideEngine_II</string>
-<string>K_Imperial_SpeederBike_SideEngine_III</string>
-<string>K_Pirates_StarViper_Engine_Main</string>
-<string>K_Neutral_Engine_Mando_SecondaryThruster</string>
-<string>K_TIE_Fighter_EngineMain</string>
-<string>K_TIE_Fighter_EngineSecondary</string>
-<string>K_TIE_Bomber_Pod_Engine</string>
-<string>K_TIE_CustomI_EngineMain</string>
-<string>K_TIE_CustomII_Wing_EngineArray</string>
-<string>K_TIE_Defender_EngineMain</string>
-<string>K_TIE_Hunter_EngineMain</string>
-<string>K_TIE_Interceptor_EngineMain</string>
-<string>K_Imperial_Reborn_TIE_Avenger_InverseEngine</string>
-<string>K_Imperial_Reborn_TIE_Avenger_MainEngine</string>
-<string>K_Imperial_Reborn_TIE_Bomber_InverseEngine</string>
-<string>K_Imperial_Reborn_TIE_Bomber_MainEngine</string>
-<string>K_Imperial_Reborn_TIE_Defender_InverseEngine</string>
-<string>K_Imperial_Reborn_TIE_Defender_MainEngine</string>
-<string>K_Imperial_Reborn_TIE_Defender_SecondaryEngine</string>
-<string>K_Imperial_Reborn_TIE_Droid_ReverseEngine</string>
-<string>K_Imperial_Reborn_TIE_Droid_MainEngine</string>
-<string>K_Imperial_Reborn_TIE_Fighter_InverseEngine</string>
-<string>K_Imperial_Reborn_TIE_Fighter_MainEngine</string>
-<string>K_Imperial_Reborn_TIE_Fighter_SecondaryEngine</string>
-<string>K_Imperial_Reborn_FirstOrder_TIE_Fighter_InverseEngine</string>
-<string>K_Imperial_Reborn_FirstOrder_TIE_Fighter_MainEngine</string>
-<string>K_Imperial_Reborn_TIE_Hunter_InverseEngine</string>
-<string>K_Imperial_Reborn_TIE_Hunter_MainEngine</string>
-<string>K_Imperial_Reborn_TIE_Interceptor_InverseEngine</string>
-<string>K_Imperial_Reborn_TIE_Interceptor_MainEngine</string>
-<string>K_Imperial_Reborn_TIE_Oppressor_InverseEngine</string>
-<string>K_Imperial_Reborn_TIE_Oppressor_MainEngine</string>
+        <string>K_Imperial_A9Interceptor_Engine_A</string>
+        <string>K_Imperial_A9Interceptor_Engine_B</string>
+        <string>K_Chiss_Clawcraft_ReverseEngine</string>
+        <string>K_Chiss_Clawcraft_PrimaryEngine</string>
+        <string>K_Chiss_Clawcraft_SecondaryEngine</string>
+        <string>K_Imperial_Dropship_Guild_EngineMain</string>
+        <string>K_Imperial_Dropship_Guild_EngineSecondary</string>
+        <string>K_Imperial_HowlRunner_ReverseEngine</string>
+        <string>K_Imperial_HowlRunner_MainEngine</string>
+        <string>K_Imperial_Engine_LG_L_I</string>
+        <string>K_Imperial_Engine_LG_S_I</string>
+        <string>K_Imperial_Generic_ManeuveringThrust</string>
+        <string>K_Imperial_Generics_Thruster_LG_Main</string>
+        <string>K_Imperial_Generics_HydroThruster_LG_Main</string>
+        <string>K_Imperial_ProbeDroid_Top_Thruster</string>
+        <string>K_Imperial_ProbeDroid_Bottom_Thruster</string>
+        <string>K_Imperial_ProbeDroid_Bottom_III</string>
+        <string>K_Imperial_PatrolCraft_MainEngine</string>
+        <string>K_NewRepublic_AWing_MainEngine</string>
+        <string>K_NewRepublic_AWing_MainEngineII</string>
+        <string>K_NewRepublic_EWing_EngineForward</string>
+        <string>K_NewRepublic_EWing_EngineInverted</string>
+        <string>K_NewRepublic_H60_Engine_Inverse</string>
+        <string>K_NewRepublic_H60_Engine_Primary</string>
+        <string>K_NewRepublic_H60_Engine_Cockpit</string>
+        <string>K_NewRepublic_Ionizer_MainEngineReverse</string>
+        <string>K_NewRepublic_Ionizer_MainEngine</string>
+        <string>K_NewRepublic_Ionizer_SubEngineI</string>
+        <string>K_NewRepublic_Ionizer_SubEngineII</string>
+        <string>K_NewRepublic_Shared_SecondaryThruster</string>
+        <string>K_NewRepublic_Shared_SecondaryThruster_Light</string>
+        <string>K_NewRepublic_XWing_70_Engine_Reverse_A</string>
+        <string>K_NewRepublic_XWing_70_Engine_Reverse_B</string>
+        <string>K_NewRepublic_XWing_70_Engine_Main</string>
+        <string>K_NewRepublic_XWing_XJ5_Engine_Reverse_A</string>
+        <string>K_NewRepublic_XWing_XJ5_Engine_Reverse_B</string>
+        <string>K_NewRepublic_XWing_XJ5_Engine_Main</string>
+        <string>K_NewRepublic_YWing_Engine_Main_I</string>
+        <string>K_NewRepublic_YWing_Engine_Main_II</string>
+        <string>K_NewRepublic_YWing_Engine_Secondary_I</string>
+        <string>K_NewRepublic_YWing_Engine_Secondary_II</string>
+        <string>K_Pirates_Thrusters_Light</string>
+        <string>K_Pirates_Thrusters_LightRec</string>
+        <string>K_Pirates_Thrusters_LightMid</string>
+        <string>K_Pirates_Thrusters_Heavy</string>
+        <string>K_Pirates_Thrusters_Light_SG</string>
+        <string>K_Pirates_Thrusters_LightRec_SG</string>
+        <string>K_Pirates_Thrusters_LightMid_SG</string>
+        <string>K_Rebellion_RZ1_MainEngine_A</string>
+        <string>K_Rebellion_RZ1_MainEngine_B</string>
+        <string>K_Rebellion_RZ1_MainEngine_A_Upgrade</string>
+        <string>K_Rebellion_RZ1_MainEngine_B_Upgrade</string>
+        <string>K_Rebellion_Shared_SecondaryThruster</string>
+        <string>K_Rebellion_Shared_SecondaryThruster_Light</string>
+        <string>K_Imperial_SpeederBike_Engine</string>
+        <string>K_Imperial_SpeederBike_SideEngine_I</string>
+        <string>K_Imperial_SpeederBike_SideEngine_II</string>
+        <string>K_Imperial_SpeederBike_SideEngine_III</string>
+        <string>K_Pirates_StarViper_Engine_Main</string>
+        <string>K_Neutral_Engine_Mando_SecondaryThruster</string>
+        <string>K_TIE_Fighter_EngineMain</string>
+        <string>K_TIE_Fighter_EngineSecondary</string>
+        <string>K_TIE_Bomber_Pod_Engine</string>
+        <string>K_TIE_CustomI_EngineMain</string>
+        <string>K_TIE_CustomII_Wing_EngineArray</string>
+        <string>K_TIE_Defender_EngineMain</string>
+        <string>K_TIE_Hunter_EngineMain</string>
+        <string>K_TIE_Interceptor_EngineMain</string>
+        <string>K_Imperial_Reborn_TIE_Avenger_InverseEngine</string>
+        <string>K_Imperial_Reborn_TIE_Avenger_MainEngine</string>
+        <string>K_Imperial_Reborn_TIE_Bomber_InverseEngine</string>
+        <string>K_Imperial_Reborn_TIE_Bomber_MainEngine</string>
+        <string>K_Imperial_Reborn_TIE_Defender_InverseEngine</string>
+        <string>K_Imperial_Reborn_TIE_Defender_MainEngine</string>
+        <string>K_Imperial_Reborn_TIE_Defender_SecondaryEngine</string>
+        <string>K_Imperial_Reborn_TIE_Droid_ReverseEngine</string>
+        <string>K_Imperial_Reborn_TIE_Droid_MainEngine</string>
+        <string>K_Imperial_Reborn_TIE_Fighter_InverseEngine</string>
+        <string>K_Imperial_Reborn_TIE_Fighter_MainEngine</string>
+        <string>K_Imperial_Reborn_TIE_Fighter_SecondaryEngine</string>
+        <string>K_Imperial_Reborn_FirstOrder_TIE_Fighter_InverseEngine</string>
+        <string>K_Imperial_Reborn_FirstOrder_TIE_Fighter_MainEngine</string>
+        <string>K_Imperial_Reborn_TIE_Hunter_InverseEngine</string>
+        <string>K_Imperial_Reborn_TIE_Hunter_MainEngine</string>
+        <string>K_Imperial_Reborn_TIE_Interceptor_InverseEngine</string>
+        <string>K_Imperial_Reborn_TIE_Interceptor_MainEngine</string>
+        <string>K_Imperial_Reborn_TIE_Oppressor_InverseEngine</string>
+        <string>K_Imperial_Reborn_TIE_Oppressor_MainEngine</string>
       </ItemIds>
     </Category>
 
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
-        <Id>
-            <TypeId>GuiBlockCategoryDefinition</TypeId>
-            <SubtypeId>AAAvailableWeapons</SubtypeId>
-        </Id>
-        <StrictSearch>true</StrictSearch>        
-        <DisplayName>Available Weapons</DisplayName>
-        <Name>AvailableWeapons</Name>
-        <ItemIds>
-            <string>K_Imperial_A9Interceptor_Weaponry</string>
-            <string>K_Imperial_HowlRunner_Weaponry_A</string>
-            <string>K_Imperial_HowlRunner_Weaponry_B</string>
-            <string>K_Pirates_StarViper_Weaponry_LaserCannon</string>
-            <string>K_Pirates_StarViper_Weaponry_SlugThrower</string>
-            <string>K_Imperial_Reborn_TIE_Fighter_Weaponry</string>
-            <string>K_Imperial_Reborn_TIE_Oppressor_Weaponry</string>
-            <string>K_Imperial_Reborn_TIE_Hunter_Weaponry</string>
-            <string>K_Imperial_Reborn_TIE_Interceptor_Weaponry</string>
-            <string>K_Imperial_Reborn_TIE_Bomber_Weaponry</string>
-            <string>K_Imperial_Reborn_TIE_Avenger_Weaponry</string>
-            <string>K_Imperial_Reborn_TIE_Bomber_BombBay</string>
-            <string>K_Chiss_Clawcraft_WingCannon</string>
-            <string>K_Chiss_Clawcraft_WingCannonII</string>
-            <string>K_TIE_Attachable_RocketPod</string>
-            <string>K_Imperial_Tower_AntiInfantry_Basic</string>
-            <string>K_Imperial_Tower_TurboLaser_3x</string>
-            <string>K_Imperial_Tower_PDT_Basic</string>
-            <string>K_Imperial_Tower_Heavy</string>
-            <string>K_Imperial_PatrolCraft_LaserCannonTurret</string>
-            <string>K_SW_IMP_DefenseBattery_DIC</string>
-            <string>K_SW_IMP_DefenseBattery_DLC</string>
-            <string>K_SW_IMP_DefenseHeavyBattery_DMDC</string>
-            <string>K_SW_IMP_DefenseHeavyBattery_DTC</string>
-            <string>K_SW_IMP_DefenseBattery_DTC</string>
-            <string>K_SW_IMP_DefenseBattery_HIC</string>
-            <string>P_Tractorbeam</string>
-            <string>K_SW_IMP_DefenseHeavyBattery_PTL</string>
-            <string>K_SW_IMP_RecessedEmplacement_CML</string>
-            <string>K_SW_IMP_RecessedEmplacement_DIC</string>
-            <string>K_SW_IMP_RecessedEmplacement_DTC</string>
-            <string>K_SW_IMP_LancerAA_A</string>
-            <string>K_SW_IMP_LancerAA_B</string>
-            <string>K_Imperial_Tower_LaserCannon_Basic</string>
-            <string>K_Imperial_Tower_ConcussionMissile</string>
-            <string>K_Imperial_Guild_LaserCannonTurret</string>
-            <string>K_Imperial_Tower_IonCannon_Basic</string>
-            <string>K_Imperial_Octoturbolaser_Turret_Normal</string>
-            <string>K_Imperial_Tower_TurboLaser_Basic</string>
-            <string>K_Imperial_Reborn_TIE_Interceptor_Launcher</string>
-            <string>K_Imperial_SpeederBike_Weaponry</string>
-            <string>K_Imperial_Reborn_TIE_Avenger_Launcher</string>
-            <string>K_Imperial_Reborn_TIE_Avenger_WingTipA</string>
-            <string>K_Imperial_Reborn_TIE_Avenger_WingTipB</string>
-            <string>K_Imperial_Reborn_TIE_Avenger_Launcher</string>
-            <string>K_Imperial_Reborn_TIE_Bomber_PrimaryLauncher</string>
-            <string>K_Imperial_Reborn_TIE_Bomber_LightLauncher</string>
-            <string>K_TIE_Bomber_Pod</string>
-            <string>K_TIE_Bomber_Pod_CenterBombbay</string>
-            <string>K_Imperial_Reborn_TIE_Defender_BodyWeaponry</string>
-            <string>K_Imperial_Reborn_TIE_Defender_Wing_Left_Weaponry</string>
-            <string>K_Imperial_Reborn_TIE_Defender_Wing_Top_Weaponry</string>
-            <string>K_Imperial_Reborn_TIE_Defender_Wing_Right_Weaponry</string>
-            <string>K_Imperial_Reborn_TIE_Hunter_CyclicRepeatingBlaster</string>
-            <string>K_Imperial_Reborn_TIE_Hunter_Launcher</string>
-            <string>K_Imperial_Reborn_TIE_Hunter_WingCannon_A</string>
-            <string>K_Imperial_Reborn_TIE_Interceptor_WingTipA</string>
-            <string>K_Imperial_Reborn_TIE_Interceptor_WingTipB</string>
-            <string>K_Imperial_Reborn_TIE_Oppressor_HeavyBay</string>
-            <string>K_Imperial_Reborn_TIE_Oppressor_HeavyLauncher</string>
-            <string>K_NewRepublic_XWing_70_Weaponry_Wing_A</string>
-            <string>K_NewRepublic_XWing_70_Weaponry_Wing_B</string>
-            <string>K_NewRepublic_XWing_70_ProtonTorpedoLauncher</string>
-            <string>K_NewRepublic_XWing_XJ5_Weaponry_Wing_A</string>
-            <string>K_NewRepublic_XWing_XJ5_Weaponry_Wing_B</string>
-            <string>K_NewRepublic_XWing_XJ5_ProtonTorpedoLauncher</string>
-            <string>K_NewRepublic_YWing_LaserCannon</string>
-            <string>K_NewRepublic_YWing_BombBay</string>
-            <string>K_NewRepublic_YWing_IonTurret</string>
-            <string>K_NewRepublic_YWing_TorpedoLauncher</string>
-            <string>K_NewRepublic_YWing_YWing_LaserTurret</string>
-            <string>K_NewRepublic_Turrets_Light_NanoMissileTurret</string>
-            <string>K_NewRepublic_Turrets_Light_ProtectorLaserCannon</string>
-            <string>K_NewRepublic_Turrets_Light_AMS</string>
-            <string>K_NewRepublic_Ionizer_LC</string>
-            <string>K_NewRepublic_Ionizer_IonWingA</string>
-            <string>K_NewRepublic_Ionizer_IonWingB</string>
-            <string>K_NewRepublic_Ionizer_TorpedoLauncher</string>
-            <string>K_NewRepublic_H60_BombBay</string>
-            <string>K_NewRepublic_H60_ProtonLauncher</string>
-            <string>K_NewRepublic_H60_MediumLaserCannon</string>
-            <string>K_NewRepublic_H60_IonCannon</string>
-            <string>K_NewRepublic_EWing_RoofGun</string>
-            <string>K_NewRepublic_EWing_WingGunA</string>
-            <string>K_NewRepublic_EWing_WingGunB</string>
-            <string>K_NewRepublic_EWing_ProtonLauncher</string>
-            <string>K_NewRepublic_AWing_Launcher</string>
-            <string>K_NewRepublic_AWing_LaserCannon</string>
-            <string>K_NewRepublic_AWing_AMS</string> 
-            <string>K_Rebellion_General_LaserCannonTurret</string> 
-            <string>K_Rebellion_General_LIonCannonTurret</string> 
-            <string>K_Rebellion_SentryTower_Turret</string> 
-            <string>K_Rebellion_FM_LaserCannon_01</string> 
-            <string>K_Rebellion_General_PopupTurret_1</string> 
-            <string>K_Rebellion_RZ1_LaserCannon_Stock</string> 
-            <string>K_Rebellion_RZ1_LaserCannon_OverchargeUpgrade</string> 
-            <string>K_Rebellion_RZ1_LaserCannon_TargetingUpgrade</string> 
-            <string>K_Rebellion_RZ1_LaserCannon_SuperchargerUpgrade</string> 
-            <string>K_Rebellion_RZ1_RearLauncher_Flare</string> 
-            <string>K_Rebellion_RZ1_Launcher_Stock</string> 
-            <string>K_Rebellion_RZ1_Launcher_MicroLaunchUpgrade</string> 
-            <string>K_Rebellion_RZ1_Launcher_SpecialistUpgrade</string> 
-            <string>K_Rebellion_RZ1_Launcher_MortarUpgrade</string> 
-            <string>K_Rebellion_RZ1_Nose_Ram</string> 
-            <string>K_Rebellion_RZ1_Nose_Gun</string> 
-            <string>K_Imperial_Broadside_Body_ConcussionLauncher</string>
-            <string>InterdictionSphere</string>
-            <string>K_Imperial_PatrolCraft_TorpLauncher</string> 
-            <string>K_NewRepublic_YWing_LaserTurret</string>            
-        </ItemIds>
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId>AAAvailableWeapons</SubtypeId>
+      </Id>
+      <StrictSearch>true</StrictSearch>
+      <DisplayName>Available Weapons</DisplayName>
+      <Name>AvailableWeapons</Name>
+      <ItemIds>
+        <string>K_Imperial_A9Interceptor_Weaponry</string>
+        <string>K_Imperial_HowlRunner_Weaponry_A</string>
+        <string>K_Imperial_HowlRunner_Weaponry_B</string>
+        <string>K_Pirates_StarViper_Weaponry_LaserCannon</string>
+        <string>K_Pirates_StarViper_Weaponry_SlugThrower</string>
+        <string>K_Imperial_Reborn_TIE_Fighter_Weaponry</string>
+        <string>K_Imperial_Reborn_TIE_Oppressor_Weaponry</string>
+        <string>K_Imperial_Reborn_TIE_Hunter_Weaponry</string>
+        <string>K_Imperial_Reborn_TIE_Interceptor_Weaponry</string>
+        <string>K_Imperial_Reborn_TIE_Bomber_Weaponry</string>
+        <string>K_Imperial_Reborn_TIE_Avenger_Weaponry</string>
+        <string>K_Imperial_Reborn_TIE_Bomber_BombBay</string>
+        <string>K_Chiss_Clawcraft_WingCannon</string>
+        <string>K_Chiss_Clawcraft_WingCannonII</string>
+        <string>K_TIE_Attachable_RocketPod</string>
+        <string>K_Imperial_Tower_AntiInfantry_Basic</string>
+        <string>K_Imperial_Tower_TurboLaser_3x</string>
+        <string>K_Imperial_Tower_PDT_Basic</string>
+        <string>K_Imperial_Tower_Heavy</string>
+        <string>K_Imperial_PatrolCraft_LaserCannonTurret</string>
+        <string>K_SW_IMP_DefenseBattery_DIC</string>
+        <string>K_SW_IMP_DefenseBattery_DLC</string>
+        <string>K_SW_IMP_DefenseHeavyBattery_DMDC</string>
+        <string>K_SW_IMP_DefenseHeavyBattery_DTC</string>
+        <string>K_SW_IMP_DefenseBattery_DTC</string>
+        <string>K_SW_IMP_DefenseBattery_HIC</string>
+        <string>P_Tractorbeam</string>
+        <string>K_SW_IMP_DefenseHeavyBattery_PTL</string>
+        <string>K_SW_IMP_RecessedEmplacement_DIC</string>
+        <string>K_SW_IMP_RecessedEmplacement_DTC</string>
+        <string>K_SW_IMP_LancerAA_A</string>
+        <string>K_SW_IMP_LancerAA_B</string>
+        <string>K_Imperial_Tower_LaserCannon_Basic</string>
+        <string>K_Imperial_Tower_ConcussionMissile</string>
+        <string>K_Imperial_Guild_LaserCannonTurret</string>
+        <string>K_Imperial_Tower_IonCannon_Basic</string>
+        <string>K_Imperial_Octoturbolaser_Turret_Normal</string>
+        <string>K_Imperial_Tower_TurboLaser_Basic</string>
+        <string>K_Imperial_Reborn_TIE_Interceptor_Launcher</string>
+        <string>K_Imperial_SpeederBike_Weaponry</string>
+        <string>K_Imperial_Reborn_TIE_Avenger_Launcher</string>
+        <string>K_Imperial_Reborn_TIE_Avenger_WingTipA</string>
+        <string>K_Imperial_Reborn_TIE_Avenger_WingTipB</string>
+        <string>K_Imperial_Reborn_TIE_Avenger_Launcher</string>
+        <string>K_Imperial_Reborn_TIE_Bomber_PrimaryLauncher</string>
+        <string>K_Imperial_Reborn_TIE_Bomber_LightLauncher</string>
+        <string>K_TIE_Bomber_Pod</string>
+        <string>K_TIE_Bomber_Pod_CenterBombbay</string>
+        <string>K_Imperial_Reborn_TIE_Defender_BodyWeaponry</string>
+        <string>K_Imperial_Reborn_TIE_Defender_Wing_Left_Weaponry</string>
+        <string>K_Imperial_Reborn_TIE_Defender_Wing_Top_Weaponry</string>
+        <string>K_Imperial_Reborn_TIE_Defender_Wing_Right_Weaponry</string>
+        <string>K_Imperial_Reborn_TIE_Hunter_CyclicRepeatingBlaster</string>
+        <string>K_Imperial_Reborn_TIE_Hunter_Launcher</string>
+        <string>K_Imperial_Reborn_TIE_Hunter_WingCannon_A</string>
+        <string>K_Imperial_Reborn_TIE_Interceptor_WingTipA</string>
+        <string>K_Imperial_Reborn_TIE_Interceptor_WingTipB</string>
+        <string>K_Imperial_Reborn_TIE_Oppressor_HeavyBay</string>
+        <string>K_Imperial_Reborn_TIE_Oppressor_HeavyLauncher</string>
+        <string>K_NewRepublic_XWing_70_Weaponry_Wing_A</string>
+        <string>K_NewRepublic_XWing_70_Weaponry_Wing_B</string>
+        <string>K_NewRepublic_XWing_70_ProtonTorpedoLauncher</string>
+        <string>K_NewRepublic_XWing_XJ5_Weaponry_Wing_A</string>
+        <string>K_NewRepublic_XWing_XJ5_Weaponry_Wing_B</string>
+        <string>K_NewRepublic_XWing_XJ5_ProtonTorpedoLauncher</string>
+        <string>K_NewRepublic_YWing_LaserCannon</string>
+        <string>K_NewRepublic_YWing_BombBay</string>
+        <string>K_NewRepublic_YWing_IonTurret</string>
+        <string>K_NewRepublic_YWing_TorpedoLauncher</string>
+        <string>K_NewRepublic_YWing_YWing_LaserTurret</string>
+        <string>K_NewRepublic_Turrets_Light_NanoMissileTurret</string>
+        <string>K_NewRepublic_Turrets_Light_ProtectorLaserCannon</string>
+        <string>K_NewRepublic_Turrets_Light_AMS</string>
+        <string>K_NewRepublic_Ionizer_LC</string>
+        <string>K_NewRepublic_Ionizer_IonWingA</string>
+        <string>K_NewRepublic_Ionizer_IonWingB</string>
+        <string>K_NewRepublic_Ionizer_TorpedoLauncher</string>
+        <string>K_NewRepublic_H60_BombBay</string>
+        <string>K_NewRepublic_H60_ProtonLauncher</string>
+        <string>K_NewRepublic_H60_MediumLaserCannon</string>
+        <string>K_NewRepublic_H60_IonCannon</string>
+        <string>K_NewRepublic_EWing_RoofGun</string>
+        <string>K_NewRepublic_EWing_WingGunA</string>
+        <string>K_NewRepublic_EWing_WingGunB</string>
+        <string>K_NewRepublic_EWing_ProtonLauncher</string>
+        <string>K_NewRepublic_AWing_Launcher</string>
+        <string>K_NewRepublic_AWing_LaserCannon</string>
+        <string>K_NewRepublic_AWing_AMS</string>
+        <string>K_Rebellion_General_LaserCannonTurret</string>
+        <string>K_Rebellion_General_LIonCannonTurret</string>
+        <string>K_Rebellion_SentryTower_Turret</string>
+        <string>K_Rebellion_FM_LaserCannon_01</string>
+        <string>K_Rebellion_General_PopupTurret_1</string>
+        <string>K_Rebellion_RZ1_LaserCannon_Stock</string>
+        <string>K_Rebellion_RZ1_LaserCannon_OverchargeUpgrade</string>
+        <string>K_Rebellion_RZ1_LaserCannon_TargetingUpgrade</string>
+        <string>K_Rebellion_RZ1_LaserCannon_SuperchargerUpgrade</string>
+        <string>K_Rebellion_RZ1_RearLauncher_Flare</string>
+        <string>K_Rebellion_RZ1_Launcher_Stock</string>
+        <string>K_Rebellion_RZ1_Launcher_MicroLaunchUpgrade</string>
+        <string>K_Rebellion_RZ1_Launcher_SpecialistUpgrade</string>
+        <string>K_Rebellion_RZ1_Launcher_MortarUpgrade</string>
+        <string>K_Rebellion_RZ1_Nose_Ram</string>
+        <string>K_Rebellion_RZ1_Nose_Gun</string>
+        <string>Hangar_Imperial_5x5x3</string>
+        <string>Hangar_Rebel_5x5x3</string>
+        <string>InterdictionSphere</string>
+        <string>K_Imperial_PatrolCraft_TorpLauncher</string>
+        <string>K_NewRepublic_YWing_LaserTurret</string>
+      </ItemIds>
     </Category>
 
 

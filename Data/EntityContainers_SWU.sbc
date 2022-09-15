@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <EntityContainers>
     <!-- 
     Usage:
@@ -49,7 +50,7 @@
     
     -->
 
- 
+
     <Container>
       <Id>
         <TypeId>CargoContainer</TypeId>
@@ -69,8 +70,8 @@
         <Component BuilderType="MyObjectBuilder_Inventory"/>
       </DefaultComponents>
     </Container>
-	
-	   <Container>
+
+    <Container>
       <Id>
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>K_Imperial_Reborn_TIE_Bomber_HeadStorage</SubtypeId>
@@ -79,9 +80,9 @@
         <Component BuilderType="MyObjectBuilder_Inventory"/>
       </DefaultComponents>
     </Container>
-	
-	
-	 <Container>
+
+
+    <Container>
       <Id>
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>K_Imperial_Reborn_TIE_Bomber_LinkageUnit</SubtypeId>
@@ -90,8 +91,8 @@
         <Component BuilderType="MyObjectBuilder_Inventory"/>
       </DefaultComponents>
     </Container>
-	
-	 <Container>
+
+    <Container>
       <Id>
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>K_Imperial_PatrolCraft_CargoBay</SubtypeId>
@@ -100,8 +101,8 @@
         <Component BuilderType="MyObjectBuilder_Inventory"/>
       </DefaultComponents>
     </Container>
-	
-	 <Container>
+
+    <Container>
       <Id>
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>K_Imperial_Dropship_Guild_CargoHull</SubtypeId>
@@ -110,8 +111,8 @@
         <Component BuilderType="MyObjectBuilder_Inventory"/>
       </DefaultComponents>
     </Container>
-	
-	 <Container>
+
+    <Container>
       <Id>
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>K_Imperial_MG_Cache_Storage</SubtypeId>
@@ -120,8 +121,8 @@
         <Component BuilderType="MyObjectBuilder_Inventory"/>
       </DefaultComponents>
     </Container>
-	
-	 <Container>
+
+    <Container>
       <Id>
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>K_Imperial_SupplyDepot_AltII</SubtypeId>
@@ -130,8 +131,8 @@
         <Component BuilderType="MyObjectBuilder_Inventory"/>
       </DefaultComponents>
     </Container>
-	
-	 <Container>
+
+    <Container>
       <Id>
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>K_Imperial_Assembly_HeavyCargo</SubtypeId>
@@ -140,8 +141,8 @@
         <Component BuilderType="MyObjectBuilder_Inventory"/>
       </DefaultComponents>
     </Container>
-	
-	<Container>
+
+    <Container>
       <Id>
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>K_Imperial_Carrack_CargoShip_CargoContainer</SubtypeId>
@@ -150,8 +151,18 @@
         <Component BuilderType="MyObjectBuilder_Inventory"/>
       </DefaultComponents>
     </Container>
-	
-	 <Container>
+
+    <Container>
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>LargeBlockSmallContainer_FCS</SubtypeId>
+      </Id>
+      <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_Inventory"/>
+      </DefaultComponents>
+    </Container>
+
+    <Container>
       <Id>
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>K_Sith_Warship_HangarDeck</SubtypeId>
@@ -160,8 +171,8 @@
         <Component BuilderType="MyObjectBuilder_Inventory"/>
       </DefaultComponents>
     </Container>
-	
-	 <Container>
+
+    <Container>
       <Id>
         <TypeId>MyObjectBuilder_Character</TypeId>
         <SubtypeId>k_starwars_empire_pilot_ii</SubtypeId>
@@ -172,9 +183,9 @@
         <Component BuilderType="MyObjectBuilder_CharacterDiscoveryComponent" ForceCreate="true"/>
       </DefaultComponents>
     </Container>
-	
-	
-	 <Container>
+
+
+    <Container>
       <Id>
         <TypeId>MyObjectBuilder_Character</TypeId>
         <SubtypeId>k_starwars_empire_specialtrooper_i</SubtypeId>
@@ -185,8 +196,8 @@
         <Component BuilderType="MyObjectBuilder_CharacterDiscoveryComponent" ForceCreate="true"/>
       </DefaultComponents>
     </Container>
-	
-	 <Container>
+
+    <Container>
       <Id>
         <TypeId>MyObjectBuilder_Character</TypeId>
         <SubtypeId>k_starwars_empire_kreegtechnication_i</SubtypeId>
@@ -197,8 +208,8 @@
         <Component BuilderType="MyObjectBuilder_CharacterDiscoveryComponent" ForceCreate="true"/>
       </DefaultComponents>
     </Container>
-	
-	 <Container>
+
+    <Container>
       <Id>
         <TypeId>MyObjectBuilder_Character</TypeId>
         <SubtypeId>k_sw_chiss_engineer_i</SubtypeId>
@@ -209,8 +220,8 @@
         <Component BuilderType="MyObjectBuilder_CharacterDiscoveryComponent" ForceCreate="true"/>
       </DefaultComponents>
     </Container>
-	
-	 <Container>
+
+    <Container>
       <Id>
         <TypeId>MyObjectBuilder_Character</TypeId>
         <SubtypeId>k_starwars_empire_miner_i</SubtypeId>
@@ -221,9 +232,9 @@
         <Component BuilderType="MyObjectBuilder_CharacterDiscoveryComponent" ForceCreate="true"/>
       </DefaultComponents>
     </Container>
-	
-	
-	 <Container>
+
+
+    <Container>
       <Id>
         <TypeId>MyObjectBuilder_Character</TypeId>
         <SubtypeId>k_sw_rebellionquickie</SubtypeId>
@@ -234,8 +245,8 @@
         <Component BuilderType="MyObjectBuilder_CharacterDiscoveryComponent" ForceCreate="true"/>
       </DefaultComponents>
     </Container>
-	
-	 <Container>
+
+    <Container>
       <Id>
         <TypeId>MyObjectBuilder_Character</TypeId>
         <SubtypeId>k_sw_rebellionquickierecolorable</SubtypeId>
@@ -248,24 +259,24 @@
     </Container>
 
     <Container>
-    <Id>
+      <Id>
         <TypeId>MyObjectBuilder_Character</TypeId>
         <SubtypeId>k_imperial_wildlife_spider</SubtypeId>
-    </Id>
-    <DefaultComponents>
+      </Id>
+      <DefaultComponents>
         <Component BuilderType="MyObjectBuilder_CharacterStatComponent" SubtypeId="Space_spider" ForceCreate="true"/>
-    </DefaultComponents>
-  </Container>
+      </DefaultComponents>
+    </Container>
 
     <Container>
-       <Id>
-           <TypeId>MyObjectBuilder_Character</TypeId>
-           <SubtypeId>k_imperial_wildlife_spider_II</SubtypeId>
-       </Id>
-       <DefaultComponents>
-           <Component BuilderType="MyObjectBuilder_CharacterStatComponent" SubtypeId="Space_spider" ForceCreate="true"/>
-       </DefaultComponents>
-   </Container>
+      <Id>
+        <TypeId>MyObjectBuilder_Character</TypeId>
+        <SubtypeId>k_imperial_wildlife_spider_II</SubtypeId>
+      </Id>
+      <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_CharacterStatComponent" SubtypeId="Space_spider" ForceCreate="true"/>
+      </DefaultComponents>
+    </Container>
 
   </EntityContainers>
 </Definitions>

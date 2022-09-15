@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>4_Imperial_FissionComponent</SubtypeId>
+      </Id>
+      <DisplayName>Reactor Comp. (Fission)</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Ingot_2_14.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="DuraSteel_Ingot" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Norax" />
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Polymer" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="FissionComponent" />
+      <BaseProductionTimeInSeconds>9</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>4_Imperial_FissionAdvancedController</SubtypeId>
+      </Id>
+      <DisplayName>Reactor Comp. (Advanced Fission)</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Ingot_2_14.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Alum" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="DuraSteel_Ingot" />
+        <Item Amount="25" TypeId="Ingot" SubtypeId="Norax" />
+        <Item Amount="15" TypeId="Ingot" SubtypeId="Polymer" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="FissionAdvancedController" />
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>4_Imperial_Reactors_Ionic</SubtypeId>
+      </Id>
+      <DisplayName>Reactor Comp. (Ion)</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Ingot_2_14.dds</Icon>
+      <Prerequisites>
+        <Item Amount="25" TypeId="Ingot" SubtypeId="Alum" />
+        <Item Amount="25" TypeId="Ingot" SubtypeId="DuraSteel_Ingot" />
+        <Item Amount="125" TypeId="Ingot" SubtypeId="Norax" />
+        <Item Amount="75" TypeId="Ingot" SubtypeId="Polymer" />
+        <Item Amount="2" TypeId="Ingot" SubtypeId="Ions" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Reactors_Ionic" />
+      <BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+  </Blueprints>
+</Definitions>

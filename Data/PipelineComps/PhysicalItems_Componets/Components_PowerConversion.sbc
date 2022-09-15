@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Components>
+
+    <Component>      <!--         Generator Components,  Standard            -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>PowerGen_Basics</SubtypeId>
+      </Id>
+      <DisplayName>Power Converter (low amperage)</DisplayName>
+      <ExtraInventoryTooltipLine>Republic Power-Generation Component. Produced by Basic Factory.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_8.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>20</Mass>
+      <Volume>5</Volume>
+      <Model>Models\Components\K_Imperial_Components_PowerComverter_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>35</Health>
+      <MinimalPricePerUnit>65</MinimalPricePerUnit>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+
+
+    <Component>      <!--        Power Converter             -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>PowerConverter</SubtypeId>
+      </Id>
+      <DisplayName>Power Converter (High Amperage)</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_14.dds</Icon>
+      <ExtraInventoryTooltipLine>Republic Basic Component. Produced by Light Factory, Advanced Factory.</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>6</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_TurboLaser_Mechanism_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>10</Health>
+      <MinimalPricePerUnit>450</MinimalPricePerUnit>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+
+  </Components>
+</Definitions>

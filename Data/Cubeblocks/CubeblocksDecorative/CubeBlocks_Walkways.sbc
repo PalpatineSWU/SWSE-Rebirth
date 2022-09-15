@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Fence</SubtypeId>
+      </Id>
+      <DisplayName>Republic Half-Wall</DisplayName>
+      <Icon>Textures\GUI\Icons\Cosmetic\ReHalfwall.dds</Icon>
+      <Description> Physical Wall, designed to restrict access to secured zones, or provide cover.</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_Fence_Large.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SteelPlate" Count="50" />
+      </Components>
+      <CriticalComponent Subtype="ImperialConstruction" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BlockPairName>K_Imperial_Fence</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>8</BuildTimeSeconds>
+      <PCU>1</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Fence_Corner</SubtypeId>
+      </Id>
+      <DisplayName>Republic Half-Wall Corner</DisplayName>
+      <Icon>Textures\GUI\Icons\Cosmetic\ReHalfwallCorner.dds</Icon>
+      <Description> Physical Wall, designed to restrict access to secured zones, or provide cover.</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_FenceCorner_Large.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="20" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="SteelPlate" Count="100" />
+      </Components>
+      <CriticalComponent Subtype="ImperialConstruction" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BlockPairName>K_Imperial_Fence_Corner</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>8</BuildTimeSeconds>
+      <PCU>1</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Fence_GuardPost</SubtypeId>
+      </Id>
+      <DisplayName>Republic Half-Wall Overlook</DisplayName>
+      <Icon>Textures\GUI\Icons\Cosmetic\ReHalfwallStairs.dds</Icon>
+      <Description> Physical Wall, with staircase and elevated position. </Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_FenceGuardPost_Large.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="50" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SteelPlate" Count="90" />
+      </Components>
+      <CriticalComponent Subtype="ImperialConstruction" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BlockPairName>K_Imperial_Fence_GuardPost</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>8</BuildTimeSeconds>
+      <PCU>1</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Fence_GuardPostReversed</SubtypeId>
+      </Id>
+      <DisplayName>Republic Half-Wall Overlook (Inverted)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cosmetic\ReHalfwallStairsInverted.dds</Icon>
+      <Description> Physical Wall, with staircase and elevated position. </Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_FenceGuardPost_Opposite_Large.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="50" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SteelPlate" Count="90" />
+      </Components>
+      <CriticalComponent Subtype="ImperialConstruction" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BlockPairName>K_Imperial_Fence_GuardPostReversed</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>8</BuildTimeSeconds>
+      <PCU>1</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Passage_I</SubtypeId>
+      </Id>
+      <DisplayName>Republic Passage I</DisplayName>
+      <Icon>Textures\GUI\Icons\Cosmetic\REcubePassage.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_Passage_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="240" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Passage_I</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Walkway_I_Straight</SubtypeId>
+      </Id>
+      <DisplayName>Republic Walkway Straight</DisplayName>
+      <Icon>Textures\GUI\Icons\Cosmetic\Rewalkway.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_Walkway_I_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Walkway_I_Straight</BlockPairName>
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Walkway_I_Ramp</SubtypeId>
+      </Id>
+      <DisplayName>Republic Walkway Ramp I</DisplayName>
+      <Icon>Textures\GUI\Icons\Cosmetic\RewalkwayRamp.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_Walkway_III_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Walkway_I_Ramp</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Walkway_II_Corner</SubtypeId>
+      </Id>
+      <DisplayName>Republic Walkway Corner</DisplayName>
+      <Icon>Textures\GUI\Icons\Cosmetic\Rewalkway.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_Walkway_II_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Walkway_II_Corner</BlockPairName>
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Walkway_IV_Offset</SubtypeId>
+      </Id>
+      <DisplayName>Republic Walkway (Inverted)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cosmetic\RewalkwayIn.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_Walkway_IV_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Walkway_IV_Offset</BlockPairName>
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Walkway_IV_OffsetPillar</SubtypeId>
+      </Id>
+      <DisplayName>Republic Walkway Pillar(Inverted)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cosmetic\RewalkwayinPillar.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_Walkway_IV_Pillar_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Walkway_IV_OffsetPillar</BlockPairName>
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Pillar_I</SubtypeId>
+      </Id>
+      <DisplayName>Republic Pillar I</DisplayName>
+      <Icon>Textures\GUI\Icons\Cosmetic\RewalkwayinPillar2.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_Pillar_I_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Pillar_I</BlockPairName>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Misc_Pillar_II</SubtypeId>
+      </Id>
+      <DisplayName>Republic Pillar II</DisplayName>
+      <Icon>Textures\GUI\Icons\Cosmetic\RewalkwayinPillar3.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_Pillar_II_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Imperial_Misc_Pillar_II</BlockPairName>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+
+
+    <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+      <Id>
+        <TypeId>AdvancedDoor</TypeId>
+        <SubtypeId>K_Imperial_Walkway_Bridge</SubtypeId>
+      </Id>
+      <DisplayName>Republic Walkway Bridge</DisplayName>
+      <Icon>Textures\GUI\Icons\Cosmetic\RewalkwayRampBridge.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_Walkway_Bridge_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="20" />
+        <Component Subtype="Computer" Count="3" />
+        <Component Subtype="SolarCircuitry" Count="15" />
+        <Component Subtype="BulletproofGlass" Count="15" />
+        <Component Subtype="DuraSteel" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <BlockPairName>K_Imperial_Walkway_Bridge</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <ResourceSourceGroup>Doors</ResourceSourceGroup>
+      <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+      <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+      <DamageEffectId>212</DamageEffectId>
+      <Subparts>
+        <SubpartDefinition>
+          <Name>K_Imperial_Walkway_Bridge_1_Large</Name>
+        </SubpartDefinition>
+        <SubpartDefinition>
+          <Name>K_Imperial_Walkway_Bridge_2_Large</Name>
+        </SubpartDefinition>
+        <SubpartDefinition>
+          <Name>K_Imperial_Walkway_Bridge_3_Large</Name>
+        </SubpartDefinition>
+        <SubpartDefinition>
+          <Name>K_Imperial_Walkway_Bridge_4_Large</Name>
+        </SubpartDefinition>
+        <SubpartDefinition>
+          <Name>K_Imperial_Walkway_Bridge_5_Large</Name>
+        </SubpartDefinition>
+        <SubpartDefinition>
+          <Name>K_Imperial_Walkway_Bridge_6_Large</Name>
+        </SubpartDefinition>
+      </Subparts>
+      <OpeningSequence>
+        <Opening>
+          <IDs>0</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="0" z="-1" />
+          <MaxOpen>1</MaxOpen>
+          <Speed>2</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+        <Opening>
+          <IDs>1</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="0" z="-1" />
+          <MaxOpen>2.2</MaxOpen>
+          <Speed>2</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+        <Opening>
+          <IDs>2</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="0" z="-1" />
+          <MaxOpen>3.2</MaxOpen>
+          <Speed>2</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+        <Opening>
+          <IDs>3</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="0" z="-1" />
+          <MaxOpen>4.2</MaxOpen>
+          <Speed>2</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+        <Opening>
+          <IDs>4</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="0" z="-1" />
+          <MaxOpen>5.2</MaxOpen>
+          <Speed>2</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+        <Opening>
+          <IDs>5</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="0" z="-1" />
+          <MaxOpen>6.2</MaxOpen>
+          <Speed>2</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+      </OpeningSequence>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

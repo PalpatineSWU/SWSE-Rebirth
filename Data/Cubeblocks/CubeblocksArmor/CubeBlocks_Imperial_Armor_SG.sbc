@@ -1,0 +1,2476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Armor_Empire_Cube_SG</SubtypeId>
+      </Id>
+      <DisplayName>Empire Cube</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorCube.dds</Icon>
+      <Description>Description_LightArmor_Imperial</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>Box</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="DuraSteel" Count="5" />
+        <Component Subtype="DuraSteel" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small_Constr2.mwm" RandomOrientation="true" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small_Constr3.mwm" RandomOrientation="true" />
+      </BuildProgressModels>
+      <UsesDeformation>false</UsesDeformation>
+      <BlockPairName>K_WS_TC_Armor_Imperial_CubeLight</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>8</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>1</PCU>
+      <IsAirTight>true</IsAirTight>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Armor_Empire_Slope_SG</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Armor_Empire_Corner_SG</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Armor_Empire_InvertedCorner_SG</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+    </Definition>
+
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Armor_Empire_Slope_SG</SubtypeId>
+      </Id>
+      <DisplayName>Empire Slope</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorSlope.dds</Icon>
+      <Description>Description_LightArmor_Imperial</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>Slope</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Slope_Small.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleRight_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="DuraSteel" Count="4" />
+        <Component Subtype="DuraSteel" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0.5" StartY="0" EndX="1" EndY="0.5" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.5" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Slope_Small_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Slope_Small_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Slope_Small_Constr3.mwm" />
+      </BuildProgressModels>
+
+      <BlockPairName>K_Imperial_Armor_Empire_Slope</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>1</PCU>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Armor_Empire_Corner_SG</SubtypeId>
+      </Id>
+      <DisplayName>Empire Corner</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorCorner.dds</Icon>
+      <Description>Description_LightArmor_Imperial</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>Corner</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleRight_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Small.mwm" PatternWidth="1" PatternHeight="1" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="DuraSteel" Count="3" />
+        <Component Subtype="DuraSteel" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="1" />
+        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="0.2" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.2" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.2" />
+        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Triangle_Small_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Triangle_Small_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Triangle_Small_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Imperial_Armor_Empire_Corner</BlockPairName>
+      <MirroringX>YHalfX</MirroringX>
+      <MirroringY>ZHalfY</MirroringY>
+      <MirroringZ>YHalfY</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>1</PCU>
+      <IsAirTight>false</IsAirTight>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Armor_Empire_InvertedCorner_SG</SubtypeId>
+      </Id>
+      <DisplayName>Empire Inverted-Corner</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorInvertedCorner.dds</Icon>
+      <Description>Description_LightArmor_Imperial</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>InvCorner</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleInverted_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleRight_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="DuraSteel" Count="6" />
+        <Component Subtype="DuraSteel" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.2" EndY="1" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.2" EndX="0.8" EndY="1" />
+        <MountPoint Side="Right" StartX="0.8" StartY="0.8" EndX="1" EndY="1" />
+        <MountPoint Side="Front" StartX="0" StartY="0.8" EndX="0.2" EndY="1" />
+        <MountPoint Side="Front" StartX="0.2" StartY="0.2" EndX="0.8" EndY="1" />
+        <MountPoint Side="Front" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0.8" StartY="0.8" EndX="1" EndY="1" />
+      </MountPoints>
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Imperial_Armor_Empire_InvertedCorner</BlockPairName>
+      <MirroringX>YHalfX</MirroringX>
+      <MirroringY>ZHalfY</MirroringY>
+      <MirroringZ>YHalfZ</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>7</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>1</PCU>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_WS_TC_Armor_Imperial_Decal_Cube_SG</SubtypeId>
+      </Id>
+      <DisplayName>Empire Stripe Cube</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorDecal.dds</Icon>
+      <Description>Description_InteriorWall</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>StandaloneBox</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_DecalA_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_DecalA_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="1" PatternHeight="1" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="DuraSteel" Count="3" />
+        <Component Subtype="ImperialGeneralParts" Count="2" />
+        <Component Subtype="DuraSteel" Count="5" />
+        <Component Subtype="ImperialGeneralParts" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="ImperialGeneralParts" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_WS_TC_Armor_Imperial_Decal_Cube</BlockPairName>
+      <MirroringY>X</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <PCU>1</PCU>
+      <IsAirTight>true</IsAirTight>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      <BlockVariants>
+      </BlockVariants>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Armor_Beskar_Cube_SG</SubtypeId>
+      </Id>
+      <DisplayName>Beskar Cube</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorCube.dds</Icon>
+      <Description>Description_LightArmor_Imperial</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>Box</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="BeskarPlate" Count="5" />
+        <Component Subtype="BeskarPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="BeskarPlate" Index="0" />
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small_Constr2.mwm" RandomOrientation="true" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small_Constr3.mwm" RandomOrientation="true" />
+      </BuildProgressModels>
+      <UsesDeformation>false</UsesDeformation>
+      <BlockPairName>K_WS_TC_Armor_Beskar_CubeLight</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>8</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>1</PCU>
+      <IsAirTight>true</IsAirTight>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Armor_Beskar_Slope_SG</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Armor_Beskar_Corner_SG</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Armor_Beskar_InvertedCorner_SG</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+    </Definition>
+
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Armor_Beskar_Slope_SG</SubtypeId>
+      </Id>
+      <DisplayName>Beskar Slope</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorSlope.dds</Icon>
+      <Description>Description_LightArmor_Imperial</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>Slope</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Slope_Small.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleRight_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="BeskarPlate" Count="4" />
+        <Component Subtype="BeskarPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="BeskarPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0.5" StartY="0" EndX="1" EndY="0.5" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.5" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Slope_Small_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Slope_Small_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Slope_Small_Constr3.mwm" />
+      </BuildProgressModels>
+
+      <BlockPairName>K_Imperial_Armor_Beskar_Slope</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>1</PCU>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Armor_Beskar_Corner_SG</SubtypeId>
+      </Id>
+      <DisplayName>Beskar Corner</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorCorner.dds</Icon>
+      <Description>Description_LightArmor_Imperial</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>Corner</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleRight_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Small.mwm" PatternWidth="1" PatternHeight="1" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="BeskarPlate" Count="3" />
+        <Component Subtype="BeskarPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="BeskarPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="1" />
+        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="0.2" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.2" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.2" />
+        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Triangle_Small_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Triangle_Small_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Triangle_Small_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Imperial_Armor_Beskar_Corner</BlockPairName>
+      <MirroringX>YHalfX</MirroringX>
+      <MirroringY>ZHalfY</MirroringY>
+      <MirroringZ>YHalfY</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>1</PCU>
+      <IsAirTight>false</IsAirTight>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Armor_Beskar_InvertedCorner_SG</SubtypeId>
+      </Id>
+      <DisplayName>Beskar Inverted-Corner</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorInvertedCorner.dds</Icon>
+      <Description>Description_LightArmor_Imperial</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>InvCorner</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleInverted_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleRight_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="BeskarPlate" Count="6" />
+        <Component Subtype="BeskarPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="BeskarPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.2" EndY="1" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.2" EndX="0.8" EndY="1" />
+        <MountPoint Side="Right" StartX="0.8" StartY="0.8" EndX="1" EndY="1" />
+        <MountPoint Side="Front" StartX="0" StartY="0.8" EndX="0.2" EndY="1" />
+        <MountPoint Side="Front" StartX="0.2" StartY="0.2" EndX="0.8" EndY="1" />
+        <MountPoint Side="Front" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0.8" StartY="0.8" EndX="1" EndY="1" />
+      </MountPoints>
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Imperial_Armor_Beskar_InvertedCorner</BlockPairName>
+      <MirroringX>YHalfX</MirroringX>
+      <MirroringY>ZHalfY</MirroringY>
+      <MirroringZ>YHalfZ</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>7</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>1</PCU>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_WS_TC_Armor_Imperial_Decal_Cube_SG</SubtypeId>
+      </Id>
+      <DisplayName>Beskar Stripe Cube</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorDecal.dds</Icon>
+      <Description>Description_InteriorWall</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>StandaloneBox</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_DecalA_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_DecalA_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="1" PatternHeight="1" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="BeskarPlate" Count="3" />
+        <Component Subtype="ImperialGeneralParts" Count="2" />
+        <Component Subtype="BeskarPlate" Count="5" />
+        <Component Subtype="ImperialGeneralParts" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="ImperialGeneralParts" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_WS_TC_Armor_Beskar_Decal_Cube</BlockPairName>
+      <MirroringY>X</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <PCU>1</PCU>
+      <IsAirTight>true</IsAirTight>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      <BlockVariants>
+      </BlockVariants>
+    </Definition>
+
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Armor_Beskar_Cube</SubtypeId>
+      </Id>
+      <DisplayName>Beskar Cube</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorCube.dds</Icon>
+      <Description>Description_LightArmor_Imperial</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>Box</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="4" PatternHeight="2" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="BeskarPlate" Count="20" />
+        <Component Subtype="BeskarPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="BeskarPlate" Index="0" />
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr2.mwm" RandomOrientation="true" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr3.mwm" RandomOrientation="true" />
+      </BuildProgressModels>
+      <UsesDeformation>false</UsesDeformation>
+      <BlockPairName>K_Beskar_Armor_Imperial_CubeLight</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>8</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>1</PCU>
+      <IsAirTight>true</IsAirTight>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Armor_Beskar_Slope</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Armor_Beskar_Corner</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Armor_Beskar_InvertedCorner</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+    </Definition>
+
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Armor_Beskar_Slope</SubtypeId>
+      </Id>
+      <DisplayName>Beskar Slope</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorSlope.dds</Icon>
+      <Description>Description_LightArmor_Imperial</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>Slope</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Slope_Large.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleRight_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="4" PatternHeight="2" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="BeskarPlate" Count="10" />
+        <Component Subtype="BeskarPlate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="BeskarPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0.5" StartY="0" EndX="1" EndY="0.5" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.5" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Slope_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Slope_Large_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Slope_Large_Constr3.mwm" />
+      </BuildProgressModels>
+
+      <BlockPairName>K_Imperial_Armor_Beskar_Slope</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>1</PCU>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Armor_Beskar_Corner</SubtypeId>
+      </Id>
+      <DisplayName>Beskar Corner</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorCorner.dds</Icon>
+      <Description>Description_LightArmor_Imperial</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>Corner</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleRight_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Triangle_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Large.mwm" PatternWidth="1" PatternHeight="1" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="BeskarPlate" Count="3" />
+        <Component Subtype="BeskarPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="BeskarPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="1" />
+        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="0.2" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.2" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.2" />
+        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Triangle_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Triangle_Large_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Triangle_Large_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Imperial_Armor_Beskar_Corner</BlockPairName>
+      <MirroringX>YHalfX</MirroringX>
+      <MirroringY>ZHalfY</MirroringY>
+      <MirroringZ>YHalfY</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>1</PCU>
+      <IsAirTight>false</IsAirTight>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Armor_Beskar_InvertedCorner</SubtypeId>
+      </Id>
+      <DisplayName>Beskar Inverted-Corner</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorInvertedCorner.dds</Icon>
+      <Description>Description_LightArmor_Imperial</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>InvCorner</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleInverted_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleRight_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="4" PatternHeight="2" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="BeskarPlate" Count="16" />
+        <Component Subtype="BeskarPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="BeskarPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.2" EndY="1" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.2" EndX="0.8" EndY="1" />
+        <MountPoint Side="Right" StartX="0.8" StartY="0.8" EndX="1" EndY="1" />
+        <MountPoint Side="Front" StartX="0" StartY="0.8" EndX="0.2" EndY="1" />
+        <MountPoint Side="Front" StartX="0.2" StartY="0.2" EndX="0.8" EndY="1" />
+        <MountPoint Side="Front" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0.8" StartY="0.8" EndX="1" EndY="1" />
+      </MountPoints>
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Imperial_Armor_Beskar_InvertedCorner</BlockPairName>
+      <MirroringX>YHalfX</MirroringX>
+      <MirroringY>ZHalfY</MirroringY>
+      <MirroringZ>YHalfZ</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>7</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>1</PCU>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Beskar_Armor_Imperial_Decal_Cube</SubtypeId>
+      </Id>
+      <DisplayName>Beskar Stripe Cube</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorDecal.dds</Icon>
+      <Description>Description_InteriorWall</Description>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>StandaloneBox</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_DecalA_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_DecalA_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="BeskarPlate" Count="5" />
+        <Component Subtype="ImperialGeneralParts" Count="8" />
+        <Component Subtype="BeskarPlate" Count="10" />
+        <Component Subtype="ImperialGeneralParts" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="ImperialGeneralParts" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Beskar_Armor_Imperial_Decal_Cube</BlockPairName>
+      <MirroringY>X</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <PCU>1</PCU>
+      <IsAirTight>true</IsAirTight>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      <BlockVariants>
+      </BlockVariants>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Beskar_Armor_Imperial_DecorWall_Logo_Beskar</SubtypeId>
+      </Id>
+      <DisplayName>Beskar Cube Icon (Imperial)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorDecal.dds</Icon>
+      <Description>Description_InteriorWall</Description>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>StandaloneBox</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Logo_Empire_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Logo_Empire_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="BeskarPlate" Count="5" />
+        <Component Subtype="ImperialGeneralParts" Count="8" />
+        <Component Subtype="BeskarPlate" Count="10" />
+        <Component Subtype="ImperialGeneralParts" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="ImperialGeneralParts" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Beskar_Armor_Imperial_DecorWall_Logo_Beskar</BlockPairName>
+      <MirroringY>X</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <PCU>1</PCU>
+      <IsAirTight>true</IsAirTight>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Beskar_Armor_Imperial_DecorWall_LogoTrim_Beskar</SubtypeId>
+      </Id>
+      <DisplayName>Beskar Cube Icon (Imperial - With Trim)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorDecal.dds</Icon>
+      <Description>Description_InteriorWall</Description>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>StandaloneBox</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Logo_EmpireTrim_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Logo_EmpireTrim_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="BeskarPlate" Count="5" />
+        <Component Subtype="ImperialGeneralParts" Count="8" />
+        <Component Subtype="BeskarPlate" Count="10" />
+        <Component Subtype="ImperialGeneralParts" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="ImperialGeneralParts" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Beskar_Armor_Imperial_DecorWall_LogoTrim_Beskar</BlockPairName>
+      <MirroringY>X</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <PCU>1</PCU>
+      <IsAirTight>true</IsAirTight>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+
+    </Definition>
+
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Armor_Phrik_Cube_SG</SubtypeId>
+      </Id>
+      <DisplayName>Phrik Cube</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorCube.dds</Icon>
+      <Description>Description_LightArmor_Imperial</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>Box</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="PhrikPlate" Count="5" />
+        <Component Subtype="PhrikPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="PhrikPlate" Index="0" />
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small_Constr2.mwm" RandomOrientation="true" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small_Constr3.mwm" RandomOrientation="true" />
+      </BuildProgressModels>
+      <UsesDeformation>false</UsesDeformation>
+      <BlockPairName>K_WS_TC_Armor_Phrik_CubeLight</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>8</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>1</PCU>
+      <IsAirTight>true</IsAirTight>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Armor_Phrik_Slope_SG</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Armor_Phrik_Corner_SG</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Armor_Phrik_InvertedCorner_SG</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+    </Definition>
+
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Armor_Phrik_Slope_SG</SubtypeId>
+      </Id>
+      <DisplayName>Phrik Slope</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorSlope.dds</Icon>
+      <Description>Description_LightArmor_Imperial</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>Slope</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Slope_Small.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleRight_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="PhrikPlate" Count="4" />
+        <Component Subtype="PhrikPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="PhrikPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0.5" StartY="0" EndX="1" EndY="0.5" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.5" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Slope_Small_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Slope_Small_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Slope_Small_Constr3.mwm" />
+      </BuildProgressModels>
+
+      <BlockPairName>K_Imperial_Armor_Phrik_Slope</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>1</PCU>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Armor_Phrik_Corner_SG</SubtypeId>
+      </Id>
+      <DisplayName>Phrik Corner</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorCorner.dds</Icon>
+      <Description>Description_LightArmor_Imperial</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>Corner</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleRight_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Small.mwm" PatternWidth="1" PatternHeight="1" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="PhrikPlate" Count="3" />
+        <Component Subtype="PhrikPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="PhrikPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="1" />
+        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="0.2" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.2" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.2" />
+        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Triangle_Small_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Triangle_Small_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Triangle_Small_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Imperial_Armor_Phrik_Corner</BlockPairName>
+      <MirroringX>YHalfX</MirroringX>
+      <MirroringY>ZHalfY</MirroringY>
+      <MirroringZ>YHalfY</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>1</PCU>
+      <IsAirTight>false</IsAirTight>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Armor_Phrik_InvertedCorner_SG</SubtypeId>
+      </Id>
+      <DisplayName>Phrik Inverted-Corner</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorInvertedCorner.dds</Icon>
+      <Description>Description_LightArmor_Imperial</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>InvCorner</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleInverted_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleRight_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="PhrikPlate" Count="6" />
+        <Component Subtype="PhrikPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="PhrikPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.2" EndY="1" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.2" EndX="0.8" EndY="1" />
+        <MountPoint Side="Right" StartX="0.8" StartY="0.8" EndX="1" EndY="1" />
+        <MountPoint Side="Front" StartX="0" StartY="0.8" EndX="0.2" EndY="1" />
+        <MountPoint Side="Front" StartX="0.2" StartY="0.2" EndX="0.8" EndY="1" />
+        <MountPoint Side="Front" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0.8" StartY="0.8" EndX="1" EndY="1" />
+      </MountPoints>
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Imperial_Armor_Phrik_InvertedCorner</BlockPairName>
+      <MirroringX>YHalfX</MirroringX>
+      <MirroringY>ZHalfY</MirroringY>
+      <MirroringZ>YHalfZ</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>7</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>1</PCU>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_WS_TC_Armor_Imperial_Decal_Cube_SG</SubtypeId>
+      </Id>
+      <DisplayName>Phrik Stripe Cube</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorDecal.dds</Icon>
+      <Description>Description_InteriorWall</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>StandaloneBox</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_DecalA_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_DecalA_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="1" PatternHeight="1" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="PhrikPlate" Count="3" />
+        <Component Subtype="ImperialGeneralParts" Count="2" />
+        <Component Subtype="PhrikPlate" Count="5" />
+        <Component Subtype="ImperialGeneralParts" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="ImperialGeneralParts" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_WS_TC_Armor_Phrik_Decal_Cube</BlockPairName>
+      <MirroringY>X</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <PCU>1</PCU>
+      <IsAirTight>true</IsAirTight>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      <BlockVariants>
+      </BlockVariants>
+    </Definition>
+
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Armor_Phrik_Cube</SubtypeId>
+      </Id>
+      <DisplayName>Phrik Cube</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorCube.dds</Icon>
+      <Description>Description_LightArmor_Imperial</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>Box</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="4" PatternHeight="2" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="PhrikPlate" Count="20" />
+        <Component Subtype="PhrikPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="PhrikPlate" Index="0" />
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr2.mwm" RandomOrientation="true" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr3.mwm" RandomOrientation="true" />
+      </BuildProgressModels>
+      <UsesDeformation>false</UsesDeformation>
+      <BlockPairName>K_Phrik_Armor_Imperial_CubeLight</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>8</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>1</PCU>
+      <IsAirTight>true</IsAirTight>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Armor_Phrik_Slope</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Armor_Phrik_Corner</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Armor_Phrik_InvertedCorner</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+    </Definition>
+
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Armor_Phrik_Slope</SubtypeId>
+      </Id>
+      <DisplayName>Phrik Slope</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorSlope.dds</Icon>
+      <Description>Description_LightArmor_Imperial</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>Slope</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Slope_Large.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleRight_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="4" PatternHeight="2" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="PhrikPlate" Count="10" />
+        <Component Subtype="PhrikPlate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="PhrikPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0.5" StartY="0" EndX="1" EndY="0.5" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.5" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Slope_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Slope_Large_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Slope_Large_Constr3.mwm" />
+      </BuildProgressModels>
+
+      <BlockPairName>K_Imperial_Armor_Phrik_Slope</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>1</PCU>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Armor_Phrik_Corner</SubtypeId>
+      </Id>
+      <DisplayName>Phrik Corner</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorCorner.dds</Icon>
+      <Description>Description_LightArmor_Imperial</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>Corner</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleRight_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Triangle_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Large.mwm" PatternWidth="1" PatternHeight="1" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="PhrikPlate" Count="3" />
+        <Component Subtype="PhrikPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="PhrikPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="1" />
+        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="0.2" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.2" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.2" />
+        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Triangle_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Triangle_Large_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Triangle_Large_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Imperial_Armor_Phrik_Corner</BlockPairName>
+      <MirroringX>YHalfX</MirroringX>
+      <MirroringY>ZHalfY</MirroringY>
+      <MirroringZ>YHalfY</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>1</PCU>
+      <IsAirTight>false</IsAirTight>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Armor_Phrik_InvertedCorner</SubtypeId>
+      </Id>
+      <DisplayName>Phrik Inverted-Corner</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorInvertedCorner.dds</Icon>
+      <Description>Description_LightArmor_Imperial</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>InvCorner</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleInverted_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleRight_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="4" PatternHeight="2" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="PhrikPlate" Count="16" />
+        <Component Subtype="PhrikPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="PhrikPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.2" EndY="1" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.2" EndX="0.8" EndY="1" />
+        <MountPoint Side="Right" StartX="0.8" StartY="0.8" EndX="1" EndY="1" />
+        <MountPoint Side="Front" StartX="0" StartY="0.8" EndX="0.2" EndY="1" />
+        <MountPoint Side="Front" StartX="0.2" StartY="0.2" EndX="0.8" EndY="1" />
+        <MountPoint Side="Front" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0.8" StartY="0.8" EndX="1" EndY="1" />
+      </MountPoints>
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Imperial_Armor_Phrik_InvertedCorner</BlockPairName>
+      <MirroringX>YHalfX</MirroringX>
+      <MirroringY>ZHalfY</MirroringY>
+      <MirroringZ>YHalfZ</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>7</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>1</PCU>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Phrik_Armor_Imperial_Decal_Cube</SubtypeId>
+      </Id>
+      <DisplayName>Phrik Stripe Cube</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorDecal.dds</Icon>
+      <Description>Description_InteriorWall</Description>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>StandaloneBox</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_DecalA_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_DecalA_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="PhrikPlate" Count="5" />
+        <Component Subtype="ImperialGeneralParts" Count="8" />
+        <Component Subtype="PhrikPlate" Count="10" />
+        <Component Subtype="ImperialGeneralParts" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="ImperialGeneralParts" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Phrik_Armor_Imperial_Decal_Cube</BlockPairName>
+      <MirroringY>X</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <PCU>1</PCU>
+      <IsAirTight>true</IsAirTight>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      <BlockVariants>
+      </BlockVariants>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Phrik_Armor_Imperial_DecorWall_Logo_Phrik</SubtypeId>
+      </Id>
+      <DisplayName>Phrik Cube Icon (Imperial)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorDecal.dds</Icon>
+      <Description>Description_InteriorWall</Description>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>StandaloneBox</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Logo_Empire_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Logo_Empire_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="PhrikPlate" Count="5" />
+        <Component Subtype="ImperialGeneralParts" Count="8" />
+        <Component Subtype="PhrikPlate" Count="10" />
+        <Component Subtype="ImperialGeneralParts" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="ImperialGeneralParts" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Phrik_Armor_Imperial_DecorWall_Logo_Phrik</BlockPairName>
+      <MirroringY>X</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <PCU>1</PCU>
+      <IsAirTight>true</IsAirTight>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Phrik_Armor_Imperial_DecorWall_LogoTrim_Phrik</SubtypeId>
+      </Id>
+      <DisplayName>Phrik Cube Icon (Imperial - With Trim)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorDecal.dds</Icon>
+      <Description>Description_InteriorWall</Description>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>StandaloneBox</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Logo_EmpireTrim_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Logo_EmpireTrim_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="PhrikPlate" Count="5" />
+        <Component Subtype="ImperialGeneralParts" Count="8" />
+        <Component Subtype="PhrikPlate" Count="10" />
+        <Component Subtype="ImperialGeneralParts" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="ImperialGeneralParts" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Phrik_Armor_Imperial_DecorWall_LogoTrim_Phrik</BlockPairName>
+      <MirroringY>X</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <PCU>1</PCU>
+      <IsAirTight>true</IsAirTight>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+
+    </Definition>
+
+
+
+
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Armor_Impervium_Cube_SG</SubtypeId>
+      </Id>
+      <DisplayName>Impervium Cube</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorCube.dds</Icon>
+      <Description>Description_LightArmor_Imperial</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>Box</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="ImperviumPlate" Count="5" />
+        <Component Subtype="ImperviumPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="ImperviumPlate" Index="0" />
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small_Constr2.mwm" RandomOrientation="true" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small_Constr3.mwm" RandomOrientation="true" />
+      </BuildProgressModels>
+      <UsesDeformation>false</UsesDeformation>
+      <BlockPairName>K_WS_TC_Armor_Impervium_CubeLight</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>8</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>1</PCU>
+      <IsAirTight>true</IsAirTight>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Armor_Impervium_Slope_SG</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Armor_Impervium_Corner_SG</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Armor_Impervium_InvertedCorner_SG</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+    </Definition>
+
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Armor_Impervium_Slope_SG</SubtypeId>
+      </Id>
+      <DisplayName>Impervium Slope</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorSlope.dds</Icon>
+      <Description>Description_LightArmor_Imperial</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>Slope</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Slope_Small.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleRight_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="ImperviumPlate" Count="4" />
+        <Component Subtype="ImperviumPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="ImperviumPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0.5" StartY="0" EndX="1" EndY="0.5" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.5" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Slope_Small_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Slope_Small_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Slope_Small_Constr3.mwm" />
+      </BuildProgressModels>
+
+      <BlockPairName>K_Imperial_Armor_Impervium_Slope</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>1</PCU>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Armor_Impervium_Corner_SG</SubtypeId>
+      </Id>
+      <DisplayName>Impervium Corner</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorCorner.dds</Icon>
+      <Description>Description_LightArmor_Imperial</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>Corner</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleRight_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Small.mwm" PatternWidth="1" PatternHeight="1" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="ImperviumPlate" Count="3" />
+        <Component Subtype="ImperviumPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="ImperviumPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="1" />
+        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="0.2" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.2" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.2" />
+        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Triangle_Small_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Triangle_Small_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Triangle_Small_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Imperial_Armor_Impervium_Corner</BlockPairName>
+      <MirroringX>YHalfX</MirroringX>
+      <MirroringY>ZHalfY</MirroringY>
+      <MirroringZ>YHalfY</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>1</PCU>
+      <IsAirTight>false</IsAirTight>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Armor_Impervium_InvertedCorner_SG</SubtypeId>
+      </Id>
+      <DisplayName>Impervium Inverted-Corner</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorInvertedCorner.dds</Icon>
+      <Description>Description_LightArmor_Imperial</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>InvCorner</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleInverted_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleRight_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="4" PatternHeight="2" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="ImperviumPlate" Count="6" />
+        <Component Subtype="ImperviumPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="ImperviumPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.2" EndY="1" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.2" EndX="0.8" EndY="1" />
+        <MountPoint Side="Right" StartX="0.8" StartY="0.8" EndX="1" EndY="1" />
+        <MountPoint Side="Front" StartX="0" StartY="0.8" EndX="0.2" EndY="1" />
+        <MountPoint Side="Front" StartX="0.2" StartY="0.2" EndX="0.8" EndY="1" />
+        <MountPoint Side="Front" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0.8" StartY="0.8" EndX="1" EndY="1" />
+      </MountPoints>
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Imperial_Armor_Impervium_InvertedCorner</BlockPairName>
+      <MirroringX>YHalfX</MirroringX>
+      <MirroringY>ZHalfY</MirroringY>
+      <MirroringZ>YHalfZ</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>7</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>1</PCU>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_WS_TC_Armor_Imperial_Decal_Cube_SG</SubtypeId>
+      </Id>
+      <DisplayName>Impervium Stripe Cube</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorDecal.dds</Icon>
+      <Description>Description_InteriorWall</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>StandaloneBox</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_DecalA_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_DecalA_Small.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small.mwm" PatternWidth="1" PatternHeight="1" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="ImperviumPlate" Count="3" />
+        <Component Subtype="ImperialGeneralParts" Count="2" />
+        <Component Subtype="ImperviumPlate" Count="5" />
+        <Component Subtype="ImperialGeneralParts" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="ImperialGeneralParts" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Small_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_WS_TC_Armor_Impervium_Decal_Cube</BlockPairName>
+      <MirroringY>X</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <PCU>1</PCU>
+      <IsAirTight>true</IsAirTight>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      <BlockVariants>
+      </BlockVariants>
+    </Definition>
+
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Armor_Impervium_Cube</SubtypeId>
+      </Id>
+      <DisplayName>Impervium Cube</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorCube.dds</Icon>
+      <Description>Description_LightArmor_Imperial</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>Box</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="4" PatternHeight="2" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="ImperviumPlate" Count="20" />
+        <Component Subtype="ImperviumPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="ImperviumPlate" Index="0" />
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr2.mwm" RandomOrientation="true" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr3.mwm" RandomOrientation="true" />
+      </BuildProgressModels>
+      <UsesDeformation>false</UsesDeformation>
+      <BlockPairName>K_Impervium_Armor_Imperial_CubeLight</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>8</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>1</PCU>
+      <IsAirTight>true</IsAirTight>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Armor_Impervium_Slope</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Armor_Impervium_Corner</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>K_Imperial_Armor_Impervium_InvertedCorner</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+    </Definition>
+
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Armor_Impervium_Slope</SubtypeId>
+      </Id>
+      <DisplayName>Impervium Slope</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorSlope.dds</Icon>
+      <Description>Description_LightArmor_Imperial</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>Slope</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Slope_Large.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleRight_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="4" PatternHeight="2" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="ImperviumPlate" Count="10" />
+        <Component Subtype="ImperviumPlate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="ImperviumPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0.5" StartY="0" EndX="1" EndY="0.5" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.5" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Slope_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Slope_Large_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Slope_Large_Constr3.mwm" />
+      </BuildProgressModels>
+
+      <BlockPairName>K_Imperial_Armor_Impervium_Slope</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>1</PCU>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Armor_Impervium_Corner</SubtypeId>
+      </Id>
+      <DisplayName>Impervium Corner</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorCorner.dds</Icon>
+      <Description>Description_LightArmor_Imperial</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>Corner</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleRight_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Triangle_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Large.mwm" PatternWidth="1" PatternHeight="1" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="ImperviumPlate" Count="3" />
+        <Component Subtype="ImperviumPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="ImperviumPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="1" />
+        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="0.2" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.2" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.2" />
+        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Triangle_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Triangle_Large_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Triangle_Large_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Imperial_Armor_Impervium_Corner</BlockPairName>
+      <MirroringX>YHalfX</MirroringX>
+      <MirroringY>ZHalfY</MirroringY>
+      <MirroringZ>YHalfY</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>1</PCU>
+      <IsAirTight>false</IsAirTight>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Imperial_Armor_Impervium_InvertedCorner</SubtypeId>
+      </Id>
+      <DisplayName>Impervium Inverted-Corner</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorInvertedCorner.dds</Icon>
+      <Description>Description_LightArmor_Imperial</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>InvCorner</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleInverted_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleRight_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_TriangleLeft_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="4" PatternHeight="2" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="ImperviumPlate" Count="16" />
+        <Component Subtype="ImperviumPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="ImperviumPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.2" EndY="1" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.2" EndX="0.8" EndY="1" />
+        <MountPoint Side="Right" StartX="0.8" StartY="0.8" EndX="1" EndY="1" />
+        <MountPoint Side="Front" StartX="0" StartY="0.8" EndX="0.2" EndY="1" />
+        <MountPoint Side="Front" StartX="0.2" StartY="0.2" EndX="0.8" EndY="1" />
+        <MountPoint Side="Front" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0.8" StartY="0.8" EndX="1" EndY="1" />
+      </MountPoints>
+      <Variants>
+        <Variant Color="Red" Suffix="_red" />
+        <Variant Color="Yellow" Suffix="_yellow" />
+        <Variant Color="Blue" Suffix="_blue" />
+        <Variant Color="Green" Suffix="_green" />
+        <Variant Color="Black" Suffix="_black" />
+        <Variant Color="White" Suffix="_white" />
+      </Variants>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Imperial_Armor_Impervium_InvertedCorner</BlockPairName>
+      <MirroringX>YHalfX</MirroringX>
+      <MirroringY>ZHalfY</MirroringY>
+      <MirroringZ>YHalfZ</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>7</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>1</PCU>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Impervium_Armor_Imperial_Decal_Cube</SubtypeId>
+      </Id>
+      <DisplayName>Impervium Stripe Cube</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorDecal.dds</Icon>
+      <Description>Description_InteriorWall</Description>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>StandaloneBox</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_DecalA_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_DecalA_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="ImperviumPlate" Count="5" />
+        <Component Subtype="ImperialGeneralParts" Count="8" />
+        <Component Subtype="ImperviumPlate" Count="10" />
+        <Component Subtype="ImperialGeneralParts" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="ImperialGeneralParts" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Impervium_Armor_Imperial_Decal_Cube</BlockPairName>
+      <MirroringY>X</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <PCU>1</PCU>
+      <IsAirTight>true</IsAirTight>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      <BlockVariants>
+      </BlockVariants>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Impervium_Armor_Imperial_DecorWall_Logo_Impervium</SubtypeId>
+      </Id>
+      <DisplayName>Impervium Cube Icon (Imperial)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorDecal.dds</Icon>
+      <Description>Description_InteriorWall</Description>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>StandaloneBox</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Logo_Empire_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Logo_Empire_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="ImperviumPlate" Count="5" />
+        <Component Subtype="ImperialGeneralParts" Count="8" />
+        <Component Subtype="ImperviumPlate" Count="10" />
+        <Component Subtype="ImperialGeneralParts" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="ImperialGeneralParts" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Impervium_Armor_Imperial_DecorWall_Logo_Impervium</BlockPairName>
+      <MirroringY>X</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <PCU>1</PCU>
+      <IsAirTight>true</IsAirTight>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Impervium_Armor_Imperial_DecorWall_LogoTrim_Impervium</SubtypeId>
+      </Id>
+      <DisplayName>Impervium Cube Icon (Imperial - With Trim)</DisplayName>
+      <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorDecal.dds</Icon>
+      <Description>Description_InteriorWall</Description>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>StandaloneBox</CubeTopology>
+        <ShowEdges>false</ShowEdges>
+        <Sides>
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Logo_EmpireTrim_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Logo_EmpireTrim_Large.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large.mwm" PatternWidth="1" PatternHeight="1" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="ImperviumPlate" Count="5" />
+        <Component Subtype="ImperialGeneralParts" Count="8" />
+        <Component Subtype="ImperviumPlate" Count="10" />
+        <Component Subtype="ImperialGeneralParts" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="ImperialGeneralParts" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Armor_Imperial\K_Imperial_Plate_Flat_Large_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>K_Impervium_Armor_Imperial_DecorWall_LogoTrim_Impervium</BlockPairName>
+      <MirroringY>X</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <PCU>1</PCU>
+      <IsAirTight>true</IsAirTight>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+
+    </Definition>
+
+
+  </CubeBlocks>
+</Definitions>

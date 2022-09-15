@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+        <!-- RIP 
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>K_Imperial_PatrolCraft_PowerCore</SubtypeId>
+      </Id>
+      <DisplayName>Republic IPV-1 System Patrol Craft Power-Core</DisplayName>
+      <Description> Dedicated Power core for Freight units.</Description>
+      <Icon>Textures\GUI\Icons\Ships\ipv4\Ipv4Ba.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="23" y="7" z="9" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\IPV1\IPV1_PatrolCraft_PowerCore_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="15" />
+        <Component Subtype="StandardPowerCell" Count="60" />
+        <Component Subtype="Computer" Count="150" />
+        <Component Subtype="HeavyDutyCabling" Count="75" />
+        <Component Subtype="DuraSteel" Count="400" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>K_Imperial_PatrolCraft_PowerCore</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>100</MaxPowerOutput>
+      <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <RequiredPowerInput>100</RequiredPowerInput>
+      <AdaptibleInput>true</AdaptibleInput>
+      <MaxStoredPower>100</MaxStoredPower>
+      <InitialStoredPowerRatio>0.5</InitialStoredPowerRatio>
+      <DestroySound>K_Imperial_Explosion_Generic</DestroySound>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <GeneralDamageMultiplier>0.6</GeneralDamageMultiplier>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_GyroDefinition">
+      <Id>
+        <TypeId>Gyro</TypeId>
+        <SubtypeId>K_Imperial_PatrolCraft_GyroCore</SubtypeId>
+      </Id>
+      <DisplayName>Republic IPV-1 System Patrol Craft Gyro-Core</DisplayName>
+      <Icon>Textures\GUI\Icons\Ships\ipv4\Ipv4Gyro.dds</Icon>
+      <Description> Hauler Gyroscopic control systems.</Description>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="23" y="7" z="4" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\IPV1\IPV1_PatrolCraft_Gyro_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="25" />
+        <Component Subtype="Computer" Count="45" />
+        <Component Subtype="DuraSteel" Count="215" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>K_Imperial_PatrolCraft_GyroCore</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PrimarySound>BlockGyroscope</PrimarySound>
+      <ResourceSinkGroup>Gyro</ResourceSinkGroup>
+      <ForceMagnitude>7.20E+06</ForceMagnitude>
+      <RequiredPowerInput>0.00001</RequiredPowerInput>
+      <DamageEffectName>Imperial_Damages_Electrical</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
+      <GeneralDamageMultiplier>0.6</GeneralDamageMultiplier>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>K_Imperial_PatrolCraft_CargoBay</SubtypeId>
+      </Id>
+      <DisplayName>Republic IPV-1 System Patrol Craft Cargo</DisplayName>
+      <Icon>Textures\GUI\Icons\Ships\ipv4\Ipv4Jd.dds</Icon>
+      <Description>Description_SmallCargoContainer</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="23" y="7" z="12" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\IPV1\IPV1_PatrolCraft_CargoBay_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="30" />
+        <Component Subtype="ImperialConstruction" Count="35" />
+        <Component Subtype="MetalGrid" Count="4" />
+        <Component Subtype="ImperialGeneralParts" Count="20" />
+        <Component Subtype="Motor" Count="32" />
+        <Component Subtype="Display" Count="1" />
+        <Component Subtype="Computer" Count="2" />
+        <Component Subtype="ImperialConstruction" Count="5" />
+        <Component Subtype="DuraSteel" Count="46000" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+
+      <BlockPairName>K_Imperial_PatrolCraft_CargoBay</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <DamageEffectName>Imperial_Damages_Electrical</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
+      <GeneralDamageMultiplier>0.6</GeneralDamageMultiplier>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+
+
+    <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+      <Id>
+        <TypeId>Cockpit</TypeId>
+        <SubtypeId>K_Imperial_PatrolCraft_Cockpit</SubtypeId>
+      </Id>
+      <DisplayName>Republic IPV-1 System Patrol Craft Cockpit</DisplayName>
+      <Icon>Textures\GUI\Icons\Ships\ipv4\Ipv4Cock.dds</Icon>
+      <Description>The Iconic Cockpit of the TIE Series, to get the full interior, use with an TIE Core\Life-Support.</Description>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="7" y="7" z="11" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\IPV1\IPV1_PatrolCraft_Cockpit_Large.mwm</Model>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <InteriorModel>Models\IPV1\IPV1_PatrolCraft_Cockpit_Large.mwm</InteriorModel>
+      <GlassModel>Models\Cubes\Small\cockpitglass.mwm</GlassModel>
+      <CharacterAnimation>cockpit1_small</CharacterAnimation>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="DuraSteel" Count="5" />
+        <Component Subtype="ImperialGeneralParts" Count="15" />
+        <Component Subtype="DuraSteel" Count="5" />
+        <Component Subtype="TranspariSteel" Count="60" />
+        <Component Subtype="Computer" Count="60" />
+        <Component Subtype="DuraSteel" Count="130" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>K_Imperial_PatrolCraft_Cockpit</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <EnableFirstPerson>true</EnableFirstPerson>
+      <EnableShipControl>true</EnableShipControl>
+      <EnableBuilderCockpit>true</EnableBuilderCockpit>
+      <DeformationRatio>0.2</DeformationRatio>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <OxygenCapacity>60</OxygenCapacity>
+      <IsPressurized>true</IsPressurized>
+      <GetInSound>K_Imperial_Cockpit</GetInSound>
+      <GetOutSound>K_Imperial_Cockpit</GetOutSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DestroySound>K_Imperial_Explosion_Glass</DestroySound>
+      <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+      <ScreenAreas>
+        <ScreenArea Name="CockpitScreen_01" DisplayName="1" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" Script="TSS_EnergyHydrogen" />
+        <ScreenArea Name="CockpitScreen_02" DisplayName="2" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" Script="TSS_Velocity" />
+        <ScreenArea Name="CockpitScreen_03" DisplayName="3" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" Script="TSS_Gravity" />
+      </ScreenAreas>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>K_Imperial_PatrolCraft_MainEngine</SubtypeId>
+      </Id>
+      <DisplayName>Republic IPV-1 System Patrol Craft Main Engine</DisplayName>
+      <Icon>Textures\GUI\Icons\Ships\ipv4\Ipv4Th.dds</Icon>
+      <Description>Standardized Imperial Freight Engine Bay.</Description>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <ThrusterType>Ion</ThrusterType>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="23" y="7" z="11" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\IPV1\IPV1_PatrolCraft_MainEngine_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="60" />
+        <Component Subtype="Computer" Count="100" />
+        <Component Subtype="Thrust" Count="220" />
+        <Component Subtype="DuraSteel" Count="215" />
+      </Components>
+      <CriticalComponent Subtype="Thrust" Index="0" />
+      <BlockPairName>K_Imperial_PatrolCraft_MainEngine</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>11655000</ForceMagnitude>
+      <MaxPowerConsumption>0.201</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>5</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1.5</EffectivenessAtMaxInfluence>
+
+      <FlameDamageLengthScale>0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>1.5</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1</X>
+        <Y>0.3</Y>
+        <Z>0.3</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.9</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+        <W>1</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>K_Sith_Flare</FlameLengthMaterial>
+      <FlameFlare>SmallGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>0</FlameVisibilityDistance>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>K_TIE_Engine_I</PrimarySound>
+      <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
+      <EmissiveColorPreset>K_Imperial_Ship_EmissiveSet</EmissiveColorPreset>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+    </Definition>
+-->
+  </CubeBlocks>
+</Definitions>

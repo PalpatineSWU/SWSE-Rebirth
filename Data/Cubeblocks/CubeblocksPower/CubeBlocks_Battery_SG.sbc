@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <CubeBlocks>
+
+
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>K_Imperial_Power_Battery_Small</SubtypeId>
+      </Id>
+      <DisplayName>Power Bank (Battery)</DisplayName>
+      <Icon>Textures\GUI\Icons\BatteryandBio\Powerbank.dds</Icon>
+      <Description> Standard Model Battery. (Small-Grid Version)
+	  Max Output: 3
+	  Max Input: 3
+	  Storage: 5</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Imperial\Generics\K_Imperial_Generics_Battery_Small.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="5" />
+        <Component Subtype="StandardCabling" Count="2" />
+        <Component Subtype="ImperialGeneralParts" Count="3" />
+        <Component Subtype="StandardPowerCell" Count="20"/>
+        <Component Subtype="Computer" Count="5" />
+        <Component Subtype="ImperialConstruction" Count="3" />
+        <Component Subtype="DuraSteel" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="StandardPowerCell" Index="0" />
+
+      <BlockPairName>K_Imperial_Power_Battery_Standard</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>3</MaxPowerOutput>
+
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <RequiredPowerInput>3</RequiredPowerInput>
+      <AdaptibleInput>true</AdaptibleInput>
+      <MaxStoredPower>5</MaxStoredPower>
+      <InitialStoredPowerRatio>0.5</InitialStoredPowerRatio>
+
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>15</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>K_Imperial_Power_Battery_Nox_Small</SubtypeId>
+      </Id>
+      <DisplayName>Power Bank (Nox Battery)</DisplayName>
+      <Icon>Textures\GUI\Icons\BatteryandBio\Powerbank.dds</Icon>
+      <Description> Backup Battery. (Small-Grid)
+	  Max Output: 3
+	  Max Input: 3
+	  Storage: 3</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Imperial\Generics\K_Imperial_Generics_Battery_Small.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="3" />
+        <Component Subtype="StandardCabling" Count="3" />
+        <Component Subtype="ImperialGeneralParts" Count="3" />
+        <Component Subtype="AlternatePowerCell" Count="30"/>
+        <Component Subtype="Computer" Count="8" />
+        <Component Subtype="ImperialConstruction" Count="3" />
+        <Component Subtype="DuraSteel" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="AlternatePowerCell" Index="0" />
+
+      <BlockPairName>K_Imperial_Power_Battery_Nox</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>8</MaxPowerOutput>
+
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <RequiredPowerInput>8</RequiredPowerInput>
+      <AdaptibleInput>true</AdaptibleInput>
+      <MaxStoredPower>3</MaxStoredPower>
+      <InitialStoredPowerRatio>0.5</InitialStoredPowerRatio>
+
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <Public>true</Public>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>15</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+
+
+  </CubeBlocks>
+</Definitions>

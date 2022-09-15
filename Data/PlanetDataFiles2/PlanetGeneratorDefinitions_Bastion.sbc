@@ -1,8 +1,9 @@
 <?xml version="1.0"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
   <!--Bastian -->
- <Definition xsi:type="PlanetGeneratorDefinition">
+  <Definition xsi:type="PlanetGeneratorDefinition">
     <Id>
       <TypeId>PlanetGeneratorDefinition</TypeId>
       <SubtypeId>Bastion</SubtypeId>
@@ -46,7 +47,7 @@
 
     <CustomMaterialTable>
       <Material Material="K_Bastian_Surface_Grass" Value ="10" MaxDepth ="3"/>
-	  <Material Material="K_Bastian_Surface_Grass_II" Value ="15" MaxDepth ="5"/>
+      <Material Material="K_Bastian_Surface_Grass_II" Value ="15" MaxDepth ="5"/>
       <Material Material="Ice" Value ="40" MaxDepth ="3"/>
       <Material Material="K_Bastian_Stone_I" Value ="70" MaxDepth ="3"/>
       <Material Material="K_Bastian_Surface_Grass" Value ="100" MaxDepth ="3"/>
@@ -62,32 +63,32 @@
     <OreMappings>
       <!-- Tier 1 !INSERT ONLY IN BLUE CHANNEL! -->
       <!-- Fe 1-->
-      <Ore Value="1" Type="K_Imperial_Voxel_Ice_Dooninum01" Start="10" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="1" Type="K_Imperial_Voxel_Dooninum01" Start="10" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="4" Type="K_Imperial_Voxel_Dooninum01" Start="12" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
-      <Ore Value="8" Type="K_Imperial_Voxel_Forest_Anthracite" Start="14" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="8" Type="K_Imperial_Voxel_Dust_Anthracite" Start="14" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
 
       <!-- Fe 2-->
       <Ore Value="12" Type="K_Imperial_Voxel_Carbonite01" Start="25" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="16" Type="K_Imperial_Voxel_Dooninum01" Start="28" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
-      <Ore Value="20" Type="K_Imperial_Voxel_Forest_Anthracite" Start="4" Depth="6" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="20" Type="K_Imperial_Voxel_Dust_Anthracite" Start="4" Depth="6" TargetColor="#616c83" ColorInfluence="15"/>
 
       <!-- Ni 1-->
       <Ore Value="24" Type="K_Imperial_Voxel_Carbonite01" Start="10" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
-      <Ore Value="28" Type="K_Imperial_Voxel_Ice_Dooninum01" Start="11" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="28" Type="K_Imperial_Voxel_Dooninum01" Start="11" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="32" Type="K_Imperial_Voxel_Carbonite01" Start="11" Depth="6" TargetColor="#616c83" ColorInfluence="15"/>
 
       <!-- Ni 2-->
       <Ore Value="36" Type="K_Imperial_Voxel_Dooninum01" Start="24" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="40" Type="K_Imperial_Voxel_Carbonite01" Start="27" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
-      <Ore Value="44" Type="K_Imperial_Voxel_Forest_Anthracite" Start="30" Depth="8" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="44" Type="K_Imperial_Voxel_Dust_Anthracite" Start="30" Depth="8" TargetColor="#616c83" ColorInfluence="15"/>
 
       <!-- Si 1-->
       <Ore Value="48" Type="K_Imperial_Voxel_Lommite01" Start="9" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
-      <Ore Value="52" Type="K_Imperial_Voxel_Forest_Phrik" Start="205" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="52" Type="K_Imperial_Voxel_Forest_Phrik" Start="25" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="56" Type="K_Imperial_Voxel_Lommite01" Start="10" Depth="6" TargetColor="#616c83" ColorInfluence="15"/>
 
       <!-- Si 2-->
-      <Ore Value="60" Type="K_Imperial_Voxel_Forest_Phrik" Start="302" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="60" Type="K_Imperial_Voxel_Forest_Phrik" Start="32" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="64" Type="K_Imperial_Voxel_Lommite01" Start="25" Depth="7" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="68" Type="K_Imperial_Voxel_Dooninum01" Start="27" Depth="9" TargetColor="#616c83" ColorInfluence="15"/>
 
@@ -96,38 +97,38 @@
       <!-- Co 1-->
       <Ore Value="72" Type="K_Imperial_Voxel_Norax01" Start="20" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="76" Type="K_Imperial_Voxel_Norax01" Start="22" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
-      <Ore Value="80" Type="K_Imperial_Voxel_Forest_Anthracite" Start="26" Depth="6" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="80" Type="K_Imperial_Voxel_Dust_Anthracite" Start="26" Depth="6" TargetColor="#616c83" ColorInfluence="15"/>
 
       <!-- Co 2-->
       <Ore Value="84" Type="K_Imperial_Voxel_Rubindum01" Start="35" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="88" Type="K_Imperial_Voxel_Guerrerite01" Start="124" Depth="6" TargetColor="#616c83" ColorInfluence="15"/>
-      <Ore Value="92" Type="K_Imperial_Voxel_Forest_Anthracite" Start="45" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="92" Type="K_Imperial_Voxel_Dust_Anthracite" Start="45" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
 
       <!-- Ag 1-->
-      <Ore Value="96" Type="K_Imperial_Voxel_Forest_Phrik" Start="302" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
-      <Ore Value="100" Type="K_Imperial_Voxel_Exonium01" Start="225" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="96" Type="K_Imperial_Voxel_Forest_Phrik" Start="32" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="100" Type="K_Imperial_Voxel_Exonium01" Start="25" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="104" Type="K_Imperial_Voxel_Hollinium01" Start="31" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
 
       <!-- Ag 2-->
-      <Ore Value="108" Type="K_Imperial_Voxel_Ice_Dooninum01" Start="55" Depth="8" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="108" Type="K_Imperial_Voxel_Dooninum01" Start="55" Depth="8" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="112" Type="K_Imperial_Voxel_Carbonite01" Start="58" Depth="9" TargetColor="#616c83" ColorInfluence="15"/>
-      <Ore Value="116" Type="K_Imperial_Voxel_Forest_Anthracite" Start="23" Depth="11" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="116" Type="K_Imperial_Voxel_Dust_Anthracite" Start="23" Depth="11" TargetColor="#616c83" ColorInfluence="15"/>
 
       <!-- Mg 1-->
       <Ore Value="120" Type="K_Imperial_Voxel_Hollinium01" Start="65" Depth="1" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="124" Type="K_Imperial_Voxel_Carbonite01" Start="26" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
-      <Ore Value="128" Type="K_Imperial_Voxel_Ice_Dooninum01" Start="29" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="128" Type="K_Imperial_Voxel_Dooninum01" Start="29" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
 
       <!-- Mg 2-->
       <Ore Value="132" Type="K_Imperial_Voxel_Carbonite01" Start="53" Depth="7" TargetColor="#616c83" ColorInfluence="15"/>
-      <Ore Value="136" Type="K_Imperial_Voxel_Forest_Phrik" Start="255" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
-      <Ore Value="140" Type="K_Imperial_Voxel_Ice_Dooninum01" Start="59" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="136" Type="K_Imperial_Voxel_Forest_Phrik" Start="55" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="140" Type="K_Imperial_Voxel_Dooninum01" Start="59" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
 
 
       <!-- ORE Tier 3 -->
       <!-- U 1-->
       <Ore Value="144" Type="Ice_01" Start="32" Depth="2" TargetColor="#616c83" ColorInfluence="15"/>
-      <Ore Value="148" Type="K_Imperial_Voxel_Forest_Phrik" Start="205" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="148" Type="K_Imperial_Voxel_Forest_Phrik" Start="25" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="152" Type="Ice_01" Start="38" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
 
       <!-- U 2-->
@@ -137,17 +138,17 @@
 
       <!-- Au 1-->
       <Ore Value="168" Type="K_Imperial_Voxel_Carbonite01" Start="205" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
-      <Ore Value="172" Type="K_Imperial_Voxel_Forest_Phrik" Start="303" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
-      <Ore Value="176" Type="K_Imperial_Voxel_Forest_Anthracite" Start="45" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="172" Type="K_Imperial_Voxel_Forest_Phrik" Start="33" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="176" Type="K_Imperial_Voxel_Dust_Anthracite" Start="45" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
 
       <!-- Au 2-->
-      <Ore Value="180" Type="K_Imperial_Voxel_Ice_Dooninum01" Start="100" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
-      <Ore Value="184" Type="K_Imperial_Voxel_Forest_Anthracite" Start="107" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
-      <Ore Value="188" Type="K_Imperial_Voxel_Forest_Anthracite" Start="112" Depth="8" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="180" Type="K_Imperial_Voxel_Dooninum01" Start="100" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="184" Type="K_Imperial_Voxel_Dust_Anthracite" Start="107" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="188" Type="K_Imperial_Voxel_Dust_Anthracite" Start="112" Depth="8" TargetColor="#616c83" ColorInfluence="15"/>
     </OreMappings>
 
     <!-- Rules that define where Ambient sounds should be played defined by angle from equator -->
-     <SoundRules>
+    <SoundRules>
       <!-- Iceland Day + Night -->
       <SoundRule>
         <Height Min="0" Max="0.42"/>
@@ -744,7 +745,7 @@
         </Materials>
         <Items>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="K_Bastian_Forest" Density="0.6"/>
-         		   <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Bastian_Forest" Density="6"/>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Bastian_Forest" Density="6"/>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="K_Bastian_BushSet" Density="10"/>
         </Items>
         <Rule>
@@ -762,7 +763,7 @@
           <Material>K_Bastian_Surface_Grass</Material>
         </Materials>
         <Items>
-         <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Bastian_Forest" Density="7"/>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Bastian_Forest" Density="7"/>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="K_Bastian_BushSet" Density="6"/>
         </Items>
         <Rule>
@@ -798,7 +799,7 @@
           <Material>K_Bastian_Surface_Grass</Material>
         </Materials>
         <Items>
-         <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Bastian_Forest" Density="6"/>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Bastian_Forest" Density="6"/>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="K_Bastian_BushSet" Density="4"/>
         </Items>
         <Rule>
@@ -816,7 +817,7 @@
           <Material>K_Bastian_Surface_Grass</Material>
         </Materials>
         <Items>
-          		   <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Bastian_Forest" Density="5"/>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Bastian_Forest" Density="5"/>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="K_Bastian_BushSet" Density="2"/>
         </Items>
         <Rule>
@@ -835,7 +836,7 @@
           <Material>K_Bastian_Surface_Grass</Material>
         </Materials>
         <Items>
-         		   <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Bastian_Forest" Density="8"/>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Bastian_Forest" Density="8"/>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="K_Bastian_BushSet" Density="10"/>
         </Items>
         <Rule>
@@ -854,9 +855,9 @@
           <Material>K_Bastian_Surface_Grass</Material>
         </Materials>
         <Items>
-         		   <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Bastian_Forest" Density="3"/>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Bastian_Forest" Density="3"/>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="K_Bastian_BushSet" Density="0.4"/>
-                </Items>
+        </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
           <Latitude Min="0" Max="80"/>
@@ -872,9 +873,9 @@
           <Material>K_Bastian_Surface_Grass</Material>
         </Materials>
         <Items>
-         <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Bastian_Forest" Density="5"/>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Bastian_Forest" Density="5"/>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="K_Bastian_BushSet" Density="5"/>
-		 </Items>
+        </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
           <Latitude Min="0" Max="80"/>
@@ -890,7 +891,7 @@
           <Material>K_Bastian_Surface_Grass</Material>
         </Materials>
         <Items>
-           <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Bastian_Forest" Density="2"/>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Bastian_Forest" Density="2"/>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="K_Bastian_BushSet" Density="0.4"/>
         </Items>
         <Rule>
@@ -930,7 +931,7 @@
         <Materials>
           <Material>K_Bastian_Surface_Grass</Material>
         </Materials>
-         <Items>
+        <Items>
           <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Bastian_Forest" Density="6"/>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="K_Bastian_BushSet" Density="3"/>
         </Items>
@@ -967,7 +968,7 @@
           <Material>K_Bastian_Surface_Grass_II</Material>
         </Materials>
         <Items>
-    <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Bastian_Forest" Density="6"/>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Bastian_Forest" Density="6"/>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="K_Bastian_BushSet" Density="3"/>
         </Items>
         <Rule>
@@ -1211,7 +1212,7 @@
         </Materials>
         <Items>
           <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Bastian_Forest" Density="7"/>
-		  <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Bastian_Forest" Density="3"/>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Bastian_Forest" Density="3"/>
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -1285,7 +1286,7 @@
         <Items>
           <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Bastian_Forest" Density="4"/>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="K_Bastian_BushSet" Density="4.2"/>
-		  
+
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -1342,14 +1343,14 @@
 
     <!-- Alien Clouds layer -->
 
-     <CloudLayers>
+    <CloudLayers>
       <CloudLayer>
         <!-- Far layer -->
         <Color>
-            <X>6</X>
-            <Y>6</Y>
-            <Z>0.1</Z>
-            <W>.8</W>
+          <X>6</X>
+          <Y>6</Y>
+          <Z>0.1</Z>
+          <W>.8</W>
         </Color>
         <Model>Models\Environment\Sky\CloudSphere.mwm</Model>
         <Textures>
@@ -1368,13 +1369,13 @@
         <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
         <ApplyFogRelativeDistance>2</ApplyFogRelativeDistance>
       </CloudLayer>
-            <CloudLayer>
+      <CloudLayer>
         <!-- Far layer -->
         <Color>
-            <X>1</X>
-            <Y>1</Y>
-            <Z>0.1</Z>
-            <W>.1</W>
+          <X>1</X>
+          <Y>1</Y>
+          <Z>0.1</Z>
+          <W>.1</W>
         </Color>
         <Model>Models\Environment\Sky\CloudSphere.mwm</Model>
         <Textures>
@@ -1393,7 +1394,7 @@
         <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
         <ApplyFogRelativeDistance>2</ApplyFogRelativeDistance>
       </CloudLayer>
-            <CloudLayer>
+      <CloudLayer>
         <!-- Far layer -->
         <Color>
           <X>0.81</X>
@@ -1420,13 +1421,13 @@
       </CloudLayer>
       <!-- Near layers -->
       <CloudLayer>
-          <Color>
-              <X>24</X>
-              <Y>15</Y>
-              <Z>.3</Z>
-              <W>1</W>
-          </Color>
-          <Model>Models\Environment\Sky\CloudSphere.mwm</Model>
+        <Color>
+          <X>24</X>
+          <Y>15</Y>
+          <Z>.3</Z>
+          <W>1</W>
+        </Color>
+        <Model>Models\Environment\Sky\CloudSphere.mwm</Model>
         <Textures>
           <Texture>Textures\Models\Environment\Sky\TitanSky.dds</Texture>
         </Textures>
@@ -1443,13 +1444,13 @@
         <FadeOutRelativeAltitudeEnd>1.6</FadeOutRelativeAltitudeEnd>
       </CloudLayer>
       <CloudLayer>
-          <Color>
-              <X>0.81</X>
-              <Y>0.86</Y>
-              <Z>0.42</Z>
-              <W>1</W>
-          </Color>
-              <Model>Models\Environment\Sky\CloudSphere.mwm</Model>
+        <Color>
+          <X>0.81</X>
+          <Y>0.86</Y>
+          <Z>0.42</Z>
+          <W>1</W>
+        </Color>
+        <Model>Models\Environment\Sky\CloudSphere.mwm</Model>
         <Textures>
           <Texture>Textures\Models\Environment\Sky\TitanSky.dds</Texture>
         </Textures>
@@ -1467,12 +1468,12 @@
       </CloudLayer>
     </CloudLayers>
 
-  <MaterialsMaxDepth Min="4000" Max="4000"/>
+    <MaterialsMaxDepth Min="4000" Max="4000"/>
     <MaterialsMinDepth Min="20" Max="20"/>
 
     <HillParams Min = "-0.09" Max ="0.12"/>
 
   </Definition>
 
- 
+
 </Definitions>

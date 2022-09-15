@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Components>
+
+    <Component>      <!--        Construction, General             -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ImperialConstruction</SubtypeId>
+      </Id>
+      <DisplayName>General Construction Supplies</DisplayName>
+      <ExtraInventoryTooltipLine>Republic Basic Component. Produced by Light Factory, Micro Factory.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_12.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>2</Mass>
+      <Volume>0.3</Volume>
+      <Model>Models\Components\K_Imperial_Components_Supplies_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>3</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>3</Health>
+      <MinimalPricePerUnit>110</MinimalPricePerUnit>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+
+    <Component>      <!--        Construction, Parts             -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ImperialGeneralParts</SubtypeId>
+      </Id>
+      <DisplayName>General Mechanical Supplies</DisplayName>
+      <ExtraInventoryTooltipLine>Republic Basic Component. Produced by Light Factory, Micro Factory.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Ingot_2_13.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>2</Mass>
+      <Volume>0.3</Volume>
+      <Model>Models\Resources\K_Resource_SalvageMetal_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>15</Health>
+      <MinimalPricePerUnit>110</MinimalPricePerUnit>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+
+    <Component>      <!--      Communications               -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>CommunicationsEquipment</SubtypeId>
+      </Id>
+      <DisplayName>General Communication Equipment</DisplayName>
+      <ExtraInventoryTooltipLine>Republic Basic Component. Produced by Light Factory, Advanced Factory.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_2.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>8</Mass>
+      <Volume>70</Volume>
+      <Model>Models\Components\K_Imperial_Components_Conduits_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>15</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>35</Health>
+      <MinimalPricePerUnit>525</MinimalPricePerUnit>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+
+  </Components>
+</Definitions>

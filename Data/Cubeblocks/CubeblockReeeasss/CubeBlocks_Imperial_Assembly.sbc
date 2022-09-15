@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>K_Imperial_Assembly_Factory_Micro</SubtypeId>
+      </Id>
+      <DisplayName>Micro Factory Assembler</DisplayName>
+      <Description>
+     Standardized Small-Scale Factory: 
+     Manufactures key basic components, 
+     and has Conversion capabilities.
+	   Can not make Advanced components,
+	   Large-Grid 1x1x3</Description>
+      <Icon>Textures\GUI\Icons\ReeAss\Micro.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Manufacturing\K_Imperial_Assembly_MicroFactory_Large.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="130" />
+        <Component Subtype="Construction" Count="40" />
+        <Component Subtype="Motor" Count="8" />
+        <Component Subtype="Display" Count="4" />
+        <Component Subtype="Computer" Count="80" />
+        <Component Subtype="SteelPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BlockPairName>K_Imperial_Assembly_Factory_Micro</BlockPairName>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.25" File="Models\Manufacturing\K_Imperial_Assembly_MicroFactory_Large.mwm" />
+        <Model BuildPercentUpperBound="0.75" File="Models\Manufacturing\K_Imperial_Assembly_MicroFactory_Large.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Manufacturing\K_Imperial_Assembly_MicroFactory_Large.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>80</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>1</InventoryMaxVolume>
+      <InventorySize>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
+      <AssemblySpeed>2</AssemblySpeed>
+      <BlueprintClasses>
+        <Class>K_Imperial_MicroFactoryVanilla</Class>
+        <Class>K_Imperial_Resource_Conversion</Class>
+        <Class>BuildPlanner</Class>
+      </BlueprintClasses>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>K_Imperial_IdleDroidNoise</PrimarySound>
+      <ActionSound>K_Imperial_FactoryWorking</ActionSound>
+      <DestroyEffect>Explosion_Missile</DestroyEffect>
+      <DestroySound>WepSmallMissileExpl</DestroySound>
+      <EmissiveColorPreset>K_Imperial_Factory_Red</EmissiveColorPreset>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>K_Imperial_Assembly_Factory_Light_I</SubtypeId>
+      </Id>
+      <DisplayName>Light Factory Assembler</DisplayName>
+      <Icon>Textures\GUI\Icons\ReeAss\Lightfac.dds</Icon>
+      <Description>
+	   Manufactures all intermediate Components
+	   Can not manufacture Turbolaser Parts, 
+     Ionic-Reactor parts or Hypermatter Parts.
+	   Large-Grid 5x1x5</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="1" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="2" y="0" z="2" />
+      <Model>Models\Imperial\Manufacturing\K_Imperial_Manufacturing_Factory_Light_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="130" />
+        <Component Subtype="ImperialConstruction" Count="40" />
+        <Component Subtype="StandardCabling" Count="16" />
+        <Component Subtype="PowerGen_Basics" Count="10" />
+        <Component Subtype="ImperialGeneralParts" Count="4" />
+        <Component Subtype="Computer" Count="80" />
+        <Component Subtype="DuraSteel" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="5" EndY="5" Default="true" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="5" EndY="5" />
+      </MountPoints>
+      <BlockPairName>K_Imperial_Assembly_Factory_Light_I</BlockPairName>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.25" File="Models\Imperial\Manufacturing\K_Imperial_Manufacturing_Factory_Light_Large_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.75" File="Models\Imperial\Manufacturing\K_Imperial_Manufacturing_Factory_Light_Large_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Imperial\Manufacturing\K_Imperial_Manufacturing_Factory_Light_Large_Constr3.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>80</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>1</InventoryMaxVolume>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>K_Imperial_Factory_Basic_I</Class>
+        <Class>K_Imperial_Resource_Conversion</Class>
+        <Class>BuildPlanner</Class>
+      </BlueprintClasses>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>BlockAssembler</PrimarySound>
+      <ActionSound>BlockAssemblerProcess</ActionSound>
+      <DestroyEffect>Explosion_Missile</DestroyEffect>
+      <DestroySound>WepSmallMissileExpl</DestroySound>
+      <EmissiveColorPreset>K_Imperial_Factory_Red</EmissiveColorPreset>
+      <Center x="0" y="0" z="5" />
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>K_Imperial_Assembly_Factory_Advanced_I</SubtypeId>
+      </Id>
+      <DisplayName>Advanced Factory Assembler</DisplayName>
+      <Icon>Textures\GUI\Icons\ReeAss\Advanced.dds</Icon>
+      <Description>
+      Manufactures Advanced components, 
+      (Such as Turbolaser Technology)
+      Limited to Advanced-Components,
+      Does not Replace Light Factory.
+	   Large-Grid 5x3x5</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="3" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="2" y="0" z="2" />
+      <Model>Models\Imperial\Manufacturing\K_Imperial_Manufacturing_Factory_Advanced_Large.mwm</Model>
+      <Components>
+        <Component Subtype="PowerConverter" Count="25" />
+        <Component Subtype="DuraSteel" Count="130" />
+        <Component Subtype="ImperialConstruction" Count="110" />
+        <Component Subtype="Motor" Count="60" />
+        <Component Subtype="ImperialGeneralParts" Count="14" />
+        <Component Subtype="Computer" Count="225" />
+        <Component Subtype="ImperialGeneralParts" Count="3" />
+        <Component Subtype="ImperialConstruction" Count="110" />
+        <Component Subtype="DuraSteel" Count="225" />
+      </Components>
+      <CriticalComponent Subtype="ImperialGeneralParts" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="5" EndY="5" Default="true" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="5" EndY="5" />
+      </MountPoints>
+      <BlockPairName>K_Imperial_Assembly_Factory_Advanced_I</BlockPairName>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.25" File="Models\Imperial\Manufacturing\K_Imperial_Manufacturing_Factory_Advanced_Large.mwm" />
+        <Model BuildPercentUpperBound="0.75" File="Models\Imperial\Manufacturing\K_Imperial_Manufacturing_Factory_Advanced_Large.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Imperial\Manufacturing\K_Imperial_Manufacturing_Factory_Advanced_Large.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>80</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>1</InventoryMaxVolume>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
+      <AssemblySpeed>5</AssemblySpeed>
+      <BlueprintClasses>
+        <Class>K_Imperial_Factory_Advanced_I</Class>
+        <Class>K_Imperial_Resource_Conversion</Class>
+        <Class>BuildPlanner</Class>
+      </BlueprintClasses>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>K_Imperial_IdleDroidNoise</PrimarySound>
+      <ActionSound>K_Imperial_FactoryWorking</ActionSound>
+      <DestroyEffect>Explosion_Missile</DestroyEffect>
+      <DestroySound>WepSmallMissileExpl</DestroySound>
+      <EmissiveColorPreset>K_Imperial_Factory_Red</EmissiveColorPreset>
+      <Center x="0" y="0" z="5" />
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>K_Imperial_Assembly_MassAssembler</SubtypeId>
+      </Id>
+      <DisplayName>Mass Assembler</DisplayName>
+      <Icon>Textures\GUI\Icons\ReeAss\Massass.dds</Icon>
+      <Description>
+     Building designed for replacement of Vanilla 
+     Assembler and Micro-Factory at the same time.
+	   Large-Grid 5x5x5</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="5" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="2" y="0" z="2" />
+      <Model>Models\Manufacturing\K_Imperial_Assembly_MassAssembler_Large.mwm</Model>
+      <Components>
+        <Component Subtype="PowerConverter" Count="3" />
+        <Component Subtype="DuraSteel" Count="130" />
+        <Component Subtype="ImperialConstruction" Count="60" />
+        <Component Subtype="Motor" Count="60" />
+        <Component Subtype="ImperialGeneralParts" Count="14" />
+        <Component Subtype="Computer" Count="45" />
+        <Component Subtype="ImperialGeneralParts" Count="1" />
+        <Component Subtype="ImperialConstruction" Count="110" />
+        <Component Subtype="DuraSteel" Count="225" />
+      </Components>
+      <CriticalComponent Subtype="ImperialGeneralParts" Index="0" />
+      <BlockPairName>K_Imperial_Assembly_MassAssembler</BlockPairName>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.25" File="Models\Manufacturing\K_Imperial_Assembly_MassAssembler_Large.mwm" />
+        <Model BuildPercentUpperBound="0.75" File="Models\Manufacturing\K_Imperial_Assembly_MassAssembler_Large.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Manufacturing\K_Imperial_Assembly_MassAssembler_Large.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>80</BuildTimeSeconds>
+      <AssemblySpeed>10</AssemblySpeed>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>6</InventoryMaxVolume>
+      <InventorySize>
+        <X>6</X>
+        <Y>6</Y>
+        <Z>6</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>K_Imperial_MicroFactoryVanilla</Class>
+        <Class>K_Imperial_Resource_Conversion</Class>
+        <Class>BuildPlanner</Class>
+        <Class>Components</Class>
+        <Class>EliteTools</Class>
+        <Class>EliteConsumables</Class>
+      </BlueprintClasses>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>K_Imperial_IdleDroidNoise</PrimarySound>
+      <ActionSound>K_Imperial_FactoryWorking</ActionSound>
+      <DestroyEffect>Explosion_Missile</DestroyEffect>
+      <DestroySound>WepSmallMissileExpl</DestroySound>
+      <EmissiveColorPreset>K_Imperial_Factory_Red</EmissiveColorPreset>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>
