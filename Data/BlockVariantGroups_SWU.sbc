@@ -933,7 +933,7 @@
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="PowerSupplies_Battery" />
 
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_Imperial_Dropship_Guild_Battery" />
-                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_Imperial_Dropship_Guild_BatteryParallel" />                
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_Imperial_Dropship_Guild_BatteryParallel" />
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_Imperial_Dropship_Guild_BatteryPRAISEJESUS" />
 
 
@@ -1033,7 +1033,7 @@
                 <Block Type="MyObjectBuilder_Reactor" Subtype="K_TIE_Fighter_Reactor" />
                 <Block Type="MyObjectBuilder_Reactor" Subtype="K_TIE_Bomber_Pod_Center" />
                 <Block Type="MyObjectBuilder_Reactor" Subtype="K_NewRepublic_EWing_Reactor" />
-                
+
                 <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="LargeHydrogenEngine" />
                 <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="SmallHydrogenEngine" />
                 <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="K_Rebellion_Survival_Power_HydrogenGenerator" />
@@ -1230,6 +1230,7 @@
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Tower_AntiInfantry_Basic" />
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_IMP_DefenseHeavyBattery_DMDC" />
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="P_Tractorbeam" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="InterdictionSphere" />
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="Hangar_Rebel_5x5x3" />
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_PatrolCraft_LaserCannonTurret" />
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_PatrolCraft_TorpLauncher" />

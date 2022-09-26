@@ -14,11 +14,11 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\ArkolisProduction\K_Small_Refinery_Large.mwm</Model>
+      <Model>Models\ArkolisProduction\SmallRefinery\K_Small_Refinery_Large.mwm</Model>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.36" File="Models\ArkolisProduction\K_Small_Refinery_Large_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.63" File="Models\ArkolisProduction\K_Small_Refinery_Large_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\ArkolisProduction\K_Small_Refinery_Large_BS3.mwm" />
+        <Model BuildPercentUpperBound="0.36" File="Models\ArkolisProduction\SmallRefinery\K_Small_Refinery_Large_BS1.mwm" />
+        <Model BuildPercentUpperBound="0.63" File="Models\ArkolisProduction\SmallRefinery\K_Small_Refinery_Large_BS2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\ArkolisProduction\SmallRefinery\K_Small_Refinery_Large_BS3.mwm" />
       </BuildProgressModels>
       <Components>
         <Component Subtype="SteelPlate" Count="110" />
@@ -80,7 +80,12 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="3" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Refinement\K_Imperial_Production_Foundry_Light_II_Large.mwm</Model>
+      <Model>Models\ArkolisProduction\MedRefinery\K_Imperial_Refinement_Foundry_Light_I.mwm</Model>
+        <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.36" File="Models\ArkolisProduction\MedRefinery\K_Imperial_Refinement_Foundry_Light_I_BS1.mwm" />
+        <Model BuildPercentUpperBound="0.63" File="Models\ArkolisProduction\MedRefinery\K_Imperial_Refinement_Foundry_Light_I_BS2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\ArkolisProduction\MedRefinery\K_Imperial_Refinement_Foundry_Light_I_BS3.mwm" />
+      </BuildProgressModels>
       <Components>
         <Component Subtype="DuraSteel" Count="60" />
         <Component Subtype="ImperialConstruction" Count="25" />

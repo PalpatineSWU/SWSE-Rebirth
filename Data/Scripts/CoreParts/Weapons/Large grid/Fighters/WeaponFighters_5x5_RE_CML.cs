@@ -35,7 +35,7 @@ namespace Scripts {
             Targeting = new TargetingDef
             {
                 Threats = new[] {
-                    Characters, Projectiles, Grids, // Types of threat to engage: Grids, Projectiles, Characters, Meteors, Neutrals
+                    Grids, // Types of threat to engage: Grids, Projectiles, Characters, Meteors, Neutrals
                 },
                 SubSystems = new[] {
                     Thrust, Utility, Offense, Power, Production, Any, // Subsystem targeting priority: Offense, Utility, Power, Production, Thrust, Jumping, Steering, Any
@@ -104,11 +104,11 @@ namespace Scripts {
                 },
                 Other = new OtherDef
                 {
-                    ConstructPartCap = 8, // Maximum number of blocks with this weapon on a grid; 0 = unlimited.
+                    ConstructPartCap = 18, // Maximum number of blocks with this weapon on a grid; 0 = unlimited.
                     RotateBarrelAxis = 0, // For spinning barrels, which axis to spin the barrel around; 0 = none.
                     EnergyPriority = 0, // Deprecated.
                     MuzzleCheck = false, // Whether the weapon should check LOS from each individual muzzle in addition to the scope.
-                    Debug = true, // Force enables debug mode.
+                    Debug = false, // Force enables debug mode.
                     RestrictionRadius = 0, // Prevents other blocks of this type from being placed within this distance of the centre of the block.
                     CheckInflatedBox = false, // If true, the above distance check is performed from the edge of the block instead of the centre.
                     CheckForAnyWeapon = false, // If true, the check will fail if ANY weapon is present, not just weapons of the same subtype.
@@ -180,7 +180,13 @@ namespace Scripts {
             },
             Ammos = new[] {
                 Drone_Rebel_lasers,
-                Ammo_Sm_Laser_RedNHP,  // Must list all primary, shrapnel, and pattern ammos.
+                Ammo_Sm_Laser_RedNHP, 
+                Drone_Rebel_Masers,
+                Ammo_Sm_MaserNHP,
+                Drone_Rebel_Concussion,
+                Missile_small_concuss_NHP,
+                Drone_Rebel_Proton,
+                Missile_small_Proton_NHP, // Must list all primary, shrapnel, and pattern ammos.
             },
             //Animations = Imperial_Turrets_LaserCannon_Standard_Animations,
             //Upgrades = UpgradeModules,

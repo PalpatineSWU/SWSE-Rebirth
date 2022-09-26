@@ -3,51 +3,7 @@
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<CubeBlocks>
 
-	<!--FighterHangar
-		<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
 
-			<Id>
-				<TypeId>ConveyorSorter</TypeId>
-				<SubtypeId>K_Imperial_Broadside_Body_ConcussionLauncher</SubtypeId>
-			</Id>
-			<DisplayName>. Fighter-Hangar 2x2</DisplayName>
-			<Icon>Textures\GUI\Icons\Turrets\Fighter turrets.dds</Icon>
-			<Description>Hangar</Description>
-			<CubeSize>Large</CubeSize>
-			<GuiVisible>false</GuiVisible>
-			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="2" y="2" z="2" />
-			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\IMP\Broadside\K_Imperial_BroadsideCruiser_Body_ConcussionLauncher_Large.mwm</Model>
-			<Components>
-				<Component Subtype="DuraSteel" Count="90" />
-				<Component Subtype="ImperialConstruction" Count="45" />
-				<Component Subtype="PowerConverter" Count="30" />
-				<Component Subtype="TurboLaser_Part" Count="60" />
-				<Component Subtype="TurboLaser_Part" Count="60" />
-				<Component Subtype="Computer" Count="300" />
-				<Component Subtype="ImperialConstruction" Count="40" />
-				<Component Subtype="DuraSteel" Count="325" />
-			</Components>
-			<CriticalComponent Subtype="Computer" Index="0" />
-			<BlockPairName>K_Imperial_Broadside_Body_ConcussionLauncher</BlockPairName>
-			<EdgeType>Light</EdgeType>
-			<MirroringY>Z</MirroringY>
-			<MirroringZ>Y</MirroringZ>
-			<BuildTimeSeconds>25</BuildTimeSeconds>
-			<DisassembleRatio>5</DisassembleRatio>
-			<NavigationDefinition>Default</NavigationDefinition>
-			<WeaponDefinitionId Subtype="K_IMP_Gun" />
-			<ResourceSinkGroup>Defense</ResourceSinkGroup>
-			<InventoryMaxVolume>1</InventoryMaxVolume>
-			<DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
-			<DamagedSound>ParticleWeapExpl</DamagedSound>
-			<DestroyEffect>Imperial_Explosion</DestroyEffect>
-			<DestroySound>K_SW_Explosion_Generic</DestroySound>
-			<EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
-			<GeneralDamageMultiplier>0.6</GeneralDamageMultiplier>
-		</Definition>
--->
 		<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
 
 			<Id>
@@ -123,7 +79,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="5" y="3" z="5" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\HangarWeapons\Hangar_Rebel_5x5x3.mwm</Model>
+			<Model>Models\HangarWeapons\Hangar_Empire_5x5x3.mwm</Model>
 			<Components>
 				<Component Subtype="DuraSteel" Count="90" />
 				<Component Subtype="ImperialConstruction" Count="45" />
@@ -141,9 +97,9 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="5.00" EndY="5.00"/>
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\HangarWeapons\Hangar_Rebel_5x5x3_BS1.mwm"/>
-				<Model BuildPercentUpperBound="0.67" File="Models\HangarWeapons\Hangar_Rebel_5x5x3_BS2.mwm"/>
-				<Model BuildPercentUpperBound="1.00" File="Models\HangarWeapons\Hangar_Rebel_5x5x3_BS3.mwm"/>
+				<Model BuildPercentUpperBound="0.33" File="Models\HangarWeapons\Hangar_Empire_5x5x3_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\HangarWeapons\Hangar_Empire_5x5x3_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\HangarWeapons\Hangar_Empire_5x5x3_BS3.mwm"/>
 			</BuildProgressModels>
 			<BlockPairName>Hangar_Imperial_5x5x3</BlockPairName>
 			<EdgeType>Light</EdgeType>

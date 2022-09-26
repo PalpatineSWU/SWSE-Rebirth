@@ -42,19 +42,19 @@ namespace EquinoxStuff
     }
 	
 	[MyEntityComponentDescriptor(typeof(MyObjectBuilder_Reactor), false, "K_Imperial_Reactors_Exonium_Large_LG", "K_Rebellion_Generator_Synth", "K_Imperial_Reactors_Exonium_PowerCoreHeavy" )]
-    public class RefineryASpinner : EnabledSpinner
+    public class MiningUnitSpinner : EnabledSpinner
     {
         // Spin SubpartName at 10 degrees per second
-        public RefineryASpinner() : base("dummy", 60 * (float) Math.PI / 180.0f * MyEngineConstants.UPDATE_STEP_SIZE_IN_SECONDS)
+        public MiningUnitSpinner() : base("dummy", 60 * (float) Math.PI / 180.0f * MyEngineConstants.UPDATE_STEP_SIZE_IN_SECONDS)
         {
         }
     }
 	
 	[MyEntityComponentDescriptor(typeof(MyObjectBuilder_Refinery), false, "K_Imperial_Civ_MiningUnit_Main", "K_Imperial_Refinement_Refinery_Light_I", "K_Imperial_Civ_MiningUnit_Small" )]
-    public class MiningUnitSpinner : EnabledSpinner
+    public class RefineryASpinner : EnabledSpinner
     {
         // Spin SubpartName at 10 degrees per second
-        public MiningUnitSpinner() : base("dummy", 45 * (float) Math.PI / 180.0f * MyEngineConstants.UPDATE_STEP_SIZE_IN_SECONDS)
+        public RefineryASpinner() : base("dummy", 45 * (float) Math.PI / 180.0f * MyEngineConstants.UPDATE_STEP_SIZE_IN_SECONDS)
         {
         }
     }

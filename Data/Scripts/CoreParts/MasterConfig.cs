@@ -114,6 +114,8 @@ namespace Scripts
             Imperial_Weaponry_TIE_RebornAvenger_Tip_One,            
             Imperial_Turrets_DefenseHeavyBattery_DMDC,
             Wep_InterdictionSphere,
+            HangarRebel,
+            HangarImp,
             Imperial_Turrets_DefenseHeavyBattery_HVC6);
         }
     }
