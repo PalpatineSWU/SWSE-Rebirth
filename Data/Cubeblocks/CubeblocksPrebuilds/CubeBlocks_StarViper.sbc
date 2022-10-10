@@ -379,7 +379,7 @@
       <PowerNeededForJump>2.2</PowerNeededForJump>
 
       <MaxJumpDistance>1000000</MaxJumpDistance>
-      <MaxJumpMass>500000</MaxJumpMass>
+      <MaxJumpMass>5000000</MaxJumpMass>
       <EmissiveColorPreset>K_Imperial_Hyperdrive_EmissiveSet_II</EmissiveColorPreset>
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
       <DestroySound>K_Imperial_Explosion_Critical</DestroySound>

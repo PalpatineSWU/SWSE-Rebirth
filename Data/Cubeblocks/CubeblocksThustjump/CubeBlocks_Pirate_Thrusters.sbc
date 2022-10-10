@@ -30,9 +30,6 @@
       </Components>
       <CriticalComponent Subtype="ThrusterParts_Repulsor" Index="0" />
       <BlockPairName>K_Pirates_Thrusters_Light</BlockPairName>
-      <MountPoints>
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-      </MountPoints>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
@@ -103,9 +100,6 @@
       </Components>
       <CriticalComponent Subtype="ThrusterParts_Repulsor" Index="0" />
       <BlockPairName>K_Pirates_Thrusters_LightRec</BlockPairName>
-      <MountPoints>
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-      </MountPoints>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
@@ -176,10 +170,6 @@
       </Components>
       <CriticalComponent Subtype="ThrusterParts_Repulsor" Index="0" />
       <BlockPairName>K_Pirates_Thrusters_LightMid</BlockPairName>
-      <MountPoints>
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
-      </MountPoints>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
@@ -250,9 +240,6 @@
       </Components>
       <CriticalComponent Subtype="ThrusterParts_Repulsor" Index="0" />
       <BlockPairName>K_Pirates_Thrusters_Heavy</BlockPairName>
-      <MountPoints>
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-      </MountPoints>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
@@ -325,9 +312,6 @@
       </Components>
       <CriticalComponent Subtype="ThrusterParts_Repulsor" Index="0" />
       <BlockPairName>K_Pirates_Thrusters_Light</BlockPairName>
-      <MountPoints>
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-      </MountPoints>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
@@ -398,9 +382,6 @@
       </Components>
       <CriticalComponent Subtype="ThrusterParts_Ion" Index="0" />
       <BlockPairName>K_Pirates_Thrusters_LightRec</BlockPairName>
-      <MountPoints>
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-      </MountPoints>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
@@ -471,10 +452,6 @@
       </Components>
       <CriticalComponent Subtype="ThrusterParts_Advanced_Ion" Index="0" />
       <BlockPairName>K_Pirates_Thrusters_LightMid</BlockPairName>
-      <MountPoints>
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
-      </MountPoints>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>

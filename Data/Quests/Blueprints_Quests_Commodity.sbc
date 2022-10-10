@@ -15,8 +15,8 @@
         <Y>0.5</Y>
         <Z>0.01</Z>
       </Size>
-      <Mass>300000</Mass>
-      <Volume>10000</Volume>
+      <Mass>3000</Mass>
+      <Volume>100</Volume>
       <Model>Models\Items\Datapad_Item.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <MaxIntegrity>1</MaxIntegrity>
@@ -39,8 +39,8 @@
         <Y>0.5</Y>
         <Z>0.01</Z>
       </Size>
-      <Mass>300000</Mass>
-      <Volume>10000</Volume>
+      <Mass>3000</Mass>
+      <Volume>100</Volume>
       <Model>Models\Items\Datapad_Item.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <MaxIntegrity>1</MaxIntegrity>
@@ -63,8 +63,8 @@
         <Y>0.5</Y>
         <Z>0.01</Z>
       </Size>
-      <Mass>300000</Mass>
-      <Volume>10000</Volume>
+      <Mass>3000</Mass>
+      <Volume>100</Volume>
       <Model>Models\Items\Datapad_Item.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <MaxIntegrity>1</MaxIntegrity>
@@ -87,8 +87,8 @@
         <Y>0.5</Y>
         <Z>0.01</Z>
       </Size>
-      <Mass>300000</Mass>
-      <Volume>10000</Volume>
+      <Mass>3000</Mass>
+      <Volume>100</Volume>
       <Model>Models\Items\Datapad_Item.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <MaxIntegrity>1</MaxIntegrity>
@@ -111,8 +111,8 @@
         <Y>0.5</Y>
         <Z>0.01</Z>
       </Size>
-      <Mass>300000</Mass>
-      <Volume>10000</Volume>
+      <Mass>3000</Mass>
+      <Volume>100</Volume>
       <Model>Models\Items\Datapad_Item.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <MaxIntegrity>1</MaxIntegrity>
@@ -135,8 +135,8 @@
         <Y>0.5</Y>
         <Z>0.01</Z>
       </Size>
-      <Mass>300000</Mass>
-      <Volume>10000</Volume>
+      <Mass>3000</Mass>
+      <Volume>100</Volume>
       <Model>Models\Items\Datapad_Item.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <MaxIntegrity>1</MaxIntegrity>
@@ -159,8 +159,8 @@
         <Y>0.5</Y>
         <Z>0.01</Z>
       </Size>
-      <Mass>300000</Mass>
-      <Volume>10000</Volume>
+      <Mass>3000</Mass>
+      <Volume>100</Volume>
       <Model>Models\Items\Datapad_Item.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <MaxIntegrity>1</MaxIntegrity>
@@ -183,8 +183,8 @@
         <Y>0.5</Y>
         <Z>0.01</Z>
       </Size>
-      <Mass>300000</Mass>
-      <Volume>10000</Volume>
+      <Mass>3000</Mass>
+      <Volume>100</Volume>
       <Model>Models\Items\Datapad_Item.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <MaxIntegrity>1</MaxIntegrity>
@@ -207,8 +207,8 @@
         <Y>0.5</Y>
         <Z>0.01</Z>
       </Size>
-      <Mass>300000</Mass>
-      <Volume>10000</Volume>
+      <Mass>3000</Mass>
+      <Volume>100</Volume>
       <Model>Models\Items\Datapad_Item.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <MaxIntegrity>1</MaxIntegrity>
@@ -231,8 +231,8 @@
         <Y>0.5</Y>
         <Z>0.01</Z>
       </Size>
-      <Mass>300000</Mass>
-      <Volume>10000</Volume>
+      <Mass>3000</Mass>
+      <Volume>100</Volume>
       <Model>Models\Items\Datapad_Item.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <MaxIntegrity>1</MaxIntegrity>

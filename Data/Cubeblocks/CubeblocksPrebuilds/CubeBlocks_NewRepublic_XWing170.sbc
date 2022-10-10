@@ -486,7 +486,7 @@
       <PowerNeededForJump>0.25</PowerNeededForJump>
 
       <MaxJumpDistance>15000</MaxJumpDistance>
-      <MaxJumpMass>300000</MaxJumpMass>
+      <MaxJumpMass>3000000</MaxJumpMass>
       <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
       <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
       <DestroySound>WepLrgWarheadExpl</DestroySound>

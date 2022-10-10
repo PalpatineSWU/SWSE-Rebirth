@@ -55,7 +55,7 @@
       <PowerNeededForJump>2.8</PowerNeededForJump>
 
       <MaxJumpDistance>200000</MaxJumpDistance>
-      <MaxJumpMass>200000</MaxJumpMass>
+      <MaxJumpMass>2000000</MaxJumpMass>
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
       <DestroySound>WepLrgWarheadExpl</DestroySound>
@@ -115,7 +115,7 @@
       <PowerNeededForJump>2.7</PowerNeededForJump>
 
       <MaxJumpDistance>300000</MaxJumpDistance>
-      <MaxJumpMass>300000</MaxJumpMass>
+      <MaxJumpMass>3000000</MaxJumpMass>
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
       <DestroySound>WepLrgWarheadExpl</DestroySound>
@@ -175,7 +175,7 @@
       <PowerNeededForJump>0.5</PowerNeededForJump>
 
       <MaxJumpDistance>5000</MaxJumpDistance>
-      <MaxJumpMass>300000</MaxJumpMass>
+      <MaxJumpMass>3000000</MaxJumpMass>
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
       <DestroySound>WepLrgWarheadExpl</DestroySound>
@@ -235,7 +235,7 @@
       <PowerNeededForJump>2.6</PowerNeededForJump>
 
       <MaxJumpDistance>400000</MaxJumpDistance>
-      <MaxJumpMass>400000</MaxJumpMass>
+      <MaxJumpMass>4000000</MaxJumpMass>
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
       <DestroySound>WepLrgWarheadExpl</DestroySound>
@@ -296,7 +296,7 @@
       <PowerNeededForJump>2.6</PowerNeededForJump>
 
       <MaxJumpDistance>200000</MaxJumpDistance>
-      <MaxJumpMass>2000000</MaxJumpMass>
+      <MaxJumpMass>20000000</MaxJumpMass>
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
       <DestroySound>WepLrgWarheadExpl</DestroySound>
@@ -356,7 +356,7 @@
       <PowerNeededForJump>2.5</PowerNeededForJump>
 
       <MaxJumpDistance>500000</MaxJumpDistance>
-      <MaxJumpMass>500000</MaxJumpMass>
+      <MaxJumpMass>5000000</MaxJumpMass>
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
       <DestroySound>WepLrgWarheadExpl</DestroySound>
@@ -417,7 +417,7 @@
       <PowerNeededForJump>2.4</PowerNeededForJump>
 
       <MaxJumpDistance>600000</MaxJumpDistance>
-      <MaxJumpMass>600000</MaxJumpMass>
+      <MaxJumpMass>6000000</MaxJumpMass>
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
       <DestroySound>WepLrgWarheadExpl</DestroySound>
@@ -477,7 +477,7 @@
       <PowerNeededForJump>2.3</PowerNeededForJump>
 
       <MaxJumpDistance>700000</MaxJumpDistance>
-      <MaxJumpMass>700000</MaxJumpMass>
+      <MaxJumpMass>7000000</MaxJumpMass>
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
       <DestroySound>WepLrgWarheadExpl</DestroySound>
@@ -538,7 +538,7 @@
       <PowerNeededForJump>2.2</PowerNeededForJump>
 
       <MaxJumpDistance>1000000</MaxJumpDistance>
-      <MaxJumpMass>500000</MaxJumpMass>
+      <MaxJumpMass>5000000</MaxJumpMass>
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
       <DestroySound>WepLrgWarheadExpl</DestroySound>

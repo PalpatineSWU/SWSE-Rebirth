@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Factions>
+	<!--Do Not Edit Above Here-->
+
+		
+	<!--Copy From This Line-->
+		<Faction Tag="ImpN" Founder="Imperial Navy High Command">
+			<Id>
+				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>Empire_NPC</SubtypeId> <!--Must Be Unique-->
+			</Id>
+			
+			<DisplayName>Imperial Navy</DisplayName>
+			<Description>The Imperial Navy is tasked with maintaining order in the galaxy.</Description>
+			<IsDefault>true</IsDefault>
+			<DefaultRelation>Enemies</DefaultRelation> <!--Enemies, Neutral, Friends-->
+			<AcceptHumans>false</AcceptHumans>
+			<AutoAcceptMember>false</AutoAcceptMember>
+			<StartingBalance>1000000</StartingBalance>
+			<Type>None</Type> <!--None, Miner, Trader, Builder-->
+			<DiscoveredByDefault>false</DiscoveredByDefault>
+			<FactionIcon>Textures\FactionLogo\Empire.png</FactionIcon> <!--Game or Mod Path For Texture File-->
+		</Faction>
+		<!--Copy To This Line And Paste Directly Below-->
+
+	<!--Copy From This Line-->
+		<Faction Tag="RebN" Founder="Rebel Fleet Commander">
+			<Id>
+				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>Rebel_NPC</SubtypeId> <!--Must Be Unique-->
+			</Id>
+			
+			<DisplayName>Rebel Alliance Navy</DisplayName>
+			<Description>The military naval force of the Alliance to Restore the Republic.</Description>
+			<IsDefault>true</IsDefault>
+			<DefaultRelation>Enemies</DefaultRelation> <!--Enemies, Neutral, Friends-->
+			<AcceptHumans>false</AcceptHumans>
+			<AutoAcceptMember>false</AutoAcceptMember>
+			<StartingBalance>1000000</StartingBalance>
+			<Type>None</Type> <!--None, Miner, Trader, Builder-->
+			<DiscoveredByDefault>false</DiscoveredByDefault>
+			<FactionIcon>Textures\FactionLogo\Rebels.png</FactionIcon> <!--Game or Mod Path For Texture File-->
+		</Faction>
+		<!--Copy To This Line And Paste Directly Below-->
+
+	<!--Copy From This Line-->
+		<Faction Tag="HIRE" Founder="Underworld">
+			<Id>
+				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>Merc_NPC</SubtypeId> <!--Must Be Unique-->
+			</Id>
+			
+			<DisplayName>Mercenaries</DisplayName>
+			<Description>Guns for hire.</Description>
+			<IsDefault>true</IsDefault>
+			<DefaultRelation>Enemies</DefaultRelation> <!--Enemies, Neutral, Friends-->
+			<AcceptHumans>false</AcceptHumans>
+			<AutoAcceptMember>false</AutoAcceptMember>
+			<StartingBalance>1000000</StartingBalance>
+			<Type>None</Type> <!--None, Miner, Trader, Builder-->
+			<DiscoveredByDefault>false</DiscoveredByDefault>
+			<FactionIcon>Textures\FactionLogo\Mercs.png</FactionIcon> <!--Game or Mod Path For Texture File-->
+		</Faction>
+		<!--Copy To This Line And Paste Directly Below-->
+
+	<!--Copy From This Line-->
+		<Faction Tag="Sith" Founder="Jar-Jar">
+			<Id>
+				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>Sith_NPC</SubtypeId> <!--Must Be Unique-->
+			</Id>
+			
+			<DisplayName>Sith Empire</DisplayName>
+			<Description>"Through victory my chains are broken. The chains. The chains are the easy part. It's what goes on in here that's hard."</Description>
+			<IsDefault>true</IsDefault>
+			<DefaultRelation>Enemies</DefaultRelation> <!--Enemies, Neutral, Friends-->
+			<AcceptHumans>false</AcceptHumans>
+			<AutoAcceptMember>false</AutoAcceptMember>
+			<StartingBalance>1000000</StartingBalance>
+			<Type>None</Type> <!--None, Miner, Trader, Builder-->
+			<DiscoveredByDefault>false</DiscoveredByDefault>
+			<FactionIcon>Textures\FactionLogo\Siths.png</FactionIcon> <!--Game or Mod Path For Texture File-->
+		</Faction>
+		<!--Copy To This Line And Paste Directly Below-->
+
+	<!--Copy From This Line-->
+		<Faction Tag="Jedi" Founder="Luke">
+			<Id>
+				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>Jedi_NPC</SubtypeId> <!--Must Be Unique-->
+			</Id>
+			
+			<DisplayName>Jedi Order</DisplayName>
+			<Description>Emotion, yet peace. Ignorance, yet knowledge. Passion, yet serenity. Chaos, yet harmony. Death, yet the Force.</Description>
+			<IsDefault>true</IsDefault>
+			<DefaultRelation>Enemies</DefaultRelation> <!--Enemies, Neutral, Friends-->
+			<AcceptHumans>false</AcceptHumans>
+			<AutoAcceptMember>false</AutoAcceptMember>
+			<StartingBalance>1000000</StartingBalance>
+			<Type>None</Type> <!--None, Miner, Trader, Builder-->
+			<DiscoveredByDefault>false</DiscoveredByDefault>
+			<FactionIcon>Textures\FactionLogo\Jedis.png</FactionIcon> <!--Game or Mod Path For Texture File-->
+		</Faction>
+		<!--Copy To This Line And Paste Directly Below-->
+
+	<!--Copy From This Line-->
+		<Faction Tag="Civi" Founder="Civilians">
+			<Id>
+				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>Jedi_NPC</SubtypeId> <!--Must Be Unique-->
+			</Id>
+			
+			<DisplayName>Civilians</DisplayName>
+			<Description>Just people trying to live their lives.</Description>
+			<IsDefault>true</IsDefault>
+			<DefaultRelation>Enemies</DefaultRelation> <!--Enemies, Neutral, Friends-->
+			<AcceptHumans>false</AcceptHumans>
+			<AutoAcceptMember>false</AutoAcceptMember>
+			<StartingBalance>1000000</StartingBalance>
+			<Type>None</Type> <!--None, Miner, Trader, Builder-->
+			<DiscoveredByDefault>false</DiscoveredByDefault>
+			<FactionIcon>Textures\FactionLogo\Civilians.png</FactionIcon> <!--Game or Mod Path For Texture File-->
+		</Faction>
+		<!--Copy To This Line And Paste Directly Below-->
+
+	<!--Do Not Edit Below Here-->
+	</Factions>
+
+    <Definition xsi:type="MyObjectBuilder_FactionIconsDefinition">
+        <Id Type="MyObjectBuilder_FactionIconsDefinition" Subtype="StarWars" />
+        <BackgroundColorRanges>
+            <Color x="0" y="0" z="0" />
+        </BackgroundColorRanges>
+        <Icon>Textures\FactionLogo\Civilians.png</Icon>
+        <Icon>Textures\FactionLogo\Empire.png</Icon>
+        <Icon>Textures\FactionLogo\Jedis.png</Icon>
+        <Icon>Textures\FactionLogo\Mercs.png</Icon>
+        <Icon>Textures\FactionLogo\Rebels.png</Icon>
+        <Icon>Textures\FactionLogo\Siths.png</Icon>
+    </Definition>
+
+</Definitions>

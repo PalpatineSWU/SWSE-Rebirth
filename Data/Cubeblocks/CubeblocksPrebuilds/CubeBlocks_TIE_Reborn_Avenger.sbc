@@ -679,7 +679,7 @@
       <PowerNeededForJump>2.3</PowerNeededForJump>
 
       <MaxJumpDistance>700000</MaxJumpDistance>
-      <MaxJumpMass>700000</MaxJumpMass>
+      <MaxJumpMass>7000000</MaxJumpMass>
       <EmissiveColorPreset>K_Imperial_Ship_EmissiveSet</EmissiveColorPreset>
       <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
