@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <VoxelMaterials>
+
+	
+        <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+            <Id>
+                <TypeId>VoxelMaterialDefinition</TypeId>
+                <SubtypeId>MarsRocks_Underwater_1</SubtypeId>
+            </Id>
+            <SpawnsInAsteroids>false</SpawnsInAsteroids>
+            <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+            <MaterialTypeName>Rock</MaterialTypeName>
+            <MinedOre>Stone</MinedOre>
+            <MinedOreRatio>5</MinedOreRatio>
+            <CanBeHarvested>true</CanBeHarvested>
+            <IsRare>false</IsRare>
+
+            <VoxelHandPreview>Textures\Voxels\Mars\Mars_Rock_Underwater_1_01_ForAxisXZ_cm.dds</VoxelHandPreview>
+            <ColorMetalXZnY>Textures\Voxels\Mars\Mars_Rock_Underwater_1_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+            <NormalGlossXZnY>Textures\Voxels\Mars\Blank_ForAxisXZ_Far1_ng.dds</NormalGlossXZnY>
+
+            <ColorMetalXZnYFar1>Textures\Voxels\Mars\Mars_Rock_Underwater_1_01_ForAxisXZ_cm.dds</ColorMetalXZnYFar1>
+            <NormalGlossXZnYFar1>Textures\Voxels\Mars\Blank_ForAxisXZ_Far1_ng.dds</NormalGlossXZnYFar1>
+            <ExtXZnYFar1>Textures\Voxels\Silver_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+
+            <ExtXZnY>Textures\Voxels\MarsSoil_01_ForAxisXZ_add.dds</ExtXZnY>
+            <ExtDetailScale>0.001</ExtDetailScale>
+
+            <ColorKey Hex="#A4B94D"/>
+
+            <SimpleTilingSetup>
+                <InitialScale>1000</InitialScale>
+                <ScaleMultiplier>50</ScaleMultiplier>
+                <InitialDistance>5</InitialDistance>
+                <DistanceMultiplier>4</DistanceMultiplier>
+
+                <Far1Distance>12</Far1Distance>
+                <Far1Scale>1000</Far1Scale>
+                <Far2Distance>80</Far2Distance>
+                <Far2Scale>1000</Far2Scale>
+            </SimpleTilingSetup>
+
+            <InitialScale>1000</InitialScale>
+            <ScaleMultiplier>1</ScaleMultiplier>
+            <InitialDistance>3</InitialDistance>
+            <DistanceMultiplier>1</DistanceMultiplier>
+            <TilingScale>1000</TilingScale>
+
+
+        </VoxelMaterial>
+
+        <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+            <Id>
+                <TypeId>VoxelMaterialDefinition</TypeId>
+                <SubtypeId>MarsRocks_Underwater_2</SubtypeId>
+            </Id>
+            <SpawnsInAsteroids>false</SpawnsInAsteroids>
+            <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+            <MaterialTypeName>Rock</MaterialTypeName>
+            <MinedOre>Stone</MinedOre>
+            <MinedOreRatio>5</MinedOreRatio>
+            <CanBeHarvested>true</CanBeHarvested>
+            <IsRare>false</IsRare>
+
+            <VoxelHandPreview>Textures\Voxels\Mars\Mars_Rock_Underwater_2_01_ForAxisXZ_cm.dds</VoxelHandPreview>
+            <ColorMetalXZnY>Textures\Voxels\Mars\Mars_Rock_Underwater_2_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+            <NormalGlossXZnY>Textures\Voxels\Mars\Blank_ForAxisXZ_Far1_ng.dds</NormalGlossXZnY>
+
+            <ColorMetalXZnYFar1>Textures\Voxels\Mars\Mars_Rock_Underwater_2_01_ForAxisXZ_cm.dds</ColorMetalXZnYFar1>
+            <NormalGlossXZnYFar1>Textures\Voxels\Mars\Blank_ForAxisXZ_Far1_ng.dds</NormalGlossXZnYFar1>
+            <ExtXZnYFar1>Textures\Voxels\Silver_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+
+            <ExtXZnY>Textures\Voxels\MarsSoil_01_ForAxisXZ_add.dds</ExtXZnY>
+            <ExtDetailScale>0.001</ExtDetailScale>
+
+            <SimpleTilingSetup>
+                <InitialScale>100</InitialScale>
+                <ScaleMultiplier>50</ScaleMultiplier>
+                <InitialDistance>5</InitialDistance>
+                <DistanceMultiplier>4</DistanceMultiplier>
+
+                <Far1Distance>12</Far1Distance>
+                <Far1Scale>100</Far1Scale>
+                <Far2Distance>80</Far2Distance>
+                <Far2Scale>100</Far2Scale>
+            </SimpleTilingSetup>
+
+            <InitialScale>100</InitialScale>
+            <ScaleMultiplier>1</ScaleMultiplier>
+            <InitialDistance>3</InitialDistance>
+            <DistanceMultiplier>1</DistanceMultiplier>
+            <TilingScale>1000</TilingScale>
+
+            <ColorKey Hex="#A4B94D"/>
+
+
+        </VoxelMaterial>
+
+        <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+            <Id>
+                <TypeId>VoxelMaterialDefinition</TypeId>
+                <SubtypeId>MarsRocks_Underwater_3</SubtypeId>
+            </Id>
+            <SpawnsInAsteroids>false</SpawnsInAsteroids>
+            <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+            <MaterialTypeName>Rock</MaterialTypeName>
+            <MinedOre>Stone</MinedOre>
+            <MinedOreRatio>5</MinedOreRatio>
+            <CanBeHarvested>true</CanBeHarvested>
+            <IsRare>false</IsRare>
+
+            <VoxelHandPreview>Textures\Voxels\Mars\Mars_Rock_Underwater_3_01_ForAxisXZ_cm.dds</VoxelHandPreview>
+            <ColorMetalXZnY>Textures\Voxels\Mars\Mars_Rock_Underwater_3_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+            <NormalGlossXZnY>Textures\Voxels\Mars\Blank_ForAxisXZ_Far1_ng.dds</NormalGlossXZnY>
+
+            <ColorMetalXZnYFar1>Textures\Voxels\Mars\Mars_Rock_Underwater_3_01_ForAxisXZ_cm.dds</ColorMetalXZnYFar1>
+            <NormalGlossXZnYFar1>Textures\Voxels\Mars\Blank_ForAxisXZ_Far1_ng.dds</NormalGlossXZnYFar1>
+            <ExtXZnYFar1>Textures\Voxels\Silver_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+
+            <ExtXZnY>Textures\Voxels\MarsSoil_01_ForAxisXZ_add.dds</ExtXZnY>
+            <ExtDetailScale>0.001</ExtDetailScale>
+
+            <SimpleTilingSetup>
+                <InitialScale>100</InitialScale>
+                <ScaleMultiplier>50</ScaleMultiplier>
+                <InitialDistance>5</InitialDistance>
+                <DistanceMultiplier>4</DistanceMultiplier>
+
+                <Far1Distance>12</Far1Distance>
+                <Far1Scale>100</Far1Scale>
+                <Far2Distance>80</Far2Distance>
+                <Far2Scale>100</Far2Scale>
+            </SimpleTilingSetup>
+
+            <InitialScale>100</InitialScale>
+            <ScaleMultiplier>1</ScaleMultiplier>
+            <InitialDistance>3</InitialDistance>
+            <DistanceMultiplier>1</DistanceMultiplier>
+            <TilingScale>1000</TilingScale>
+
+
+            <ColorKey Hex="#A4B94D"/>
+
+
+        </VoxelMaterial>                
+
+        <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+            <Id>
+                <TypeId>VoxelMaterialDefinition</TypeId>
+                <SubtypeId>MarsRocks_Sand</SubtypeId>
+            </Id>
+            <SpawnsInAsteroids>false</SpawnsInAsteroids>
+            <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+            <MaterialTypeName>Rock</MaterialTypeName>
+            <MinedOre>Stone</MinedOre>
+            <MinedOreRatio>5</MinedOreRatio>
+            <CanBeHarvested>true</CanBeHarvested>
+            <IsRare>false</IsRare>
+
+            <VoxelHandPreview>Textures\Voxels\Mars\Mars_Rock_Sand_1_01_ForAxisXZ_cm.dds</VoxelHandPreview>
+            <ColorMetalXZnY>Textures\Voxels\Mars\Mars_Rock_Sand_1_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+            <NormalGlossXZnY>Textures\Voxels\Mars\Blank_ForAxisXZ_Far1_ng.dds</NormalGlossXZnY>
+
+            <ColorMetalXZnYFar1>Textures\Voxels\Mars\Mars_Rock_Sand_1_01_ForAxisXZ_cm.dds</ColorMetalXZnYFar1>
+            <NormalGlossXZnYFar1>Textures\Voxels\Mars\Blank_ForAxisXZ_Far1_ng.dds</NormalGlossXZnYFar1>
+            <ExtXZnYFar1>Textures\Voxels\Silver_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+
+            <ExtXZnY>Textures\Voxels\MarsSoil_01_ForAxisXZ_add.dds</ExtXZnY>
+            <ExtDetailScale>0.001</ExtDetailScale>
+
+            <ColorKey Hex="#A4B94D"/>
+
+
+
+        </VoxelMaterial>                
+
+
+  </VoxelMaterials>
+</Definitions>

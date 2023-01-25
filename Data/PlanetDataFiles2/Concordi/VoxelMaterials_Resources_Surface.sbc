@@ -1,0 +1,252 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <VoxelMaterials>
+
+        <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+            <Id>
+                <TypeId>VoxelMaterialDefinition</TypeId>
+                <SubtypeId>MarsRocks_Soil</SubtypeId>
+            </Id>
+            <SpawnsInAsteroids>false</SpawnsInAsteroids>
+            <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+            <MaterialTypeName>Rock</MaterialTypeName>
+            <MinedOre>Stone</MinedOre>
+            <MinedOreRatio>5</MinedOreRatio>
+            <CanBeHarvested>true</CanBeHarvested>
+            <IsRare>false</IsRare>
+
+            <VoxelHandPreview>Textures\Voxels\Mars\Mars_Rock_Dirt_1_01_ForAxisXZ_cm.dds</VoxelHandPreview>
+            <ColorMetalXZnY>Textures\Voxels\Mars\Mars_Rock_Dirt_1_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+            <NormalGlossXZnY>Textures\Voxels\Mars\Blank_ForAxisXZ_Far1_ng.dds</NormalGlossXZnY>
+
+            <ColorMetalXZnYFar1>Textures\Voxels\Mars\Mars_Rock_Dirt_1_01_ForAxisXZ_cm.dds</ColorMetalXZnYFar1>
+            <NormalGlossXZnYFar1>Textures\Voxels\Mars\Blank_ForAxisXZ_Far1_ng.dds</NormalGlossXZnYFar1>
+            <ExtXZnYFar1>Textures\Voxels\Silver_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+
+            <ExtXZnY>Textures\Voxels\MarsSoil_01_ForAxisXZ_add.dds</ExtXZnY>
+            <ExtDetailScale>0.001</ExtDetailScale>
+
+            <ColorKey Hex="#A4B94D"/>
+
+
+        </VoxelMaterial>         	
+
+        <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+            <Id>
+                <TypeId>VoxelMaterialDefinition</TypeId>
+                <SubtypeId>MarsRocks_Surface_1</SubtypeId>
+            </Id>
+            <SpawnsInAsteroids>false</SpawnsInAsteroids>
+            <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+            <MaterialTypeName>Rock</MaterialTypeName>
+            <MinedOre>Stone</MinedOre>
+            <MinedOreRatio>5</MinedOreRatio>
+            <CanBeHarvested>true</CanBeHarvested>
+            <IsRare>false</IsRare>
+
+            <VoxelHandPreview>Textures\Voxels\Mars\Mars_Rock_Surface_1_01_ForAxisXZ_cm.dds</VoxelHandPreview>
+            <ColorMetalXZnY>Textures\Voxels\Mars\Mars_Rock_Surface_1_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+            <NormalGlossXZnY>Textures\Voxels\Mars\Blank_ForAxisXZ_Far1_ng.dds</NormalGlossXZnY>
+
+            <ColorMetalXZnYFar1>Textures\Voxels\Mars\Mars_Rock_Surface_1_01_ForAxisXZ_cm.dds</ColorMetalXZnYFar1>
+            <NormalGlossXZnYFar1>Textures\Voxels\Mars\Blank_ForAxisXZ_Far1_ng.dds</NormalGlossXZnYFar1>
+            <ExtXZnYFar1>Textures\Voxels\Silver_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+
+            <ExtXZnY>Textures\Voxels\MarsSoil_01_ForAxisXZ_add.dds</ExtXZnY>
+            <ExtDetailScale>0.001</ExtDetailScale>
+
+            <ColorKey Hex="#A4B94D"/>
+
+            <FoliageColorTextureArray>
+                <Color>Textures\Models\Environment\Grass\Grass_01_cm.dds</Color>
+                <Color>Textures\Models\Environment\Grass\Grass_02_cm.dds</Color>
+                <Color>Textures\Models\Environment\Grass\Grass_03_cm.dds</Color>
+                <Color>Textures\Models\Environment\Grass\Grass_04_cm.dds</Color>
+                <Color>Textures\Models\Environment\Grass\Grass_05_cm.dds</Color>
+                <Color>Textures\Models\Environment\Grass\Grass_06_cm.dds</Color>
+                <Color>Textures\Models\Environment\Grass\Grass_08_cm.dds</Color>
+            </FoliageColorTextureArray>
+
+            <FoliageNormalTextureArray>
+                <Normal>Textures\Models\Environment\Grass\Grass_01_ng.dds</Normal>
+                <Normal>Textures\Models\Environment\Grass\Grass_02_ng.dds</Normal>
+                <Normal>Textures\Models\Environment\Grass\Grass_03_ng.dds</Normal>
+                <Normal>Textures\Models\Environment\Grass\Grass_04_ng.dds</Normal>
+                <Normal>Textures\Models\Environment\Grass\Grass_05_ng.dds</Normal>
+                <Normal>Textures\Models\Environment\Grass\Grass_06_ng.dds</Normal>
+                <Normal>Textures\Models\Environment\Grass\Grass_08_ng.dds</Normal>
+            </FoliageNormalTextureArray>
+
+      <FoliageDensity>.05</FoliageDensity>
+      <FoliageScale>
+        <X>.66</X>
+        <Y>1.33</Y>
+      </FoliageScale>
+      <FoliageRandomRescaleMult>1.7</FoliageRandomRescaleMult>
+
+
+        </VoxelMaterial>
+
+        <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+            <Id>
+                <TypeId>VoxelMaterialDefinition</TypeId>
+                <SubtypeId>MarsRocks_Surface_2</SubtypeId>
+            </Id>
+            <SpawnsInAsteroids>false</SpawnsInAsteroids>
+            <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+            <MaterialTypeName>Rock</MaterialTypeName>
+            <MinedOre>Stone</MinedOre>
+            <MinedOreRatio>5</MinedOreRatio>
+            <CanBeHarvested>true</CanBeHarvested>
+            <IsRare>false</IsRare>
+
+            <VoxelHandPreview>Textures\Voxels\Mars\Mars_Rock_Surface_2_01_ForAxisXZ_cm.dds</VoxelHandPreview>
+            <ColorMetalXZnY>Textures\Voxels\Mars\Mars_Rock_Surface_2_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+            <NormalGlossXZnY>Textures\Voxels\Mars\Blank_ForAxisXZ_Far1_ng.dds</NormalGlossXZnY>
+
+            <ColorMetalXZnYFar1>Textures\Voxels\Mars\Mars_Rock_Surface_2_01_ForAxisXZ_cm.dds</ColorMetalXZnYFar1>
+            <NormalGlossXZnYFar1>Textures\Voxels\Mars\Blank_ForAxisXZ_Far1_ng.dds</NormalGlossXZnYFar1>
+            <ExtXZnYFar1>Textures\Voxels\Silver_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+
+            <ExtXZnY>Textures\Voxels\MarsSoil_01_ForAxisXZ_add.dds</ExtXZnY>
+            <ExtDetailScale>0.001</ExtDetailScale>
+
+            <ColorKey Hex="#A4B94D"/>
+
+            <FoliageColorTextureArray>
+                <Color>Textures\Models\Environment\Grass\Grass_01_cm.dds</Color>
+                <Color>Textures\Models\Environment\Grass\Grass_02_cm.dds</Color>
+                <Color>Textures\Models\Environment\Grass\Grass_03_cm.dds</Color>
+                <Color>Textures\Models\Environment\Grass\Grass_04_cm.dds</Color>
+                <Color>Textures\Models\Environment\Grass\Grass_05_cm.dds</Color>
+                <Color>Textures\Models\Environment\Grass\Grass_06_cm.dds</Color>
+                <Color>Textures\Models\Environment\Grass\Grass_08_cm.dds</Color>
+            </FoliageColorTextureArray>
+
+            <FoliageNormalTextureArray>
+                <Normal>Textures\Models\Environment\Grass\Grass_01_ng.dds</Normal>
+                <Normal>Textures\Models\Environment\Grass\Grass_02_ng.dds</Normal>
+                <Normal>Textures\Models\Environment\Grass\Grass_03_ng.dds</Normal>
+                <Normal>Textures\Models\Environment\Grass\Grass_04_ng.dds</Normal>
+                <Normal>Textures\Models\Environment\Grass\Grass_05_ng.dds</Normal>
+                <Normal>Textures\Models\Environment\Grass\Grass_06_ng.dds</Normal>
+                <Normal>Textures\Models\Environment\Grass\Grass_08_ng.dds</Normal>
+            </FoliageNormalTextureArray>
+
+      <FoliageDensity>.015</FoliageDensity>
+      <FoliageScale>
+        <X>.66</X>
+        <Y>1.33</Y>
+      </FoliageScale>
+      <FoliageRandomRescaleMult>1.7</FoliageRandomRescaleMult>
+
+
+        </VoxelMaterial>
+
+        <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+            <Id>
+                <TypeId>VoxelMaterialDefinition</TypeId>
+                <SubtypeId>MarsRocks_Surface_3</SubtypeId>
+            </Id>
+            <SpawnsInAsteroids>false</SpawnsInAsteroids>
+            <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+            <MaterialTypeName>Rock</MaterialTypeName>
+            <MinedOre>Stone</MinedOre>
+            <MinedOreRatio>5</MinedOreRatio>
+            <CanBeHarvested>true</CanBeHarvested>
+            <IsRare>false</IsRare>
+
+            <VoxelHandPreview>Textures\Voxels\Mars\Mars_Rock_Surface_3_01_ForAxisXZ_cm.dds</VoxelHandPreview>
+            <ColorMetalXZnY>Textures\Voxels\Mars\Mars_Rock_Surface_3_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+            <NormalGlossXZnY>Textures\Voxels\Mars\Blank_ForAxisXZ_Far1_ng.dds</NormalGlossXZnY>
+
+            <ColorMetalXZnYFar1>Textures\Voxels\Mars\Mars_Rock_Surface_3_01_ForAxisXZ_cm.dds</ColorMetalXZnYFar1>
+            <NormalGlossXZnYFar1>Textures\Voxels\Mars\Blank_ForAxisXZ_Far1_ng.dds</NormalGlossXZnYFar1>
+            <ExtXZnYFar1>Textures\Voxels\Silver_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+
+            <ExtXZnY>Textures\Voxels\MarsSoil_01_ForAxisXZ_add.dds</ExtXZnY>
+            <ExtDetailScale>0.001</ExtDetailScale>
+
+            <ColorKey Hex="#A4B94D"/>
+
+            <SimpleTilingSetup>
+                <InitialScale>1000</InitialScale>
+                <ScaleMultiplier>50</ScaleMultiplier>
+                <InitialDistance>5</InitialDistance>
+                <DistanceMultiplier>4</DistanceMultiplier>
+
+                <Far1Distance>12</Far1Distance>
+                <Far1Scale>1000</Far1Scale>
+                <Far2Distance>80</Far2Distance>
+                <Far2Scale>1000</Far2Scale>
+            </SimpleTilingSetup>
+
+            <InitialScale>1000</InitialScale>
+            <ScaleMultiplier>1</ScaleMultiplier>
+            <InitialDistance>3</InitialDistance>
+            <DistanceMultiplier>1</DistanceMultiplier>
+            <TilingScale>1000</TilingScale>
+
+        </VoxelMaterial>                
+
+        <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+            <Id>
+                <TypeId>VoxelMaterialDefinition</TypeId>
+                <SubtypeId>MarsRocks_Cracked</SubtypeId>
+            </Id>
+            <SpawnsInAsteroids>false</SpawnsInAsteroids>
+            <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+            <MaterialTypeName>MarsSoil</MaterialTypeName>
+            <MinedOre>Stone</MinedOre>
+            <MinedOreRatio>5</MinedOreRatio>
+            <CanBeHarvested>true</CanBeHarvested>
+            <IsRare>false</IsRare>
+
+            <VoxelHandPreview>Textures\Voxels\Mars\Mars_Rock_Rocky_1_01_ForAxisXZ_cm.dds</VoxelHandPreview>
+            <ColorMetalXZnY>Textures\Voxels\Mars\Mars_Rock_Rocky_1_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+            <NormalGlossXZnY>Textures\Voxels\Mars\Blank_ForAxisXZ_Far1_ng.dds</NormalGlossXZnY>
+
+            <ColorMetalXZnYFar1>Textures\Voxels\Mars\Mars_Rock_Rocky_1_01_ForAxisXZ_cm.dds</ColorMetalXZnYFar1>
+            <NormalGlossXZnYFar1>Textures\Voxels\Mars\Blank_ForAxisXZ_Far1_ng.dds</NormalGlossXZnYFar1>
+
+            <ExtXZnY>Textures\Voxels\MarsSoil_01_ForAxisXZ_add.dds</ExtXZnY>
+            <ExtDetailScale>5</ExtDetailScale>
+
+            <ColorKey Hex="#A4B94D"/>
+
+            <Friction>0.5</Friction>
+            <Restitution>0.09</Restitution>
+
+            <!--Foliage-->
+            <FoliageColorTextureArray>
+                <Color>Textures\Models\Environment\Grass\Grass_01_cm.dds</Color>
+                <Color>Textures\Models\Environment\Grass\Grass_02_cm.dds</Color>
+                <Color>Textures\Models\Environment\Grass\Grass_03_cm.dds</Color>
+                <Color>Textures\Models\Environment\Grass\Grass_04_cm.dds</Color>
+                <Color>Textures\Models\Environment\Grass\Grass_05_cm.dds</Color>
+                <Color>Textures\Models\Environment\Grass\Grass_06_cm.dds</Color>
+                <Color>Textures\Models\Environment\Grass\Grass_08_cm.dds</Color>
+            </FoliageColorTextureArray>
+
+            <FoliageNormalTextureArray>
+                <Normal>Textures\Models\Environment\Grass\Grass_01_ng.dds</Normal>
+                <Normal>Textures\Models\Environment\Grass\Grass_02_ng.dds</Normal>
+                <Normal>Textures\Models\Environment\Grass\Grass_03_ng.dds</Normal>
+                <Normal>Textures\Models\Environment\Grass\Grass_04_ng.dds</Normal>
+                <Normal>Textures\Models\Environment\Grass\Grass_05_ng.dds</Normal>
+                <Normal>Textures\Models\Environment\Grass\Grass_06_ng.dds</Normal>
+                <Normal>Textures\Models\Environment\Grass\Grass_08_ng.dds</Normal>
+            </FoliageNormalTextureArray>
+
+      <FoliageDensity>.3</FoliageDensity>
+      <FoliageScale>
+        <X>.66</X>
+        <Y>1.33</Y>
+      </FoliageScale>
+      <FoliageRandomRescaleMult>1.7</FoliageRandomRescaleMult>
+
+        </VoxelMaterial>                
+
+
+  </VoxelMaterials>
+</Definitions>

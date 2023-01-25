@@ -6,6 +6,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="K_Imperial_Dropship_Guild_Battery" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\BatteryandBio\BioTh.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
@@ -24,6 +25,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="K_Imperial_PatrolCraft_Cockpit" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Ships\ipv4\Ipv4.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
@@ -39,6 +41,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ImperialA9Starfighter" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Ships\A9\A9.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
@@ -56,6 +59,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ImperialHowlerStarfighter" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Ships\Howlrunner\Howl.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
@@ -73,6 +77,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Rz1" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
@@ -111,6 +116,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Speeder" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Ships\Speederbike\Speeder.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
@@ -130,6 +136,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Chiss" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Ships\Chiss\Chiss.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
@@ -155,6 +162,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Avenger" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Ships\TIERebornAvenger\Avenger.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
@@ -179,6 +187,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RebornBomber" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Ships\TIERebornBomber\Reborn.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
@@ -204,6 +213,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ImperialTIEStandard" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Ships\TIE\Tie.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
@@ -231,6 +241,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Probedroid" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Ships\Probe\Probe.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
@@ -252,6 +263,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RETiedefender" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Ships\TieDefender\TieDef.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
@@ -274,6 +286,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ImperialTIEInterceptor" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Ships\TieInterceptor\TieIncep.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
@@ -287,6 +300,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ImperialTIEAdvanced" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Ships\TIEAdvanced\TieAd.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
@@ -301,6 +315,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ImperialTIEBomber" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Ships\TieBomber\TieBomb.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
@@ -317,6 +332,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ImperialTIEDroid" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Ships\TieDrone\Droid.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
@@ -332,6 +348,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ImperialTIEHunter" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Ships\TieHunter\TieHun.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
@@ -355,6 +372,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ImperialHQTIEStandard" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Ships\TIERebornFighter\RebornTie.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
@@ -376,6 +394,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Fo" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Ships\TIERebornFighter\RebornTie.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
@@ -396,6 +415,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ImperialHQTIEInterceptor" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Ships\TIERebornInterceptor\RebornInterceptorCock.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
@@ -420,6 +440,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ImperialHQTIEDroid" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Ships\TIERebornDroid\RebornDroid.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
@@ -441,6 +462,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ImperialHQTIEDefender" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Ships\TIERebornDefender\RebornDef.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
@@ -466,6 +488,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ImperialHQTIEOppressor" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Ships\TIERebornOppressor\RebornOppressor.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
@@ -488,6 +511,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Customs" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Ships\TieDrone\DroidScout.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
@@ -503,7 +527,7 @@
                 <Block Type="MyObjectBuilder_Cockpit" Subtype="K_TIE_Fighter_Cockpit_Tailored_I" />
                 <Block Type="MyObjectBuilder_SmallMissileLauncher" Subtype="K_TIE_Armored_Weaponry" />
                 <Block Type="MyObjectBuilder_SmallMissileLauncher" Subtype="K_TIE_CustomII_Wing_CannonArray" />
-                <Block Type="MyObjectBuilder_SmallMissileLauncher" Subtype="K_TIE_Attachable_RocketPod" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_TIE_Attachable_RocketPod" />
                 <Block Type="MyObjectBuilder_SmallMissileLauncher" Subtype="K_TIE_CustomII_Wing_MissileArray" />
                 <Block Type="MyObjectBuilder_SmallMissileLauncher" Subtype="K_TIE_Attachable_RocketPod_Huntertester" />
                 <Block Type="MyObjectBuilder_SmallMissileLauncher" Subtype="K_TIE_WRIII_Wing" />
@@ -517,6 +541,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Ionizer_Gyro" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Ships\ionizer\Ionizer.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup1</DisplayName>
             <Description>Description_BlockGroup_TurretGroup1</Description>
@@ -540,6 +565,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Rz2" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Ships\Rz2\Rz2.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup2</DisplayName>
             <Description>Description_BlockGroup_TurretGroup2</Description>
@@ -564,6 +590,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWing_GyroI" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Ships\e-wing\EWing.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup2</DisplayName>
             <Description>Description_BlockGroup_TurretGroup2</Description>
@@ -590,6 +617,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="XWing_70_Gyro" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Ships\T70\T70.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup2</DisplayName>
             <Description>Description_BlockGroup_TurretGroup2</Description>
@@ -616,6 +644,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="XWingXJ5" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Ships\Xj5\XJ5.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup2</DisplayName>
             <Description>Description_BlockGroup_TurretGroup2</Description>
@@ -642,6 +671,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="YWing_GyroWing" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Ships\Y-wing\Ywing.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup2</DisplayName>
             <Description>Description_BlockGroup_TurretGroup2</Description>
@@ -667,6 +697,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="H60" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Ships\Tempest\H60.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup2</DisplayName>
             <Description>Description_BlockGroup_TurretGroup2</Description>
@@ -692,6 +723,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="K_Pirates_StarViper_Cockpit" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Ships\Starviper\SViper.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup2</DisplayName>
             <Description>Description_BlockGroup_TurretGroup2</Description>
@@ -713,6 +745,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Hyperdrivesbigsmall" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Fuelburners\JD.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup2</DisplayName>
             <Description>Description_BlockGroup_TurretGroup2</Description>
@@ -740,6 +773,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Prebuildhyperdives" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Fuelburners\JD.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup2</DisplayName>
             <Description>Description_BlockGroup_TurretGroup2</Description>
@@ -767,6 +801,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ShipToolGroup" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Cubes\Grinder.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_ShipToolGroup</DisplayName>
             <Description>Description_BlockGroup_ShipToolGroup</Description>
@@ -800,6 +835,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="OreDetectorGroup" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Cubes\detector.dds</Icon>
             <DisplayName>DisplayName_Block_OreDetector</DisplayName>
             <Description>Description_OreDetector</Description>
@@ -819,6 +855,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ThrusterGroups" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Fuelburners\Piratethrusterlarge.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup11</DisplayName>
             <Description>Description_BlockGroup_TurretGroup11</Description>
@@ -919,6 +956,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BatteryGroup" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
             <DisplayName>DisplayName_Block_Battery</DisplayName>
             <Description>Description_Battery</Description>
@@ -995,6 +1033,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EnergyFueledGroup" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_EnergyFueledGroup</DisplayName>
             <Description>Description_BlockGroup_EnergyFueledGroup</Description>
@@ -1045,6 +1084,7 @@
         <!-- GyroscopeGroup -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GyroscopeGroup" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Cubes\gyro.dds</Icon>
             <DisplayName>DisplayName_Block_Gyroscope</DisplayName>
             <Description>Description_Gyroscope</Description>
@@ -1092,6 +1132,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RefineryGroup" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Cubes\refinery.dds</Icon>
             <DisplayName>DisplayName_Block_Refinery</DisplayName>
             <Description>Description_Refinery</Description>
@@ -1111,6 +1152,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AssemblerGroup2" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\ReeAss\Micro.dds</Icon>
             <DisplayName>DisplayName_Block_Assembler2</DisplayName>
             <Description>Description_Assembler2</Description>
@@ -1130,6 +1172,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GasGeneratorGroup" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
             <DisplayName>DisplayName_Block_OxygenGenerator</DisplayName>
             <Description>Description_OxygenGenerator</Description>
@@ -1143,6 +1186,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TankGroup" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Cubes\OxygenTank.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TankGroup</DisplayName>
             <Description>Description_BlockGroup_TankGroup</Description>
@@ -1167,6 +1211,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EnergyRenewableGroup" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_EnergyRenewableGroup</DisplayName>
             <Description>Description_BlockGroup_EnergyRenewableGroup</Description>
@@ -1185,6 +1230,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Bridgepack" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
             <DisplayName>Bridgepack</DisplayName>
             <Description>Bridgepack</Description>
@@ -1205,16 +1251,36 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Pstarwarsweapons" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Turrets\Large turrets.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
             <Blocks>
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Guild_LaserCannonTurret" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Tower_Heavy" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Octoturbolaser_Turret_Normal" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Tower_IonCannon_Basic" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Tower_AntiInfantry_Basic" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_IMP_DefenseHeavyBattery_DMDC" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="P_Tractorbeam" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="InterdictionSphere" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="Hangar_Rebel_5x5x3" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_PatrolCraft_LaserCannonTurret" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Tower_LaserCannon_Basic" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_Turrets_Light_NanoMissileTurret" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_Turrets_Light_ProtectorLaserCannon" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_Turrets_Light_AMS" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_IMP_LancerAA_A" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_IMP_LancerAA_B" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Tower_PDT_Basic" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_PatrolCraft_TorpLauncher" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Tower_TurboLaser_3x" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_General_LaserCannonTurret" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_General_LIonCannonTurret" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_Hoth_LaserCannonTurret" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_General_PopupTurret_1" />
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Tower_ConcussionMissile" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Tower_Heavy" />
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Tower_TurboLaser_Basic" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Octoturbolaser_Turret_Normal" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Guild_LaserCannonTurret" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Tower_IonCannon_Basic" />
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_IMP_DefenseBattery_DLC" />
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_IMP_DefenseBattery_DTC" />
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_IMP_DefenseBattery_DIC" />
@@ -1223,25 +1289,6 @@
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_IMP_DefenseHeavyBattery_PTL" />
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_IMP_RecessedEmplacement_DTC" />
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_IMP_RecessedEmplacement_DIC" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_IMP_LancerAA_A" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_IMP_LancerAA_B" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Tower_PDT_Basic" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Tower_TurboLaser_3x" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Tower_AntiInfantry_Basic" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_SW_IMP_DefenseHeavyBattery_DMDC" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="P_Tractorbeam" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="InterdictionSphere" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="Hangar_Rebel_5x5x3" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_PatrolCraft_LaserCannonTurret" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_PatrolCraft_TorpLauncher" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Tower_LaserCannon_Basic" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_Turrets_Light_NanoMissileTurret" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_Turrets_Light_ProtectorLaserCannon" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_Turrets_Light_AMS" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_General_LaserCannonTurret" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_General_LIonCannonTurret" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_Hoth_LaserCannonTurret" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_General_PopupTurret_1" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -1249,6 +1296,7 @@
         <!--Large grid LaserBVG -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LaserBVG" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Turrets\Laser turrets.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
@@ -1263,7 +1311,6 @@
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Tower_TurboLaser_Basic" />
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Tower_PDT_Basic" />
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Tower_LaserCannon_Basic" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Tower_AntiInfantry_Basic" />
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_Turrets_Light_NanoMissileTurret" />
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_Turrets_Light_ProtectorLaserCannon" />
 
@@ -1273,6 +1320,7 @@
         <!--Large grid MaserBVG -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="MaserBVG" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Turrets\Maser turrets.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
@@ -1289,6 +1337,7 @@
         <!--Large grid IonBVG -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="IonBVG" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Turrets\Ion turrets.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
@@ -1305,6 +1354,7 @@
         <!--Large grid EWAR&Missiles BVG -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="MissileBVG" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Turrets\Missile turrets.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
@@ -1316,6 +1366,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EwarBVG" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Turrets\EWAR.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
@@ -1328,6 +1379,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="FighterBVG" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Turrets\Fighter turrets.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
@@ -1339,6 +1391,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="testers" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Imperial_TurboTower.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
@@ -1374,11 +1427,28 @@
 
         <!--Small grid weapons start -->
         <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Pstarwarsweaponsmall" />
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="PstarwarsweaponsmallVarient" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
+            <Icon>Textures\GUI\Icons\Turrets\Small turrets.dds</Icon>
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Turrets\Small turrets.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
             <Blocks>
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_RZ1_Launcher_MortarUpgrade" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_RZ1_Nose_Ram" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_RZ1_Nose_Gun" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_RZ1_RearLauncher_Flare" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_RZ1_LaserCannon_TargetingUpgrade" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_RZ1_LaserCannon_SuperchargerUpgrade" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_RZ1_LaserCannon_Stock" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_RZ1_LaserCannon_OverchargeUpgrade" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_YWing_LaserCannon" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_YWing_BombBay" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_YWing_IonTurret" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_YWing_TorpedoLauncher" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_YWing_YWing_LaserTurret" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_YWing_LaserTurret" />
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Reborn_TIE_Hunter_CyclicRepeatingBlaster" />
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Reborn_TIE_Hunter_Launcher" />
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Imperial_Reborn_TIE_Hunter_WingCannon_A" />
@@ -1405,11 +1475,6 @@
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_XWing_XJ5_Weaponry_Wing_A" />
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_XWing_XJ5_Weaponry_Wing_B" />
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_XWing_XJ5_ProtonTorpedoLauncher" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_YWing_LaserCannon" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_YWing_BombBay" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_YWing_IonTurret" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_YWing_TorpedoLauncher" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_YWing_YWing_LaserTurret" />
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_Ionizer_LC" />
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_Ionizer_IonWingA" />
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_Ionizer_IonWingB" />
@@ -1426,26 +1491,18 @@
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_AWing_LaserCannon" />
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_AWing_AMS" />
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_FM_LaserCannon_01" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_RZ1_LaserCannon_Stock" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_RZ1_LaserCannon_OverchargeUpgrade" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_RZ1_LaserCannon_TargetingUpgrade" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_RZ1_LaserCannon_SuperchargerUpgrade" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_RZ1_RearLauncher_Flare" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_RZ1_Launcher_Stock" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_RZ1_Launcher_MicroLaunchUpgrade" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_RZ1_Launcher_SpecialistUpgrade" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_RZ1_Launcher_MortarUpgrade" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_RZ1_Nose_Ram" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_RZ1_Nose_Gun" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_NewRepublic_YWing_LaserTurret" />
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Chiss_Clawcraft_WingCannon" />
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Chiss_Clawcraft_WingCannonII" />
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_TIE_Fighter_Weaponry" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_RZ1_Launcher_Stock" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_RZ1_Launcher_MicroLaunchUpgrade" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="K_Rebellion_RZ1_Launcher_SpecialistUpgrade" />
             </Blocks>
         </BlockVariantGroup>
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="PstarwarsweaponsmallFlare" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Turrets\Flare turrets.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
@@ -1463,6 +1520,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="PstarwarsweaponsmallIon" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Turrets\Ion turrets.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
@@ -1475,6 +1533,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="PstarwarsweaponsmallLaser" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Turrets\Laser turrets.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
@@ -1524,6 +1583,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="PstarwarsweaponsmallMaser" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Turrets\Maser turrets.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
@@ -1542,6 +1602,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="PstarwarsweaponsmallMissile" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Turrets\Missile turrets.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
@@ -1561,6 +1622,7 @@
         <!--Randomsheeets -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ContainerGroup" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_ContainerGroup</DisplayName>
             <Description>Description_BlockGroup_ContainerGroup</Description>
@@ -1584,6 +1646,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AntennaGroup" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Cubes\antenna.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_AntennaGroup</DisplayName>
             <Description>Description_BlockGroup_AntennaGroup</Description>
@@ -1618,6 +1681,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Propgroup" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Cubes\antenna.dds</Icon>
             <DisplayName>Propgroup</DisplayName>
             <Description>Propgroup</Description>
@@ -1636,6 +1700,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Coolarmorblocks" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Cosmetic\Cube_empirecubestriped.dds</Icon>
             <DisplayName>Propgroup</DisplayName>
             <Description>Propgroup</Description>
@@ -1652,11 +1717,25 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="K_Imperial_Misc_Wall_Curve" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="K_Imperial_Staircase" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="K_Imperial_Misc_Wall_CurveCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="K_Imperial_Armor_SithApprentice_Cube" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="K_Imperial_Armor_SithApprentice_Cube_Edge" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="K_Imperial_Armor_SithApprentice_Cube_EdgeDouble" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="K_Imperial_Armor_SithApprentice_Cube_Indented" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="K_Imperial_Armor_SithApprentice_Cube_Bar" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="K_Imperial_Armor_SithApprentice_Cube_Stripe" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="K_Imperial_Armor_SithApprentice_Cube_EdgeCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="K_Imperial_Armor_SithApprentice_Cube_CenterPlate" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="K_Imperial_Armor_SithApprentice_Cube_Spike" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="K_WS_TC_Armor_Sith_Decal_Cube" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="K_WS_TC_Armor_Sith_Decal_Cross" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="K_WS_TC_Armor_Sith_Decal_Trim" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="K_WS_TC_Armor_Sith_Decal_Slope" />
             </Blocks>
         </BlockVariantGroup>
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Walkways" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Cosmetic\ReHalfwall.dds</Icon>
             <DisplayName>Propgroup</DisplayName>
             <Description>Propgroup</Description>
@@ -1674,11 +1753,15 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="K_Imperial_Misc_Pillar_II" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="K_Imperial_Misc_Passage_I" />
                 <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="K_Imperial_Walkway_Bridge" />
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="K_Imperial_Walkway_BridgeSG" />
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="K_Imperial_Walkway_Bridge4l5" />
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="K_Imperial_Walkway_Bridge45" />
             </Blocks>
         </BlockVariantGroup>
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Testeriono" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Cosmetic\ReHalfwall.dds</Icon>
             <DisplayName>Propgroup</DisplayName>
             <Description>Propgroup</Description>
@@ -1703,6 +1786,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Testeriono2" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
             <Icon>Textures\GUI\Icons\Cosmetic\ReHalfwall.dds</Icon>
             <DisplayName>Propgroup</DisplayName>
             <Description>Propgroup</Description>
@@ -1737,6 +1821,76 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Comptester_Re_2_13" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Comptester_Re_2_14" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Comptester_Re_2_15" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ButtonPanelGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\ButtonPanel.dds</Icon>
+            <DisplayName>DisplayName_Block_ButtonPanel</DisplayName>
+            <Description>Description_ButtonPanel</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="ButtonPanelLarge" />
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="ButtonPanelSmall" />
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="LargeSciFiButtonPanel" />
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="LargeSciFiButtonTerminal" />
+                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="ControlPanel" />
+                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="SmallControlPanel" />
+                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="LargeBlockSciFiTerminal" />
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="VerticalButtonPanelLarge" />
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="VerticalButtonPanelSmall" />
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="K_Imperial_ButtonPanel_27" />
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="K_Imperial_Button_Single_Ped" />
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="Sith_Barracks_AccessPanel" />
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="Sith_Barracks_SecurityPanel" />
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="Sith_Barracks_AccessConsole" />
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="K_Imperial_ButtonPanel_27_Small" />
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="K_Imperial_Button_Single_Ped_Small" />
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="Sith_Barracks_AccessPanel_Small" />
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="Sith_Barracks_SecurityPanel_Small" />
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="Sith_Barracks_AccessConsole_Small" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="StarWarsLightingGroup" />
+            <Icon>Textures\GUI\Icons\Cosmetic\RELIGHT.dds</Icon>
+            <DisplayName>SW Lighting group</DisplayName>
+            <Description>SW Lighting group</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="K_Imperial_Spotlight" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="K_Sith_Apprentice_PillarLight" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="K_Sith_Hangar_Light" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="K_Sith_Hangar_Light_Wall" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="K_Sith_Apprentice_RelicDecor" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="K_Sith_Apprentice_RelicArtifact" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="K_Sith_Apprentice_PillarLight_Small" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="K_Sith_Hangar_Light_Small" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="K_Sith_Hangar_Light_Wall_Small" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="StarWarsAutomationGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\ProgrammingBlock.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_AutomationGroup</DisplayName>
+            <Description>Description_BlockGroup_AutomationGroup</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_MyProgrammableBlock" Subtype="K_TIE_Fighter_PB" />
+                <Block Type="MyObjectBuilder_MyProgrammableBlock" Subtype="K_Imperial_ISD_New_Bridge_PB" />
+                <Block Type="MyObjectBuilder_MyProgrammableBlock" Subtype="K_Sith_Barracks_MonitorSecurity" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="K_Sith_Barracks_Monitor" />
+                <Block Type="MyObjectBuilder_MyProgrammableBlock" Subtype="K_Sith_CloningFacility_TwinRack_I" />
+                <Block Type="MyObjectBuilder_MyProgrammableBlock" Subtype="K_Sith_Hangar_ShadowDroidAssembly" />
+                <Block Type="MyObjectBuilder_MyProgrammableBlock" Subtype="K_Sith_Hangar_WarDroidAssembly" />
+                <Block Type="MyObjectBuilder_MyProgrammableBlock" Subtype="K_Sith_Hangar_AnnihilatorAssembly" />
+                <Block Type="MyObjectBuilder_SensorBlock" Subtype="K_Sith_Apprentice_Floor_Sensor" />
+                <Block Type="MyObjectBuilder_SensorBlock" Subtype="K_Sith_Apprentice_PillarWall_Sensor" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="K_Sith_Apprentice_PillarWall" />
+                <Block Type="MyObjectBuilder_SensorBlock" Subtype="K_Imperial_ProbeDroid_Top_Sensor" />
+                <Block Type="MyObjectBuilder_SensorBlock" Subtype="K_Imperial_ProbeDroid_Top_SensorII" />
+                <Block Type="MyObjectBuilder_TimerBlock" Subtype="K_Imperial_ProbeDroid_Bottom_I" />
+                <Block Type="MyObjectBuilder_TimerBlock" Subtype="K_TIE_Fighter_Timer" />
             </Blocks>
         </BlockVariantGroup>
 

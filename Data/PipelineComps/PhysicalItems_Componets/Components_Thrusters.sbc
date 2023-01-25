@@ -16,13 +16,13 @@
         <Y>0.5</Y>
         <Z>0.01</Z>
       </Size>
-      <Mass>10</Mass>
-      <Volume>25</Volume>
+      <Mass>6</Mass>
+      <Volume>1</Volume>
       <Model>Models\Ammo\K_Imperial_Torp_Small.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>15</MaxIntegrity>
+      <MaxIntegrity>30</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
-      <Health>20</Health>
+      <Health>30</Health>
       <MinimalPricePerUnit>600</MinimalPricePerUnit>
       <CanPlayerOrder>true</CanPlayerOrder>
     </Component>
@@ -40,13 +40,13 @@
         <Y>0.5</Y>
         <Z>0.01</Z>
       </Size>
-      <Mass>40</Mass>
-      <Volume>5</Volume>
+      <Mass>6</Mass>
+      <Volume>1</Volume>
       <Model>Models\Ammo\K_Imperial_Torp_Small.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>30</MaxIntegrity>
+      <MaxIntegrity>60</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
-      <Health>35</Health>
+      <Health>60</Health>
       <MinimalPricePerUnit>6000</MinimalPricePerUnit>
       <CanPlayerOrder>true</CanPlayerOrder>
     </Component>
@@ -64,13 +64,13 @@
         <Y>0.5</Y>
         <Z>0.01</Z>
       </Size>
-      <Mass>20</Mass>
-      <Volume>5</Volume>
+      <Mass>6</Mass>
+      <Volume>1</Volume>
       <Model>Models\Ammo\K_Imperial_Torp_Small.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>30</MaxIntegrity>
+      <MaxIntegrity>90</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
-      <Health>35</Health>
+      <Health>90</Health>
       <MinimalPricePerUnit>35000</MinimalPricePerUnit>
       <CanPlayerOrder>true</CanPlayerOrder>
     </Component>

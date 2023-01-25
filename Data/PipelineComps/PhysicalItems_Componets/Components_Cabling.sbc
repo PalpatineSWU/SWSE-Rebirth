@@ -17,13 +17,13 @@
         <Y>0.5</Y>
         <Z>0.01</Z>
       </Size>
-      <Mass>12</Mass>
-      <Volume>1</Volume>
+      <Mass>4</Mass>
+      <Volume>0.3</Volume>
       <Model>Models\Components\K_Imperial_Components_HeavyConduit_Small.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
+      <MaxIntegrity>30</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
-      <Health>10</Health>
+      <Health>30</Health>
       <MinimalPricePerUnit>245</MinimalPricePerUnit>
       <CanPlayerOrder>true</CanPlayerOrder>
     </Component>
@@ -41,13 +41,13 @@
         <Y>0.5</Y>
         <Z>0.01</Z>
       </Size>
-      <Mass>12</Mass>
-      <Volume>1</Volume>
+      <Mass>4</Mass>
+      <Volume>0.3</Volume>
       <Model>Models\Components\K_Imperial_Components_HeavyConduit_Small.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
+      <MaxIntegrity>60</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
-      <Health>10</Health>
+      <Health>60</Health>
       <MinimalPricePerUnit>2400</MinimalPricePerUnit>
       <CanPlayerOrder>true</CanPlayerOrder>
     </Component>
@@ -66,13 +66,13 @@
         <Y>0.5</Y>
         <Z>0.01</Z>
       </Size>
-      <Mass>5</Mass>
-      <Volume>1</Volume>
+      <Mass>4</Mass>
+      <Volume>0.3</Volume>
       <Model>Models\Components\K_Imperial_Components_HeavyConduit_Small.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>50</MaxIntegrity>
+      <MaxIntegrity>90</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
-      <Health>10</Health>
+      <Health>90</Health>
       <MinimalPricePerUnit>650</MinimalPricePerUnit>
       <CanPlayerOrder>true</CanPlayerOrder>
     </Component>

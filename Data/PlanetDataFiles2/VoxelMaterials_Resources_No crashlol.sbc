@@ -273,57 +273,6 @@
       <Friction>0.85</Friction>
 	  	  
     </VoxelMaterial>
-		 
-	 <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
-      <Id>
-        <TypeId>VoxelMaterialDefinition</TypeId>
-        <SubtypeId>K_Imperial_Voxel_Phrik</SubtypeId>
-      </Id>
-      <MaterialTypeName>Rock</MaterialTypeName>
-      <MinedOre>Phrik</MinedOre>
-      <MinedOreRatio>1</MinedOreRatio>
-      <CanBeHarvested>true</CanBeHarvested>
-      <IsRare>false</IsRare>
-      <AsteroidGeneratorSpawnProbabilityMultiplier>0</AsteroidGeneratorSpawnProbabilityMultiplier>
-	   <SpawnsInAsteroids>false</SpawnsInAsteroids>
-      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
-      
-
-      <VoxelHandPreview>Textures\Voxels\Iron_01_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\K_SW_Resource_Durasteel_XZ_cm.dds</ColorMetalXZnY>
-      <NormalGlossXZnY>Textures\Voxels\EarthStone_ng.dds</NormalGlossXZnY>
-      <ExtXZnY>Textures\Voxels\Iron_01_ForAxisXZ_add.dds</ExtXZnY>
-
-      <InitialScale>1.2</InitialScale>
-      <ScaleMultiplier>5</ScaleMultiplier>
-      <InitialDistance>5</InitialDistance>
-      <DistanceMultiplier>4</DistanceMultiplier>
-      <TilingScale>24</TilingScale>
-      
-      <ColorMetalXZnYFar1>Textures\Voxels\K_SW_Resource_Durasteel_XZ_cm.dds</ColorMetalXZnYFar1>
-      <NormalGlossXZnYFar1>Textures\Voxels\EarthStone_ng.dds</NormalGlossXZnYFar1>
-      <ExtXZnYFar1>Textures\Voxels\Iron_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
-
-      <SimpleTilingSetup>
-        <InitialScale>1</InitialScale>
-        <ScaleMultiplier>1.1</ScaleMultiplier>
-        <InitialDistance>5</InitialDistance>
-        <DistanceMultiplier>2.1</DistanceMultiplier>
-        <Far1Distance>23</Far1Distance>
-        <Far1Scale>8</Far1Scale>
-
-        <Far2Distance>200</Far2Distance>
-        <Far2Scale>20</Far2Scale>
-      </SimpleTilingSetup>
-
-      <Far1Distance>22</Far1Distance>
-      <Far1Scale>15</Far1Scale>   
-    
-      <Far2Distance>200</Far2Distance>
-      <Far2Scale>20</Far2Scale>
-
-      <LandingEffect>Landing_Jet_Ground_Dust</LandingEffect>
-    </VoxelMaterial>
-	 
+		 	 
   </VoxelMaterials>
 </Definitions>

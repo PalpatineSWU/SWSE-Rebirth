@@ -33,7 +33,7 @@ namespace Scripts
         private AmmoDef Ammo_Interdiction => new AmmoDef // Your ID, for slotting into the Weapon CS
         {
             AmmoMagazine = "Energy", // SubtypeId of physical ammo magazine. Use "Energy" for weapons without physical ammo.
-            AmmoRound = "Red", // Name of ammo in terminal, should be different for each ammo type used by the same weapon. Is used by Shrapnel.
+            AmmoRound = "Interdiction Sphere", // Name of ammo in terminal, should be different for each ammo type used by the same weapon. Is used by Shrapnel.
             HybridRound = false, // Use both a physical ammo magazine and energy per shot.
             EnergyCost = .001f, // Scaler for energy per shot (EnergyCost * BaseDamage * (RateOfFire / 3600) * BarrelsPerShot * TrajectilesPerBarrel). Uses EffectStrength instead of BaseDamage if EWAR.
             BaseDamage = 9000f, // Direct damage; one steel plate is worth 100.
@@ -118,10 +118,10 @@ namespace Scripts
                 },
                 Armor = new ArmorDef
                 {
-                    Armor = -1f, // Multiplier for damage against all armor. This is multiplied with the specific armor type multiplier (light, heavy).
+                    Armor = 6f, // Multiplier for damage against all armor. This is multiplied with the specific armor type multiplier (light, heavy).
                     Light = -1f, // Multiplier for damage against light armor.
                     Heavy = -1f, // Multiplier for damage against heavy armor.
-                    NonArmor = -1f, // Multiplier for damage against every else.
+                    NonArmor = 3f, // Multiplier for damage against every else.
                 },
                 Shields = new ShieldDef
                 {
@@ -161,7 +161,7 @@ namespace Scripts
                     Enable = false,
                     Radius = 0f, // Meters
                     Damage = 5f,
-                    Depth = 1f, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
+                    Depth = 0f, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
                     MaxAbsorb = 0f, // Soft cutoff for damage, except for pooled falloff.  If pooled falloff, limits max damage per block.
                     Falloff = Pooled, //.NoFalloff applies the same damage to all blocks in radius
                     //.Linear drops evenly by distance from center out to max radius
@@ -177,7 +177,7 @@ namespace Scripts
                     Enable = false,
                     Radius = 0f, // Radius of AOE effect, in meters.
                     Damage = 5f,
-                    Depth = 1f, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
+                    Depth = 0f, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
                     MaxAbsorb = 0f, // Soft cutoff for damage, except for pooled falloff.  If pooled falloff, limits max damage per block.
                     Falloff = Squeeze, //.NoFalloff applies the same damage to all blocks in radius
                     //.Linear drops evenly by distance from center out to max radius

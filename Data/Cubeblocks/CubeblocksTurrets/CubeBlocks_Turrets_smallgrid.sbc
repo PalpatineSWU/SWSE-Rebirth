@@ -9,7 +9,7 @@
         <TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Rebellion_FM_LaserCannon_01</SubtypeId>
       </Id>
-      <DisplayName>. Rebellion Maser-Cannon</DisplayName>
+      <DisplayName>. Rebellion Fixed Maser-Cannon</DisplayName>
       <Description>Maser</Description>
       <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
       <CubeSize>Small</CubeSize>

@@ -16,13 +16,13 @@
         <Y>0.5</Y>
         <Z>0.01</Z>
       </Size>
-      <Mass>20</Mass>
-      <Volume>5</Volume>
+      <Mass>6</Mass>
+      <Volume>1</Volume>
       <Model>Models\Components\K_Imperial_Components_PowerComverter_Small.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
+      <MaxIntegrity>30</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
-      <Health>35</Health>
+      <Health>30</Health>
       <MinimalPricePerUnit>65</MinimalPricePerUnit>
       <CanPlayerOrder>true</CanPlayerOrder>
     </Component>
@@ -45,9 +45,9 @@
       <Volume>1</Volume>
       <Model>Models\Components\K_Imperial_Components_TurboLaser_Mechanism_Small.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
+      <MaxIntegrity>90</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
-      <Health>10</Health>
+      <Health>90</Health>
       <MinimalPricePerUnit>450</MinimalPricePerUnit>
       <CanPlayerOrder>true</CanPlayerOrder>
     </Component>

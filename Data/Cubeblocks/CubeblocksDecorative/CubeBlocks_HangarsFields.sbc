@@ -324,5 +324,85 @@
       <DisassembleRatio>5</DisassembleRatio>
       <NavigationDefinition>Default</NavigationDefinition>
     </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Sith_Hangar_Field_1x</SubtypeId>
+      </Id>
+      <DisplayName>Sith Hangar Field(1x-Static)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <Description>Sith-Style Hangar Field with Emitter Frame.</Description>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Sith_Hangar_Misc\K_Sith_HangarField_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Sith_Hangar_Field_1x</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <HasPhysics>true</HasPhysics>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Sith_Hangar_Field_Corner_1x</SubtypeId>
+      </Id>
+      <DisplayName>Sith Hangar Field(1x-Static Corner)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <Description>Sith-Style Hangar Field with Emitter Frame Corner.</Description>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Sith_Hangar_Misc\K_Sith_HangarField_Corner_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Sith_Hangar_Field_Corner_1x</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <HasPhysics>true</HasPhysics>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>K_Sith_Hangar_Field_1x_Frameless</SubtypeId>
+      </Id>
+      <DisplayName>Sith Hangar Field(1x-Frameless)</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
+      <Description>Sith-Style Hangar Field.</Description>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Sith_Hangar_Misc\K_Sith_HangarField_1x1x1Field_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="110" />
+      </Components>
+      <CriticalComponent Subtype="DuraSteel" Index="0" />
+      <BlockPairName>K_Sith_Hangar_Field_1x_Frameless</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <HasPhysics>false</HasPhysics>
+      <NavigationDefinition>Default</NavigationDefinition>
+    </Definition>
+
+
   </CubeBlocks>
 </Definitions>

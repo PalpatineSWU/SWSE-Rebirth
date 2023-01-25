@@ -81,7 +81,7 @@
         <TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_Imperial_Reborn_TIE_Defender_BodyWeaponry</SubtypeId>
       </Id>
-      <DisplayName>. TIE Defender Laser-Cannon (HQ)</DisplayName>
+      <DisplayName>. TIE Defender Fixed Laser-Cannon (HQ)</DisplayName>
       <Description>Laser</Description>
       <Icon>Textures\GUI\Icons\Ships\TIERebornDefender\RebornDef.dds</Icon>
       <CubeSize>Small</CubeSize>

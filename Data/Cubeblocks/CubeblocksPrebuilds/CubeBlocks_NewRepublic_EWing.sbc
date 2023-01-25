@@ -704,7 +704,7 @@
         <TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_NewRepublic_EWing_ProtonLauncher</SubtypeId>
       </Id>
-      <DisplayName>. New Republic E-Wing Laser-Cannon (2)</DisplayName>
+      <DisplayName>. New Republic E-Wing Fixed Laser Double (2)</DisplayName>
       <Description>Laser</Description>
       <Icon>Textures\GUI\Icons\Ships\e-wing\EWing.dds</Icon>
       <CubeSize>Small</CubeSize>

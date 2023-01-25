@@ -53,7 +53,7 @@ namespace Scripts {
             },
             HardPoint = new HardPointDef
             {
-                PartName = "Guild Laser Cannon", // Name of the weapon in terminal, should be unique for each weapon definition that shares a SubtypeId (i.e. multiweapons).
+                PartName = "Guild Maser Cannon (1x1)", // Name of the weapon in terminal, should be unique for each weapon definition that shares a SubtypeId (i.e. multiweapons).
                 DeviateShotAngle = 0.2f, // Projectile inaccuracy in degrees.
                 AimingTolerance = 1f, // How many degrees off target a turret can fire at. 0 - 180 firing angle.
                 AimLeadingPrediction = Accurate, // Level of turret aim prediction; Off, Basic, Accurate, Advanced

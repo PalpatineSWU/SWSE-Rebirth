@@ -504,22 +504,6 @@
 		 <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>QuestRewardGC</SubtypeId>
-      </Id>
-      <DisplayName>Complete delivery from Kuat</DisplayName>
-      <Icon>Textures\GUI\Icons\Quests\Planetquests\KuatReward.dds</Icon>
-      <Prerequisites>
-        <Item Amount="1" TypeId="Component" SubtypeId="Technology" />
-        <Item Amount="1" TypeId="Component" SubtypeId="QuestCompGC" />
-      </Prerequisites>
-      <Result Amount="3600" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
-      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
-    </Blueprint>
-  
-  		
-		 <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>QuestRewardHC</SubtypeId>
       </Id>
       <DisplayName>Complete delivery from Tatooine</DisplayName>

@@ -53,7 +53,7 @@ namespace Scripts {
             },
             HardPoint = new HardPointDef
             {
-                PartName = "Tractor Beam", // Name of the weapon in terminal, should be unique for each weapon definition that shares a SubtypeId (i.e. multiweapons).
+                PartName = "Tractor Beam (5x5)", // Name of the weapon in terminal, should be unique for each weapon definition that shares a SubtypeId (i.e. multiweapons).
                 DeviateShotAngle = 0f, // Projectile inaccuracy in degrees.
                 AimingTolerance = 1f, // How many degrees off target a turret can fire at. 0 - 180 firing angle.
                 AimLeadingPrediction = Accurate, // Level of turret aim prediction; Off, Basic, Accurate, Advanced
@@ -115,7 +115,7 @@ namespace Scripts {
                 },
                 Loading = new LoadingDef
                 {
-                    RateOfFire = 3600, // Set this to 3600 for beam weapons. This is how fast your Gun fires.
+                    RateOfFire = 360, // Set this to 3600 for beam weapons. This is how fast your Gun fires.
                     BarrelsPerShot = 1, // How many muzzles will fire a projectile per fire event.
                     TrajectilesPerBarrel = 1, // Number of projectiles per muzzle per fire event.
                     SkipBarrels = 0, // Number of muzzles to skip after each fire event.
@@ -179,9 +179,11 @@ namespace Scripts {
                 },
             },
             Ammos = new[] {
-                Ammo_Tractor_2k,
-                Ammo_Tractor_1k,
-                Ammo_Tractor_05k, // Must list all primary, shrapnel, and pattern ammos.
+            Ammo_Sm_Laser_Red,
+            Ammo_Sm_Laser_Green,
+            Ammo_Sm_Laser_Blue,
+            Ammo_Sm_Laser_Purple,
+            Ammo_Sm_Laser_Yellow, // Must list all primary, shrapnel, and pattern ammos.
             },
             //Animations = Imperial_Turrets_LaserCannon_Standard_Animations,
             //Upgrades = UpgradeModules,

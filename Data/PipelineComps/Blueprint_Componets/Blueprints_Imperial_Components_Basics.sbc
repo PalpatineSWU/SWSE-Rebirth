@@ -10,7 +10,7 @@
         <SubtypeId>9_Imperial_GeneralParts</SubtypeId>
       </Id>
       <DisplayName>General Mechanical Supplies</DisplayName>
-      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_12.dds</Icon>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Ingot_2_13.dds</Icon>
       <Prerequisites>
         <Item Amount="12" TypeId="Ingot" SubtypeId="DuraSteel_Ingot" />
         <Item Amount="3" TypeId="Ingot" SubtypeId="Carbonite" />
@@ -25,7 +25,7 @@
         <SubtypeId>9_Imperial_Construction</SubtypeId>
       </Id>
       <DisplayName>General Construction Supplies</DisplayName>
-      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Ingot_2_13.dds</Icon>
+      <Icon>Textures\GUI\Icons\Resources\Comps\SW_Resources_Comp_12.dds</Icon>
       <Prerequisites>
         <Item Amount="3" TypeId="Ingot" SubtypeId="DuraSteel_Ingot" />
         <Item Amount="3" TypeId="Ingot" SubtypeId="Alum" />

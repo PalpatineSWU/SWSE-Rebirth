@@ -118,10 +118,10 @@ namespace Scripts
                 },
                 Armor = new ArmorDef
                 {
-                    Armor = -1f, // Multiplier for damage against all armor. This is multiplied with the specific armor type multiplier (light, heavy).
+                    Armor = 6f, // Multiplier for damage against all armor. This is multiplied with the specific armor type multiplier (light, heavy).
                     Light = -1f, // Multiplier for damage against light armor.
                     Heavy = -1f, // Multiplier for damage against heavy armor.
-                    NonArmor = -1f, // Multiplier for damage against every else.
+                    NonArmor = 3f, // Multiplier for damage against every else.
                 },
                 Shields = new ShieldDef
                 {
@@ -158,12 +158,12 @@ namespace Scripts
             {
                 ByBlockHit = new ByBlockHitDef
                 {
-                    Enable = true,
-                    Radius = 5f, // Meters
-                    Damage = 1500f,
+                    Enable = false,
+                    Radius = 0f, // Meters
+                    Damage = 0f,
                     Depth = 0f, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
                     MaxAbsorb = 0f, // Soft cutoff for damage, except for pooled falloff.  If pooled falloff, limits max damage per block.
-                    Falloff = Linear, //.NoFalloff applies the same damage to all blocks in radius
+                    Falloff = Pooled, //.NoFalloff applies the same damage to all blocks in radius
                     //.Linear drops evenly by distance from center out to max radius
                     //.Curve drops off damage sharply as it approaches the max radius
                     //.InvCurve drops off sharply from the middle and tapers to max radius
@@ -174,12 +174,12 @@ namespace Scripts
                 },
                 EndOfLife = new EndOfLifeDef
                 {
-                    Enable = false,
-                    Radius = 5f, // Radius of AOE effect, in meters.
-                    Damage = 5f,
-                    Depth = 1f, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
+                    Enable = true,
+                    Radius = 3f, // Radius of AOE effect, in meters.
+                    Damage = 300f,
+                    Depth = 0f, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
                     MaxAbsorb = 0f, // Soft cutoff for damage, except for pooled falloff.  If pooled falloff, limits max damage per block.
-                    Falloff = Squeeze, //.NoFalloff applies the same damage to all blocks in radius
+                    Falloff = Pooled, //.NoFalloff applies the same damage to all blocks in radius
                     //.Linear drops evenly by distance from center out to max radius
                     //.Curve drops off damage sharply as it approaches the max radius
                     //.InvCurve drops off sharply from the middle and tapers to max radius
@@ -187,9 +187,9 @@ namespace Scripts
                     //.Pooled damage behaves in a pooled manner that once exhausted damage ceases.
                     //.Exponential drops off exponentially.  Does not scale to max radius
                     ArmOnlyOnHit = false, // Detonation only is available, After it hits something, when this is true. IE, if shot down, it won't explode.
-                    MinArmingTime = 100, // In ticks, before the Ammo is allowed to explode, detonate or similar; This affects shrapnel spawning.
-                    NoVisuals = false,
-                    NoSound = false,
+                    MinArmingTime = 0, // In ticks, before the Ammo is allowed to explode, detonate or similar; This affects shrapnel spawning.
+                    NoVisuals = true,
+                    NoSound = true,
                     ParticleScale = 1,
                     CustomParticle = "particleName", // Particle SubtypeID, from your Particle SBC
                     CustomSound = "soundName", // SubtypeID from your Audio SBC, not a filename

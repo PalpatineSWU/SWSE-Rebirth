@@ -10,68 +10,6 @@ namespace Scripts
     {
         private AnimationDef NewRepublic_EWing_WingI_Animations => new AnimationDef
         {
-            /*
-            Emissives = new[]
-            {
-                Emissive(
-                    EmissiveName: "TurnOn",
-                    Colors: new []
-                    {
-                        Color(red:0, green: 0, blue:0, alpha: 1),//will transitions form one color to the next if more than one
-                        Color(red:0.05f, green: .021f, blue:0, alpha: .05f),
-                    },
-                    IntensityFrom:0, //starting intensity, can be 0.0-1.0 or 1.0-0.0, setting both from and to, to the same value will stay at that value
-                    IntensityTo:1,
-                    CycleEmissiveParts: false,//whether to cycle from one part to the next, while also following the Intensity Range, or set all parts at the same time to the same value
-                    LeavePreviousOn: true,//true will leave last part at the last setting until end of animation, used with cycleEmissiveParts
-                    EmissivePartNames: new []
-                    {
-                        "Emissive3"
-                    }),
-                Emissive(
-                    EmissiveName: "TurnOff",
-                    Colors: new []
-                    {
-                        Color(red:0.05f, green: .021f, blue:0, alpha: .05f),
-                        Color(red:0, green: 0, blue:0, alpha: 1),//will transitions form one color to the next if more than one
-                    },
-                    IntensityFrom:1, //starting intensity, can be 0.0-1.0 or 1.0-0.0, setting both from and to, to the same value will stay at that value
-                    IntensityTo:0,
-                    CycleEmissiveParts: false,//whether to cycle from one part to the next, while also following the Intensity Range, or set all parts at the same time to the same value
-                    LeavePreviousOn: true,//true will leave last part at the last setting until end of animation, used with cycleEmissiveParts
-                    EmissivePartNames: new []
-                    {
-                        "Emissive3"
-                    }),
-            },
-            */
-            /*EventParticles = new Dictionary<PartAnimationSetDef.EventTriggers, EventParticle[]>
-            {
-                [Firing] = new[]{
-                    new EventParticle
-                    {
-                        EmptyNames = Names("muzzle_barrel_001", "muzzle_barrel_002", "muzzle_barrel_003", "muzzle_barrel_004", "muzzle_barrel_005", "muzzle_barrel_006"),
-                        MuzzleNames = Names("muzzle_barrel_001", "muzzle_barrel_002", "muzzle_barrel_003", "muzzle_barrel_004", "muzzle_barrel_005", "muzzle_barrel_006"),
-                        StartDelay = 0, //ticks 60 = 1 second
-                        LoopDelay = 0, //ticks 60 = 1 second
-                        ForceStop = false,
-                        Particle = new ParticleDef
-                        {
-                            Name = "ShipWelderArc",
-                            Color = Color(red: 20, green: 20, blue: 20, alpha: 1),
-                            Extras = new ParticleOptionDef
-                            {
-                                Loop = false,
-                                Restart = false,
-                                MaxDistance = 200, //meters
-                                MaxDuration = 200, //ticks 60 = 1 second
-                                Scale = 1,
-                            }
-                        }
-                    },
-                },
-            },
-             */
 
             AnimationSets = new[]
             {

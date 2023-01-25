@@ -19,9 +19,9 @@ namespace Scripts {
                     new MountPointDef {
                         SubtypeId = "K_Imperial_Reborn_TIE_Interceptor_Launcher", // Block Subtypeid. Your Cubeblocks contain this information
                         SpinPartId = "None", // For weapons with a spinning barrel such as Gatling Guns. Subpart_Boomsticks must be written as Boomsticks.
-                        MuzzlePartId = "LaserCannon_Ele", // The subpart where your muzzle empties are located. This is often the elevation subpart. Subpart_Boomsticks must be written as Boomsticks.
-                        AzimuthPartId = "LaserCannon_Rot", // Your Rotating Subpart, the bit that moves sideways.
-                        ElevationPartId = "LaserCannon_Ele",// Your Elevating Subpart, that bit that moves up.
+                        MuzzlePartId = "None", // The subpart where your muzzle empties are located. This is often the elevation subpart. Subpart_Boomsticks must be written as Boomsticks.
+                        AzimuthPartId = "None", // Your Rotating Subpart, the bit that moves sideways.
+                        ElevationPartId = "None",// Your Elevating Subpart, that bit that moves up.
                         DurabilityMod = 0.25f, // GeneralDamageMultiplier, 0.25f = 25% damage taken.
                         IconName = "Flare turrets.dds" // Overlay for block inventory slots, like reactors, refineries, etc.
                     },             
@@ -54,7 +54,7 @@ namespace Scripts {
             },
             HardPoint = new HardPointDef
             {
-                PartName = "Tie Launcher", // Name of the weapon in terminal, should be unique for each weapon definition that shares a SubtypeId (i.e. multiweapons).
+                PartName = "Tie Flare Launcher", // Name of the weapon in terminal, should be unique for each weapon definition that shares a SubtypeId (i.e. multiweapons).
                 DeviateShotAngle = 0.2f, // Projectile inaccuracy in degrees.
                 AimingTolerance = 1f, // How many degrees off target a turret can fire at. 0 - 180 firing angle.
                 AimLeadingPrediction = Accurate, // Level of turret aim prediction; Off, Basic, Accurate, Advanced
@@ -71,10 +71,10 @@ namespace Scripts {
                 },
                 Ai = new AiDef
                 {
-                    TrackTargets = true, // Whether this weapon tracks its own targets, or (for multiweapons) relies on the weapon with PrimaryTracking enabled for target designation. Turrets Need this set to True.
-                    TurretAttached = true, // Whether this weapon is a turret and should have the UI and API options for such. Turrets Need this set to True.
-                    TurretController = true, // Whether this weapon can physically control the turret's movement. Turrets Need this set to True.
-                    PrimaryTracking = true, // For multiweapons: whether this weapon should designate targets for other weapons on the platform without their own tracking.
+                    TrackTargets = false, // Whether this weapon tracks its own targets, or (for multiweapons) relies on the weapon with PrimaryTracking enabled for target designation. Turrets Need this set to True.
+                    TurretAttached = false, // Whether this weapon is a turret and should have the UI and API options for such. Turrets Need this set to True.
+                    TurretController = false, // Whether this weapon can physically control the turret's movement. Turrets Need this set to True.
+                    PrimaryTracking = false, // For multiweapons: whether this weapon should designate targets for other weapons on the platform without their own tracking.
                     LockOnFocus = false, // If enabled, weapon will only fire at targets that have been HUD selected AND locked onto by pressing Numpad 0.
                     SuppressFire = false, // If enabled, weapon can only be fired manually.
                     OverrideLeads = false, // Disable target leading on fixed weapons, or allow it for turrets.
@@ -110,9 +110,9 @@ namespace Scripts {
                     EnergyPriority = 0, // Deprecated.
                     MuzzleCheck = false, // Whether the weapon should check LOS from each individual muzzle in addition to the scope.
                     Debug = false, // Force enables debug mode.
-                    RestrictionRadius = 3, // Prevents other blocks of this type from being placed within this distance of the centre of the block.
-                    CheckInflatedBox = true, // If true, the above distance check is performed from the edge of the block instead of the centre.
-                    CheckForAnyWeapon = true, // If true, the check will fail if ANY weapon is present, not just weapons of the same subtype.
+                    RestrictionRadius = 0, // Prevents other blocks of this type from being placed within this distance of the centre of the block.
+                    CheckInflatedBox = false, // If true, the above distance check is performed from the edge of the block instead of the centre.
+                    CheckForAnyWeapon = false, // If true, the check will fail if ANY weapon is present, not just weapons of the same subtype.
                 },
                 Loading = new LoadingDef
                 {

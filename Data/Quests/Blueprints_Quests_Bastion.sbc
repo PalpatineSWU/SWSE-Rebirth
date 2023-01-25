@@ -322,14 +322,14 @@
 		 <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>QuestCompBG</SubtypeId>
+        <SubtypeId>QuestCompBD</SubtypeId>
       </Id>
       <DisplayName>Deliver to Ilum</DisplayName>
       <Icon>Textures\GUI\Icons\Quests\Planetquests\Ilum.dds</Icon>
       <Prerequisites>
         <Item Amount="1505" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
       </Prerequisites>
-      <Result Amount="1" TypeId="Component" SubtypeId="QuestCompBG" />
+      <Result Amount="1" TypeId="Component" SubtypeId="QuestCompBD" />
       <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
     </Blueprint>
   

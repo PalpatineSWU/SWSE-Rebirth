@@ -116,6 +116,8 @@ namespace Scripts
             Wep_InterdictionSphere,
             HangarRebel,
             HangarImp,
+            Wep_AntiThruster,
+            Wep_AntiThruster_lg,
             Imperial_Turrets_DefenseHeavyBattery_HVC6);
         }
     }

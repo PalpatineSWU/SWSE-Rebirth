@@ -583,7 +583,7 @@
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
-        <SubtypeId>K_WS_TC_Armor_Imperial_Decal_Cube_SG</SubtypeId>
+        <SubtypeId>Beskar_K_WS_TC_Armor_Imperial_Decal_Cube_SG</SubtypeId>
       </Id>
       <DisplayName>Beskar Stripe Cube</DisplayName>
       <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorDecal.dds</Icon>
@@ -1301,7 +1301,7 @@
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
-        <SubtypeId>K_WS_TC_Armor_Imperial_Decal_Cube_SG</SubtypeId>
+        <SubtypeId>Phrik_K_WS_TC_Armor_Imperial_Decal_Cube_SG</SubtypeId>
       </Id>
       <DisplayName>Phrik Stripe Cube</DisplayName>
       <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorDecal.dds</Icon>
@@ -2022,7 +2022,7 @@
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
-        <SubtypeId>K_WS_TC_Armor_Imperial_Decal_Cube_SG</SubtypeId>
+        <SubtypeId>Impervium_K_WS_TC_Armor_Imperial_Decal_Cube_SG</SubtypeId>
       </Id>
       <DisplayName>Impervium Stripe Cube</DisplayName>
       <Icon>Textures\GUI\Icons\Blocks\Imp_GeneralIcons_ArmorDecal.dds</Icon>

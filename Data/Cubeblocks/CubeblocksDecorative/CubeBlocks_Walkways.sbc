@@ -365,9 +365,794 @@
     <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
       <Id>
         <TypeId>AdvancedDoor</TypeId>
+        <SubtypeId>K_Imperial_Walkway_Bridge45</SubtypeId>
+      </Id>
+      <DisplayName>Small Extending Walkway Ramp</DisplayName>
+      <Icon>Textures\GUI\Icons\Cosmetic\RewalkwayRampBridge.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="1" z="2" />
+      <ModelOffset x="0" y="-1" z="-.75" />
+      <Model>Models\Misc\K_Imperial_Walkway_Bridge_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="20" />
+        <Component Subtype="Computer" Count="3" />
+        <Component Subtype="SolarCircuitry" Count="15" />
+        <Component Subtype="BulletproofGlass" Count="15" />
+        <Component Subtype="DuraSteel" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <BlockPairName>K_Imperial_Walkway_Bridge45</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <ResourceSourceGroup>Doors</ResourceSourceGroup>
+      <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+      <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+      <DamageEffectId>212</DamageEffectId>
+      <Subparts>
+        <SubpartDefinition>
+          <Name>K_Imperial_Walkway_Bridge_1_Large</Name>
+        </SubpartDefinition>
+        <SubpartDefinition>
+          <Name>K_Imperial_Walkway_Bridge_2_Large</Name>
+        </SubpartDefinition>
+        <SubpartDefinition>
+          <Name>K_Imperial_Walkway_Bridge_3_Large</Name>
+        </SubpartDefinition>
+        <SubpartDefinition>
+          <Name>K_Imperial_Walkway_Bridge_4_Large</Name>
+        </SubpartDefinition>
+        <SubpartDefinition>
+          <Name>K_Imperial_Walkway_Bridge_5_Large</Name>
+        </SubpartDefinition>
+        <SubpartDefinition>
+          <Name>K_Imperial_Walkway_Bridge_6_Large</Name>
+        </SubpartDefinition>
+      </Subparts>
+      <OpeningSequence>
+        <Opening>
+          <IDs>0</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="0" z="-1" />
+          <MaxOpen>0</MaxOpen>
+          <Speed>2</Speed>
+          <OpenDelay>2</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+
+
+        <Opening>
+          <IDs>0</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="-1" z="0" />
+          <MaxOpen>0.5</MaxOpen>
+          <Speed>.5</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>3.3</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+        <Opening>
+          <IDs>0</IDs>
+          <Move>Rotate</Move>
+          <RotationAxis>X</RotationAxis>
+          <MaxOpen>-38.66</MaxOpen>
+          <Speed>20</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>2</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+
+
+        <Opening>
+          <IDs>1</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="0" z="-1" />
+          <MaxOpen>1</MaxOpen>
+          <Speed>2.5</Speed>
+          <OpenDelay>2</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+
+        <Opening>
+          <IDs>1</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="-1" z="0" />
+          <MaxOpen>.5</MaxOpen>
+          <Speed>.5</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>3.3</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+
+        <Opening>
+          <IDs>1</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="-1" z="0" />
+          <MaxOpen>0.8</MaxOpen>
+          <Speed>2</Speed>
+          <OpenDelay>2</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+        <Opening>
+          <IDs>1</IDs>
+          <Move>Rotate</Move>
+          <RotationAxis>X</RotationAxis>
+          <MaxOpen>-38.66</MaxOpen>
+          <Speed>20</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>2</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+
+
+        <Opening>
+          <IDs>2</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="0" z="-1" />
+          <MaxOpen>2</MaxOpen>
+          <Speed>2.5</Speed>
+          <OpenDelay>2</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+
+        <Opening>
+          <IDs>2</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="-1" z="0" />
+          <MaxOpen>.5</MaxOpen>
+          <Speed>.5</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>3.3</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+
+        <Opening>
+          <IDs>2</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="-1" z="0" />
+          <MaxOpen>1.6</MaxOpen>
+          <Speed>2</Speed>
+          <OpenDelay>2</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+        <Opening>
+          <IDs>2</IDs>
+          <Move>Rotate</Move>
+          <RotationAxis>X</RotationAxis>
+          <MaxOpen>-38.66</MaxOpen>
+          <Speed>20</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>2</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+
+
+        <Opening>
+          <IDs>3</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="0" z="-1" />
+          <MaxOpen>3</MaxOpen>
+          <Speed>2.5</Speed>
+          <OpenDelay>2</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+
+        <Opening>
+          <IDs>3</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="-1" z="0" />
+          <MaxOpen>.5</MaxOpen>
+          <Speed>.5</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>3.3</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+
+        <Opening>
+          <IDs>3</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="-1" z="0" />
+          <MaxOpen>2.4</MaxOpen>
+          <Speed>2</Speed>
+          <OpenDelay>2</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+        <Opening>
+          <IDs>3</IDs>
+          <Move>Rotate</Move>
+          <RotationAxis>X</RotationAxis>
+          <MaxOpen>-38.66</MaxOpen>
+          <Speed>20</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>2</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+
+
+        <Opening>
+          <IDs>4</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="0" z="-1" />
+          <MaxOpen>4</MaxOpen>
+          <Speed>2.5</Speed>
+          <OpenDelay>2</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+
+        <Opening>
+          <IDs>4</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="-1" z="0" />
+          <MaxOpen>.5</MaxOpen>
+          <Speed>.5</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>3.3</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+
+        <Opening>
+          <IDs>4</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="-1" z="0" />
+          <MaxOpen>3.2</MaxOpen>
+          <Speed>2</Speed>
+          <OpenDelay>2</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+        <Opening>
+          <IDs>4</IDs>
+          <Move>Rotate</Move>
+          <RotationAxis>X</RotationAxis>
+          <MaxOpen>-38.66</MaxOpen>
+          <Speed>20</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>2</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+
+
+        <Opening>
+          <IDs>5</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="0" z="-1" />
+          <MaxOpen>5</MaxOpen>
+          <Speed>2.5</Speed>
+          <OpenDelay>2</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+
+        <Opening>
+          <IDs>5</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="-1" z="0" />
+          <MaxOpen>.5</MaxOpen>
+          <Speed>.5</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>3.3</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+
+        <Opening>
+          <IDs>5</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="-1" z="0" />
+          <MaxOpen>4.0</MaxOpen>
+          <Speed>2</Speed>
+          <OpenDelay>2</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+        <Opening>
+          <IDs>5</IDs>
+          <Move>Rotate</Move>
+          <RotationAxis>X</RotationAxis>
+          <MaxOpen>-38.66</MaxOpen>
+          <Speed>20</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>2</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+
+
+      </OpeningSequence>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+      <Id>
+        <TypeId>AdvancedDoor</TypeId>
+        <SubtypeId>K_Imperial_Walkway_Bridge4l5</SubtypeId>
+      </Id>
+      <DisplayName>Extending Walkway Ramp</DisplayName>
+      <Icon>Textures\GUI\Icons\Cosmetic\RewalkwayRampBridge.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Misc\K_Imperial_Walkway_Bridge_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="20" />
+        <Component Subtype="Computer" Count="3" />
+        <Component Subtype="SolarCircuitry" Count="15" />
+        <Component Subtype="BulletproofGlass" Count="15" />
+        <Component Subtype="DuraSteel" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <BlockPairName>K_Imperial_Walkway_Bridge45</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <ResourceSourceGroup>Doors</ResourceSourceGroup>
+      <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+      <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+      <DamageEffectId>212</DamageEffectId>
+      <Subparts>
+        <SubpartDefinition>
+          <Name>K_Imperial_Walkway_Bridge_1_Large</Name>
+        </SubpartDefinition>
+        <SubpartDefinition>
+          <Name>K_Imperial_Walkway_Bridge_2_Large</Name>
+        </SubpartDefinition>
+        <SubpartDefinition>
+          <Name>K_Imperial_Walkway_Bridge_3_Large</Name>
+        </SubpartDefinition>
+        <SubpartDefinition>
+          <Name>K_Imperial_Walkway_Bridge_4_Large</Name>
+        </SubpartDefinition>
+        <SubpartDefinition>
+          <Name>K_Imperial_Walkway_Bridge_5_Large</Name>
+        </SubpartDefinition>
+        <SubpartDefinition>
+          <Name>K_Imperial_Walkway_Bridge_6_Large</Name>
+        </SubpartDefinition>
+      </Subparts>
+      <OpeningSequence>
+        <Opening>
+          <IDs>0</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="0" z="-1" />
+          <MaxOpen>0</MaxOpen>
+          <Speed>2</Speed>
+          <OpenDelay>2</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+
+
+        <Opening>
+          <IDs>0</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="-1" z="0" />
+          <MaxOpen>0.5</MaxOpen>
+          <Speed>.5</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>3.3</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+        <Opening>
+          <IDs>0</IDs>
+          <Move>Rotate</Move>
+          <RotationAxis>X</RotationAxis>
+          <MaxOpen>-38.66</MaxOpen>
+          <Speed>20</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>2</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+
+
+        <Opening>
+          <IDs>1</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="0" z="-1" />
+          <MaxOpen>1</MaxOpen>
+          <Speed>2.5</Speed>
+          <OpenDelay>2</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+
+        <Opening>
+          <IDs>1</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="-1" z="0" />
+          <MaxOpen>.5</MaxOpen>
+          <Speed>.5</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>3.3</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+
+        <Opening>
+          <IDs>1</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="-1" z="0" />
+          <MaxOpen>0.8</MaxOpen>
+          <Speed>2</Speed>
+          <OpenDelay>2</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+        <Opening>
+          <IDs>1</IDs>
+          <Move>Rotate</Move>
+          <RotationAxis>X</RotationAxis>
+          <MaxOpen>-38.66</MaxOpen>
+          <Speed>20</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>2</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+
+
+        <Opening>
+          <IDs>2</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="0" z="-1" />
+          <MaxOpen>2</MaxOpen>
+          <Speed>2.5</Speed>
+          <OpenDelay>2</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+
+        <Opening>
+          <IDs>2</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="-1" z="0" />
+          <MaxOpen>.5</MaxOpen>
+          <Speed>.5</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>3.3</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+
+        <Opening>
+          <IDs>2</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="-1" z="0" />
+          <MaxOpen>1.6</MaxOpen>
+          <Speed>2</Speed>
+          <OpenDelay>2</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+        <Opening>
+          <IDs>2</IDs>
+          <Move>Rotate</Move>
+          <RotationAxis>X</RotationAxis>
+          <MaxOpen>-38.66</MaxOpen>
+          <Speed>20</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>2</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+
+
+        <Opening>
+          <IDs>3</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="0" z="-1" />
+          <MaxOpen>3</MaxOpen>
+          <Speed>2.5</Speed>
+          <OpenDelay>2</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+
+        <Opening>
+          <IDs>3</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="-1" z="0" />
+          <MaxOpen>.5</MaxOpen>
+          <Speed>.5</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>3.3</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+
+        <Opening>
+          <IDs>3</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="-1" z="0" />
+          <MaxOpen>2.4</MaxOpen>
+          <Speed>2</Speed>
+          <OpenDelay>2</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+        <Opening>
+          <IDs>3</IDs>
+          <Move>Rotate</Move>
+          <RotationAxis>X</RotationAxis>
+          <MaxOpen>-38.66</MaxOpen>
+          <Speed>20</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>2</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+
+
+        <Opening>
+          <IDs>4</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="0" z="-1" />
+          <MaxOpen>4</MaxOpen>
+          <Speed>2.5</Speed>
+          <OpenDelay>2</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+
+        <Opening>
+          <IDs>4</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="-1" z="0" />
+          <MaxOpen>.5</MaxOpen>
+          <Speed>.5</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>3.3</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+
+        <Opening>
+          <IDs>4</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="-1" z="0" />
+          <MaxOpen>3.2</MaxOpen>
+          <Speed>2</Speed>
+          <OpenDelay>2</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+        <Opening>
+          <IDs>4</IDs>
+          <Move>Rotate</Move>
+          <RotationAxis>X</RotationAxis>
+          <MaxOpen>-38.66</MaxOpen>
+          <Speed>20</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>2</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+
+
+        <Opening>
+          <IDs>5</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="0" z="-1" />
+          <MaxOpen>5</MaxOpen>
+          <Speed>2.5</Speed>
+          <OpenDelay>2</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+
+        <Opening>
+          <IDs>5</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="-1" z="0" />
+          <MaxOpen>.5</MaxOpen>
+          <Speed>.5</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>3.3</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+
+        <Opening>
+          <IDs>5</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="-1" z="0" />
+          <MaxOpen>4.0</MaxOpen>
+          <Speed>2</Speed>
+          <OpenDelay>2</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+        <Opening>
+          <IDs>5</IDs>
+          <Move>Rotate</Move>
+          <RotationAxis>X</RotationAxis>
+          <MaxOpen>-38.66</MaxOpen>
+          <Speed>20</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>2</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+
+
+      </OpeningSequence>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+      <Id>
+        <TypeId>AdvancedDoor</TypeId>
+        <SubtypeId>K_Imperial_Walkway_BridgeSG</SubtypeId>
+      </Id>
+      <DisplayName>Small Extending Walkway Bridge</DisplayName>
+      <Icon>Textures\GUI\Icons\Cosmetic\RewalkwayRampBridge.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="1" z="2" />
+      <ModelOffset x="0" y="-1" z="-.75" />
+      <Model>Models\Misc\K_Imperial_Walkway_Bridge_Large.mwm</Model>
+      <Components>
+        <Component Subtype="DuraSteel" Count="20" />
+        <Component Subtype="Computer" Count="3" />
+        <Component Subtype="SolarCircuitry" Count="15" />
+        <Component Subtype="BulletproofGlass" Count="15" />
+        <Component Subtype="DuraSteel" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <BlockPairName>K_Imperial_Walkway_Bridge</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <ResourceSourceGroup>Doors</ResourceSourceGroup>
+      <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+      <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+      <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+      <DamageEffectId>212</DamageEffectId>
+      <Subparts>
+        <SubpartDefinition>
+          <Name>K_Imperial_Walkway_Bridge_1_Large</Name>
+        </SubpartDefinition>
+        <SubpartDefinition>
+          <Name>K_Imperial_Walkway_Bridge_2_Large</Name>
+        </SubpartDefinition>
+        <SubpartDefinition>
+          <Name>K_Imperial_Walkway_Bridge_3_Large</Name>
+        </SubpartDefinition>
+        <SubpartDefinition>
+          <Name>K_Imperial_Walkway_Bridge_4_Large</Name>
+        </SubpartDefinition>
+        <SubpartDefinition>
+          <Name>K_Imperial_Walkway_Bridge_5_Large</Name>
+        </SubpartDefinition>
+        <SubpartDefinition>
+          <Name>K_Imperial_Walkway_Bridge_6_Large</Name>
+        </SubpartDefinition>
+      </Subparts>
+      <OpeningSequence>
+        <Opening>
+          <IDs>0</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="0" z="-1" />
+          <MaxOpen>1</MaxOpen>
+          <Speed>2</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+        <Opening>
+          <IDs>1</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="0" z="-1" />
+          <MaxOpen>2.2</MaxOpen>
+          <Speed>2</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+        <Opening>
+          <IDs>2</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="0" z="-1" />
+          <MaxOpen>3.2</MaxOpen>
+          <Speed>2</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+        <Opening>
+          <IDs>3</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="0" z="-1" />
+          <MaxOpen>4.2</MaxOpen>
+          <Speed>2</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+        <Opening>
+          <IDs>4</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="0" z="-1" />
+          <MaxOpen>5.2</MaxOpen>
+          <Speed>2</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+        <Opening>
+          <IDs>5</IDs>
+          <Move>Slide</Move>
+          <SlideDirection x="0" y="0" z="-1" />
+          <MaxOpen>6.2</MaxOpen>
+          <Speed>2</Speed>
+          <OpenDelay>0</OpenDelay>
+          <CloseDelay>0</CloseDelay>
+          <OpenSound>BlockDoorHangar</OpenSound>
+          <CloseSound>BlockDoorHangar</CloseSound>
+        </Opening>
+      </OpeningSequence>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+      <Id>
+        <TypeId>AdvancedDoor</TypeId>
         <SubtypeId>K_Imperial_Walkway_Bridge</SubtypeId>
       </Id>
-      <DisplayName>Republic Walkway Bridge</DisplayName>
+      <DisplayName>Extending Walkway Bridge</DisplayName>
       <Icon>Textures\GUI\Icons\Cosmetic\RewalkwayRampBridge.dds</Icon>
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>

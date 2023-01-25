@@ -20,9 +20,9 @@
       <Volume>0.3</Volume>
       <Model>Models\Components\K_Imperial_Components_Supplies_Small.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>3</MaxIntegrity>
+      <MaxIntegrity>30</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
-      <Health>3</Health>
+      <Health>30</Health>
       <MinimalPricePerUnit>110</MinimalPricePerUnit>
       <CanPlayerOrder>true</CanPlayerOrder>
     </Component>
@@ -44,9 +44,9 @@
       <Volume>0.3</Volume>
       <Model>Models\Resources\K_Resource_SalvageMetal_Small.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
+      <MaxIntegrity>60</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
-      <Health>15</Health>
+      <Health>60</Health>
       <MinimalPricePerUnit>110</MinimalPricePerUnit>
       <CanPlayerOrder>true</CanPlayerOrder>
     </Component>
@@ -64,13 +64,13 @@
         <Y>0.5</Y>
         <Z>0.01</Z>
       </Size>
-      <Mass>8</Mass>
-      <Volume>70</Volume>
+      <Mass>2</Mass>
+      <Volume>0.3</Volume>
       <Model>Models\Components\K_Imperial_Components_Conduits_Small.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>15</MaxIntegrity>
+      <MaxIntegrity>90</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
-      <Health>35</Health>
+      <Health>90</Health>
       <MinimalPricePerUnit>525</MinimalPricePerUnit>
       <CanPlayerOrder>true</CanPlayerOrder>
     </Component>

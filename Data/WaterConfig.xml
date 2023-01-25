@@ -1,11 +1,52 @@
-<?xml version="1.0"?>
-<WaterConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-<BlockConfigs>
-	<!-- Functional Blocks -->
-	<BlockConfig TypeId="HydrogenEngine" SubtypeId="K_Imperial_Reactors_Hydrogen_Basic" Volume="40" FunctionalUnderwater="true" FunctionalAboveWater="false" PlayDamageEffect="false" />
-  <BlockConfig TypeId="HydrogenEngine" SubtypeId="K_Rebellion_Survival_Power_HydrogenGenerator" Volume="40" FunctionalUnderwater="true" FunctionalAboveWater="false" PlayDamageEffect="false" />
-</BlockConfigs>
+<?xml version="1.0" encoding="utf-16"?>
+<WaterConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BlockConfigs>
+    <!-- Functional Blocks -->
+    <BlockConfig TypeId="HydrogenEngine" SubtypeId="K_Imperial_Reactors_Hydrogen_Basic" Volume="40" FunctionalUnderwater="true" FunctionalAboveWater="false" PlayDamageEffect="false" />
+    <BlockConfig TypeId="HydrogenEngine" SubtypeId="K_Rebellion_Survival_Power_HydrogenGenerator" Volume="40" FunctionalUnderwater="true" FunctionalAboveWater="false" PlayDamageEffect="false" />
+  </BlockConfigs>
   <PlanetConfigs>
+
+    <PlanetConfig TypeId="MyObjectBuilder_PlanetGeneratorDefinition" SubtypeId="Kuat">
+      <WaterSettings>
+        <Radius>1.12474</Radius>
+        <WaveHeight>1</WaveHeight>
+        <WaveSpeed>0.04</WaveSpeed>
+        <Buoyancy>1</Buoyancy>
+        <WaveScale>3</WaveScale>
+        <EnableFish>true</EnableFish>
+        <EnableSeagulls>true</EnableSeagulls>
+        <Texture>
+          <String>JWater</String>
+        </Texture>
+        <Transparent>true</Transparent>
+        <Lit>true</Lit>
+        <FogColor>
+          <X>0.05</X>
+          <Y>0.18</Y>
+          <Z>0.25</Z>
+        </FogColor>
+        <CollectionRate>1</CollectionRate>
+        <TideHeight>2</TideHeight>
+        <TideSpeed>0.05</TideSpeed>
+        <EnableFoam>true</EnableFoam>
+        <CrushDamage>0.5</CrushDamage>
+        <PlayerDrag>true</PlayerDrag>
+        <CurrentSpeed>0.5</CurrentSpeed>
+        <CurrentScale>0.005</CurrentScale>
+        <MaterialId>Water</MaterialId>
+      </WaterSettings>
+      <ColorIntensity>1</ColorIntensity>
+      <Specularity>4</Specularity>
+      <SpecularIntensity>1</SpecularIntensity>
+      <AmbientColorIntensity>0.2</AmbientColorIntensity>
+      <DistantRadiusOffset>0.021</DistantRadiusOffset>
+      <DistantRadiusScaler>2</DistantRadiusScaler>
+      <DistantSoftnessOffset>0.003</DistantSoftnessOffset>
+      <DistantSoftnessScaler>2</DistantSoftnessScaler>
+      <DistantSoftnessMultiplier>5</DistantSoftnessMultiplier>
+    </PlanetConfig>
   </PlanetConfigs>
   <CharacterConfigs>
   </CharacterConfigs>

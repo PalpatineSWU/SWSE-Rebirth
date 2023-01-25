@@ -292,6 +292,80 @@
       <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
     </Definition>
 
+    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+
+      <Id>
+        <TypeId>ConveyorSorter</TypeId>
+        <SubtypeId>AntiThruster_20k</SubtypeId>
+      </Id>
+      <DisplayName>. AntiThruster_10k</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\ArtificialMass.dds</Icon>
+      <Description> Turns off ALL thrusters in an area. </Description>
+      <GuiVisible>true</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\VirtualMassBlock.mwm</Model>
+      <Components>
+        <Component Subtype="NPC" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+      </Components>
+      <CriticalComponent Subtype="NPC" Index="0" />
+      <BlockPairName>AntiThruster_20k</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PrimarySound>BlockGyroscope</PrimarySound>
+      <ResourceSinkGroup>Gyro</ResourceSinkGroup>
+      <RequiredPowerInput>1.25</RequiredPowerInput>
+      <DamageEffectName>Imperial_Damages_Electrical</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+
+      <Id>
+        <TypeId>ConveyorSorter</TypeId>
+        <SubtypeId>AntiThruster_20k_lgONLY</SubtypeId>
+      </Id>
+      <DisplayName>. AntiThruster_10k LG only</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\ArtificialMass.dds</Icon>
+      <Description> Turns off ALL thrusters in an area. </Description>
+      <GuiVisible>true</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\VirtualMassBlock.mwm</Model>
+      <Components>
+        <Component Subtype="NPC" Count="1" />
+        <Component Subtype="Computer" Count="50" />
+      </Components>
+      <CriticalComponent Subtype="NPC" Index="0" />
+      <BlockPairName>AntiThruster_20k_lgONLY</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <DisassembleRatio>5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PrimarySound>BlockGyroscope</PrimarySound>
+      <ResourceSinkGroup>Gyro</ResourceSinkGroup>
+      <RequiredPowerInput>1.25</RequiredPowerInput>
+      <DamageEffectName>Imperial_Damages_Electrical</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+      <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
+    </Definition>
+
 
   </CubeBlocks>
 </Definitions>

@@ -27,14 +27,14 @@ namespace Scripts {
                     },             
                  },
                 Muzzles = new[] {
-                  "OctMuzzle_01",
-				  "OctMuzzle_02",
-				  "OctMuzzle_03",
-				  "OctMuzzle_04",
-				  "OctMuzzle_05",
-				  "OctMuzzle_06",
+                  "OctMuzzle_08",
 				  "OctMuzzle_07",
-				  "OctMuzzle_08",
+				  "OctMuzzle_06",
+				  "OctMuzzle_05",
+				  "OctMuzzle_04",
+				  "OctMuzzle_03",
+				  "OctMuzzle_02",
+				  "OctMuzzle_01",
 
                 },
                 Ejector = "", // Optional; empty from which to eject "shells" if specified.
@@ -61,7 +61,7 @@ namespace Scripts {
             },
             HardPoint = new HardPointDef
             {
-                PartName = "OctoTurbolaser Slim", // Name of the weapon in terminal, should be unique for each weapon definition that shares a SubtypeId (i.e. multiweapons).
+                PartName = "OctoTurbolaser Slim (3x3)", // Name of the weapon in terminal, should be unique for each weapon definition that shares a SubtypeId (i.e. multiweapons).
                 DeviateShotAngle = 0.2f, // Projectile inaccuracy in degrees.
                 AimingTolerance = 1f, // How many degrees off target a turret can fire at. 0 - 180 firing angle.
                 AimLeadingPrediction = Accurate, // Level of turret aim prediction; Off, Basic, Accurate, Advanced
@@ -123,8 +123,8 @@ namespace Scripts {
                 },
                 Loading = new LoadingDef
                 {
-                    RateOfFire = 80, // Set this to 3600 for beam weapons. This is how fast your Gun fires.
-                    BarrelsPerShot = 4, // How many muzzles will fire a projectile per fire event.
+                    RateOfFire = 320, // Set this to 3600 for beam weapons. This is how fast your Gun fires.
+                    BarrelsPerShot = 1, // How many muzzles will fire a projectile per fire event.
                     TrajectilesPerBarrel = 1, // Number of projectiles per muzzle per fire event.
                     SkipBarrels = 0, // Number of muzzles to skip after each fire event.
                     ReloadTime = 1, // Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).

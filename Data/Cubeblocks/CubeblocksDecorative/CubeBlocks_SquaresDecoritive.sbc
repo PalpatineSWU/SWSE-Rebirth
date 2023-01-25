@@ -78,35 +78,6 @@
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
-        <SubtypeId>K_Imperial_Fortress_Wall</SubtypeId>
-      </Id>
-      <DisplayName>Republic Fortress Wall</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\cover_wall.dds</Icon>
-      <Description> Heavily-Armored Wall Segment.</Description>
-      <GuiVisible>true</GuiVisible>
-      <CubeSize>Large</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Misc\K_Imperial_FortressWall_Large.mwm</Model>
-      <Components>
-        <Component Subtype="DuraSteel" Count="250" />
-        <Component Subtype="Construction" Count="345" />
-        <Component Subtype="DuraSteel" Count="2500" />
-      </Components>
-      <CriticalComponent Subtype="ImperialConstruction" Index="0" />
-      <BlockPairName>K_Imperial_Fortress_Wall</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>65</BuildTimeSeconds>
-      <PCU>1</PCU>
-      <IsAirTight>false</IsAirTight>
-    </Definition>
-
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
         <SubtypeId>K_Imperial_Misc_ReflectiveSurface_I_Cube</SubtypeId>
       </Id>
       <DisplayName>Republic Mirror-Cube (Floor)</DisplayName>

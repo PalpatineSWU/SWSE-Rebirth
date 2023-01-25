@@ -55,7 +55,7 @@ namespace Scripts {
             },
             HardPoint = new HardPointDef
             {
-                PartName = "X-Wing Launcher", // Name of the weapon in terminal, should be unique for each weapon definition that shares a SubtypeId (i.e. multiweapons).
+                PartName = "X-Wing Flare Launcher", // Name of the weapon in terminal, should be unique for each weapon definition that shares a SubtypeId (i.e. multiweapons).
                 DeviateShotAngle = 0.2f, // Projectile inaccuracy in degrees.
                 AimingTolerance = 1f, // How many degrees off target a turret can fire at. 0 - 180 firing angle.
                 AimLeadingPrediction = Accurate, // Level of turret aim prediction; Off, Basic, Accurate, Advanced
@@ -112,8 +112,8 @@ namespace Scripts {
                     MuzzleCheck = false, // Whether the weapon should check LOS from each individual muzzle in addition to the scope.
                     Debug = false, // Force enables debug mode.
                     RestrictionRadius = 0, // Prevents other blocks of this type from being placed within this distance of the centre of the block.
-                    CheckInflatedBox = true, // If true, the above distance check is performed from the edge of the block instead of the centre.
-                    CheckForAnyWeapon = true, // If true, the check will fail if ANY weapon is present, not just weapons of the same subtype.
+                    CheckInflatedBox = false, // If true, the above distance check is performed from the edge of the block instead of the centre.
+                    CheckForAnyWeapon = false, // If true, the check will fail if ANY weapon is present, not just weapons of the same subtype.
                 },
                 Loading = new LoadingDef
                 {

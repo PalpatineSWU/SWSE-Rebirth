@@ -20,9 +20,9 @@
       <Volume>1</Volume>
       <Model>Models\Components\K_Imperial_Components_WeaponCapacitor_Small.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>25</MaxIntegrity>
+      <MaxIntegrity>30</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
-      <Health>25</Health>
+      <Health>30</Health>
       <MinimalPricePerUnit>545</MinimalPricePerUnit>
       <CanPlayerOrder>true</CanPlayerOrder>
     </Component>
@@ -41,13 +41,13 @@
         <Y>0.5</Y>
         <Z>0.01</Z>
       </Size>
-      <Mass>35</Mass>
-      <Volume>3</Volume>
+      <Mass>6</Mass>
+      <Volume>1</Volume>
       <Model>Models\Components\K_Imperial_Components_TurboLaser_Battery_Small.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>25</MaxIntegrity>
+      <MaxIntegrity>90</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
-      <Health>25</Health>
+      <Health>90</Health>
       <MinimalPricePerUnit>560000</MinimalPricePerUnit>
       <CanPlayerOrder>true</CanPlayerOrder>
     </Component>
@@ -65,13 +65,13 @@
         <Y>0.1</Y>
         <Z>0.01</Z>
       </Size>
-      <Mass>5</Mass>
+      <Mass>6</Mass>
       <Volume>1</Volume>
       <Model>Models\Resources\K_Imperial_Particles_Ion_Small.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>25</MaxIntegrity>
+      <MaxIntegrity>90</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
-      <Health>25</Health>
+      <Health>90</Health>
       <MinimalPricePerUnit>750</MinimalPricePerUnit>
       <CanPlayerOrder>true</CanPlayerOrder>
     </Component>
@@ -89,13 +89,13 @@
         <Y>0.5</Y>
         <Z>0.01</Z>
       </Size>
-      <Mass>40</Mass>
+      <Mass>6</Mass>
       <Volume>1</Volume>
       <Model>Models\Components\K_Imperial_Components_Fission_Small.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>40</MaxIntegrity>
+      <MaxIntegrity>90</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
-      <Health>40</Health>
+      <Health>90</Health>
       <MinimalPricePerUnit>25000</MinimalPricePerUnit>
       <CanPlayerOrder>true</CanPlayerOrder>
     </Component>

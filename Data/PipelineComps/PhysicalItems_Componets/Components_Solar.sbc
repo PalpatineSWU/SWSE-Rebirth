@@ -20,9 +20,9 @@
       <Volume>12</Volume>
       <Model>Models\Components\SolarCell.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>1</MaxIntegrity>
+      <MaxIntegrity>30</MaxIntegrity>
       <DropProbability>0.1</DropProbability>
-      <Health>11</Health>
+      <Health>30</Health>
       <MinimalPricePerUnit>115</MinimalPricePerUnit>
       <CanPlayerOrder>true</CanPlayerOrder>
     </Component>
@@ -44,9 +44,9 @@
       <Volume>12</Volume>
       <Model>Models\Components\SolarCell.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>1</MaxIntegrity>
+      <MaxIntegrity>90</MaxIntegrity>
       <DropProbability>0.1</DropProbability>
-      <Health>11</Health>
+      <Health>90</Health>
       <MinimalPricePerUnit>1000</MinimalPricePerUnit>
       <CanPlayerOrder>true</CanPlayerOrder>
     </Component>

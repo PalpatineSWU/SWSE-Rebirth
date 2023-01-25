@@ -20,9 +20,9 @@
       <Volume>25</Volume>
       <Model>Models\Components\K_Imperial_Components_PowerCell_Small.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>15</MaxIntegrity>
+      <MaxIntegrity>30</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
-      <Health>20</Health>
+      <Health>30</Health>
       <MinimalPricePerUnit>8500</MinimalPricePerUnit>
       <CanPlayerOrder>true</CanPlayerOrder>
     </Component>
@@ -44,9 +44,9 @@
       <Volume>25</Volume>
       <Model>Models\Components\K_Imperial_Components_PowerCell_Small.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>15</MaxIntegrity>
+      <MaxIntegrity>60</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
-      <Health>20</Health>
+      <Health>60</Health>
       <MinimalPricePerUnit>32500</MinimalPricePerUnit>
       <CanPlayerOrder>true</CanPlayerOrder>
     </Component>
@@ -68,9 +68,9 @@
       <Volume>25</Volume>
       <Model>Models\Components\K_Imperial_Components_PowerCell_Small.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>15</MaxIntegrity>
+      <MaxIntegrity>90</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
-      <Health>20</Health>
+      <Health>90</Health>
       <MinimalPricePerUnit>92500</MinimalPricePerUnit>
       <CanPlayerOrder>false</CanPlayerOrder>
     </Component>

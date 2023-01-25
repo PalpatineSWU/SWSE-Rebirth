@@ -33,16 +33,16 @@ namespace Scripts
         private AmmoDef Ammo_La_Ion_Teal => new AmmoDef // Your ID, for slotting into the Weapon CS
         {
             AmmoMagazine = "Energy", // SubtypeId of physical ammo magazine. Use "Energy" for weapons without physical ammo.
-            AmmoRound = "Teal", // Name of ammo in terminal, should be different for each ammo type used by the same weapon. Is used by Shrapnel.
+            AmmoRound = "Teal Ion", // Name of ammo in terminal, should be different for each ammo type used by the same weapon. Is used by Shrapnel.
             HybridRound = false, // Use both a physical ammo magazine and energy per shot.
             EnergyCost = 30f, // Scaler for energy per shot (EnergyCost * BaseDamage * (RateOfFire / 3600) * BarrelsPerShot * TrajectilesPerBarrel). Uses EffectStrength instead of BaseDamage if EWAR.
-            BaseDamage = 9000f, // Direct damage; one steel plate is worth 100.
+            BaseDamage = 900f, // Direct damage; one steel plate is worth 100.
             Mass = 60f, // In kilograms; how much force the impact will apply to the target.
             Health = 0, // How much damage the projectile can take from other projectiles (base of 1 per hit) before dying; 0 disables this and makes the projectile untargetable.
             BackKickForce = 0f, // Recoil. This is applied to the Parent Grid.
             DecayPerShot = 0f, // Damage to the firing weapon itself.
             HardPointUsable = true, // Whether this is a primary ammo type fired directly by the turret. Set to false if this is a shrapnel ammoType and you don't want the turret to be able to select it directly.
-            EnergyMagazineSize = 4, // For energy weapons, how many shots to fire before reloading.
+            EnergyMagazineSize = 8, // For energy weapons, how many shots to fire before reloading.
             IgnoreWater = false, // Whether the projectile should be able to penetrate water when using WaterMod.
             IgnoreVoxels = false, // Whether the projectile should be able to penetrate voxels.
             Synchronize = false, // For future use
@@ -118,14 +118,14 @@ namespace Scripts
                 },
                 Armor = new ArmorDef
                 {
-                    Armor = -1f, // Multiplier for damage against all armor. This is multiplied with the specific armor type multiplier (light, heavy).
+                    Armor = 6f, // Multiplier for damage against all armor. This is multiplied with the specific armor type multiplier (light, heavy).
                     Light = -1f, // Multiplier for damage against light armor.
                     Heavy = -1f, // Multiplier for damage against heavy armor.
-                    NonArmor = -1f, // Multiplier for damage against every else.
+                    NonArmor = 3f, // Multiplier for damage against every else.
                 },
                 Shields = new ShieldDef
                 {
-                    Modifier = 1f, // Multiplier for damage against shields.
+                    Modifier = 90f, // Multiplier for damage against shields.
                     Type = Default, // Damage vs healing against shields; Default, Heal
                     BypassModifier = -1f, // If greater than zero, the percentage of damage that will penetrate the shield.
                 },
@@ -161,7 +161,7 @@ namespace Scripts
                     Enable = true,
                     Radius = 10f, // Meters
                     Damage = 5f,
-                    Depth = 1f, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
+                    Depth = 0f, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
                     MaxAbsorb = 0f, // Soft cutoff for damage, except for pooled falloff.  If pooled falloff, limits max damage per block.
                     Falloff = Pooled, //.NoFalloff applies the same damage to all blocks in radius
                     //.Linear drops evenly by distance from center out to max radius
@@ -177,7 +177,7 @@ namespace Scripts
                     Enable = false,
                     Radius = 5f, // Radius of AOE effect, in meters.
                     Damage = 5f,
-                    Depth = 1f, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
+                    Depth = 0f, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
                     MaxAbsorb = 0f, // Soft cutoff for damage, except for pooled falloff.  If pooled falloff, limits max damage per block.
                     Falloff = Squeeze, //.NoFalloff applies the same damage to all blocks in radius
                     //.Linear drops evenly by distance from center out to max radius
@@ -201,9 +201,9 @@ namespace Scripts
                 Enable = true, // Enables EWAR effects AND DISABLES BASE DAMAGE AND AOE DAMAGE!!
                 Type = EnergySink, // EnergySink, Emp, Offense, Nav, Dot, AntiSmart, JumpNull, Anchor, Tractor, Pull, Push, 
                 Mode = Effect, // Effect , Field
-                Strength = 4500f,
-                Radius = 5f, // Meters
-                Duration = 100, // In Ticks
+                Strength = 45000f,
+                Radius = 15f, // Meters
+                Duration = 1000, // In Ticks
                 StackDuration = false, // Combined Durations
                 Depletable = true,
                 MaxStacks = 10, // Max Debuffs at once

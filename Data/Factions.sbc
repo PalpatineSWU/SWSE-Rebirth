@@ -108,7 +108,7 @@
 		<Faction Tag="Civi" Founder="Civilians">
 			<Id>
 				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> <!--Do Not Edit-->
-				<SubtypeId>Jedi_NPC</SubtypeId> <!--Must Be Unique-->
+				<SubtypeId>Civi_NPC</SubtypeId> <!--Must Be Unique-->
 			</Id>
 			
 			<DisplayName>Civilians</DisplayName>

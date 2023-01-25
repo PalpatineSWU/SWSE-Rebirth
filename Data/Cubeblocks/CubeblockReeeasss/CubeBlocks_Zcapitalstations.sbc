@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
- <CubeBlocks>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
         <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition">
             <Id>
                 <TypeId>SurvivalKit</TypeId>
@@ -84,7 +85,7 @@
                 <unsignedInt>240</unsignedInt>
             </TieredUpdateTimes>
         </Definition>
- 
+
         <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
             <Id>
                 <TypeId>CargoContainer</TypeId>
@@ -117,6 +118,68 @@
             <IsAirTight>true</IsAirTight>
         </Definition>
 
+        <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+            <Id>
+                <TypeId>Refinery</TypeId>
+                <SubtypeId>NPC_refinery_Small_10x</SubtypeId>
+            </Id>
+            <DisplayName>NPC Refinery Small 10x</DisplayName>
+            <Description>Refinery that represents the industry of a planet. Has 10x yeld and 20 refine speed.</Description>
+            <Icon>Textures\GUI\Icons\ReeAss\Lightref.dds</Icon>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="2" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\ArkolisProduction\SmallRefinery\K_Small_Refinery_Large.mwm</Model>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.36" File="Models\ArkolisProduction\SmallRefinery\K_Small_Refinery_Large_BS1.mwm" />
+                <Model BuildPercentUpperBound="0.63" File="Models\ArkolisProduction\SmallRefinery\K_Small_Refinery_Large_BS2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\ArkolisProduction\SmallRefinery\K_Small_Refinery_Large_BS3.mwm" />
+            </BuildProgressModels>
+            <Components>
+                <Component Subtype="NPC" Count="1" />
+                <Component Subtype="Computer" Count="1" />
+                <Component Subtype="NPC" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <BlockPairName>NPC_Refinement_I</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <ResourceSinkGroup>Factory</ResourceSinkGroup>
+            <InventoryMaxVolume>2</InventoryMaxVolume>
+            <InventorySize>
+                <X>2</X>
+                <Y>2</Y>
+                <Z>2</Z>
+            </InventorySize>
+            <InventoryFillFactorMin>0.3</InventoryFillFactorMin>
+            <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
+            <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+            <OperationalPowerConsumption>1</OperationalPowerConsumption>
+            <BlueprintClasses>
+                <Class>Metals</Class>
+                <Class>Ingots</Class>
+            </BlueprintClasses>
+            <RefineSpeed>20</RefineSpeed>
+            <MaterialEfficiency>10</MaterialEfficiency>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
+            <DamagedSound>K_Imperial_Explosion_Electronic</DamagedSound>
+            <PrimarySound>K_Imperial_IdleDroidNoise</PrimarySound>
+            <ActionSound>K_Imperial_FactoryWorking</ActionSound>
+            <DestroyEffect>Imperial_Explosion</DestroyEffect>
+            <DestroySound>K_Imperial_Explosion_Critical</DestroySound>
+            <EmissiveColorPreset>K_Imperial_Factory_Red</EmissiveColorPreset>
+            <OreAmountPerPullRequest>2000</OreAmountPerPullRequest>
+            <TieredUpdateTimes>
+                <unsignedInt>60</unsignedInt>
+                <unsignedInt>120</unsignedInt>
+                <unsignedInt>240</unsignedInt>
+            </TieredUpdateTimes>
 
- </CubeBlocks>
+        </Definition>
+
+    </CubeBlocks>
 </Definitions>

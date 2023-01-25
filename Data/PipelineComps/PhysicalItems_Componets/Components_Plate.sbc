@@ -3,6 +3,64 @@
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Components>
 
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>SteelPlate</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_SteelPlate</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>20</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Components\steel_plate_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>100</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>5000</Health>
+      <MinimumOfferAmount>250</MinimumOfferAmount>
+      <MaximumOfferAmount>2500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+
+      <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+    </Component>
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>MetalGrid</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_MetalGrid</DisplayName>
+      <Icon>Textures\GUI\Icons\component\metal_grid_component.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.05</Z>
+      </Size>
+      <Mass>20</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Components\metal_grid_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>100</MaxIntegrity>
+      <DropProbability>0.95</DropProbability>
+      <Health>5000</Health>
+      <MinimumOfferAmount>250</MinimumOfferAmount>
+      <MaximumOfferAmount>1000</MaximumOfferAmount>
+      <MinimumOrderAmount>125</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+
+      <MinimumAcquisitionAmount>125</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+    </Component>
+
     <Component>      <!--           Hull, Standard          -->
       <Id>
         <TypeId>Component</TypeId>
@@ -16,13 +74,13 @@
         <Y>0.5</Y>
         <Z>0.01</Z>
       </Size>
-      <Mass>120</Mass>
+      <Mass>20</Mass>
       <Volume>3</Volume>
       <Model>Models\Components\K_Imperial_Components_Crate_Small.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>1000</MaxIntegrity>
+      <MaxIntegrity>300</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
-      <Health>500</Health>
+      <Health>15000</Health>
       <MinimalPricePerUnit>250</MinimalPricePerUnit>
       <CanPlayerOrder>true</CanPlayerOrder>
     </Component>
@@ -44,9 +102,9 @@
       <Volume>0.3</Volume>
       <Model>Models\Components\K_Imperial_Components_Crate_Small.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>2000</MaxIntegrity>
+      <MaxIntegrity>100</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
-      <Health>1000</Health>
+      <Health>5000</Health>
       <MinimalPricePerUnit>35</MinimalPricePerUnit>
       <CanPlayerOrder>true</CanPlayerOrder>
     </Component>
@@ -68,9 +126,9 @@
       <Volume>2</Volume>
       <Model>Models\Components\K_Imperial_Components_Crate_Small.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>130</MaxIntegrity>
+      <MaxIntegrity>300</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
-      <Health>50</Health>
+      <Health>15000</Health>
       <MinimalPricePerUnit>215</MinimalPricePerUnit>
       <CanPlayerOrder>true</CanPlayerOrder>
     </Component>
@@ -88,13 +146,13 @@
         <Y>0.5</Y>
         <Z>0.01</Z>
       </Size>
-      <Mass>60</Mass>
+      <Mass>30</Mass>
       <Volume>3</Volume>
       <Model>Models\Components\K_Imperial_Components_Crate_Small.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>2000</MaxIntegrity>
+      <MaxIntegrity>600</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
-      <Health>1000</Health>
+      <Health>30000</Health>
       <MinimalPricePerUnit>35</MinimalPricePerUnit>
       <CanPlayerOrder>true</CanPlayerOrder>
     </Component>
@@ -112,13 +170,13 @@
         <Y>0.5</Y>
         <Z>0.01</Z>
       </Size>
-      <Mass>60</Mass>
+      <Mass>30</Mass>
       <Volume>3</Volume>
       <Model>Models\Components\K_Imperial_Components_Crate_Small.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>2000</MaxIntegrity>
+      <MaxIntegrity>600</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
-      <Health>1000</Health>
+      <Health>30000</Health>
       <MinimalPricePerUnit>2500</MinimalPricePerUnit>
       <CanPlayerOrder>true</CanPlayerOrder>
     </Component>
@@ -136,13 +194,13 @@
         <Y>0.5</Y>
         <Z>0.01</Z>
       </Size>
-      <Mass>120</Mass>
+      <Mass>10</Mass>
       <Volume>3</Volume>
       <Model>Models\Components\K_Imperial_Components_Crate_Small.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>3000</MaxIntegrity>
+      <MaxIntegrity>900</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
-      <Health>1500</Health>
+      <Health>45000</Health>
       <MinimalPricePerUnit>8500</MinimalPricePerUnit>
       <CanPlayerOrder>true</CanPlayerOrder>
     </Component>

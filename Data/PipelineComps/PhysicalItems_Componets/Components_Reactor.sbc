@@ -17,13 +17,13 @@
         <Y>0.5</Y>
         <Z>0.01</Z>
       </Size>
-      <Mass>40</Mass>
-      <Volume>5</Volume>
+      <Mass>6</Mass>
+      <Volume>1</Volume>
       <Model>Models\Resources\K_Resource_SalvageTech_Small.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
+      <MaxIntegrity>30</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
-      <Health>5</Health>
+      <Health>30</Health>
       <MinimalPricePerUnit>35000</MinimalPricePerUnit>
       <CanPlayerOrder>true</CanPlayerOrder>
     </Component>
@@ -41,13 +41,13 @@
         <Y>0.5</Y>
         <Z>0.01</Z>
       </Size>
-      <Mass>15</Mass>
-      <Volume>2</Volume>
+      <Mass>6</Mass>
+      <Volume>1</Volume>
       <Model>Models\Resources\K_Resource_SalvageTech_Small.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
+      <MaxIntegrity>60</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
-      <Health>5</Health>
+      <Health>60</Health>
       <MinimalPricePerUnit>65000</MinimalPricePerUnit>
       <CanPlayerOrder>true</CanPlayerOrder>
     </Component>
@@ -65,13 +65,13 @@
         <Y>0.5</Y>
         <Z>0.01</Z>
       </Size>
-      <Mass>40</Mass>
-      <Volume>5</Volume>
+      <Mass>6</Mass>
+      <Volume>1</Volume>
       <Model>Models\Resources\K_Resource_SalvageTech_Small.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
+      <MaxIntegrity>90</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
-      <Health>5</Health>
+      <Health>90</Health>
       <MinimalPricePerUnit>50000</MinimalPricePerUnit>
       <CanPlayerOrder>true</CanPlayerOrder>
     </Component>

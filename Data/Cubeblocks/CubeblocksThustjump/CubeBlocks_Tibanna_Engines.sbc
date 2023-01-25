@@ -3,30 +3,6 @@
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
 
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>K_Imperial_ComponentTestBlock</SubtypeId>
-      </Id>
-      <DisplayName>Republic Components Tester (WIP)</DisplayName>
-      <Icon>Textures\GUI\Icons\Fuelburners\Smalltib.dds</Icon>
-      <CubeSize>Small</CubeSize>
-      <GuiVisible>false</GuiVisible>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Components\K_Imperial_Components_Storage_Small.mwm</Model>
-      <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-      </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <BlockPairName>K_Imperial_ComponentTestBlock</BlockPairName>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>25</BuildTimeSeconds>
-      <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
-    </Definition>
-
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>

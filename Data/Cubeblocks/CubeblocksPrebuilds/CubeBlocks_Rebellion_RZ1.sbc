@@ -1228,7 +1228,6 @@
       <Description>Laser</Description>
       <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1.dds</Icon>
       <CubeSize>Small</CubeSize>
-      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="7" y="3" z="5" />
       <ModelOffset x="0" y="0" z="0" />
@@ -1332,7 +1331,6 @@
       <Description>Special</Description>
       <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1.dds</Icon>
       <CubeSize>Small</CubeSize>
-      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="7" y="3" z="5" />
       <ModelOffset x="0" y="0" z="0" />

@@ -88,7 +88,7 @@
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Public>true</Public>
+      <Public>false</Public>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\TIE_Custom\K_TIE_Droid_IonCannon_Small.mwm</Model>
@@ -611,10 +611,10 @@
       <PanelOffset>0.0</PanelOffset>
     </Definition>
 
-    <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
       <Public>true</Public>
       <Id>
-        <TypeId>SmallMissileLauncher</TypeId>
+        <TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_TIE_Attachable_RocketPod</SubtypeId>
       </Id>
       <DisplayName>Tie Custom Rocket-Launcher</DisplayName>
@@ -655,7 +655,7 @@
         <TypeId>SmallMissileLauncher</TypeId>
         <SubtypeId>K_TIE_Attachable_RocketPod_Huntertester</SubtypeId>
       </Id>
-      <DisplayName>TIE Hunter Rocket-Pod</DisplayName>
+      <DisplayName>TIE Hunter Rocket-Pod Launcher</DisplayName>
       <Icon>Textures\GUI\Icons\Ships\TieHunter\TieHun.dds</Icon>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>

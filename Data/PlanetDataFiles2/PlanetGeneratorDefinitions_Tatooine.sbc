@@ -1,8 +1,9 @@
 <?xml version="1.0"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
   <!--Tatooine -->
-   <Definition xsi:type="PlanetGeneratorDefinition">
+  <Definition xsi:type="PlanetGeneratorDefinition">
     <Id>
       <TypeId>PlanetGeneratorDefinition</TypeId>
       <SubtypeId>Tatooine</SubtypeId>
@@ -45,6 +46,7 @@
     </SurfaceDetail>
 
     <CustomMaterialTable>
+      <Material Material="MarsSoil" Value ="79" MaxDepth ="5"/>
       <Material Material="Sand_02" Value ="190" MaxDepth ="5"/>
       <Material Material="MarsSoil" Value ="174" MaxDepth ="5"/>
       <Material Material="Sand_02" Value ="158" MaxDepth ="5"/>
@@ -53,8 +55,21 @@
 
     <!-- Earthmoon definitions -->
     <ComplexMaterials>
-      <MaterialGroup Name="Craters" Value="48">
+      <MaterialGroup Name="Racetrack" Value="79">
 
+        <!-- Racetrack -->
+        <Rule>
+          <Layers>
+            <Layer Material="MarsSoil" Depth="2"/>
+          </Layers>
+          <Height Min="0" Max="1.5"/>
+          <Latitude Min="180" Max="180"/>
+          <Slope Min="0" Max="15"/>
+        </Rule>
+        <!-- Racetrack -->
+
+      </MaterialGroup>
+      <MaterialGroup Name="Craters" Value="48">
         <Rule>
           <Layers>
             <Layer Material="MarsSoil" Depth="5"/>
@@ -364,10 +379,10 @@
     </MusicCategories>
 
     <DefaultSurfaceMaterial Material="Sand_02" MaxDepth="5"/>
-	<DefaultSubSurfaceMaterial Material="MarsRocks"/>
+    <DefaultSubSurfaceMaterial Material="MarsRocks"/>
 
     <HasAtmosphere>true</HasAtmosphere>
-  <AtmosphereSettings>
+    <AtmosphereSettings>
       <RayleighScattering>
         <X>2.51488018</X>
         <Y>16.398098</Y>
@@ -404,69 +419,69 @@
     <MaterialsMinDepth Min="20" Max="20"/>
     <HillParams Min = "-0.03" Max ="0.03"/>
     <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
-	
-	
-	<WeatherFrequencyMin>1800</WeatherFrequencyMin>
-	<WeatherFrequencyMax>5400</WeatherFrequencyMax>
-		<WeatherGenerators>
-		<WeatherGenerator>
-			<Voxel>Sand_02</Voxel>
-			<Weathers>
-				<Weather>
-					<Name>Starwars_Weather_SandStorm_Light</Name>
-					<Weight>2</Weight>
-					<MinLength>600</MinLength>
-					<MaxLength>1800</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>Starwars_Weather_SandStorm_Moderate</Name>
-					<Weight>1</Weight>
-					<MinLength>1200</MinLength>
-					<MaxLength>3600</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-            	<Weather>
-					<Name>Starwars_Weather_Duststorm</Name>
-					<Weight>2</Weight>
-					<MinLength>600</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-		
-		<WeatherGenerator>
-			<Voxel>AlienSand</Voxel>
-			<Weathers>
-				<Weather>
-					<Name>Starwars_Weather_SandStorm_Light</Name>
-					<Weight>2</Weight>
-					<MinLength>800</MinLength>
-					<MaxLength>2400</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>Starwars_Weather_SandStorm_Moderate</Name>
-					<Weight>2</Weight>
-					<MinLength>1200</MinLength>
-					<MaxLength>3600</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-            	<Weather>
-					<Name>Starwars_Weather_ViolentSandstorm</Name>
-					<Weight>1</Weight>
-					<MinLength>600</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-		
-		</WeatherGenerators>
-	
+
+
+    <WeatherFrequencyMin>1800</WeatherFrequencyMin>
+    <WeatherFrequencyMax>5400</WeatherFrequencyMax>
+    <WeatherGenerators>
+      <WeatherGenerator>
+        <Voxel>Sand_02</Voxel>
+        <Weathers>
+          <Weather>
+            <Name>Starwars_Weather_SandStorm_Light</Name>
+            <Weight>2</Weight>
+            <MinLength>600</MinLength>
+            <MaxLength>1800</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>Starwars_Weather_SandStorm_Moderate</Name>
+            <Weight>1</Weight>
+            <MinLength>1200</MinLength>
+            <MaxLength>3600</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>Starwars_Weather_Duststorm</Name>
+            <Weight>2</Weight>
+            <MinLength>600</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+        </Weathers>
+      </WeatherGenerator>
+
+      <WeatherGenerator>
+        <Voxel>AlienSand</Voxel>
+        <Weathers>
+          <Weather>
+            <Name>Starwars_Weather_SandStorm_Light</Name>
+            <Weight>2</Weight>
+            <MinLength>800</MinLength>
+            <MaxLength>2400</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>Starwars_Weather_SandStorm_Moderate</Name>
+            <Weight>2</Weight>
+            <MinLength>1200</MinLength>
+            <MaxLength>3600</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>Starwars_Weather_ViolentSandstorm</Name>
+            <Weight>1</Weight>
+            <MinLength>600</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+        </Weathers>
+      </WeatherGenerator>
+
+    </WeatherGenerators>
+
   </Definition>
- 
-  
+
+
 
 </Definitions>

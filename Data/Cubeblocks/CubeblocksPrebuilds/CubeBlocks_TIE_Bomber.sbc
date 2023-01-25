@@ -45,7 +45,7 @@
         <TypeId>ConveyorSorter</TypeId>
         <SubtypeId>K_TIE_Bomber_Pod_CenterBombbay</SubtypeId>
       </Id>
-      <DisplayName>TIE Bomber Rocket-Launcher III</DisplayName>
+      <DisplayName>. TIE Bomber Rocket-Launcher III</DisplayName>
       <Description>Launcher</Description>
       <Icon>Textures\GUI\Icons\Ships\TieBomber\TieBomb.dds</Icon>
       <CubeSize>Small</CubeSize>

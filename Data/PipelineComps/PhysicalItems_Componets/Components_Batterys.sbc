@@ -20,10 +20,10 @@
       <Volume>1</Volume>
       <Model>Models\Components\K_Imperial_Components_ProductionControl_Small.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
+      <MaxIntegrity>3</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
-      <Health>10</Health>
-      <MinimalPricePerUnit>350</MinimalPricePerUnit>
+      <Health>3</Health>
+      <MinimalPricePerUnit>3500</MinimalPricePerUnit>
       <CanPlayerOrder>true</CanPlayerOrder>
     </Component>
 
@@ -44,10 +44,10 @@
       <Volume>1</Volume>
       <Model>Models\Components\K_Imperial_Components_ProductionControl_Small.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>10</MaxIntegrity>
+      <MaxIntegrity>60</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
-      <Health>10</Health>
-      <MinimalPricePerUnit>350</MinimalPricePerUnit>
+      <Health>60</Health>
+      <MinimalPricePerUnit>3500</MinimalPricePerUnit>
       <CanPlayerOrder>true</CanPlayerOrder>
     </Component>
 
@@ -68,10 +68,10 @@
       <Volume>1</Volume>
       <Model>Models\Components\K_Imperial_Components_ProductionControl_Small.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MaxIntegrity>15</MaxIntegrity>
+      <MaxIntegrity>900</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
-      <Health>10</Health>
-      <MinimalPricePerUnit>2500</MinimalPricePerUnit>
+      <Health>900</Health>
+      <MinimalPricePerUnit>25000</MinimalPricePerUnit>
       <CanPlayerOrder>true</CanPlayerOrder>
     </Component>
 
