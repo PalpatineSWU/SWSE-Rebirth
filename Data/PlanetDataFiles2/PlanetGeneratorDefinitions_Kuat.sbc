@@ -39,26 +39,26 @@
 
     <SurfaceDetail>
       <Texture>Data\PlanetDataFiles\Extra\material_detail_4</Texture>
-      <Size>384</Size>
-      <Scale>15</Scale>
-      <Slope Min="30" Max="80" />
+      <Size>10</Size>
+      <Scale>1</Scale>
+      <Slope Min="88" Max="90" />
       <Transition>10</Transition>
     </SurfaceDetail>
 
     <CustomMaterialTable>
-      <Material Material="K_Lush_Stone_Desert" Value ="190" MaxDepth ="5"/>
-      <Material Material="K_Lush_Sand" Value ="174" MaxDepth ="5"/>
-      <Material Material="K_Lush_Stone_Hardrock" Value ="158" MaxDepth ="5"/>
-      <Material Material="K_Lush_Stone" Value ="155" MaxDepth ="5"/>
-      <Material Material="K_Lush_Stone_2" Value ="152" MaxDepth ="5"/>
-      <Material Material="K_Lush_Stone_3" Value ="150" MaxDepth ="5"/>
-      <Material Material="K_Grass_Aut_A" Value ="142" MaxDepth ="5"/>
-      <Material Material="K_Grass_Aut_B" Value ="142" MaxDepth ="5"/>
-      <Material Material="K_Grass_Aut_B" Value ="142" MaxDepth ="5"/>
+      <Material Material="TropicCream_8" Value ="190" MaxDepth ="5"/>
+      <Material Material="TropicCream_7" Value ="174" MaxDepth ="5"/>
+      <Material Material="TropicCream_4" Value ="158" MaxDepth ="5"/>
+      <Material Material="Imperial_Moonrise_4" Value ="155" MaxDepth ="5"/>
+      <Material Material="TropicCream_3" Value ="152" MaxDepth ="5"/>
+      <Material Material="TropicCream_4" Value ="150" MaxDepth ="5"/>
+      <Material Material="TropicCream_1" Value ="142" MaxDepth ="5"/>
+      <Material Material="TropicCream_2" Value ="142" MaxDepth ="5"/>
+      <Material Material="TropicCream_2" Value ="142" MaxDepth ="5"/>
     </CustomMaterialTable>
 
-    <DefaultSurfaceMaterial Material="K_Lush_Stone_Hardrock" MaxDepth="2"/>
-    <DefaultSubSurfaceMaterial Material="K_Lush_Soil"/>
+    <DefaultSurfaceMaterial Material="TropicCream_7" MaxDepth="2"/>
+    <DefaultSubSurfaceMaterial Material="TropicCream_4"/>
 
     <DistortionTable>
       <Distortion Type="Perlin" Value ="34" Frequency="4" Height="12" LayerCount="4"/>
@@ -226,7 +226,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="K_Lush_Stone_3" Depth="5"/>
+            <Layer Material="TropicCream_4" Depth="5"/>
           </Layers>
           <Height Min="0.49" Max="0.9"/>
           <Latitude Min="0" Max="90"/>
@@ -235,7 +235,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="K_Grass_Aut_A" Depth="5"/>
+            <Layer Material="TropicCream_1" Depth="5"/>
           </Layers>
           <Height Min="0.48" Max="0.58"/>
           <Latitude Min="0" Max="90"/>
@@ -244,7 +244,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="K_Grass_Aut_B" Depth="5"/>
+            <Layer Material="TropicCream_2" Depth="5"/>
           </Layers>
           <Height Min="0.58" Max="0.98"/>
           <Latitude Min="0" Max="90"/>
@@ -253,7 +253,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="K_Lush_Stone_Hardrock" Depth="5"/>
+            <Layer Material="TropicCream_4" Depth="5"/>
           </Layers>
           <Height Min="0.49" Max="0.9"/>
           <Latitude Min="0" Max="90"/>
@@ -262,7 +262,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="K_Lush_Stone_2" Depth="5"/>
+            <Layer Material="TropicCream_3" Depth="5"/>
           </Layers>
           <Height Min="0.49" Max="0.9"/>
           <Latitude Min="0" Max="90"/>
@@ -271,7 +271,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="K_Lush_Stone" Depth="5"/>
+            <Layer Material="Imperial_Moonrise_4" Depth="5"/>
           </Layers>
           <Height Min="0.49" Max="0.9"/>
           <Latitude Min="0" Max="90"/>
@@ -280,7 +280,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="K_Lush_Stone_Desert" Depth="5"/>
+            <Layer Material="TropicCream_8" Depth="5"/>
           </Layers>
           <Height Min="0" Max=".48"/>
           <Latitude Min="0" Max="90"/>
@@ -289,7 +289,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="K_Lush_Sand" Depth="5"/>
+            <Layer Material="TropicCream_7" Depth="5"/>
           </Layers>
           <Height Min="0" Max=".48"/>
           <Latitude Min="0" Max="90"/>
@@ -302,7 +302,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="K_Lush_Stone_3" Depth="5"/>
+            <Layer Material="TropicCream_4" Depth="5"/>
           </Layers>
           <Height Min="0.49" Max="0.9"/>
           <Latitude Min="0" Max="90"/>
@@ -311,7 +311,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="K_Grass_Aut_A" Depth="5"/>
+            <Layer Material="TropicCream_1" Depth="5"/>
           </Layers>
           <Height Min="0.48" Max="0.58"/>
           <Latitude Min="0" Max="90"/>
@@ -320,7 +320,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="K_Grass_Aut_B" Depth="5"/>
+            <Layer Material="TropicCream_2" Depth="5"/>
           </Layers>
           <Height Min="0.58" Max="0.98"/>
           <Latitude Min="0" Max="90"/>
@@ -329,7 +329,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="K_Lush_Stone_Hardrock" Depth="5"/>
+            <Layer Material="TropicCream_4" Depth="5"/>
           </Layers>
           <Height Min="0.49" Max="0.9"/>
           <Latitude Min="0" Max="90"/>
@@ -338,7 +338,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="K_Lush_Stone_2" Depth="5"/>
+            <Layer Material="TropicCream_3" Depth="5"/>
           </Layers>
           <Height Min="0.49" Max="0.9"/>
           <Latitude Min="0" Max="90"/>
@@ -347,7 +347,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="K_Lush_Stone" Depth="5"/>
+            <Layer Material="Imperial_Moonrise_4" Depth="5"/>
           </Layers>
           <Height Min="0.49" Max="0.9"/>
           <Latitude Min="0" Max="90"/>
@@ -356,7 +356,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="K_Lush_Stone_Desert" Depth="5"/>
+            <Layer Material="TropicCream_8" Depth="5"/>
           </Layers>
           <Height Min="0" Max=".48"/>
           <Latitude Min="0" Max="90"/>
@@ -365,7 +365,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="K_Lush_Sand" Depth="5"/>
+            <Layer Material="TropicCream_7" Depth="5"/>
           </Layers>
           <Height Min="0" Max=".48"/>
           <Latitude Min="0" Max="90"/>
@@ -379,7 +379,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="K_Lush_Stone_3" Depth="5"/>
+            <Layer Material="TropicCream_4" Depth="5"/>
           </Layers>
           <Height Min="0.49" Max="0.9"/>
           <Latitude Min="0" Max="90"/>
@@ -388,7 +388,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="K_Grass_Aut_A" Depth="5"/>
+            <Layer Material="TropicCream_1" Depth="5"/>
           </Layers>
           <Height Min="0.48" Max="0.58"/>
           <Latitude Min="0" Max="90"/>
@@ -397,7 +397,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="K_Grass_Aut_B" Depth="5"/>
+            <Layer Material="TropicCream_2" Depth="5"/>
           </Layers>
           <Height Min="0.58" Max="0.98"/>
           <Latitude Min="0" Max="90"/>
@@ -406,7 +406,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="K_Lush_Stone_Hardrock" Depth="5"/>
+            <Layer Material="TropicCream_4" Depth="5"/>
           </Layers>
           <Height Min="0.49" Max="0.9"/>
           <Latitude Min="0" Max="90"/>
@@ -415,7 +415,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="K_Lush_Stone_2" Depth="5"/>
+            <Layer Material="TropicCream_3" Depth="5"/>
           </Layers>
           <Height Min="0.49" Max="0.9"/>
           <Latitude Min="0" Max="90"/>
@@ -424,7 +424,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="K_Lush_Stone" Depth="5"/>
+            <Layer Material="Imperial_Moonrise_4" Depth="5"/>
           </Layers>
           <Height Min="0.49" Max="0.9"/>
           <Latitude Min="0" Max="90"/>
@@ -433,7 +433,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="K_Lush_Stone_Desert" Depth="5"/>
+            <Layer Material="TropicCream_8" Depth="5"/>
           </Layers>
           <Height Min="0" Max=".48"/>
           <Latitude Min="0" Max="90"/>
@@ -442,7 +442,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="K_Lush_Sand" Depth="5"/>
+            <Layer Material="TropicCream_7" Depth="5"/>
           </Layers>
           <Height Min="0" Max=".48"/>
           <Latitude Min="0" Max="90"/>
@@ -457,7 +457,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="K_Lush_Sand" Depth="5"/>
+            <Layer Material="TropicCream_7" Depth="5"/>
           </Layers>
           <Height Min="0" Max=".5"/>
           <Latitude Min="0" Max="90"/>
@@ -474,7 +474,7 @@
           <Biome>0</Biome>
         </Biomes>
         <Materials>
-          <Material>K_Grass_Aut_A</Material>
+          <Material>TropicCream_1</Material>
         </Materials>
         <Items>
           <Item TypeId="MyObjectBuilder_Trees" SubtypeId="GrassForestMedium" Density="0.6"/>
@@ -496,7 +496,7 @@
           <Biome>0</Biome>
         </Biomes>
         <Materials>
-          <Material>K_Grass_Aut_B</Material>
+          <Material>TropicCream_2</Material>
         </Materials>
         <Items>
           <Item TypeId="MyObjectBuilder_Trees" SubtypeId="WoodGrassForestEdge" Density="0.3"/>

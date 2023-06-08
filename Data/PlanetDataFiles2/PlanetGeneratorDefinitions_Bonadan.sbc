@@ -38,9 +38,9 @@
 
     <SurfaceDetail>
       <Texture>Data/PlanetDataFiles/Extra/material_detail_1</Texture>
-      <Size>256</Size>
-      <Scale>2</Scale>
-      <Slope Min="30" Max="90" />
+      <Size>10</Size>
+      <Scale>1</Scale>
+      <Slope Min="88" Max="90" />
       <Transition>10</Transition>
     </SurfaceDetail>
 
@@ -245,7 +245,7 @@
 
       <!-- Fe 1-->
       <Ore Value="1" Type="K_Imperial_Voxel_Dooninum01" Start="10" Depth="1" TargetColor="#FFFFFF" ColorInfluence="15"/>
-      <Ore Value="4" Type="K_Dust_Rock" Start="12" Depth="3" TargetColor="#FFFFFF" ColorInfluence="15"/>
+      <Ore Value="4" Type="Primal_Sunrise_4" Start="12" Depth="3" TargetColor="#FFFFFF" ColorInfluence="15"/>
       <Ore Value="8" Type="K_Imperial_Voxel_Dooninum01" Start="14" Depth="4" TargetColor="#FFFFFF" ColorInfluence="15"/>
 
       <!-- Fe 2-->
@@ -255,7 +255,7 @@
 
       <!-- Ni 1-->
       <Ore Value="24" Type="K_Imperial_Voxel_Dust_Anthracite" Start="1" Depth="4" TargetColor="#FFFFFF" ColorInfluence="15"/>
-      <Ore Value="28" Type="K_Dust_Rock" Start="11" Depth="4" TargetColor="#FFFFFF" ColorInfluence="15"/>
+      <Ore Value="28" Type="Primal_Sunrise_4" Start="11" Depth="4" TargetColor="#FFFFFF" ColorInfluence="15"/>
       <Ore Value="32" Type="K_Imperial_Voxel_Dust_Anthracite" Start="2" Depth="6" TargetColor="#FFFFFF" ColorInfluence="15"/>
 
       <!-- Ni 2-->
@@ -295,12 +295,12 @@
       <Ore Value="116" Type="Sand_02" Start="63" Depth="6" TargetColor="#FFFFFF" ColorInfluence="15"/>
 
       <!-- Mg 1-->
-      <Ore Value="120" Type="K_Dust_Rock" Start="23" Depth="4" TargetColor="#FFFFFF" ColorInfluence="15"/>
+      <Ore Value="120" Type="Primal_Sunrise_4" Start="23" Depth="4" TargetColor="#FFFFFF" ColorInfluence="15"/>
       <Ore Value="124" Type="Sand_02" Start="45" Depth="4" TargetColor="#FFFFFF" ColorInfluence="15"/>
       <Ore Value="128" Type="K_Imperial_Voxel_Dust_Anthracite" Start="2" Depth="5" TargetColor="#FFFFFF" ColorInfluence="15"/>
 
       <!-- Mg 2-->
-      <Ore Value="132" Type="K_Dust_Rock" Start="53" Depth="7" TargetColor="#FFFFFF" ColorInfluence="15"/>
+      <Ore Value="132" Type="Primal_Sunrise_4" Start="53" Depth="7" TargetColor="#FFFFFF" ColorInfluence="15"/>
       <Ore Value="136" Type="K_Imperial_Voxel_Dust_Anthracite" Start="2" Depth="2" TargetColor="#FFFFFF" ColorInfluence="15"/>
       <Ore Value="140" Type="K_Imperial_Voxel_Norax01" Start="59" Depth="2" TargetColor="#FFFFFF" ColorInfluence="15"/>
 
@@ -403,7 +403,7 @@
 
     <Atmosphere>
       <Breathable>true</Breathable>
-      <OxygenDensity>1.1</OxygenDensity>
+      <OxygenDensity>1</OxygenDensity>
       <Density>1.0</Density>
       <LimitAltitude>2.0</LimitAltitude>
       <MaxWindSpeed>10</MaxWindSpeed>

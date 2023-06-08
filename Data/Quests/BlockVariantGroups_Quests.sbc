@@ -8,16 +8,16 @@
             <DisplayName>Bridgepack</DisplayName>
             <Description>Bridgepack</Description>
             <Blocks>
-                <Block Type="MyObjectBuilder_Assembler" Subtype="NPCAbregado-rae" />
-                <Block Type="MyObjectBuilder_Assembler" Subtype="NPCBonadan" />
-                <Block Type="MyObjectBuilder_Assembler" Subtype="NPCKuat" />
-                <Block Type="MyObjectBuilder_Assembler" Subtype="NPCBastion" />                
-                <Block Type="MyObjectBuilder_Assembler" Subtype="NPCEriadu" />
-                <Block Type="MyObjectBuilder_Assembler" Subtype="NPCBrentaal" />
-                <Block Type="MyObjectBuilder_Assembler" Subtype="NPCConcordia" />
-                <Block Type="MyObjectBuilder_Assembler" Subtype="NPCIlum" /> 
-                <Block Type="MyObjectBuilder_Assembler" Subtype="NPCDathomir" />
-                <Block Type="MyObjectBuilder_Assembler" Subtype="NPCTatooine" />                          
+                <Block Type="MyObjectBuilder_Assembler" Subtype="SWNPCAbregado-rae" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="SWNPCBonadan" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="SWNPCKuat" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="SWNPCBastion" />                
+                <Block Type="MyObjectBuilder_Assembler" Subtype="SWNPCEriadu" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="SWNPCBrentaal" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="SWNPCConcordia" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="SWNPCIlum" /> 
+                <Block Type="MyObjectBuilder_Assembler" Subtype="SWNPCDathomir" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="SWNPCTatooine" />                          
             </Blocks>
         </BlockVariantGroup>
     </BlockVariantGroups>

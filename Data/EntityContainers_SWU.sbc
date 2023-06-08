@@ -155,7 +155,7 @@
     <Container>
       <Id>
         <TypeId>CargoContainer</TypeId>
-        <SubtypeId>LargeBlockSmallContainer_FCS</SubtypeId>
+        <SubtypeId>LargeBlockSmallContainer_FCSW</SubtypeId>
       </Id>
       <DefaultComponents>
         <Component BuilderType="MyObjectBuilder_Inventory"/>

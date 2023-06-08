@@ -87,6 +87,12 @@
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_Rebellion_RZ1_PowerCell_Stock" />
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_Rebellion_RZ1_PowerCell_QuickCharge" />
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_Rebellion_RZ1_PowerCell_Capacity" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_Rebellion_Battery" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_Imperial_Power_Battery_Nox" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_Imperial_Power_Battery_Standard" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_Imperial_Dropship_Guild_Battery" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_Imperial_Dropship_Guild_BatteryParallel" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_Imperial_Dropship_Guild_BatteryPRAISEJESUS" />
                 <Block Type="MyObjectBuilder_Gyro" Subtype="K_Rebellion_RZ1_Gyro_Stock" />
                 <Block Type="MyObjectBuilder_Gyro" Subtype="K_Rebellion_RZ1_Gyro_Upgrade1" />
                 <Block Type="MyObjectBuilder_Thrust" Subtype="K_Rebellion_RZ1_MainEngine_A" />
@@ -572,6 +578,7 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_Cockpit" Subtype="K_NewRepublic_AWing_Cockpit" />
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_NewRepublic_AWing_PowerCell" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="PowerSupplies_Battery" />
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="K_NewRepublic_AWing_Reactor" />
                 <Block Type="MyObjectBuilder_Gyro" Subtype="K_NewRepublic_AWing_Gyro" />
                 <Block Type="MyObjectBuilder_Thrust" Subtype="K_NewRepublic_AWing_MainEngine" />
@@ -1161,6 +1168,7 @@
                 <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssembler" />
                 <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssemblerIndustrial" />
                 <Block Type="MyObjectBuilder_Assembler" Subtype="K_Imperial_Assembly_Factory_Micro" />
+                <Block Type="MyObjectBuilder_SurvivalKit" Subtype="K_Imperial_SurvivalKit" />
                 <Block Type="MyObjectBuilder_Assembler" Subtype="K_Imperial_Assembly_Factory_Light_I" />
                 <Block Type="MyObjectBuilder_Assembler" Subtype="K_Imperial_Assembly_Factory_Advanced_I" />
                 <Block Type="MyObjectBuilder_Assembler" Subtype="K_Imperial_Assembly_MassAssembler" />

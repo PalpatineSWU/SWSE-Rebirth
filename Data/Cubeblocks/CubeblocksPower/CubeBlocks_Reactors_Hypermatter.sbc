@@ -270,7 +270,7 @@
     <Definition xsi:type="MyObjectBuilder_OxygenFarmDefinition">
       <Id>
         <TypeId>OxygenFarm</TypeId>
-        <SubtypeId>K_Imperial_Refinement_Hypermatter_AccumulatorNPC</SubtypeId>
+        <SubtypeId>K_Imperial_Refinement_Hypermatter_AccumulatorSWNPC</SubtypeId>
       </Id>
       <DisplayName>NPC Republic Hypermatter Accumulator</DisplayName>
       <Icon>Textures\GUI\Icons\ReeAss\hypermatter.dds</Icon>
@@ -284,7 +284,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Refinement\K_Imperial_Hypermatter_Accumulator_Large.mwm</Model>
       <Components>
-        <Component Subtype="NPC" Count="40" />
+        <Component Subtype="SWNPC" Count="40" />
         <Component Subtype="BulletproofGlass" Count="60" />
         <Component Subtype="ImperialGeneralParts" Count="20" />
         <Component Subtype="PowerConverter" Count="10" />
@@ -292,7 +292,7 @@
         <Component Subtype="Computer" Count="20" />
         <Component Subtype="BulletproofGlass" Count="40" />
       </Components>
-      <CriticalComponent Subtype="NPC" Index="0" />
+      <CriticalComponent Subtype="SWNPC" Index="0" />
       <MountPoints>
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Right" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" />

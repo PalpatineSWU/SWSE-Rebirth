@@ -147,10 +147,10 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Assemblers\Rebellion_ExileOutfitter_Large.mwm</Model>
       <Components>
-        <Component Subtype="NPC" Count="1" />
+        <Component Subtype="SWNPC" Count="1" />
         <Component Subtype="Computer" Count="1" />
       </Components>
-      <CriticalComponent Subtype="NPC" Index="0" />
+      <CriticalComponent Subtype="SWNPC" Index="0" />
       <MountPoints>
          <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="1" Default="true" />
               </MountPoints>
@@ -193,10 +193,10 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Assemblers\Rebellion_ExileOutfitter_Large.mwm</Model>
       <Components>
-        <Component Subtype="NPC" Count="1" />
+        <Component Subtype="SWNPC" Count="1" />
         <Component Subtype="Computer" Count="1" />
       </Components>
-      <CriticalComponent Subtype="NPC" Index="0" />
+      <CriticalComponent Subtype="SWNPC" Index="0" />
       <MountPoints>
          <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="1" Default="true" />
               </MountPoints>
@@ -239,10 +239,10 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Assemblers\Rebellion_StarfighterChopshop_Large.mwm</Model>
       <Components>
-        <Component Subtype="NPC" Count="1" />
+        <Component Subtype="SWNPC" Count="1" />
         <Component Subtype="Computer" Count="1" />
       </Components>
-      <CriticalComponent Subtype="NPC" Index="0" />
+      <CriticalComponent Subtype="SWNPC" Index="0" />
       <MountPoints>
          <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="1" Default="true" />
               </MountPoints>
@@ -285,10 +285,10 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Assemblers\Rebellion_StarfighterChopshop_Large.mwm</Model>
       <Components>
-        <Component Subtype="NPC" Count="1" />
+        <Component Subtype="SWNPC" Count="1" />
         <Component Subtype="Computer" Count="1" />
       </Components>
-      <CriticalComponent Subtype="NPC" Index="0" />
+      <CriticalComponent Subtype="SWNPC" Index="0" />
       <MountPoints>
          <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="1" Default="true" />
               </MountPoints>
@@ -332,10 +332,10 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Assemblers\Rebellion_StarfighterYard_Large.mwm</Model>
       <Components>
-        <Component Subtype="NPC" Count="1" />
+        <Component Subtype="SWNPC" Count="1" />
         <Component Subtype="Computer" Count="1" />
       </Components>
-      <CriticalComponent Subtype="NPC" Index="0" />
+      <CriticalComponent Subtype="SWNPC" Index="0" />
       <MountPoints>
          <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="6" Default="true" />
               </MountPoints>
@@ -378,10 +378,10 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Assemblers\Rebellion_StarfighterYard_Large.mwm</Model>
       <Components>
-        <Component Subtype="NPC" Count="1" />
+        <Component Subtype="SWNPC" Count="1" />
         <Component Subtype="Computer" Count="1" />
       </Components>
-      <CriticalComponent Subtype="NPC" Index="0" />
+      <CriticalComponent Subtype="SWNPC" Index="0" />
       <MountPoints>
          <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="6" Default="true" />
               </MountPoints>
@@ -425,10 +425,10 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Rebellion\Machinery\Rebellion_Refinery_Large.mwm</Model>
       <Components>
-        <Component Subtype="NPC" Count="1" />
+        <Component Subtype="SWNPC" Count="1" />
         <Component Subtype="Computer" Count="1" />
       </Components>
-      <CriticalComponent Subtype="NPC" Index="0" />
+      <CriticalComponent Subtype="SWNPC" Index="0" />
       <MountPoints>
          <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
               </MountPoints>
@@ -472,10 +472,10 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Rebellion\Machinery\Rebellion_Refinery_Large.mwm</Model>
       <Components>
-        <Component Subtype="NPC" Count="1" />
+        <Component Subtype="SWNPC" Count="1" />
         <Component Subtype="Computer" Count="1" />
       </Components>
-      <CriticalComponent Subtype="NPC" Index="0" />
+      <CriticalComponent Subtype="SWNPC" Index="0" />
       <MountPoints>
          <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
               </MountPoints>
@@ -519,10 +519,10 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Rebellion\Machinery\Rebellion_ScrapRefinery_Large.mwm</Model>
       <Components>
-        <Component Subtype="NPC" Count="1" />
+        <Component Subtype="SWNPC" Count="1" />
         <Component Subtype="Computer" Count="1" />        
       </Components>
-      <CriticalComponent Subtype="NPC" Index="0" />
+      <CriticalComponent Subtype="SWNPC" Index="0" />
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       
@@ -566,10 +566,10 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Rebellion\Machinery\Rebellion_ScrapRefinery_Large.mwm</Model>
       <Components>
-        <Component Subtype="NPC" Count="1" />
+        <Component Subtype="SWNPC" Count="1" />
         <Component Subtype="Computer" Count="1" />        
       </Components>
-      <CriticalComponent Subtype="NPC" Index="0" />
+      <CriticalComponent Subtype="SWNPC" Index="0" />
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       

@@ -154,14 +154,14 @@
 	 <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>NPC</SubtypeId>
+        <SubtypeId>SWNPC</SubtypeId>
       </Id>
-      <DisplayName>NPC</DisplayName>
+      <DisplayName>SWNPC</DisplayName>
       <Icon>Textures\GUI\Icons\Items\Datapad_Item.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ingot" SubtypeId="DuraSteel_Ingot" />
       </Prerequisites>
-      <Result Amount="1" TypeId="Component" SubtypeId="NPC" />
+      <Result Amount="1" TypeId="Component" SubtypeId="SWNPC" />
       <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
     </Blueprint>
 
@@ -171,9 +171,9 @@
  <Component>
       <Id>
         <TypeId>Component</TypeId>
-        <SubtypeId>NPC</SubtypeId>
+        <SubtypeId>SWNPC</SubtypeId>
       </Id>
-      <DisplayName>NPC</DisplayName>
+      <DisplayName>SWNPC</DisplayName>
       <Icon>Textures\GUI\Icons\Items\Datapad_Item.dds</Icon>
 	  <ExtraInventoryTooltipLine>NPC</ExtraInventoryTooltipLine>
       <Size>

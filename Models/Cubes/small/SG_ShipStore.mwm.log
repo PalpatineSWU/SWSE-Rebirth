@@ -1,0 +1,56 @@
+Running from: C:\Users\Vortex\AppData\Roaming\SpaceEngineers\Mods\SWSE-Local\Models\Cubes\small 
+Command: E:\Asset Directory\Tools\MWMBuilder\MwmBuilder.exe /f /s:C:\Users\Vortex\AppData\Roaming\SpaceEngineers\Mods\SWSE-Local\Models\Cubes\small /m:SG_ShipStore*.fbx /o:C:\Users\Vortex\AppData\Roaming\SpaceEngineers\Mods\SWSE-Local\Models\Cubes\small /x:E:\Asset Directory\Materials 
+E:\Asset Directory\Materials\Armors.xml: 
+    Materialslib
+E:\Asset Directory\Materials\Character.xml: 
+    Materialslib
+E:\Asset Directory\Materials\enenra.xml: 
+    Materialslib
+E:\Asset Directory\Materials\Foliage.xml: 
+    Materialslib
+E:\Asset Directory\Materials\Items.xml: 
+    Materialslib
+E:\Asset Directory\Materials\LODs.xml: 
+    Materialslib
+E:\Asset Directory\Materials\Materials.xml: 
+    Materialslib
+E:\Asset Directory\Materials\PlayerItems.xml: 
+    Materialslib
+E:\Asset Directory\Materials\Voxels.xml: 
+    Materialslib
+Material Libraries: 
+    Material libraries were successfully loaded from path: E:\Asset Directory\Materials
+: 
+    **FileName: C:\Users\Vortex\AppData\Roaming\SpaceEngineers\Mods\SWSE-Local\Models\Cubes\small\SG_ShipStore.fbx
+: 
+    **Filename (without extension): SG_ShipStore
+: 
+    **Directory Name: C:\Users\Vortex\AppData\Roaming\SpaceEngineers\Mods\SWSE-Local\Models\Cubes\small
+: 
+    **Number of characters to cull: 63
+: 
+    **Culled Path: Models\Cubes\small
+Meshes: 
+    Found 22 meshe(s).
+Animations: 
+    Found 0 animation(s).
+C:\Users\Vortex\AppData\Roaming\SpaceEngineers\Mods\SWSE-Local\Models\Cubes\small\SG_ShipStore.fbx: 
+    : Finished in 0.3s
+: 
+    **FileName: C:\Users\Vortex\AppData\Roaming\SpaceEngineers\Mods\SWSE-Local\Models\Cubes\small\SG_ShipStore.hkt.fbx
+: 
+    **Filename (without extension): SG_ShipStore.hkt
+: 
+    **Directory Name: C:\Users\Vortex\AppData\Roaming\SpaceEngineers\Mods\SWSE-Local\Models\Cubes\small
+: 
+    **Number of characters to cull: 63
+: 
+    **Culled Path: Models\Cubes\small
+Meshes: 
+    Found 5 meshe(s).
+Animations: 
+    Found 0 animation(s).
+: WARNING: 
+    Assimp.Meshhas UV with 3 identical vectors in a row, this likely means you have a face with an UV is 0-size which will cause SE to make the entire model shaderless.
+C:\Users\Vortex\AppData\Roaming\SpaceEngineers\Mods\SWSE-Local\Models\Cubes\small\SG_ShipStore.hkt.fbx: 
+    : Finished in 0.3s

@@ -1,4 +1,5 @@
-﻿using static Scripts.Structure.WeaponDefinition;
+﻿
+using static Scripts.Structure.WeaponDefinition;
 using static Scripts.Structure.WeaponDefinition.AmmoDef;
 using static Scripts.Structure.WeaponDefinition.AmmoDef.EjectionDef;
 using static Scripts.Structure.WeaponDefinition.AmmoDef.EjectionDef.SpawnType;
@@ -36,7 +37,7 @@ namespace Scripts
             AmmoRound = "Anti Thruster", // Name of ammo in terminal, should be different for each ammo type used by the same weapon. Is used by Shrapnel.
             HybridRound = false, // Use both a physical ammo magazine and energy per shot.
             EnergyCost = .000000001f, // Scaler for energy per shot (EnergyCost * BaseDamage * (RateOfFire / 3600) * BarrelsPerShot * TrajectilesPerBarrel). Uses EffectStrength instead of BaseDamage if EWAR.
-            BaseDamage = 9000f, // Direct damage; one steel plate is worth 100.
+            BaseDamage = 0, // Direct damage; one steel plate is worth 100.
             Mass = 60f, // In kilograms; how much force the impact will apply to the target.
             Health = 0, // How much damage the projectile can take from other projectiles (base of 1 per hit) before dying; 0 disables this and makes the projectile untargetable.
             BackKickForce = 0f, // Recoil. This is applied to the Parent Grid.
@@ -60,8 +61,8 @@ namespace Scripts
             Fragment = new FragmentDef // Formerly known as Shrapnel. Spawns specified ammo fragments on projectile death (via hit or detonation).
             {
                 AmmoRound = "MagicFragment", // AmmoRound field of the ammo to spawn.
-                Fragments = 100, // Number of projectiles to spawn.
-                Degrees = 15, // Cone in which to randomize direction of spawned projectiles.
+                Fragments = 0, // Number of projectiles to spawn.
+                Degrees = 0, // Cone in which to randomize direction of spawned projectiles.
                 Reverse = false, // Spawn projectiles backward instead of forward.
                 DropVelocity = false, // fragments will not inherit velocity from parent.
                 Offset = 0f, // Offsets the fragment spawn by this amount, in meters (positive forward, negative for backwards), value is read from parent ammo type.
@@ -71,7 +72,7 @@ namespace Scripts
                 AdvOffset = Vector(x: 0, y: 0, z: 0), // advanced offsets the fragment by xyz coordinates relative to parent, value is read from fragment ammo type.
                 TimedSpawns = new TimedSpawnDef // disables FragOnEnd in favor of info specified below
                 {
-                    Enable = true, // Enables TimedSpawns mechanism
+                    Enable = false, // Enables TimedSpawns mechanism
                     Interval = 0, // Time between spawning fragments, in ticks, 0 means every tick, 1 means every other
                     StartTime = 0, // Time delay to start spawning fragments, in ticks, of total projectile life
                     MaxSpawns = 1, // Max number of fragment children to spawn
@@ -104,7 +105,7 @@ namespace Scripts
                 SelfDamage = false, // Whether to damage the weapon's own grid.
                 HealthHitModifier = 0, // How much Health to subtract from another projectile on hit; defaults to 1 if zero or less.
                 VoxelHitModifier = 1, // Voxel damage multiplier; defaults to 1 if zero or less.
-                Characters = 0.05f, // Character damage multiplier; defaults to 1 if zero or less.
+                Characters = 0, // Character damage multiplier; defaults to 1 if zero or less.
                 // For the following modifier values: -1 = disabled (higher performance), 0 = no damage, 0.01f = 1% damage, 2 = 200% damage.
                 FallOff = new FallOffDef
                 {
@@ -118,14 +119,14 @@ namespace Scripts
                 },
                 Armor = new ArmorDef
                 {
-                    Armor = 6f, // Multiplier for damage against all armor. This is multiplied with the specific armor type multiplier (light, heavy).
+                    Armor = -1f, // Multiplier for damage against all armor. This is multiplied with the specific armor type multiplier (light, heavy).
                     Light = -1f, // Multiplier for damage against light armor.
                     Heavy = -1f, // Multiplier for damage against heavy armor.
-                    NonArmor = 3f, // Multiplier for damage against every else.
+                    NonArmor = -1f, // Multiplier for damage against every else.
                 },
                 Shields = new ShieldDef
                 {
-                    Modifier = 1f, // Multiplier for damage against shields.
+                    Modifier = -1f, // Multiplier for damage against shields.
                     Type = Default, // Damage vs healing against shields; Default, Heal
                     BypassModifier = -1f, // If greater than zero, the percentage of damage that will penetrate the shield.
                 },
@@ -143,12 +144,12 @@ namespace Scripts
                     {
                         new CustomBlocksDef
                         {
-                            SubTypeId = "Test1",
+                            SubTypeId = "",
                             Modifier = -1f,
                         },
                         new CustomBlocksDef
                         {
-                            SubTypeId = "Test2",
+                            SubTypeId = "",
                             Modifier = -1f,
                         },
                     },
@@ -203,7 +204,7 @@ namespace Scripts
                 Mode = Field, // Effect , Field
                 Strength = 1000000f,
                 Radius = 10000f, // Meters
-                Duration = 1800, // In Ticks
+                Duration = 1200, // In Ticks
                 StackDuration = true, // Combined Durations
                 Depletable = true,
                 MaxStacks = 2, // Max Debuffs at once
@@ -233,7 +234,7 @@ namespace Scripts
                 },
                 Field = new FieldDef
                 {
-                    Interval = 899, // Time between each pulse, in game ticks (60 == 1 second), starts at 0 (59 == tick 60).
+                    Interval = 600, // Time between each pulse, in game ticks (60 == 1 second), starts at 0 (59 == tick 60).
                     PulseChance = 100, // Chance from 0 - 100 that an entity in the field will be hit by any given pulse.
                     GrowTime = 0, // How many ticks it should take the field to grow to full size.
                     HideModel = false, // Hide the default bubble, or other model if specified.

@@ -37,16 +37,16 @@
 
     <SurfaceDetail>
       <Texture>Data/PlanetDataFiles/Extra/material_detail_4</Texture>
-      <Size>384</Size>
-      <Scale>15</Scale>
-      <Slope Min="30" Max="80" />
+      <Size>10</Size>
+      <Scale>1</Scale>
+      <Slope Min="88" Max="90" />
       <Transition>10</Transition>
     </SurfaceDetail>
 
     <CustomMaterialTable>
-      <Material Material="K_Imperial_Voxel_DarkMoon_Rock" Value ="190" MaxDepth ="5"/>
-      <Material Material="K_Imperial_Voxel_DarkMoon_Dirt" Value ="174" MaxDepth ="5"/>
-      <Material Material="K_Imperial_Voxel_DarkMoon_Depths" Value ="158" MaxDepth ="5"/>
+      <Material Material="Imperial_Moonrise_1" Value ="190" MaxDepth ="5"/>
+      <Material Material="Imperial_Moonrise_2" Value ="174" MaxDepth ="5"/>
+      <Material Material="Imperial_Moonrise_3" Value ="158" MaxDepth ="5"/>
     </CustomMaterialTable>
 
 
@@ -56,7 +56,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="K_Imperial_Voxel_DarkMoon_Dirt" Depth="5"/>
+            <Layer Material="Imperial_Moonrise_2" Depth="5"/>
           </Layers>
           <Height Min="0.5" Max="1"/>
           <Latitude Min="0" Max="90"/>
@@ -65,7 +65,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="K_Imperial_Voxel_DarkMoon_Dirt" Depth="5"/>
+            <Layer Material="Imperial_Moonrise_2" Depth="5"/>
           </Layers>
           <Height Min="0" Max="0.3"/>
           <Latitude Min="0" Max="90"/>
@@ -74,7 +74,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="K_Imperial_Voxel_DarkMoon_Depths" Depth="5"/>
+            <Layer Material="Imperial_Moonrise_3" Depth="5"/>
           </Layers>
           <Height Min="0.4" Max="0.6"/>
           <Latitude Min="0" Max="90"/>
@@ -105,7 +105,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="K_Imperial_Voxel_DarkMoon_Dirt" Depth="5"/>
+            <Layer Material="Imperial_Moonrise_2" Depth="5"/>
           </Layers>
           <Height Min="0.5" Max="1"/>
           <Latitude Min="0" Max="90"/>
@@ -114,7 +114,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="K_Imperial_Voxel_DarkMoon_Dirt" Depth="5"/>
+            <Layer Material="Imperial_Moonrise_2" Depth="5"/>
           </Layers>
           <Height Min="0" Max="0.3"/>
           <Latitude Min="0" Max="90"/>
@@ -123,7 +123,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="K_Imperial_Voxel_DarkMoon_Depths" Depth="5"/>
+            <Layer Material="Imperial_Moonrise_3" Depth="5"/>
           </Layers>
           <Height Min="0.4" Max="0.6"/>
           <Latitude Min="0" Max="90"/>
@@ -154,7 +154,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="K_Imperial_Voxel_DarkMoon_Rock" Depth="5"/>
+            <Layer Material="Imperial_Moonrise_1" Depth="5"/>
           </Layers>
           <Height Min="0.5" Max="1"/>
           <Latitude Min="0" Max="90"/>
@@ -163,7 +163,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="K_Imperial_Voxel_DarkMoon_Dirt" Depth="5"/>
+            <Layer Material="Imperial_Moonrise_2" Depth="5"/>
           </Layers>
           <Height Min="0" Max="0.3"/>
           <Latitude Min="0" Max="90"/>
@@ -172,7 +172,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="K_Imperial_Voxel_DarkMoon_Depths" Depth="5"/>
+            <Layer Material="Imperial_Moonrise_3" Depth="5"/>
           </Layers>
           <Height Min="0.4" Max="0.6"/>
           <Latitude Min="0" Max="90"/>
@@ -199,41 +199,7 @@
       </MaterialGroup>
     </ComplexMaterials>
 
-    <EnvironmentItems>
-      <Item>
-        <Biomes>
-          <Biome>0</Biome>
-        </Biomes>
-        <Materials>
-          <Material>K_Imperial_Voxel_DarkMoon_Dirt</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="Moon" Density="0.003" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="15"/>
-        </Rule>
-      </Item>
 
-      <Item>
-        <Biomes>
-          <Biome>0</Biome>
-        </Biomes>
-        <Materials>
-          <Material>K_Imperial_Voxel_DarkMoon_Rock</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="Moon" Density="0.003" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="15"/>
-        </Rule>
-      </Item>
-    </EnvironmentItems>
 
     <OreMappings>
       <!-- Tier 1 ! INSERT ONLY IN BLUE CHANNEL ! -->
@@ -249,7 +215,7 @@
 
       <!-- Fe 2-->
       <Ore Value="12" Type="K_Imperial_Voxel_Dooninum01" Start="25" Depth="5" TargetColor="#FFFFFF" ColorInfluence="15"/>
-      <Ore Value="16" Type="K_Imperial_Voxel_DarkMoon_Depths" Start="28" Depth="5" TargetColor="#FFFFFF" ColorInfluence="15"/>
+      <Ore Value="16" Type="Imperial_Moonrise_3" Start="28" Depth="5" TargetColor="#FFFFFF" ColorInfluence="15"/>
       <Ore Value="20" Type="K_Imperial_Voxel_Dooninum01" Start="31" Depth="8" TargetColor="#FFFFFF" ColorInfluence="15"/>
 
       <!-- Ni 1-->
@@ -276,21 +242,21 @@
       <!-- Co 1-->
       <Ore Value="72" Type="K_Imperial_Voxel_Dooninum01" Start="20" Depth="3" TargetColor="#FFFFFF" ColorInfluence="15"/>
       <Ore Value="76" Type="K_Imperial_Voxel_Guerrerite01" Start="22" Depth="4" TargetColor="#FFFFFF" ColorInfluence="15"/>
-      <Ore Value="80" Type="K_Imperial_Voxel_DarkMoon_Depths" Start="26" Depth="6" TargetColor="#FFFFFF" ColorInfluence="15"/>
+      <Ore Value="80" Type="Imperial_Moonrise_3" Start="26" Depth="6" TargetColor="#FFFFFF" ColorInfluence="15"/>
 
       <!-- Co 2-->
       <Ore Value="84" Type="K_Imperial_Voxel_Zersium01" Start="52" Depth="5" TargetColor="#FFFFFF" ColorInfluence="15"/>
       <Ore Value="88" Type="K_Imperial_Voxel_Dooninum01" Start="55" Depth="6" TargetColor="#FFFFFF" ColorInfluence="15"/>
-      <Ore Value="92" Type="K_Imperial_Voxel_DarkMoon_Depths" Start="62" Depth="9" TargetColor="#FFFFFF" ColorInfluence="15"/>
+      <Ore Value="92" Type="Imperial_Moonrise_3" Start="62" Depth="9" TargetColor="#FFFFFF" ColorInfluence="15"/>
 
       <!-- Ag 1-->
-      <Ore Value="96" Type="K_Imperial_Voxel_DarkMoon_Depths" Start="21" Depth="3" TargetColor="#FFFFFF" ColorInfluence="15"/>
+      <Ore Value="96" Type="Imperial_Moonrise_3" Start="21" Depth="3" TargetColor="#FFFFFF" ColorInfluence="15"/>
       <Ore Value="100" Type="K_Imperial_Voxel_Dooninum01" Start="25" Depth="3" TargetColor="#FFFFFF" ColorInfluence="15"/>
-      <Ore Value="104" Type="K_Imperial_Voxel_DarkMoon_Depths" Start="31" Depth="5" TargetColor="#FFFFFF" ColorInfluence="15"/>
+      <Ore Value="104" Type="Imperial_Moonrise_3" Start="31" Depth="5" TargetColor="#FFFFFF" ColorInfluence="15"/>
 
       <!-- Ag 2-->
       <Ore Value="108" Type="K_Imperial_Voxel_Dooninum01" Start="55" Depth="8" TargetColor="#FFFFFF" ColorInfluence="15"/>
-      <Ore Value="112" Type="K_Imperial_Voxel_DarkMoon_Depths" Start="58" Depth="9" TargetColor="#FFFFFF" ColorInfluence="15"/>
+      <Ore Value="112" Type="Imperial_Moonrise_3" Start="58" Depth="9" TargetColor="#FFFFFF" ColorInfluence="15"/>
       <Ore Value="116" Type="K_Imperial_Voxel_Guerrerite01" Start="63" Depth="11" TargetColor="#FFFFFF" ColorInfluence="15"/>
 
       <!-- Mg 1-->
@@ -301,7 +267,7 @@
       <!-- Mg 2-->
       <Ore Value="132" Type="K_Imperial_Voxel_Zersium01" Start="53" Depth="7" TargetColor="#FFFFFF" ColorInfluence="15"/>
       <Ore Value="136" Type="K_Imperial_Voxel_Carbonite01" Start="55" Depth="8" TargetColor="#FFFFFF" ColorInfluence="15"/>
-      <Ore Value="140" Type="K_Imperial_Voxel_DarkMoon_Depths" Start="59" Depth="10" TargetColor="#FFFFFF" ColorInfluence="15"/>
+      <Ore Value="140" Type="Imperial_Moonrise_3" Start="59" Depth="10" TargetColor="#FFFFFF" ColorInfluence="15"/>
 
       <!-- ORE Tier 3 -->
       <!-- U 1-->
@@ -320,7 +286,7 @@
       <Ore Value="176" Type="K_Imperial_Voxel_Carbonite01" Start="45" Depth="3" TargetColor="#FFFFFF" ColorInfluence="15"/>
 
       <!-- Au 2-->
-      <Ore Value="180" Type="K_Imperial_Voxel_DarkMoon_Depths" Start="100" Depth="4" TargetColor="#FFFFFF" ColorInfluence="15"/>
+      <Ore Value="180" Type="Imperial_Moonrise_3" Start="100" Depth="4" TargetColor="#FFFFFF" ColorInfluence="15"/>
       <Ore Value="184" Type="K_Imperial_Voxel_Dooninum01" Start="107" Depth="5" TargetColor="#FFFFFF" ColorInfluence="15"/>
       <Ore Value="188" Type="K_Imperial_Voxel_Zersium01" Start="112" Depth="8" TargetColor="#FFFFFF" ColorInfluence="15"/>
 
@@ -362,7 +328,7 @@
       <MusicCategory Category="Space" Frequency="0.15" />
     </MusicCategories>
 
-    <DefaultSurfaceMaterial Material="K_Imperial_Voxel_DarkMoon_Rock" MaxDepth="5"/>
+    <DefaultSurfaceMaterial Material="Imperial_Moonrise_1" MaxDepth="5"/>
 
     <HasAtmosphere>true</HasAtmosphere>
     <Atmosphere>
@@ -382,73 +348,7 @@
 
     <HillParams Min = "-0.03" Max ="0.03"/>
     <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
-	<WeatherFrequencyMin>1800</WeatherFrequencyMin>
-	<WeatherFrequencyMax>5400</WeatherFrequencyMax>
-	<WeatherGenerators>
-		<WeatherGenerator>
-			<Voxel>K_Imperial_Voxel_DarkMoon_Rock</Voxel>
-			<Weathers>
-				<Weather>
-					<Name>Starwars_Weather_MoonDustStorm</Name>
-					<Weight>2</Weight>
-					<MinLength>900</MinLength>
-					<MaxLength>2000</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-            	<Weather>
-					<Name>Starwars_Weather_Rain_Darkness</Name>
-					<Weight>2</Weight>
-					<MinLength>900</MinLength>
-					<MaxLength>3600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-		
-		<WeatherGenerator>
-			<Voxel>K_Imperial_Voxel_DarkForestGrass</Voxel>
-			<Weathers>
-				<Weather>
-					<Name>Starwars_Weather_Rain_Darkness</Name>
-					<Weight>2</Weight>
-					<MinLength>800</MinLength>
-					<MaxLength>2400</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-            	<Weather>
-					<Name>Starwars_Weather_Fog_Darkness</Name>
-					<Weight>1</Weight>
-					<MinLength>600</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-		
-		
-		<WeatherGenerator>
-			<Voxel>K_Imperial_Voxel_DarkLivingStone</Voxel>
-			<Weathers>
-				<Weather>
-					<Name>Starwars_Weather_MoonDustStorm</Name>
-					<Weight>2</Weight>
-					<MinLength>800</MinLength>
-					<MaxLength>2400</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-            	<Weather>
-					<Name>Starwars_Weather_Fog_Darkness</Name>
-					<Weight>1</Weight>
-					<MinLength>600</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-		
-			
-		</WeatherGenerators>
-	
+
 	
 	
   </Definition>

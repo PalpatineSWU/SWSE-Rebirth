@@ -122,23 +122,7 @@
     <BreakSound>ImpTreeBreak</BreakSound>
   </Definition>
 
-  <!-- Ice Plains-->
 
-  <Definition xsi:type="MyObjectBuilder_TreeDefinition">
-    <Id>
-      <TypeId>TreeDefinition</TypeId>
-      <SubtypeId>K_Snowworld_IceSpike</SubtypeId>
-    </Id>
-    <Model>Models\Environment\Trees\K_IcicleTree_Large.mwm</Model>
-    <BranchesStartHeight>5</BranchesStartHeight>
-    <PhysicalMaterial>Ice</PhysicalMaterial>
-    <HitPoints>50</HitPoints>
-    <CutEffect>ChipOff_Wood</CutEffect>
-    <FallSound>ImpTreeFall</FallSound>
-    <BreakSound>RealWepShipGatlingImpIce</BreakSound>
-  </Definition>
-
-  <!-- Snow Forest-->
 
   <!-- Bulb Forest-->
 

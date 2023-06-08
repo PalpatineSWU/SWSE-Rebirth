@@ -5,7 +5,7 @@
         <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition">
             <Id>
                 <TypeId>SurvivalKit</TypeId>
-                <SubtypeId>SurvivalKitLarge_FCS</SubtypeId>
+                <SubtypeId>SurvivalKitLarge_FCSW</SubtypeId>
             </Id>
             <DisplayName>Capital Survival Kit</DisplayName>
             <Description>Can refine and assemble anything.</Description>
@@ -18,9 +18,9 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\SurvivalKit.mwm</Model>
             <Components>
-                <Component Subtype="NPC" Count="1" />
+                <Component Subtype="SWNPC" Count="1" />
                 <Component Subtype="Computer" Count="1" />
-                <Component Subtype="NPC" Count="1" />
+                <Component Subtype="SWNPC" Count="1" />
             </Components>
             <MountPoints>
                 <MountPoint Side="Left" StartX="0.1" StartY="0" EndX="0.9" EndY="0.9" />
@@ -89,7 +89,7 @@
         <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
             <Id>
                 <TypeId>CargoContainer</TypeId>
-                <SubtypeId>LargeBlockSmallContainer_FCS</SubtypeId>
+                <SubtypeId>LargeBlockSmallContainer_FCSW</SubtypeId>
             </Id>
             <DisplayName>Capital Storage Unit</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
@@ -100,9 +100,9 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\CargoContainerSmall.mwm</Model>
             <Components>
-                <Component Subtype="NPC" Count="1" />
+                <Component Subtype="SWNPC" Count="1" />
                 <Component Subtype="Computer" Count="1" />
-                <Component Subtype="NPC" Count="1" />
+                <Component Subtype="SWNPC" Count="1" />
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <BlockPairName>SmallCargoContainerFCS</BlockPairName>
@@ -121,7 +121,7 @@
         <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
             <Id>
                 <TypeId>Refinery</TypeId>
-                <SubtypeId>NPC_refinery_Small_10x</SubtypeId>
+                <SubtypeId>SWNPC_refinery_Small_10x</SubtypeId>
             </Id>
             <DisplayName>NPC Refinery Small 10x</DisplayName>
             <Description>Refinery that represents the industry of a planet. Has 10x yeld and 20 refine speed.</Description>
@@ -137,9 +137,9 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\ArkolisProduction\SmallRefinery\K_Small_Refinery_Large_BS3.mwm" />
             </BuildProgressModels>
             <Components>
-                <Component Subtype="NPC" Count="1" />
+                <Component Subtype="SWNPC" Count="1" />
                 <Component Subtype="Computer" Count="1" />
-                <Component Subtype="NPC" Count="1" />
+                <Component Subtype="SWNPC" Count="1" />
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MirroringZ>Y</MirroringZ>

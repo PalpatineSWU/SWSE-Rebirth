@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Components>
+	
+    <Component>      <!--          Speederbike           -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Speederbike_SOD</SubtypeId>
+      </Id>
+      <DisplayName>Speederbike Operating License</DisplayName>
+      <ExtraInventoryTooltipLine>BoSS credited License for the operation of Speederbikes.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Ships\Speederbike\Speeder.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.2</Mass>
+      <Volume>0.4</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>30</MaxIntegrity>
+      <Health>30</Health>
+    </Component>
+
+    <Component>      <!--          E-wing           -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>EWing_SOD</SubtypeId>
+      </Id>
+      <DisplayName>E-wing Operating License</DisplayName>
+      <ExtraInventoryTooltipLine>BoSS credited License for the operation of the E-Wing.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Ships\e-wing\EWing.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.2</Mass>
+      <Volume>0.4</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>30</MaxIntegrity>
+      <Health>30</Health>
+    </Component>
+
+    <Component>      <!--          Rz1 A-Wing Tie           -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>AWing_SOD</SubtypeId>
+      </Id>
+      <DisplayName>RZ-1 A-wing License</DisplayName>
+      <ExtraInventoryTooltipLine>BoSS credited License for the operation of the RZ-1 A-Wing.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Ships\Rz1\Rz1.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.2</Mass>
+      <Volume>0.4</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>30</MaxIntegrity>
+      <Health>30</Health>
+    </Component>
+
+    <Component>      <!--          T-70 X-wing           -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>XWing_T70_SOD</SubtypeId>
+      </Id>
+      <DisplayName>T-70 X-wing License</DisplayName>
+      <ExtraInventoryTooltipLine>BoSS credited License for the operation of the T-70 X-wing.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Ships\T70\T70.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.2</Mass>
+      <Volume>0.4</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>30</MaxIntegrity>
+      <Health>30</Health>
+    </Component>
+
+    <Component>      <!--          XJ5 X-wing           -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>XWing_XJ5_SOD</SubtypeId>
+      </Id>
+      <DisplayName>XJ5 X-wing License</DisplayName>
+      <ExtraInventoryTooltipLine>BoSS credited License for the operation of the XJ5 X-wing.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Ships\XJ5\XJ5.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.2</Mass>
+      <Volume>0.4</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>30</MaxIntegrity>
+      <Health>30</Health>
+    </Component>
+
+    <Component>      <!--          Y-wing           -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>YWing_SOD</SubtypeId>
+      </Id>
+      <DisplayName>Y-wing License</DisplayName>
+      <ExtraInventoryTooltipLine>BoSS credited License for the operation of the Y-wing.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Ships\Y-wing\Ywing.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.2</Mass>
+      <Volume>0.4</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>30</MaxIntegrity>
+      <Health>30</Health>
+    </Component>
+
+    <Component>      <!--          H-60 Tempest bomber           -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>H60_SOD</SubtypeId>
+      </Id>
+      <DisplayName>H-60 Tempest bomber License</DisplayName>
+      <ExtraInventoryTooltipLine>BoSS credited License for the operation of the H-60 Tempest bomber.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Ships\Tempest\H60.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.2</Mass>
+      <Volume>0.4</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>30</MaxIntegrity>
+      <Health>30</Health>
+    </Component>
+
+    <Component>      <!--          Ionizer           -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Ionizer_SOD</SubtypeId>
+      </Id>
+      <DisplayName>Ionizer Operating License</DisplayName>
+      <ExtraInventoryTooltipLine>BoSS credited License for the operation of the Ionizer.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Ships\ionizer\Ionizer.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.2</Mass>
+      <Volume>0.4</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>30</MaxIntegrity>
+      <Health>30</Health>
+    </Component>
+
+    <Component>      <!--          Starviper           -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Starviper_SOD</SubtypeId>
+      </Id>
+      <DisplayName>StarViper-class attack platform License</DisplayName>
+      <ExtraInventoryTooltipLine>BoSS credited License for the operation of the StarViper-class attack platform.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Ships\Starviper\SViper.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.2</Mass>
+      <Volume>0.4</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>30</MaxIntegrity>
+      <Health>30</Health>
+    </Component>
+
+  </Components>
+</Definitions>

@@ -152,7 +152,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>LargeBlockSmallContainer_FCS</SubtypeId>
+        <SubtypeId>LargeBlockSmallContainer_FCSW</SubtypeId>
       </Id>
       <Size x="80000000" y="80000000" z="80000000" />
     </EntityComponent>

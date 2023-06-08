@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
   <!--Moons -->
   <Definition xsi:type="PlanetGeneratorDefinition">
@@ -10,7 +11,7 @@
     <!--!!!Important!! Read if you want to mod Planets! -->
     <!--Following tag switches off loading from certain color channels. Its performance measure in cases where channels are not used-->
     <!--Make sure you are not modding a switched off channel-->
-    <PlanetMaps Material="true" Ores="true" Biome="true" Occlusion="true"/>
+    <PlanetMaps Material="true" Ores="true" Biome="false" Occlusion="true"/>
 
     <MesherPostprocessing xsi:type="MyObjectBuilder_VoxelMesherComponentDefinition">
       <PostprocessingSteps>
@@ -38,203 +39,15 @@
 
     <SurfaceDetail>
       <Texture>Data/PlanetDataFiles/Extra/material_detail_1</Texture>
-      <Size>256</Size>
-      <Scale>2</Scale>
-      <Slope Min="30" Max="90" />
+      <Size>10</Size>
+      <Scale>1</Scale>
+      <Slope Min="88" Max="90" />
       <Transition>10</Transition>
     </SurfaceDetail>
 
-    <CustomMaterialTable>
-      <Material Material="MarsRocks" Value ="190" MaxDepth ="5"/>
-      <Material Material="MarsSoil" Value ="174" MaxDepth ="5"/>
-      <Material Material="Ice" Value ="158" MaxDepth ="5"/>
-    </CustomMaterialTable>
-
-
-    <!-- Earthmoon definitions -->
-    <ComplexMaterials>
-      <MaterialGroup Name="Craters" Value="48">
-
-        <Rule>
-          <Layers>
-            <Layer Material="MarsSoil" Depth="5"/>
-          </Layers>
-          <Height Min="0.5" Max="1"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="40" Max="70"/>
-        </Rule>
-
-        <Rule>
-          <Layers>
-            <Layer Material="MarsSoil" Depth="5"/>
-          </Layers>
-          <Height Min="0" Max="0.3"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="0" Max="30"/>
-        </Rule>
-
-        <Rule>
-          <Layers>
-            <Layer Material="MarsSoil" Depth="5"/>
-          </Layers>
-          <Height Min="0.4" Max="0.6"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="0" Max="30"/>
-        </Rule>
-
-        <Rule>
-          <Layers>
-            <Layer Material="Ice" Depth="5"/>
-          </Layers>
-          <Height Min="0" Max="0.5"/>
-          <Latitude Min="60" Max="90"/>
-          <Slope Min="0" Max="10"/>
-        </Rule>
-
-        <Rule>
-          <Layers>
-            <Layer Material="Ice" Depth="5"/>
-          </Layers>
-          <Height Min="0.25" Max="0.5"/>
-          <Latitude Min="60" Max="90"/>
-          <Slope Min="30" Max="60"/>
-        </Rule>
-
-      </MaterialGroup>
-
-      <MaterialGroup Name="Other features" Value="16">
-
-        <Rule>
-          <Layers>
-            <Layer Material="MarsSoil" Depth="5"/>
-          </Layers>
-          <Height Min="0.5" Max="1"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="40" Max="70"/>
-        </Rule>
-
-        <Rule>
-          <Layers>
-            <Layer Material="MarsSoil" Depth="5"/>
-          </Layers>
-          <Height Min="0" Max="0.3"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="0" Max="30"/>
-        </Rule>
-
-        <Rule>
-          <Layers>
-            <Layer Material="MarsSoil" Depth="5"/>
-          </Layers>
-          <Height Min="0.4" Max="0.6"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="0" Max="30"/>
-        </Rule>
-
-        <Rule>
-          <Layers>
-            <Layer Material="Ice" Depth="5"/>
-          </Layers>
-          <Height Min="0" Max="0.5"/>
-          <Latitude Min="60" Max="90"/>
-          <Slope Min="0" Max="10"/>
-        </Rule>
-
-        <Rule>
-          <Layers>
-            <Layer Material="Ice" Depth="5"/>
-          </Layers>
-          <Height Min="0.25" Max="0.5"/>
-          <Latitude Min="60" Max="90"/>
-          <Slope Min="30" Max="60"/>
-        </Rule>
-
-      </MaterialGroup>
-
-      <MaterialGroup Name="Other features 2" Value="0">
-
-        <Rule>
-          <Layers>
-            <Layer Material="MarsSoil" Depth="5"/>
-          </Layers>
-          <Height Min="0.5" Max="1"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="40" Max="70"/>
-        </Rule>
-
-        <Rule>
-          <Layers>
-            <Layer Material="MarsSoil" Depth="5"/>
-          </Layers>
-          <Height Min="0" Max="0.3"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="0" Max="30"/>
-        </Rule>
-
-        <Rule>
-          <Layers>
-            <Layer Material="MarsSoil" Depth="5"/>
-          </Layers>
-          <Height Min="0.4" Max="0.6"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="0" Max="30"/>
-        </Rule>
-
-        <Rule>
-          <Layers>
-            <Layer Material="Ice" Depth="5"/>
-          </Layers>
-          <Height Min="0" Max="0.5"/>
-          <Latitude Min="60" Max="90"/>
-          <Slope Min="0" Max="10"/>
-        </Rule>
-
-        <Rule>
-          <Layers>
-            <Layer Material="Ice" Depth="5"/>
-          </Layers>
-          <Height Min="0.25" Max="0.5"/>
-          <Latitude Min="60" Max="90"/>
-          <Slope Min="30" Max="60"/>
-        </Rule>
-      </MaterialGroup>
-    </ComplexMaterials>
-
-    <EnvironmentItems>
-      <Item>
-        <Biomes>
-          <Biome>0</Biome>
-        </Biomes>
-        <Materials>
-          <Material>MarsSoil</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="Moon" Density="0.003" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="15"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>0</Biome>
-        </Biomes>
-        <Materials>
-          <Material>MarsRocks</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="Moon" Density="0.003" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="15"/>
-        </Rule>
-      </Item>
-    </EnvironmentItems>
+    <DistortionTable>
+      <Distortion Type="Perlin" Value ="92" Frequency="10" Height="4" LayerCount="6"/>
+    </DistortionTable>
 
     <OreMappings>
       <!-- Tier 1 ! INSERT ONLY IN BLUE CHANNEL ! -->
@@ -336,8 +149,6 @@
       <Ore Value="222" Type="K_Imperial_Voxel_Rubindum01" Start="265" Depth="1" TargetColor="#FFFFFF" ColorInfluence="15"/>
     </OreMappings>
 
-    <!-- END Earthmoon definitions -->
-
     <SoundRules>
       <!-- Day -->
       <SoundRule>
@@ -363,12 +174,189 @@
       <MusicCategory Category="Space" Frequency="0.15" />
     </MusicCategories>
 
-    <DefaultSurfaceMaterial Material="MarsRocks" MaxDepth="5"/>
+
+
+    <CustomMaterialTable>
+      <Material Material="TropicCream_5" Value ="40" MaxDepth ="20"/>
+      <Material Material="TropicCream_2" Value ="25" MaxDepth ="20"/>
+      <Material Material="TropicCream_3" Value ="30" MaxDepth ="20"/>
+      <Material Material="TropicCream_4" Value ="35" MaxDepth ="20"/>
+      <Material Material="MarsBuilding_1_Roof" Value ="40" MaxDepth ="20"/>
+      <Material Material="MarsBuilding_1_Wall" Value ="45" MaxDepth ="20"/>
+      <Material Material="MarsRoads" Value ="50" MaxDepth ="20"/>
+      <Material Material="MarsRoads" Value ="55" MaxDepth ="1"/>
+      <Material Material="TropicCream_7" Value ="91" MaxDepth ="5"/>
+      <Material Material="TropicCream_7" Value ="85" MaxDepth ="5"/>
+    </CustomMaterialTable>
+
+    <DefaultSurfaceMaterial Material="MarsBuilding_1_Wall" MaxDepth="5"/>
+    <DefaultSubSurfaceMaterial Material="TropicCream_4"/>
+    <ComplexMaterials>
+
+      <MaterialGroup Name="All features" Value="0">
+
+
+        <Rule>
+          <Layers>
+            <Layer Material="MarsBuilding_1_Wall" Depth="20"/>
+          </Layers>
+          <Height Min="0.45" Max="1.0"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="75" Max="90"/>
+        </Rule>
+
+
+        <!-- ++++++++++++++++++++++++++++++++++Normal textures for like rocks and shit above water AREA +++++++++++++++++++++++++++  -->
+
+        <Rule>
+          <Layers>
+            <Layer Material="TropicCream_7" Depth="5"/>
+          </Layers>
+          <Height Min=".4" Max="1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="15"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="TropicCream_8" Depth="5"/>
+          </Layers>
+          <Height Min=".4" Max="1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="15" Max="25"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="TropicCream_3" Depth="5"/>
+          </Layers>
+          <Height Min=".4" Max="1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="25" Max="35"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="TropicCream_4" Depth="5"/>
+          </Layers>
+          <Height Min=".4" Max="1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="35" Max="75"/>
+        </Rule>
+
+        <!-- ++++++++++++++++++++++++++++++++++Normal textures for like rocks and shit above water AREA +++++++++++++++++++++++++++  -->
+
+        <Rule>
+          <Layers>
+            <Layer Material="TropicCream_7" Depth="5"/>
+          </Layers>
+          <Height Min=".3" Max=".4"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="58"/>
+        </Rule>
+
+
+
+
+        <!-- ++++++++++++++++++++++++++++++++++Normal textures for like rocks and shit Below water UNDA DA SEA AREA +++++++++++++++++++++++++++  -->
+
+        <Rule>
+          <Layers>
+            <Layer Material="TropicCream_8" Depth="5"/>
+          </Layers>
+          <Height Min="0" Max=".4"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="42" Max="58"/>
+        </Rule>
+
+        <!-- 3 ore vein start -->
+        <Rule>
+          <Layers>
+            <Layer Material="K_Imperial_Voxel_Dooninum01" Depth="50"/>
+          </Layers>
+          <Height Min="0" Max=".4"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="41" Max="42"/>
+        </Rule>
+        <!-- 3 ore vein END -->
+        <Rule>
+          <Layers>
+            <Layer Material="TropicCream_8" Depth="5"/>
+          </Layers>
+          <Height Min="0" Max=".4"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="35" Max="41"/>
+        </Rule>
+        <!-- 2 ore vein start -->
+        <Rule>
+          <Layers>
+            <Layer Material="K_Imperial_Voxel_Dooninum01" Depth="5"/>
+          </Layers>
+          <Height Min="0" Max=".4"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="34" Max="35"/>
+        </Rule>
+        <!-- 2 ore vein END -->
+
+        <Rule>
+          <Layers>
+            <Layer Material="TropicCream_7" Depth="5"/>
+          </Layers>
+          <Height Min="0" Max=".4"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="27" Max="34"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="TropicCream_9" Depth="5"/>
+          </Layers>
+          <Height Min="0" Max=".4"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="20" Max="27"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="TropicCream_7" Depth="5"/>
+          </Layers>
+          <Height Min="0" Max=".4"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="12" Max="20"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="TropicCream_5" Depth="5"/>
+          </Layers>
+          <Height Min="0" Max=".4"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="5" Max="12"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="TropicCream_7" Depth="5"/>
+          </Layers>
+          <Height Min="0" Max=".4"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="6"/>
+        </Rule>
+
+
+
+
+
+      </MaterialGroup>
+
+    </ComplexMaterials>
+
+
 
     <HasAtmosphere>true</HasAtmosphere>
- <Atmosphere>
+    <Atmosphere>
       <Breathable>true</Breathable>
-      <OxygenDensity>0.2</OxygenDensity>
+      <OxygenDensity>1</OxygenDensity>
       <Density>1.0</Density>
       <LimitAltitude>2.0</LimitAltitude>
     </Atmosphere>
@@ -393,15 +381,15 @@
       <SeaLevelModifier>0.912886143</SeaLevelModifier>
       <AtmosphereTopModifier>0.9042163</AtmosphereTopModifier>
     </AtmosphereSettings>
-	
-	<CloudLayers>
+
+    <CloudLayers>
       <CloudLayer>
         <!-- Far layer -->
         <Color>
-         <X>5</X>
-         <Y>5</Y>
-         <Z>5</Z>
-         <W>.8</W>
+          <X>5</X>
+          <Y>5</Y>
+          <Z>5</Z>
+          <W>.8</W>
         </Color>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
@@ -421,7 +409,7 @@
         <ApplyFogRelativeDistance>0.1</ApplyFogRelativeDistance>
       </CloudLayer>
       <CloudLayer>
-      
+
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
           <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
@@ -441,11 +429,11 @@
       </CloudLayer>
       <CloudLayer>
         <Color>
-         <X>5</X>
-         <Y>5</Y>
-         <Z>5</Z>
-         <W>.8</W>
-        </Color>      
+          <X>5</X>
+          <Y>5</Y>
+          <Z>5</Z>
+          <W>.8</W>
+        </Color>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
           <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
@@ -465,11 +453,11 @@
       </CloudLayer>
       <CloudLayer>
         <Color>
-         <X>5</X>
-         <Y>5</Y>
-         <Z>5</Z>
-         <W>.8</W>
-        </Color>      
+          <X>5</X>
+          <Y>5</Y>
+          <Z>5</Z>
+          <W>.8</W>
+        </Color>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
           <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
@@ -492,10 +480,10 @@
 
       <CloudLayer>
         <Color>
-         <X>255</X>
-         <Y>165</Y>
-         <Z>1</Z>
-        </Color>      
+          <X>255</X>
+          <Y>165</Y>
+          <Z>1</Z>
+        </Color>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
           <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
@@ -514,10 +502,10 @@
       </CloudLayer>
       <CloudLayer>
         <Color>
-         <X>255</X>
-         <Y>165</Y>
-         <Z>1</Z>
-        </Color>            
+          <X>255</X>
+          <Y>165</Y>
+          <Z>1</Z>
+        </Color>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
           <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
@@ -536,10 +524,10 @@
       </CloudLayer>
       <CloudLayer>
         <Color>
-         <X>255</X>
-         <Y>165</Y>
-         <Z>1</Z>
-        </Color>            
+          <X>255</X>
+          <Y>165</Y>
+          <Z>1</Z>
+        </Color>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
           <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
@@ -558,10 +546,10 @@
       </CloudLayer>
       <CloudLayer>
         <Color>
-         <X>255</X>
-         <Y>165</Y>
-         <Z>1</Z>
-        </Color>            
+          <X>255</X>
+          <Y>165</Y>
+          <Z>1</Z>
+        </Color>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
           <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
@@ -588,5 +576,5 @@
   </Definition>
 
 
- 
+
 </Definitions>

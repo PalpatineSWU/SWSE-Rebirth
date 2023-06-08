@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <CubeBlocks>
+
+        <Definition xsi:type="MyObjectBuilder_VendingMachineDefinition">
+			<Id>
+				<TypeId>VendingMachine</TypeId>
+				<SubtypeId>LG_ShipStore</SubtypeId>
+			</Id>
+			<DisplayName>Wide Vending Machine</DisplayName>
+			<Description>{LOC:Description_VendingMachine}</Description>
+			<Icon>Textures\GUI\Icons\Cubes\ShipStore.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\large\LG_ShipStore.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="Motor" Count="4" />
+                <Component Subtype="Display" Count="10" />
+                <Component Subtype="Computer" Count="10" />
+                <Component Subtype="InteriorPlate" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BlockPairName>SG_ShipStore</BlockPairName>
+            <RequiredPowerInput>0.002</RequiredPowerInput>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <DefaultItems>
+                <MyObjectBuilder_StoreItem>
+                    <Id>1136189434942549542</Id>
+                    <Item Type="MyObjectBuilder_ConsumableItem" Subtype="ClangCola" />
+                    <ItemType>PhysicalItem</ItemType>
+                    <Amount>1</Amount>
+                    <RemovedAmount>0</RemovedAmount>
+                    <PricePerUnit>100</PricePerUnit>
+                    <StoreItemType>Offer</StoreItemType>
+                    <UpdateCount>0</UpdateCount>
+                    <PrefabTotalPcu>0</PrefabTotalPcu>
+                    <PricePerUnitDiscount>0</PricePerUnitDiscount>
+                </MyObjectBuilder_StoreItem>
+                <MyObjectBuilder_StoreItem>
+                    <Id>1082521839310786643</Id>
+                    <Item Type="MyObjectBuilder_ConsumableItem" Subtype="CosmicCoffee" />
+                    <ItemType>PhysicalItem</ItemType>
+                    <Amount>1</Amount>
+                    <RemovedAmount>0</RemovedAmount>
+                    <PricePerUnit>100</PricePerUnit>
+                    <StoreItemType>Offer</StoreItemType>
+                    <UpdateCount>0</UpdateCount>
+                    <PrefabTotalPcu>0</PrefabTotalPcu>
+                    <PricePerUnitDiscount>0</PricePerUnitDiscount>
+                </MyObjectBuilder_StoreItem>
+            </DefaultItems>
+            <ThrowOutDummy>FoodDispenserSpawn</ThrowOutDummy>
+            <ScreenAreas>
+                <ScreenArea Name="VendingScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="1024" ScreenWidth="15" ScreenHeight="9" Script="TSS_VendingMachine"/>
+            </ScreenAreas>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <ActionSound>BlockCollect</ActionSound>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>10</PCU>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DLC>DecorativeBlocks2</DLC>
+            <AdditionalEmissiveMaterials>
+                <string>FoodDispenser</string>
+            </AdditionalEmissiveMaterials>
+		</Definition>
+
+        <Definition xsi:type="MyObjectBuilder_VendingMachineDefinition">
+			<Id>
+				<TypeId>VendingMachine</TypeId>
+				<SubtypeId>SG_ShipStore</SubtypeId>
+			</Id>
+			<DisplayName>Wide Vending Machine</DisplayName>
+			<Description>{LOC:Description_VendingMachine}</Description>
+			<Icon>Textures\GUI\Icons\Cubes\ShipStore.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="3" z="3"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\SG_ShipStore.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="Motor" Count="4" />
+                <Component Subtype="Display" Count="10" />
+                <Component Subtype="Computer" Count="10" />
+                <Component Subtype="InteriorPlate" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+			<BlockPairName>SG_ShipStore</BlockPairName>
+            <RequiredPowerInput>0.002</RequiredPowerInput>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <DefaultItems>
+                <MyObjectBuilder_StoreItem>
+                    <Id>1136189434942549542</Id>
+                    <Item Type="MyObjectBuilder_ConsumableItem" Subtype="ClangCola" />
+                    <ItemType>PhysicalItem</ItemType>
+                    <Amount>1</Amount>
+                    <RemovedAmount>0</RemovedAmount>
+                    <PricePerUnit>100</PricePerUnit>
+                    <StoreItemType>Offer</StoreItemType>
+                    <UpdateCount>0</UpdateCount>
+                    <PrefabTotalPcu>0</PrefabTotalPcu>
+                    <PricePerUnitDiscount>0</PricePerUnitDiscount>
+                </MyObjectBuilder_StoreItem>
+                <MyObjectBuilder_StoreItem>
+                    <Id>1082521839310786643</Id>
+                    <Item Type="MyObjectBuilder_ConsumableItem" Subtype="CosmicCoffee" />
+                    <ItemType>PhysicalItem</ItemType>
+                    <Amount>1</Amount>
+                    <RemovedAmount>0</RemovedAmount>
+                    <PricePerUnit>100</PricePerUnit>
+                    <StoreItemType>Offer</StoreItemType>
+                    <UpdateCount>0</UpdateCount>
+                    <PrefabTotalPcu>0</PrefabTotalPcu>
+                    <PricePerUnitDiscount>0</PricePerUnitDiscount>
+                </MyObjectBuilder_StoreItem>
+            </DefaultItems>
+            <ThrowOutDummy>FoodDispenserSpawn</ThrowOutDummy>
+            <ScreenAreas>
+                <ScreenArea Name="VendingScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="1024" ScreenWidth="15" ScreenHeight="9" Script="TSS_VendingMachine"/>
+            </ScreenAreas>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <ActionSound>BlockCollect</ActionSound>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>10</PCU>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DLC>DecorativeBlocks2</DLC>
+            <AdditionalEmissiveMaterials>
+                <string>FoodDispenser</string>
+            </AdditionalEmissiveMaterials>
+		</Definition>
+
+  </CubeBlocks>
+</Definitions>

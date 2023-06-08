@@ -39,9 +39,9 @@
 
     <SurfaceDetail>
       <Texture>Data/PlanetDataFiles/Extra/material_detail_1</Texture>
-      <Size>256</Size>
-      <Scale>2</Scale>
-      <Slope Min="30" Max="90" />
+      <Size>10</Size>
+      <Scale>1</Scale>
+      <Slope Min="88" Max="90" />
       <Transition>10</Transition>
     </SurfaceDetail>
 

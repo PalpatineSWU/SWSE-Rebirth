@@ -525,6 +525,34 @@
     <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>K_SW_Explosion_Generic</SubtypeId>
+      </Id>
+      <Category>WEP_EXPL</Category>
+      <MaxDistance>400</MaxDistance>
+      <PreventSynchronization>5</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>25</DynamicMusicAmount>
+      <Volume>0.4</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\Destruction\BlockExplosion_A.wav</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\Destruction\BlockExplosion_B.wav</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\Destruction\BlockExplosion_C.wav</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\Destruction\BlockExplosion_D.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
         <SubtypeId>K_Imperial_Explosion_Cockpit</SubtypeId>
       </Id>
       <Category>WEP_EXPL</Category>

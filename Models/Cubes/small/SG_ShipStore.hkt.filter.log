@@ -1,0 +1,12 @@
+Command: C:\Program Files\Havok\HavokContentTools\hctStandAloneFilterManager.exe -t -s C:\Users\Vortex\AppData\Local\Temp\space_engineers_09f_t6tw.hko -p C:\Users\Vortex\AppData\Roaming\SpaceEngineers\Mods\SWSE-Local\Models\Cubes\small\SG_ShipStore.hkt C:\Users\Vortex\AppData\Roaming\SpaceEngineers\Mods\SWSE-Local\Models\Cubes\small\SG_ShipStore.hkt 
+[ Processing All Configurations... ]
+    
+    ========== Started: Mon Mar 20 05:50:46 2023, Configuration: default ==========
+    
+    [ [Physics 2012] Create Rigid Bodies Filter ]
+        Created 5 rigid bodies.
+    [ Prune Types Filter ]
+    [ Write to Platform Filter ]
+        Wrote layout for [Tagfile] to file [C:\Users\Vortex\AppData\Roaming\SpaceEngineers\Mods\SWSE-Local\Models\Cubes\small\SG_ShipStore.hkt].
+    
+    ========== Finished in 00:00:00, 0 Errors, 0 Warnings ==========

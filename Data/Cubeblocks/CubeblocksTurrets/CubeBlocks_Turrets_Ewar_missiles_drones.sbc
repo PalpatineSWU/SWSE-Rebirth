@@ -308,10 +308,10 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\VirtualMassBlock.mwm</Model>
       <Components>
-        <Component Subtype="NPC" Count="1" />
+        <Component Subtype="SWNPC" Count="1" />
         <Component Subtype="Computer" Count="50" />
       </Components>
-      <CriticalComponent Subtype="NPC" Index="0" />
+      <CriticalComponent Subtype="SWNPC" Index="0" />
       <BlockPairName>AntiThruster_20k</BlockPairName>
       <EdgeType>Light</EdgeType>
       <MirroringY>Z</MirroringY>
@@ -345,10 +345,10 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\VirtualMassBlock.mwm</Model>
       <Components>
-        <Component Subtype="NPC" Count="1" />
+        <Component Subtype="SWNPC" Count="1" />
         <Component Subtype="Computer" Count="50" />
       </Components>
-      <CriticalComponent Subtype="NPC" Index="0" />
+      <CriticalComponent Subtype="SWNPC" Index="0" />
       <BlockPairName>AntiThruster_20k_lgONLY</BlockPairName>
       <EdgeType>Light</EdgeType>
       <MirroringY>Z</MirroringY>

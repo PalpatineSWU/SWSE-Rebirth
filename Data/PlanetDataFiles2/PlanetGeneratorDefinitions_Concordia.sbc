@@ -39,9 +39,9 @@
 
     <SurfaceDetail>
       <Texture>Data/PlanetDataFiles/Extra/material_detail_4</Texture>
-      <Size>384</Size>
-      <Scale>15</Scale>
-      <Slope Min="30" Max="80" />
+      <Size>10</Size>
+      <Scale>1</Scale>
+      <Slope Min="88" Max="90" />
       <Transition>10</Transition>
     </SurfaceDetail>
 
@@ -54,21 +54,21 @@
       <!-- Fe 1-->
       <Ore Value="1" Type="K_Imperial_Voxel_Alum01" Start="10" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="4" Type="K_Imperial_Voxel_Alum01" Start="12" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
-      <Ore Value="8" Type="K_Lush_Stone" Start="14" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="8" Type="Imperial_Moonrise_4" Start="14" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
 
       <!-- Fe 2-->
-      <Ore Value="12" Type="K_Lush_Stone" Start="25" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="12" Type="Imperial_Moonrise_4" Start="25" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="16" Type="K_Imperial_Voxel_Alum01" Start="28" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="20" Type="K_Imperial_Voxel_Beskar" Start="34" Depth="6" TargetColor="#616c83" ColorInfluence="15"/>
 
       <!-- Ni 1-->
-      <Ore Value="24" Type="K_Lush_Stone" Start="10" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="24" Type="Imperial_Moonrise_4" Start="10" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="28" Type="K_Imperial_Voxel_Alum01" Start="11" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
-      <Ore Value="32" Type="K_Lush_Stone" Start="11" Depth="6" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="32" Type="Imperial_Moonrise_4" Start="11" Depth="6" TargetColor="#616c83" ColorInfluence="15"/>
 
       <!-- Ni 2-->
       <Ore Value="36" Type="K_Imperial_Voxel_Alum01" Start="24" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
-      <Ore Value="40" Type="K_Lush_Stone" Start="27" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="40" Type="Imperial_Moonrise_4" Start="27" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="44" Type="K_Imperial_Voxel_Alum01" Start="30" Depth="8" TargetColor="#616c83" ColorInfluence="15"/>
 
       <!-- Si 1-->
@@ -96,7 +96,7 @@
       <!-- Ag 1-->
       <Ore Value="96" Type="K_Imperial_Voxel_Beskar" Start="14" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="100" Type="K_Imperial_Voxel_Exonium01" Start="25" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
-      <Ore Value="104" Type="K_Lush_Stone" Start="31" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="104" Type="Imperial_Moonrise_4" Start="31" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
 
       <!-- Ag 2-->
       <Ore Value="108" Type="K_Imperial_Voxel_Carbonite01" Start="55" Depth="8" TargetColor="#616c83" ColorInfluence="15"/>
@@ -158,7 +158,7 @@
 
     <CustomMaterialTable>
       <Material Material="MarsRoads" Value ="50" MaxDepth ="20"/>
-      <Material Material="Mars_walkways" Value ="55" MaxDepth ="1"/>
+      <Material Material="MarsRoads" Value ="55" MaxDepth ="1"/>
       <Material Material="MarsRocks_Sand" Value ="91" MaxDepth ="5"/>
       <Material Material="MarsRocks_Sand" Value ="85" MaxDepth ="5"/>
       <Material Material="MarsBuilding_1_Roof" Value ="40" MaxDepth ="20"/>
@@ -258,7 +258,7 @@
       <MaterialGroup Name="Roads_Sidewalk" Value="55">
         <Rule>
           <Layers>
-            <Layer Material="Mars_walkways" Depth="1"/>
+            <Layer Material="MarsRoads" Depth="1"/>
           </Layers>
           <Height Min="0" Max=".01"/>
           <Latitude Min="0" Max="90"/>
@@ -796,32 +796,6 @@
     <MaterialsMinDepth Min="20" Max="20"/>
 
     <HillParams Min = "-0.01" Max ="0.12"/>
-
-    <AnimalSpawnInfo>
-      <Animals>
-        <Animal Type="KreegMoldSpider_II"/>
-      </Animals>
-      <SpawnDelayMin>12000</SpawnDelayMin>
-      <SpawnDelayMax>60000</SpawnDelayMax>
-      <SpawnDistMin>100</SpawnDistMin>
-      <SpawnDistMax>600</SpawnDistMax>
-      <WaveCountMin>0</WaveCountMin>
-      <WaveCountMax>0</WaveCountMax>
-    </AnimalSpawnInfo>
-
-    <NightAnimalSpawnInfo>
-      <Animals>
-        <Animal Type="KreegMoldSpider"/>
-        <Animal Type="KreegMoldSpider"/>
-        <Animal Type="KreegMoldSpider_III"/>
-      </Animals>
-      <SpawnDelayMin>2000</SpawnDelayMin>
-      <SpawnDelayMax>60000</SpawnDelayMax>
-      <SpawnDistMin>100</SpawnDistMin>
-      <SpawnDistMax>300</SpawnDistMax>
-      <WaveCountMin>4</WaveCountMin>
-      <WaveCountMax>12</WaveCountMax>
-    </NightAnimalSpawnInfo>
     <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
   </Definition>
 

@@ -18,82 +18,11 @@
 
       <VoxelHandPreview>Textures\Voxels\MarsSoil_01_Thumbnail.dds</VoxelHandPreview>
       <ColorMetalXZnY>Textures\Voxels\Mars\MarsRoad_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
-            <NormalGlossXZnY>Textures\Voxels\Snow_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Snow_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
 
-            <ColorMetalXZnYFar1>Textures\Voxels\Mars\MarsRoad_01_ForAxisXZ_cm.dds</ColorMetalXZnYFar1>
-            <NormalGlossXZnYFar1>Textures\Voxels\Snow_01_Far1_ng.dds</NormalGlossXZnYFar1>
-            <ExtXZnYFar1>Textures\Voxels\Mars\Blank_ForAxisXZ_Far2_add.dds</ExtXZnYFar1>
-
-
-
-      <ExtXZnY>Textures\Voxels\Mars\Blank_ForAxisXZ_Far2_add.dds</ExtXZnY>
-      <ExtDetailScale>0.001</ExtDetailScale>
-
-      <ColorKey Hex="#A4B94D"/>
-
-            <SimpleTilingSetup>
-                <InitialScale>50</InitialScale>
-                <ScaleMultiplier>50</ScaleMultiplier>
-                <InitialDistance>5</InitialDistance>
-                <DistanceMultiplier>4</DistanceMultiplier>
-
-                <Far1Distance>12</Far1Distance>
-                <Far1Scale>60</Far1Scale>
-                <Far2Distance>80</Far2Distance>
-                <Far2Scale>70</Far2Scale>
-            </SimpleTilingSetup>
-
-            <InitialScale>50</InitialScale>
-            <ScaleMultiplier>1</ScaleMultiplier>
-            <InitialDistance>3</InitialDistance>
-            <DistanceMultiplier>1</DistanceMultiplier>
-            <TilingScale>1000</TilingScale>
-
-
-            <Friction>0.9</Friction>
-            <Restitution>0.9</Restitution>
-
-            <!--Foliage-->
-            <FoliageColorTextureArray>
-                <Color>Textures\Models\Environment\Grass\Grass_old_01_cm.dds</Color>
-                <Color>Textures\Models\Environment\Grass\Grass_old_02_cm.dds</Color>
-                <Color>Textures\Models\Environment\Grass\Grass_old_03_cm.dds</Color>
-            </FoliageColorTextureArray>
-            <FoliageNormalTextureArray>
-                <Normal>Textures\Models\Environment\Grass\Grass_old_01_ng.dds</Normal>
-                <Normal>Textures\Models\Environment\Grass\Grass_old_02_ng.dds</Normal>
-                <Normal>Textures\Models\Environment\Grass\Grass_old_03_ng.dds</Normal>
-            </FoliageNormalTextureArray>
-
-            <FoliageDensity>.0031</FoliageDensity>
-            <FoliageScale>
-                <X>0.6</X>
-                <Y>0.6</Y>
-            </FoliageScale>
-            <FoliageRandomRescaleMult>1.2</FoliageRandomRescaleMult>
-
-    </VoxelMaterial>
-
-    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
-      <Id>
-        <TypeId>VoxelMaterialDefinition</TypeId>
-        <SubtypeId>Mars_walkways</SubtypeId>
-      </Id>
-      <SpawnsInAsteroids>false</SpawnsInAsteroids>
-      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
-      <MaterialTypeName>MarsSoil</MaterialTypeName>
-      <MinedOre>Stone</MinedOre>
-      <MinedOreRatio>1</MinedOreRatio>
-      <CanBeHarvested>true</CanBeHarvested>
-      <IsRare>false</IsRare>
-
-      <VoxelHandPreview>Textures\Voxels\Mars\Mars_Rock_Path_ForAxisXZ_cm.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Mars\Mars_Rock_Path_ForAxisXZ_cm.dds</ColorMetalXZnY>
-      <NormalGlossXZnY>Textures\Voxels\Mars\Blank_ForAxisXZ_Far1_ng.dds</NormalGlossXZnY>
-
-            <ColorMetalXZnYFar1>Textures\Voxels\Mars\Mars_Rock_Path_ForAxisXZ_cm.dds</ColorMetalXZnYFar1>
-            <NormalGlossXZnYFar1>Textures\Voxels\Mars\Blank_ForAxisXZ_Far1_ng.dds</NormalGlossXZnYFar1>
-            <ExtXZnYFar1>Textures\Voxels\Silver_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+      <ColorMetalXZnYFar1>Textures\Voxels\Mars\MarsRoad_01_ForAxisXZ_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Voxels\Snow_01_Far1_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Mars\Blank_ForAxisXZ_Far2_add.dds</ExtXZnYFar1>
 
 
 
@@ -102,31 +31,29 @@
 
       <ColorKey Hex="#A4B94D"/>
 
-            <SimpleTilingSetup>
-                <InitialScale>500</InitialScale>
-                <ScaleMultiplier>50</ScaleMultiplier>
-                <InitialDistance>5</InitialDistance>
-                <DistanceMultiplier>4</DistanceMultiplier>
 
-                <Far1Distance>12</Far1Distance>
-                <Far1Scale>500</Far1Scale>
-                <Far2Distance>80</Far2Distance>
-                <Far2Scale>500</Far2Scale>
-            </SimpleTilingSetup>
 
-            <InitialScale>500</InitialScale>
-            <ScaleMultiplier>1</ScaleMultiplier>
-            <InitialDistance>3</InitialDistance>
-            <DistanceMultiplier>1</DistanceMultiplier>
-            <TilingScale>1000</TilingScale>
+      <Friction>0.9</Friction>
+      <Restitution>0.9</Restitution>
 
-            <Far3Distance>1000</Far3Distance>
-            <Far3Color>
-                <X>0.8</X>
-                <Y>0.8</Y>
-                <Z>0.8</Z>
-                <W>1.0</W>
-            </Far3Color>
+      <!--Foliage-->
+      <FoliageColorTextureArray>
+        <Color>Textures\Models\Environment\Grass\Grass_old_01_cm.dds</Color>
+        <Color>Textures\Models\Environment\Grass\Grass_old_02_cm.dds</Color>
+        <Color>Textures\Models\Environment\Grass\Grass_old_03_cm.dds</Color>
+      </FoliageColorTextureArray>
+      <FoliageNormalTextureArray>
+        <Normal>Textures\Models\Environment\Grass\Grass_old_01_ng.dds</Normal>
+        <Normal>Textures\Models\Environment\Grass\Grass_old_02_ng.dds</Normal>
+        <Normal>Textures\Models\Environment\Grass\Grass_old_03_ng.dds</Normal>
+      </FoliageNormalTextureArray>
+
+      <FoliageDensity>.0031</FoliageDensity>
+      <FoliageScale>
+        <X>0.6</X>
+        <Y>0.6</Y>
+      </FoliageScale>
+      <FoliageRandomRescaleMult>1.2</FoliageRandomRescaleMult>
 
     </VoxelMaterial>
 
@@ -145,11 +72,11 @@
 
       <VoxelHandPreview>Textures\Voxels\MarsSoil_01_Thumbnail.dds</VoxelHandPreview>
       <ColorMetalXZnY>Textures\Voxels\Mars\MarsBuilding1_Wall_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
-      <NormalGlossXZnY>Textures\Voxels\Mars\Blank_ForAxisXZ_Far1_ng.dds</NormalGlossXZnY>
+      <NormalGlossXZnY>Textures\Models\fake_ng.dds</NormalGlossXZnY>
 
-            <ColorMetalXZnYFar1>Textures\Voxels\Mars\MarsBuilding1_Wall_01_ForAxisXZ_cm.dds</ColorMetalXZnYFar1>
-            <NormalGlossXZnYFar1>Textures\Voxels\Mars\Blank_ForAxisXZ_Far1_ng.dds</NormalGlossXZnYFar1>
-            <ExtXZnYFar1>Textures\Voxels\Silver_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+      <ColorMetalXZnYFar1>Textures\Voxels\Mars\MarsBuilding1_Wall_01_ForAxisXZ_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Models\fake_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Silver_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
 
 
 
@@ -158,31 +85,11 @@
 
       <ColorKey Hex="#A4B94D"/>
 
-            <SimpleTilingSetup>
-                <InitialScale>500</InitialScale>
-                <ScaleMultiplier>50</ScaleMultiplier>
-                <InitialDistance>5</InitialDistance>
-                <DistanceMultiplier>4</DistanceMultiplier>
-
-                <Far1Distance>12</Far1Distance>
-                <Far1Scale>500</Far1Scale>
-                <Far2Distance>80</Far2Distance>
-                <Far2Scale>500</Far2Scale>
-            </SimpleTilingSetup>
-
-            <InitialScale>500</InitialScale>
-            <ScaleMultiplier>1</ScaleMultiplier>
-            <InitialDistance>3</InitialDistance>
-            <DistanceMultiplier>1</DistanceMultiplier>
-            <TilingScale>1000</TilingScale>
-
-            <Far3Distance>1000</Far3Distance>
-            <Far3Color>
-                <X>0.8</X>
-                <Y>0.8</Y>
-                <Z>0.8</Z>
-                <W>1.0</W>
-            </Far3Color>
+      <InitialScale>1000</InitialScale>
+      <ScaleMultiplier>1</ScaleMultiplier>
+      <InitialDistance>20000</InitialDistance>
+      <DistanceMultiplier>1</DistanceMultiplier>
+      <TilingScale>1000</TilingScale>
 
     </VoxelMaterial>
 
@@ -201,11 +108,11 @@
 
       <VoxelHandPreview>Textures\Voxels\MarsSoil_01_Thumbnail.dds</VoxelHandPreview>
       <ColorMetalXZnY>Textures\Voxels\Mars\MarsBuilding1_Roof_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
-      <NormalGlossXZnY>Textures\Voxels\Mars\Blank_ForAxisXZ_Far1_ng.dds</NormalGlossXZnY>
+      <NormalGlossXZnY>Textures\Models\fake_ng.dds</NormalGlossXZnY>
 
-            <ColorMetalXZnYFar1>Textures\Voxels\Mars\MarsBuilding1_Roof_01_ForAxisXZ_cm.dds</ColorMetalXZnYFar1>
-            <NormalGlossXZnYFar1>Textures\Voxels\Mars\Blank_ForAxisXZ_Far1_ng.dds</NormalGlossXZnYFar1>
-            <ExtXZnYFar1>Textures\Voxels\Silver_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+      <ColorMetalXZnYFar1>Textures\Voxels\Mars\MarsBuilding1_Roof_01_ForAxisXZ_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Models\fake_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Silver_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
 
 
 
@@ -214,23 +121,11 @@
 
       <ColorKey Hex="#A4B94D"/>
 
-            <SimpleTilingSetup>
-                <InitialScale>1000</InitialScale>
-                <ScaleMultiplier>50</ScaleMultiplier>
-                <InitialDistance>5</InitialDistance>
-                <DistanceMultiplier>4</DistanceMultiplier>
-
-                <Far1Distance>12</Far1Distance>
-                <Far1Scale>1000</Far1Scale>
-                <Far2Distance>80</Far2Distance>
-                <Far2Scale>1000</Far2Scale>
-            </SimpleTilingSetup>
-
-            <InitialScale>1000</InitialScale>
-            <ScaleMultiplier>1</ScaleMultiplier>
-            <InitialDistance>3</InitialDistance>
-            <DistanceMultiplier>1</DistanceMultiplier>
-            <TilingScale>1000</TilingScale>
+      <InitialScale>1000</InitialScale>
+      <ScaleMultiplier>1</ScaleMultiplier>
+      <InitialDistance>20000</InitialDistance>
+      <DistanceMultiplier>1</DistanceMultiplier>
+      <TilingScale>1000</TilingScale>
 
 
     </VoxelMaterial>
@@ -250,11 +145,11 @@
 
       <VoxelHandPreview>Textures\Voxels\MarsSoil_01_Thumbnail.dds</VoxelHandPreview>
       <ColorMetalXZnY>Textures\Voxels\Mars\MarsBuilding2_Wall_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
-      <NormalGlossXZnY>Textures\Voxels\Mars\Blank_ForAxisXZ_Far1_ng.dds</NormalGlossXZnY>
+      <NormalGlossXZnY>Textures\Models\fake_ng.dds</NormalGlossXZnY>
 
-            <ColorMetalXZnYFar1>Textures\Voxels\Mars\MarsBuilding2_Wall_01_ForAxisXZ_cm.dds</ColorMetalXZnYFar1>
-            <NormalGlossXZnYFar1>Textures\Voxels\Mars\Blank_ForAxisXZ_Far1_ng.dds</NormalGlossXZnYFar1>
-            <ExtXZnYFar1>Textures\Voxels\Silver_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+      <ColorMetalXZnYFar1>Textures\Voxels\Mars\MarsBuilding2_Wall_01_ForAxisXZ_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Models\fake_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Silver_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
 
 
 
@@ -263,23 +158,11 @@
 
       <ColorKey Hex="#A4B94D"/>
 
-            <SimpleTilingSetup>
-                <InitialScale>500</InitialScale>
-                <ScaleMultiplier>50</ScaleMultiplier>
-                <InitialDistance>5</InitialDistance>
-                <DistanceMultiplier>4</DistanceMultiplier>
-
-                <Far1Distance>12</Far1Distance>
-                <Far1Scale>500</Far1Scale>
-                <Far2Distance>80</Far2Distance>
-                <Far2Scale>500</Far2Scale>
-            </SimpleTilingSetup>
-
-            <InitialScale>500</InitialScale>
-            <ScaleMultiplier>1</ScaleMultiplier>
-            <InitialDistance>3</InitialDistance>
-            <DistanceMultiplier>1</DistanceMultiplier>
-            <TilingScale>1000</TilingScale>
+      <InitialScale>1000</InitialScale>
+      <ScaleMultiplier>1</ScaleMultiplier>
+      <InitialDistance>20000</InitialDistance>
+      <DistanceMultiplier>1</DistanceMultiplier>
+      <TilingScale>1000</TilingScale>
 
     </VoxelMaterial>
 
@@ -298,11 +181,11 @@
 
       <VoxelHandPreview>Textures\Voxels\MarsSoil_01_Thumbnail.dds</VoxelHandPreview>
       <ColorMetalXZnY>Textures\Voxels\Mars\MarsBuilding2_Roof_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
-      <NormalGlossXZnY>Textures\Voxels\Mars\Blank_ForAxisXZ_Far1_ng.dds</NormalGlossXZnY>
+      <NormalGlossXZnY>Textures\Models\fake_ng.dds</NormalGlossXZnY>
 
-            <ColorMetalXZnYFar1>Textures\Voxels\Mars\MarsBuilding2_Roof_01_ForAxisXZ_cm.dds</ColorMetalXZnYFar1>
-            <NormalGlossXZnYFar1>Textures\Voxels\Mars\Blank_ForAxisXZ_Far1_ng.dds</NormalGlossXZnYFar1>
-            <ExtXZnYFar1>Textures\Voxels\Silver_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+      <ColorMetalXZnYFar1>Textures\Voxels\Mars\MarsBuilding2_Roof_01_ForAxisXZ_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Models\fake_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Silver_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
 
 
 
@@ -311,24 +194,11 @@
 
       <ColorKey Hex="#A4B94D"/>
 
-            <SimpleTilingSetup>
-                <InitialScale>500</InitialScale>
-                <ScaleMultiplier>50</ScaleMultiplier>
-                <InitialDistance>5</InitialDistance>
-                <DistanceMultiplier>4</DistanceMultiplier>
-
-                <Far1Distance>12</Far1Distance>
-                <Far1Scale>500</Far1Scale>
-                <Far2Distance>80</Far2Distance>
-                <Far2Scale>500</Far2Scale>
-            </SimpleTilingSetup>
-
-            <InitialScale>500</InitialScale>
-            <ScaleMultiplier>1</ScaleMultiplier>
-            <InitialDistance>3</InitialDistance>
-            <DistanceMultiplier>1</DistanceMultiplier>
-            <TilingScale>1000</TilingScale>
-
+      <InitialScale>1000</InitialScale>
+      <ScaleMultiplier>1</ScaleMultiplier>
+      <InitialDistance>20000</InitialDistance>
+      <DistanceMultiplier>1</DistanceMultiplier>
+      <TilingScale>1000</TilingScale>
 
     </VoxelMaterial>
 
@@ -347,11 +217,11 @@
 
       <VoxelHandPreview>Textures\Voxels\MarsSoil_01_Thumbnail.dds</VoxelHandPreview>
       <ColorMetalXZnY>Textures\Voxels\Mars\MarsBuilding3_Wall_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
-      <NormalGlossXZnY>Textures\Voxels\Mars\Blank_ForAxisXZ_Far1_ng.dds</NormalGlossXZnY>
+      <NormalGlossXZnY>Textures\Models\fake_ng.dds</NormalGlossXZnY>
 
-            <ColorMetalXZnYFar1>Textures\Voxels\Mars\MarsBuilding3_Wall_01_ForAxisXZ_cm.dds</ColorMetalXZnYFar1>
-            <NormalGlossXZnYFar1>Textures\Voxels\Mars\Blank_ForAxisXZ_Far1_ng.dds</NormalGlossXZnYFar1>
-            <ExtXZnYFar1>Textures\Voxels\Silver_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+      <ColorMetalXZnYFar1>Textures\Voxels\Mars\MarsBuilding3_Wall_01_ForAxisXZ_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Models\fake_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Silver_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
 
 
 
@@ -360,25 +230,11 @@
 
       <ColorKey Hex="#A4B94D"/>
 
-            <SimpleTilingSetup>
-                <InitialScale>500</InitialScale>
-                <ScaleMultiplier>50</ScaleMultiplier>
-                <InitialDistance>5</InitialDistance>
-                <DistanceMultiplier>4</DistanceMultiplier>
-
-                <Far1Distance>12</Far1Distance>
-                <Far1Scale>500</Far1Scale>
-                <Far2Distance>80</Far2Distance>
-                <Far2Scale>500</Far2Scale>
-            </SimpleTilingSetup>
-
-            <InitialScale>500</InitialScale>
-            <ScaleMultiplier>1</ScaleMultiplier>
-            <InitialDistance>3</InitialDistance>
-            <DistanceMultiplier>1</DistanceMultiplier>
-            <TilingScale>1000</TilingScale>
-
-
+      <InitialScale>1000</InitialScale>
+      <ScaleMultiplier>1</ScaleMultiplier>
+      <InitialDistance>20000</InitialDistance>
+      <DistanceMultiplier>1</DistanceMultiplier>
+      <TilingScale>1000</TilingScale>
     </VoxelMaterial>
 
     <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
@@ -396,11 +252,11 @@
 
       <VoxelHandPreview>Textures\Voxels\MarsSoil_01_Thumbnail.dds</VoxelHandPreview>
       <ColorMetalXZnY>Textures\Voxels\Mars\MarsBuilding3_Roof_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
-      <NormalGlossXZnY>Textures\Voxels\Mars\Blank_ForAxisXZ_Far1_ng.dds</NormalGlossXZnY>
+      <NormalGlossXZnY>Textures\Models\fake_ng.dds</NormalGlossXZnY>
 
-            <ColorMetalXZnYFar1>Textures\Voxels\Mars\MarsBuilding3_Roof_01_ForAxisXZ_cm.dds</ColorMetalXZnYFar1>
-            <NormalGlossXZnYFar1>Textures\Voxels\Mars\Blank_ForAxisXZ_Far1_ng.dds</NormalGlossXZnYFar1>
-            <ExtXZnYFar1>Textures\Voxels\Silver_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+      <ColorMetalXZnYFar1>Textures\Voxels\Mars\MarsBuilding3_Roof_01_ForAxisXZ_cm.dds</ColorMetalXZnYFar1>
+      <NormalGlossXZnYFar1>Textures\Models\fake_ng.dds</NormalGlossXZnYFar1>
+      <ExtXZnYFar1>Textures\Voxels\Silver_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
 
 
 
@@ -409,23 +265,11 @@
 
       <ColorKey Hex="#A4B94D"/>
 
-            <SimpleTilingSetup>
-                <InitialScale>500</InitialScale>
-                <ScaleMultiplier>50</ScaleMultiplier>
-                <InitialDistance>5</InitialDistance>
-                <DistanceMultiplier>4</DistanceMultiplier>
-
-                <Far1Distance>12</Far1Distance>
-                <Far1Scale>500</Far1Scale>
-                <Far2Distance>80</Far2Distance>
-                <Far2Scale>500</Far2Scale>
-            </SimpleTilingSetup>
-
-            <InitialScale>500</InitialScale>
-            <ScaleMultiplier>1</ScaleMultiplier>
-            <InitialDistance>3</InitialDistance>
-            <DistanceMultiplier>1</DistanceMultiplier>
-            <TilingScale>1000</TilingScale>
+      <InitialScale>1000</InitialScale>
+      <ScaleMultiplier>1</ScaleMultiplier>
+      <InitialDistance>20000</InitialDistance>
+      <DistanceMultiplier>1</DistanceMultiplier>
+      <TilingScale>1000</TilingScale>
 
     </VoxelMaterial>
 

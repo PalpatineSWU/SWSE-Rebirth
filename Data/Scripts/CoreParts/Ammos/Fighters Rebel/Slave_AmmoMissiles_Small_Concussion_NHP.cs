@@ -114,7 +114,7 @@ namespace Scripts
                 Grids = new GridSizeDef
                 {
                     Large = -1f, // Multiplier for damage against large grids.
-                    Small = 0.1f, // Multiplier for damage against small grids.
+                    Small = 0.6f, // Multiplier for damage against small grids.
                 },
                 Armor = new ArmorDef
                 {
@@ -176,7 +176,7 @@ namespace Scripts
                 {
                     Enable = true,
                     Radius = 3f, // Radius of AOE effect, in meters.
-                    Damage = 300f,
+                    Damage = 30f,
                     Depth = 0f, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
                     MaxAbsorb = 0f, // Soft cutoff for damage, except for pooled falloff.  If pooled falloff, limits max damage per block.
                     Falloff = Pooled, //.NoFalloff applies the same damage to all blocks in radius

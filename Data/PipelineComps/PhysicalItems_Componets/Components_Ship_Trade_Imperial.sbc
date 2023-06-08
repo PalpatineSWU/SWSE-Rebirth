@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Components>
+	
+    <Component>      <!--          Speederbike           -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Speederbike_SOD</SubtypeId>
+      </Id>
+      <DisplayName>Speederbike Operating License</DisplayName>
+      <ExtraInventoryTooltipLine>BoSS credited License for the operation of Speederbikes.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Ships\Speederbike\Speeder.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.2</Mass>
+      <Volume>0.4</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>30</MaxIntegrity>
+      <Health>30</Health>
+    </Component>
+
+    <Component>      <!--          A9           -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>A9_SOD</SubtypeId>
+      </Id>
+      <DisplayName>A-9 Vigilance Interceptor License</DisplayName>
+      <ExtraInventoryTooltipLine>BoSS credited License for the operation of the A-9 Vigilance Interceptor.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Ships\A9\A9.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.2</Mass>
+      <Volume>0.4</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>30</MaxIntegrity>
+      <Health>30</Health>
+    </Component>
+
+    <Component>      <!--          Howlrunner           -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Howlrunner_SOD</SubtypeId>
+      </Id>
+      <DisplayName>I-7 Howlrunner License</DisplayName>
+      <ExtraInventoryTooltipLine>BoSS credited License for the operation of the I-7 Howlrunner.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Ships\Howlrunner\Howl.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.2</Mass>
+      <Volume>0.4</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>30</MaxIntegrity>
+      <Health>30</Health>
+    </Component>
+
+    <Component>      <!--          Probe           -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ProbeDroid_SOD</SubtypeId>
+      </Id>
+      <DisplayName>Viper Probe Droid License</DisplayName>
+      <ExtraInventoryTooltipLine>BoSS credited License for the operation of the Viper Probe Droid.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Ships\Probe\Probe.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.2</Mass>
+      <Volume>0.4</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>30</MaxIntegrity>
+      <Health>30</Health>
+    </Component>
+
+    <Component>      <!--          Tie           -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Tie_Base_SOD</SubtypeId>
+      </Id>
+      <DisplayName>TIE Fighter License</DisplayName>
+      <ExtraInventoryTooltipLine>BoSS credited License for the operation of the TIE Fighter.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Ships\TIE\TIE.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.2</Mass>
+      <Volume>0.4</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>30</MaxIntegrity>
+      <Health>30</Health>
+    </Component>
+
+    <Component>      <!--          Tie Advanced           -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>TieAdvanced_SOD</SubtypeId>
+      </Id>
+      <DisplayName>TIE Advanced License</DisplayName>
+      <ExtraInventoryTooltipLine>BoSS credited License for the operation of the TIE Advanced.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Ships\TIEAdvanced\TieAd.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.2</Mass>
+      <Volume>0.4</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>30</MaxIntegrity>
+      <Health>30</Health>
+    </Component>
+
+    <Component>      <!--          Tie Bomber           -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>TieBomber_SOD</SubtypeId>
+      </Id>
+      <DisplayName>TIE Bomber License</DisplayName>
+      <ExtraInventoryTooltipLine>BoSS credited License for the operation of the TIE Bomber.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Ships\TieBomber\TieBomb.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.2</Mass>
+      <Volume>0.4</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>30</MaxIntegrity>
+      <Health>30</Health>
+    </Component>
+
+    <Component>      <!--          Chiss Tie           -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>TieChiss_SOD</SubtypeId>
+      </Id>
+      <DisplayName>Chiss Claw Craft License</DisplayName>
+      <ExtraInventoryTooltipLine>BoSS credited License for the operation of the Chiss Claw Craft.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Ships\Chiss\Chiss.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.2</Mass>
+      <Volume>0.4</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>30</MaxIntegrity>
+      <Health>30</Health>
+    </Component>
+
+    <Component>      <!--          Drone Tie           -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>TieDrone_SOD</SubtypeId>
+      </Id>
+      <DisplayName>Tie Drone License</DisplayName>
+      <ExtraInventoryTooltipLine>BoSS credited License for the operation of the Tie Drone.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Ships\TieDrone\Droid.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.2</Mass>
+      <Volume>0.4</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>30</MaxIntegrity>
+      <Health>30</Health>
+    </Component>
+
+    <Component>      <!--          Drone Tie           -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>TieDrone_SOD</SubtypeId>
+      </Id>
+      <DisplayName>Tie Drone License</DisplayName>
+      <ExtraInventoryTooltipLine>BoSS credited License for the operation of the Tie Drone.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Ships\TieDrone\Droid.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.2</Mass>
+      <Volume>0.4</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>30</MaxIntegrity>
+      <Health>30</Health>
+    </Component>
+
+    <Component>      <!--          Hunter Tie           -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>TieHunter_SOD</SubtypeId>
+      </Id>
+      <DisplayName>Tie Hunter License</DisplayName>
+      <ExtraInventoryTooltipLine>BoSS credited License for the operation of the Tie Hunter.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Ships\TieHunter\TieHun.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.2</Mass>
+      <Volume>0.4</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>30</MaxIntegrity>
+      <Health>30</Health>
+    </Component>
+
+    <Component>      <!--          Avenger Tie           -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>TieAvenger_SOD</SubtypeId>
+      </Id>
+      <DisplayName>Tie Avenger License</DisplayName>
+      <ExtraInventoryTooltipLine>BoSS credited License for the operation of the Tie Avenger.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornAvenger\Avenger.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.2</Mass>
+      <Volume>0.4</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>30</MaxIntegrity>
+      <Health>30</Health>
+    </Component>
+
+    <Component>      <!--          Defender Tie           -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>TieDefender_SOD</SubtypeId>
+      </Id>
+      <DisplayName>Tie Defender License</DisplayName>
+      <ExtraInventoryTooltipLine>BoSS credited License for the operation of the Tie Defender.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornDefender\RebornDef.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.2</Mass>
+      <Volume>0.4</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>30</MaxIntegrity>
+      <Health>30</Health>
+    </Component>
+
+    <Component>      <!--          FO Tie           -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>TieFO_SOD</SubtypeId>
+      </Id>
+      <DisplayName>Tie FO License</DisplayName>
+      <ExtraInventoryTooltipLine>BoSS credited License for the operation of the Tie FO.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornFO\FO.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.2</Mass>
+      <Volume>0.4</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>30</MaxIntegrity>
+      <Health>30</Health>
+    </Component>
+
+    <Component>      <!--          Oppressor Tie           -->
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>TieOppressor_SOD</SubtypeId>
+      </Id>
+      <DisplayName>Tie Oppressor License</DisplayName>
+      <ExtraInventoryTooltipLine>BoSS credited License for the operation of the Tie Oppressor.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Ships\TIERebornOppressor\RebornOppressor.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.2</Mass>
+      <Volume>0.4</Volume>
+      <Model>Models\Items\Datapad_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>30</MaxIntegrity>
+      <Health>30</Health>
+    </Component>
+
+  </Components>
+</Definitions>

@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<Model Name="LG_ShipStore">
+	<Parameter Name="RescaleFactor">1.0</Parameter>
+	<Parameter Name="Centered">false</Parameter>
+	<Parameter Name="RescaleToLengthInMeters">false</Parameter>
+	<MaterialRef Name="BlackMattePlastic"/>
+	<MaterialRef Name="ButtonsAtlas_Colorable"/>
+	<MaterialRef Name="Chrome"/>
+	<MaterialRef Name="Emissive"/>
+	<MaterialRef Name="PaintedMetal_Colorable"/>
+	<MaterialRef Name="PaintedMetal_Darker"/>
+	<MaterialRef Name="PaintedMetal_VeryDark"/>
+	<MaterialRef Name="VendingScreen_01"/>
+</Model>

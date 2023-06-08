@@ -114,7 +114,7 @@ namespace Scripts
                 Grids = new GridSizeDef
                 {
                     Large = -1f, // Multiplier for damage against large grids.
-                    Small = 0.1f, // Multiplier for damage against small grids.
+                    Small = 0.6f, // Multiplier for damage against small grids.
                 },
                 Armor = new ArmorDef
                 {

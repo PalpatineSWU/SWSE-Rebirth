@@ -40,234 +40,23 @@
 
     <SurfaceDetail>
       <Texture>Data/PlanetDataFiles/Extra/material_detail_1</Texture>
-      <Size>256</Size>
-      <Scale>2</Scale>
-      <Slope Min="30" Max="90" />
+      <Size>10</Size>
+      <Scale>1</Scale>
+      <Slope Min="88" Max="90" />
       <Transition>10</Transition>
     </SurfaceDetail>
 
     <CustomMaterialTable>
-      <Material Material="K_Imperial_Voxel_DarkStone_Exterior" Value ="10" MaxDepth ="4"/>
-      <Material Material="K_Imperial_Voxel_DarkStone01" Value ="40" MaxDepth ="5"/>
-      <Material Material="K_Imperial_Voxel_DarkStone02" Value ="70" MaxDepth ="7"/>
-      <Material Material="K_Imperial_Voxel_DarkForestGrass" Value ="100" MaxDepth ="3"/>
-      <Material Material="K_Imperial_Voxel_DarkLivingStone" Value ="160" MaxDepth ="5"/>
-      <Material Material="K_Imperial_Voxel_DarkDirt02" Value ="180" MaxDepth ="5"/>
+      <Material Material="Primal_Sunrise_4" Value ="70" MaxDepth ="7"/>
       <Material Material="Ice" Value ="130" MaxDepth ="5"/>
     </CustomMaterialTable>
 
+    <DefaultSurfaceMaterial Material="Primal_Sunrise_4" MaxDepth="5"/>
+    <DefaultSubSurfaceMaterial Material="K_Imperial_Voxel_DarkLivingStone"/>
 
-    <!-- Earthmoon definitions -->
-    <ComplexMaterials>
-      <MaterialGroup Name="Craters" Value="48">
-
-        <Rule>
-          <Layers>
-            <Layer Material="K_Imperial_Voxel_DarkLivingStone" Depth="5"/>
-          </Layers>
-          <Height Min="0.5" Max="1"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="40" Max="70"/>
-        </Rule>
-
-        <Rule>
-          <Layers>
-            <Layer Material="K_Imperial_Voxel_DarkStone01" Depth="5"/>
-          </Layers>
-          <Height Min="0" Max="0.3"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="0" Max="30"/>
-        </Rule>
-
-        <Rule>
-          <Layers>
-            <Layer Material="K_Imperial_Voxel_DarkStone_Exterior" Depth="5"/>
-          </Layers>
-          <Height Min="0.4" Max="0.6"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="0" Max="30"/>
-        </Rule>
-
-        <Rule>
-          <Layers>
-            <Layer Material="Ice" Depth="5"/>
-          </Layers>
-          <Height Min="0" Max="0.5"/>
-          <Latitude Min="60" Max="90"/>
-          <Slope Min="0" Max="10"/>
-        </Rule>
-
-        <Rule>
-          <Layers>
-            <Layer Material="K_Imperial_Voxel_DarkDirt02" Depth="5"/>
-          </Layers>
-          <Height Min="0.25" Max="0.5"/>
-          <Latitude Min="60" Max="90"/>
-          <Slope Min="30" Max="60"/>
-        </Rule>
-
-      </MaterialGroup>
-
-      <MaterialGroup Name="Other features" Value="16">
-
-        <Rule>
-          <Layers>
-            <Layer Material="K_Imperial_Voxel_DarkForestGrass" Depth="1"/>
-          </Layers>
-          <Height Min="0.5" Max="1"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="40" Max="70"/>
-        </Rule>
-
-        <Rule>
-          <Layers>
-            <Layer Material="K_Imperial_Voxel_DarkStone02" Depth="5"/>
-          </Layers>
-          <Height Min="0" Max="0.3"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="0" Max="30"/>
-        </Rule>
-
-        <Rule>
-          <Layers>
-            <Layer Material="K_Imperial_Voxel_DarkStone_Exterior" Depth="5"/>
-          </Layers>
-          <Height Min="0.4" Max="0.6"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="0" Max="30"/>
-        </Rule>
-
-        <Rule>
-          <Layers>
-            <Layer Material="K_Imperial_Voxel_DarkDirt02" Depth="5"/>
-          </Layers>
-          <Height Min="0" Max="0.5"/>
-          <Latitude Min="60" Max="90"/>
-          <Slope Min="0" Max="10"/>
-        </Rule>
-
-        <Rule>
-          <Layers>
-            <Layer Material="Ice" Depth="5"/>
-          </Layers>
-          <Height Min="0.25" Max="0.5"/>
-          <Latitude Min="60" Max="90"/>
-          <Slope Min="30" Max="60"/>
-        </Rule>
-
-      </MaterialGroup>
-
-      <MaterialGroup Name="Other features 2" Value="0">
-
-        <Rule>
-          <Layers>
-            <Layer Material="K_Imperial_Voxel_DarkStone_Exterior" Depth="5"/>
-          </Layers>
-          <Height Min="0.5" Max="1"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="40" Max="70"/>
-        </Rule>
-
-        <Rule>
-          <Layers>
-            <Layer Material="K_Imperial_Voxel_DarkForestGrass" Depth="1"/>
-          </Layers>
-          <Height Min="0" Max="0.3"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="0" Max="30"/>
-        </Rule>
-
-        <Rule>
-          <Layers>
-            <Layer Material="K_Imperial_Voxel_DarkStone_Exterior" Depth="5"/>
-          </Layers>
-          <Height Min="0.4" Max="0.6"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="0" Max="30"/>
-        </Rule>
-
-        <Rule>
-          <Layers>
-            <Layer Material="Ice" Depth="5"/>
-          </Layers>
-          <Height Min="0" Max="0.5"/>
-          <Latitude Min="60" Max="90"/>
-          <Slope Min="0" Max="10"/>
-        </Rule>
-
-        <Rule>
-          <Layers>
-            <Layer Material="Ice" Depth="5"/>
-          </Layers>
-          <Height Min="0.25" Max="0.5"/>
-          <Latitude Min="60" Max="90"/>
-          <Slope Min="30" Max="60"/>
-        </Rule>
-      </MaterialGroup>
-    </ComplexMaterials>
-
-    <EnvironmentItems>
-      <Item>
-        <Biomes>
-          <Biome>0</Biome>
-        </Biomes>
-        <Materials>
-          <Material>K_Imperial_Voxel_DarkForestGrass</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_DarkForest_Collection" Density=".25"/>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_DarkForest_Bushes_Collection" Density="11"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="WoodGrassBushForestLarge" Density=".25"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="K_Dark_Bush_Large" Density=".25"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="1.2"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>0</Biome>
-        </Biomes>
-        <Materials>
-          <Material>K_Imperial_Voxel_DarkForestGrass</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_CorruptedForest_Collection" Density=".15"/>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_DarkForest_Bushes_Collection" Density="9"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="K_Dark_Bush_Large" Density=".25"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="1.2"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-
-      <Item>
-        <Biomes>
-          <Biome>0</Biome>
-        </Biomes>
-        <Materials>
-          <Material>K_Imperial_Voxel_DarkStone_Exterior</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_CorruptedForest_Collection" Density=".13"/>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_DarkForest_Bushes_Collection" Density="5"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="WoodGrassBushForestLarge" Density=".25"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="K_Dark_Bush_Large" Density=".25"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="1.2"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-    </EnvironmentItems>
+    <DistortionTable>
+      <Distortion Type="Perlin" Value ="92" Frequency="10" Height="4" LayerCount="6"/>
+    </DistortionTable>
 
     <OreMappings>
       <!-- Tier 1 ! INSERT ONLY IN BLUE CHANNEL ! -->
@@ -277,9 +66,9 @@
       <Ore Value="240" Type="K_Imperial_Voxel_Zersium01" Start="3" Depth="2" TargetColor="#FFFFFF" ColorInfluence="15"/>
 
       <!-- Fe 1-->
-      <Ore Value="1" Type="K_Imperial_Voxel_DarkStone02" Start="10" Depth="3" TargetColor="#FFFFFF" ColorInfluence="15"/>
+      <Ore Value="1" Type="Primal_Sunrise_4" Start="10" Depth="3" TargetColor="#FFFFFF" ColorInfluence="15"/>
       <Ore Value="4" Type="K_Imperial_Voxel_Zersium01" Start="12" Depth="2" TargetColor="#FFFFFF" ColorInfluence="15"/>
-      <Ore Value="8" Type="K_Imperial_Voxel_DarkStone02" Start="14" Depth="4" TargetColor="#FFFFFF" ColorInfluence="15"/>
+      <Ore Value="8" Type="Primal_Sunrise_4" Start="14" Depth="4" TargetColor="#FFFFFF" ColorInfluence="15"/>
 
       <!-- Fe 2-->
       <Ore Value="12" Type="K_Imperial_Voxel_Alum01" Start="25" Depth="5" TargetColor="#FFFFFF" ColorInfluence="15"/>
@@ -289,7 +78,7 @@
       <!-- Ni 1-->
       <Ore Value="24" Type="K_Imperial_Voxel_Lommite01" Start="23" Depth="13" TargetColor="#FFFFFF" ColorInfluence="15"/>
       <Ore Value="28" Type="K_Imperial_Voxel_Zersium01" Start="65" Depth="2" TargetColor="#FFFFFF" ColorInfluence="15"/>
-      <Ore Value="32" Type="K_Imperial_Voxel_DarkStone01" Start="11" Depth="6" TargetColor="#FFFFFF" ColorInfluence="15"/>
+      <Ore Value="32" Type="K_Imperial_Voxel_Norax01" Start="11" Depth="6" TargetColor="#FFFFFF" ColorInfluence="15"/>
 
       <!-- Ni 2-->
       <Ore Value="36" Type="K_Imperial_Voxel_Guerrerite01" Start="45" Depth="13" TargetColor="#FFFFFF" ColorInfluence="15"/>
@@ -297,7 +86,7 @@
       <Ore Value="44" Type="K_Imperial_Voxel_Alum01" Start="30" Depth="8" TargetColor="#FFFFFF" ColorInfluence="15"/>
 
       <!-- Si 1-->
-      <Ore Value="48" Type="K_Imperial_Voxel_DarkStone02" Start="9" Depth="4" TargetColor="#FFFFFF" ColorInfluence="15"/>
+      <Ore Value="48" Type="Primal_Sunrise_4" Start="9" Depth="4" TargetColor="#FFFFFF" ColorInfluence="15"/>
       <Ore Value="52" Type="K_Imperial_Voxel_Alum01" Start="13" Depth="4" TargetColor="#FFFFFF" ColorInfluence="15"/>
       <Ore Value="56" Type="K_Imperial_Voxel_Lommite01" Start="10" Depth="6" TargetColor="#FFFFFF" ColorInfluence="15"/>
 
@@ -318,12 +107,12 @@
       <Ore Value="92" Type="K_Imperial_Voxel_Carbonite01" Start="62" Depth="9" TargetColor="#FFFFFF" ColorInfluence="15"/>
 
       <!-- Ag 1-->
-      <Ore Value="96" Type="K_Imperial_Voxel_DarkStone02" Start="21" Depth="3" TargetColor="#FFFFFF" ColorInfluence="15"/>
+      <Ore Value="96" Type="Primal_Sunrise_4" Start="21" Depth="3" TargetColor="#FFFFFF" ColorInfluence="15"/>
       <Ore Value="100" Type="K_Imperial_Voxel_Guerrerite01" Start="25" Depth="8" TargetColor="#FFFFFF" ColorInfluence="15"/>
       <Ore Value="104" Type="K_Imperial_Voxel_Alum01" Start="31" Depth="5" TargetColor="#FFFFFF" ColorInfluence="15"/>
 
       <!-- Ag 2-->
-      <Ore Value="108" Type="K_Imperial_Voxel_DarkStone02" Start="55" Depth="8" TargetColor="#FFFFFF" ColorInfluence="15"/>
+      <Ore Value="108" Type="Primal_Sunrise_4" Start="55" Depth="8" TargetColor="#FFFFFF" ColorInfluence="15"/>
       <Ore Value="112" Type="K_Imperial_Voxel_Lommite01" Start="58" Depth="9" TargetColor="#FFFFFF" ColorInfluence="15"/>
       <Ore Value="116" Type="K_Imperial_Voxel_Shraki01" Start="63" Depth="2" TargetColor="#FFFFFF" ColorInfluence="15"/>
 
@@ -341,21 +130,21 @@
       <!-- U 1-->
       <Ore Value="144" Type="K_Imperial_Voxel_Exonium01" Start="32" Depth="2" TargetColor="#FFFFFF" ColorInfluence="15"/>
       <Ore Value="148" Type="K_Imperial_Voxel_Zersium01" Start="75" Depth="2" TargetColor="#FFFFFF" ColorInfluence="15"/>
-      <Ore Value="152" Type="K_Imperial_Voxel_DarkStone02" Start="38" Depth="5" TargetColor="#FFFFFF" ColorInfluence="15"/>
+      <Ore Value="152" Type="Primal_Sunrise_4" Start="38" Depth="5" TargetColor="#FFFFFF" ColorInfluence="15"/>
 
       <!-- U 2-->
       <Ore Value="156" Type="K_Imperial_Voxel_Zersium01" Start="210" Depth="4" TargetColor="#FFFFFF" ColorInfluence="15"/>
       <Ore Value="160" Type="K_Imperial_Voxel_Exonium01" Start="89" Depth="9" TargetColor="#FFFFFF" ColorInfluence="15"/>
-      <Ore Value="164" Type="K_Imperial_Voxel_DarkStone02" Start="96" Depth="11" TargetColor="#FFFFFF" ColorInfluence="15"/>
+      <Ore Value="164" Type="Primal_Sunrise_4" Start="96" Depth="11" TargetColor="#FFFFFF" ColorInfluence="15"/>
 
       <!-- Au 1-->
-      <Ore Value="168" Type="K_Imperial_Voxel_DarkStone02" Start="40" Depth="1" TargetColor="#FFFFFF" ColorInfluence="15"/>
+      <Ore Value="168" Type="Primal_Sunrise_4" Start="40" Depth="1" TargetColor="#FFFFFF" ColorInfluence="15"/>
       <Ore Value="172" Type="K_Imperial_Voxel_Zersium01" Start="210" Depth="4" TargetColor="#FFFFFF" ColorInfluence="15"/>
       <Ore Value="176" Type="K_Imperial_Voxel_Lignan01" Start="145" Depth="2" TargetColor="#FFFFFF" ColorInfluence="15"/>
 
       <!-- Au 2-->
       <Ore Value="180" Type="K_Imperial_Voxel_Lignan01" Start="240" Depth="4" TargetColor="#FFFFFF" ColorInfluence="15"/>
-      <Ore Value="184" Type="K_Imperial_Voxel_DarkStone02" Start="107" Depth="5" TargetColor="#FFFFFF" ColorInfluence="15"/>
+      <Ore Value="184" Type="Primal_Sunrise_4" Start="107" Depth="5" TargetColor="#FFFFFF" ColorInfluence="15"/>
       <Ore Value="188" Type="K_Imperial_Voxel_Lignan01" Start="200" Depth="3" TargetColor="#FFFFFF" ColorInfluence="15"/>
 
       <!-- Pt 1-->
@@ -366,10 +155,8 @@
       <!-- Pt 1-->
       <Ore Value="212" Type="K_Imperial_Voxel_Alum01" Start="110" Depth="5" TargetColor="#FFFFFF" ColorInfluence="15"/>
       <Ore Value="217" Type="K_Imperial_Voxel_Rubindum01" Start="114" Depth="3" TargetColor="#FFFFFF" ColorInfluence="15"/>
-      <Ore Value="222" Type="K_Imperial_Voxel_DarkStone02" Start="119" Depth="8" TargetColor="#FFFFFF" ColorInfluence="15"/>
+      <Ore Value="222" Type="Primal_Sunrise_4" Start="119" Depth="8" TargetColor="#FFFFFF" ColorInfluence="15"/>
     </OreMappings>
-
-    <!-- END Earthmoon definitions -->
 
     <SoundRules>
       <!-- Day -->
@@ -396,28 +183,340 @@
       <MusicCategory Category="Space" Frequency="0.15" />
     </MusicCategories>
 
-    <DefaultSurfaceMaterial Material="K_Imperial_Voxel_DarkStone_Exterior" MaxDepth="5"/>
-    <DefaultSubSurfaceMaterial Material="K_Imperial_Voxel_DarkLivingStone"/>
+    <ComplexMaterials>
 
+
+      <MaterialGroup Name="DefaultSetUp" Value="0">
+        <!-- Pole Biom -->
+
+        <Rule>
+          <Layers>
+            <Layer Material="Primal_Sunrise_11" Depth="5"/>
+          </Layers>
+          <Height Min="0.0" Max="0.50"/>
+          <Latitude Min="68" Max="90"/>
+          <Slope Min="0" Max="5"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="Primal_Sunrise_12" Depth="5"/>
+          </Layers>
+          <Height Min="0.0" Max="1.0"/>
+          <Latitude Min="80" Max="90"/>
+          <Slope Min="5" Max="10"/>
+        </Rule>
+        <!-- Pole Biom End -->
+        <!-- Snowcappin -->
+
+        <Rule>
+          <Layers>
+            <Layer Material="Primal_Sunrise_11" Depth="5"/>
+          </Layers>
+          <Height Min="0.3" Max="0.50"/>
+          <Latitude Min="85" Max="90"/>
+          <Slope Min="0" Max="20"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="Primal_Sunrise_11" Depth="5"/>
+          </Layers>
+          <Height Min="0.3" Max="0.50"/>
+          <Latitude Min="80" Max="85"/>
+          <Slope Min="0" Max="10"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="Primal_Sunrise_12" Depth="5"/>
+          </Layers>
+          <Height Min="0.3" Max="1.0"/>
+          <Latitude Min="75" Max="90"/>
+          <Slope Min="20" Max="45"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="Primal_Sunrise_12" Depth="5"/>
+          </Layers>
+          <Height Min="0.35" Max="1.0"/>
+          <Latitude Min="70" Max="75"/>
+          <Slope Min="20" Max="45"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="Primal_Sunrise_12" Depth="5"/>
+          </Layers>
+          <Height Min="0.45" Max="1.0"/>
+          <Latitude Min="65" Max="70"/>
+          <Slope Min="20" Max="45"/>
+        </Rule>
+
+        <!-- Snowcappin -->
+
+
+        <!--Jungle Tree belt -->
+
+        <Rule>
+          <Layers>
+            <Layer Material="Primal_Sunrise_2" Depth="5"/>
+          </Layers>
+          <Height Min="0.1" Max="1"/>
+          <Latitude Min="0" Max="30"/>
+          <Slope Min="20" Max="35"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="Primal_Sunrise_1" Depth="5"/>
+          </Layers>
+          <Height Min="0.1" Max="0.3"/>
+          <Latitude Min="0" Max="40"/>
+          <Slope Min="0" Max="20"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="Primal_Sunrise_2" Depth="5"/>
+          </Layers>
+          <Height Min="0.1" Max="0.3"/>
+          <Latitude Min="0" Max="40"/>
+          <Slope Min="20" Max="35"/>
+        </Rule>
+
+
+        <Rule>
+          <Layers>
+            <Layer Material="Primal_Sunrise_1" Depth="5"/>
+          </Layers>
+          <Height Min="0.2" Max="0.3"/>
+          <Latitude Min="0" Max="45"/>
+          <Slope Min="0" Max="20"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="Primal_Sunrise_2" Depth="5"/>
+          </Layers>
+          <Height Min="0.2" Max="0.3"/>
+          <Latitude Min="0" Max="45"/>
+          <Slope Min="20" Max="35"/>
+        </Rule>
+
+
+        <Rule>
+          <Layers>
+            <Layer Material="Primal_Sunrise_1" Depth="5"/>
+          </Layers>
+          <Height Min="0.25" Max="0.3"/>
+          <Latitude Min="0" Max="45"/>
+          <Slope Min="0" Max="20"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="Primal_Sunrise_2" Depth="5"/>
+          </Layers>
+          <Height Min="0.25" Max="0.3"/>
+          <Latitude Min="0" Max="50"/>
+          <Slope Min="20" Max="35"/>
+        </Rule>
+
+        <!--Jungle Tree belt -->
+
+        <!-- desert -->
+        <Rule>
+          <Layers>
+            <Layer Material="Primal_Sunrise_8" Depth="5"/>
+          </Layers>
+          <Height Min="0.1" Max="1.0"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="20" Max="35"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="Primal_Sunrise_7" Depth="5"/>
+          </Layers>
+          <Height Min="0.1" Max="1.0"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="20"/>
+        </Rule>
+
+        <!-- desert -->
+
+        <!-- STRONGWRAP General Moutianous areas -->
+        <Rule>
+          <Layers>
+            <Layer Material="Primal_Sunrise_3" Depth="5"/>
+          </Layers>
+          <Height Min="0.1" Max="1.0"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="20" Max="35"/>
+        </Rule>
+
+
+        <Rule>
+          <Layers>
+            <Layer Material="K_Imperial_Voxel_Dooninum01" Depth="5"/>
+          </Layers>
+          <Height Min="0.1" Max="1.0"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="70" Max="75"/>
+        </Rule>
+
+        <Rule>
+          <Layers>
+            <Layer Material="Primal_Sunrise_4" Depth="5"/>
+          </Layers>
+          <Height Min="0.1" Max="1.0"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="35" Max="90"/>
+        </Rule>
+
+        <!-- STRONGWRAP General Moutianous areas -->
+
+
+
+
+        <!-- Sandbar -->
+        <Rule>
+          <Layers>
+            <Layer Material="Primal_Sunrise_5" Depth="5"/>
+          </Layers>
+          <Height Min="0.1" Max="0.2"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="20" Max="35"/>
+        </Rule>
+        <Rule>
+          <Layers>
+            <Layer Material="Primal_Sunrise_6" Depth="5"/>
+          </Layers>
+          <Height Min="0.1" Max="0.2"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="20"/>
+        </Rule>
+        <Rule>
+          <Layers>
+            <Layer Material="Primal_Sunrise_7" Depth="5"/>
+          </Layers>
+          <Height Min="0.0" Max="0.1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="20"/>
+        </Rule>
+        <Rule>
+          <Layers>
+            <Layer Material="Primal_Sunrise_8" Depth="5"/>
+          </Layers>
+          <Height Min="0.0" Max="0.1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="20" Max="35"/>
+        </Rule>
+        <Rule>
+          <Layers>
+            <Layer Material="Primal_Sunrise_9" Depth="5"/>
+          </Layers>
+          <Height Min="0.0" Max="0.1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="35" Max="70"/>
+        </Rule>
+        <Rule>
+          <Layers>
+            <Layer Material="Primal_Sunrise_10" Depth="5"/>
+          </Layers>
+          <Height Min="0.0" Max="0.1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="70" Max="90"/>
+        </Rule>
+        <!-- Sandbar -->
+
+
+
+      </MaterialGroup>
+    </ComplexMaterials>
+
+    <EnvironmentItems>
+      <Item>
+        <Biomes>
+          <Biome>198</Biome>
+        </Biomes>
+        <Materials>
+          <Material>Primal_Sunrise_1</Material>
+          <Material>Primal_Sunrise_2</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="RockGrassForestLarge" Density="1"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="RockGrassBushForestLarge" Density="1"/>
+        </Items>
+        <Rule>
+          <Height Min=".1" Max="1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="90"/>
+        </Rule>
+      </Item>
+
+      <Item>
+        <Biomes>
+          <Biome>141</Biome>
+        </Biomes>
+        <Materials>
+          <Material>Primal_Sunrise_7</Material>
+          <Material>Primal_Sunrise_8</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="GrassOldForestLarge" Density="1"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="GrassOldBushForestLarge" Density="1"/>
+        </Items>
+        <Rule>
+          <Height Min=".1" Max="1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="90"/>
+        </Rule>
+      </Item>
+
+
+      <Item>
+        <Biomes>
+          <Biome>85</Biome>
+        </Biomes>
+        <Materials>
+          <Material>Primal_Sunrise_12</Material>
+        </Materials>
+        <Items>
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="SnowForestLarge" Density="5"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="SnowBushForestLarge" Density=".25"/>
+        </Items>
+        <Rule>
+          <Height Min=".1" Max="1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="90"/>
+        </Rule>
+      </Item>
+
+    </EnvironmentItems>
+
+    <SurfaceGravity>1.0</SurfaceGravity>
     <HasAtmosphere>true</HasAtmosphere>
     <Atmosphere>
       <Breathable>true</Breathable>
-      <OxygenDensity>0.2</OxygenDensity>
+      <OxygenDensity>1</OxygenDensity>
       <Density>1.0</Density>
       <LimitAltitude>2.0</LimitAltitude>
     </Atmosphere>
     <!-- Titan Planet's Atmosphere settings-->
     <AtmosphereSettings>
       <RayleighScattering>
-        <X>57</X>
-        <Y>17.9645233</Y>
-        <Z>100</Z>
+        <X>60</X>
+        <Y>17</Y>
+        <Z>20</Z>
       </RayleighScattering>
       <MieScattering>50</MieScattering>
       <MieColorScattering>
-        <X>255</X>
-        <Y>1</Y>
-        <Z>99</Z>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>1</Z>
       </MieColorScattering>
       <RayleighHeight>21</RayleighHeight>
       <RayleighHeightSpace>11.2</RayleighHeightSpace>
@@ -432,6 +531,12 @@
 
     <CloudLayers>
       <CloudLayer>
+        <Color>
+          <X>0.81</X>
+          <Y>0.1</Y>
+          <Z>0.1</Z>
+          <W>1</W>
+        </Color>
         <!-- Far layer -->
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
@@ -451,6 +556,12 @@
         <ApplyFogRelativeDistance>0.1</ApplyFogRelativeDistance>
       </CloudLayer>
       <CloudLayer>
+        <Color>
+          <X>0.81</X>
+          <Y>0.1</Y>
+          <Z>0.1</Z>
+          <W>1</W>
+        </Color>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
           <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
@@ -469,6 +580,12 @@
         <ApplyFogRelativeDistance>0.05</ApplyFogRelativeDistance>
       </CloudLayer>
       <CloudLayer>
+        <Color>
+          <X>0.81</X>
+          <Y>0.1</Y>
+          <Z>0.1</Z>
+          <W>1</W>
+        </Color>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
           <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
@@ -487,6 +604,12 @@
         <ApplyFogRelativeDistance>0.05</ApplyFogRelativeDistance>
       </CloudLayer>
       <CloudLayer>
+        <Color>
+          <X>0.81</X>
+          <Y>0.1</Y>
+          <Z>0.1</Z>
+          <W>1</W>
+        </Color>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
           <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
@@ -508,6 +631,12 @@
       <!-- Near layers -->
 
       <CloudLayer>
+        <Color>
+          <X>0.81</X>
+          <Y>0.1</Y>
+          <Z>0.1</Z>
+          <W>1</W>
+        </Color>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
           <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
@@ -525,6 +654,12 @@
         <FadeOutRelativeAltitudeEnd>1.6</FadeOutRelativeAltitudeEnd>
       </CloudLayer>
       <CloudLayer>
+        <Color>
+          <X>0.81</X>
+          <Y>0.1</Y>
+          <Z>0.1</Z>
+          <W>1</W>
+        </Color>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
           <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
@@ -542,6 +677,12 @@
         <FadeOutRelativeAltitudeEnd>1.5</FadeOutRelativeAltitudeEnd>
       </CloudLayer>
       <CloudLayer>
+        <Color>
+          <X>0.81</X>
+          <Y>0.1</Y>
+          <Z>0.1</Z>
+          <W>1</W>
+        </Color>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
           <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
@@ -558,9 +699,82 @@
         <FadeOutRelativeAltitudeStart>0.8</FadeOutRelativeAltitudeStart>
         <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
       </CloudLayer>
+
+      <CloudLayer>
+        <Color>
+          <X>0.81</X>
+          <Y>0.1</Y>
+          <Z>0.1</Z>
+          <W>1</W>
+        </Color>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
+        </Textures>
+        <RelativeAltitude>3.0</RelativeAltitude>
+        <RotationAxis>
+          <X>-0.2</X>
+          <Y>0.1</Y>
+          <Z>1</Z>
+        </RotationAxis>
+        <AngularVelocity>0.00085</AngularVelocity>
+        <InitialRotation>4.2</InitialRotation>
+        <ScalingEnabled>false</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>0.8</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
+      </CloudLayer>
+
+      <CloudLayer>
+        <Color>
+          <X>0.81</X>
+          <Y>0.1</Y>
+          <Z>0.1</Z>
+          <W>1</W>
+        </Color>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
+        </Textures>
+        <RelativeAltitude>3.0</RelativeAltitude>
+        <RotationAxis>
+          <X>-0.2</X>
+          <Y>0.1</Y>
+          <Z>1</Z>
+        </RotationAxis>
+        <AngularVelocity>0.00085</AngularVelocity>
+        <InitialRotation>4.8</InitialRotation>
+        <ScalingEnabled>false</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>0.8</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
+      </CloudLayer>
+
+      <CloudLayer>
+        <Color>
+          <X>0.81</X>
+          <Y>0.1</Y>
+          <Z>0.1</Z>
+          <W>1</W>
+        </Color>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
+        </Textures>
+        <RelativeAltitude>3.0</RelativeAltitude>
+        <RotationAxis>
+          <X>-0.2</X>
+          <Y>0.1</Y>
+          <Z>1</Z>
+        </RotationAxis>
+        <AngularVelocity>0.00085</AngularVelocity>
+        <InitialRotation>5.8</InitialRotation>
+        <ScalingEnabled>false</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>0.8</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
+      </CloudLayer>
+
     </CloudLayers>
 
-    <SurfaceGravity>1.0</SurfaceGravity>
+
     <Deviation Min ="0.005" Max ="0.003"/>
     <MaterialsMaxDepth Min="4000" Max="4000"/>
     <MaterialsMinDepth Min="20" Max="20"/>

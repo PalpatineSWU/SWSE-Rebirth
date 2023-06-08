@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
   <!--Ilum -->
   <Definition xsi:type="PlanetGeneratorDefinition">
@@ -10,7 +11,7 @@
     <!--!!!Important!! Read if you want to mod Planets! -->
     <!--Following tag switches off loading from certain color channels. Its performance measure in cases where channels are not used-->
     <!--Make sure you are not modding a switched off channel-->
-    <PlanetMaps Material="true" Ores="true" Biome="true" Occlusion="true"/>
+    <PlanetMaps Material="true" Ores="true" Biome="false" Occlusion="true"/>
 
     <MesherPostprocessing xsi:type="MyObjectBuilder_VoxelMesherComponentDefinition">
       <PostprocessingSteps>
@@ -37,207 +38,65 @@
     </MesherPostprocessing>
 
     <SurfaceDetail>
-      <Texture>Data/PlanetDataFiles/Extra/material_detail_1</Texture>
+      <Texture>Data/PlanetDataFiles/Extra/material_detail_2</Texture>
       <Size>256</Size>
-      <Scale>2</Scale>
-      <Slope Min="30" Max="90" />
+      <Scale>15</Scale>
+      <Slope Min="15" Max="90" />
       <Transition>10</Transition>
     </SurfaceDetail>
 
+    <DistortionTable>
+      <Distortion Type="Perlin" Value ="92" Frequency="10" Height="4" LayerCount="6"/>
+    </DistortionTable>
+
     <CustomMaterialTable>
-      <Material Material="IceEuropa2" Value ="190" MaxDepth ="5"/>
-      <Material Material="Snow" Value ="174" MaxDepth ="5"/>
-	  <Material Material="Ice" Value ="169" MaxDepth ="3"/>
+      <Material Material="Primal_Sunrise_11" Value ="190" MaxDepth ="5"/>
+      <Material Material="Snow" Value ="169" MaxDepth ="3"/>
       <Material Material="Ice" Value ="158" MaxDepth ="5"/>
     </CustomMaterialTable>
 
+    <DefaultSurfaceMaterial Material="Snow" MaxDepth="9"/>
+    <DefaultSubSurfaceMaterial Material="Primal_Sunrise_11"/>
 
     <!-- Earthmoon definitions -->
     <ComplexMaterials>
-      <MaterialGroup Name="Craters" Value="48">
+      <MaterialGroup Name="DefaultSetUp" Value="0">
+
+
 
         <Rule>
           <Layers>
-            <Layer Material="Snow" Depth="5"/>
+            <Layer Material="TritonStone" Depth="5"/>
           </Layers>
-          <Height Min="0.5" Max="1"/>
+          <Height Min="0" Max="1"/>
           <Latitude Min="0" Max="90"/>
-          <Slope Min="40" Max="70"/>
+          <Slope Min="15" Max="90"/>
         </Rule>
 
         <Rule>
           <Layers>
             <Layer Material="Snow" Depth="5"/>
           </Layers>
-          <Height Min="0" Max="0.3"/>
+          <Height Min="0" Max="1"/>
           <Latitude Min="0" Max="90"/>
-          <Slope Min="0" Max="30"/>
-        </Rule>
-
-        <Rule>
-          <Layers>
-            <Layer Material="Snow" Depth="5"/>
-          </Layers>
-          <Height Min="0.4" Max="0.6"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="0" Max="30"/>
+          <Slope Min="5" Max="15"/>
         </Rule>
 
         <Rule>
           <Layers>
             <Layer Material="Ice" Depth="5"/>
           </Layers>
-          <Height Min="0" Max="0.5"/>
-          <Latitude Min="60" Max="90"/>
-          <Slope Min="0" Max="10"/>
+          <Height Min="0" Max="1"/>
+          <Latitude Min="0" Max="90"/>
+          <Slope Min="0" Max="5"/>
         </Rule>
 
-        <Rule>
-          <Layers>
-            <Layer Material="Ice" Depth="5"/>
-          </Layers>
-          <Height Min="0.25" Max="0.5"/>
-          <Latitude Min="60" Max="90"/>
-          <Slope Min="30" Max="60"/>
-        </Rule>
 
       </MaterialGroup>
 
-      <MaterialGroup Name="Other features" Value="16">
-
-        <Rule>
-          <Layers>
-            <Layer Material="Snow" Depth="5"/>
-          </Layers>
-          <Height Min="0.5" Max="1"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="40" Max="70"/>
-        </Rule>
-
-        <Rule>
-          <Layers>
-            <Layer Material="Snow" Depth="5"/>
-          </Layers>
-          <Height Min="0" Max="0.3"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="0" Max="30"/>
-        </Rule>
-
-        <Rule>
-          <Layers>
-            <Layer Material="Snow" Depth="5"/>
-          </Layers>
-          <Height Min="0.4" Max="0.6"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="0" Max="30"/>
-        </Rule>
-
-        <Rule>
-          <Layers>
-            <Layer Material="Ice" Depth="5"/>
-          </Layers>
-          <Height Min="0" Max="0.5"/>
-          <Latitude Min="60" Max="90"/>
-          <Slope Min="0" Max="10"/>
-        </Rule>
-
-        <Rule>
-          <Layers>
-            <Layer Material="IceEuropa2" Depth="5"/>
-          </Layers>
-          <Height Min="0.25" Max="0.5"/>
-          <Latitude Min="60" Max="90"/>
-          <Slope Min="30" Max="60"/>
-        </Rule>
-
-      </MaterialGroup>
-
-      <MaterialGroup Name="Other features 2" Value="0">
-
-        <Rule>
-          <Layers>
-            <Layer Material="Snow" Depth="5"/>
-          </Layers>
-          <Height Min="0.5" Max="1"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="40" Max="70"/>
-        </Rule>
-
-        <Rule>
-          <Layers>
-            <Layer Material="Snow" Depth="5"/>
-          </Layers>
-          <Height Min="0" Max="0.3"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="0" Max="30"/>
-        </Rule>
-
-        <Rule>
-          <Layers>
-            <Layer Material="Snow" Depth="5"/>
-          </Layers>
-          <Height Min="0.4" Max="0.6"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="0" Max="30"/>
-        </Rule>
-
-        <Rule>
-          <Layers>
-            <Layer Material="IceEuropa2" Depth="5"/>
-          </Layers>
-          <Height Min="0" Max="0.5"/>
-          <Latitude Min="60" Max="90"/>
-          <Slope Min="0" Max="10"/>
-        </Rule>
-
-        <Rule>
-          <Layers>
-            <Layer Material="Ice" Depth="5"/>
-          </Layers>
-          <Height Min="0.25" Max="0.5"/>
-          <Latitude Min="60" Max="90"/>
-          <Slope Min="30" Max="60"/>
-        </Rule>
-      </MaterialGroup>
     </ComplexMaterials>
 
-    <EnvironmentItems>
-      <Item>
-        <Biomes>
-          <Biome>0</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Snow</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="Moon" Density="0.003" />
-		  <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Ice_Spikes_Collection" Density="3"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="15"/>
-        </Rule>
-      </Item>
 
-      <Item>
-        <Biomes>
-          <Biome>0</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Ice</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="Moon" Density="0.003" />
-		   <Item TypeId="MyObjectBuilder_Trees" SubtypeId="K_Ice_Spikes_Collection" Density="11"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="15"/>
-        </Rule>
-      </Item>
-    </EnvironmentItems>
 
     <OreMappings>
       <!-- Tier 1 ! INSERT ONLY IN BLUE CHANNEL ! -->
@@ -366,16 +225,15 @@
       <MusicCategory Category="Space" Frequency="0.15" />
     </MusicCategories>
 
-    <DefaultSurfaceMaterial Material="Snow" MaxDepth="9"/>
-		<DefaultSubSurfaceMaterial Material="K_Lush_Stone"/>
+
 
     <HasAtmosphere>true</HasAtmosphere>
- <Atmosphere>
+    <Atmosphere>
       <Breathable>true</Breathable>
       <OxygenDensity>1</OxygenDensity>
       <Density>1.0</Density>
       <LimitAltitude>5.0</LimitAltitude>
-	   <MaxWindSpeed>30</MaxWindSpeed>
+      <MaxWindSpeed>30</MaxWindSpeed>
     </Atmosphere>
     <!-- Titan Planet's Atmosphere settings-->
     <AtmosphereSettings>
@@ -398,133 +256,303 @@
       <SeaLevelModifier>0.912886143</SeaLevelModifier>
       <AtmosphereTopModifier>1.9042163</AtmosphereTopModifier>
     </AtmosphereSettings>
-	
-	<CloudLayers>
+
+    <CloudLayers>
       <CloudLayer>
-        <!-- Far layer -->
+        <Color>
+          <X>0.94</X>
+          <Y>0.73</Y>
+          <Z>0.48</Z>
+          <W>1</W>
+        </Color>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
-          <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
+          <Texture>Textures/Models/Environment/Sky/Landsky_texture.dds</Texture>
         </Textures>
-        <RelativeAltitude>1.9</RelativeAltitude>
-        <RotationAxis>
-          <X>-0.2</X>
-          <Y>1</Y>
-          <Z>0.2</Z>
-        </RotationAxis>
-        <AngularVelocity>0.0002</AngularVelocity>
-        <InitialRotation>1.2</InitialRotation>
-        <ScalingEnabled>false</ScalingEnabled>
-        <FadeOutRelativeAltitudeStart>3.0</FadeOutRelativeAltitudeStart>
-        <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
-        <ApplyFogRelativeDistance>0.1</ApplyFogRelativeDistance>
-      </CloudLayer>
-      <CloudLayer>
-        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
-        </Textures>
-        <RelativeAltitude>1.89</RelativeAltitude>
-        <RotationAxis>
-          <X>-0.2</X>
-          <Y>0.2</Y>
-          <Z>1</Z>
-        </RotationAxis>
-        <AngularVelocity>0.0002</AngularVelocity>
-        <InitialRotation>3.2</InitialRotation>
-        <ScalingEnabled>false</ScalingEnabled>
-        <FadeOutRelativeAltitudeStart>3.0</FadeOutRelativeAltitudeStart>
-        <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
-        <ApplyFogRelativeDistance>0.05</ApplyFogRelativeDistance>
-      </CloudLayer>
-      <CloudLayer>
-        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
-        </Textures>
-        <RelativeAltitude>1.88</RelativeAltitude>
-        <RotationAxis>
-          <X>-0.2</X>
-          <Y>0.2</Y>
-          <Z>1</Z>
-        </RotationAxis>
-        <AngularVelocity>0.0002</AngularVelocity>
-        <InitialRotation>5.2</InitialRotation>
-        <ScalingEnabled>false</ScalingEnabled>
-        <FadeOutRelativeAltitudeStart>3.0</FadeOutRelativeAltitudeStart>
-        <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
-        <ApplyFogRelativeDistance>0.05</ApplyFogRelativeDistance>
-      </CloudLayer>
-      <CloudLayer>
-        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
-        </Textures>
-        <RelativeAltitude>1.87</RelativeAltitude>
-        <RotationAxis>
-          <X>-0.2</X>
-          <Y>0.2</Y>
-          <Z>1</Z>
-        </RotationAxis>
-        <AngularVelocity>0.0002</AngularVelocity>
-        <InitialRotation>5.2</InitialRotation>
-        <ScalingEnabled>false</ScalingEnabled>
-        <FadeOutRelativeAltitudeStart>3.0</FadeOutRelativeAltitudeStart>
-        <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
-        <ApplyFogRelativeDistance>0.05</ApplyFogRelativeDistance>
+        <RelativeAltitude>0.15</RelativeAltitude>
+        <AngularVelocity>0.000373112</AngularVelocity>
+        <!--<InitialRotation>-99</InitialRotation>-->
+        <InitialRotation>1</InitialRotation>
+        <!--<Color><X>18.44</X><Y>10.48</Y><Z>38.20</Z><W>0.28</W></Color> -->
+        <!--<RotationAxis><X>0.43</X><Y>0.53</Y><Z>-0.02</Z></RotationAxis>-->
+        <ScalingEnabled>true</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>0</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>0.583</FadeOutRelativeAltitudeEnd>
       </CloudLayer>
 
-      <!-- Near layers -->
-
       <CloudLayer>
+        <Color>
+          <X>0.94</X>
+          <Y>0.73</Y>
+          <Z>0.48</Z>
+          <W>1</W>
+        </Color>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
-          <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
+          <Texture>Textures/Models/Environment/Sky/Landsky_texture.dds</Texture>
+        </Textures>
+        <RelativeAltitude>0.21</RelativeAltitude>
+        <AngularVelocity>-0.00026112</AngularVelocity>
+        <!--<InitialRotation>-19</InitialRotation>-->
+        <InitialRotation>5</InitialRotation>
+        <!--<Color><X>1.79</X><Y>21.89</Y><Z>37.04</Z><W>0.28</W></Color>-->
+        <!--<RotationAxis><X>-0.14</X><Y>0.15</Y><Z>-0.39</Z></RotationAxis>-->
+        <ScalingEnabled>true</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>0</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>0.583</FadeOutRelativeAltitudeEnd>
+      </CloudLayer>
+
+      <CloudLayer>
+        <Color>
+          <X>0.94</X>
+          <Y>0.73</Y>
+          <Z>0.48</Z>
+          <W>1</W>
+        </Color>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/Landsky_texture.dds</Texture>
+        </Textures>
+        <RelativeAltitude>.27</RelativeAltitude>
+        <AngularVelocity>0.000480394</AngularVelocity>
+        <!--<InitialRotation>-132</InitialRotation>-->
+        <InitialRotation>9</InitialRotation>
+        <!--<Color><X>6.75</X><Y>23.62</Y><Z>15.18</Z><W>0.28</W></Color>-->
+        <!--<RotationAxis><X>0.44</X><Y>1</Y><Z>-0.57</Z></RotationAxis>-->
+        <ScalingEnabled>true</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>0</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>0.583</FadeOutRelativeAltitudeEnd>
+      </CloudLayer>
+
+      <CloudLayer>
+        <Color>
+          <X>0.94</X>
+          <Y>0.73</Y>
+          <Z>0.48</Z>
+          <W>1</W>
+        </Color>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/Landsky_texture.dds</Texture>
+        </Textures>
+        <RelativeAltitude>0.33</RelativeAltitude>
+        <AngularVelocity>-0.000391114</AngularVelocity>
+        <!--<InitialRotation>-54</InitialRotation>-->
+        <InitialRotation>-1</InitialRotation>
+        <!--<Color><X>0</X><Y>27</Y><Z>33.75</Z><W>0.28</W></Color> -->
+        <!--<RotationAxis><X>-0.24</X><Y>0.63</Y><Z>0.36</Z></RotationAxis>-->
+        <ScalingEnabled>true</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>0</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>0.583</FadeOutRelativeAltitudeEnd>
+      </CloudLayer>
+
+      <CloudLayer>
+        <Color>
+          <X>0.94</X>
+          <Y>0.73</Y>
+          <Z>0.48</Z>
+          <W>1</W>
+        </Color>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/Landsky_texture.dds</Texture>
+        </Textures>
+        <RelativeAltitude>0.39</RelativeAltitude>
+        <AngularVelocity>0.00029121135</AngularVelocity>
+        <!--<InitialRotation>-14</InitialRotation>-->
+        <InitialRotation>-5</InitialRotation>
+        <!--<Color><X>6.75</X><Y>18.56</Y><Z>47.80</Z><W>0.28</W></Color> -->
+        <!--<RotationAxis><X>0.93</X><Y>-0.81</Y><Z>-0.44</Z></RotationAxis>-->
+        <ScalingEnabled>true</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>0</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>0.583</FadeOutRelativeAltitudeEnd>
+      </CloudLayer>
+
+      <CloudLayer>
+        <Color>
+          <X>0.94</X>
+          <Y>0.73</Y>
+          <Z>0.48</Z>
+          <W>1</W>
+        </Color>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/Landsky_texture.dds</Texture>
+        </Textures>
+        <RelativeAltitude>0.45</RelativeAltitude>
+        <AngularVelocity>-0.00037131135</AngularVelocity>
+        <!--<InitialRotation>2</InitialRotation>-->
+        <InitialRotation>-9</InitialRotation>
+        <!--<Color><X>1.04</X><Y>23.98</Y><Z>22.49</Z><W>0.28</W></Color>-->
+        <!--<RotationAxis><X>-0.11</X><Y>-0.73</Y><Z>-0.66</Z></RotationAxis>-->
+        <ScalingEnabled>true</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>0</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>0.583</FadeOutRelativeAltitudeEnd>
+      </CloudLayer>
+
+      <CloudLayer>
+        <Color>
+          <X>0.94</X>
+          <Y>0.73</Y>
+          <Z>0.48</Z>
+          <W>1</W>
+        </Color>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/Landsky_texture.dds</Texture>
+        </Textures>
+        <RelativeAltitude>0.51</RelativeAltitude>
+        <AngularVelocity>0.0004812112</AngularVelocity>
+        <!--<InitialRotation>35</InitialRotation>-->
+        <InitialRotation>3</InitialRotation>
+        <!--<Color><X>1.79</X><Y>21.89</Y><Z>37.04</Z><W>0.28</W></Color>-->
+        <!--<RotationAxis><X>-0.22</X><Y>0.55</Y><Z>0.74</Z></RotationAxis>-->
+        <ScalingEnabled>true</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>0</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>0.583</FadeOutRelativeAltitudeEnd>
+      </CloudLayer>
+
+      <CloudLayer>
+        <Color>
+          <X>0.94</X>
+          <Y>0.73</Y>
+          <Z>0.48</Z>
+          <W>1</W>
+        </Color>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/Landsky_texture.dds</Texture>
+        </Textures>
+        <RelativeAltitude>0.57</RelativeAltitude>
+        <AngularVelocity>-0.000396112</AngularVelocity>
+        <!--<InitialRotation>-114</InitialRotation>-->
+        <InitialRotation>7</InitialRotation>
+        <!--<Color><X>1.79</X><Y>21.89</Y><Z>37.04</Z><W>0.28</W></Color>-->
+        <!--<RotationAxis><X>-0.62</X><Y>-0.23</Y><Z>-0.94</Z></RotationAxis>-->
+        <ScalingEnabled>true</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>0</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>0.583</FadeOutRelativeAltitudeEnd>
+      </CloudLayer>
+
+      <CloudLayer>
+        <Color>
+          <X>0.94</X>
+          <Y>0.73</Y>
+          <Z>0.48</Z>
+          <W>1</W>
+        </Color>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/Landsky_texture.dds</Texture>
+        </Textures>
+        <RelativeAltitude>0.63</RelativeAltitude>
+        <AngularVelocity>0.000286112</AngularVelocity>
+        <!--<InitialRotation>79</InitialRotation>-->
+        <InitialRotation>-3</InitialRotation>
+        <!--<Color><X>1.79</X><Y>21.89</Y><Z>37.04</Z><W>0.28</W></Color>-->
+        <!--<RotationAxis><X>0.99</X><Y>-0.15</Y><Z>-0.09</Z></RotationAxis>-->
+        <ScalingEnabled>true</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>0</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>0.583</FadeOutRelativeAltitudeEnd>
+      </CloudLayer>
+
+      <CloudLayer>
+        <Color>
+          <X>0.94</X>
+          <Y>0.73</Y>
+          <Z>0.48</Z>
+          <W>1</W>
+        </Color>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/Landsky_texture.dds</Texture>
         </Textures>
         <RelativeAltitude>1.0</RelativeAltitude>
         <RotationAxis>
           <X>0</X>
           <Y>1</Y>
           <Z>0</Z>
+          <W>2</W>
         </RotationAxis>
-        <AngularVelocity>0.000085</AngularVelocity>
+        <AngularVelocity>0.0006</AngularVelocity>
         <InitialRotation>0.15</InitialRotation>
-        <ScalingEnabled>false</ScalingEnabled>
-        <FadeOutRelativeAltitudeStart>0.5</FadeOutRelativeAltitudeStart>
+        <ScalingEnabled>true</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>0</FadeOutRelativeAltitudeStart>
         <FadeOutRelativeAltitudeEnd>1.6</FadeOutRelativeAltitudeEnd>
       </CloudLayer>
+
       <CloudLayer>
+        <Color>
+          <X>0.94</X>
+          <Y>0.73</Y>
+          <Z>0.48</Z>
+          <W>1</W>
+        </Color>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
-          <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
+          <Texture>Textures/Models/Environment/Sky/Landsky_texture.dds</Texture>
         </Textures>
         <RelativeAltitude>2.0</RelativeAltitude>
         <RotationAxis>
-          <X>1</X>
-          <Y>0.2</Y>
+          <X>0.2</X>
+          <Y>1</Y>
           <Z>-0.2</Z>
+          <W>2</W>
         </RotationAxis>
-        <AngularVelocity>0.000085</AngularVelocity>
-        <InitialRotation>2.5</InitialRotation>
-        <ScalingEnabled>false</ScalingEnabled>
-        <FadeOutRelativeAltitudeStart>0.7</FadeOutRelativeAltitudeStart>
+        <AngularVelocity>0.0006</AngularVelocity>
+        <InitialRotation>0.5</InitialRotation>
+        <ScalingEnabled>true</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>0</FadeOutRelativeAltitudeStart>
         <FadeOutRelativeAltitudeEnd>1.5</FadeOutRelativeAltitudeEnd>
       </CloudLayer>
+
       <CloudLayer>
+        <Color>
+          <X>0.94</X>
+          <Y>0.73</Y>
+          <Z>0.48</Z>
+          <W>1</W>
+        </Color>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
-          <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
+          <Texture>Textures/Models/Environment/Sky/Landsky_texture.dds</Texture>
+        </Textures>
+        <RelativeAltitude>2.5</RelativeAltitude>
+        <RotationAxis>
+          <X>2</X>
+          <Y>0.2</Y>
+          <Z>-0.2</Z>
+          <W>2</W>
+        </RotationAxis>
+        <AngularVelocity>0.0006</AngularVelocity>
+        <InitialRotation>0.5</InitialRotation>
+        <ScalingEnabled>true</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>0</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>1.5</FadeOutRelativeAltitudeEnd>
+      </CloudLayer>
+
+      <CloudLayer>
+        <Color>
+          <X>0.94</X>
+          <Y>0.73</Y>
+          <Z>0.48</Z>
+          <W>1</W>
+        </Color>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/Landsky_texture.dds</Texture>
         </Textures>
         <RelativeAltitude>3.0</RelativeAltitude>
         <RotationAxis>
           <X>-0.2</X>
-          <Y>0.2</Y>
-          <Z>1</Z>
+          <Y>1</Y>
+          <Z>0.2</Z>
+          <W>2</W>
         </RotationAxis>
-        <AngularVelocity>0.000085</AngularVelocity>
-        <InitialRotation>4.2</InitialRotation>
-        <ScalingEnabled>false</ScalingEnabled>
-        <FadeOutRelativeAltitudeStart>0.8</FadeOutRelativeAltitudeStart>
+        <AngularVelocity>0.0006</AngularVelocity>
+        <InitialRotation>1.2</InitialRotation>
+        <ScalingEnabled>true</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>0</FadeOutRelativeAltitudeStart>
         <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
       </CloudLayer>
     </CloudLayers>
@@ -534,77 +562,77 @@
     <MaterialsMaxDepth Min="4000" Max="4000"/>
     <MaterialsMinDepth Min="20" Max="20"/>
     <HillParams Min = "-0.03" Max ="0.03"/>
-	
-	
-	<WeatherFrequencyMin>1800</WeatherFrequencyMin>
-	<WeatherFrequencyMax>5400</WeatherFrequencyMax>
-		<WeatherGenerators>
-		<WeatherGenerator>
-			<Voxel>Snow</Voxel>
-			<Weathers>
-				<Weather>
-					<Name>Starwars_Weather_Snow_Hoth</Name>
-					<Weight>2</Weight>
-					<MinLength>900</MinLength>
-					<MaxLength>2000</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-            	<Weather>
-					<Name>Starwars_Weather_SnowHeavy_Hoth</Name>
-					<Weight>2</Weight>
-					<MinLength>900</MinLength>
-					<MaxLength>3600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-		
-		<WeatherGenerator>
-			<Voxel>IceEuropa2</Voxel>
-			<Weathers>
-				<Weather>
-					<Name>Starwars_Weather_Snow_Hoth</Name>
-					<Weight>2</Weight>
-					<MinLength>800</MinLength>
-					<MaxLength>2400</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-            	<Weather>
-					<Name>Starwars_Weather_SnowHeavy_Hoth</Name>
-					<Weight>1</Weight>
-					<MinLength>600</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-		
-		
-		<WeatherGenerator>
-			<Voxel>Ice</Voxel>
-			<Weathers>
-				<Weather>
-					<Name>Starwars_Weather_Snow_Hoth</Name>
-					<Weight>2</Weight>
-					<MinLength>800</MinLength>
-					<MaxLength>2400</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-            	<Weather>
-					<Name>Starwars_Weather_SnowHeavy_Hoth</Name>
-					<Weight>1</Weight>
-					<MinLength>600</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-		
-		</WeatherGenerators>
-	
-	
+
+
+    <WeatherFrequencyMin>1800</WeatherFrequencyMin>
+    <WeatherFrequencyMax>5400</WeatherFrequencyMax>
+    <WeatherGenerators>
+      <WeatherGenerator>
+        <Voxel>Snow</Voxel>
+        <Weathers>
+          <Weather>
+            <Name>Starwars_Weather_Snow_Hoth</Name>
+            <Weight>2</Weight>
+            <MinLength>900</MinLength>
+            <MaxLength>2000</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>Starwars_Weather_SnowHeavy_Hoth</Name>
+            <Weight>2</Weight>
+            <MinLength>900</MinLength>
+            <MaxLength>3600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+        </Weathers>
+      </WeatherGenerator>
+
+      <WeatherGenerator>
+        <Voxel>IceEuropa2</Voxel>
+        <Weathers>
+          <Weather>
+            <Name>Starwars_Weather_Snow_Hoth</Name>
+            <Weight>2</Weight>
+            <MinLength>800</MinLength>
+            <MaxLength>2400</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>Starwars_Weather_SnowHeavy_Hoth</Name>
+            <Weight>1</Weight>
+            <MinLength>600</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+        </Weathers>
+      </WeatherGenerator>
+
+
+      <WeatherGenerator>
+        <Voxel>Ice</Voxel>
+        <Weathers>
+          <Weather>
+            <Name>Starwars_Weather_Snow_Hoth</Name>
+            <Weight>2</Weight>
+            <MinLength>800</MinLength>
+            <MaxLength>2400</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>Starwars_Weather_SnowHeavy_Hoth</Name>
+            <Weight>1</Weight>
+            <MinLength>600</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+        </Weathers>
+      </WeatherGenerator>
+
+    </WeatherGenerators>
+
+
   </Definition>
 
 
- 
+
 </Definitions>
