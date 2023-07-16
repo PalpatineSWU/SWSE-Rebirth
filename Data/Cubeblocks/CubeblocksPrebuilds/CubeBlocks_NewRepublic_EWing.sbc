@@ -37,7 +37,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      <IsAirTight>true</IsAirTight>
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
@@ -93,7 +93,7 @@
       </MountPoints>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
       <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
       <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
@@ -173,7 +173,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <MaxPowerOutput>100</MaxPowerOutput>
       <InventorySize>
@@ -309,7 +309,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <RequiredPowerInput>0.01</RequiredPowerInput>
       <EnableFirstPerson>false</EnableFirstPerson>
@@ -354,7 +354,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      <IsAirTight>true</IsAirTight>
       <PrimarySound>BlockGyroscope</PrimarySound>
       <ResourceSinkGroup>Gyro</ResourceSinkGroup>
       <ForceMagnitude>1344000</ForceMagnitude>
@@ -398,7 +398,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      <IsAirTight>true</IsAirTight>
       <PrimarySound>BlockGyroscope</PrimarySound>
       <ResourceSinkGroup>Gyro</ResourceSinkGroup>
       <ForceMagnitude>1344000</ForceMagnitude>
@@ -447,7 +447,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
       <ForceMagnitude>4000000</ForceMagnitude>
       <MaxPowerConsumption>0.201</MaxPowerConsumption>
@@ -524,7 +524,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
       <ForceMagnitude>4000000</ForceMagnitude>
       <MaxPowerConsumption>0.201</MaxPowerConsumption>
@@ -954,7 +954,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
 
@@ -1005,6 +1005,7 @@
       <DestroyEffect>Imperial_Explosion_Sparks</DestroyEffect>
       <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
       <PCU>100</PCU>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_LandingGearDefinition">

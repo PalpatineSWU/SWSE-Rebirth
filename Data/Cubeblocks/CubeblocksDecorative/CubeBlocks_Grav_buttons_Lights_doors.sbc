@@ -49,7 +49,7 @@
       <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
       <DestroySound>PoofExplosionCat3</DestroySound>
       <PCU>115</PCU>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_DoorDefinition">
@@ -97,7 +97,7 @@
       <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
       <DestroySound>PoofExplosionCat3</DestroySound>
       <PCU>115</PCU>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
     </Definition>
 
     <Definition>

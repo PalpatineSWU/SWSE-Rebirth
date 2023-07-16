@@ -48,6 +48,7 @@
       <DestroyEffect>Explosion_Missile</DestroyEffect>
       <DestroySound>WepSmallMissileExpl</DestroySound>
       <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
@@ -95,6 +96,7 @@
       <DestroyEffect>Explosion_Missile</DestroyEffect>
       <DestroySound>WepSmallMissileExpl</DestroySound>
       <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
@@ -141,6 +143,7 @@
       <DestroyEffect>Explosion_Missile</DestroyEffect>
       <DestroySound>WepSmallMissileExpl</DestroySound>
       <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
@@ -187,6 +190,7 @@
       <DestroyEffect>Explosion_Missile</DestroyEffect>
       <DestroySound>WepSmallMissileExpl</DestroySound>
       <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
@@ -234,6 +238,7 @@
       <DestroyEffect>Explosion_Missile</DestroyEffect>
       <DestroySound>WepSmallMissileExpl</DestroySound>
       <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
@@ -281,6 +286,7 @@
       <DestroyEffect>Explosion_Missile</DestroyEffect>
       <DestroySound>WepSmallMissileExpl</DestroySound>
       <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
@@ -327,6 +333,7 @@
       <DestroyEffect>Explosion_Missile</DestroyEffect>
       <DestroySound>WepSmallMissileExpl</DestroySound>
       <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
@@ -373,6 +380,7 @@
       <DestroyEffect>Explosion_Missile</DestroyEffect>
       <DestroySound>WepSmallMissileExpl</DestroySound>
       <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
@@ -419,6 +427,7 @@
       <DestroyEffect>Explosion_Missile</DestroyEffect>
       <DestroySound>WepSmallMissileExpl</DestroySound>
       <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
@@ -465,6 +474,7 @@
       <DestroyEffect>Explosion_Missile</DestroyEffect>
       <DestroySound>WepSmallMissileExpl</DestroySound>
       <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
   </CubeBlocks>

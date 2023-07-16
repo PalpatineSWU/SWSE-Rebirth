@@ -1207,13 +1207,22 @@
                 <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankSmall" />
                 <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankIndustrial" />
                 <Block Type="MyObjectBuilder_OxygenTank" Subtype="K_Imperial_Gas_Storage_Bubble_Tibanna" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="K_Imperial_Gas_Storage_Bubble_Tibanna_SG" />
                 <Block Type="MyObjectBuilder_OxygenTank" Subtype="K_Imperial_Gas_Storage_Bubble_Oxygen" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="K_Imperial_Gas_Storage_Bubble_Oxygen_SG" />
                 <Block Type="MyObjectBuilder_OxygenTank" Subtype="K_Imperial_Gas_Storage_Bubble_hydrogen" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="K_Imperial_Gas_Storage_Bubble_hydrogen_SG" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="K_Imperial_Gas_Storage_Bubble_HypermatterGas" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="K_Imperial_Gas_Storage_Bubble_HypermatterGas_SG" />
                 <Block Type="MyObjectBuilder_OxygenTank" Subtype="K_Imperial_Gas_Storage_I_L" />
                 <Block Type="MyObjectBuilder_OxygenTank" Subtype="K_Imperial_Gas_Storage_I_L_Oxygen" />
                 <Block Type="MyObjectBuilder_OxygenTank" Subtype="K_Imperial_Gas_Storage_I_L_Hydrogen" />
                 <Block Type="MyObjectBuilder_OxygenTank" Subtype="K_Imperial_Gas_Storage_I_L_Hypermatter" />
                 <Block Type="MyObjectBuilder_OxygenTank" Subtype="K_Imperial_Assembly_Factory_Phrik" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHypermatterGasTank" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHypermatterGasTankSmall" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHypermatterGasTank" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHypermatterGasTankSmall" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -1432,6 +1441,25 @@
             </Blocks>
         </BlockVariantGroup>
 
+
+
+
+        <!--Small grid weapons start -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GatGroup" />
+            <Icon>Textures\GUI\Icons\Blockgroupoutline.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Las_Gat_Main.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
+            <Description>Description_BlockGroup_TurretGroup</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="LG_Las_Gat_Main" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="SG_Las_Gat_Main" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="LG_Mas_Gat_Main" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="SG_Mas_Gat_Main" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="LG_Lug_Gat_Main" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="SG_Lug_Gat_Main" />
+            </Blocks>
+        </BlockVariantGroup>
 
         <!--Small grid weapons start -->
         <BlockVariantGroup>

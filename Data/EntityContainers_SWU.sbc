@@ -50,6 +50,105 @@
     
     -->
 
+    <Container>
+      <Id>
+        <TypeId>RemoteControl</TypeId>
+        <SubtypeId>K_Imperial_Dropship_Guild_RC 3x3</SubtypeId>
+      </Id>
+      <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_AutopilotComponent" SubtypeId="K_Imperial_Dropship_Guild_RC" ForceCreate="true"/>
+      </DefaultComponents>
+    </Container>
+
+    <Container>
+      <Id>
+        <TypeId>RemoteControl</TypeId>
+        <SubtypeId>K_Imperial_Guild_Controller_FakeCockpit</SubtypeId>
+      </Id>
+      <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_AutopilotComponent" SubtypeId="K_Imperial_Guild_Controller_FakeCockpit" ForceCreate="true"/>
+      </DefaultComponents>
+    </Container>
+
+    <Container>
+      <Id>
+        <TypeId>RemoteControl</TypeId>
+        <SubtypeId>K_Imperial_ProbeDroid_Top_II</SubtypeId>
+      </Id>
+      <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_AutopilotComponent" SubtypeId="K_Imperial_ProbeDroid_Top_II" ForceCreate="true"/>
+      </DefaultComponents>
+    </Container>
+
+    <Container>
+      <Id>
+        <TypeId>RemoteControl</TypeId>
+        <SubtypeId>K_NewRepublic_AWing_RC</SubtypeId>
+      </Id>
+      <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_AutopilotComponent" SubtypeId="K_NewRepublic_AWing_RC" ForceCreate="true"/>
+      </DefaultComponents>
+    </Container>
+
+    <Container>
+      <Id>
+        <TypeId>RemoteControl</TypeId>
+        <SubtypeId>K_NewRepublic_EWing_RC</SubtypeId>
+      </Id>
+      <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_AutopilotComponent" SubtypeId="K_NewRepublic_EWing_RC" ForceCreate="true"/>
+      </DefaultComponents>
+    </Container>
+
+    <Container>
+      <Id>
+        <TypeId>RemoteControl</TypeId>
+        <SubtypeId>K_Imperial_SpeederBike_FakePilot</SubtypeId>
+      </Id>
+      <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_AutopilotComponent" SubtypeId="K_Imperial_SpeederBike_FakePilot" ForceCreate="true"/>
+      </DefaultComponents>
+    </Container>
+
+    <Container>
+      <Id>
+        <TypeId>RemoteControl</TypeId>
+        <SubtypeId>K_TIE_Drone_Core</SubtypeId>
+      </Id>
+      <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_AutopilotComponent" SubtypeId="K_TIE_Drone_Core" ForceCreate="true"/>
+      </DefaultComponents>
+    </Container>
+
+    <Container>
+      <Id>
+        <TypeId>RemoteControl</TypeId>
+        <SubtypeId>K_Imperial_Reborn_TIE_Droid_Core</SubtypeId>
+      </Id>
+      <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_AutopilotComponent" SubtypeId="K_Imperial_Reborn_TIE_Droid_Core" ForceCreate="true"/>
+      </DefaultComponents>
+    </Container>
+
+    <Container>
+      <Id>
+        <TypeId>RemoteControl</TypeId>
+        <SubtypeId>K_TIE_Fighter_RC</SubtypeId>
+      </Id>
+      <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_AutopilotComponent" SubtypeId="K_TIE_Fighter_RC" ForceCreate="true"/>
+      </DefaultComponents>
+    </Container>
+
+    <Container>
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>K_NewRepublic_YWing_Storage</SubtypeId>
+      </Id>
+      <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_Inventory"/>
+      </DefaultComponents>
+    </Container>
 
     <Container>
       <Id>
@@ -166,6 +265,16 @@
       <Id>
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>K_Sith_Warship_HangarDeck</SubtypeId>
+      </Id>
+      <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_Inventory"/>
+      </DefaultComponents>
+    </Container>
+
+    <Container>
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>SG_Lug_Gat_Main</SubtypeId>
       </Id>
       <DefaultComponents>
         <Component BuilderType="MyObjectBuilder_Inventory"/>

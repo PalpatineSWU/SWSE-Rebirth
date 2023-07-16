@@ -44,7 +44,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
@@ -73,6 +73,7 @@
         <ScreenArea Name="CockpitScreen_11" DisplayName="11" TextureResolution="256" ScreenWidth="1" ScreenHeight="1"/>
         <ScreenArea Name="CockpitScreen_12" DisplayName="12" TextureResolution="256" ScreenWidth="1" ScreenHeight="1"/>
       </ScreenAreas>
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
@@ -102,7 +103,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
@@ -122,6 +123,7 @@
       <ElevationSpeed>0.0002 </ElevationSpeed>
       <MinFov>0.1</MinFov>
       <MaxFov>1.04719755</MaxFov>
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -159,7 +161,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
       <ForceMagnitude>4000000</ForceMagnitude>
       <MaxPowerConsumption>0.201</MaxPowerConsumption>
@@ -197,6 +199,7 @@
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
       <DestroySound>K_SW_Explosion_Generic</DestroySound>
       <EmissiveColorPreset>K_Imperial_Engine_EmissiveSet</EmissiveColorPreset>
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -234,7 +237,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
       <ForceMagnitude>4000000</ForceMagnitude>
       <MaxPowerConsumption>0.201</MaxPowerConsumption>
@@ -272,6 +275,7 @@
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
       <DestroySound>K_SW_Explosion_Generic</DestroySound>
       <EmissiveColorPreset>K_Imperial_Engine_EmissiveSet</EmissiveColorPreset>
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_GyroDefinition">
@@ -306,7 +310,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <PrimarySound>BlockGyroscope</PrimarySound>
       <ResourceSinkGroup>Gyro</ResourceSinkGroup>
       <ForceMagnitude>1200000</ForceMagnitude>
@@ -316,6 +320,7 @@
       <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
       <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
@@ -384,6 +389,7 @@
       <DestroySound>K_Imperial_Explosion_Generic</DestroySound>
       <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
 
@@ -420,7 +426,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
       <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
       <MaxPowerOutput>10</MaxPowerOutput>
@@ -436,6 +442,7 @@
       <DamageEffectName>Imperial_Damages_Electrical</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
       <DestroyEffect>Imperial_ElectricalExplosion</DestroyEffect>
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">      <!-- Solar Tip -->
@@ -470,7 +477,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
       <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
       <MaxPowerOutput>10</MaxPowerOutput>
@@ -486,6 +493,7 @@
       <DamageEffectName>Imperial_Damages_Electrical</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
       <DestroyEffect>Imperial_ElectricalExplosion</DestroyEffect>
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">      <!-- Solar Tip -->
@@ -520,7 +528,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
       <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
       <MaxPowerOutput>10</MaxPowerOutput>
@@ -536,6 +544,7 @@
       <DamageEffectName>Imperial_Damages_Electrical</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
       <DestroyEffect>Imperial_ElectricalExplosion</DestroyEffect>
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
 
@@ -566,7 +575,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
@@ -586,6 +595,7 @@
       <ElevationSpeed>0.0002 </ElevationSpeed>
       <MinFov>0.1</MinFov>
       <MaxFov>1.04719755</MaxFov>
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">      <!-- Gun Tip -->
@@ -615,7 +625,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
@@ -635,6 +645,7 @@
       <ElevationSpeed>0.0002 </ElevationSpeed>
       <MinFov>0.1</MinFov>
       <MaxFov>1.04719755</MaxFov>
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
 
@@ -687,6 +698,7 @@
       <DestroySound>K_Imperial_Explosion_TypeII</DestroySound>
       <PCU>100</PCU>
       <IsAirTight>true</IsAirTight>
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
 
@@ -718,7 +730,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
@@ -738,6 +750,7 @@
       <ElevationSpeed>0.0002 </ElevationSpeed>
       <MinFov>0.1</MinFov>
       <MaxFov>1.04719755</MaxFov>
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
 

@@ -29,7 +29,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
       <EnableBuilderCockpit>false</EnableBuilderCockpit>
@@ -47,6 +47,7 @@
         <Z>0.15</Z>
       </RaycastOffset>
       <EmissiveColorPreset>K_Imperial_Ship_EmissiveSet</EmissiveColorPreset>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
@@ -75,7 +76,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+
       <ResourceSourceGroup>Battery</ResourceSourceGroup>
       <MaxPowerOutput>25</MaxPowerOutput>
       <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
@@ -87,6 +88,7 @@
       <DestroySound>K_SW_Explosion_Generic</DestroySound>
       <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
@@ -115,7 +117,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+
       <ResourceSourceGroup>Battery</ResourceSourceGroup>
       <MaxPowerOutput>100</MaxPowerOutput>
       <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
@@ -128,6 +130,7 @@
       <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
       <GeneralDamageMultiplier>1.2</GeneralDamageMultiplier>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition>
@@ -151,7 +154,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition>
@@ -178,7 +182,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition>
@@ -205,7 +210,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition>
@@ -232,7 +238,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition>
@@ -259,7 +266,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition>
@@ -286,7 +294,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition>
@@ -318,7 +327,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>8</BuildTimeSeconds>
       <PCU>1</PCU>
-      <IsAirTight>false</IsAirTight>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition>
@@ -342,7 +351,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition>
@@ -366,7 +376,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
 

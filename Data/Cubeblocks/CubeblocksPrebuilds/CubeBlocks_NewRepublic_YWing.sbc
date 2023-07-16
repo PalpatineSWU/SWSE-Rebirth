@@ -36,7 +36,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      <IsAirTight>true</IsAirTight>
       <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
@@ -87,7 +87,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      <IsAirTight>true</IsAirTight>
       <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
@@ -138,7 +138,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      <IsAirTight>true</IsAirTight>
       <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
@@ -186,7 +186,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      <IsAirTight>true</IsAirTight>
       <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
@@ -234,7 +234,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      <IsAirTight>true</IsAirTight>
       <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
@@ -292,7 +292,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      <IsAirTight>true</IsAirTight>
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
@@ -349,7 +349,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      <IsAirTight>true</IsAirTight>
       <PrimarySound>BlockGyroscope</PrimarySound>
       <ResourceSinkGroup>Gyro</ResourceSinkGroup>
       <ForceMagnitude>1200000</ForceMagnitude>
@@ -394,7 +394,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      <IsAirTight>true</IsAirTight>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <MaxPowerOutput>15</MaxPowerOutput>
       <InventorySize>
@@ -501,7 +501,7 @@
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      <IsAirTight>true</IsAirTight>
       <GenerateSound>BlockOxyGenProcess</GenerateSound>
       <IdleSound>BlockOxyGenIdle</IdleSound>
       <DestroyEffect>Imperial_ElectricalExplosion</DestroyEffect>
@@ -516,7 +516,7 @@
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>K_NewRepublic_YWing_Storage</SubtypeId>
       </Id>
-      <DisplayName>Y-Wing Storage Container</DisplayName>
+      <DisplayName>Y-Wing Storage Cargo Container</DisplayName>
       <Icon>Textures\GUI\Icons\Ships\Y-wing\YwingCont.dds</Icon>
       <Description>Description_SmallCargoContainer</Description>
       <CubeSize>Small</CubeSize>
@@ -581,7 +581,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
 
@@ -633,7 +633,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      <IsAirTight>true</IsAirTight>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
       <ForceMagnitude>2000000</ForceMagnitude>
       <MaxPowerConsumption>0.201</MaxPowerConsumption>
@@ -709,7 +709,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      <IsAirTight>true</IsAirTight>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
       <ForceMagnitude>2000000</ForceMagnitude>
       <MaxPowerConsumption>0.201</MaxPowerConsumption>
@@ -779,7 +779,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      <IsAirTight>true</IsAirTight>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
       <ForceMagnitude>800000</ForceMagnitude>
       <MaxPowerConsumption>0.201</MaxPowerConsumption>
@@ -848,7 +848,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      <IsAirTight>true</IsAirTight>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
       <ForceMagnitude>800000</ForceMagnitude>
       <MaxPowerConsumption>0.201</MaxPowerConsumption>

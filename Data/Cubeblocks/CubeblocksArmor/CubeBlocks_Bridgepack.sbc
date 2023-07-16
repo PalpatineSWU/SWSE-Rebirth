@@ -25,7 +25,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition>
@@ -49,7 +50,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition>
@@ -73,7 +75,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition>
@@ -97,7 +100,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition>
@@ -121,7 +125,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition>
@@ -145,7 +150,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition>
@@ -169,7 +175,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition>
@@ -193,7 +200,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition>
@@ -217,7 +225,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
@@ -248,7 +257,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
@@ -262,6 +271,7 @@
         <Y>0.4983</Y>
         <Z>0.15</Z>
       </RaycastOffset>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
@@ -290,7 +300,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
@@ -313,6 +323,7 @@
         <Y>0.4983</Y>
         <Z>0.15</Z>
       </RaycastOffset>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
@@ -341,7 +352,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <RequiredPowerInput>0.0002</RequiredPowerInput>
       <TextureResolution>512</TextureResolution>
@@ -350,6 +361,7 @@
       <DamagedSound>ParticleElectrical</DamagedSound>
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_ProgrammableBlockDefinition">
@@ -405,7 +417,7 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>100</PCU>
-      <IsAirTight>false</IsAirTight>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
 

@@ -39,7 +39,6 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>125</PCU>
-      <IsAirTight>false</IsAirTight>
       <AutoUnlockTime_Min>0</AutoUnlockTime_Min>
       <AutoUnlockTime_Max>3600</AutoUnlockTime_Max>
       <TieredUpdateTimes>
@@ -47,6 +46,8 @@
         <unsignedInt>160</unsignedInt>
         <unsignedInt>320</unsignedInt>
       </TieredUpdateTimes>
+      <IsAirTight>true</IsAirTight>
+
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_ShipConnectorDefinition">
@@ -96,7 +97,6 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>125</PCU>
-      <IsAirTight>false</IsAirTight>
       <AutoUnlockTime_Min>0</AutoUnlockTime_Min>
       <AutoUnlockTime_Max>3600</AutoUnlockTime_Max>
       <TieredUpdateTimes>
@@ -104,6 +104,8 @@
         <unsignedInt>160</unsignedInt>
         <unsignedInt>320</unsignedInt>
       </TieredUpdateTimes>
+      <IsAirTight>true</IsAirTight>
+
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_ShipConnectorDefinition">
@@ -141,6 +143,8 @@
       <EmissiveColorPreset>K_Imperial_Connector</EmissiveColorPreset>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <IsAirTight>true</IsAirTight>
+
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
@@ -190,6 +194,7 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>
       <IsAirTight>true</IsAirTight>
+
     </Definition>
 
 
@@ -198,7 +203,7 @@
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>K_Imperial_SupplyDepot</SubtypeId>
       </Id>
-      <DisplayName>Republic Supply Depot</DisplayName>
+      <DisplayName>Republic Supply Depot Cargo Container</DisplayName>
       <Icon>Textures\GUI\Icons\Cosmetic\Cargo1x1_1.dds</Icon>
       <Description>Description_SmallCargoContainer</Description>
       <CubeSize>Large</CubeSize>
@@ -241,13 +246,19 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>10</PCU>
-      <IsAirTight>true</IsAirTight>
       <BlockVariants>
         <BlockVariant>
           <TypeId>CargoContainer</TypeId>
           <SubtypeId>K_Imperial_SupplyDepot_AltII</SubtypeId>
         </BlockVariant>
       </BlockVariants>
+      <IsAirTight>true</IsAirTight>
+            <InventoryMaxVolume>7.5</InventoryMaxVolume>
+            <InventorySize>
+                <X>2.5</X>
+                <Y>2.5</Y>
+                <Z>2.5</Z>
+            </InventorySize>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
@@ -255,11 +266,10 @@
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>K_Imperial_SupplyDepot_AltII</SubtypeId>
       </Id>
-      <DisplayName>Republic Supply Depot</DisplayName>
+      <DisplayName>Republic Supply Depot Cargo Container 2</DisplayName>
       <Icon>Textures\GUI\Icons\Cosmetic\Cargo1x1_2.dds</Icon>
       <Description>Description_SmallCargoContainer</Description>
       <CubeSize>Large</CubeSize>
-      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
@@ -300,6 +310,12 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
+            <InventoryMaxVolume>7.5</InventoryMaxVolume>
+            <InventorySize>
+                <X>2.5</X>
+                <Y>2.5</Y>
+                <Z>2.5</Z>
+            </InventorySize>
     </Definition>
 
     <Definition>
@@ -337,6 +353,8 @@
       <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
       <DestroySound>PoofExplosionCat3</DestroySound>
       <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+
     </Definition>
 
     <Definition>
@@ -373,6 +391,8 @@
       <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
       <DestroySound>PoofExplosionCat3</DestroySound>
       <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+
     </Definition>
 
     <Definition>
@@ -409,6 +429,8 @@
       <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
       <DestroySound>PoofExplosionCat3</DestroySound>
       <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+
     </Definition>
 
     <Definition>
@@ -446,6 +468,8 @@
       <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
       <DestroySound>PoofExplosionCat3</DestroySound>
       <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+
     </Definition>
 
     <Definition>
@@ -483,6 +507,8 @@
       <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
       <DestroySound>PoofExplosionCat3</DestroySound>
       <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+
     </Definition>
 
     <Definition>
@@ -519,6 +545,8 @@
       <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
       <DestroySound>PoofExplosionCat3</DestroySound>
       <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+
     </Definition>
 
     <Definition>
@@ -556,6 +584,8 @@
       <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
       <DestroySound>PoofExplosionCat3</DestroySound>
       <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+
     </Definition>
 
     <Definition>
@@ -593,6 +623,8 @@
       <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
       <DestroySound>PoofExplosionCat3</DestroySound>
       <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+
     </Definition>
 
 
@@ -631,6 +663,8 @@
       <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
       <DestroySound>PoofExplosionCat3</DestroySound>
       <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+
     </Definition>
 
     <Definition>
@@ -668,6 +702,8 @@
       <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
       <DestroySound>PoofExplosionCat3</DestroySound>
       <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+
     </Definition>
 
 
@@ -745,6 +781,8 @@
           <SubtypeId>K_Imperial_Conveyor_HangarAttachment</SubtypeId>
         </BlockVariant>
       </BlockVariants>
+      <IsAirTight>true</IsAirTight>
+
     </Definition>
 
 

@@ -70,7 +70,7 @@
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <GenerateSound>BlockOxyGenProcess</GenerateSound>
       <IdleSound>BlockOxyGenIdle</IdleSound>
       <DestroyEffect>Explosion_Missile</DestroyEffect>
@@ -78,6 +78,7 @@
       <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
@@ -114,7 +115,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
@@ -138,6 +139,7 @@
         <ScreenArea Name="CockpitScreen_06" DisplayName="6" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" />
         <ScreenArea Name="CockpitScreen_07" DisplayName="7" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" />
       </ScreenAreas>
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
 
@@ -194,12 +196,12 @@
       <DamagedSound>ParticleElectrical</DamagedSound>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
-      <IsAirTight>true</IsAirTight>
       <PCU>15</PCU>
       <TargetingGroups>
         <string>PowerSystems</string>
       </TargetingGroups>
       <EmissiveColorPreset>K_Imperial_Battery</EmissiveColorPreset>
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_GyroDefinition">
@@ -229,7 +231,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <PrimarySound>BlockGyroscope</PrimarySound>
       <ResourceSinkGroup>Gyro</ResourceSinkGroup>
       <ForceMagnitude>1200000</ForceMagnitude>
@@ -239,6 +241,7 @@
       <EmissiveColorPreset>K_Imperial_ExtendedBasic_EmissiveSet</EmissiveColorPreset>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
 
@@ -269,7 +272,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
       <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
       <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
@@ -310,6 +313,7 @@
         </Opening>
       </OpeningSequence>
       <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
 
@@ -342,7 +346,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <MaxPowerOutput>75</MaxPowerOutput>
       <InventorySize>
@@ -377,6 +381,7 @@
       <EmissiveColorPreset>K_Imperial_ExtendedBasic_EmissiveSet</EmissiveColorPreset>
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
 
@@ -411,7 +416,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
 
@@ -425,6 +430,7 @@
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
       <DestroySound>K_Imperial_Explosion_Critical</DestroySound>
       <PCU>25</PCU>
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -454,7 +460,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
       <ForceMagnitude>2000000</ForceMagnitude>
       <MaxPowerConsumption>0.201</MaxPowerConsumption>
@@ -492,6 +498,7 @@
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <EmissiveColorPreset>K_Imperial_Engine_EmissiveSet</EmissiveColorPreset>
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
@@ -520,7 +527,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
@@ -529,6 +536,7 @@
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
@@ -557,7 +565,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
@@ -566,6 +574,7 @@
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
@@ -594,7 +603,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
@@ -603,6 +612,7 @@
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <EmissiveColorPreset>K_Imperial_IonWeapon_EmissiveSet</EmissiveColorPreset>
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
 

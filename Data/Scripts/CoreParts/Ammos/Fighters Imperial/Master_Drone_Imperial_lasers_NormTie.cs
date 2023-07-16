@@ -56,7 +56,7 @@ namespace Scripts
             IgnoreVoxels = false, // Whether the projectile should be able to penetrate voxels.
             Sync = new SynchronizeDef
             {
-                Full = false, // Be careful, do not use on high fire rate weapons. Do not use with other sync options. Only works on drones and Smart projectiles.Will only work on chained / staged fragments with a frag count of 1, will no longer sync once frag chain > 1.
+                Full = true, // Be careful, do not use on high fire rate weapons. Do not use with other sync options. Only works on drones and Smart projectiles.Will only work on chained / staged fragments with a frag count of 1, will no longer sync once frag chain > 1.
                 PointDefense = true, // Server will inform clients of what projectiles have died by PD defense and will trigger destruction.
                 OnHitDeath = true, // Server will inform clients when projectiles die due to them hitting something and will trigger destruction.
             },
@@ -131,7 +131,7 @@ namespace Scripts
                 },
                 Armor = new ArmorDef
                 {
-                    Armor = 6f, // Multiplier for damage against all armor. This is multiplied with the specific armor type multiplier (light, heavy).
+                    Armor = 18f, // Multiplier for damage against all armor. This is multiplied with the specific armor type multiplier (light, heavy).
                     Light = -1f, // Multiplier for damage against light armor.
                     Heavy = -1f, // Multiplier for damage against heavy armor.
                     NonArmor = 3f, // Multiplier for damage against every else.
@@ -272,13 +272,13 @@ namespace Scripts
             },
             Trajectory = new TrajectoryDef
             {
-                Guidance = Smart, // None, Remote, TravelTo, Smart, DetectTravelTo, DetectSmart, DetectFixed
+                Guidance = Smart, // None, Remote, DroneAdvanced, TravelTo, Smart, DetectTravelTo, DetectSmart, DetectFixed
                 TargetLossDegree = 0f, // Degrees, Is pointed forward
                 TargetLossTime = 0, // 0 is disabled, Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
-                MaxLifeTime = 1800, // 0 is disabled, Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..). time begins at 0 and time must EXCEED this value to trigger "time > maxValue". Please have a value for this, It stops Bad things.
+                MaxLifeTime = 0, // 0 is disabled, Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..). time begins at 0 and time must EXCEED this value to trigger "time > maxValue". Please have a value for this, It stops Bad things.
                 AccelPerSec = 100f, // Meters Per Second. This is the spawning Speed of the Projectile, and used by turning.
                 DesiredSpeed = 400, // voxel phasing if you go above 5100
-                MaxTrajectory = 12000f, // Max Distance the projectile or beam can Travel.
+                MaxTrajectory = 1200000f, // Max Distance the projectile or beam can Travel.
                 DeaccelTime = 0, // 0 is disabled, a value causes the projectile to come to rest overtime, (Measured in game ticks, 60 = 1 second)
                 GravityMultiplier = 0f, // Gravity multiplier, influences the trajectory of the projectile, value greater than 0 to enable. Natural Gravity Only.
                 SpeedVariance = Random(start: 200, end: 150), // subtracts value from DesiredSpeed. Be warned, you can make your projectile go backwards.
@@ -293,7 +293,7 @@ namespace Scripts
                     NavAcceleration = 0, // helps influence how the projectile steers, 0 defaults to 1/2 Aggressiveness value or 0 if its 0, a value less than 0 disables this feature. 
                     TrackingDelay = 800, // Measured in Shape diameter units traveled.
                     AccelClearance = false, // Setting this to true will prevent smart acceleration until it is clear of the grid and tracking delay has been met (free fall).
-                    MaxChaseTime = 1200, // Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
+                    MaxChaseTime = 3600, // Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
                     OverideTarget = false, // when set to true ammo picks its own target, does not use hardpoint's.
                     CheckFutureIntersection = true, // Utilize obstacle avoidance?
                     FutureIntersectionRange = 150, // Range in front of the projectile at which it will detect obstacle.  If set to zero it defaults to DesiredSpeed + Shape Diameter
@@ -311,6 +311,1039 @@ namespace Scripts
                     MinTurnSpeed = 30, // set this to a reasonable value to avoid projectiles from spinning in place or being too aggressive turing at slow speeds 
                     NoTargetApproach = false, // If true approaches can begin prior to the projectile ever having had a target.
                     AltNavigation = false, // If true this will swap the default navigation algorithm from ProNav to ZeroEffort Miss.  Zero effort is more direct/precise but less cinematic 
+                },
+                Approaches = new[] // These approaches move forward and backward in order, once the end condition of the last one is reached it will revert to default behavior. Cost level of 4+, or 5+ if used with steering.
+                {
+                    new ApproachDef // Launch
+                    {
+                        // Start/End behaviors 
+                        RestartCondition = MoveToNext, // Wait, MoveToPrevious, MoveToNext, ForceRestart -- A restart condition is when the end condition is reached without having met the start condition. 
+                        OnRestartRevertTo = -1, // This applies if RestartCondition is set to ForceRestart and trigger requirement was met. -1 to reset to BEFORE the for approach stage was activated.  First stage is 0, second is 1, etc...
+                        Operators = StartEnd_And, // Controls how the start and end conditions are matched:  StartEnd_And, StartEnd_Or, StartAnd_EndOr,StartOr_EndAnd,
+                        CanExpireOnceStarted = false, // This stages values will continue to apply until the end conditions are met.
+                        ForceRestart = false, // This forces the ReStartCondition when the end condition is met no matter if the start condition was met or not.
+
+                        // Start/End conditions
+                        StartCondition1 = Spawn, // Each condition type is either >= or <= the corresponding value defined below.
+                                                    // DistanceFromDestination[<=], DistanceToDestination[>=], Lifetime[>=], DeadTime[<=], MinTravelRequired[>=], MaxTravelRequired[<=],
+                                                    // Ignore(skip this condition), Spawn(works per stage), DesiredElevation(tolerance can be set with ElevationTolerance),
+                                                    // NextTimedSpawn[<=], SinceTimedSpawn[>=], RelativeLifetime[>=], RelativeDeadTime[<=], RelativeSpawns[>=], EnemyTargetLoss[>=]
+                                                    // *NOTE* DO NOT set start1 and start2 or end1 and end2 to same condition
+                        StartCondition2 = Ignore,
+                        EndCondition1 = MinTravelRequired,
+                        EndCondition2 = Ignore,
+                        EndCondition3 = Ignore,
+
+                        // Start/End thresholds -- both conditions are evaluated before activation, use Ignore to skip
+                        Start1Value = 0,
+                        Start2Value = 0,
+                        End1Value = 200,
+                        End2Value = 0,
+                        End3Value = 0, 
+                        
+                        // Special triggers when the start/end conditions are met (DoNothing, EndProjectile, EndProjectileOnRestart, StoreDestination)
+                        StartEvent = DoNothing,
+                        EndEvent = StorePositionC,
+
+                        Forward = ForwardOriginDirection, // ForwardDestinationDirection*, ForwardRelativeToBlock, ForwardRelativeToShooter, ForwardRelativeToGravity, ForwardTargetDirection, ForwardTargetVelocity, ForwardStoredStartPosition, ForwardStoredEndPosition, ForwardStoredStartLocalPosition, ForwardStoredEndLocalPosition, ForwardOriginDirection    
+                        Up = UpOriginDirection, // UpRelativeToBlock*, UpRelativeToShooter, UpRelativeToGravity, UpTargetDirection, UpTargetVelocity, UpStoredStartPosition, UpStoredEndPosition, UpStoredStartLocalPosition, UpStoredEndLocalPosition, UpOriginDirection, UpDestinationDirection
+                        
+                        PositionB = PositionA, // Origin, Shooter, Target, Surface, MidPoint, Current, Nothing, StoredStartPosition, StoredEndPosition, StoredStartLocalPosition, StoredEndLocalPosition
+                        PositionC = PositionA,
+                        Elevation = Nothing, 
+                        
+                        //
+                        // Control if the vantagepoints update every frame or only at start.
+                        //
+                        AdjustForward = true, // adjust forwardDir overtime.
+                        AdjustUp = true, // adjust upDir overtime
+                        AdjustPositionB = true, // Updated the source position overtime.
+                        AdjustPositionC = true, // Update destination overtime
+                        LeadRotateElevatePositionB = false, // Add lead and rotation to Source Position
+                        LeadRotateElevatePositionC = false, // Add lead and rotation to Destination Position
+                        TrajectoryRelativeToB = false, // If true the projectiles immediate trajectory will be relative to PositionB instead of PositionC (e.g. quick response to elevation changes relative to PositionB position assuming that position is closer to PositionA)
+                        ElevationRelativeToC = false, // If true the projectiles desired elevation will be relative to PositionC instead of PositionB (e.g. quick response to elevation changes relative to PositionC position assuming that position is closer to PositionA)
+                        
+                        // Tweaks to vantagepoint behavior
+                        AngleOffset = 0, // value 0 - 1, rotates the Updir
+                        ElevationTolerance = 0, // adds additional tolerance (in meters) to meet the Elevation condition requirement.  *note* collision size is also added to the tolerance
+                        TrackingDistance = 0, // Minimum travel distance before projectile begins racing to target
+                        DesiredElevation = 0, // The desired elevation relative to source 
+                        StoredStartId = 0, // Which approach id the the start storage was saved in, if any.
+                        StoredEndId = 0, // Which approach id the the end storage was saved in, if any.
+                        StoredStartType = PositionA,
+                        StoredEndType = StoredEndLocalPosition,
+                        // Controls the leading behavior
+                        LeadDistance = 0, // Add additional "lead" in meters to the trajectory (project in the future), this will be applied even before TrackingDistance is met. 
+                        PushLeadByTravelDistance = false, // the follow lead position will move in its point direction by an amount equal to the projectiles travel distance.
+
+                        // Modify speed and acceleration ratios while this approach is active
+                        AccelMulti = 1.0, // Modify default acceleration by this factor
+                        DeAccelMulti = 0, // Modifies your default deacceleration by this factor
+                        TotalAccelMulti = 0, // Modifies your default totalacceleration by this factor
+                        SpeedCapMulti = 1.0, // Limit max speed to this factor, must keep this value BELOW default maxspeed (1).
+
+                        // Target navigation behavior 
+                        Orbit = false, // Orbit the target
+                        OrbitRadius = 0, // The orbit radius to extend between the projectile and the target (target volume + this value)
+                        OffsetMinRadius = 0, // Min Radius to offset from target.  
+                        OffsetMaxRadius = 0, // Max Radius to offset from target.  
+                        OffsetTime = 0, // How often to change the offset direction.
+                        
+                        // Other
+                        NoTimedSpawns = true, // When true timedSpawns will not be triggered while this approach is active.
+                        DisableAvoidance = true, // Disable futureIntersect.
+                        IgnoreAntiSmart = true, // If set to true, antismart cannot change this approaches target.
+                        HeatRefund = 0, // how much heat to refund when related EndEvent/StartEvent is met.
+                        ReloadRefund = false, // Refund a reload (for max reload).
+                        ToggleIngoreVoxels = false, // Toggles whatever the default IgnoreVoxel value to its opposite. 
+                        SelfAvoidance = false, // If this and FutureIntersect is enabled then projectiles will actively avoid the parent grids.
+                        TargetAvoidance = false, // If this and FutureIntersect is enabled then projectiles will actively avoid the target.
+                        SelfPhasing = true, // If enabled the projectiles can phase through the parent grids without doing damage or dying.
+                        SwapNavigationType = true, // This will swap to other navigation  (i.e. the alternate of what is set in smart, ProNav vs ZeroEffort) 
+                        // Audio/Visual Section
+                        AlternateParticle = new ParticleDef // if blank it will use default, must be a default version for this to be useable. 
+                        {
+                            Name = "BSG_Viper_MK_I_Exhaust_High",
+                            Offset = Vector(x: 0, y: 0, z: 0),
+                            DisableCameraCulling = true,// If not true will not cull when not in view of camera, be careful with this and only use if you know you need it
+                            Extras = new ParticleOptionDef
+                            {
+                                Scale = 1,
+                            },
+                        },
+                        StartParticle = new ParticleDef // Optional particle to play when this stage begins
+                        {
+                            Name = "",
+                            Offset = Vector(x: 0, y: 0, z: 0),
+                            DisableCameraCulling = true,// If not true will not cull when not in view of camera, be careful with this and only use if you know you need it
+                            Extras = new ParticleOptionDef
+                            {
+                                Scale = 1,
+                            },
+                        },
+                        AlternateModel = "", // Define only if you want to switch to an alternate model in this phase
+                        AlternateSound = "" // if blank it will use default, must be a default version for this to be useable. 
+                    },
+
+                    new ApproachDef // Travel
+                    {
+                        // Start/End behaviors 
+                        RestartCondition = MoveToNext, // Wait, MoveToPrevious, MoveToNext, ForceRestart -- A restart condition is when the end condition is reached without having met the start condition. 
+                        OnRestartRevertTo = -1, // This applies if RestartCondition is set to ForceRestart and trigger requirement was met. -1 to reset to BEFORE the for approach stage was activated.  First stage is 0, second is 1, etc...
+                        Operators = StartEnd_And, // Controls how the start and end conditions are matched:  StartEnd_And, StartEnd_Or, StartAnd_EndOr,StartOr_EndAnd,
+                        CanExpireOnceStarted = false, // This stages values will continue to apply until the end conditions are met.
+                        ForceRestart = false, // This forces the ReStartCondition when the end condition is met no matter if the start condition was met or not.
+
+                        // Start/End conditions
+                        StartCondition1 = DistanceToPositionC, // Each condition type is either >= or <= the corresponding value defined below.
+                                                    // DistanceFromDestination[<=], DistanceToDestination[>=], Lifetime[>=], DeadTime[<=], MinTravelRequired[>=], MaxTravelRequired[<=],
+                                                    // Ignore(skip this condition), Spawn(works per stage), DesiredElevation(tolerance can be set with ElevationTolerance),
+                                                    // NextTimedSpawn[<=], SinceTimedSpawn[>=], RelativeLifetime[>=], RelativeDeadTime[<=], RelativeSpawns[>=], EnemyTargetLoss[>=]
+                                                    // *NOTE* DO NOT set start1 and start2 or end1 and end2 to same condition
+                        StartCondition2 = Ignore,
+                        EndCondition1 = DistanceFromPositionC,
+                        EndCondition2 = Ignore,
+                        EndCondition3 = Ignore,
+
+                        // Start/End thresholds -- both conditions are evaluated before activation, use Ignore to skip
+                        Start1Value = 501,
+                        Start2Value = 0,
+                        End1Value = 500,
+                        End2Value = 0,
+                        End3Value = 0, 
+                        
+                        // Special triggers when the start/end conditions are met (DoNothing, EndProjectile, EndProjectileOnRestart, StoreDestination)
+                        StartEvent = DoNothing,
+                        EndEvent = DoNothing,  
+                        
+                        // Relative positions and directions
+                        Forward = ForwardTargetDirection, // ForwardDestinationDirection*, ForwardRelativeToBlock, ForwardRelativeToShooter, ForwardRelativeToGravity, ForwardTargetDirection, ForwardTargetVelocity, ForwardStoredStartPosition, ForwardStoredEndPosition, ForwardStoredStartLocalPosition, ForwardStoredEndLocalPosition, ForwardOriginDirection    
+                        Up = UpTargetDirection, // UpRelativeToBlock*, UpRelativeToShooter, UpRelativeToGravity, UpTargetDirection, UpTargetVelocity, UpStoredStartPosition, UpStoredEndPosition, UpStoredStartLocalPosition, UpStoredEndLocalPosition, UpOriginDirection, UpDestinationDirection
+                        
+                        PositionB = Shooter, // Origin, Shooter, Target, Surface, MidPoint, Current, Nothing, StoredStartDestination, StoredEndDestination
+                        PositionC = Target,
+                        Elevation = MidPoint, 
+                        
+                        //
+                        // Control if the vantagepoints update every frame or only at start.
+                        //
+                        AdjustForward = true, // adjust forwardDir overtime.
+                        AdjustUp = true, // adjust upDir overtime
+                        AdjustPositionB = true, // Updated the source position overtime.
+                        AdjustPositionC = true, // Update destination overtime
+                        LeadRotateElevatePositionB = false, // Add lead and rotation to Source Position
+                        LeadRotateElevatePositionC = false, // Add lead and rotation to Destination Position
+                        TrajectoryRelativeToB = false, // If true the projectiles immediate trajectory will be relative to PositionB instead of PositionC (e.g. quick response to elevation changes relative to PositionB position assuming that position is closer to PositionA)
+                        ElevationRelativeToC = false, // If true the projectiles desired elevation will be relative to PositionC instead of PositionB (e.g. quick response to elevation changes relative to PositionC position assuming that position is closer to PositionA)
+                        
+                        // Tweaks to vantagepoint behavior
+                        AngleOffset = 0.5, // value 0 - 1, rotates the Updir
+                        AngleVariance = Random(-0.4f, 0.4f), // added to AngleOffset above, values of 0,0 disables feature
+                        ElevationTolerance = 0, // adds additional tolerance (in meters) to meet the Elevation condition requirement.  *note* collision size is also added to the tolerance
+                        TrackingDistance = 0, // Minimum travel distance before projectile begins racing to target
+                        DesiredElevation = 500, // The desired elevation relative to source 
+                        StoredStartId = 0, // Which approach id the the start storage was saved in, if any.
+                        StoredEndId = 0, // Which approach id the the end storage was saved in, if any.
+                        StoredStartType = PositionA,
+                        StoredEndType = Target,
+                        // Controls the leading behavior
+                        LeadDistance = 0, // Add additional "lead" in meters to the trajectory (project in the future), this will be applied even before TrackingDistance is met. 
+                        PushLeadByTravelDistance = false, // the follow lead position will move in its point direction by an amount equal to the projectiles travel distance.
+
+                        // Modify speed and acceleration ratios while this approach is active
+                        AccelMulti = 1.0, // Modify default acceleration by this factor
+                        DeAccelMulti = 0, // Modifies your default deacceleration by this factor
+                        TotalAccelMulti = 0, // Modifies your default totalacceleration by this factor
+                        SpeedCapMulti = 1.0, // Limit max speed to this factor, must keep this value BELOW default maxspeed (1).
+
+                        // Target navigation behavior 
+                        Orbit = false, // Orbit the target
+                        OrbitRadius = 0, // The orbit radius to extend between the projectile and the target (target volume + this value)
+                        OffsetMinRadius = 0, // Min Radius to offset from target.  
+                        OffsetMaxRadius = 0, // Max Radius to offset from target.  
+                        OffsetTime = 0, // How often to change the offset direction.
+                        
+                        // Other
+                        NoTimedSpawns = true, // When true timedSpawns will not be triggered while this approach is active.
+                        DisableAvoidance = false, // Disable futureIntersect.
+                        IgnoreAntiSmart = true, // If set to true, antismart cannot change this approaches target.
+                        HeatRefund = 0, // how much heat to refund when related EndEvent/StartEvent is met.
+                        ReloadRefund = false, // Refund a reload (for max reload).
+                        ToggleIngoreVoxels = false, // Toggles whatever the default IgnoreVoxel value to its opposite. 
+                        SelfAvoidance = true, // If this and FutureIntersect is enabled then projectiles will actively avoid the parent grids.
+                        TargetAvoidance = true, // If this and FutureIntersect is enabled then projectiles will actively avoid the target.
+                        SelfPhasing = false, // If enabled the projectiles can phase through the parent grids without doing damage or dying.
+                        SwapNavigationType = false, // This will swap to other navigation  (i.e. the alternate of what is set in smart, ProNav vs ZeroEffort) 
+                        // Audio/Visual Section
+                        AlternateParticle = new ParticleDef // if blank it will use default, must be a default version for this to be useable. 
+                        {
+                            Name = "BSG_Viper_MK_I_Exhaust_High",
+                            Offset = Vector(x: 0, y: 0, z: 0),
+                            DisableCameraCulling = true,// If not true will not cull when not in view of camera, be careful with this and only use if you know you need it
+                            Extras = new ParticleOptionDef
+                            {
+                                Scale = 1,
+                            },
+                        },
+                        StartParticle = new ParticleDef // Optional particle to play when this stage begins
+                        {
+                            Name = "",
+                            Offset = Vector(x: 0, y: 0, z: 0),
+                            DisableCameraCulling = true,// If not true will not cull when not in view of camera, be careful with this and only use if you know you need it
+                            Extras = new ParticleOptionDef
+                            {
+                                Scale = 1,
+                            },
+                        },
+                        AlternateModel = "", // Define only if you want to switch to an alternate model in this phase
+                        AlternateSound = "" // if blank it will use default, must be a default version for this to be useable. 
+                    },
+
+                    new ApproachDef // Orbit
+                    {
+                        // Start/End behaviors 
+                        RestartCondition = MoveToNext, // Wait, MoveToPrevious, MoveToNext, ForceRestart -- A restart condition is when the end condition is reached without having met the start condition. 
+                        OnRestartRevertTo = -1, // This applies if RestartCondition is set to ForceRestart and trigger requirement was met. -1 to reset to BEFORE the for approach stage was activated.  First stage is 0, second is 1, etc...
+                        Operators = StartAnd_EndOr, // Controls how the start and end conditions are matched:  StartEnd_And, StartEnd_Or, StartAnd_EndOr,StartOr_EndAnd,
+                        CanExpireOnceStarted = false, // This stages values will continue to apply until the end conditions are met.
+                        ForceRestart = false, // This forces the ReStartCondition when the end condition is met no matter if the start condition was met or not.
+
+                        // Start/End conditions
+                        StartCondition1 = DistanceFromPositionC, // Each condition type is either >= or <= the corresponding value defined below.
+                                                    // DistanceFromDestination[<=], DistanceToDestination[>=], Lifetime[>=], DeadTime[<=], MinTravelRequired[>=], MaxTravelRequired[<=],
+                                                    // Ignore(skip this condition), Spawn(works per stage), DesiredElevation(tolerance can be set with ElevationTolerance),
+                                                    // NextTimedSpawn[<=], SinceTimedSpawn[>=], RelativeLifetime[>=], RelativeDeadTime[<=], RelativeSpawns[>=], EnemyTargetLoss[>=]
+                                                    // *NOTE* DO NOT set start1 and start2 or end1 and end2 to same condition
+                        StartCondition2 = Ignore,
+                        EndCondition1 = RelativeLifetime,
+                        EndCondition2 = EnemyTargetLoss,
+                        EndCondition3 = Ignore,
+
+                        // Start/End thresholds -- both conditions are evaluated before activation, use Ignore to skip
+                        Start1Value = 600,
+                        Start2Value = 0,
+                        End1Value = 300,
+                        End2Value = 60,
+                        End3Value = 0, 
+                        
+                        // Special triggers when the start/end conditions are met (DoNothing, EndProjectile, EndProjectileOnRestart, StoreDestination)
+                        StartEvent = DoNothing,
+                        EndEvent = DoNothing,  
+                        
+                        // Relative positions and directions
+                        Forward = ForwardRelativeToBlock, // ForwardDestinationDirection*, ForwardRelativeToBlock, ForwardRelativeToShooter, ForwardRelativeToGravity, ForwardTargetDirection, ForwardTargetVelocity, ForwardStoredStartPosition, ForwardStoredEndPosition, ForwardStoredStartLocalPosition, ForwardStoredEndLocalPosition, ForwardOriginDirection    
+                        Up = UpRelativeToBlock, // UpRelativeToBlock*, UpRelativeToShooter, UpRelativeToGravity, UpTargetDirection, UpTargetVelocity, UpStoredStartPosition, UpStoredEndPosition, UpStoredStartLocalPosition, UpStoredEndLocalPosition, UpOriginDirection, UpDestinationDirection
+                        
+                        PositionB = PositionA, // Origin, Shooter, Target, Surface, MidPoint, Current, Nothing, StoredStartDestination, StoredEndDestination
+                        PositionC = Target,
+                        Elevation = Nothing, 
+                        
+                        //
+                        // Control if the vantagepoints update every frame or only at start.
+                        //
+                        AdjustForward = true, // adjust forwardDir overtime.
+                        AdjustUp = true, // adjust upDir overtime
+                        AdjustPositionB = true, // Updated the source position overtime.
+                        AdjustPositionC = true, // Update destination overtime
+                        LeadRotateElevatePositionB = false, // Add lead and rotation to Source Position
+                        LeadRotateElevatePositionC = false, // Add lead and rotation to Destination Position
+                        TrajectoryRelativeToB = false, // If true the projectiles immediate trajectory will be relative to PositionB instead of PositionC (e.g. quick response to elevation changes relative to PositionB position assuming that position is closer to PositionA)
+                        ElevationRelativeToC = false, // If true the projectiles desired elevation will be relative to PositionC instead of PositionB (e.g. quick response to elevation changes relative to PositionC position assuming that position is closer to PositionA)
+                        
+                        // Tweaks to vantagepoint behavior
+                        AngleOffset = 0, // value 0 - 1, rotates the Updir
+                        AngleVariance = Random(-0.25f, 0.25f), // added to AngleOffset above, values of 0,0 disables feature
+                        ElevationTolerance = 0, // adds additional tolerance (in meters) to meet the Elevation condition requirement.  *note* collision size is also added to the tolerance
+                        TrackingDistance = 0, // Minimum travel distance before projectile begins racing to target
+                        DesiredElevation = 0, // The desired elevation relative to source 
+                        StoredStartId = 0, // Which approach id the the start storage was saved in, if any.
+                        StoredEndId = 0, // Which approach id the the end storage was saved in, if any.
+                        StoredStartType = PositionA,
+                        StoredEndType = Target,
+                        // Controls the leading behavior
+                        LeadDistance = 0, // Add additional "lead" in meters to the trajectory (project in the future), this will be applied even before TrackingDistance is met. 
+                        PushLeadByTravelDistance = false, // the follow lead position will move in its point direction by an amount equal to the projectiles travel distance.
+
+                        // Modify speed and acceleration ratios while this approach is active
+                        AccelMulti = 1.0, // Modify default acceleration by this factor
+                        DeAccelMulti = 0, // Modifies your default deacceleration by this factor
+                        TotalAccelMulti = 0, // Modifies your default totalacceleration by this factor
+                        SpeedCapMulti = 1.0, // Limit max speed to this factor, must keep this value BELOW default maxspeed (1).
+
+                        // Target navigation behavior 
+                        Orbit = true, // Orbit the target
+                        OrbitRadius = 500, // The orbit radius to extend between the projectile and the target (target volume + this value)
+                        OffsetMinRadius = 0, // Min Radius to offset from target.  
+                        OffsetMaxRadius = 0, // Max Radius to offset from target.  
+                        OffsetTime = 0, // How often to change the offset direction.
+                        
+                        // Other
+                        NoTimedSpawns = true, // When true timedSpawns will not be triggered while this approach is active.
+                        DisableAvoidance = false, // Disable futureIntersect.
+                        IgnoreAntiSmart = true, // If set to true, antismart cannot change this approaches target.
+                        HeatRefund = 0, // how much heat to refund when related EndEvent/StartEvent is met.
+                        ReloadRefund = false, // Refund a reload (for max reload).
+                        ToggleIngoreVoxels = false, // Toggles whatever the default IgnoreVoxel value to its opposite. 
+                        SelfAvoidance = true, // If this and FutureIntersect is enabled then projectiles will actively avoid the parent grids.
+                        TargetAvoidance = true, // If this and FutureIntersect is enabled then projectiles will actively avoid the target.
+                        SelfPhasing = false, // If enabled the projectiles can phase through the parent grids without doing damage or dying.
+                        SwapNavigationType = false, // This will swap to other navigation  (i.e. the alternate of what is set in smart, ProNav vs ZeroEffort) 
+                        // Audio/Visual Section
+                        AlternateParticle = new ParticleDef // if blank it will use default, must be a default version for this to be useable. 
+                        {
+                            Name = "BSG_Viper_MK_I_Exhaust_High",
+                            Offset = Vector(x: 0, y: 0, z: 0),
+                            DisableCameraCulling = true,// If not true will not cull when not in view of camera, be careful with this and only use if you know you need it
+                            Extras = new ParticleOptionDef
+                            {
+                                Scale = 1,
+                            },
+                        },
+                        StartParticle = new ParticleDef // Optional particle to play when this stage begins
+                        {
+                            Name = "",
+                            Offset = Vector(x: 0, y: 0, z: 0),
+                            DisableCameraCulling = true,// If not true will not cull when not in view of camera, be careful with this and only use if you know you need it
+                            Extras = new ParticleOptionDef
+                            {
+                                Scale = 1,
+                            },
+                        },
+                        AlternateModel = "", // Define only if you want to switch to an alternate model in this phase
+                        AlternateSound = "" // if blank it will use default, must be a default version for this to be useable. 
+                    },
+
+                    new ApproachDef // Turn
+                    {
+                        // Start/End behaviors 
+                        RestartCondition = MoveToNext, // Wait, MoveToPrevious, MoveToNext, ForceRestart -- A restart condition is when the end condition is reached without having met the start condition. 
+                        Operators = StartEnd_And, // Controls how the start and end conditions are matched:  StartEnd_And, StartEnd_Or, StartAnd_EndOr,StartOr_EndAnd,
+                        CanExpireOnceStarted = false, // This stages values will continue to apply until the end conditions are met.
+                        ForceRestart = false, // This forces the ReStartCondition when the end condition is met no matter if the start condition was met or not.
+
+                        // Start/End conditions
+                        StartCondition1 = SinceTimedSpawn, // Each condition type is either >= or <= the corresponding value defined below.
+                                                    // DistanceFromDestination[<=], DistanceToDestination[>=], Lifetime[>=], DeadTime[<=], MinTravelRequired[>=], MaxTravelRequired[<=],
+                                                    // Ignore(skip this condition), Spawn(works per stage), DesiredElevation(tolerance can be set with ElevationTolerance),
+                                                    // NextTimedSpawn[<=], SinceTimedSpawn[>=], RelativeLifetime[>=], RelativeDeadTime[<=], RelativeSpawns[>=], EnemyTargetLoss[>=]
+                                                    // *NOTE* DO NOT set start1 and start2 or end1 and end2 to same condition
+                        StartCondition2 = Ignore,
+                        EndCondition1 = RelativeLifetime,
+                        EndCondition2 = Ignore,
+                        EndCondition3 = Ignore,
+
+                        // Start/End thresholds -- both conditions are evaluated before activation, use Ignore to skip
+                        Start1Value = 300,
+                        Start2Value = 0,
+                        End1Value = 90,
+                        End2Value = 0,
+                        End3Value = 0, 
+                        
+                        // Special triggers when the start/end conditions are met (DoNothing, EndProjectile, EndProjectileOnRestart, StoreDestination)
+                        StartEvent = DoNothing,
+                        EndEvent = DoNothing,  
+                        
+                        // Relative positions and directions
+                        Forward = ForwardRelativeToBlock, // ForwardDestinationDirection*, ForwardRelativeToBlock, ForwardRelativeToShooter, ForwardRelativeToGravity, ForwardTargetDirection, ForwardTargetVelocity, ForwardStoredStartPosition, ForwardStoredEndPosition, ForwardStoredStartLocalPosition, ForwardStoredEndLocalPosition, ForwardOriginDirection    
+                        Up = UpRelativeToBlock, // UpRelativeToBlock*, UpRelativeToShooter, UpRelativeToGravity, UpTargetDirection, UpTargetVelocity, UpStoredStartPosition, UpStoredEndPosition, UpStoredStartLocalPosition, UpStoredEndLocalPosition, UpOriginDirection, UpDestinationDirection
+                        
+                        PositionB = PositionA, // Origin, Shooter, Target, Surface, MidPoint, Current, Nothing, StoredStartDestination, StoredEndDestination
+                        PositionC = Target,
+                        Elevation = Nothing, 
+                        
+                        //
+                        // Control if the vantagepoints update every frame or only at start.
+                        //
+                        AdjustForward = true, // adjust forwardDir overtime.
+                        AdjustUp = true, // adjust upDir overtime
+                        AdjustPositionB = true, // Updated the source position overtime.
+                        AdjustPositionC = true, // Update destination overtime
+                        LeadRotateElevatePositionB = false, // Add lead and rotation to Source Position
+                        LeadRotateElevatePositionC = false, // Add lead and rotation to Destination Position
+                        TrajectoryRelativeToB = false, // If true the projectiles immediate trajectory will be relative to PositionB instead of PositionC (e.g. quick response to elevation changes relative to PositionB position assuming that position is closer to PositionA)
+                        ElevationRelativeToC = false, // If true the projectiles desired elevation will be relative to PositionC instead of PositionB (e.g. quick response to elevation changes relative to PositionC position assuming that position is closer to PositionA)
+                        
+                        // Tweaks to vantagepoint behavior
+                        AngleOffset = 0, // value 0 - 1, rotates the Updir
+                        AngleVariance = Random(0, 0), // added to AngleOffset above, values of 0,0 disables feature
+                        ElevationTolerance = 0, // adds additional tolerance (in meters) to meet the Elevation condition requirement.  *note* collision size is also added to the tolerance
+                        TrackingDistance = 0, // Minimum travel distance before projectile begins racing to target
+                        DesiredElevation = 0, // The desired elevation relative to source 
+                        StoredStartId = 0, // Which approach id the the start storage was saved in, if any.
+                        StoredEndId = 0, // Which approach id the the end storage was saved in, if any.
+                        StoredStartType = PositionA,
+                        StoredEndType = Target,
+                        // Controls the leading behavior
+                        LeadDistance = 0, // Add additional "lead" in meters to the trajectory (project in the future), this will be applied even before TrackingDistance is met. 
+                        PushLeadByTravelDistance = false, // the follow lead position will move in its point direction by an amount equal to the projectiles travel distance.
+
+                        // Modify speed and acceleration ratios while this approach is active
+                        AccelMulti = 1.0, // Modify default acceleration by this factor
+                        DeAccelMulti = 0, // Modifies your default deacceleration by this factor
+                        TotalAccelMulti = 0, // Modifies your default totalacceleration by this factor
+                        SpeedCapMulti = 0.5, // Limit max speed to this factor, must keep this value BELOW default maxspeed (1).
+
+                        // Target navigation behavior 
+                        Orbit = true, // Orbit the target
+                        OrbitRadius = 500, // The orbit radius to extend between the projectile and the target (target volume + this value)
+                        OffsetMinRadius = 0, // Min Radius to offset from target.  
+                        OffsetMaxRadius = 0, // Max Radius to offset from target.  
+                        OffsetTime = 0, // How often to change the offset direction.
+                        
+                        // Other
+                        NoTimedSpawns = true, // When true timedSpawns will not be triggered while this approach is active.
+                        DisableAvoidance = false, // Disable futureIntersect.
+                        IgnoreAntiSmart = true, // If set to true, antismart cannot change this approaches target.
+                        HeatRefund = 0, // how much heat to refund when related EndEvent/StartEvent is met.
+                        ReloadRefund = false, // Refund a reload (for max reload).
+                        ToggleIngoreVoxels = false, // Toggles whatever the default IgnoreVoxel value to its opposite. 
+                        SelfAvoidance = true, // If this and FutureIntersect is enabled then projectiles will actively avoid the parent grids.
+                        TargetAvoidance = true, // If this and FutureIntersect is enabled then projectiles will actively avoid the target.
+                        SelfPhasing = false, // If enabled the projectiles can phase through the parent grids without doing damage or dying.
+                        SwapNavigationType = false, // This will swap to other navigation  (i.e. the alternate of what is set in smart, ProNav vs ZeroEffort) 
+                        // Audio/Visual Section
+                        AlternateParticle = new ParticleDef // if blank it will use default, must be a default version for this to be useable. 
+                        {
+                            Name = "",
+                            Offset = Vector(x: 0, y: 0, z: 0),
+                            DisableCameraCulling = true,// If not true will not cull when not in view of camera, be careful with this and only use if you know you need it
+                            Extras = new ParticleOptionDef
+                            {
+                                Scale = 1,
+                            },
+                        },
+                        StartParticle = new ParticleDef // Optional particle to play when this stage begins
+                        {
+                            Name = "",
+                            Offset = Vector(x: 0, y: 0, z: 0),
+                            DisableCameraCulling = true,// If not true will not cull when not in view of camera, be careful with this and only use if you know you need it
+                            Extras = new ParticleOptionDef
+                            {
+                                Scale = 1,
+                            },
+                        },
+                        AlternateModel = "", // Define only if you want to switch to an alternate model in this phase
+                        AlternateSound = "", // if blank it will use default, must be a default version for this to be useable. 
+                        ModelRotateTime = 60, // If this value is greater than 0 then the projectile model will rotate to face the target, a value of 1 is instant (in ticks).
+                    },
+
+                    new ApproachDef // Strafe
+                    {
+                        // Start/End behaviors 
+                        RestartCondition = ForceRestart, // Wait, MoveToPrevious, MoveToNext, ForceRestart -- A restart condition is when the end condition is reached without having met the start condition. 
+                        RestartList = new[]
+                        { // This list is used if RestartCondition is set to ForceRestart and trigger requirement was met. -1 to reset to BEFORE the for approach stage was activated.  First stage is 0, second is 1, etc...
+                            new WeightedIdListDef
+                            {// If all valid entries (below MaxRuns) role a 0 (i.e. weights are disabled), then the entry with the lowest current "Runs" will be selected, if two or more share lowest runs then the winner is decided by the order below.
+                                ApproachId = 2,
+                                MaxRuns = 10, // 0 means unlimited, defines how many times this entry can return true. 
+                                Weight = Random(3, 10),
+                            },
+                            new WeightedIdListDef
+                            {// If all valid entries (below MaxRuns) role a 0 (i.e. weights are disabled), then the entry with the lowest current "Runs" will be selected, if two or more share lowest runs then the winner is decided by the order below.
+                                ApproachId = 5,
+                                MaxRuns = 1, // 0 means unlimited, defines how many times this entry can return true. 
+                                Weight = Random(0, 2),
+                            },
+                        },
+                        Operators = StartAnd_EndOr, // Controls how the start and end conditions are matched:  StartEnd_And, StartEnd_Or, StartAnd_EndOr,StartOr_EndAnd,
+                        CanExpireOnceStarted = false, // This stages values will continue to apply until the end conditions are met.
+                        ForceRestart = true, // This forces the ReStartCondition when the end condition is met no matter if the start condition was met or not.
+
+                        // Start/End conditions
+                        StartCondition1 = SinceTimedSpawn, // Each condition type is either >= or <= the corresponding value defined below.
+                                                    // DistanceFromDestination[<=], DistanceToDestination[>=], Lifetime[>=], DeadTime[<=], MinTravelRequired[>=], MaxTravelRequired[<=],
+                                                    // Ignore(skip this condition), Spawn(works per stage), DesiredElevation(tolerance can be set with ElevationTolerance),
+                                                    // NextTimedSpawn[<=], SinceTimedSpawn[>=], RelativeLifetime[>=], RelativeDeadTime[<=], RelativeSpawns[>=], EnemyTargetLoss[>=]
+                                                    // *NOTE* DO NOT set start1 and start2 or end1 and end2 to same condition
+                        StartCondition2 = Ignore,
+                        EndCondition1 = RelativeLifetime,
+                        EndCondition2 = EnemyTargetLoss,
+                        EndCondition3 = Ignore,
+
+                        // Start/End thresholds -- both conditions are evaluated before activation, use Ignore to skip
+                        Start1Value = 300,
+                        Start2Value = 0,
+                        End1Value = 230,
+                        End2Value = 60,
+                        End3Value = 0, 
+                        
+                        // Special triggers when the start/end conditions are met (DoNothing, EndProjectile, EndProjectileOnRestart, StoreDestination)
+                        StartEvent = DoNothing,
+                        EndEvent = DoNothing,  
+                        
+                        // Relative positions and directions
+                        Forward = ForwardRelativeToBlock, // ForwardDestinationDirection*, ForwardRelativeToBlock, ForwardRelativeToShooter, ForwardRelativeToGravity, ForwardTargetDirection, ForwardTargetVelocity, ForwardStoredStartPosition, ForwardStoredEndPosition, ForwardStoredStartLocalPosition, ForwardStoredEndLocalPosition, ForwardOriginDirection    
+                        Up = UpRelativeToBlock, // UpRelativeToBlock*, UpRelativeToShooter, UpRelativeToGravity, UpTargetDirection, UpTargetVelocity, UpStoredStartPosition, UpStoredEndPosition, UpStoredStartLocalPosition, UpStoredEndLocalPosition, UpOriginDirection, UpDestinationDirection
+                        
+                        PositionB = PositionA, // Origin, Shooter, Target, Surface, MidPoint, Current, Nothing, StoredStartDestination, StoredEndDestination
+                        PositionC = Target,
+                        Elevation = Nothing, 
+                        
+                        //
+                        // Control if the vantagepoints update every frame or only at start.
+                        //
+                        AdjustForward = true, // adjust forwardDir overtime.
+                        AdjustUp = true, // adjust upDir overtime
+                        AdjustPositionB = true, // Updated the source position overtime.
+                        AdjustPositionC = true, // Update destination overtime
+                        LeadRotateElevatePositionB = false, // Add lead and rotation to Source Position
+                        LeadRotateElevatePositionC = false, // Add lead and rotation to Destination Position
+                        TrajectoryRelativeToB = false, // If true the projectiles immediate trajectory will be relative to PositionB instead of PositionC (e.g. quick response to elevation changes relative to PositionB position assuming that position is closer to PositionA)
+                        ElevationRelativeToC = false, // If true the projectiles desired elevation will be relative to PositionC instead of PositionB (e.g. quick response to elevation changes relative to PositionC position assuming that position is closer to PositionA)
+                        
+                        // Tweaks to vantagepoint behavior
+                        AngleOffset = 0, // value 0 - 1, rotates the Updir
+                        AngleVariance = Random(0, 0), // added to AngleOffset above, values of 0,0 disables feature
+                        ElevationTolerance = 0, // adds additional tolerance (in meters) to meet the Elevation condition requirement.  *note* collision size is also added to the tolerance
+                        TrackingDistance = 0, // Minimum travel distance before projectile begins racing to target
+                        DesiredElevation = 0, // The desired elevation relative to source 
+                        StoredStartId = 0, // Which approach id the the start storage was saved in, if any.
+                        StoredEndId = 0, // Which approach id the the end storage was saved in, if any.
+                        StoredStartType = PositionA,
+                        StoredEndType = Target,
+                        // Controls the leading behavior
+                        LeadDistance = 0, // Add additional "lead" in meters to the trajectory (project in the future), this will be applied even before TrackingDistance is met. 
+                        PushLeadByTravelDistance = false, // the follow lead position will move in its point direction by an amount equal to the projectiles travel distance.
+
+                        // Modify speed and acceleration ratios while this approach is active
+                        AccelMulti = 1.0, // Modify default acceleration by this factor
+                        DeAccelMulti = 0, // Modifies your default deacceleration by this factor
+                        TotalAccelMulti = 0, // Modifies your default totalacceleration by this factor
+                        SpeedCapMulti = 0.5, // Limit max speed to this factor, must keep this value BELOW default maxspeed (1).
+
+                        // Target navigation behavior 
+                        Orbit = true, // Orbit the target
+                        OrbitRadius = 500, // The orbit radius to extend between the projectile and the target (target volume + this value)
+                        OffsetMinRadius = 0, // Min Radius to offset from target.  
+                        OffsetMaxRadius = 0, // Max Radius to offset from target.  
+                        OffsetTime = 0, // How often to change the offset direction.
+                        
+                        // Other
+                        NoTimedSpawns = false, // When true timedSpawns will not be triggered while this approach is active.
+                        DisableAvoidance = false, // Disable futureIntersect.
+                        IgnoreAntiSmart = true, // If set to true, antismart cannot change this approaches target.
+                        HeatRefund = 0, // how much heat to refund when related EndEvent/StartEvent is met.
+                        ReloadRefund = false, // Refund a reload (for max reload).
+                        ToggleIngoreVoxels = false, // Toggles whatever the default IgnoreVoxel value to its opposite. 
+                        SelfAvoidance = true, // If this and FutureIntersect is enabled then projectiles will actively avoid the parent grids.
+                        TargetAvoidance = true, // If this and FutureIntersect is enabled then projectiles will actively avoid the target.
+                        SelfPhasing = false, // If enabled the projectiles can phase through the parent grids without doing damage or dying.
+                        SwapNavigationType = false, // This will swap to other navigation  (i.e. the alternate of what is set in smart, ProNav vs ZeroEffort) 
+                        // Audio/Visual Section
+                        AlternateParticle = new ParticleDef // if blank it will use default, must be a default version for this to be useable. 
+                        {
+                            Name = "",
+                            Offset = Vector(x: 0, y: 0, z: 0),
+                            DisableCameraCulling = true,// If not true will not cull when not in view of camera, be careful with this and only use if you know you need it
+                            Extras = new ParticleOptionDef
+                            {
+                                Scale = 1,
+                            },
+                        },
+                        StartParticle = new ParticleDef // Optional particle to play when this stage begins
+                        {
+                            Name = "",
+                            Offset = Vector(x: 0, y: 0, z: 0),
+                            DisableCameraCulling = true,// If not true will not cull when not in view of camera, be careful with this and only use if you know you need it
+                            Extras = new ParticleOptionDef
+                            {
+                                Scale = 1,
+                            },
+                        },
+                        AlternateModel = "", // Define only if you want to switch to an alternate model in this phase
+                        AlternateSound = "", // if blank it will use default, must be a default version for this to be useable. 
+                        ModelRotateTime = 59, // If this value is greater than 0 then the projectile model will rotate to face the target, a value of 1 is instant (in ticks).
+                    },
+
+                    new ApproachDef // RTB
+                    {
+                        // Start/End behaviors 
+                        RestartCondition = MoveToNext, // Wait, MoveToPrevious, MoveToNext, ForceRestart -- A restart condition is when the end condition is reached without having met the start condition. 
+                        OnRestartRevertTo = -1, // This applies if RestartCondition is set to ForceRestart and trigger requirement was met. -1 to reset to BEFORE the for approach stage was activated.  First stage is 0, second is 1, etc...
+                        Operators = StartEnd_And, // Controls how the start and end conditions are matched:  StartEnd_And, StartEnd_Or, StartAnd_EndOr,StartOr_EndAnd,
+                        CanExpireOnceStarted = false, // This stages values will continue to apply until the end conditions are met.
+                        ForceRestart = false, // This forces the ReStartCondition when the end condition is met no matter if the start condition was met or not.
+
+                        // Start/End conditions
+                        StartCondition1 = DistanceToPositionC, // Each condition type is either >= or <= the corresponding value defined below.
+                                                    // DistanceFromDestination[<=], DistanceToDestination[>=], Lifetime[>=], DeadTime[<=], MinTravelRequired[>=], MaxTravelRequired[<=],
+                                                    // Ignore(skip this condition), Spawn(works per stage), DesiredElevation(tolerance can be set with ElevationTolerance)
+                                                    // *NOTE* DO NOT set start1 and start2 or end1 and end2 to same condition
+                        StartCondition2 = Ignore,
+                        EndCondition1 = DistanceFromPositionC,
+                        EndCondition2 = Ignore,
+                        EndCondition3 = Ignore,
+
+                        // Start/End thresholds -- both conditions are evaluated before activation, use Ignore to skip
+                        Start1Value = 1001,
+                        Start2Value = 0,
+                        End1Value = 1000,
+                        End2Value = 0,
+                        End3Value = 0, 
+                        
+                        // Special triggers when the start/end conditions are met (DoNothing, EndProjectile, EndProjectileOnRestart, StoreDestination)
+                        StartEvent = DoNothing,
+                        EndEvent = DoNothing,  
+                        
+                        // Relative positions and directions
+                        Forward = ForwardRelativeToBlock, // ForwardDestinationDirection*, ForwardRelativeToBlock, ForwardRelativeToShooter, ForwardRelativeToGravity, ForwardTargetDirection, ForwardTargetVelocity, ForwardStoredStartPosition, ForwardStoredEndPosition, ForwardStoredStartLocalPosition, ForwardStoredEndLocalPosition, ForwardOriginDirection    
+                        Up = UpRelativeToBlock, // UpRelativeToBlock*, UpRelativeToShooter, UpRelativeToGravity, UpTargetDirection, UpTargetVelocity, UpStoredStartPosition, UpStoredEndPosition, UpStoredStartLocalPosition, UpStoredEndLocalPosition, UpOriginDirection, UpDestinationDirection
+                        
+                        PositionB = PositionA, // Origin, Shooter, Target, Surface, MidPoint, Current, Nothing, StoredStartPosition, StoredEndPosition, StoredStartLocalPosition, StoredEndLocalPosition
+                        PositionC = Shooter,
+                        Elevation = Nothing, 
+                        
+                        //
+                        // Control if the vantagepoints update every frame or only at start.
+                        //
+                        AdjustForward = true, // adjust forwardDir overtime.
+                        AdjustUp = true, // adjust upDir overtime
+                        AdjustPositionB = true, // Updated the source position overtime.
+                        AdjustPositionC = true, // Update destination overtime
+                        LeadRotateElevatePositionB = false, // Add lead and rotation to Source Position
+                        LeadRotateElevatePositionC = false, // Add lead and rotation to Destination Position
+                        TrajectoryRelativeToB = false, // If true the projectiles immediate trajectory will be relative to PositionB instead of PositionC (e.g. quick response to elevation changes relative to PositionB position assuming that position is closer to PositionA)
+                        ElevationRelativeToC = false, // If true the projectiles desired elevation will be relative to PositionC instead of PositionB (e.g. quick response to elevation changes relative to PositionC position assuming that position is closer to PositionA)
+                        
+                        // Tweaks to vantagepoint behavior
+                        AngleOffset = 0, // value 0 - 1, rotates the Updir
+                        ElevationTolerance = 0, // adds additional tolerance (in meters) to meet the Elevation condition requirement.  *note* collision size is also added to the tolerance
+                        TrackingDistance = 0, // Minimum travel distance before projectile begins racing to target
+                        DesiredElevation = 0, // The desired elevation relative to source 
+                        StoredStartId = 0, // Which approach id the the start storage was saved in, if any.
+                        StoredEndId = 0, // Which approach id the the end storage was saved in, if any.
+                        StoredStartType = PositionA,
+                        StoredEndType = Target,
+                        // Controls the leading behavior
+                        LeadDistance = 0, // Add additional "lead" in meters to the trajectory (project in the future), this will be applied even before TrackingDistance is met. 
+                        PushLeadByTravelDistance = false, // the follow lead position will move in its point direction by an amount equal to the projectiles travel distance.
+
+                        // Modify speed and acceleration ratios while this approach is active
+                        AccelMulti = 1.0, // Modify default acceleration by this factor
+                        DeAccelMulti = 0, // Modifies your default deacceleration by this factor
+                        TotalAccelMulti = 0, // Modifies your default totalacceleration by this factor
+                        SpeedCapMulti = 1.0, // Limit max speed to this factor, must keep this value BELOW default maxspeed (1).
+
+                        // Target navigation behavior 
+                        Orbit = false, // Orbit the target
+                        OrbitRadius = 0, // The orbit radius to extend between the projectile and the target (target volume + this value)
+                        OffsetMinRadius = 0, // Min Radius to offset from target.  
+                        OffsetMaxRadius = 0, // Max Radius to offset from target.  
+                        OffsetTime = 0, // How often to change the offset direction.
+                        
+                        // Other
+                        NoTimedSpawns = true, // When true timedSpawns will not be triggered while this approach is active.
+                        DisableAvoidance = false, // Disable futureIntersect.
+                        IgnoreAntiSmart = true, // If set to true, antismart cannot change this approaches target.
+                        HeatRefund = 0, // how much heat to refund when related EndEvent/StartEvent is met.
+                        ReloadRefund = false, // Refund a reload (for max reload).
+                        ToggleIngoreVoxels = false, // Toggles whatever the default IgnoreVoxel value to its opposite. 
+                        SelfAvoidance = true, // If this and FutureIntersect is enabled then projectiles will actively avoid the parent grids.
+                        TargetAvoidance = true, // If this and FutureIntersect is enabled then projectiles will actively avoid the target.
+                        SelfPhasing = false, // If enabled the projectiles can phase through the parent grids without doing damage or dying.
+                        SwapNavigationType = false, // This will swap to other navigation  (i.e. the alternate of what is set in smart, ProNav vs ZeroEffort) 
+                        // Audio/Visual Section
+                        AlternateParticle = new ParticleDef // if blank it will use default, must be a default version for this to be useable. 
+                        {
+                            Name = "BSG_Viper_MK_I_Exhaust_High",
+                            Offset = Vector(x: 0, y: 0, z: 0),
+                            DisableCameraCulling = true,// If not true will not cull when not in view of camera, be careful with this and only use if you know you need it
+                            Extras = new ParticleOptionDef
+                            {
+                                Scale = 1,
+                            },
+                        },
+                        StartParticle = new ParticleDef // Optional particle to play when this stage begins
+                        {
+                            Name = "",
+                            Offset = Vector(x: 0, y: 0, z: 0),
+                            DisableCameraCulling = true,// If not true will not cull when not in view of camera, be careful with this and only use if you know you need it
+                            Extras = new ParticleOptionDef
+                            {
+                                Scale = 1,
+                            },
+                        },
+                        AlternateModel = "", // Define only if you want to switch to an alternate model in this phase
+                        AlternateSound = "" // if blank it will use default, must be a default version for this to be useable. 
+                    },
+
+                    new ApproachDef // Recover Orbit
+                    {
+                        // Start/End behaviors 
+                        RestartCondition = MoveToNext, // Wait, MoveToPrevious, MoveToNext, ForceRestart -- A restart condition is when the end condition is reached without having met the start condition. 
+                        OnRestartRevertTo = -1, // This applies if RestartCondition is set to ForceRestart and trigger requirement was met. -1 to reset to BEFORE the for approach stage was activated.  First stage is 0, second is 1, etc...
+                        Operators = StartEnd_And, // Controls how the start and end conditions are matched:  StartEnd_And, StartEnd_Or, StartAnd_EndOr,StartOr_EndAnd,
+                        CanExpireOnceStarted = false, // This stages values will continue to apply until the end conditions are met.
+                        ForceRestart = false, // This forces the ReStartCondition when the end condition is met no matter if the start condition was met or not.
+
+                        // Start/End conditions
+                        StartCondition1 = DistanceFromPositionC, // Each condition type is either >= or <= the corresponding value defined below.
+                                                    // DistanceFromDestination[<=], DistanceToDestination[>=], Lifetime[>=], DeadTime[<=], MinTravelRequired[>=], MaxTravelRequired[<=],
+                                                    // Ignore(skip this condition), Spawn(works per stage), DesiredElevation(tolerance can be set with ElevationTolerance)
+                                                    // *NOTE* DO NOT set start1 and start2 or end1 and end2 to same condition
+                        StartCondition2 = Ignore,
+                        EndCondition1 = RelativeLifetime,
+                        EndCondition2 = Ignore,
+                        EndCondition3 = Ignore,
+
+                        // Start/End thresholds -- both conditions are evaluated before activation, use Ignore to skip
+                        Start1Value = 1000,
+                        Start2Value = 0,
+                        End1Value = 300,
+                        End2Value = 0,
+                        End3Value = 0, 
+                        
+                        // Special triggers when the start/end conditions are met (DoNothing, EndProjectile, EndProjectileOnRestart, StoreDestination)
+                        StartEvent = DoNothing,
+                        EndEvent = DoNothing,  
+                        
+                        // Relative positions and directions
+                        Forward = ForwardRelativeToShooter, // ForwardDestinationDirection*, ForwardRelativeToBlock, ForwardRelativeToShooter, ForwardRelativeToGravity, ForwardTargetDirection, ForwardTargetVelocity, ForwardStoredStartPosition, ForwardStoredEndPosition, ForwardStoredStartLocalPosition, ForwardStoredEndLocalPosition, ForwardOriginDirection    
+                        Up = UpRelativeToShooter, // UpRelativeToBlock*, UpRelativeToShooter, UpRelativeToGravity, UpTargetDirection, UpTargetVelocity, UpStoredStartPosition, UpStoredEndPosition, UpStoredStartLocalPosition, UpStoredEndLocalPosition, UpOriginDirection, UpDestinationDirection
+                        
+                        PositionB = PositionA, // Origin, Shooter, Target, Surface, MidPoint, Current, Nothing, StoredStartDestination, StoredEndDestination
+                        PositionC = Shooter,
+                        Elevation = Nothing, 
+                        
+                        //
+                        // Control if the vantagepoints update every frame or only at start.
+                        //
+                        AdjustForward = true, // adjust forwardDir overtime.
+                        AdjustUp = true, // adjust upDir overtime
+                        AdjustPositionB = true, // Updated the source position overtime.
+                        AdjustPositionC = true, // Update destination overtime
+                        LeadRotateElevatePositionB = false, // Add lead and rotation to Source Position
+                        LeadRotateElevatePositionC = false, // Add lead and rotation to Destination Position
+                        TrajectoryRelativeToB = false, // If true the projectiles immediate trajectory will be relative to PositionB instead of PositionC (e.g. quick response to elevation changes relative to PositionB position assuming that position is closer to PositionA)
+                        ElevationRelativeToC = false, // If true the projectiles desired elevation will be relative to PositionC instead of PositionB (e.g. quick response to elevation changes relative to PositionC position assuming that position is closer to PositionA)
+                        
+                        // Tweaks to vantagepoint behavior
+                        AngleOffset = 0, // value 0 - 1, rotates the Updir
+                        ElevationTolerance = 0, // adds additional tolerance (in meters) to meet the Elevation condition requirement.  *note* collision size is also added to the tolerance
+                        TrackingDistance = 0, // Minimum travel distance before projectile begins racing to target
+                        DesiredElevation = 0, // The desired elevation relative to source 
+                        StoredStartId = 0, // Which approach id the the start storage was saved in, if any.
+                        StoredEndId = 0, // Which approach id the the end storage was saved in, if any.
+                        StoredStartType = PositionA,
+                        StoredEndType = Target,
+                        // Controls the leading behavior
+                        LeadDistance = 0, // Add additional "lead" in meters to the trajectory (project in the future), this will be applied even before TrackingDistance is met. 
+                        PushLeadByTravelDistance = false, // the follow lead position will move in its point direction by an amount equal to the projectiles travel distance.
+
+                        // Modify speed and acceleration ratios while this approach is active
+                        AccelMulti = 1.0, // Modify default acceleration by this factor
+                        DeAccelMulti = 0, // Modifies your default deacceleration by this factor
+                        TotalAccelMulti = 0, // Modifies your default totalacceleration by this factor
+                        SpeedCapMulti = 1.0, // Limit max speed to this factor, must keep this value BELOW default maxspeed (1).
+
+                        // Target navigation behavior 
+                        Orbit = true, // Orbit the target
+                        OrbitRadius = 1000, // The orbit radius to extend between the projectile and the target (target volume + this value)
+                        OffsetMinRadius = 0, // Min Radius to offset from target.  
+                        OffsetMaxRadius = 0, // Max Radius to offset from target.  
+                        OffsetTime = 0, // How often to change the offset direction.
+                        
+                        // Other
+                        NoTimedSpawns = true, // When true timedSpawns will not be triggered while this approach is active.
+                        DisableAvoidance = false, // Disable futureIntersect.
+                        IgnoreAntiSmart = true, // If set to true, antismart cannot change this approaches target.
+                        HeatRefund = 0, // how much heat to refund when related EndEvent/StartEvent is met.
+                        ReloadRefund = false, // Refund a reload (for max reload).
+                        ToggleIngoreVoxels = false, // Toggles whatever the default IgnoreVoxel value to its opposite. 
+                        SelfAvoidance = true, // If this and FutureIntersect is enabled then projectiles will actively avoid the parent grids.
+                        TargetAvoidance = true, // If this and FutureIntersect is enabled then projectiles will actively avoid the target.
+                        SelfPhasing = false, // If enabled the projectiles can phase through the parent grids without doing damage or dying.
+                        SwapNavigationType = false, // This will swap to other navigation  (i.e. the alternate of what is set in smart, ProNav vs ZeroEffort) 
+                        // Audio/Visual Section
+                        AlternateParticle = new ParticleDef // if blank it will use default, must be a default version for this to be useable. 
+                        {
+                            Name = "BSG_Viper_MK_I_Exhaust_High",
+                            Offset = Vector(x: 0, y: 0, z: 0),
+                            DisableCameraCulling = true,// If not true will not cull when not in view of camera, be careful with this and only use if you know you need it
+                            Extras = new ParticleOptionDef
+                            {
+                                Scale = 1,
+                            },
+                        },
+                        StartParticle = new ParticleDef // Optional particle to play when this stage begins
+                        {
+                            Name = "",
+                            Offset = Vector(x: 0, y: 0, z: 0),
+                            DisableCameraCulling = true,// If not true will not cull when not in view of camera, be careful with this and only use if you know you need it
+                            Extras = new ParticleOptionDef
+                            {
+                                Scale = 1,
+                            },
+                        },
+                        AlternateModel = "", // Define only if you want to switch to an alternate model in this phase
+                        AlternateSound = "" // if blank it will use default, must be a default version for this to be useable. 
+                    },
+
+                    new ApproachDef // Recover
+                    {
+                        // Start/End behaviors 
+                        RestartCondition = MoveToNext, // Wait, MoveToPrevious, MoveToNext, ForceRestart -- A restart condition is when the end condition is reached without having met the start condition. 
+                        OnRestartRevertTo = -1, // This applies if RestartCondition is set to ForceRestart and trigger requirement was met. -1 to reset to BEFORE the for approach stage was activated.  First stage is 0, second is 1, etc...
+                        Operators = StartEnd_And, // Controls how the start and end conditions are matched:  StartEnd_And, StartEnd_Or, StartAnd_EndOr,StartOr_EndAnd,
+                        CanExpireOnceStarted = false, // This stages values will continue to apply until the end conditions are met.
+                        ForceRestart = false, // This forces the ReStartCondition when the end condition is met no matter if the start condition was met or not.
+
+                        // Start/End conditions
+                        StartCondition1 = DistanceToPositionC, // Each condition type is either >= or <= the corresponding value defined below.
+                                                    // DistanceFromDestination[<=], DistanceToDestination[>=], Lifetime[>=], DeadTime[<=], MinTravelRequired[>=], MaxTravelRequired[<=],
+                                                    // Ignore(skip this condition), Spawn(works per stage), DesiredElevation(tolerance can be set with ElevationTolerance)
+                                                    // *NOTE* DO NOT set start1 and start2 or end1 and end2 to same condition
+                        StartCondition2 = Ignore,
+                        EndCondition1 = DistanceFromPositionC,
+                        EndCondition2 = Ignore,
+                        EndCondition3 = Ignore,
+
+                        // Start/End thresholds -- both conditions are evaluated before activation, use Ignore to skip
+                        Start1Value = 2,
+                        Start2Value = 0,
+                        End1Value = 1,
+                        End2Value = 0,
+                        End3Value = 0, 
+                        
+                        // Special triggers when the start/end conditions are met (DoNothing, EndProjectile, EndProjectileOnRestart, StoreDestination)
+                        StartEvent = DoNothing,
+                        EndEvent = Refund,  
+                        
+                        // Relative positions and directions
+                        Forward = ForwardRelativeToBlock, // ForwardDestinationDirection*, ForwardRelativeToBlock, ForwardRelativeToShooter, ForwardRelativeToGravity, ForwardTargetDirection, ForwardTargetVelocity, ForwardStoredStartPosition, ForwardStoredEndPosition, ForwardStoredStartLocalPosition, ForwardStoredEndLocalPosition, ForwardOriginDirection    
+                        Up = UpRelativeToBlock, // UpRelativeToBlock*, UpRelativeToShooter, UpRelativeToGravity, UpTargetDirection, UpTargetVelocity, UpStoredStartPosition, UpStoredEndPosition, UpStoredStartLocalPosition, UpStoredEndLocalPosition, UpOriginDirection, UpDestinationDirection
+                        
+                        PositionB = PositionA, // Origin, Shooter, Target, Surface, MidPoint, Current, Nothing, StoredStartPosition, StoredEndPosition, StoredStartLocalPosition, StoredEndLocalPosition
+                        PositionC = StoredEndLocalPosition,
+                        Elevation = Nothing, 
+                        
+                        //
+                        // Control if the vantagepoints update every frame or only at start.
+                        //
+                        AdjustForward = true, // adjust forwardDir overtime.
+                        AdjustUp = true, // adjust upDir overtime
+                        AdjustPositionB = true, // Updated the source position overtime.
+                        AdjustPositionC = true, // Update destination overtime
+                        LeadRotateElevatePositionB = false, // Add lead and rotation to Source Position
+                        LeadRotateElevatePositionC = false, // Add lead and rotation to Destination Position
+                        TrajectoryRelativeToB = false, // If true the projectiles immediate trajectory will be relative to PositionB instead of PositionC (e.g. quick response to elevation changes relative to PositionB position assuming that position is closer to PositionA)
+                        ElevationRelativeToC = false, // If true the projectiles desired elevation will be relative to PositionC instead of PositionB (e.g. quick response to elevation changes relative to PositionC position assuming that position is closer to PositionA)
+                        
+                        // Tweaks to vantagepoint behavior
+                        AngleOffset = 0, // value 0 - 1, rotates the Updir
+                        ElevationTolerance = 0, // adds additional tolerance (in meters) to meet the Elevation condition requirement.  *note* collision size is also added to the tolerance
+                        TrackingDistance = 0, // Minimum travel distance before projectile begins racing to target
+                        DesiredElevation = 0, // The desired elevation relative to source 
+                        StoredStartId = 0, // Which approach id the the start storage was saved in, if any.
+                        StoredEndId = 0, // Which approach id the the end storage was saved in, if any.
+                        StoredStartType = PositionA,
+                        StoredEndType = Target,
+                        // Controls the leading behavior
+                        LeadDistance = 0, // Add additional "lead" in meters to the trajectory (project in the future), this will be applied even before TrackingDistance is met. 
+                        PushLeadByTravelDistance = false, // the follow lead position will move in its point direction by an amount equal to the projectiles travel distance.
+
+                        // Modify speed and acceleration ratios while this approach is active
+                        AccelMulti = 1.0, // Modify default acceleration by this factor
+                        DeAccelMulti = 0, // Modifies your default deacceleration by this factor
+                        TotalAccelMulti = 0, // Modifies your default totalacceleration by this factor
+                        SpeedCapMulti = 0.5, // Limit max speed to this factor, must keep this value BELOW default maxspeed (1).
+
+                        // Target navigation behavior 
+                        Orbit = false, // Orbit the target
+                        OrbitRadius = 0, // The orbit radius to extend between the projectile and the target (target volume + this value)
+                        OffsetMinRadius = 0, // Min Radius to offset from target.  
+                        OffsetMaxRadius = 0, // Max Radius to offset from target.  
+                        OffsetTime = 0, // How often to change the offset direction.
+                        
+                        // Other
+                        NoTimedSpawns = true, // When true timedSpawns will not be triggered while this approach is active.
+                        DisableAvoidance = false, // Disable futureIntersect.
+                        IgnoreAntiSmart = true, // If set to true, antismart cannot change this approaches target.
+                        HeatRefund = 100, // how much heat to refund when related EndEvent/StartEvent is met.
+                        ReloadRefund = false, // Refund a reload (for max reload).
+                        ToggleIngoreVoxels = false, // Toggles whatever the default IgnoreVoxel value to its opposite. 
+                        SelfAvoidance = true, // If this and FutureIntersect is enabled then projectiles will actively avoid the parent grids.
+                        TargetAvoidance = true, // If this and FutureIntersect is enabled then projectiles will actively avoid the target.
+                        SelfPhasing = false, // If enabled the projectiles can phase through the parent grids without doing damage or dying.
+                        SwapNavigationType = false, // This will swap to other navigation  (i.e. the alternate of what is set in smart, ProNav vs ZeroEffort) 
+                        // Audio/Visual Section
+                        AlternateParticle = new ParticleDef // if blank it will use default, must be a default version for this to be useable. 
+                        {
+                            Name = "",
+                            Offset = Vector(x: 0, y: 0, z: 0),
+                            DisableCameraCulling = true,// If not true will not cull when not in view of camera, be careful with this and only use if you know you need it
+                            Extras = new ParticleOptionDef
+                            {
+                                Scale = 1,
+                            },
+                        },
+                        StartParticle = new ParticleDef // Optional particle to play when this stage begins
+                        {
+                            Name = "",
+                            Offset = Vector(x: 0, y: 0, z: 0),
+                            DisableCameraCulling = true,// If not true will not cull when not in view of camera, be careful with this and only use if you know you need it
+                            Extras = new ParticleOptionDef
+                            {
+                                Scale = 1,
+                            },
+                        },
+                        AlternateModel = "", // Define only if you want to switch to an alternate model in this phase
+                        AlternateSound = "" // if blank it will use default, must be a default version for this to be useable. 
+                    },
+
+                    new ApproachDef // Dock
+                    {
+                        // Start/End behaviors 
+                        RestartCondition = MoveToNext, // Wait, MoveToPrevious, MoveToNext, ForceRestart -- A restart condition is when the end condition is reached without having met the start condition. 
+                        OnRestartRevertTo = -1, // This applies if RestartCondition is set to ForceRestart and trigger requirement was met. -1 to reset to BEFORE the for approach stage was activated.  First stage is 0, second is 1, etc...
+                        Operators = StartEnd_And, // Controls how the start and end conditions are matched:  StartEnd_And, StartEnd_Or, StartAnd_EndOr,StartOr_EndAnd,
+                        CanExpireOnceStarted = false, // This stages values will continue to apply until the end conditions are met.
+                        ForceRestart = false, // This forces the ReStartCondition when the end condition is met no matter if the start condition was met or not.
+
+                        // Start/End conditions
+                        StartCondition1 = DistanceToPositionC, // Each condition type is either >= or <= the corresponding value defined below.
+                                                    // DistanceFromDestination[<=], DistanceToDestination[>=], Lifetime[>=], DeadTime[<=], MinTravelRequired[>=], MaxTravelRequired[<=],
+                                                    // Ignore(skip this condition), Spawn(works per stage), DesiredElevation(tolerance can be set with ElevationTolerance)
+                                                    // *NOTE* DO NOT set start1 and start2 or end1 and end2 to same condition
+                        StartCondition2 = Ignore,
+                        EndCondition1 = DistanceFromPositionC,
+                        EndCondition2 = Ignore,
+                        EndCondition3 = Ignore,
+
+                        // Start/End thresholds -- both conditions are evaluated before activation, use Ignore to skip
+                        Start1Value = 5,
+                        Start2Value = 0,
+                        End1Value = 2,
+                        End2Value = 0,
+                        End3Value = 0, 
+                        
+                        // Special triggers when the start/end conditions are met (DoNothing, EndProjectile, EndProjectileOnRestart, StoreDestination)
+                        StartEvent = DoNothing,
+                        EndEvent = EndProjectile,  
+                        
+                        // Relative positions and directions
+                        Forward = ForwardRelativeToShooter, // ForwardDestinationDirection*, ForwardRelativeToBlock, ForwardRelativeToShooter, ForwardRelativeToGravity, ForwardTargetDirection, ForwardTargetVelocity, ForwardStoredStartPosition, ForwardStoredEndPosition, ForwardStoredStartLocalPosition, ForwardStoredEndLocalPosition, ForwardOriginDirection    
+                        Up = UpRelativeToShooter, // UpRelativeToBlock*, UpRelativeToShooter, UpRelativeToGravity, UpTargetDirection, UpTargetVelocity, UpStoredStartPosition, UpStoredEndPosition, UpStoredStartLocalPosition, UpStoredEndLocalPosition, UpOriginDirection, UpDestinationDirection
+                        
+                        PositionB = PositionA, // Origin, Shooter, Target, Surface, MidPoint, Current, Nothing, StoredStartDestination, StoredEndDestination
+                        PositionC = Shooter,
+                        Elevation = Nothing, 
+                        
+                        //
+                        // Control if the vantagepoints update every frame or only at start.
+                        //
+                        AdjustForward = true, // adjust forwardDir overtime.
+                        AdjustUp = true, // adjust upDir overtime
+                        AdjustPositionB = true, // Updated the source position overtime.
+                        AdjustPositionC = true, // Update destination overtime
+                        LeadRotateElevatePositionB = false, // Add lead and rotation to Source Position
+                        LeadRotateElevatePositionC = false, // Add lead and rotation to Destination Position
+                        TrajectoryRelativeToB = false, // If true the projectiles immediate trajectory will be relative to PositionB instead of PositionC (e.g. quick response to elevation changes relative to PositionB position assuming that position is closer to PositionA)
+                        ElevationRelativeToC = false, // If true the projectiles desired elevation will be relative to PositionC instead of PositionB (e.g. quick response to elevation changes relative to PositionC position assuming that position is closer to PositionA)
+                        
+                        // Tweaks to vantagepoint behavior
+                        AngleOffset = 0, // value 0 - 1, rotates the Updir
+                        ElevationTolerance = 0, // adds additional tolerance (in meters) to meet the Elevation condition requirement.  *note* collision size is also added to the tolerance
+                        TrackingDistance = 0, // Minimum travel distance before projectile begins racing to target
+                        DesiredElevation = 0, // The desired elevation relative to source 
+                        StoredStartId = 0, // Which approach id the the start storage was saved in, if any.
+                        StoredEndId = 0, // Which approach id the the end storage was saved in, if any.
+                        StoredStartType = PositionA,
+                        StoredEndType = Target,
+                        // Controls the leading behavior
+                        LeadDistance = 0, // Add additional "lead" in meters to the trajectory (project in the future), this will be applied even before TrackingDistance is met. 
+                        PushLeadByTravelDistance = false, // the follow lead position will move in its point direction by an amount equal to the projectiles travel distance.
+
+                        // Modify speed and acceleration ratios while this approach is active
+                        AccelMulti = 1.0, // Modify default acceleration by this factor
+                        DeAccelMulti = 0, // Modifies your default deacceleration by this factor
+                        TotalAccelMulti = 0, // Modifies your default totalacceleration by this factor
+                        SpeedCapMulti = 0.2, // Limit max speed to this factor, must keep this value BELOW default maxspeed (1).
+
+                        // Target navigation behavior 
+                        Orbit = false, // Orbit the target
+                        OrbitRadius = 0, // The orbit radius to extend between the projectile and the target (target volume + this value)
+                        OffsetMinRadius = 0, // Min Radius to offset from target.  
+                        OffsetMaxRadius = 0, // Max Radius to offset from target.  
+                        OffsetTime = 0, // How often to change the offset direction.
+                        
+                        // Other
+                        NoTimedSpawns = true, // When true timedSpawns will not be triggered while this approach is active.
+                        DisableAvoidance = true, // Disable futureIntersect.
+                        IgnoreAntiSmart = true, // If set to true, antismart cannot change this approaches target.
+                        HeatRefund = 0, // how much heat to refund when related EndEvent/StartEvent is met.
+                        ReloadRefund = false, // Refund a reload (for max reload).
+                        ToggleIngoreVoxels = false, // Toggles whatever the default IgnoreVoxel value to its opposite. 
+                        SelfAvoidance = false, // If this and FutureIntersect is enabled then projectiles will actively avoid the parent grids.
+                        TargetAvoidance = false, // If this and FutureIntersect is enabled then projectiles will actively avoid the target.
+                        SelfPhasing = true, // If enabled the projectiles can phase through the parent grids without doing damage or dying.
+                        SwapNavigationType = true, // This will swap to other navigation  (i.e. the alternate of what is set in smart, ProNav vs ZeroEffort) 
+                        // Audio/Visual Section
+                        AlternateParticle = new ParticleDef // if blank it will use default, must be a default version for this to be useable. 
+                        {
+                            Name = "",
+                            Offset = Vector(x: 0, y: 0, z: 0),
+                            DisableCameraCulling = true,// If not true will not cull when not in view of camera, be careful with this and only use if you know you need it
+                            Extras = new ParticleOptionDef
+                            {
+                                Scale = 1,
+                            },
+                        },
+                        StartParticle = new ParticleDef // Optional particle to play when this stage begins
+                        {
+                            Name = "",
+                            Offset = Vector(x: 0, y: 0, z: 0),
+                            DisableCameraCulling = true,// If not true will not cull when not in view of camera, be careful with this and only use if you know you need it
+                            Extras = new ParticleOptionDef
+                            {
+                                Scale = 1,
+                            },
+                        },
+                        AlternateModel = "", // Define only if you want to switch to an alternate model in this phase
+                        AlternateSound = "" // if blank it will use default, must be a default version for this to be useable. 
+                    },
                 },
                 Mines = new MinesDef  // Note: This is being investigated. Please report to Github, any issues.
                 {
@@ -364,13 +1397,13 @@ namespace Scripts
                 Lines = new LineDef
                 {
                     ColorVariance = Random(start: 0.75f, end: 2f), // multiply the color by random values within range.
-                    WidthVariance = Random(start: 0f, end: 0f), // adds random value to default width (negatives shrinks width)
+                    WidthVariance = Random(start: 0f, end: 0.3f), // adds random value to default width (negatives shrinks width)
                     Tracer = new TracerBaseDef
                     {
-                        Enable = false,
-                        Length = .5f, //
-                        Width = .1f, //
-                        Color = Color(red: 1, green: 0, blue: 0f, alpha: 1), // RBG 255 is Neon Glowing, 100 is Quite Bright.
+                        Enable = true,
+                        Length = 5f, //
+                        Width = 0.3f, //
+                        Color = Color(red: 0, green: 18, blue: 0f, alpha: 1), // RBG 255 is Neon Glowing, 100 is Quite Bright.
                         VisualFadeStart = 0, // Number of ticks the weapon has been firing before projectiles begin to fade their color
                         VisualFadeEnd = 0, // How many ticks after fade began before it will be invisible.
                         Textures = new[] {// WeaponLaser, ProjectileTrailLine, WarpBubble, etc..
@@ -379,14 +1412,14 @@ namespace Scripts
                         TextureMode = Normal, // Normal, Cycle, Chaos, Wave
                         Segmentation = new SegmentDef
                         {
-                            Enable = false, // If true Tracer TextureMode is ignored
+                            Enable = true, // If true Tracer TextureMode is ignored
                             Textures = new[] {
                                 "", // Please always have this Line set, if this Section is enabled.
                             },
                             SegmentLength = 0f, // Uses the values below.
                             SegmentGap = 0f, // Uses Tracer textures and values
                             Speed = 1f, // meters per second
-                            Color = Color(red: 1, green: 2, blue: 2.5f, alpha: 1),
+                            Color = Color(red: 0, green: 8, blue: 0, alpha: 1),
                             WidthMultiplier = 1f,
                             Reverse = false, 
                             UseLineVariance = true,
@@ -396,13 +1429,13 @@ namespace Scripts
                     },
                     Trail = new TrailDef
                     {
-                        Enable = false,
+                        Enable = true,
                         Textures = new[] {
                             "WeaponLaser", // Please always have this Line set, if this Section is enabled.
                         },
                         TextureMode = Normal,
-                        DecayTime = 3, // In Ticks. 1 = 1 Additional Tracer generated per motion, 33 is 33 lines drawn per projectile. Keep this number low.
-                        Color = Color(red: 1, green: 0, blue: 0, alpha: 1),
+                        DecayTime = 1, // In Ticks. 1 = 1 Additional Tracer generated per motion, 33 is 33 lines drawn per projectile. Keep this number low.
+                        Color = Color(red: 0, green: 8, blue: 0, alpha: 1),
                         Back = false,
                         CustomWidth = 0,
                         UseWidthVariance = false,

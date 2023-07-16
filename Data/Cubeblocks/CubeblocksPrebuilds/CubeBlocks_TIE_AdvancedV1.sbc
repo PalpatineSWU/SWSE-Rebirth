@@ -11,7 +11,6 @@
       <DisplayName>TIE Advanced-V1 Wing</DisplayName>
       <Icon>Textures\GUI\Icons\Ships\TIEAdvanced\TieAd.dds</Icon>
       <CubeSize>Small</CubeSize>
-      <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="2" y="3" z="3" />
       <ModelOffset x="0" y="0" z="0" />
@@ -28,7 +27,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+
       <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
       <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
       <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
@@ -68,6 +67,7 @@
           <CloseSound>BlockDoorHangar</CloseSound>
         </Opening>
       </OpeningSequence>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
 
@@ -79,7 +79,6 @@
       <DisplayName>TIE Advanced-V1 Hyperdrive (Class III)</DisplayName>
       <Icon>Textures\GUI\Icons\Ships\TIEAdvanced\TieAdHd.dds</Icon>
       <CubeSize>Small</CubeSize>
-      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="5" y="5" z="1" />
       <ModelOffset x="0" y="0" z="0" />
@@ -100,7 +99,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
 
@@ -114,6 +113,7 @@
       <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
       <DestroySound>WepLrgWarheadExpl</DestroySound>
       <PCU>25</PCU>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
@@ -124,7 +124,6 @@
       <DisplayName>TIE Advanced-V1 Pylon (Class II)</DisplayName>
       <Icon>Textures\GUI\Icons\Ships\TIEAdvanced\TieAdBa.dds</Icon>
       <CubeSize>Small</CubeSize>
-      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="3" />
       <ModelOffset x="0" y="0" z="0" />
@@ -183,7 +182,6 @@
       <DisplayName>TIE Advanced-V1 Weapon-System</DisplayName>
       <Icon>Textures\GUI\Icons\Ships\TIEAdvanced\TieAd.dds</Icon>
       <CubeSize>Small</CubeSize>
-      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="7" y="7" z="3" />
       <ModelOffset x="0" y="0" z="0" />
@@ -198,7 +196,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+
       <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
@@ -207,6 +205,8 @@
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
+
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
   </CubeBlocks>

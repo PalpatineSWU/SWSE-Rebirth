@@ -40,7 +40,7 @@
       <DisplayName>Alum</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <Prerequisites>
-        <Item Amount="1" TypeId="Ore" SubtypeId="Alum" />
+        <Item Amount="35" TypeId="Ore" SubtypeId="Alum" />
       </Prerequisites>
       <Result Amount="1" TypeId="Ingot" SubtypeId="Alum" />
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>

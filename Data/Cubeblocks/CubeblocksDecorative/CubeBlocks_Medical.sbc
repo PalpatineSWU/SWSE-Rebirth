@@ -93,6 +93,7 @@
       <OreAmountPerPullRequest>500</OreAmountPerPullRequest>
       <AssemblerPriority>0</AssemblerPriority> -->
       <PCU>140</PCU>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition">
@@ -152,6 +153,7 @@
       <ProgressSound>K_Imperial_IdleDroidNoise</ProgressSound>
       <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
       <PCU>140</PCU>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_MedicalRoomDefinition">
@@ -205,6 +207,7 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>110</PCU>
       <EmissiveColorPreset>K_Imperial_Spawn</EmissiveColorPreset>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_MedicalRoomDefinition">

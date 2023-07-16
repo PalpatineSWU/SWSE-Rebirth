@@ -29,7 +29,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
       <MaxPowerOutput>0.5</MaxPowerOutput>
       <PanelOrientation>
@@ -39,6 +39,7 @@
       </PanelOrientation>
       <TwoSidedPanel>true</TwoSidedPanel>
       <PanelOffset>0.0</PanelOffset>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
   </CubeBlocks>

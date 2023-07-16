@@ -24,7 +24,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      <IsAirTight>true</IsAirTight>
+
     </Definition>
 
 
@@ -49,7 +50,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+
+      <IsAirTight>true</IsAirTight>
 
     </Definition>
 
@@ -74,7 +76,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      <IsAirTight>true</IsAirTight>
+
     </Definition>
 
 
@@ -103,7 +106,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+
       <BlockVariants>
         <BlockVariant>
           <TypeId>CubeBlock</TypeId>
@@ -115,6 +118,7 @@
         </BlockVariant>
       </BlockVariants>
     </Definition>
+    <IsAirTight>true</IsAirTight>
 
     <Definition>
       <Id>
@@ -140,7 +144,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      <IsAirTight>true</IsAirTight>
+
     </Definition>
 
     <Definition>
@@ -167,7 +172,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      <IsAirTight>true</IsAirTight>
+
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
@@ -198,7 +204,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      <IsAirTight>false</IsAirTight>
+
     </Definition>
 
   </CubeBlocks>

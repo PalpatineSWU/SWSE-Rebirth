@@ -299,8 +299,8 @@
             <UseModelIntersection>true</UseModelIntersection>
             <UsesDeformation>false</UsesDeformation>
             <Components>
-                <Component Subtype="StandardPowerCell" Count="125"/>
                 <Component Subtype="DuraSteel" Count="80"/>
+                <Component Subtype="StandardPowerCell" Count="125"/>
                 <Component Subtype="IonWingCircuitry" Count="35"/>
                 <Component Subtype="IonCapacitor" Count="80"/>
                 <Component Subtype="ImperialGeneralParts" Count="45"/>
@@ -374,8 +374,8 @@
             <UseModelIntersection>true</UseModelIntersection>
             <UsesDeformation>false</UsesDeformation>
             <Components>
-                <Component Subtype="StandardPowerCell" Count="250"/>
                 <Component Subtype="DuraSteel" Count="160"/>
+                <Component Subtype="StandardPowerCell" Count="250"/>
                 <Component Subtype="IonWingCircuitry" Count="70"/>
                 <Component Subtype="IonCapacitor" Count="160"/>
                 <Component Subtype="ImperialGeneralParts" Count="90"/>
@@ -448,8 +448,8 @@
             <UseModelIntersection>true</UseModelIntersection>
             <UsesDeformation>false</UsesDeformation>
             <Components>
-                <Component Subtype="StandardPowerCell" Count="225"/>
                 <Component Subtype="DuraSteel" Count="180"/>
+                <Component Subtype="StandardPowerCell" Count="225"/>
                 <Component Subtype="IonWingCircuitry" Count="70"/>
                 <Component Subtype="IonCapacitor" Count="175"/>
                 <Component Subtype="ImperialGeneralParts" Count="100"/>
@@ -523,8 +523,8 @@
             <UseModelIntersection>true</UseModelIntersection>
             <UsesDeformation>false</UsesDeformation>
             <Components>
-                <Component Subtype="StandardPowerCell" Count="450"/>
                 <Component Subtype="DuraSteel" Count="360"/>
+                <Component Subtype="StandardPowerCell" Count="450"/>
                 <Component Subtype="IonWingCircuitry" Count="140"/>
                 <Component Subtype="IonCapacitor" Count="350"/>
                 <Component Subtype="ImperialGeneralParts" Count="200"/>

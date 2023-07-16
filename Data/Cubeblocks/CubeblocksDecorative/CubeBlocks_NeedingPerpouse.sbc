@@ -96,12 +96,15 @@
       </MountPoints>
       <EdgeType>Light</EdgeType>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
-      <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <BuildTimeSeconds>50</BuildTimeSeconds>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
+
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <MaxBroadcastRadius>200000</MaxBroadcastRadius>
       <Flare>BeaconLarge</Flare>
+      <MaxBroadcastPowerDrainkW>20</MaxBroadcastPowerDrainkW>
+
       <EmissiveColorPreset>Beacon</EmissiveColorPreset>
       <DestroyEffect>Imperial_Explosion_Sparks</DestroyEffect>
       <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
@@ -128,7 +131,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
   </CubeBlocks>

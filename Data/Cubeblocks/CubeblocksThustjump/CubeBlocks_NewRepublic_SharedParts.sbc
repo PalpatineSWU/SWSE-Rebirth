@@ -33,7 +33,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      <IsAirTight>true</IsAirTight>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
       <ForceMagnitude>200000 </ForceMagnitude>
       <MaxPowerConsumption>0.201</MaxPowerConsumption>
@@ -105,7 +105,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      <IsAirTight>true</IsAirTight>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
       <ForceMagnitude>200000</ForceMagnitude>
       <MaxPowerConsumption>0.201</MaxPowerConsumption>
@@ -176,7 +176,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      <IsAirTight>true</IsAirTight>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
       <ForceMagnitude>200000</ForceMagnitude>
       <MaxPowerConsumption>0.201</MaxPowerConsumption>
@@ -246,7 +246,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      <IsAirTight>true</IsAirTight>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
       <ForceMagnitude>200000</ForceMagnitude>
       <MaxPowerConsumption>0.201</MaxPowerConsumption>
@@ -318,7 +318,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      <IsAirTight>true</IsAirTight>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
       <ForceMagnitude>200000</ForceMagnitude>
       <MaxPowerConsumption>0.201</MaxPowerConsumption>

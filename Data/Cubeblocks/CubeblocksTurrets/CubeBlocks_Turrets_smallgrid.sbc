@@ -31,7 +31,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>11</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
@@ -51,6 +51,7 @@
       <ElevationSpeed>0.0002 </ElevationSpeed>
       <MinFov>0.1</MinFov>
       <MaxFov>1.04719755</MaxFov>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
 

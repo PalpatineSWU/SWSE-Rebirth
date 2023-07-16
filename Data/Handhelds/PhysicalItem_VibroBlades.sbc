@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <PhysicalItems>
+		
+		<PhysicalItem>
+            <Id>
+                <TypeId>PhysicalGunObject</TypeId>
+                <SubtypeId>AngleGrinder_VibroKnifeItem</SubtypeId>
+            </Id>
+            <DisplayName>Vibro-Knife</DisplayName>
+            <Icon>Textures\SWBlades\Icons\VibroKnife.dds</Icon>
+            <Size>
+                <X>3</X>
+                <Y>3</Y>
+                <Z>3</Z>
+            </Size>
+            <Mass>3</Mass>
+            <Volume>20</Volume>
+            <Model>Models\VibroBlades\VibroKnife.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+        </PhysicalItem>
+		
+		<PhysicalItem>
+            <Id>
+                <TypeId>PhysicalGunObject</TypeId>
+                <SubtypeId>AngleGrinder_VibroAxeSmallItem</SubtypeId>
+            </Id>
+            <DisplayName>Vibro-Axe Small</DisplayName>
+            <Icon>Textures\SWBlades\Icons\VibroKnife.dds</Icon>
+            <Size>
+                <X>3</X>
+                <Y>3</Y>
+                <Z>3</Z>
+            </Size>
+            <Mass>3</Mass>
+            <Volume>20</Volume>
+            <Model>Models\VibroBlades\VibroAxeSmall.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+        </PhysicalItem>
+		
+		<PhysicalItem>
+            <Id>
+                <TypeId>PhysicalGunObject</TypeId>
+                <SubtypeId>AngleGrinder_VibroAxeLargeItem</SubtypeId>
+            </Id>
+            <DisplayName>Vibro-Axe Large</DisplayName>
+            <Icon>Textures\SWBlades\Icons\VibroKnife.dds</Icon>
+            <Size>
+                <X>3</X>
+                <Y>3</Y>
+                <Z>3</Z>
+            </Size>
+            <Mass>3</Mass>
+            <Volume>20</Volume>
+            <Model>Models\VibroBlades\VibroAxeLarge.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+        </PhysicalItem>
+		
+		<PhysicalItem>
+            <Id>
+                <TypeId>PhysicalGunObject</TypeId>
+                <SubtypeId>AngleGrinder_VibroAxeLargeBItem</SubtypeId>
+            </Id>
+            <DisplayName>Vibro-Axe Large B</DisplayName>
+            <Icon>Textures\SWBlades\Icons\VibroKnife.dds</Icon>
+            <Size>
+                <X>3</X>
+                <Y>3</Y>
+                <Z>3</Z>
+            </Size>
+            <Mass>3</Mass>
+            <Volume>20</Volume>
+            <Model>Models\VibroBlades\VibroAxeLargeB.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+        </PhysicalItem>
+		
+	</PhysicalItems>
+</Definitions>

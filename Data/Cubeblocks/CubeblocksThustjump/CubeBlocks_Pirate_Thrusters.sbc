@@ -3,7 +3,6 @@
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
 
-
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
@@ -33,7 +32,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
       <ForceMagnitude>2000000</ForceMagnitude>
       <MaxPowerConsumption>0.201</MaxPowerConsumption>
@@ -71,6 +70,7 @@
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
       <DestroySound>K_SW_Explosion_Generic</DestroySound>
       <EmissiveColorPreset>K_SW__Pirate_Engine_Green</EmissiveColorPreset>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
 
@@ -103,7 +103,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
       <ForceMagnitude>2000000</ForceMagnitude>
       <MaxPowerConsumption>0.201</MaxPowerConsumption>
@@ -141,6 +141,7 @@
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
       <DestroySound>K_SW_Explosion_Generic</DestroySound>
       <EmissiveColorPreset>K_SW__Pirate_Engine_Green</EmissiveColorPreset>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
 
@@ -173,7 +174,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
       <ForceMagnitude>500000</ForceMagnitude>
       <MaxPowerConsumption>0.201</MaxPowerConsumption>
@@ -211,6 +212,7 @@
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
       <DestroySound>K_SW_Explosion_Generic</DestroySound>
       <EmissiveColorPreset>K_SW__Pirate_Engine_Green</EmissiveColorPreset>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
 
@@ -243,7 +245,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
       <ForceMagnitude>4000000</ForceMagnitude>
       <MaxPowerConsumption>0.201</MaxPowerConsumption>
@@ -281,10 +283,11 @@
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
       <DestroySound>K_SW_Explosion_Generic</DestroySound>
       <EmissiveColorPreset>K_SW__Pirate_Engine_Green</EmissiveColorPreset>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
 
-<!-- Small Grid -->
+    <!-- Small Grid -->
 
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
@@ -315,7 +318,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
       <ForceMagnitude>200000</ForceMagnitude>
       <MaxPowerConsumption>0.201</MaxPowerConsumption>
@@ -353,6 +356,7 @@
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
       <DestroySound>K_SW_Explosion_Generic</DestroySound>
       <EmissiveColorPreset>K_SW__Pirate_Engine_Green</EmissiveColorPreset>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
 
@@ -385,7 +389,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
       <ForceMagnitude>400000</ForceMagnitude>
       <MaxPowerConsumption>0.201</MaxPowerConsumption>
@@ -423,6 +427,7 @@
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
       <DestroySound>K_SW_Explosion_Generic</DestroySound>
       <EmissiveColorPreset>K_SW__Pirate_Engine_Green</EmissiveColorPreset>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
 
@@ -455,7 +460,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
       <ForceMagnitude>800000</ForceMagnitude>
       <MaxPowerConsumption>0.201</MaxPowerConsumption>
@@ -493,6 +498,7 @@
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
       <DestroySound>K_SW_Explosion_Generic</DestroySound>
       <EmissiveColorPreset>K_SW__Pirate_Engine_Green</EmissiveColorPreset>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
   </CubeBlocks>

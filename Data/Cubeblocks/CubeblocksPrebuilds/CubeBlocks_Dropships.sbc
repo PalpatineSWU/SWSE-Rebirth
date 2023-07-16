@@ -30,7 +30,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <PrimarySound>BlockGyroscope</PrimarySound>
       <ResourceSinkGroup>Gyro</ResourceSinkGroup>
       <ForceMagnitude>8400000000</ForceMagnitude>
@@ -80,7 +80,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <PrimarySound>BlockGyroscope</PrimarySound>
       <ResourceSinkGroup>Gyro</ResourceSinkGroup>
       <ForceMagnitude>1008000000</ForceMagnitude>
@@ -131,7 +131,7 @@
       </MountPoints>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      <IsAirTight>true</IsAirTight>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <RequiredPowerInput>0.01</RequiredPowerInput>
       <EnableFirstPerson>false</EnableFirstPerson>
@@ -189,7 +189,6 @@
       <Id>
         <TypeId>RemoteControl</TypeId>
         <SubtypeId>K_Imperial_Guild_Controller_FakeCockpit</SubtypeId>
-        <!-- Station control seat -->
       </Id>
       <DisplayName>Civialian Remote Controller-Unit</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\Cockpit.dds</Icon>
@@ -223,6 +222,7 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>25</PCU>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition>

@@ -261,6 +261,90 @@
       <BaseProductionTimeInSeconds>5000</BaseProductionTimeInSeconds>
     </Blueprint>
 
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AngleGrinder_InqSaberItem</SubtypeId>
+      </Id>
+      <DisplayName>Inqusitor's Sith Saber</DisplayName>
+      <Icon>Textures\SWBlades\Icons\LukeSaberRev.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Lignan" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Silver" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AngleGrinder_InqSaberItem" />
+      <BaseProductionTimeInSeconds>5000</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AngleGrinder_VibroKnifeItem</SubtypeId>
+      </Id>
+      <DisplayName>Vibro Knife</DisplayName>
+      <Icon>Textures\SWBlades\Icons\LukeSaberRev.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Lignan" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Silver" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AngleGrinder_VibroKnifeItem" />
+      <BaseProductionTimeInSeconds>5000</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AngleGrinder_VibroAxeSmallItem</SubtypeId>
+      </Id>
+      <DisplayName>Small Vibro Axe</DisplayName>
+      <Icon>Textures\SWBlades\Icons\LukeSaberRev.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Lignan" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Silver" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AngleGrinder_VibroAxeSmallItem" />
+      <BaseProductionTimeInSeconds>5000</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AngleGrinder_VibroAxeLargeItem</SubtypeId>
+      </Id>
+      <DisplayName>Vibro Axe</DisplayName>
+      <Icon>Textures\SWBlades\Icons\LukeSaberRev.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Lignan" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Silver" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AngleGrinder_VibroAxeLargeItem" />
+      <BaseProductionTimeInSeconds>5000</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AngleGrinder_VibroAxeLargeBItem</SubtypeId>
+      </Id>
+      <DisplayName>Vibro Axe II</DisplayName>
+      <Icon>Textures\SWBlades\Icons\LukeSaberRev.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Lignan" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Silver" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AngleGrinder_VibroAxeLargeBItem" />
+      <BaseProductionTimeInSeconds>5000</BaseProductionTimeInSeconds>
+    </Blueprint>
 
   </Blueprints>
 </Definitions>

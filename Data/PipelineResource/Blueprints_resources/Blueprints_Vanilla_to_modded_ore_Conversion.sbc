@@ -22,7 +22,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Conversion_DuraSteel</SubtypeId>
       </Id>
-      <DisplayName>Durasteel</DisplayName>
+      <DisplayName>Doonium</DisplayName>
       <Icon>Textures\GUI\Icons\Resources\Ingots\SW_Resources_Ingot_5.dds</Icon>
       <Prerequisites>
         <Item Amount="21" TypeId="Ingot" SubtypeId="Iron" />

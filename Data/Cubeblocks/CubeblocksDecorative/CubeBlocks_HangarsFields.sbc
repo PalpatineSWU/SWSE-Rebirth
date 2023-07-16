@@ -23,7 +23,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <BlockVariants>
         <BlockVariant>
           <TypeId>CubeBlock</TypeId>
@@ -35,6 +35,7 @@
         </BlockVariant>
 
       </BlockVariants>
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
 
@@ -59,7 +60,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition>
@@ -83,7 +85,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
 
@@ -108,7 +111,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <BlockVariants>
         <BlockVariant>
           <TypeId>CubeBlock</TypeId>
@@ -123,6 +126,7 @@
           <SubtypeId>K_Imperial_Misc_Hangar_Field_1x</SubtypeId>
         </BlockVariant>
       </BlockVariants>
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition>
@@ -146,7 +150,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition>
@@ -170,7 +175,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
 
@@ -195,7 +201,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
 
@@ -222,7 +229,8 @@
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
       <HasPhysics>false</HasPhysics>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition>
@@ -248,7 +256,8 @@
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
       <HasPhysics>false</HasPhysics>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition>
@@ -274,7 +283,8 @@
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
       <HasPhysics>false</HasPhysics>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition>
@@ -298,7 +308,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition>
@@ -322,7 +333,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition>
@@ -348,7 +360,8 @@
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
       <HasPhysics>true</HasPhysics>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition>
@@ -374,7 +387,8 @@
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
       <HasPhysics>true</HasPhysics>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition>
@@ -400,7 +414,8 @@
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
       <HasPhysics>false</HasPhysics>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
 

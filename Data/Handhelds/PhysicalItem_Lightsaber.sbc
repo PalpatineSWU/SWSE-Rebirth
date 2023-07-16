@@ -236,5 +236,23 @@
             <PhysicalMaterial>Metal</PhysicalMaterial>
         </PhysicalItem>
 		
+		<PhysicalItem>
+            <Id>
+                <TypeId>PhysicalGunObject</TypeId>
+                <SubtypeId>AngleGrinder_InqSaberItem</SubtypeId>
+            </Id>
+            <DisplayName>.Inquisitors Lightsaber</DisplayName>
+            <Icon>Textures\SWBlades\Icons\InquisitorSaber.dds</Icon>
+            <Size>
+                <X>3</X>
+                <Y>3</Y>
+                <Z>3</Z>
+            </Size>
+            <Mass>3</Mass>
+            <Volume>20</Volume>
+            <Model>Models\LightSabers\InquisitorSaber.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+        </PhysicalItem>
+
 	</PhysicalItems>
 </Definitions>

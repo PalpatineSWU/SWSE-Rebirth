@@ -34,7 +34,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <RequiredPowerInput>0.01</RequiredPowerInput>
       <EnableFirstPerson>false</EnableFirstPerson>
@@ -46,6 +46,7 @@
       <DamageEffectName>Imperial_Damages_Electrical</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
       <DestroyEffect>Imperial_ElectricalExplosion</DestroyEffect>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
@@ -86,7 +87,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
@@ -110,6 +111,7 @@
         <ScreenArea Name="CockpitScreen_06" DisplayName="6" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" />
         <ScreenArea Name="CockpitScreen_07" DisplayName="7" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" />
       </ScreenAreas>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
@@ -143,7 +145,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
       <MaxPowerOutput>0.5</MaxPowerOutput>
       <PanelOrientation>
@@ -158,6 +160,7 @@
       <DamageEffectName>Imperial_Damages_Electrical</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
       <DestroyEffect>Imperial_ElectricalExplosion</DestroyEffect>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
@@ -191,7 +194,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
       <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
       <MaxPowerOutput>0.5</MaxPowerOutput>
       <PanelOrientation>
@@ -206,6 +209,7 @@
       <DamageEffectName>Imperial_Damages_Electrical</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
       <DestroyEffect>Imperial_ElectricalExplosion</DestroyEffect>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
 

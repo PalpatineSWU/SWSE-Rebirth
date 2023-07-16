@@ -78,7 +78,8 @@
             <AdditionalEmissiveMaterials>
                 <string>FoodDispenser</string>
             </AdditionalEmissiveMaterials>
-		</Definition>
+		<IsAirTight>true</IsAirTight>
+        </Definition>
 
         <Definition xsi:type="MyObjectBuilder_VendingMachineDefinition">
 			<Id>
@@ -148,7 +149,8 @@
             <AdditionalEmissiveMaterials>
                 <string>FoodDispenser</string>
             </AdditionalEmissiveMaterials>
-		</Definition>
+		<IsAirTight>true</IsAirTight>
+        </Definition>
 
   </CubeBlocks>
 </Definitions>

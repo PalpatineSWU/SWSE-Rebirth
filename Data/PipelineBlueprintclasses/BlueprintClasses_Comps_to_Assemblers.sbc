@@ -118,9 +118,14 @@
     <!--Starfighters-->
 
     <!--Tools-->
+
+
+
+
     <Entry Class="EliteTools" BlueprintSubtypeId="HandDrillScannerItem" />
     <Entry Class="EliteTools" BlueprintSubtypeId="HandDrillSWItem" />
     <Entry Class="EliteTools" BlueprintSubtypeId="AngleGrinder_LukeSaberItem" />
+    <Entry Class="EliteTools" BlueprintSubtypeId="AngleGrinder_MaceSaberItem" />
     <Entry Class="EliteTools" BlueprintSubtypeId="AngleGrinder_LukeSaberRevItem" />
     <Entry Class="EliteTools" BlueprintSubtypeId="AngleGrinder_DarthSaberItem" />
     <Entry Class="EliteTools" BlueprintSubtypeId="AngleGrinder_MaulSaberItem" />
@@ -131,11 +136,17 @@
     <Entry Class="EliteTools" BlueprintSubtypeId="AngleGrinder_EzraSaberItem" />
     <Entry Class="EliteTools" BlueprintSubtypeId="AngleGrinder_ArkolisSaberItem" />
     <Entry Class="EliteTools" BlueprintSubtypeId="AngleGrinder_PalpatineSaberItem" />
+    <Entry Class="EliteTools" BlueprintSubtypeId="AngleGrinder_InqSaberItem" />
+    <Entry Class="EliteTools" BlueprintSubtypeId="AngleGrinder_VibroKnifeItem" />
+    <Entry Class="EliteTools" BlueprintSubtypeId="AngleGrinder_VibroAxeSmallItem" />
+    <Entry Class="EliteTools" BlueprintSubtypeId="AngleGrinder_VibroAxeLargeItem" />
+    <Entry Class="EliteTools" BlueprintSubtypeId="AngleGrinder_VibroAxeLargeBItem" />
 
     <Entry Class="BasicTools" BlueprintSubtypeId="HandDrillScannerItem" />
     <Entry Class="BasicTools" BlueprintSubtypeId="HandDrillSWItem" />
     <Entry Class="BasicTools" BlueprintSubtypeId="AngleGrinder_LukeSaberItem" />
     <Entry Class="BasicTools" BlueprintSubtypeId="AngleGrinder_LukeSaberRevItem" />
+    <Entry Class="BasicTools" BlueprintSubtypeId="AngleGrinder_MaceSaberItem" />
     <Entry Class="BasicTools" BlueprintSubtypeId="AngleGrinder_DarthSaberItem" />
     <Entry Class="BasicTools" BlueprintSubtypeId="AngleGrinder_MaulSaberItem" />
     <Entry Class="BasicTools" BlueprintSubtypeId="AngleGrinder_MaulCaneSaberItem" />
@@ -145,7 +156,12 @@
     <Entry Class="BasicTools" BlueprintSubtypeId="AngleGrinder_EzraSaberItem" />
     <Entry Class="BasicTools" BlueprintSubtypeId="AngleGrinder_ArkolisSaberItem" />
     <Entry Class="BasicTools" BlueprintSubtypeId="AngleGrinder_PalpatineSaberItem" />
-    <!--Tools-->
+    <Entry Class="BasicTools" BlueprintSubtypeId="AngleGrinder_InqSaberItem" />
+    <Entry Class="BasicTools" BlueprintSubtypeId="AngleGrinder_VibroKnifeItem" />
+    <Entry Class="BasicTools" BlueprintSubtypeId="AngleGrinder_VibroAxeSmallItem" />
+    <Entry Class="BasicTools" BlueprintSubtypeId="AngleGrinder_VibroAxeLargeItem" />
+    <Entry Class="BasicTools" BlueprintSubtypeId="AngleGrinder_VibroAxeLargeBItem" />
+
 
   </BlueprintClassEntries>
 </Definitions>

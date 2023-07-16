@@ -42,14 +42,215 @@
   -->
   <EntityComponents>
 
-
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+    <EntityComponent xsi:type="MyObjectBuilder_AutopilotComponentDefinition">
       <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>K_Imperial_SupplyDepot</SubtypeId>
+        <TypeId>AutopilotComponent</TypeId>
+        <SubtypeId>K_Imperial_Dropship_Guild_RC 3x3</SubtypeId>
       </Id>
-      <Size x="0.8" y="0.8" z="0.8" />
+      <MinHeightAlignmentEnabled>false</MinHeightAlignmentEnabled>
+      <CoastingTestEnabled>false</CoastingTestEnabled>
+      <CourseCorrectionMaxDistanceSmallGrid>5</CourseCorrectionMaxDistanceSmallGrid>
+      <CourseCorrectionMaxDistanceLargeGrid>10</CourseCorrectionMaxDistanceLargeGrid>
+      <CourseCorrectionMaxThrustPercentage>50</CourseCorrectionMaxThrustPercentage>
+      <CourseCorrectionMaxRemainingRotationBeforeThrust>0.5</CourseCorrectionMaxRemainingRotationBeforeThrust>
+      <CourseCorrectionMaxRemainingRotationBeforeThrustInPrecisionMode>0.2</CourseCorrectionMaxRemainingRotationBeforeThrustInPrecisionMode>
+      <CourseCorrectionMaxDistanceInPrecisionModeGridSizeMultiple>0.3</CourseCorrectionMaxDistanceInPrecisionModeGridSizeMultiple>
+      <PrecisionModeRotationVelocitySlowFactor>4</PrecisionModeRotationVelocitySlowFactor>
+      <RotationVelocitySlowFactorAutomaticBehavior>3</RotationVelocitySlowFactorAutomaticBehavior>
+      <RotationVelocitySlowFactorAutomaticBehaviorTreshold>0.1</RotationVelocitySlowFactorAutomaticBehaviorTreshold>
+
     </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_AutopilotComponentDefinition">
+      <Id>
+        <TypeId>AutopilotComponent</TypeId>
+        <SubtypeId>K_Imperial_Guild_Controller_FakeCockpit</SubtypeId>
+      </Id>
+      <MinHeightAlignmentEnabled>false</MinHeightAlignmentEnabled>
+      <CoastingTestEnabled>false</CoastingTestEnabled>
+      <CourseCorrectionMaxDistanceSmallGrid>5</CourseCorrectionMaxDistanceSmallGrid>
+      <CourseCorrectionMaxDistanceLargeGrid>10</CourseCorrectionMaxDistanceLargeGrid>
+      <CourseCorrectionMaxThrustPercentage>50</CourseCorrectionMaxThrustPercentage>
+      <CourseCorrectionMaxRemainingRotationBeforeThrust>0.5</CourseCorrectionMaxRemainingRotationBeforeThrust>
+      <CourseCorrectionMaxRemainingRotationBeforeThrustInPrecisionMode>0.2</CourseCorrectionMaxRemainingRotationBeforeThrustInPrecisionMode>
+      <CourseCorrectionMaxDistanceInPrecisionModeGridSizeMultiple>0.3</CourseCorrectionMaxDistanceInPrecisionModeGridSizeMultiple>
+      <PrecisionModeRotationVelocitySlowFactor>4</PrecisionModeRotationVelocitySlowFactor>
+      <RotationVelocitySlowFactorAutomaticBehavior>3</RotationVelocitySlowFactorAutomaticBehavior>
+      <RotationVelocitySlowFactorAutomaticBehaviorTreshold>0.1</RotationVelocitySlowFactorAutomaticBehaviorTreshold>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_AutopilotComponentDefinition">
+      <Id>
+        <TypeId>AutopilotComponent</TypeId>
+        <SubtypeId>K_Imperial_ProbeDroid_Top_II</SubtypeId>
+      </Id>
+      <MinHeightAlignmentEnabled>false</MinHeightAlignmentEnabled>
+      <CoastingTestEnabled>false</CoastingTestEnabled>
+      <CourseCorrectionMaxDistanceSmallGrid>5</CourseCorrectionMaxDistanceSmallGrid>
+      <CourseCorrectionMaxDistanceLargeGrid>10</CourseCorrectionMaxDistanceLargeGrid>
+      <CourseCorrectionMaxThrustPercentage>50</CourseCorrectionMaxThrustPercentage>
+      <CourseCorrectionMaxRemainingRotationBeforeThrust>0.5</CourseCorrectionMaxRemainingRotationBeforeThrust>
+      <CourseCorrectionMaxRemainingRotationBeforeThrustInPrecisionMode>0.2</CourseCorrectionMaxRemainingRotationBeforeThrustInPrecisionMode>
+      <CourseCorrectionMaxDistanceInPrecisionModeGridSizeMultiple>0.3</CourseCorrectionMaxDistanceInPrecisionModeGridSizeMultiple>
+      <PrecisionModeRotationVelocitySlowFactor>4</PrecisionModeRotationVelocitySlowFactor>
+      <RotationVelocitySlowFactorAutomaticBehavior>3</RotationVelocitySlowFactorAutomaticBehavior>
+      <RotationVelocitySlowFactorAutomaticBehaviorTreshold>0.1</RotationVelocitySlowFactorAutomaticBehaviorTreshold>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_AutopilotComponentDefinition">
+      <Id>
+        <TypeId>AutopilotComponent</TypeId>
+        <SubtypeId>K_NewRepublic_AWing_RC</SubtypeId>
+      </Id>
+      <MinHeightAlignmentEnabled>false</MinHeightAlignmentEnabled>
+      <CoastingTestEnabled>false</CoastingTestEnabled>
+      <CourseCorrectionMaxDistanceSmallGrid>5</CourseCorrectionMaxDistanceSmallGrid>
+      <CourseCorrectionMaxDistanceLargeGrid>10</CourseCorrectionMaxDistanceLargeGrid>
+      <CourseCorrectionMaxThrustPercentage>50</CourseCorrectionMaxThrustPercentage>
+      <CourseCorrectionMaxRemainingRotationBeforeThrust>0.5</CourseCorrectionMaxRemainingRotationBeforeThrust>
+      <CourseCorrectionMaxRemainingRotationBeforeThrustInPrecisionMode>0.2</CourseCorrectionMaxRemainingRotationBeforeThrustInPrecisionMode>
+      <CourseCorrectionMaxDistanceInPrecisionModeGridSizeMultiple>0.3</CourseCorrectionMaxDistanceInPrecisionModeGridSizeMultiple>
+      <PrecisionModeRotationVelocitySlowFactor>4</PrecisionModeRotationVelocitySlowFactor>
+      <RotationVelocitySlowFactorAutomaticBehavior>3</RotationVelocitySlowFactorAutomaticBehavior>
+      <RotationVelocitySlowFactorAutomaticBehaviorTreshold>0.1</RotationVelocitySlowFactorAutomaticBehaviorTreshold>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_AutopilotComponentDefinition">
+      <Id>
+        <TypeId>AutopilotComponent</TypeId>
+        <SubtypeId>K_NewRepublic_EWing_RC</SubtypeId>
+      </Id>
+      <MinHeightAlignmentEnabled>false</MinHeightAlignmentEnabled>
+      <CoastingTestEnabled>false</CoastingTestEnabled>
+      <CourseCorrectionMaxDistanceSmallGrid>5</CourseCorrectionMaxDistanceSmallGrid>
+      <CourseCorrectionMaxDistanceLargeGrid>10</CourseCorrectionMaxDistanceLargeGrid>
+      <CourseCorrectionMaxThrustPercentage>50</CourseCorrectionMaxThrustPercentage>
+      <CourseCorrectionMaxRemainingRotationBeforeThrust>0.5</CourseCorrectionMaxRemainingRotationBeforeThrust>
+      <CourseCorrectionMaxRemainingRotationBeforeThrustInPrecisionMode>0.2</CourseCorrectionMaxRemainingRotationBeforeThrustInPrecisionMode>
+      <CourseCorrectionMaxDistanceInPrecisionModeGridSizeMultiple>0.3</CourseCorrectionMaxDistanceInPrecisionModeGridSizeMultiple>
+      <PrecisionModeRotationVelocitySlowFactor>4</PrecisionModeRotationVelocitySlowFactor>
+      <RotationVelocitySlowFactorAutomaticBehavior>3</RotationVelocitySlowFactorAutomaticBehavior>
+      <RotationVelocitySlowFactorAutomaticBehaviorTreshold>0.1</RotationVelocitySlowFactorAutomaticBehaviorTreshold>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_AutopilotComponentDefinition">
+      <Id>
+        <TypeId>AutopilotComponent</TypeId>
+        <SubtypeId>K_Imperial_SpeederBike_FakePilot</SubtypeId>
+      </Id>
+      <MinHeightAlignmentEnabled>false</MinHeightAlignmentEnabled>
+      <CoastingTestEnabled>false</CoastingTestEnabled>
+      <CourseCorrectionMaxDistanceSmallGrid>5</CourseCorrectionMaxDistanceSmallGrid>
+      <CourseCorrectionMaxDistanceLargeGrid>10</CourseCorrectionMaxDistanceLargeGrid>
+      <CourseCorrectionMaxThrustPercentage>50</CourseCorrectionMaxThrustPercentage>
+      <CourseCorrectionMaxRemainingRotationBeforeThrust>0.5</CourseCorrectionMaxRemainingRotationBeforeThrust>
+      <CourseCorrectionMaxRemainingRotationBeforeThrustInPrecisionMode>0.2</CourseCorrectionMaxRemainingRotationBeforeThrustInPrecisionMode>
+      <CourseCorrectionMaxDistanceInPrecisionModeGridSizeMultiple>0.3</CourseCorrectionMaxDistanceInPrecisionModeGridSizeMultiple>
+      <PrecisionModeRotationVelocitySlowFactor>4</PrecisionModeRotationVelocitySlowFactor>
+      <RotationVelocitySlowFactorAutomaticBehavior>3</RotationVelocitySlowFactorAutomaticBehavior>
+      <RotationVelocitySlowFactorAutomaticBehaviorTreshold>0.1</RotationVelocitySlowFactorAutomaticBehaviorTreshold>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_AutopilotComponentDefinition">
+      <Id>
+        <TypeId>AutopilotComponent</TypeId>
+        <SubtypeId>K_TIE_Drone_Core</SubtypeId>
+      </Id>
+      <MinHeightAlignmentEnabled>false</MinHeightAlignmentEnabled>
+      <CoastingTestEnabled>false</CoastingTestEnabled>
+      <CourseCorrectionMaxDistanceSmallGrid>5</CourseCorrectionMaxDistanceSmallGrid>
+      <CourseCorrectionMaxDistanceLargeGrid>10</CourseCorrectionMaxDistanceLargeGrid>
+      <CourseCorrectionMaxThrustPercentage>50</CourseCorrectionMaxThrustPercentage>
+      <CourseCorrectionMaxRemainingRotationBeforeThrust>0.5</CourseCorrectionMaxRemainingRotationBeforeThrust>
+      <CourseCorrectionMaxRemainingRotationBeforeThrustInPrecisionMode>0.2</CourseCorrectionMaxRemainingRotationBeforeThrustInPrecisionMode>
+      <CourseCorrectionMaxDistanceInPrecisionModeGridSizeMultiple>0.3</CourseCorrectionMaxDistanceInPrecisionModeGridSizeMultiple>
+      <PrecisionModeRotationVelocitySlowFactor>4</PrecisionModeRotationVelocitySlowFactor>
+      <RotationVelocitySlowFactorAutomaticBehavior>3</RotationVelocitySlowFactorAutomaticBehavior>
+      <RotationVelocitySlowFactorAutomaticBehaviorTreshold>0.1</RotationVelocitySlowFactorAutomaticBehaviorTreshold>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_AutopilotComponentDefinition">
+      <Id>
+        <TypeId>AutopilotComponent</TypeId>
+        <SubtypeId>K_Imperial_Reborn_TIE_Droid_Core</SubtypeId>
+      </Id>
+      <MinHeightAlignmentEnabled>false</MinHeightAlignmentEnabled>
+      <CoastingTestEnabled>false</CoastingTestEnabled>
+      <CourseCorrectionMaxDistanceSmallGrid>5</CourseCorrectionMaxDistanceSmallGrid>
+      <CourseCorrectionMaxDistanceLargeGrid>10</CourseCorrectionMaxDistanceLargeGrid>
+      <CourseCorrectionMaxThrustPercentage>50</CourseCorrectionMaxThrustPercentage>
+      <CourseCorrectionMaxRemainingRotationBeforeThrust>0.5</CourseCorrectionMaxRemainingRotationBeforeThrust>
+      <CourseCorrectionMaxRemainingRotationBeforeThrustInPrecisionMode>0.2</CourseCorrectionMaxRemainingRotationBeforeThrustInPrecisionMode>
+      <CourseCorrectionMaxDistanceInPrecisionModeGridSizeMultiple>0.3</CourseCorrectionMaxDistanceInPrecisionModeGridSizeMultiple>
+      <PrecisionModeRotationVelocitySlowFactor>4</PrecisionModeRotationVelocitySlowFactor>
+      <RotationVelocitySlowFactorAutomaticBehavior>3</RotationVelocitySlowFactorAutomaticBehavior>
+      <RotationVelocitySlowFactorAutomaticBehaviorTreshold>0.1</RotationVelocitySlowFactorAutomaticBehaviorTreshold>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_AutopilotComponentDefinition">
+      <Id>
+        <TypeId>AutopilotComponent</TypeId>
+        <SubtypeId>K_TIE_Fighter_RC</SubtypeId>
+      </Id>
+      <MinHeightAlignmentEnabled>false</MinHeightAlignmentEnabled>
+      <CoastingTestEnabled>false</CoastingTestEnabled>
+      <CourseCorrectionMaxDistanceSmallGrid>5</CourseCorrectionMaxDistanceSmallGrid>
+      <CourseCorrectionMaxDistanceLargeGrid>10</CourseCorrectionMaxDistanceLargeGrid>
+      <CourseCorrectionMaxThrustPercentage>50</CourseCorrectionMaxThrustPercentage>
+      <CourseCorrectionMaxRemainingRotationBeforeThrust>0.5</CourseCorrectionMaxRemainingRotationBeforeThrust>
+      <CourseCorrectionMaxRemainingRotationBeforeThrustInPrecisionMode>0.2</CourseCorrectionMaxRemainingRotationBeforeThrustInPrecisionMode>
+      <CourseCorrectionMaxDistanceInPrecisionModeGridSizeMultiple>0.3</CourseCorrectionMaxDistanceInPrecisionModeGridSizeMultiple>
+      <PrecisionModeRotationVelocitySlowFactor>4</PrecisionModeRotationVelocitySlowFactor>
+      <RotationVelocitySlowFactorAutomaticBehavior>3</RotationVelocitySlowFactorAutomaticBehavior>
+      <RotationVelocitySlowFactorAutomaticBehaviorTreshold>0.1</RotationVelocitySlowFactorAutomaticBehaviorTreshold>
+
+    </EntityComponent>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
@@ -98,7 +299,15 @@
         <TypeId>Inventory</TypeId>
         <SubtypeId>K_Imperial_SupplyDepot_AltII</SubtypeId>
       </Id>
-      <Size x="0.8" y="0.8" z="0.8" />
+      <Size x=".5" y=".5" z=".5" />
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>K_Imperial_SupplyDepot</SubtypeId>
+      </Id>
+      <Size x="5" y="5" z="5" />
     </EntityComponent>
 
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
@@ -113,6 +322,14 @@
       <Id>
         <TypeId>Inventory</TypeId>
         <SubtypeId>K_Imperial_Carrack_CargoShip_CargoContainer</SubtypeId>
+      </Id>
+      <Size x="2" y="2" z="2" />
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>K_NewRepublic_YWing_Storage</SubtypeId>
       </Id>
       <Size x="2" y="2" z="2" />
     </EntityComponent>
@@ -145,6 +362,14 @@
       <Id>
         <TypeId>Inventory</TypeId>
         <SubtypeId>K_Rebellion_Assembler_Chopshop</SubtypeId>
+      </Id>
+      <Size x="800" y="800" z="800" />
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SG_Lug_Gat_Main</SubtypeId>
       </Id>
       <Size x="800" y="800" z="800" />
     </EntityComponent>

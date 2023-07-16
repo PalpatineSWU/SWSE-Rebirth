@@ -116,8 +116,12 @@ namespace Scripts
             Wep_InterdictionSphere,
             HangarRebel,
             HangarImp,
-            Wep_AntiThruster,
-            Wep_AntiThruster_lg,
+            P_Wep_Gat_Laser_SG,
+            P_Wep_Gat_Laser_LG,
+            P_Wep_Gat_Maser_SG,
+            P_Wep_Gat_Maser_LG,
+            P_Wep_Gat_Slug_SG,
+            P_Wep_Gat_Slug_LG,
             Imperial_Turrets_DefenseHeavyBattery_HVC6);
         }
     }

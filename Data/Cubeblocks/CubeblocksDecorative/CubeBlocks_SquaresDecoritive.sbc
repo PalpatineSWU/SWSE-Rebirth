@@ -24,7 +24,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>4</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition>
@@ -48,7 +49,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>4</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition>
@@ -72,7 +74,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>4</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition>
@@ -96,7 +99,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition>
@@ -120,7 +124,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition>
@@ -144,7 +149,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition>
@@ -201,7 +207,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      <NavigationDefinition>Default</NavigationDefinition>
+      
+    <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition>
@@ -247,8 +254,6 @@
       <PCU>1</PCU>
       <IsAirTight>true</IsAirTight>
       <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
-      <BlockVariants>
-      </BlockVariants>
     </Definition>
 
     <Definition>
@@ -294,7 +299,6 @@
       <PCU>1</PCU>
       <IsAirTight>true</IsAirTight>
       <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
-
     </Definition>
 
     <Definition>
@@ -340,7 +344,6 @@
       <PCU>1</PCU>
       <IsAirTight>true</IsAirTight>
       <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
-
     </Definition>
 
   </CubeBlocks>

@@ -28,6 +28,11 @@
         <string>AngleGrinder_EzraSaberItem</string>
         <string>AngleGrinder_ArkolisSaberItem</string>
         <string>AngleGrinder_PalpatineSaberItem</string>
+        <string>AngleGrinder_InqSaberItem</string>
+        <string>AngleGrinder_VibroKnifeItem</string>
+        <string>AngleGrinder_VibroAxeSmallItem</string>
+        <string>AngleGrinder_VibroAxeLargeItem</string>
+        <string>AngleGrinder_VibroAxeLargeBItem</string>
       </ItemIds>
     </Category>
 

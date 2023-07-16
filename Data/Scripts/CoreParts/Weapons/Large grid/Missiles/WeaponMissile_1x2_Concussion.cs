@@ -5,8 +5,6 @@ using static Scripts.Structure.WeaponDefinition.HardPointDef;
 using static Scripts.Structure.WeaponDefinition.HardPointDef.Prediction;
 using static Scripts.Structure.WeaponDefinition.TargetingDef.BlockTypes;
 using static Scripts.Structure.WeaponDefinition.TargetingDef.Threat;
-using static Scripts.Structure.WeaponDefinition.HardPointDef.HardwareDef;
-using static Scripts.Structure.WeaponDefinition.HardPointDef.HardwareDef.HardwareType;
 
 namespace Scripts {   
     partial class Parts {
@@ -41,7 +39,7 @@ namespace Scripts {
                 SubSystems = new[] {
                     Thrust, Utility, Offense, Power, Production, Any, // Subsystem targeting priority: Offense, Utility, Power, Production, Thrust, Jumping, Steering, Any
                 },
-                ClosestFirst = true, // Tries to pick closest targets first (blocks on grids, projectiles, etc...).
+                ClosestFirst = false, // Tries to pick closest targets first (blocks on grids, projectiles, etc...).
                 IgnoreDumbProjectiles = false, // Don't fire at non-smart projectiles.
                 LockedSmartOnly = false, // Only fire at smart projectiles that are locked on to parent grid.
                 MinimumDiameter = 0, // Minimum radius of threat to engage.
@@ -55,53 +53,29 @@ namespace Scripts {
             HardPoint = new HardPointDef
             {
                 PartName = "Concussion Launcher (1x2)", // Name of the weapon in terminal, should be unique for each weapon definition that shares a SubtypeId (i.e. multiweapons).
-                DeviateShotAngle = 0.2f, // Projectile inaccuracy in degrees.
-                AimingTolerance = 1f, // How many degrees off target a turret can fire at. 0 - 180 firing angle.
-                AimLeadingPrediction = Accurate, // Level of turret aim prediction; Off, Basic, Accurate, Advanced
+                DeviateShotAngle = 0f, // Projectile inaccuracy in degrees.
+                AimingTolerance = 0f, // How many degrees off target a turret can fire at. 0 - 180 firing angle.
+                AimLeadingPrediction = Off, // Level of turret aim prediction; Off, Basic, Accurate, Advanced
                 DelayCeaseFire = 0, // Measured in game ticks (6 = 100ms, 60 = 1 second, etc..). Length of time the weapon continues firing after trigger is released - while a target is available.
                 AddToleranceToTracking = false, // Allows turret to track to the edge of the AimingTolerance cone instead of dead centre.
-                CanShootSubmerged = false, // Whether the weapon can be fired underwater when using WaterMod.
+                CanShootSubmerged = true, // Whether the weapon can be fired underwater when using WaterMod.
 
                 Ui = new UiDef
                 {
                     RateOfFire = true, // Enables terminal slider for changing rate of fire.
                     DamageModifier = false, // Enables terminal slider for changing damage per shot.
-                    ToggleGuidance = false, // Enables terminal option to disable smart projectile guidance.
+                    ToggleGuidance = true, // Enables terminal option to disable smart projectile guidance.
                     EnableOverload = false, // Enables terminal option to turn on Overload; this allows energy weapons to double damage per shot, at the cost of quadrupled power draw and heat gain, and 2% self damage on overheat.
                 },
                 Ai = new AiDef
                 {
-                    TrackTargets = true, // Whether this weapon tracks its own targets, or (for multiweapons) relies on the weapon with PrimaryTracking enabled for target designation. Turrets Need this set to True.
+                    TrackTargets = false, // Whether this weapon tracks its own targets, or (for multiweapons) relies on the weapon with PrimaryTracking enabled for target designation. Turrets Need this set to True.
                     TurretAttached = false, // Whether this weapon is a turret and should have the UI and API options for such. Turrets Need this set to True.
                     TurretController = false, // Whether this weapon can physically control the turret's movement. Turrets Need this set to True.
-                    PrimaryTracking = true, // For multiweapons: whether this weapon should designate targets for other weapons on the platform without their own tracking.
+                    PrimaryTracking = false, // For multiweapons: whether this weapon should designate targets for other weapons on the platform without their own tracking.
                     LockOnFocus = false, // If enabled, weapon will only fire at targets that have been HUD selected AND locked onto by pressing Numpad 0.
                     SuppressFire = false, // If enabled, weapon can only be fired manually.
                     OverrideLeads = false, // Disable target leading on fixed weapons, or allow it for turrets.
-                },
-                HardWare = new HardwareDef
-                {
-                    RotateRate = 0.0f, // Max traversal speed of azimuth subpart in radians per tick (0.1 is approximately 360 degrees per second).
-                    ElevateRate = 0.0f, // Max traversal speed of elevation subpart in radians per tick.
-                    MinAzimuth = -0,
-                    MaxAzimuth = 0,
-                    MinElevation = 0,
-                    MaxElevation = 0,
-                    HomeAzimuth = 0, // Default resting rotation angle
-                    HomeElevation = 0, // Default resting elevation
-                    InventorySize = 1f, // Inventory capacity in kL.
-                    IdlePower = 0.25f, // Constant base power draw in MW.
-                    FixedOffset = false, // Deprecated.
-                    Offset = Vector(x: 0, y: 0, z: 0), // Offsets the aiming/firing line of the weapon, in metres.
-                    Type = BlockWeapon, // What type of weapon this is; BlockWeapon, HandWeapon, Phantom 
-                    CriticalReaction = new CriticalDef
-                    {
-                        Enable = false, // Enables Warhead behaviour.
-                        DefaultArmedTimer = 120, // Sets default countdown duration.
-                        PreArmed = false, // Whether the warhead is armed by default when placed. Best left as false.
-                        TerminalControls = true, // Whether the warhead should have terminal controls for arming and detonation.
-                        AmmoRound = "AmmoType2", // Optional. If specified, the warhead will always use this ammo on detonation rather than the currently selected ammo.
-                    },
                 },
                 Other = new OtherDef
                 {
@@ -134,7 +108,7 @@ namespace Scripts {
                     GiveUpAfter = false, // Whether the weapon should drop its current target and reacquire a new target after finishing its magazine or burst.
                     BarrelSpinRate = 0, // Visual only, 0 disables and uses RateOfFire.
                     DeterministicSpin = false, // Spin barrel position will always be relative to initial / starting positions (spin will not be as smooth).
-                    SpinFree = true, // Spin barrel while not firing.
+                    SpinFree = false, // Spin barrel while not firing.
                     StayCharged = false, // Will start recharging whenever power cap is not full.
                     MaxActiveProjectiles = 0, // Maximum number of projectiles in flight
                     MaxReloads = 0, // Maximum number of reloads in the LIFETIME of a weapon
