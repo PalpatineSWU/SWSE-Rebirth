@@ -1102,6 +1102,7 @@
                 <Block Type="MyObjectBuilder_Gyro" Subtype="K_Imperial_A9Interceptor_Gyro_B" />
                 <Block Type="MyObjectBuilder_Gyro" Subtype="K_Chiss_Clawcraft_Gyro" />
                 <Block Type="MyObjectBuilder_Gyro" Subtype="K_Imperial_Dropship_Guild_Gyro" />
+                <Block Type="MyObjectBuilder_Gyro" Subtype="K_Imperial_Misc_InterdictionSphere" />
                 <Block Type="MyObjectBuilder_Gyro" Subtype="K_Imperial_HowlRunner_Gyro_A" />
                 <Block Type="MyObjectBuilder_Gyro" Subtype="K_Imperial_HowlRunner_Gyro_B" />
                 <Block Type="MyObjectBuilder_Gyro" Subtype="K_Imperial_ProbeDroid_Bottom_II" />

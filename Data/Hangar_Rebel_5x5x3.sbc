@@ -3,7 +3,7 @@
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<CubeBlocks>
 
-
+<!--
 		<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
 
 			<Id>
@@ -61,7 +61,7 @@
 			<DestroyEffect>Imperial_Explosion</DestroyEffect>
 			<DestroySound>K_SW_Explosion_Generic</DestroySound>
 			<EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
-			<GeneralDamageMultiplier>1</GeneralDamageMultiplier>
+			
 		</Definition>
 
 
@@ -116,9 +116,9 @@
 			<DestroyEffect>Imperial_Explosion</DestroyEffect>
 			<DestroySound>K_SW_Explosion_Generic</DestroySound>
 			<EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
-			<GeneralDamageMultiplier>1</GeneralDamageMultiplier>
+			
 		</Definition>
-		<!--FighterHangar end-->
+	-->
 
 	</CubeBlocks>
 </Definitions>

@@ -678,7 +678,13 @@
 
     </EnvironmentItems>
 
-
+    <HasAtmosphere>true</HasAtmosphere>
+    <Atmosphere>
+      <Breathable>true</Breathable>
+      <OxygenDensity>1</OxygenDensity>
+      <Density>1.0</Density>
+      <LimitAltitude>2.0</LimitAltitude>
+    </Atmosphere>
 
     <AtmosphereSettings>
       <RayleighScattering>

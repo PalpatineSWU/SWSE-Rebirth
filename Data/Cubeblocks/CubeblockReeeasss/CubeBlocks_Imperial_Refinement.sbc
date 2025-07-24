@@ -65,6 +65,7 @@
         <unsignedInt>120</unsignedInt>
         <unsignedInt>240</unsignedInt>
       </TieredUpdateTimes>
+      <IsAirTight>true</IsAirTight>
 
     </Definition>
 
@@ -132,6 +133,7 @@
         <unsignedInt>120</unsignedInt>
         <unsignedInt>240</unsignedInt>
       </TieredUpdateTimes>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
@@ -199,6 +201,7 @@
         <unsignedInt>120</unsignedInt>
         <unsignedInt>240</unsignedInt>
       </TieredUpdateTimes>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
   </CubeBlocks>

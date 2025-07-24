@@ -34,7 +34,6 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GrinderConstruction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -98,7 +97,6 @@
                 <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\GrinderConstruction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -136,8 +134,6 @@
             <IsAirTight>false</IsAirTight>
         </Definition>
 
-        <!--        Tier 2-->
-        <!--Small Grinder-->
         <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
             <Id>
                 <TypeId>ShipGrinder</TypeId>
@@ -156,14 +152,14 @@
             <UseModelIntersection>true</UseModelIntersection>
             <UsesDeformation>false</UsesDeformation>
             <Components>
-                <Component Subtype="DuraSteel" Count="30"/>
-                <Component Subtype="IonWingCircuitry" Count="35"/>
-                <Component Subtype="StandardPowerCell" Count="60" />
-                <Component Subtype="Motor" Count="30" />
-                <Component Subtype="ImperialGeneralParts" Count="45"/>
+                <Component Subtype="DuraSteel" Count="15"/>
+                <Component Subtype="IonWingCircuitry" Count="15"/>
+                <Component Subtype="StandardPowerCell" Count="20" />
+                <Component Subtype="Motor" Count="10" />
+                <Component Subtype="ImperialGeneralParts" Count="15"/>
                 <Component Subtype="Computer" Count="3"/>
                 <Component Subtype="ImperialConstruction" Count="15"/>
-                <Component Subtype="DuraSteel" Count="60"/>
+                <Component Subtype="DuraSteel" Count="5"/>
             </Components>
             <CriticalComponent Subtype="Motor" Index="0"/>
             <BuildProgressModels>
@@ -171,7 +167,6 @@
                 <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\GrinderConstruction_2.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -209,7 +204,6 @@
             <IsAirTight>false</IsAirTight>
 
         </Definition>
-        <!--Large Grinder-->
         <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
             <Id>
                 <TypeId>ShipGrinder</TypeId>
@@ -244,7 +238,6 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GrinderConstruction_3.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -279,8 +272,6 @@
 
         </Definition>
 
-        <!--        Tier 4-->
-        <!--Small Grinder-->
         <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
             <Id>
                 <TypeId>ShipGrinder</TypeId>
@@ -299,17 +290,17 @@
             <UseModelIntersection>true</UseModelIntersection>
             <UsesDeformation>false</UsesDeformation>
             <Components>
-                <Component Subtype="DuraSteel" Count="80"/>
-                <Component Subtype="StandardPowerCell" Count="125"/>
-                <Component Subtype="IonWingCircuitry" Count="35"/>
-                <Component Subtype="IonCapacitor" Count="80"/>
-                <Component Subtype="ImperialGeneralParts" Count="45"/>
-                <Component Subtype="Reactors_Ionic" Count="40"/>
-                <Component Subtype="Motor" Count="30" />
-                <Component Subtype="FissionAdvancedController" Count="50"/>
+                <Component Subtype="DuraSteel" Count="20"/>
+                <Component Subtype="StandardPowerCell" Count="25"/>
+                <Component Subtype="IonWingCircuitry" Count="15"/>
+                <Component Subtype="IonCapacitor" Count="15"/>
+                <Component Subtype="ImperialGeneralParts" Count="15"/>
+                <Component Subtype="Reactors_Ionic" Count="10"/>
+                <Component Subtype="Motor" Count="15" />
+                <Component Subtype="FissionAdvancedController" Count="10"/>
                 <Component Subtype="Computer" Count="3"/>
-                <Component Subtype="ImperialConstruction" Count="40"/>
-                <Component Subtype="DuraSteel" Count="40"/>
+                <Component Subtype="ImperialConstruction" Count="15"/>
+                <Component Subtype="DuraSteel" Count="5"/>
             </Components>
             <CriticalComponent Subtype="Motor" Index="0"/>
             <BuildProgressModels>
@@ -317,7 +308,6 @@
                 <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\GrinderConstruction_2.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -355,7 +345,6 @@
             <IsAirTight>false</IsAirTight>
 
         </Definition>
-        <!--Large Grinder-->
         <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
             <Id>
                 <TypeId>ShipGrinder</TypeId>
@@ -393,7 +382,6 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GrinderConstruction_3.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -428,8 +416,6 @@
 
         </Definition>
 
-        <!--        Tier 8-->
-        <!--Small Grinder-->
         <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
             <Id>
                 <TypeId>ShipGrinder</TypeId>
@@ -448,17 +434,17 @@
             <UseModelIntersection>true</UseModelIntersection>
             <UsesDeformation>false</UsesDeformation>
             <Components>
-                <Component Subtype="DuraSteel" Count="180"/>
-                <Component Subtype="StandardPowerCell" Count="225"/>
-                <Component Subtype="IonWingCircuitry" Count="70"/>
-                <Component Subtype="IonCapacitor" Count="175"/>
-                <Component Subtype="ImperialGeneralParts" Count="100"/>
+                <Component Subtype="DuraSteel" Count="20"/>
+                <Component Subtype="StandardPowerCell" Count="25"/>
+                <Component Subtype="IonWingCircuitry" Count="15"/>
+                <Component Subtype="IonCapacitor" Count="10"/>
+                <Component Subtype="ImperialGeneralParts" Count="15"/>
                 <Component Subtype="PolyplastCabling" Count="30"/>
-                <Component Subtype="Motor" Count="30" />
-                <Component Subtype="FissionAdvancedController" Count="50"/>
+                <Component Subtype="Motor" Count="15" />
+                <Component Subtype="FissionAdvancedController" Count="15"/>
                 <Component Subtype="Computer" Count="3"/>
-                <Component Subtype="ImperialConstruction" Count="90"/>
-                <Component Subtype="DuraSteel" Count="140"/>
+                <Component Subtype="ImperialConstruction" Count="15"/>
+                <Component Subtype="DuraSteel" Count="5"/>
             </Components>
             <CriticalComponent Subtype="Motor" Index="0"/>
             <BuildProgressModels>
@@ -466,7 +452,6 @@
                 <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\GrinderConstruction_2.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -504,7 +489,6 @@
             <IsAirTight>false</IsAirTight>
 
         </Definition>
-        <!--Large Grinder-->
         <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
             <Id>
                 <TypeId>ShipGrinder</TypeId>
@@ -542,7 +526,6 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GrinderConstruction_3.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -576,5 +559,10 @@
             <PCU>100</PCU>
 
         </Definition>
+
+
+
     </CubeBlocks>
+
+
 </Definitions>

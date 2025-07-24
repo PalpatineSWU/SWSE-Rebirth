@@ -67,7 +67,7 @@
           <SubtypeId>K_Imperial_Armor_Empire_InvertedCorner_SG</SubtypeId>
         </BlockVariant>
       </BlockVariants>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
 
@@ -130,7 +130,7 @@
       <BuildTimeSeconds>5</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
       <PCU>1</PCU>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition>
@@ -195,7 +195,7 @@
       <DisassembleRatio>2.5</DisassembleRatio>
       <PCU>1</PCU>
       <IsAirTight>false</IsAirTight>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition>
@@ -265,7 +265,7 @@
       <BuildTimeSeconds>7</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
       <PCU>1</PCU>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition>
@@ -310,7 +310,7 @@
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <PCU>1</PCU>
       <IsAirTight>true</IsAirTight>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
       <BlockVariants>
       </BlockVariants>
     </Definition>
@@ -379,7 +379,7 @@
           <SubtypeId>K_Imperial_Armor_Beskar_InvertedCorner_SG</SubtypeId>
         </BlockVariant>
       </BlockVariants>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
 
@@ -442,7 +442,7 @@
       <BuildTimeSeconds>5</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
       <PCU>1</PCU>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition>
@@ -507,7 +507,7 @@
       <DisassembleRatio>2.5</DisassembleRatio>
       <PCU>1</PCU>
       <IsAirTight>false</IsAirTight>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition>
@@ -577,7 +577,7 @@
       <BuildTimeSeconds>7</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
       <PCU>1</PCU>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition>
@@ -622,7 +622,7 @@
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <PCU>1</PCU>
       <IsAirTight>true</IsAirTight>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
       <BlockVariants>
       </BlockVariants>
     </Definition>
@@ -692,7 +692,7 @@
           <SubtypeId>K_Imperial_Armor_Beskar_InvertedCorner</SubtypeId>
         </BlockVariant>
       </BlockVariants>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
 
@@ -755,7 +755,7 @@
       <BuildTimeSeconds>5</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
       <PCU>1</PCU>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition>
@@ -820,7 +820,7 @@
       <DisassembleRatio>2.5</DisassembleRatio>
       <PCU>1</PCU>
       <IsAirTight>false</IsAirTight>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition>
@@ -890,7 +890,7 @@
       <BuildTimeSeconds>7</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
       <PCU>1</PCU>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition>
@@ -935,7 +935,7 @@
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <PCU>1</PCU>
       <IsAirTight>true</IsAirTight>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
       <BlockVariants>
       </BlockVariants>
     </Definition>
@@ -982,7 +982,7 @@
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <PCU>1</PCU>
       <IsAirTight>true</IsAirTight>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
 
     </Definition>
 
@@ -1028,7 +1028,7 @@
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <PCU>1</PCU>
       <IsAirTight>true</IsAirTight>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
 
     </Definition>
 
@@ -1097,7 +1097,7 @@
           <SubtypeId>K_Imperial_Armor_Phrik_InvertedCorner_SG</SubtypeId>
         </BlockVariant>
       </BlockVariants>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
 
@@ -1160,7 +1160,7 @@
       <BuildTimeSeconds>5</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
       <PCU>1</PCU>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition>
@@ -1225,7 +1225,7 @@
       <DisassembleRatio>2.5</DisassembleRatio>
       <PCU>1</PCU>
       <IsAirTight>false</IsAirTight>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition>
@@ -1295,7 +1295,7 @@
       <BuildTimeSeconds>7</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
       <PCU>1</PCU>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition>
@@ -1340,7 +1340,7 @@
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <PCU>1</PCU>
       <IsAirTight>true</IsAirTight>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
       <BlockVariants>
       </BlockVariants>
     </Definition>
@@ -1410,7 +1410,7 @@
           <SubtypeId>K_Imperial_Armor_Phrik_InvertedCorner</SubtypeId>
         </BlockVariant>
       </BlockVariants>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
 
@@ -1473,7 +1473,7 @@
       <BuildTimeSeconds>5</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
       <PCU>1</PCU>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition>
@@ -1538,7 +1538,7 @@
       <DisassembleRatio>2.5</DisassembleRatio>
       <PCU>1</PCU>
       <IsAirTight>false</IsAirTight>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition>
@@ -1608,7 +1608,7 @@
       <BuildTimeSeconds>7</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
       <PCU>1</PCU>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition>
@@ -1653,7 +1653,7 @@
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <PCU>1</PCU>
       <IsAirTight>true</IsAirTight>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
       <BlockVariants>
       </BlockVariants>
     </Definition>
@@ -1700,7 +1700,7 @@
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <PCU>1</PCU>
       <IsAirTight>true</IsAirTight>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
 
     </Definition>
 
@@ -1746,7 +1746,7 @@
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <PCU>1</PCU>
       <IsAirTight>true</IsAirTight>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
 
     </Definition>
 
@@ -1818,7 +1818,7 @@
           <SubtypeId>K_Imperial_Armor_Impervium_InvertedCorner_SG</SubtypeId>
         </BlockVariant>
       </BlockVariants>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
 
@@ -1881,7 +1881,7 @@
       <BuildTimeSeconds>5</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
       <PCU>1</PCU>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition>
@@ -1946,7 +1946,7 @@
       <DisassembleRatio>2.5</DisassembleRatio>
       <PCU>1</PCU>
       <IsAirTight>false</IsAirTight>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition>
@@ -2016,7 +2016,7 @@
       <BuildTimeSeconds>7</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
       <PCU>1</PCU>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition>
@@ -2061,7 +2061,7 @@
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <PCU>1</PCU>
       <IsAirTight>true</IsAirTight>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
       <BlockVariants>
       </BlockVariants>
     </Definition>
@@ -2131,7 +2131,7 @@
           <SubtypeId>K_Imperial_Armor_Impervium_InvertedCorner</SubtypeId>
         </BlockVariant>
       </BlockVariants>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
 
@@ -2194,7 +2194,7 @@
       <BuildTimeSeconds>5</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
       <PCU>1</PCU>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition>
@@ -2259,7 +2259,7 @@
       <DisassembleRatio>2.5</DisassembleRatio>
       <PCU>1</PCU>
       <IsAirTight>false</IsAirTight>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition>
@@ -2329,7 +2329,7 @@
       <BuildTimeSeconds>7</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
       <PCU>1</PCU>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition>
@@ -2374,7 +2374,7 @@
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <PCU>1</PCU>
       <IsAirTight>true</IsAirTight>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
       <BlockVariants>
       </BlockVariants>
     </Definition>
@@ -2421,7 +2421,7 @@
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <PCU>1</PCU>
       <IsAirTight>true</IsAirTight>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
 
     </Definition>
 
@@ -2467,7 +2467,7 @@
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <PCU>1</PCU>
       <IsAirTight>true</IsAirTight>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
 
     </Definition>
 

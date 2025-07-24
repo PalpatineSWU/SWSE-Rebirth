@@ -232,13 +232,13 @@
       <CharacterAnimation>K_Animation_Engineer_AWing</CharacterAnimation>
       <UsesDeformation>false</UsesDeformation>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="100" />
-        <Component Subtype="ImperialConstruction" Count="200" />
+        <Component Subtype="LightweightDurasteel" Count="10" />
+        <Component Subtype="ImperialConstruction" Count="20" />
         <Component Subtype="StandardCabling" Count="50" />
-        <Component Subtype="LightweightDurasteel" Count="100" />
-        <Component Subtype="Computer" Count="250" />
-        <Component Subtype="LightweightDurasteel" Count="550" />
-        <Component Subtype="TranspariSteel" Count="300" />
+        <Component Subtype="LightweightDurasteel" Count="10" />
+        <Component Subtype="Computer" Count="25" />
+        <Component Subtype="LightweightDurasteel" Count="55" />
+        <Component Subtype="TranspariSteel" Count="30" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
 
@@ -287,12 +287,12 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\NewRepublic\I4Ionizer\K_NR_Ionizer_Gyro_Small.mwm</Model>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="750" />
-        <Component Subtype="ImperialConstruction" Count="250" />
+        <Component Subtype="LightweightDurasteel" Count="75" />
+        <Component Subtype="ImperialConstruction" Count="25" />
         <Component Subtype="StandardCabling" Count="50" />
-        <Component Subtype="Motor" Count="100" />
-        <Component Subtype="Computer" Count="150" />
-        <Component Subtype="LightweightDurasteel" Count="500" />
+        <Component Subtype="Motor" Count="10" />
+        <Component Subtype="Computer" Count="15" />
+        <Component Subtype="LightweightDurasteel" Count="50" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BlockPairName>Ionizer_Gyro</BlockPairName>
@@ -331,17 +331,17 @@
       <Model>Models\NewRepublic\I4Ionizer\K_NR_Ionizer_Reactor_Small.mwm</Model>
       <BlockPairName>Ionizer_Reactor</BlockPairName>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="180" />
-        <Component Subtype="ImperialConstruction" Count="90" />
+        <Component Subtype="LightweightDurasteel" Count="18" />
+        <Component Subtype="ImperialConstruction" Count="9" />
         <Component Subtype="AlternatePowerCell" Count="180">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="180" />
-        <Component Subtype="ImperialConstruction" Count="90" />
-        <Component Subtype="LightweightDurasteel" Count="180" />
+        <Component Subtype="Computer" Count="18" />
+        <Component Subtype="ImperialConstruction" Count="9" />
+        <Component Subtype="LightweightDurasteel" Count="18" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <EdgeType>Light</EdgeType>
@@ -399,16 +399,7 @@
         <Component Subtype="LightweightDurasteel" Count="30" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="6" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="6" />
-      </MountPoints>
       <MirroringX>Y</MirroringX>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SolarHydroponicsConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarHydroponicsConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarHydroponicsConstruction_3.mwm" />
-      </BuildProgressModels>
       <BlockPairName>Ionizer_LifeSupport</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
@@ -435,6 +426,7 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>25</PCU>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
@@ -497,7 +489,7 @@
         <string>PowerSystems</string>
       </TargetingGroups>
       <InitialStoredPowerRatio>0.5</InitialStoredPowerRatio>
-      <GeneralDamageMultiplier>1</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
@@ -598,7 +590,7 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>1.5</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>0</FlameDamageLengthScale>
       <FlameDamage>0</FlameDamage>
@@ -675,7 +667,7 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>1.5</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>0</FlameDamageLengthScale>
       <FlameDamage>0</FlameDamage>
@@ -750,7 +742,7 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>1.5</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>0</FlameDamageLengthScale>
       <FlameDamage>0</FlameDamage>
@@ -823,7 +815,7 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>1.5</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>0</FlameDamageLengthScale>
       <FlameDamage>0</FlameDamage>

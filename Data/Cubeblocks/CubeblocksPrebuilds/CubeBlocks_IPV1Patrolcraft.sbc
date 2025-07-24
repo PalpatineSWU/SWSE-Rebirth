@@ -41,7 +41,7 @@
       <DestroySound>K_Imperial_Explosion_Generic</DestroySound>
       <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
-      <GeneralDamageMultiplier>0.6</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_GyroDefinition">
@@ -78,7 +78,7 @@
       <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
       <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
-      <GeneralDamageMultiplier>0.6</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
@@ -117,7 +117,7 @@
       <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
       <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
-      <GeneralDamageMultiplier>0.6</GeneralDamageMultiplier>
+      
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
@@ -213,7 +213,7 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>1.5</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>0</FlameDamageLengthScale>
       <FlameDamage>0</FlameDamage>
@@ -241,7 +241,7 @@
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
       <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
       <EmissiveColorPreset>K_Imperial_Ship_EmissiveSet</EmissiveColorPreset>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 -->
   </CubeBlocks>

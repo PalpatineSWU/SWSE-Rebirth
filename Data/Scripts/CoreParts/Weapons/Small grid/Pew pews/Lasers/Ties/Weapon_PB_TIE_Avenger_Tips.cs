@@ -22,7 +22,7 @@ namespace Scripts {
                         MuzzlePartId = "Avenger_Wing_Ele", // The subpart where your muzzle empties are located. This is often the elevation subpart.
                         AzimuthPartId = "Avenger_Wing_I", // Your Rotating Subpart, the bit that moves sideways
                         ElevationPartId = "Avenger_Wing_Ele",// Your Elevating Subpart, that bit that moves up
-                        DurabilityMod = 0.25f, // GeneralDamageMultiplier, 0.25f = 25% damage taken.
+                        DurabilityMod = 1f, // GeneralDamageMultiplier, 0.25f = 25% damage taken.
                         IconName = "Laser turrets.dds" // Overlay for block inventory slots, like reactors, refineries, etc.
                     },
                     
@@ -32,7 +32,7 @@ namespace Scripts {
                         MuzzlePartId = "Avenger_Wing_Ele", // The subpart where your muzzle empties are located. This is often the elevation subpart.
                         AzimuthPartId = "Avenger_Wing_II", // Your Rotating Subpart, the bit that moves sideways
                         ElevationPartId = "Avenger_Wing_Ele",// Your Elevating Subpart, that bit that moves up
-                        DurabilityMod = 0.25f, // GeneralDamageMultiplier, 0.25f = 25% damage taken.
+                        DurabilityMod = 1f, // GeneralDamageMultiplier, 0.25f = 25% damage taken.
                         IconName = "Laser turrets.dds" // Overlay for block inventory slots, like reactors, refineries, etc.
                     },
                     

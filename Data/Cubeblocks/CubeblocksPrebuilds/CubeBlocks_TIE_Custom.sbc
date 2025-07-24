@@ -136,8 +136,8 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\TIE_Custom\K_TIE_CustomI_Arm_Small.mwm</Model>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="90" />
-        <Component Subtype="ImperialConstruction" Count="45" />
+        <Component Subtype="LightweightDurasteel" Count="18" />
+        <Component Subtype="ImperialConstruction" Count="10" />
         <Component Subtype="AlternatePowerCell" Count="90">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -145,8 +145,8 @@
           </DeconstructId>
         </Component>
         <Component Subtype="Computer" Count="90" />
-        <Component Subtype="ImperialConstruction" Count="45" />
-        <Component Subtype="LightweightDurasteel" Count="90" />
+        <Component Subtype="ImperialConstruction" Count="10" />
+        <Component Subtype="LightweightDurasteel" Count="18" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BlockPairName>K_TIE_Armored_BatteryStrut</BlockPairName>
@@ -275,11 +275,11 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\TIE_Custom\K_TIE_CustomII_Wing_Small.mwm</Model>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="70" />
+        <Component Subtype="LightweightDurasteel" Count="18" />
         <Component Subtype="Computer" Count="3" />
         <Component Subtype="IonWingCircuitry" Count="15" />
         <Component Subtype="TranspariSteel" Count="15" />
-        <Component Subtype="LightweightDurasteel" Count="70" />
+        <Component Subtype="LightweightDurasteel" Count="18" />
       </Components>
       <CriticalComponent Subtype="TranspariSteel" Index="0" />
       <BlockPairName>K_TIE_CustomII_Wing</BlockPairName>
@@ -314,11 +314,11 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\TIE_Custom\K_TIE_CustomII_Wing_Armor_Small.mwm</Model>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="70" />
+        <Component Subtype="LightweightDurasteel" Count="18" />
         <Component Subtype="Computer" Count="3" />
         <Component Subtype="IonWingCircuitry" Count="15" />
         <Component Subtype="TranspariSteel" Count="15" />
-        <Component Subtype="LightweightDurasteel" Count="70" />
+        <Component Subtype="LightweightDurasteel" Count="18" />
       </Components>
       <CriticalComponent Subtype="TranspariSteel" Index="0" />
       <BlockPairName>K_TIE_CustomII_Wing_Armor</BlockPairName>
@@ -421,11 +421,11 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\TIE_Drone\K_TIE_Drone_CI_Wing_Small.mwm</Model>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="20" />
+        <Component Subtype="LightweightDurasteel" Count="18" />
         <Component Subtype="Computer" Count="3" />
         <Component Subtype="IonWingCircuitry" Count="15" />
         <Component Subtype="TranspariSteel" Count="15" />
-        <Component Subtype="LightweightDurasteel" Count="20" />
+        <Component Subtype="LightweightDurasteel" Count="18" />
       </Components>
       <CriticalComponent Subtype="TranspariSteel" Index="0" />
       <BlockPairName>K_TIE_Drone_CI_Wing</BlockPairName>
@@ -454,7 +454,7 @@
       <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
-      <BlockTopology>Cube</BlockTopology>
+      <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="13" z="7" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\TIE_Custom\K_TIE_CustomII_Wing_CannonArray_Small.mwm</Model>
@@ -488,7 +488,7 @@
       <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
-      <BlockTopology>Cube</BlockTopology>
+      <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="13" z="7" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\TIE_Custom\K_TIE_CustomII_Wing_MissileLauncher_Small.mwm</Model>
@@ -532,13 +532,13 @@
       <CharacterAnimation>cockpit1_small</CharacterAnimation>
       <UsesDeformation>false</UsesDeformation>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="100" />
-        <Component Subtype="ImperialConstruction" Count="200" />
+        <Component Subtype="LightweightDurasteel" Count="10" />
+        <Component Subtype="ImperialConstruction" Count="20" />
         <Component Subtype="StandardCabling" Count="50" />
-        <Component Subtype="LightweightDurasteel" Count="100" />
+        <Component Subtype="LightweightDurasteel" Count="10" />
         <Component Subtype="Computer" Count="250" />
-        <Component Subtype="LightweightDurasteel" Count="550" />
-        <Component Subtype="TranspariSteel" Count="300" />
+        <Component Subtype="LightweightDurasteel" Count="55" />
+        <Component Subtype="TranspariSteel" Count="30" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BlockPairName>K_TIE_Fighter_Cockpit_Tailored_I</BlockPairName>
@@ -579,9 +579,9 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\TIE_Custom\K_TIE_Drone_Wing_WRIII_Small.mwm</Model>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="100" />
+        <Component Subtype="LightweightDurasteel" Count="10" />
         <Component Subtype="Computer" Count="3" />
-        <Component Subtype="LightweightDurasteel" Count="100" />
+        <Component Subtype="LightweightDurasteel" Count="10" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BlockPairName>K_TIE_WRIII_Wing</BlockPairName>
@@ -614,11 +614,11 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\TIE_Custom\K_TIE_V7_X1C_Small.mwm</Model>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="30" />
+        <Component Subtype="LightweightDurasteel" Count="18" />
         <Component Subtype="Computer" Count="3" />
         <Component Subtype="IonWingCircuitry" Count="15" />
         <Component Subtype="TranspariSteel" Count="15" />
-        <Component Subtype="LightweightDurasteel" Count="30" />
+        <Component Subtype="LightweightDurasteel" Count="18" />
       </Components>
       <CriticalComponent Subtype="TranspariSteel" Index="0" />
       <BlockPairName>K_TIE_Custom_V7_Wing</BlockPairName>
@@ -733,11 +733,11 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\TIE_Custom\K_TIE_V7_Wing_Small.mwm</Model>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="30" />
+        <Component Subtype="LightweightDurasteel" Count="18" />
         <Component Subtype="Computer" Count="3" />
         <Component Subtype="IonWingCircuitry" Count="15" />
         <Component Subtype="TranspariSteel" Count="15" />
-        <Component Subtype="LightweightDurasteel" Count="40" />
+        <Component Subtype="LightweightDurasteel" Count="18" />
       </Components>
       <CriticalComponent Subtype="TranspariSteel" Index="0" />
       <MountPoints>
@@ -784,13 +784,13 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\TIE_Custom\K_TIE_Mangler_Small.mwm</Model>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="20" />
+        <Component Subtype="LightweightDurasteel" Count="18" />
         <Component Subtype="Computer" Count="3" />
         <Component Subtype="IonWingCircuitry" Count="15" />
         <Component Subtype="TurboLaser_Part" Count="2" />
         <Component Subtype="TurboLaser_Part" Count="1" />
         <Component Subtype="TranspariSteel" Count="15" />
-        <Component Subtype="LightweightDurasteel" Count="50" />
+        <Component Subtype="LightweightDurasteel" Count="18" />
       </Components>
       <CriticalComponent Subtype="TranspariSteel" Index="0" />
       <BlockPairName>K_TIE_Mangler_TurbolaserWing</BlockPairName>

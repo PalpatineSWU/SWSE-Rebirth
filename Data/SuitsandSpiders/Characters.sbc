@@ -1,6 +1,9 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Characters>
+
+
+                <!--
     <Character>
       <Id>
         <TypeId>MyObjectBuilder_Character</TypeId>
@@ -18,7 +21,6 @@
 
       <AnimationController>k_starwars_empire_pilot_ii</AnimationController>
 
-      <!-- ENABLED COMPONENTS -->
       <EnabledComponents>RagdollComponent InventorySpawnComponent</EnabledComponents>
 
       <EnableSpawnInventoryAsContainer>true</EnableSpawnInventoryAsContainer>
@@ -37,7 +39,6 @@
       <UsesAtmosphereDetector>true</UsesAtmosphereDetector>
       <UsesReverbDetector>true</UsesReverbDetector>
 
-      <!-- CHARACTER CONTROL -->
       <UseOnlyWalking>false</UseOnlyWalking>
 
       <MaxSlope>80</MaxSlope>
@@ -58,11 +59,7 @@
       <JumpForce>3</JumpForce>
 
       <CharacterHeadSize>0.4</CharacterHeadSize>
-      <!-- <CharacterHeadSize>0.45</CharacterHeadSize>
-    <CharacterHeadHeight>0.25</CharacterHeadHeight>
-    <CharacterCollisionScale>1.1</CharacterCollisionScale> -->
 
-      <!-- BONE DEFINITIONS - MUST BE UPDATED IF SKELETON CHANGES - BONE NAMES CAN BE REVIEWED IN MODELVIEWER -->
       <HeadBone>HeadDummy</HeadBone>
       <Camera3rdBone>ThirdCameraDummy</Camera3rdBone>
       <LeftHandIKStartBone>SE_RigLUpperarm</LeftHandIKStartBone>
@@ -104,7 +101,6 @@
       <PressureLevelForLowDamage>0.25</PressureLevelForLowDamage>
       <DamageAmountAtZeroPressure>1</DamageAmountAtZeroPressure>
       <NeedsOxygen>false</NeedsOxygen>
-      <!--<HelmetVariation>Engineer_suit_no_helmet</HelmetVariation>-->
 
       <SuitResourceStorage>
         <Resource>
@@ -142,7 +138,6 @@
         </Thrusts>
 
         <ThrustProperties>
-          <!-- Properties applied once to each direction -->
           <ResourceSinkGroup>Thrust</ResourceSinkGroup>
           <ForceMagnitude>1600</ForceMagnitude>
           <SlowdownFactor>10</SlowdownFactor>
@@ -164,18 +159,6 @@
           </FuelConverter>
 
           <FlameLengthScale>1.2</FlameLengthScale>
-          <!--<FlameIdleColor>
-            <X>0.2745098</X>
-            <Y>0.4090196</Y>
-            <Z>0.6505882</Z>
-            <W>0.75</W>
-          </FlameIdleColor>
-          <FlameFullColor>
-            <X>0.2745098</X>
-            <Y>0.4090196</Y>
-            <Z>0.6505882</Z>
-            <W>0.75</W>
-          </FlameFullColor>-->
           <FlameIdleColor>
             <X>0.08</X>
             <Y>0.47</Y>
@@ -197,7 +180,6 @@
         </ThrustProperties>
       </Jetpack>
 
-      <!-- Bone sets -->
       <BoneSets>
         <BoneSet>
           <Name>Head</Name>
@@ -229,7 +211,6 @@
         </BoneSet>
       </BoneSets>
 
-      <!-- LODs -->
       <BoneLODs>
         <BoneSet>
           <Name>10</Name>
@@ -237,11 +218,9 @@
         </BoneSet>
       </BoneLODs>
 
-      <!-- Ragdoll definitions -->
       <RagdollRootBody>Ragdoll_SE_rig_Pelvis001</RagdollRootBody>
       <RagdollDataFile>Models\Characters\Astronaut\SE_astronaut.hkt</RagdollDataFile>
       <RagdollBonesMappings>
-        <!-- Always need to be at least the root bone and the last bone -->
         <BoneSet>
           <Name>Ragdoll_SE_rig_Pelvis001</Name>
           <Bones>SE_RigPelvis SE_RigSpine1</Bones>
@@ -323,7 +302,6 @@
         </BoneSet>
       </RagdollPartialSimulations>
 
-      <!-- for feet IK placement -->
       <FeetIKEnabled>false</FeetIKEnabled>
       <ModelRootBoneName>RootNode</ModelRootBoneName>
       <LeftHipBoneName>SE_RigLThigh</LeftHipBoneName>
@@ -392,7 +370,6 @@
         <Mapping Name="HelmetClose" AnimationSubtypeName="HelmetClose" />
       </AnimationMappings>
 
-      <!-- SOUND DEFINITION -->
       <JumpSoundName>PlayJump</JumpSoundName>
 
       <JetpackIdleSoundName>PlayJet</JetpackIdleSoundName>
@@ -445,7 +422,6 @@
 
       <AnimationController>k_starwars_empire_specialtrooper_i</AnimationController>
 
-      <!-- ENABLED COMPONENTS -->
       <EnabledComponents>RagdollComponent InventorySpawnComponent</EnabledComponents>
 
       <EnableSpawnInventoryAsContainer>true</EnableSpawnInventoryAsContainer>
@@ -464,7 +440,6 @@
       <UsesAtmosphereDetector>true</UsesAtmosphereDetector>
       <UsesReverbDetector>true</UsesReverbDetector>
 
-      <!-- CHARACTER CONTROL -->
       <UseOnlyWalking>false</UseOnlyWalking>
 
       <MaxSlope>91</MaxSlope>
@@ -485,11 +460,6 @@
       <JumpForce>5</JumpForce>
 
       <CharacterHeadSize>0.4</CharacterHeadSize>
-      <!-- <CharacterHeadSize>0.45</CharacterHeadSize>
-    <CharacterHeadHeight>0.25</CharacterHeadHeight>
-    <CharacterCollisionScale>1.1</CharacterCollisionScale> -->
-
-      <!-- BONE DEFINITIONS - MUST BE UPDATED IF SKELETON CHANGES - BONE NAMES CAN BE REVIEWED IN MODELVIEWER -->
       <HeadBone>HeadDummy</HeadBone>
       <Camera3rdBone>ThirdCameraDummy</Camera3rdBone>
       <LeftHandIKStartBone>SE_RigLUpperarm</LeftHandIKStartBone>
@@ -529,7 +499,6 @@
       <PressureLevelForLowDamage>0.5</PressureLevelForLowDamage>
       <DamageAmountAtZeroPressure>5</DamageAmountAtZeroPressure>
       <NeedsOxygen>false</NeedsOxygen>
-      <!--<HelmetVariation>Engineer_suit_no_helmet</HelmetVariation>-->
 
       <SuitResourceStorage>
         <Resource>
@@ -567,7 +536,6 @@
         </Thrusts>
 
         <ThrustProperties>
-          <!-- Properties applied once to each direction -->
           <ResourceSinkGroup>Thrust</ResourceSinkGroup>
           <ForceMagnitude>20200</ForceMagnitude>
           <SlowdownFactor>24</SlowdownFactor>
@@ -589,18 +557,6 @@
           </FuelConverter>
 
           <FlameLengthScale>1.2</FlameLengthScale>
-          <!--<FlameIdleColor>
-            <X>0.2745098</X>
-            <Y>0.4090196</Y>
-            <Z>0.6505882</Z>
-            <W>0.75</W>
-          </FlameIdleColor>
-          <FlameFullColor>
-            <X>0.2745098</X>
-            <Y>0.4090196</Y>
-            <Z>0.6505882</Z>
-            <W>0.75</W>
-          </FlameFullColor>-->
           <FlameIdleColor>
             <X>0.08</X>
             <Y>0.47</Y>
@@ -622,7 +578,6 @@
         </ThrustProperties>
       </Jetpack>
 
-      <!-- Bone sets -->
       <BoneSets>
         <BoneSet>
           <Name>Head</Name>
@@ -654,7 +609,6 @@
         </BoneSet>
       </BoneSets>
 
-      <!-- LODs -->
       <BoneLODs>
         <BoneSet>
           <Name>10</Name>
@@ -662,11 +616,9 @@
         </BoneSet>
       </BoneLODs>
 
-      <!-- Ragdoll definitions -->
       <RagdollRootBody>Ragdoll_SE_rig_Pelvis001</RagdollRootBody>
       <RagdollDataFile>Models\Characters\Astronaut\SE_astronaut.hkt</RagdollDataFile>
       <RagdollBonesMappings>
-        <!-- Always need to be at least the root bone and the last bone -->
         <BoneSet>
           <Name>Ragdoll_SE_rig_Pelvis001</Name>
           <Bones>SE_RigPelvis SE_RigSpine1</Bones>
@@ -748,7 +700,6 @@
         </BoneSet>
       </RagdollPartialSimulations>
 
-      <!-- for feet IK placement -->
       <FeetIKEnabled>false</FeetIKEnabled>
       <ModelRootBoneName>RootNode</ModelRootBoneName>
       <LeftHipBoneName>SE_RigLThigh</LeftHipBoneName>
@@ -817,7 +768,6 @@
         <Mapping Name="HelmetClose" AnimationSubtypeName="HelmetClose" />
       </AnimationMappings>
 
-      <!-- SOUND DEFINITION -->
       <JumpSoundName>PlayJump</JumpSoundName>
 
       <JetpackIdleSoundName>PlayJet</JetpackIdleSoundName>
@@ -871,7 +821,6 @@
 
       <AnimationController>k_starwars_empire_miner_i</AnimationController>
 
-      <!-- ENABLED COMPONENTS -->
       <EnabledComponents>RagdollComponent InventorySpawnComponent</EnabledComponents>
 
       <EnableSpawnInventoryAsContainer>true</EnableSpawnInventoryAsContainer>
@@ -890,7 +839,6 @@
       <UsesAtmosphereDetector>true</UsesAtmosphereDetector>
       <UsesReverbDetector>true</UsesReverbDetector>
 
-      <!-- CHARACTER CONTROL -->
       <UseOnlyWalking>false</UseOnlyWalking>
 
       <MaxSlope>50</MaxSlope>
@@ -911,11 +859,6 @@
       <JumpForce>5</JumpForce>
 
       <CharacterHeadSize>0.4</CharacterHeadSize>
-      <!-- <CharacterHeadSize>0.45</CharacterHeadSize>
-    <CharacterHeadHeight>0.25</CharacterHeadHeight>
-    <CharacterCollisionScale>1.1</CharacterCollisionScale> -->
-
-      <!-- BONE DEFINITIONS - MUST BE UPDATED IF SKELETON CHANGES - BONE NAMES CAN BE REVIEWED IN MODELVIEWER -->
       <HeadBone>HeadDummy</HeadBone>
       <Camera3rdBone>ThirdCameraDummy</Camera3rdBone>
       <LeftHandIKStartBone>SE_RigLUpperarm</LeftHandIKStartBone>
@@ -955,7 +898,6 @@
       <PressureLevelForLowDamage>0.5</PressureLevelForLowDamage>
       <DamageAmountAtZeroPressure>4</DamageAmountAtZeroPressure>
       <NeedsOxygen>false</NeedsOxygen>
-      <!--<HelmetVariation>Engineer_suit_no_helmet</HelmetVariation>-->
 
       <SuitResourceStorage>
         <Resource>
@@ -993,7 +935,6 @@
         </Thrusts>
 
         <ThrustProperties>
-          <!-- Properties applied once to each direction -->
           <ResourceSinkGroup>Thrust</ResourceSinkGroup>
           <ForceMagnitude>3600</ForceMagnitude>
           <SlowdownFactor>5</SlowdownFactor>
@@ -1015,18 +956,6 @@
           </FuelConverter>
 
           <FlameLengthScale>1.2</FlameLengthScale>
-          <!--<FlameIdleColor>
-            <X>0.2745098</X>
-            <Y>0.4090196</Y>
-            <Z>0.6505882</Z>
-            <W>0.75</W>
-          </FlameIdleColor>
-          <FlameFullColor>
-            <X>0.2745098</X>
-            <Y>0.4090196</Y>
-            <Z>0.6505882</Z>
-            <W>0.75</W>
-          </FlameFullColor>-->
           <FlameIdleColor>
             <X>0.08</X>
             <Y>0.47</Y>
@@ -1048,7 +977,6 @@
         </ThrustProperties>
       </Jetpack>
 
-      <!-- Bone sets -->
       <BoneSets>
         <BoneSet>
           <Name>Head</Name>
@@ -1080,7 +1008,6 @@
         </BoneSet>
       </BoneSets>
 
-      <!-- LODs -->
       <BoneLODs>
         <BoneSet>
           <Name>10</Name>
@@ -1088,11 +1015,9 @@
         </BoneSet>
       </BoneLODs>
 
-      <!-- Ragdoll definitions -->
       <RagdollRootBody>Ragdoll_SE_rig_Pelvis001</RagdollRootBody>
       <RagdollDataFile>Models\Characters\Astronaut\SE_astronaut.hkt</RagdollDataFile>
       <RagdollBonesMappings>
-        <!-- Always need to be at least the root bone and the last bone -->
         <BoneSet>
           <Name>Ragdoll_SE_rig_Pelvis001</Name>
           <Bones>SE_RigPelvis SE_RigSpine1</Bones>
@@ -1174,7 +1099,6 @@
         </BoneSet>
       </RagdollPartialSimulations>
 
-      <!-- for feet IK placement -->
       <FeetIKEnabled>false</FeetIKEnabled>
       <ModelRootBoneName>RootNode</ModelRootBoneName>
       <LeftHipBoneName>SE_RigLThigh</LeftHipBoneName>
@@ -1243,7 +1167,6 @@
         <Mapping Name="HelmetClose" AnimationSubtypeName="HelmetClose" />
       </AnimationMappings>
 
-      <!-- SOUND DEFINITION -->
       <JumpSoundName>PlayJump</JumpSoundName>
 
       <JetpackIdleSoundName>PlayJet</JetpackIdleSoundName>
@@ -1298,7 +1221,6 @@
 
       <AnimationController>k_starwars_empire_kreegtechnication_i</AnimationController>
 
-      <!-- ENABLED COMPONENTS -->
       <EnabledComponents>RagdollComponent InventorySpawnComponent</EnabledComponents>
 
       <EnableSpawnInventoryAsContainer>true</EnableSpawnInventoryAsContainer>
@@ -1317,7 +1239,6 @@
       <UsesAtmosphereDetector>true</UsesAtmosphereDetector>
       <UsesReverbDetector>true</UsesReverbDetector>
 
-      <!-- CHARACTER CONTROL -->
       <UseOnlyWalking>false</UseOnlyWalking>
 
       <MaxSlope>60</MaxSlope>
@@ -1338,11 +1259,6 @@
       <JumpForce>5</JumpForce>
 
       <CharacterHeadSize>0.4</CharacterHeadSize>
-      <!-- <CharacterHeadSize>0.45</CharacterHeadSize>
-    <CharacterHeadHeight>0.25</CharacterHeadHeight>
-    <CharacterCollisionScale>1.1</CharacterCollisionScale> -->
-
-      <!-- BONE DEFINITIONS - MUST BE UPDATED IF SKELETON CHANGES - BONE NAMES CAN BE REVIEWED IN MODELVIEWER -->
       <HeadBone>HeadDummy</HeadBone>
       <Camera3rdBone>ThirdCameraDummy</Camera3rdBone>
       <LeftHandIKStartBone>SE_RigLUpperarm</LeftHandIKStartBone>
@@ -1385,7 +1301,6 @@
       <PressureLevelForLowDamage>0.5</PressureLevelForLowDamage>
       <DamageAmountAtZeroPressure>4</DamageAmountAtZeroPressure>
       <NeedsOxygen>false</NeedsOxygen>
-      <!--<HelmetVariation>Engineer_suit_no_helmet</HelmetVariation>-->
 
       <SuitResourceStorage>
         <Resource>
@@ -1423,7 +1338,6 @@
         </Thrusts>
 
         <ThrustProperties>
-          <!-- Properties applied once to each direction -->
           <ResourceSinkGroup>Thrust</ResourceSinkGroup>
           <ForceMagnitude>2000</ForceMagnitude>
           <SlowdownFactor>5</SlowdownFactor>
@@ -1445,18 +1359,6 @@
           </FuelConverter>
 
           <FlameLengthScale>1.2</FlameLengthScale>
-          <!--<FlameIdleColor>
-            <X>0.2745098</X>
-            <Y>0.4090196</Y>
-            <Z>0.6505882</Z>
-            <W>0.75</W>
-          </FlameIdleColor>
-          <FlameFullColor>
-            <X>0.2745098</X>
-            <Y>0.4090196</Y>
-            <Z>0.6505882</Z>
-            <W>0.75</W>
-          </FlameFullColor>-->
           <FlameIdleColor>
             <X>0.08</X>
             <Y>0.47</Y>
@@ -1478,7 +1380,6 @@
         </ThrustProperties>
       </Jetpack>
 
-      <!-- Bone sets -->
       <BoneSets>
         <BoneSet>
           <Name>Head</Name>
@@ -1510,7 +1411,6 @@
         </BoneSet>
       </BoneSets>
 
-      <!-- LODs -->
       <BoneLODs>
         <BoneSet>
           <Name>10</Name>
@@ -1518,11 +1418,9 @@
         </BoneSet>
       </BoneLODs>
 
-      <!-- Ragdoll definitions -->
       <RagdollRootBody>Ragdoll_SE_rig_Pelvis001</RagdollRootBody>
       <RagdollDataFile>Models\Characters\Astronaut\SE_astronaut.hkt</RagdollDataFile>
       <RagdollBonesMappings>
-        <!-- Always need to be at least the root bone and the last bone -->
         <BoneSet>
           <Name>Ragdoll_SE_rig_Pelvis001</Name>
           <Bones>SE_RigPelvis SE_RigSpine1</Bones>
@@ -1604,7 +1502,6 @@
         </BoneSet>
       </RagdollPartialSimulations>
 
-      <!-- for feet IK placement -->
       <FeetIKEnabled>false</FeetIKEnabled>
       <ModelRootBoneName>RootNode</ModelRootBoneName>
       <LeftHipBoneName>SE_RigLThigh</LeftHipBoneName>
@@ -1673,7 +1570,6 @@
         <Mapping Name="HelmetClose" AnimationSubtypeName="HelmetClose" />
       </AnimationMappings>
 
-      <!-- SOUND DEFINITION -->
       <JumpSoundName>PlayJump</JumpSoundName>
 
       <JetpackIdleSoundName>PlayJet</JetpackIdleSoundName>
@@ -1710,7 +1606,6 @@
     </Character>
 
   
-	 <!-- Chiss Units -->
    <Character>
       <Id>
         <TypeId>MyObjectBuilder_Character</TypeId>
@@ -1728,7 +1623,6 @@
 
       <AnimationController>k_sw_chiss_engineer_i</AnimationController>
 
-      <!-- ENABLED COMPONENTS -->
       <EnabledComponents>RagdollComponent InventorySpawnComponent</EnabledComponents>
 
       <EnableSpawnInventoryAsContainer>true</EnableSpawnInventoryAsContainer>
@@ -1747,7 +1641,6 @@
       <UsesAtmosphereDetector>true</UsesAtmosphereDetector>
       <UsesReverbDetector>true</UsesReverbDetector>
 
-      <!-- CHARACTER CONTROL -->
       <UseOnlyWalking>false</UseOnlyWalking>
 
       <MaxSlope>95</MaxSlope>
@@ -1768,11 +1661,6 @@
       <JumpForce>3</JumpForce>
 
       <CharacterHeadSize>0.4</CharacterHeadSize>
-      <!-- <CharacterHeadSize>0.45</CharacterHeadSize>
-    <CharacterHeadHeight>0.25</CharacterHeadHeight>
-    <CharacterCollisionScale>1.1</CharacterCollisionScale> -->
-
-      <!-- BONE DEFINITIONS - MUST BE UPDATED IF SKELETON CHANGES - BONE NAMES CAN BE REVIEWED IN MODELVIEWER -->
       <HeadBone>HeadDummy</HeadBone>
       <Camera3rdBone>ThirdCameraDummy</Camera3rdBone>
       <LeftHandIKStartBone>SE_RigLUpperarm</LeftHandIKStartBone>
@@ -1814,7 +1702,6 @@
       <PressureLevelForLowDamage>0.5</PressureLevelForLowDamage>
       <DamageAmountAtZeroPressure>7</DamageAmountAtZeroPressure>
       <NeedsOxygen>false</NeedsOxygen>
-      <!--<HelmetVariation>Engineer_suit_no_helmet</HelmetVariation>-->
 
       <SuitResourceStorage>
         <Resource>
@@ -1852,7 +1739,6 @@
         </Thrusts>
 
         <ThrustProperties>
-          <!-- Properties applied once to each direction -->
           <ResourceSinkGroup>Thrust</ResourceSinkGroup>
           <ForceMagnitude>3200</ForceMagnitude>
           <SlowdownFactor>5</SlowdownFactor>
@@ -1874,18 +1760,6 @@
           </FuelConverter>
 
           <FlameLengthScale>1.2</FlameLengthScale>
-          <!--<FlameIdleColor>
-            <X>0.2745098</X>
-            <Y>0.4090196</Y>
-            <Z>0.6505882</Z>
-            <W>0.75</W>
-          </FlameIdleColor>
-          <FlameFullColor>
-            <X>0.2745098</X>
-            <Y>0.4090196</Y>
-            <Z>0.6505882</Z>
-            <W>0.75</W>
-          </FlameFullColor>-->
           <FlameIdleColor>
             <X>0.08</X>
             <Y>0.47</Y>
@@ -1907,7 +1781,6 @@
         </ThrustProperties>
       </Jetpack>
 
-      <!-- Bone sets -->
       <BoneSets>
         <BoneSet>
           <Name>Head</Name>
@@ -1939,7 +1812,6 @@
         </BoneSet>
       </BoneSets>
 
-      <!-- LODs -->
       <BoneLODs>
         <BoneSet>
           <Name>10</Name>
@@ -1947,11 +1819,9 @@
         </BoneSet>
       </BoneLODs>
 
-      <!-- Ragdoll definitions -->
       <RagdollRootBody>Ragdoll_SE_rig_Pelvis001</RagdollRootBody>
       <RagdollDataFile>Models\Characters\Astronaut\SE_astronaut.hkt</RagdollDataFile>
       <RagdollBonesMappings>
-        <!-- Always need to be at least the root bone and the last bone -->
         <BoneSet>
           <Name>Ragdoll_SE_rig_Pelvis001</Name>
           <Bones>SE_RigPelvis SE_RigSpine1</Bones>
@@ -2033,7 +1903,6 @@
         </BoneSet>
       </RagdollPartialSimulations>
 
-      <!-- for feet IK placement -->
       <FeetIKEnabled>false</FeetIKEnabled>
       <ModelRootBoneName>RootNode</ModelRootBoneName>
       <LeftHipBoneName>SE_RigLThigh</LeftHipBoneName>
@@ -2102,7 +1971,6 @@
         <Mapping Name="HelmetClose" AnimationSubtypeName="HelmetClose" />
       </AnimationMappings>
 
-      <!-- SOUND DEFINITION -->
       <JumpSoundName>PlayJump</JumpSoundName>
 
       <JetpackIdleSoundName>PlayJet</JetpackIdleSoundName>
@@ -2139,7 +2007,6 @@
     </Character>
 	
 	
- <!-- Rebellion Units -->
  
   <Character>
       <Id>
@@ -2158,7 +2025,6 @@
 
       <AnimationController>k_sw_rebellionquickie</AnimationController>
 
-      <!-- ENABLED COMPONENTS -->
       <EnabledComponents>RagdollComponent InventorySpawnComponent</EnabledComponents>
 
       <EnableSpawnInventoryAsContainer>true</EnableSpawnInventoryAsContainer>
@@ -2177,7 +2043,6 @@
       <UsesAtmosphereDetector>true</UsesAtmosphereDetector>
       <UsesReverbDetector>true</UsesReverbDetector>
 
-      <!-- CHARACTER CONTROL -->
       <UseOnlyWalking>false</UseOnlyWalking>
 
       <MaxSlope>80</MaxSlope>
@@ -2200,11 +2065,6 @@
 	   <SuitConsumptionInTemperatureExtreme>0.5</SuitConsumptionInTemperatureExtreme>
 
       <CharacterHeadSize>0.4</CharacterHeadSize>
-      <!-- <CharacterHeadSize>0.45</CharacterHeadSize>
-    <CharacterHeadHeight>0.25</CharacterHeadHeight>
-    <CharacterCollisionScale>1.1</CharacterCollisionScale> -->
-
-      <!-- BONE DEFINITIONS - MUST BE UPDATED IF SKELETON CHANGES - BONE NAMES CAN BE REVIEWED IN MODELVIEWER -->
       <HeadBone>HeadDummy</HeadBone>
       <Camera3rdBone>ThirdCameraDummy</Camera3rdBone>
       <LeftHandIKStartBone>SE_RigLUpperarm</LeftHandIKStartBone>
@@ -2244,7 +2104,6 @@
       <PressureLevelForLowDamage>0.5</PressureLevelForLowDamage>
       <DamageAmountAtZeroPressure>7</DamageAmountAtZeroPressure>
       <NeedsOxygen>false</NeedsOxygen>
-      <!--<HelmetVariation>Engineer_suit_no_helmet</HelmetVariation>-->
 
       <SuitResourceStorage>
         <Resource>
@@ -2280,7 +2139,6 @@
         </Thrusts>
 
         <ThrustProperties>
-          <!-- Properties applied once to each direction -->
           <ResourceSinkGroup>Thrust</ResourceSinkGroup>
           <ForceMagnitude>3200</ForceMagnitude>
           <SlowdownFactor>5</SlowdownFactor>
@@ -2302,18 +2160,6 @@
           </FuelConverter>
 
           <FlameLengthScale>1.2</FlameLengthScale>
-          <!--<FlameIdleColor>
-            <X>0.2745098</X>
-            <Y>0.4090196</Y>
-            <Z>0.6505882</Z>
-            <W>0.75</W>
-          </FlameIdleColor>
-          <FlameFullColor>
-            <X>0.2745098</X>
-            <Y>0.4090196</Y>
-            <Z>0.6505882</Z>
-            <W>0.75</W>
-          </FlameFullColor>-->
           <FlameIdleColor>
             <X>0.08</X>
             <Y>0.47</Y>
@@ -2335,7 +2181,6 @@
         </ThrustProperties>
       </Jetpack>
 
-      <!-- Bone sets -->
       <BoneSets>
         <BoneSet>
           <Name>Head</Name>
@@ -2367,7 +2212,6 @@
         </BoneSet>
       </BoneSets>
 
-      <!-- LODs -->
       <BoneLODs>
         <BoneSet>
           <Name>10</Name>
@@ -2375,11 +2219,9 @@
         </BoneSet>
       </BoneLODs>
 
-      <!-- Ragdoll definitions -->
       <RagdollRootBody>Ragdoll_SE_rig_Pelvis001</RagdollRootBody>
       <RagdollDataFile>Models\Characters\Astronaut\SE_astronaut.hkt</RagdollDataFile>
       <RagdollBonesMappings>
-        <!-- Always need to be at least the root bone and the last bone -->
         <BoneSet>
           <Name>Ragdoll_SE_rig_Pelvis001</Name>
           <Bones>SE_RigPelvis SE_RigSpine1</Bones>
@@ -2461,7 +2303,6 @@
         </BoneSet>
       </RagdollPartialSimulations>
 
-      <!-- for feet IK placement -->
       <FeetIKEnabled>false</FeetIKEnabled>
       <ModelRootBoneName>RootNode</ModelRootBoneName>
       <LeftHipBoneName>SE_RigLThigh</LeftHipBoneName>
@@ -2530,7 +2371,6 @@
         <Mapping Name="HelmetClose" AnimationSubtypeName="HelmetClose" />
       </AnimationMappings>
 
-      <!-- SOUND DEFINITION -->
       <JumpSoundName>PlayJump</JumpSoundName>
 
       <JetpackIdleSoundName>PlayJet</JetpackIdleSoundName>
@@ -2583,7 +2423,6 @@
 
       <AnimationController>k_sw_rebellionquickierecolorable</AnimationController>
 
-      <!-- ENABLED COMPONENTS -->
       <EnabledComponents>RagdollComponent InventorySpawnComponent</EnabledComponents>
 
       <EnableSpawnInventoryAsContainer>true</EnableSpawnInventoryAsContainer>
@@ -2602,7 +2441,6 @@
       <UsesAtmosphereDetector>true</UsesAtmosphereDetector>
       <UsesReverbDetector>true</UsesReverbDetector>
 
-      <!-- CHARACTER CONTROL -->
       <UseOnlyWalking>false</UseOnlyWalking>
 
       <MaxSlope>70</MaxSlope>
@@ -2625,11 +2463,6 @@
 	   <SuitConsumptionInTemperatureExtreme>0.5</SuitConsumptionInTemperatureExtreme>
 
       <CharacterHeadSize>0.4</CharacterHeadSize>
-      <!-- <CharacterHeadSize>0.45</CharacterHeadSize>
-    <CharacterHeadHeight>0.25</CharacterHeadHeight>
-    <CharacterCollisionScale>1.1</CharacterCollisionScale> -->
-
-      <!-- BONE DEFINITIONS - MUST BE UPDATED IF SKELETON CHANGES - BONE NAMES CAN BE REVIEWED IN MODELVIEWER -->
       <HeadBone>HeadDummy</HeadBone>
       <Camera3rdBone>ThirdCameraDummy</Camera3rdBone>
       <LeftHandIKStartBone>SE_RigLUpperarm</LeftHandIKStartBone>
@@ -2669,7 +2502,6 @@
       <PressureLevelForLowDamage>0.5</PressureLevelForLowDamage>
       <DamageAmountAtZeroPressure>7</DamageAmountAtZeroPressure>
       <NeedsOxygen>false</NeedsOxygen>
-      <!--<HelmetVariation>Engineer_suit_no_helmet</HelmetVariation>-->
 
       <SuitResourceStorage>
         <Resource>
@@ -2705,7 +2537,6 @@
         </Thrusts>
 
         <ThrustProperties>
-          <!-- Properties applied once to each direction -->
           <ResourceSinkGroup>Thrust</ResourceSinkGroup>
           <ForceMagnitude>3200</ForceMagnitude>
           <SlowdownFactor>5</SlowdownFactor>
@@ -2727,18 +2558,6 @@
           </FuelConverter>
 
           <FlameLengthScale>1.2</FlameLengthScale>
-          <!--<FlameIdleColor>
-            <X>0.2745098</X>
-            <Y>0.4090196</Y>
-            <Z>0.6505882</Z>
-            <W>0.75</W>
-          </FlameIdleColor>
-          <FlameFullColor>
-            <X>0.2745098</X>
-            <Y>0.4090196</Y>
-            <Z>0.6505882</Z>
-            <W>0.75</W>
-          </FlameFullColor>-->
           <FlameIdleColor>
             <X>0.08</X>
             <Y>0.47</Y>
@@ -2760,7 +2579,6 @@
         </ThrustProperties>
       </Jetpack>
 
-      <!-- Bone sets -->
       <BoneSets>
         <BoneSet>
           <Name>Head</Name>
@@ -2792,7 +2610,6 @@
         </BoneSet>
       </BoneSets>
 
-      <!-- LODs -->
       <BoneLODs>
         <BoneSet>
           <Name>10</Name>
@@ -2800,11 +2617,9 @@
         </BoneSet>
       </BoneLODs>
 
-      <!-- Ragdoll definitions -->
       <RagdollRootBody>Ragdoll_SE_rig_Pelvis001</RagdollRootBody>
       <RagdollDataFile>Models\Characters\Astronaut\SE_astronaut.hkt</RagdollDataFile>
       <RagdollBonesMappings>
-        <!-- Always need to be at least the root bone and the last bone -->
         <BoneSet>
           <Name>Ragdoll_SE_rig_Pelvis001</Name>
           <Bones>SE_RigPelvis SE_RigSpine1</Bones>
@@ -2886,7 +2701,6 @@
         </BoneSet>
       </RagdollPartialSimulations>
 
-      <!-- for feet IK placement -->
       <FeetIKEnabled>false</FeetIKEnabled>
       <ModelRootBoneName>RootNode</ModelRootBoneName>
       <LeftHipBoneName>SE_RigLThigh</LeftHipBoneName>
@@ -2955,7 +2769,6 @@
         <Mapping Name="HelmetClose" AnimationSubtypeName="HelmetClose" />
       </AnimationMappings>
 
-      <!-- SOUND DEFINITION -->
       <JumpSoundName>PlayJump</JumpSoundName>
 
       <JetpackIdleSoundName>PlayJet</JetpackIdleSoundName>
@@ -2990,6 +2803,6 @@
       <OxygenChokeLowSoundName>PlayChokeB</OxygenChokeLowSoundName>
       <OxygenChokeCriticalSoundName>PlayChokeC</OxygenChokeCriticalSoundName>
     </Character>
- 
+      -->
   </Characters>
 </Definitions>

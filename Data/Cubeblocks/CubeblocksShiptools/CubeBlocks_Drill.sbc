@@ -2,6 +2,7 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <CubeBlocks>
 
+
         <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
             <Id>
                 <TypeId>Drill</TypeId>
@@ -38,7 +39,6 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\DrillerConstruction_2.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -115,7 +115,6 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DrillConstruction_3.mwm" />
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -154,8 +153,6 @@
             <PCU>190</PCU>
         </Definition>
 
-        <!--        Tier 2-->
-        <!--Small Drill-->
         <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
             <Id>
                 <TypeId>Drill</TypeId>
@@ -173,15 +170,15 @@
             <PlaceDecals>false</PlaceDecals>
             <UseModelIntersection>true</UseModelIntersection>
             <Components>
-                <Component Subtype="PowerConverter" Count="40"/>
-                <Component Subtype="DuraSteel" Count="30"/>
-                <Component Subtype="IonWingCircuitry" Count="35"/>
-                <Component Subtype="Blaster_Mechanism" Count="60" />
-                <Component Subtype="GravityGenerator" Count="80" />
-                <Component Subtype="ImperialGeneralParts" Count="45"/>
+                <Component Subtype="DuraSteel" Count="10"/>
+                <Component Subtype="PowerConverter" Count="10"/>
+                <Component Subtype="IonWingCircuitry" Count="15"/>
+                <Component Subtype="Blaster_Mechanism" Count="10" />
+                <Component Subtype="GravityGenerator" Count="2" />
+                <Component Subtype="ImperialGeneralParts" Count="15"/>
                 <Component Subtype="Computer" Count="3"/>
                 <Component Subtype="ImperialConstruction" Count="15"/>
-                <Component Subtype="DuraSteel" Count="65"/>
+                <Component Subtype="DuraSteel" Count="5"/>
             </Components>
             <CriticalComponent Subtype="GravityGenerator" Index="0"/>
             <Center x="1" y="1" z="5"/>
@@ -195,7 +192,6 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\DrillerConstruction_2.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -234,7 +230,6 @@
             <PCU>190</PCU>
 
         </Definition>
-        <!--Large Drill-->
         <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
             <Id>
                 <TypeId>Drill</TypeId>
@@ -277,7 +272,6 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DrillConstruction_3.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -317,8 +311,6 @@
 
         </Definition>
 
-        <!--        Tier 4-->
-        <!--Small Drill-->
         <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
             <Id>
                 <TypeId>Drill</TypeId>
@@ -336,15 +328,15 @@
             <PlaceDecals>false</PlaceDecals>
             <UseModelIntersection>true</UseModelIntersection>
             <Components>
-                <Component Subtype="PowerConverter" Count="80"/>
-                <Component Subtype="DuraSteel" Count="60"/>
-                <Component Subtype="Blaster_Mechanism" Count="120" />
-                <Component Subtype="TurboLaser_Part" Count="60"/>
-                <Component Subtype="GravityGenerator" Count="60" />
-                <Component Subtype="ImperialGeneralParts" Count="90"/>
+                <Component Subtype="DuraSteel" Count="10"/>
+                <Component Subtype="PowerConverter" Count="10"/>
+                <Component Subtype="Blaster_Mechanism" Count="10" />
+                <Component Subtype="TurboLaser_Part" Count="10"/>
+                <Component Subtype="GravityGenerator" Count="2" />
+                <Component Subtype="ImperialGeneralParts" Count="15"/>
                 <Component Subtype="Computer" Count="3"/>
-                <Component Subtype="ImperialConstruction" Count="30"/>
-                <Component Subtype="DuraSteel" Count="130"/>
+                <Component Subtype="ImperialConstruction" Count="15"/>
+                <Component Subtype="DuraSteel" Count="5"/>
             </Components>
             <CriticalComponent Subtype="GravityGenerator" Index="0"/>
             <Center x="1" y="1" z="5"/>
@@ -358,7 +350,6 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\DrillerConstruction_2.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -397,7 +388,6 @@
             <PCU>190</PCU>
 
         </Definition>
-        <!--Large Drill-->
         <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
             <Id>
                 <TypeId>Drill</TypeId>
@@ -440,7 +430,6 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DrillConstruction_3.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -480,8 +469,6 @@
 
         </Definition>
 
-        <!--        Tier 8-->
-        <!--Small Drill-->
         <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
             <Id>
                 <TypeId>Drill</TypeId>
@@ -498,17 +485,17 @@
             <Model>Models\Cubes\Small\driller.mwm</Model>
             <PlaceDecals>false</PlaceDecals>
             <UseModelIntersection>true</UseModelIntersection>
-            <Components>
-                <Component Subtype="PowerConverter" Count="160"/>
-                <Component Subtype="DuraSteel" Count="120"/>
-                <Component Subtype="TurboLaser_Part" Count="120" />
-                <Component Subtype="TurboLaser_Part" Count="60"/>
+            <Components>                
+                <Component Subtype="DuraSteel" Count="10"/>
+                <Component Subtype="PowerConverter" Count="10"/>
+                <Component Subtype="Blaster_Mechanism" Count="10" />
+                <Component Subtype="TurboLaser_Part" Count="10"/>
                 <Component Subtype="PolyplastCabling" Count="30"/>
-                <Component Subtype="GravityGenerator" Count="120" />
-                <Component Subtype="ImperialGeneralParts" Count="180"/>
+                <Component Subtype="GravityGenerator" Count="2" />
+                <Component Subtype="ImperialGeneralParts" Count="15"/>
                 <Component Subtype="Computer" Count="3"/>
-                <Component Subtype="ImperialConstruction" Count="60"/>
-                <Component Subtype="DuraSteel" Count="260"/>
+                <Component Subtype="ImperialConstruction" Count="15"/>
+                <Component Subtype="DuraSteel" Count="5"/>
             </Components>
             <CriticalComponent Subtype="GravityGenerator" Index="0"/>
             <Center x="1" y="1" z="5"/>
@@ -522,7 +509,6 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\DrillerConstruction_2.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -561,7 +547,6 @@
             <PCU>190</PCU>
 
         </Definition>
-        <!--Large Drill-->
         <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
             <Id>
                 <TypeId>Drill</TypeId>
@@ -605,7 +590,6 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DrillConstruction_3.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -644,5 +628,7 @@
             <PCU>190</PCU>
 
         </Definition>
+
+
     </CubeBlocks>
 </Definitions>

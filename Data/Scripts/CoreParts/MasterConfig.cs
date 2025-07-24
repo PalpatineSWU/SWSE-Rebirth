@@ -31,7 +31,6 @@ namespace Scripts
             Imperial_Turrets_LaserCannon_PDT,         
             Imperial_Turrets_Turbolaser_3x,           
             Imperial_Weaponry_Turret_AIT,
-            Imperial_Weaponry_Patrolcraft_QuadGun,
             Imperial_Weaponry_A9_Cannon_Two,
             Imperial_Weaponry_A9_Cannon_One,
             Imperial_Weaponry_Howler_Cannon_One,
@@ -107,22 +106,10 @@ namespace Scripts
             NewRepublic_YWing_Turret_Ion,
             NewRepublic_YWing_Turret_Laser,
             Rebellion_General_IonCannonEmplacement,
-            Rebellion_Underground_Turret_A,
-            Rebellion_General_QuadLaserCannonTurret,
             Rebellion_Hoth_LaserCannonTurret,
             Rebellion_FixedMount_LaserCannon_01,
             Imperial_Weaponry_TIE_RebornAvenger_Tip_One,            
-            Imperial_Turrets_DefenseHeavyBattery_DMDC,
-            Wep_InterdictionSphere,
-            HangarRebel,
-            HangarImp,
-            P_Wep_Gat_Laser_SG,
-            P_Wep_Gat_Laser_LG,
-            P_Wep_Gat_Maser_SG,
-            P_Wep_Gat_Maser_LG,
-            P_Wep_Gat_Slug_SG,
-            P_Wep_Gat_Slug_LG,
-            Imperial_Turrets_DefenseHeavyBattery_HVC6);
+            Imperial_Turrets_DefenseHeavyBattery_DMDC);
         }
     }
 }

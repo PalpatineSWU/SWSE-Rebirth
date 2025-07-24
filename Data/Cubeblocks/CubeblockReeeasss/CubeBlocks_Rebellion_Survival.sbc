@@ -20,7 +20,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\SurvivalBits\Rebellion_GasCollector_Large.mwm</Model>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="40" />
+        <Component Subtype="DuraSteel" Count="40" />
         <Component Subtype="TranspariSteel" Count="60" />
         <Component Subtype="ImperialConstruction" Count="20" />
         <Component Subtype="StandardPowerCell" Count="1" />
@@ -83,7 +83,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\SurvivalBits\Rebellion_OxygenCollector_Large.mwm</Model>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="40" />
+        <Component Subtype="DuraSteel" Count="40" />
         <Component Subtype="TranspariSteel" Count="60" />
         <Component Subtype="ImperialConstruction" Count="20" />
         <Component Subtype="StandardPowerCell" Count="1" />
@@ -143,11 +143,11 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\SurvivalBits\Rebellion_GasDestiller_Large.mwm</Model>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="110" />
+        <Component Subtype="DuraSteel" Count="110" />
         <Component Subtype="ImperialConstruction" Count="5" />
         <Component Subtype="StandardPowerCell" Count="8" />
         <Component Subtype="Computer" Count="5" />
-        <Component Subtype="LightweightDurasteel" Count="10" />
+        <Component Subtype="DuraSteel" Count="10" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -231,12 +231,12 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\SurvivalBits\Rebellion_GasDestiller_Large.mwm</Model>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="110" />
+        <Component Subtype="DuraSteel" Count="110" />
         <Component Subtype="ImperialConstruction" Count="5" />
         <Component Subtype="StandardPowerCell" Count="2" />
         <Component Subtype="AlternatePowerCell" Count="8" />
         <Component Subtype="Computer" Count="5" />
-        <Component Subtype="LightweightDurasteel" Count="10" />
+        <Component Subtype="DuraSteel" Count="10" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -320,12 +320,12 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\SurvivalBits\Rebellion_GasDestiller_Large.mwm</Model>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="110" />
+        <Component Subtype="DuraSteel" Count="110" />
         <Component Subtype="ImperialConstruction" Count="5" />
         <Component Subtype="AlternatePowerCell" Count="2" />
         <Component Subtype="NeurodiumPowerCell" Count="8" />
         <Component Subtype="Computer" Count="5" />
-        <Component Subtype="LightweightDurasteel" Count="10" />
+        <Component Subtype="DuraSteel" Count="10" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>

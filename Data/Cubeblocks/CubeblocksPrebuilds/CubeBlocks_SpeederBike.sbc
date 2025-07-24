@@ -44,7 +44,7 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>0.2</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>1.5</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>0</FlameDamageLengthScale>
       <FlameDamage>0</FlameDamage>
@@ -72,7 +72,7 @@
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
       <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
       <EmissiveColorPreset>K_Imperial_Engine_EmissiveSet</EmissiveColorPreset>
-      <GeneralDamageMultiplier>1.2</GeneralDamageMultiplier>
+      
     </Definition>
 
 
@@ -143,7 +143,7 @@
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
       <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
       <EmissiveColorPreset>K_Imperial_Engine_EmissiveSet</EmissiveColorPreset>
-      <GeneralDamageMultiplier>1.2</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -213,7 +213,7 @@
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
       <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
       <EmissiveColorPreset>K_Imperial_Engine_EmissiveSet</EmissiveColorPreset>
-      <GeneralDamageMultiplier>1.2</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -283,7 +283,7 @@
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
       <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
       <EmissiveColorPreset>K_Imperial_Engine_EmissiveSet</EmissiveColorPreset>
-      <GeneralDamageMultiplier>1.2</GeneralDamageMultiplier>
+      
     </Definition>
 
 
@@ -344,7 +344,7 @@
       <TargetingGroups>
         <string>PowerSystems</string>
       </TargetingGroups>
-      <GeneralDamageMultiplier>1.2</GeneralDamageMultiplier>
+      
     </Definition>
 
 
@@ -385,7 +385,7 @@
       <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
       <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
-      <GeneralDamageMultiplier>1.2</GeneralDamageMultiplier>
+      
     </Definition>
 
 
@@ -428,7 +428,6 @@
       <EmissiveColorPreset>K_Imperial_Drone_EmissiveSet</EmissiveColorPreset>
       <DestroyEffect>Imperial_Explosion_Sparks</DestroyEffect>
       <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
-      <GeneralDamageMultiplier>1.4</GeneralDamageMultiplier>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
@@ -480,7 +479,6 @@
       <DestroySound>K_Imperial_Explosion_Glass</DestroySound>
       <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
 
-      <GeneralDamageMultiplier>1.3</GeneralDamageMultiplier>
     </Definition>
 
 
@@ -502,12 +500,13 @@
         <Component Subtype="LightweightDurasteel" Count="5" />
         <Component Subtype="Girder" Count="5" />
         <Component Subtype="Computer" Count="10" />
-        <Component Subtype="LightweightDurasteel" Count="500" />
+        <Component Subtype="LightweightDurasteel" Count="250" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
 
       <BlockPairName>K_Imperial_SpeederBike_GasTank</BlockPairName>
       <EdgeType>Light</EdgeType>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
       <IsAirTight>true</IsAirTight>
@@ -534,7 +533,6 @@
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
       <DestroySound>K_Imperial_Explosion_Generic</DestroySound>
       <PCU>25</PCU>
-      <GeneralDamageMultiplier>1.4</GeneralDamageMultiplier>
     </Definition>
 
 
@@ -558,7 +556,7 @@
         <Component Subtype="Computer" Count="3" />
         <Component Subtype="Construction" Count="2" />
         <Component Subtype="Construction" Count="3" />
-        <Component Subtype="LightweightDurasteel" Count="500" />
+        <Component Subtype="LightweightDurasteel" Count="250" />
       </Components>
       <CriticalComponent Subtype="LightweightDurasteel" Index="0" />
       <BlockPairName>K_Imperial_SpeederBike_Weaponry</BlockPairName>
@@ -585,7 +583,7 @@
       <ElevationSpeed>0.0002 </ElevationSpeed>
       <MinFov>0.1</MinFov>
       <MaxFov>1.04719755</MaxFov>
-      <GeneralDamageMultiplier>1</GeneralDamageMultiplier>
+      
     </Definition>
 
   </CubeBlocks>

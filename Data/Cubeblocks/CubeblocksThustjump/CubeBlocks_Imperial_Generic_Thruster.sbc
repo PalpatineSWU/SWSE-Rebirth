@@ -50,7 +50,7 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>0.2</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>1.5</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>1</FlameDamageLengthScale>
       <FlameLengthScale>3</FlameLengthScale>
@@ -77,7 +77,6 @@
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
       <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
       <EmissiveColorPreset>K_Imperial_Ship_EmissiveSet</EmissiveColorPreset>
-      <GeneralDamageMultiplier>0.8</GeneralDamageMultiplier>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">

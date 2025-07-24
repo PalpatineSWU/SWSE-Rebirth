@@ -143,7 +143,7 @@
       <EmissiveColorPreset>K_Imperial_Drone_EmissiveSet</EmissiveColorPreset>
       <DestroyEffect>Imperial_Explosion_Sparks</DestroyEffect>
       <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
-      <GeneralDamageMultiplier>0.6</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
@@ -181,7 +181,7 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
-      <GeneralDamageMultiplier>0.6</GeneralDamageMultiplier>
+      
     </Definition>
 
 

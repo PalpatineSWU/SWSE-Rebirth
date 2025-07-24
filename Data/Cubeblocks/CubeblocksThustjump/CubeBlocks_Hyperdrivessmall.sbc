@@ -28,14 +28,6 @@
         <Component Subtype="DuraSteel" Count="2" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-      </MountPoints>
       <BlockPairName>K_Imperial_Misc_Hyperdrive</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\IMP\Tools\K_Imperial_SmallGrid_Gravi1x3_Small.mwm" />
@@ -88,14 +80,6 @@
         <Component Subtype="DuraSteel" Count="2" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-      </MountPoints>
       <BlockPairName>K_Imperial_Misc_Hyperdrive5</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\IMP\Tools\K_Imperial_SmallGrid_Gravi1x3_Small.mwm" />
@@ -148,14 +132,6 @@
         <Component Subtype="DuraSteel" Count="2" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-      </MountPoints>
       <BlockPairName>K_Imperial_Misc_Hyperdrive5_5</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\IMP\Tools\K_Imperial_SmallGrid_Gravi1x3_Small.mwm" />
@@ -208,14 +184,6 @@
         <Component Subtype="DuraSteel" Count="2" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-      </MountPoints>
       <BlockPairName>K_Imperial_Misc_Hyperdrive4</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\IMP\Tools\K_Imperial_SmallGrid_Gravi1x3_Small.mwm" />
@@ -269,14 +237,6 @@
         <Component Subtype="DuraSteel" Count="2" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-      </MountPoints>
       <BlockPairName>K_Imperial_Misc_Hyperdrive4M</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\IMP\Tools\K_Imperial_SmallGrid_Gravi1x3_Small.mwm" />
@@ -329,14 +289,6 @@
         <Component Subtype="DuraSteel" Count="2" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-      </MountPoints>
       <BlockPairName>K_Imperial_Misc_Hyperdrive3</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\IMP\Tools\K_Imperial_SmallGrid_Gravi1x3_Small.mwm" />
@@ -390,14 +342,6 @@
         <Component Subtype="DuraSteel" Count="2" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-      </MountPoints>
       <BlockPairName>K_Imperial_Misc_Hyperdrive2</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\IMP\Tools\K_Imperial_SmallGrid_Gravi1x3_Small.mwm" />
@@ -450,14 +394,6 @@
         <Component Subtype="DuraSteel" Count="2" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-      </MountPoints>
       <BlockPairName>K_Imperial_Misc_Hyperdrive1</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\IMP\Tools\K_Imperial_SmallGrid_Gravi1x3_Small.mwm" />
@@ -511,14 +447,6 @@
         <Component Subtype="DuraSteel" Count="2" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="5" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-      </MountPoints>
       <BlockPairName>K_Imperial_Misc_Hyperdrive1_2</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\IMP\Tools\K_Imperial_SmallGrid_Gravi1x3_Small.mwm" />

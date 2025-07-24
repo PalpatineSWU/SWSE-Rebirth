@@ -102,13 +102,13 @@
       <CharacterAnimation>K_Animation_Engineer_TIE</CharacterAnimation>
       <UsesDeformation>false</UsesDeformation>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="100" />
-        <Component Subtype="ImperialConstruction" Count="200" />
+        <Component Subtype="LightweightDurasteel" Count="10" />
+        <Component Subtype="ImperialConstruction" Count="20" />
         <Component Subtype="StandardCabling" Count="50" />
-        <Component Subtype="LightweightDurasteel" Count="100" />
-        <Component Subtype="Computer" Count="250" />
-        <Component Subtype="LightweightDurasteel" Count="550" />
-        <Component Subtype="TranspariSteel" Count="300" />
+        <Component Subtype="LightweightDurasteel" Count="10" />
+        <Component Subtype="Computer" Count="25" />
+        <Component Subtype="LightweightDurasteel" Count="55" />
+        <Component Subtype="TranspariSteel" Count="30" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BlockPairName>K_TIE_Hunter_Cockpit</BlockPairName>
@@ -159,17 +159,17 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\TIE_Hunter\K_TIE_Hunter_Battery_Small.mwm</Model>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="90" />
-        <Component Subtype="ImperialConstruction" Count="45" />
+        <Component Subtype="LightweightDurasteel" Count="18" />
+        <Component Subtype="ImperialConstruction" Count="5" />
         <Component Subtype="AlternatePowerCell" Count="90">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="90" />
-        <Component Subtype="ImperialConstruction" Count="45" />
-        <Component Subtype="LightweightDurasteel" Count="90" />
+        <Component Subtype="Computer" Count="9" />
+        <Component Subtype="ImperialConstruction" Count="9" />
+        <Component Subtype="LightweightDurasteel" Count="18" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BlockPairName>K_TIE_Hunter_SidePod</BlockPairName>
@@ -219,12 +219,12 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\TIE_Hunter\K_TIE_Hunter_Gyro_Small.mwm</Model>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="45" />
+        <Component Subtype="LightweightDurasteel" Count="18" />
         <Component Subtype="ImperialConstruction" Count="15" />
         <Component Subtype="StandardCabling" Count="3" />
         <Component Subtype="Motor" Count="6" />
         <Component Subtype="Computer" Count="9" />
-        <Component Subtype="LightweightDurasteel" Count="30" />
+        <Component Subtype="LightweightDurasteel" Count="18" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BlockPairName>K_TIE_Hunter_GyroPod</BlockPairName>
@@ -314,6 +314,7 @@
       </OpeningSequence>
       <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
     <IsAirTight>true</IsAirTight>
+    <ResourceSinkGroup>Utility</ResourceSinkGroup>
     </Definition>
 
 
@@ -332,14 +333,14 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\TIE_Hunter\K_TIE_Hunter_Reactor_Small.mwm</Model>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="50" />
-        <Component Subtype="ImperialConstruction" Count="500" />
+        <Component Subtype="LightweightDurasteel" Count="18" />
+        <Component Subtype="ImperialConstruction" Count="10" />
         <Component Subtype="PowerConverter" Count="100" />
         <Component Subtype="HeavyDutyCabling" Count="50" />
         <Component Subtype="FissionAdvancedController" Count="150" />
         <Component Subtype="ImperialGeneralParts" Count="50" />
-        <Component Subtype="Computer" Count="500" />
-        <Component Subtype="LightweightDurasteel" Count="100" />
+        <Component Subtype="Computer" Count="5" />
+        <Component Subtype="LightweightDurasteel" Count="10" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BlockPairName>K_TIE_Hunter_Reactor</BlockPairName>

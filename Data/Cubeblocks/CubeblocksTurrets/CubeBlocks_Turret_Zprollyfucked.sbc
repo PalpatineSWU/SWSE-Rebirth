@@ -4,8 +4,8 @@
   <CubeBlocks>
 
 
-
-    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">      <!-- Underground Turret-->
+<!--
+    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">      
       <Public>false</Public>
       <Id>
         <TypeId>ConveyorSorter</TypeId>
@@ -22,12 +22,12 @@
       <Model>Models\Rebellion\Turrets\K_Rebellion_TrapTurret_LaserCannon_Large.mwm</Model>
       <UseModelIntersection>true</UseModelIntersection>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="115" />
+        <Component Subtype="LightweightDurasteel" Count="15" />
         <Component Subtype="StandardPowerCell" Count="40" />
         <Component Subtype="Blaster_Mechanism" Count="12" />
-        <Component Subtype="Computer" Count="100" />
-        <Component Subtype="ImperialConstruction" Count="225" />
-        <Component Subtype="DuraSteel" Count="225" />
+        <Component Subtype="Computer" Count="5" />
+        <Component Subtype="ImperialConstruction" Count="5" />
+        <Component Subtype="DuraSteel" Count="10" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -71,7 +71,6 @@
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
       </MountPoints>
       <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
           <PlacementMode>OutsideVoxel</PlacementMode>
           <MaxAllowed>0.2</MaxAllowed>
@@ -109,7 +108,7 @@
       <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
       <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
     </Definition>
-
+    -->
 
 
   </CubeBlocks>

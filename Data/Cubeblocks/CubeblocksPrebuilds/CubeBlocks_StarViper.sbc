@@ -205,7 +205,7 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>1.5</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>0</FlameDamageLengthScale>
       <FlameDamage>0</FlameDamage>
@@ -415,6 +415,7 @@
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
       <IsAirTight>true</IsAirTight>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
       <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
       <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
@@ -470,6 +471,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <IsAirTight>true</IsAirTight>
       <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
       <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
@@ -638,13 +640,22 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      
+
       <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
       <ActionSound>K_Imperial_Cockpit</ActionSound>
       <EmissiveColorPreset>K_Imperial_Connector</EmissiveColorPreset>
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
       <DestroySound>K_Imperial_Explosion_Generic</DestroySound>
+      <PCU>125</PCU>
+      <IsAirTight>false</IsAirTight>
+      <AutoUnlockTime_Min>0</AutoUnlockTime_Min>
+      <AutoUnlockTime_Max>3600</AutoUnlockTime_Max>
+      <TieredUpdateTimes>
+        <unsignedInt>80</unsignedInt>
+        <unsignedInt>160</unsignedInt>
+        <unsignedInt>320</unsignedInt>
+      </TieredUpdateTimes>
     </Definition>
 
 

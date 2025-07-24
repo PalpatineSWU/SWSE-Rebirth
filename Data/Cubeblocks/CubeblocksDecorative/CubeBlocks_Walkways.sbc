@@ -389,6 +389,7 @@
       <DisassembleRatio>5</DisassembleRatio>
       <IsAirTight>true</IsAirTight>
       <ResourceSourceGroup>Doors</ResourceSourceGroup>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
       <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
       <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
@@ -721,6 +722,7 @@
       <DisassembleRatio>5</DisassembleRatio>
       <IsAirTight>true</IsAirTight>
       <ResourceSourceGroup>Doors</ResourceSourceGroup>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
       <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
       <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
@@ -1053,6 +1055,7 @@
       <DisassembleRatio>5</DisassembleRatio>
       <IsAirTight>true</IsAirTight>
       <ResourceSourceGroup>Doors</ResourceSourceGroup>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
       <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
       <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
@@ -1174,6 +1177,7 @@
       <DisassembleRatio>5</DisassembleRatio>
       <IsAirTight>true</IsAirTight>
       <ResourceSourceGroup>Doors</ResourceSourceGroup>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
       <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
       <PowerConsumptionMoving>0.001</PowerConsumptionMoving>

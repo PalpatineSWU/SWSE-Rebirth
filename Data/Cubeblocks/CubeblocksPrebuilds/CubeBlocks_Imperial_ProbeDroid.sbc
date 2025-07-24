@@ -441,6 +441,7 @@
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <DestroyEffect>Imperial_Explosion_Sparks</DestroyEffect>
       <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <IsAirTight>true</IsAirTight>
     </Definition>
 

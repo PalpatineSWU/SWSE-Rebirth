@@ -63,6 +63,7 @@
       <DestroyEffect>Explosion_Missile</DestroyEffect>
       <DestroySound>WepSmallMissileExpl</DestroySound>
       <EmissiveColorPreset>K_Imperial_Factory_Red</EmissiveColorPreset>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
@@ -93,14 +94,6 @@
         <Component Subtype="DuraSteel" Count="20" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="5" EndY="5" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="5" EndY="5" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="5" EndY="5" Default="true" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="5" EndY="5" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="5" EndY="5" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="5" EndY="5" />
-      </MountPoints>
       <BlockPairName>K_Imperial_Assembly_Factory_Light_I</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.25" File="Models\Imperial\Manufacturing\K_Imperial_Manufacturing_Factory_Light_Large_Constr1.mwm" />
@@ -133,6 +126,7 @@
       <DestroySound>WepSmallMissileExpl</DestroySound>
       <EmissiveColorPreset>K_Imperial_Factory_Red</EmissiveColorPreset>
       <Center x="0" y="0" z="5" />
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
@@ -166,14 +160,6 @@
         <Component Subtype="DuraSteel" Count="225" />
       </Components>
       <CriticalComponent Subtype="ImperialGeneralParts" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="5" EndY="5" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="5" EndY="5" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="5" EndY="5" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="5" EndY="5" Default="true" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="5" EndY="5" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="5" EndY="5" />
-      </MountPoints>
       <BlockPairName>K_Imperial_Assembly_Factory_Advanced_I</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.25" File="Models\Imperial\Manufacturing\K_Imperial_Manufacturing_Factory_Advanced_Large.mwm" />
@@ -207,6 +193,7 @@
       <DestroySound>WepSmallMissileExpl</DestroySound>
       <EmissiveColorPreset>K_Imperial_Factory_Red</EmissiveColorPreset>
       <Center x="0" y="0" z="5" />
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
@@ -261,10 +248,12 @@
       <BlueprintClasses>
         <Class>K_Imperial_MicroFactoryVanilla</Class>
         <Class>K_Imperial_Resource_Conversion</Class>
-        <Class>BuildPlanner</Class>
         <Class>Components</Class>
+        <Class>EliteEquipment</Class>
         <Class>EliteTools</Class>
+        <Class>EliteWeapons</Class>
         <Class>EliteConsumables</Class>
+        <Class>BuildPlanner</Class>
       </BlueprintClasses>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -273,6 +262,7 @@
       <DestroyEffect>Explosion_Missile</DestroyEffect>
       <DestroySound>WepSmallMissileExpl</DestroySound>
       <EmissiveColorPreset>K_Imperial_Factory_Red</EmissiveColorPreset>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
   </CubeBlocks>

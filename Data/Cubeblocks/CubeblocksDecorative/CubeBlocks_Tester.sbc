@@ -3,9 +3,9 @@
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
 
-    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+    <Definition>
       <Id>
-        <TypeId>ConveyorSorter</TypeId>
+        <TypeId>CubeBlock</TypeId>
         <SubtypeId>TestBlock_1</SubtypeId>
       </Id>
       <DisplayName>TestBlock 1</DisplayName>
@@ -31,9 +31,9 @@
       <HasPhysics>false</HasPhysics>
     </Definition>
 
-    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+    <Definition>
       <Id>
-        <TypeId>ConveyorSorter</TypeId>
+        <TypeId>CubeBlock</TypeId>
         <SubtypeId>TestBlock_2</SubtypeId>
       </Id>
       <DisplayName>TestBlock 2</DisplayName>
@@ -59,9 +59,9 @@
       <HasPhysics>false</HasPhysics>
     </Definition>
 
-    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+    <Definition>
       <Id>
-        <TypeId>ConveyorSorter</TypeId>
+        <TypeId>CubeBlock</TypeId>
         <SubtypeId>TestBlock_3</SubtypeId>
       </Id>
       <DisplayName>TestBlock 3</DisplayName>
@@ -87,9 +87,9 @@
       <HasPhysics>false</HasPhysics>
     </Definition>
 
-    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+    <Definition>
       <Id>
-        <TypeId>ConveyorSorter</TypeId>
+        <TypeId>CubeBlock</TypeId>
         <SubtypeId>TestBlock_4</SubtypeId>
       </Id>
       <DisplayName>TestBlock 4</DisplayName>
@@ -115,9 +115,9 @@
       <HasPhysics>false</HasPhysics>
     </Definition>
 
-    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+    <Definition>
       <Id>
-        <TypeId>ConveyorSorter</TypeId>
+        <TypeId>CubeBlock</TypeId>
         <SubtypeId>TestBlock_5</SubtypeId>
       </Id>
       <DisplayName>TestBlock 5</DisplayName>
@@ -143,9 +143,9 @@
       <HasPhysics>false</HasPhysics>
     </Definition>
 
-    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+    <Definition>
       <Id>
-        <TypeId>ConveyorSorter</TypeId>
+        <TypeId>CubeBlock</TypeId>
         <SubtypeId>TestBlock_6</SubtypeId>
       </Id>
       <DisplayName>TestBlock 6</DisplayName>
@@ -171,9 +171,9 @@
       <HasPhysics>false</HasPhysics>
     </Definition>
 
-    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+    <Definition>
       <Id>
-        <TypeId>ConveyorSorter</TypeId>
+        <TypeId>CubeBlock</TypeId>
         <SubtypeId>TestBlock_7</SubtypeId>
       </Id>
       <DisplayName>TestBlock 7</DisplayName>
@@ -199,9 +199,9 @@
       <HasPhysics>false</HasPhysics>
     </Definition>
 
-    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+    <Definition>
       <Id>
-        <TypeId>ConveyorSorter</TypeId>
+        <TypeId>CubeBlock</TypeId>
         <SubtypeId>TestBlock_8</SubtypeId>
       </Id>
       <DisplayName>TestBlock 8</DisplayName>
@@ -227,9 +227,9 @@
       <HasPhysics>false</HasPhysics>
     </Definition>
 
-    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+    <Definition>
       <Id>
-        <TypeId>ConveyorSorter</TypeId>
+        <TypeId>CubeBlock</TypeId>
         <SubtypeId>TestBlock_9</SubtypeId>
       </Id>
       <DisplayName>TestBlock 9</DisplayName>
@@ -255,9 +255,9 @@
       <HasPhysics>false</HasPhysics>
     </Definition>
 
-    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+    <Definition>
       <Id>
-        <TypeId>ConveyorSorter</TypeId>
+        <TypeId>CubeBlock</TypeId>
         <SubtypeId>TestBlock_10</SubtypeId>
       </Id>
       <DisplayName>TestBlock 10</DisplayName>
@@ -283,9 +283,9 @@
       <HasPhysics>false</HasPhysics>
     </Definition>
 
-    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+    <Definition>
       <Id>
-        <TypeId>ConveyorSorter</TypeId>
+        <TypeId>CubeBlock</TypeId>
         <SubtypeId>TestBlock_11</SubtypeId>
       </Id>
       <DisplayName>TestBlock 11</DisplayName>
@@ -311,9 +311,9 @@
       <HasPhysics>false</HasPhysics>
     </Definition>
 
-    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+    <Definition>
       <Id>
-        <TypeId>ConveyorSorter</TypeId>
+        <TypeId>CubeBlock</TypeId>
         <SubtypeId>TestBlock_12</SubtypeId>
       </Id>
       <DisplayName>TestBlock 12</DisplayName>
@@ -339,9 +339,9 @@
       <HasPhysics>false</HasPhysics>
     </Definition>
 
-    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+    <Definition>
       <Id>
-        <TypeId>ConveyorSorter</TypeId>
+        <TypeId>CubeBlock</TypeId>
         <SubtypeId>TestBlock_13</SubtypeId>
       </Id>
       <DisplayName>TestBlock 13</DisplayName>
@@ -367,9 +367,9 @@
       <HasPhysics>false</HasPhysics>
     </Definition>
 
-    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+    <Definition>
       <Id>
-        <TypeId>ConveyorSorter</TypeId>
+        <TypeId>CubeBlock</TypeId>
         <SubtypeId>TestBlock_14</SubtypeId>
       </Id>
       <DisplayName>TestBlock 14</DisplayName>
@@ -395,9 +395,9 @@
       <HasPhysics>false</HasPhysics>
     </Definition>
 
-    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+    <Definition>
       <Id>
-        <TypeId>ConveyorSorter</TypeId>
+        <TypeId>CubeBlock</TypeId>
         <SubtypeId>TestBlock_15</SubtypeId>
       </Id>
       <DisplayName>TestBlock 15</DisplayName>
@@ -423,9 +423,9 @@
       <HasPhysics>false</HasPhysics>
     </Definition>
 
-    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+    <Definition>
       <Id>
-        <TypeId>ConveyorSorter</TypeId>
+        <TypeId>CubeBlock</TypeId>
         <SubtypeId>TestBlock_16</SubtypeId>
       </Id>
       <DisplayName>TestBlock 16</DisplayName>
@@ -451,9 +451,9 @@
       <HasPhysics>false</HasPhysics>
     </Definition>
 
-    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+    <Definition>
       <Id>
-        <TypeId>ConveyorSorter</TypeId>
+        <TypeId>CubeBlock</TypeId>
         <SubtypeId>TestBlock_17</SubtypeId>
       </Id>
       <DisplayName>TestBlock 17</DisplayName>
@@ -479,9 +479,9 @@
       <HasPhysics>false</HasPhysics>
     </Definition>
 
-    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+    <Definition>
       <Id>
-        <TypeId>ConveyorSorter</TypeId>
+        <TypeId>CubeBlock</TypeId>
         <SubtypeId>TestBlock_18</SubtypeId>
       </Id>
       <DisplayName>TestBlock 18</DisplayName>
@@ -507,9 +507,9 @@
       <HasPhysics>false</HasPhysics>
     </Definition>
 
-    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+    <Definition>
       <Id>
-        <TypeId>ConveyorSorter</TypeId>
+        <TypeId>CubeBlock</TypeId>
         <SubtypeId>TestBlock_19</SubtypeId>
       </Id>
       <DisplayName>TestBlock 19</DisplayName>
@@ -535,9 +535,9 @@
       <HasPhysics>false</HasPhysics>
     </Definition>
 
-    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+    <Definition>
       <Id>
-        <TypeId>ConveyorSorter</TypeId>
+        <TypeId>CubeBlock</TypeId>
         <SubtypeId>TestBlock_20</SubtypeId>
       </Id>
       <DisplayName>TestBlock 20</DisplayName>
@@ -563,9 +563,9 @@
       <HasPhysics>false</HasPhysics>
     </Definition>
 
-    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+    <Definition>
       <Id>
-        <TypeId>ConveyorSorter</TypeId>
+        <TypeId>CubeBlock</TypeId>
         <SubtypeId>TestBlock_21</SubtypeId>
       </Id>
       <DisplayName>TestBlock 21</DisplayName>
@@ -591,9 +591,9 @@
       <HasPhysics>false</HasPhysics>
     </Definition>
 
-    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+    <Definition>
       <Id>
-        <TypeId>ConveyorSorter</TypeId>
+        <TypeId>CubeBlock</TypeId>
         <SubtypeId>TestBlock_22</SubtypeId>
       </Id>
       <DisplayName>TestBlock 22</DisplayName>
@@ -619,9 +619,9 @@
       <HasPhysics>false</HasPhysics>
     </Definition>
 
-    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+    <Definition>
       <Id>
-        <TypeId>ConveyorSorter</TypeId>
+        <TypeId>CubeBlock</TypeId>
         <SubtypeId>TestBlock_23</SubtypeId>
       </Id>
       <DisplayName>TestBlock 23</DisplayName>
@@ -647,9 +647,9 @@
       <HasPhysics>false</HasPhysics>
     </Definition>
 
-    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+    <Definition>
       <Id>
-        <TypeId>ConveyorSorter</TypeId>
+        <TypeId>CubeBlock</TypeId>
         <SubtypeId>TestBlock_24</SubtypeId>
       </Id>
       <DisplayName>TestBlock 24</DisplayName>

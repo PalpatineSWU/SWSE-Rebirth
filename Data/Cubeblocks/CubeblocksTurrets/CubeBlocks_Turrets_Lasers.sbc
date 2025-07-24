@@ -87,7 +87,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\IMP\Turret\K_Imperial_Turret_PDT_Large.mwm</Model>
       <UseModelIntersection>true</UseModelIntersection>
-      <GeneralDamageMultiplier>0.25</GeneralDamageMultiplier>
+      
       <Components>
         <Component Subtype="DuraSteel" Count="20" />
         <Component Subtype="ImperialConstruction" Count="30" />
@@ -97,7 +97,7 @@
         <Component Subtype="Blaster_Mechanism" Count="9" />
         <Component Subtype="Computer" Count="12" />
         <Component Subtype="ImperialConstruction" Count="10" />
-        <Component Subtype="DuraSteel" Count="110" />
+        <Component Subtype="DuraSteel" Count="10" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -159,14 +159,14 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\IMP\Turret\K_SW_DefenseTurret_Lancer_A_Large.mwm</Model>
       <Components>
-        <Component Subtype="DuraSteel" Count="110" />
+        <Component Subtype="DuraSteel" Count="10" />
         <Component Subtype="ImperialConstruction" Count="90" />
         <Component Subtype="PowerConverter" Count="80" />
         <Component Subtype="ImperialGeneralParts" Count="90" />
         <Component Subtype="Blaster_Mechanism" Count="120" />
         <Component Subtype="Computer" Count="245" />
         <Component Subtype="ImperialConstruction" Count="40" />
-        <Component Subtype="DuraSteel" Count="1325" />
+        <Component Subtype="DuraSteel" Count="125" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -198,7 +198,7 @@
       <ElevationSpeed>0.0002 </ElevationSpeed>
       <MinFov>0.1</MinFov>
       <MaxFov>1.04719755</MaxFov>
-      <GeneralDamageMultiplier>1</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">      <!--  Lancer AA Gun , Angled Tower -->
@@ -216,14 +216,14 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\IMP\Turret\K_SW_DefenseTurret_Lancer_B_Large.mwm</Model>
       <Components>
-        <Component Subtype="DuraSteel" Count="110" />
+        <Component Subtype="DuraSteel" Count="10" />
         <Component Subtype="ImperialConstruction" Count="90" />
         <Component Subtype="PowerConverter" Count="80" />
         <Component Subtype="ImperialGeneralParts" Count="90" />
         <Component Subtype="Blaster_Mechanism" Count="120" />
         <Component Subtype="Computer" Count="245" />
         <Component Subtype="ImperialConstruction" Count="40" />
-        <Component Subtype="DuraSteel" Count="1325" />
+        <Component Subtype="DuraSteel" Count="125" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -255,7 +255,7 @@
       <ElevationSpeed>0.0002 </ElevationSpeed>
       <MinFov>0.1</MinFov>
       <MaxFov>1.04719755</MaxFov>
-      <GeneralDamageMultiplier>1</GeneralDamageMultiplier>
+      
     </Definition>
 
     <!-- PDX -->
@@ -415,14 +415,14 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\IMP\Turret\K_Imperial_Turret_LCT_Large.mwm</Model>
       <Components>
-        <Component Subtype="DuraSteel" Count="45" />
+        <Component Subtype="DuraSteel" Count="15" />
         <Component Subtype="ImperialConstruction" Count="30" />
         <Component Subtype="PowerConverter" Count="15" />
         <Component Subtype="ImperialGeneralParts" Count="15" />
         <Component Subtype="Blaster_Mechanism" Count="3" />
         <Component Subtype="Computer" Count="12" />
         <Component Subtype="ImperialConstruction" Count="10" />
-        <Component Subtype="DuraSteel" Count="45" />
+        <Component Subtype="DuraSteel" Count="15" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -454,7 +454,7 @@
       <ElevationSpeed>0.0002 </ElevationSpeed>
       <MinFov>0.1</MinFov>
       <MaxFov>1.04719755</MaxFov>
-      <GeneralDamageMultiplier>1</GeneralDamageMultiplier>
+      
     </Definition>
 
 
@@ -472,9 +472,9 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\IMP\Turret\K_SW_TurboLaser_A_Large.mwm</Model>
       <UseModelIntersection>true</UseModelIntersection>
-      <GeneralDamageMultiplier>0.25</GeneralDamageMultiplier>
+      
       <Components>
-        <Component Subtype="DuraSteel" Count="60" />
+        <Component Subtype="DuraSteel" Count="10" />
         <Component Subtype="ImperialConstruction" Count="30" />
         <Component Subtype="TurboLaser_Part" Count="15" />
         <Component Subtype="ImperialGeneralParts" Count="6" />
@@ -482,7 +482,7 @@
         <Component Subtype="TurboLaser_Part" Count="5" />
         <Component Subtype="Computer" Count="12" />
         <Component Subtype="ImperialConstruction" Count="10" />
-        <Component Subtype="DuraSteel" Count="210" />
+        <Component Subtype="DuraSteel" Count="10" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -547,9 +547,9 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\IMP\Turret\K_SW_TurboLaser_3x_Large.mwm</Model>
       <UseModelIntersection>true</UseModelIntersection>
-      <GeneralDamageMultiplier>0.25</GeneralDamageMultiplier>
+      
       <Components>
-        <Component Subtype="DuraSteel" Count="150" />
+        <Component Subtype="DuraSteel" Count="15" />
         <Component Subtype="ImperialConstruction" Count="110" />
         <Component Subtype="MetalGrid" Count="60" />
         <Component Subtype="TurboLaser_Part" Count="60" />
@@ -558,7 +558,7 @@
         <Component Subtype="TurboLaser_Part" Count="35" />
         <Component Subtype="Computer" Count="44" />
         <Component Subtype="ImperialConstruction" Count="110" />
-        <Component Subtype="DuraSteel" Count="1500" />
+        <Component Subtype="DuraSteel" Count="150" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -619,14 +619,14 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\IMP\Turret\K_Imperial_OctoTurret_Large.mwm</Model>
       <Components>
-        <Component Subtype="DuraSteel" Count="60" />
+        <Component Subtype="DuraSteel" Count="10" />
         <Component Subtype="ImperialConstruction" Count="45" />
         <Component Subtype="PowerConverter" Count="30" />
         <Component Subtype="ImperialGeneralParts" Count="30" />
         <Component Subtype="Blaster_Mechanism" Count="16" />
         <Component Subtype="Computer" Count="35" />
         <Component Subtype="ImperialConstruction" Count="40" />
-        <Component Subtype="DuraSteel" Count="95" />
+        <Component Subtype="DuraSteel" Count="15" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -658,7 +658,7 @@
       <ElevationSpeed>0.0002 </ElevationSpeed>
       <MinFov>0.1</MinFov>
       <MaxFov>1.04719755</MaxFov>
-      <GeneralDamageMultiplier>0.25</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
@@ -676,14 +676,14 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\IMP\Turret\K_SW_DefenseTurretBattery_DLC_Large.mwm</Model>
       <Components>
-        <Component Subtype="DuraSteel" Count="90" />
+        <Component Subtype="DuraSteel" Count="10" />
         <Component Subtype="ImperialConstruction" Count="45" />
         <Component Subtype="PowerConverter" Count="30" />
         <Component Subtype="ImperialGeneralParts" Count="30" />
         <Component Subtype="Blaster_Mechanism" Count="30" />
         <Component Subtype="Computer" Count="75" />
         <Component Subtype="ImperialConstruction" Count="40" />
-        <Component Subtype="DuraSteel" Count="325" />
+        <Component Subtype="DuraSteel" Count="125" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -715,7 +715,7 @@
       <ElevationSpeed>0.0002 </ElevationSpeed>
       <MinFov>0.1</MinFov>
       <MaxFov>1.04719755</MaxFov>
-      <GeneralDamageMultiplier>0.25</GeneralDamageMultiplier>
+      
     </Definition>
     <!-- 3x3 -->
 
@@ -737,7 +737,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\IMP\Turret\K_SW_DefenseTurretHeavyBattery_DMDC_Large.mwm</Model>
       <Components>
-        <Component Subtype="DuraSteel" Count="110" />
+        <Component Subtype="DuraSteel" Count="10" />
         <Component Subtype="ImperialConstruction" Count="90" />
         <Component Subtype="PowerConverter" Count="90" />
         <Component Subtype="ImperialGeneralParts" Count="220" />
@@ -745,7 +745,7 @@
         <Component Subtype="IonCapacitor" Count="20" />
         <Component Subtype="Computer" Count="225" />
         <Component Subtype="ImperialConstruction" Count="210" />
-        <Component Subtype="DuraSteel" Count="1500" />
+        <Component Subtype="DuraSteel" Count="150" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -777,7 +777,7 @@
       <ElevationSpeed>0.0002 </ElevationSpeed>
       <MinFov>0.1</MinFov>
       <MaxFov>1.04719755</MaxFov>
-      <GeneralDamageMultiplier>1</GeneralDamageMultiplier>
+      
     </Definition>
 
 
@@ -796,14 +796,14 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\IMP\Turret\K_SW_DefenseTurretRecessedBattery_DIC_Large.mwm</Model>
       <Components>
-        <Component Subtype="DuraSteel" Count="90" />
+        <Component Subtype="DuraSteel" Count="10" />
         <Component Subtype="ImperialConstruction" Count="45" />
         <Component Subtype="PowerConverter" Count="50" />
         <Component Subtype="ImperialGeneralParts" Count="30" />
         <Component Subtype="IonCapacitor" Count="60" />
         <Component Subtype="Computer" Count="75" />
         <Component Subtype="ImperialConstruction" Count="40" />
-        <Component Subtype="DuraSteel" Count="1325" />
+        <Component Subtype="DuraSteel" Count="125" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -839,7 +839,7 @@
       <ElevationSpeed>0.0002 </ElevationSpeed>
       <MinFov>0.1</MinFov>
       <MaxFov>1.04719755</MaxFov>
-      <GeneralDamageMultiplier>1</GeneralDamageMultiplier>
+      
     </Definition>
     <!-- 5x5 -->
 

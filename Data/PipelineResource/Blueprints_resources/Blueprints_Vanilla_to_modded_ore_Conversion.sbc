@@ -22,7 +22,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Conversion_DuraSteel</SubtypeId>
       </Id>
-      <DisplayName>Doonium</DisplayName>
+      <DisplayName>Dooninum</DisplayName>
       <Icon>Textures\GUI\Icons\Resources\Ingots\SW_Resources_Ingot_5.dds</Icon>
       <Prerequisites>
         <Item Amount="21" TypeId="Ingot" SubtypeId="Iron" />
@@ -247,7 +247,7 @@
     <Entry Class="K_Imperial_Resource_Conversion" BlueprintSubtypeId="SynthFuel3" />
     <Entry Class="K_Imperial_Resource_Conversion" BlueprintSubtypeId="ZPhrik" />
     <Entry Class="K_Imperial_Resource_Conversion" BlueprintSubtypeId="ZMandolorianIron_Standard" />
- />
+ 
 
     <Entry Class="K_Imperial_Resource_Conversion" BlueprintSubtypeId="Conversion_DuraSteel" />
     <Entry Class="K_Imperial_Resource_Conversion" BlueprintSubtypeId="Conversion_Lommite" />

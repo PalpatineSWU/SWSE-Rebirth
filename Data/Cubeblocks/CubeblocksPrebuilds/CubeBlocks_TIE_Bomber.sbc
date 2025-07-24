@@ -19,10 +19,10 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\TIE_Bomber\K_TIE_Bomber_CorePod_Small.mwm</Model>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="50" />
+        <Component Subtype="LightweightDurasteel" Count="18" />
         <Component Subtype="ImperialConstruction" Count="15" />
         <Component Subtype="Computer" Count="5" />
-        <Component Subtype="LightweightDurasteel" Count="150" />
+        <Component Subtype="LightweightDurasteel" Count="35" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BlockPairName>K_TIE_Bomber_Pod</BlockPairName>
@@ -56,10 +56,10 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\TIE_Bomber\K_TIE_Bomber_Pod_Center_Weapon_Small.mwm</Model>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="50" />
+        <Component Subtype="LightweightDurasteel" Count="35" />
         <Component Subtype="ImperialConstruction" Count="25" />
         <Component Subtype="Computer" Count="5" />
-        <Component Subtype="LightweightDurasteel" Count="150" />
+        <Component Subtype="LightweightDurasteel" Count="35" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BlockPairName>K_TIE_Bomber_Pod_CenterBombbay</BlockPairName>
@@ -93,14 +93,14 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\TIE_Bomber\K_TIE_Bomber_Pod_Center_Small.mwm</Model>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="350" />
-        <Component Subtype="ImperialConstruction" Count="3500" />
+        <Component Subtype="LightweightDurasteel" Count="35" />
+        <Component Subtype="ImperialConstruction" Count="35" />
         <Component Subtype="PowerConverter" Count="700" />
         <Component Subtype="HeavyDutyCabling" Count="350" />
         <Component Subtype="FissionAdvancedController" Count="1050" />
-        <Component Subtype="ImperialGeneralParts" Count="350" />
-        <Component Subtype="Computer" Count="3500" />
-        <Component Subtype="LightweightDurasteel" Count="700" />
+        <Component Subtype="ImperialGeneralParts" Count="35" />
+        <Component Subtype="Computer" Count="35" />
+        <Component Subtype="LightweightDurasteel" Count="18" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BlockPairName>K_TIE_Bomber_Pod_Center</BlockPairName>
@@ -159,17 +159,17 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\TIE_Bomber\K_TIE_Bomber_Pod_End_Small.mwm</Model>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="490" />
-        <Component Subtype="ImperialConstruction" Count="245" />
+        <Component Subtype="LightweightDurasteel" Count="28" />
+        <Component Subtype="ImperialConstruction" Count="18" />
         <Component Subtype="AlternatePowerCell" Count="490">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="490" />
-        <Component Subtype="ImperialConstruction" Count="245" />
-        <Component Subtype="LightweightDurasteel" Count="490" />
+        <Component Subtype="Computer" Count="25" />
+        <Component Subtype="ImperialConstruction" Count="25" />
+        <Component Subtype="LightweightDurasteel" Count="18" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BlockPairName>K_TIE_Bomber_Pod_End</BlockPairName>
@@ -241,7 +241,7 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>1.5</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>0</FlameDamageLengthScale>
       <FlameDamage>0</FlameDamage>
@@ -287,11 +287,11 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\TIE_Bomber\K_TIE_Bomber_Wing_Small.mwm</Model>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="40" />
+        <Component Subtype="LightweightDurasteel" Count="18" />
         <Component Subtype="Computer" Count="5" />
         <Component Subtype="IonWingCircuitry" Count="15" />
-        <Component Subtype="TranspariSteel" Count="55" />
-        <Component Subtype="LightweightDurasteel" Count="110" />
+        <Component Subtype="TranspariSteel" Count="15" />
+        <Component Subtype="LightweightDurasteel" Count="10" />
       </Components>
       <CriticalComponent Subtype="TranspariSteel" Index="0" />
       <BlockPairName>K_TIE_Bomber_Wing</BlockPairName>

@@ -43,7 +43,7 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>3</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>0</FlameDamageLengthScale>
       <FlameDamage>0</FlameDamage>
@@ -65,7 +65,7 @@
       <FlameFlare>SmallGridSmallThruster</FlameFlare>
       <FlameVisibilityDistance>0</FlameVisibilityDistance>
       <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
-      <PrimarySound>K_NR_EngineQuiet</PrimarySound>
+      <PrimarySound>SmShipSmJet</PrimarySound>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <DestroyEffect>Imperial_Explosion_Sparks</DestroyEffect>
@@ -115,7 +115,7 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>3</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>0</FlameDamageLengthScale>
       <FlameDamage>0</FlameDamage>
@@ -137,7 +137,7 @@
       <FlameFlare>SmallGridSmallThruster</FlameFlare>
       <FlameVisibilityDistance>0</FlameVisibilityDistance>
       <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
-      <PrimarySound>K_NR_EngineQuiet</PrimarySound>
+      <PrimarySound>SmShipSmJet</PrimarySound>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <DestroyEffect>Imperial_Explosion_Sparks</DestroyEffect>
@@ -208,7 +208,7 @@
       <FlameFlare>SmallGridSmallThruster</FlameFlare>
       <FlameVisibilityDistance>0</FlameVisibilityDistance>
       <FlameGlareQuerySize>0.1</FlameGlareQuerySize>
-      <PrimarySound>K_Imperial_Engine_Small_Low</PrimarySound>
+      <PrimarySound>SmShipSmJet</PrimarySound>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <DestroyEffect>Imperial_Explosion_Sparks</DestroyEffect>
@@ -256,7 +256,7 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>3</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>0</FlameDamageLengthScale>
       <FlameDamage>0</FlameDamage>
@@ -278,7 +278,7 @@
       <FlameFlare>SmallGridSmallThruster</FlameFlare>
       <FlameVisibilityDistance>0</FlameVisibilityDistance>
       <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
-      <PrimarySound>K_NR_EngineQuiet</PrimarySound>
+      <PrimarySound>SmShipSmJet</PrimarySound>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <DestroyEffect>Imperial_Explosion_Sparks</DestroyEffect>
@@ -328,7 +328,7 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>3</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>0</FlameDamageLengthScale>
       <FlameDamage>0</FlameDamage>
@@ -350,7 +350,7 @@
       <FlameFlare>SmallGridSmallThruster</FlameFlare>
       <FlameVisibilityDistance>0</FlameVisibilityDistance>
       <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
-      <PrimarySound>K_NR_EngineQuiet</PrimarySound>
+      <PrimarySound>SmShipSmJet</PrimarySound>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <DestroyEffect>Imperial_Explosion_Sparks</DestroyEffect>

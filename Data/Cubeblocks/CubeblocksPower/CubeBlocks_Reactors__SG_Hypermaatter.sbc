@@ -33,6 +33,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
 
       <MaxPowerOutput>6</MaxPowerOutput>
       <FuelCapacity>50000</FuelCapacity>
@@ -102,6 +103,7 @@
       <BuildTimeSeconds>40</BuildTimeSeconds>
 
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <MaxPowerOutput>60</MaxPowerOutput>
 
       <FuelCapacity>50000</FuelCapacity>
@@ -168,6 +170,7 @@
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
 
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <MaxPowerOutput>240</MaxPowerOutput>

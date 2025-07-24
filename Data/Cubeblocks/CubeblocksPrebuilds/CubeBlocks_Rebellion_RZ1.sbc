@@ -25,13 +25,13 @@
       <CharacterAnimation>K_Animation_Engineer_AWing</CharacterAnimation>
       <UsesDeformation>false</UsesDeformation>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="100" />
-        <Component Subtype="ImperialConstruction" Count="200" />
+        <Component Subtype="LightweightDurasteel" Count="10" />
+        <Component Subtype="ImperialConstruction" Count="20" />
         <Component Subtype="StandardCabling" Count="50" />
-        <Component Subtype="LightweightDurasteel" Count="100" />
-        <Component Subtype="Computer" Count="250" />
-        <Component Subtype="LightweightDurasteel" Count="550" />
-        <Component Subtype="TranspariSteel" Count="300" />
+        <Component Subtype="LightweightDurasteel" Count="10" />
+        <Component Subtype="Computer" Count="25" />
+        <Component Subtype="LightweightDurasteel" Count="18" />
+        <Component Subtype="TranspariSteel" Count="30" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
 
@@ -107,7 +107,7 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>1.5</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>0</FlameDamageLengthScale>
       <FlameDamage>0</FlameDamage>
@@ -178,7 +178,7 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>1.5</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>0</FlameDamageLengthScale>
       <FlameDamage>0</FlameDamage>
@@ -251,7 +251,7 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>1.5</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>0</FlameDamageLengthScale>
       <FlameDamage>0</FlameDamage>
@@ -323,7 +323,7 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>1.5</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>0</FlameDamageLengthScale>
       <FlameDamage>0</FlameDamage>
@@ -469,17 +469,17 @@
       <Model>Models\Rebellion\Rz1\AWIng_Rz1_Reactor_Small.mwm</Model>
       <BlockPairName>BatteryBigIII</BlockPairName>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="264" />
-        <Component Subtype="ImperialConstruction" Count="132" />
+        <Component Subtype="LightweightDurasteel" Count="18" />
+        <Component Subtype="ImperialConstruction" Count="12" />
         <Component Subtype="StandardPowerCell" Count="264">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="264" />
-        <Component Subtype="ImperialConstruction" Count="132" />
-        <Component Subtype="LightweightDurasteel" Count="264" />
+        <Component Subtype="Computer" Count="64" />
+        <Component Subtype="ImperialConstruction" Count="32" />
+        <Component Subtype="LightweightDurasteel" Count="18" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <EdgeType>Light</EdgeType>
@@ -587,17 +587,17 @@
       <Model>Models\Rebellion\Rz1\AWIng_Rz1_Reactor_Upgrade_Small.mwm</Model>
       <BlockPairName>BatteryBigI</BlockPairName>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="264" />
-        <Component Subtype="ImperialConstruction" Count="132" />
+        <Component Subtype="LightweightDurasteel" Count="18" />
+        <Component Subtype="ImperialConstruction" Count="32" />
         <Component Subtype="NeurodiumPowerCell" Count="264">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="264" />
-        <Component Subtype="ImperialConstruction" Count="132" />
-        <Component Subtype="LightweightDurasteel" Count="264" />
+        <Component Subtype="Computer" Count="64" />
+        <Component Subtype="ImperialConstruction" Count="32" />
+        <Component Subtype="LightweightDurasteel" Count="18" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <EdgeType>Light</EdgeType>
@@ -750,7 +750,7 @@
       <TargetingGroups>
         <string>PowerSystems</string>
       </TargetingGroups>
-      <GeneralDamageMultiplier>1.2</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">      <!-- Capacity -->
@@ -809,7 +809,7 @@
       <TargetingGroups>
         <string>PowerSystems</string>
       </TargetingGroups>
-      <GeneralDamageMultiplier>1.2</GeneralDamageMultiplier>
+      
     </Definition>
 
     <!-- Wing Gun Slot -->    <!-- Stock, Overcharged, Targeting, Slugthrower, -->
@@ -1435,12 +1435,12 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Rebellion\Rz1\AWIng_Rz1_Gyro_Upgrade_Small.mwm</Model>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="750" />
-        <Component Subtype="ImperialConstruction" Count="250" />
+        <Component Subtype="LightweightDurasteel" Count="18" />
+        <Component Subtype="ImperialConstruction" Count="25" />
         <Component Subtype="StandardCabling" Count="50" />
         <Component Subtype="Motor" Count="100" />
-        <Component Subtype="Computer" Count="150" />
-        <Component Subtype="LightweightDurasteel" Count="500" />
+        <Component Subtype="Computer" Count="10" />
+        <Component Subtype="LightweightDurasteel" Count="18" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BlockPairName>K_Rebellion_RZ1_Gyro_Upgrade1</BlockPairName>
@@ -1532,7 +1532,7 @@ Function: Ram-Prow, Milage may differ.
       <Components>
         <Component Subtype="LightweightDurasteel" Count="25" />
         <Component Subtype="Computer" Count="15" />
-        <Component Subtype="LightweightDurasteel" Count="50" />
+        <Component Subtype="LightweightDurasteel" Count="18" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BlockPairName>K_Rebellion_RZ1_Nose_Ram</BlockPairName>

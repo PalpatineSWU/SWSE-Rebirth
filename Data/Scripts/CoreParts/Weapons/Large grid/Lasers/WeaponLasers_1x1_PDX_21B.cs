@@ -22,7 +22,7 @@ namespace Scripts {
                         MuzzlePartId = "MissileTurretBarrels", // The subpart where your muzzle empties are located. This is often the elevation subpart. Subpart_Boomsticks must be written as Boomsticks.
                         AzimuthPartId = "MissileTurretBase1", // Your Rotating Subpart, the bit that moves sideways.
                         ElevationPartId = "MissileTurretBarrels",// Your Elevating Subpart, that bit that moves up.
-                        DurabilityMod = 0.25f, // GeneralDamageMultiplier, 0.25f = 25% damage taken.
+                        DurabilityMod = 1f, // GeneralDamageMultiplier, 0.25f = 25% damage taken.
                         IconName = "Laser turrets.dds" // Overlay for block inventory slots, like reactors, refineries, etc.
                     },             
                  },

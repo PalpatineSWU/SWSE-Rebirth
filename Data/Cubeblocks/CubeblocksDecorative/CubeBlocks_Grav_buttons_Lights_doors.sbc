@@ -40,6 +40,7 @@
       <MaxOpen>1.2</MaxOpen>
       <OpeningSpeed>3</OpeningSpeed>
       <BuildTimeSeconds>25</BuildTimeSeconds>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <OpenSound>BlockDoorSmallOpen</OpenSound>
       <CloseSound>BlockDoorSmallClose</CloseSound>
       <DisassembleRatio>5</DisassembleRatio>
@@ -96,6 +97,7 @@
       <EmissiveColorPreset>Default</EmissiveColorPreset>
       <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
       <DestroySound>PoofExplosionCat3</DestroySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <PCU>115</PCU>
       
     </Definition>
@@ -120,7 +122,7 @@
         <Component Subtype="BulletproofGlass" Count="1" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <IsStandAlone>true</IsStandAlone>
+      <IsStandAlone>false</IsStandAlone>
       <HasPhysics>false</HasPhysics>
       <BlockPairName>K_Imperial_ControlPanel</BlockPairName>
       <MirroringZ>Y</MirroringZ>
@@ -133,6 +135,7 @@
       </DestroyEffectOffset>
       <PCU>5</PCU>
       <IsAirTight>false</IsAirTight>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
     </Definition>
 
 
@@ -182,6 +185,7 @@
           <SubtypeId>K_Imperial_Misc_Hangar_LandingGearII</SubtypeId>
         </BlockVariant>
       </BlockVariants>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_LandingGearDefinition">
@@ -223,6 +227,7 @@
       <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
       <DestroySound>PoofExplosionCat3</DestroySound>
       <PCU>35</PCU>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
     </Definition>
 
 
@@ -332,7 +337,7 @@
 
 
 
-
+<!--
     <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
       <Id>
         <TypeId>ReflectorLight</TypeId>
@@ -378,7 +383,7 @@
       <IsAirTight>false</IsAirTight>
     </Definition>
 
-
+-->
 
 
 

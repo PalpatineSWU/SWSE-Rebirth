@@ -20,7 +20,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\IMP\Turret\K_SW_DefenseTurretRecessedBattery_DTC_Large.mwm</Model>
       <Components>
-        <Component Subtype="DuraSteel" Count="90" />
+        <Component Subtype="DuraSteel" Count="10" />
         <Component Subtype="ImperialConstruction" Count="45" />
         <Component Subtype="PowerConverter" Count="30" />
         <Component Subtype="ImperialGeneralParts" Count="30" />
@@ -28,7 +28,7 @@
         <Component Subtype="TurboLaser_Part" Count="30" />
         <Component Subtype="Computer" Count="75" />
         <Component Subtype="ImperialConstruction" Count="40" />
-        <Component Subtype="DuraSteel" Count="1325" />
+        <Component Subtype="DuraSteel" Count="125" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -64,7 +64,7 @@
       <ElevationSpeed>0.0002 </ElevationSpeed>
       <MinFov>0.1</MinFov>
       <MaxFov>1.04719755</MaxFov>
-      <GeneralDamageMultiplier>1</GeneralDamageMultiplier>
+      
     </Definition>
 
 
@@ -85,7 +85,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\IMP\Turret\K_SW_DefenseTurretHeavyBattery_DTC_Large.mwm</Model>
       <Components>
-        <Component Subtype="DuraSteel" Count="110" />
+        <Component Subtype="DuraSteel" Count="10" />
         <Component Subtype="ImperialConstruction" Count="90" />
         <Component Subtype="PowerConverter" Count="90" />
         <Component Subtype="ImperialGeneralParts" Count="145" />
@@ -93,7 +93,7 @@
         <Component Subtype="TurboLaser_Part" Count="60" />
         <Component Subtype="Computer" Count="225" />
         <Component Subtype="ImperialConstruction" Count="210" />
-        <Component Subtype="DuraSteel" Count="1500" />
+        <Component Subtype="DuraSteel" Count="100" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -125,7 +125,7 @@
       <ElevationSpeed>0.0002 </ElevationSpeed>
       <MinFov>0.1</MinFov>
       <MaxFov>1.04719755</MaxFov>
-      <GeneralDamageMultiplier>1</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
@@ -144,7 +144,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\IMP\Turret\K_SW_DefenseTurretBattery_DTC_Large.mwm</Model>
       <Components>
-        <Component Subtype="DuraSteel" Count="90" />
+        <Component Subtype="DuraSteel" Count="10" />
         <Component Subtype="ImperialConstruction" Count="45" />
         <Component Subtype="PowerConverter" Count="30" />
         <Component Subtype="ImperialGeneralParts" Count="30" />
@@ -152,7 +152,7 @@
         <Component Subtype="TurboLaser_Part" Count="12" />
         <Component Subtype="Computer" Count="75" />
         <Component Subtype="ImperialConstruction" Count="40" />
-        <Component Subtype="DuraSteel" Count="1325" />
+        <Component Subtype="DuraSteel" Count="125" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -184,7 +184,7 @@
       <ElevationSpeed>0.0002 </ElevationSpeed>
       <MinFov>0.1</MinFov>
       <MaxFov>1.04719755</MaxFov>
-      <GeneralDamageMultiplier>1</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
@@ -203,14 +203,14 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\IMP\Turret\K_Imperial_Turret_HC_LaserCannon_Large.mwm</Model>
       <Components>
-        <Component Subtype="DuraSteel" Count="60" />
+        <Component Subtype="DuraSteel" Count="10" />
         <Component Subtype="ImperialConstruction" Count="45" />
         <Component Subtype="PowerConverter" Count="30" />
         <Component Subtype="Maser_Mechanism" Count="30" />
         <Component Subtype="Blaster_Mechanism" Count="16" />
         <Component Subtype="Computer" Count="35" />
         <Component Subtype="ImperialConstruction" Count="40" />
-        <Component Subtype="DuraSteel" Count="95" />
+        <Component Subtype="DuraSteel" Count="15" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -231,7 +231,7 @@
       <DestroySound>K_SW_Explosion_Generic</DestroySound>
       <EmissiveColorPreset>K_Imperial_Weapon_EmissiveSet</EmissiveColorPreset>
       <AiEnabled>false</AiEnabled>
-      <GeneralDamageMultiplier>1</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
@@ -289,9 +289,9 @@
       <ElevationSpeed>0.0002 </ElevationSpeed>
       <MinFov>0.1</MinFov>
       <MaxFov>1.04719755</MaxFov>
-      <GeneralDamageMultiplier>1</GeneralDamageMultiplier>
+      
     </Definition>
-
+        <!--
     <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
 
       <Id>
@@ -314,14 +314,14 @@
         <Component Subtype="Blaster_Mechanism" Count="8" />
         <Component Subtype="Computer" Count="13" />
         <Component Subtype="ImperialConstruction" Count="33" />
-        <Component Subtype="DuraSteel" Count="75" />
+        <Component Subtype="DuraSteel" Count="15" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
       </MountPoints>
       <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+
         <StaticMode>
           <PlacementMode>OutsideVoxel</PlacementMode>
           <MaxAllowed>0.2</MaxAllowed>
@@ -359,7 +359,7 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
     </Definition>
-
+-->
 
 
   </CubeBlocks>

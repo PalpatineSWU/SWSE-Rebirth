@@ -20,9 +20,9 @@
       <GlassModel>Models\Cubes\Large\CockpitGlass.mwm</GlassModel>
       <CharacterAnimation>cockpit1_large</CharacterAnimation>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="400" />
+        <Component Subtype="LightweightDurasteel" Count="40" />
         <Component Subtype="Computer" Count="100" />
-        <Component Subtype="LightweightDurasteel" Count="800" />
+        <Component Subtype="LightweightDurasteel" Count="80" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BlockPairName>K_Imperial_Chiss_Test</BlockPairName>
@@ -129,7 +129,7 @@
       <DestroySound>K_Imperial_Explosion_Generic</DestroySound>
       <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
-      <GeneralDamageMultiplier>1.2</GeneralDamageMultiplier>
+      
       <IsAirTight>true</IsAirTight>
     </Definition>
 

@@ -67,7 +67,7 @@
           <SubtypeId>K_Imperial_Armor_Empire_InvertedCorner</SubtypeId>
         </BlockVariant>
       </BlockVariants>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
 
@@ -130,7 +130,7 @@
       <BuildTimeSeconds>5</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
       <PCU>1</PCU>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition>
@@ -195,7 +195,7 @@
       <DisassembleRatio>2.5</DisassembleRatio>
       <PCU>1</PCU>
       <IsAirTight>false</IsAirTight>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition>
@@ -265,7 +265,7 @@
       <BuildTimeSeconds>7</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
       <PCU>1</PCU>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
   </CubeBlocks>

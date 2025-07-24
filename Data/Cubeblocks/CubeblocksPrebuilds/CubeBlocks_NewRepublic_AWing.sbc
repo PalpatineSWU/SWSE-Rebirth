@@ -46,7 +46,7 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>1.5</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>0</FlameDamageLengthScale>
       <FlameDamage>0</FlameDamage>
@@ -74,7 +74,7 @@
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
       <DestroySound>K_SW_Explosion_Generic</DestroySound>
       <EmissiveColorPreset>Engine_Yellow</EmissiveColorPreset>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -120,7 +120,7 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>1.5</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>0</FlameDamageLengthScale>
       <FlameDamage>0</FlameDamage>
@@ -148,7 +148,7 @@
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
       <DestroySound>K_SW_Explosion_Generic</DestroySound>
       <EmissiveColorPreset>Engine_Yellow</EmissiveColorPreset>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
@@ -167,17 +167,17 @@
       <Model>Models\NewRepublic\RZ2_AWing\KNR_AWing_Reactor_Small.mwm</Model>
       <BlockPairName>AWing_Reactor</BlockPairName>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="264" />
-        <Component Subtype="ImperialConstruction" Count="132" />
-        <Component Subtype="StandardPowerCell" Count="264">
+        <Component Subtype="LightweightDurasteel" Count="24" />
+        <Component Subtype="ImperialConstruction" Count="32" />
+        <Component Subtype="StandardPowerCell" Count="64">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="264" />
-        <Component Subtype="ImperialConstruction" Count="132" />
-        <Component Subtype="LightweightDurasteel" Count="264" />
+        <Component Subtype="Computer" Count="64" />
+        <Component Subtype="ImperialConstruction" Count="32" />
+        <Component Subtype="LightweightDurasteel" Count="64" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BuildProgressModels>
@@ -256,7 +256,7 @@
       <EmissiveColorPreset>K_Imperial_Stock_EmissiveSet</EmissiveColorPreset>
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
       <DestroySound>K_SW_Explosion_Generic</DestroySound>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
 
@@ -280,13 +280,13 @@
       <CharacterAnimation>K_Animation_Engineer_AWing</CharacterAnimation>
       <UsesDeformation>false</UsesDeformation>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="100" />
-        <Component Subtype="ImperialConstruction" Count="200" />
+        <Component Subtype="LightweightDurasteel" Count="10" />
+        <Component Subtype="ImperialConstruction" Count="20" />
         <Component Subtype="StandardCabling" Count="50" />
-        <Component Subtype="LightweightDurasteel" Count="100" />
-        <Component Subtype="Computer" Count="250" />
-        <Component Subtype="LightweightDurasteel" Count="550" />
-        <Component Subtype="TranspariSteel" Count="300" />
+        <Component Subtype="LightweightDurasteel" Count="10" />
+        <Component Subtype="Computer" Count="25" />
+        <Component Subtype="LightweightDurasteel" Count="55" />
+        <Component Subtype="TranspariSteel" Count="30" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
 
@@ -315,7 +315,7 @@
         <ScreenArea Name="CockpitScreen_03" DisplayName="3" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" Script="TSS_Gravity" />
         <ScreenArea Name="CockpitScreen_04" DisplayName="4" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" Script="TSS_ArtificialHorizon" />
       </ScreenAreas>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
 
@@ -368,7 +368,7 @@
       <ElevationSpeed>0.0002 </ElevationSpeed>
       <MinFov>0.1</MinFov>
       <MaxFov>1.04719755</MaxFov>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_CameraBlockDefinition">
@@ -412,7 +412,7 @@
       <EmissiveColorPreset>Default</EmissiveColorPreset>
       <DestroyEffect>Imperial_Explosion_Sparks</DestroyEffect>
       <DestroySound>K_SW_Explosion_Generic</DestroySound>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
 
@@ -460,7 +460,7 @@
       <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
       <DestroySound>WepLrgWarheadExpl</DestroySound>
       <PCU>25</PCU>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
@@ -519,7 +519,7 @@
       <TargetingGroups>
         <string>PowerSystems</string>
       </TargetingGroups>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
@@ -592,7 +592,7 @@
       <MaxFov>1.04719755</MaxFov>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
@@ -661,7 +661,7 @@
       <MaxFov>1.04719755</MaxFov>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
 
@@ -704,7 +704,7 @@
       <DestroyEffect>Imperial_Explosion_Sparks</DestroyEffect>
       <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
       <PCU>35</PCU>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_RadioAntennaDefinition">
@@ -744,7 +744,7 @@
       <DamagedSound>ParticleElectrical</DamagedSound>
       <DestroyEffect>Imperial_Explosion_Sparks</DestroyEffect>
       <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
       <PCU>100</PCU>
     </Definition>
 
@@ -791,7 +791,7 @@
       <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
       <DestroyEffect>Imperial_Explosion_Sparks</DestroyEffect>
       <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
 

@@ -244,13 +244,13 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\ISD_New\ISD_Bridge_FrontCommand_Large.mwm</Model>
       <Components>
-        <Component Subtype="DuraSteel" Count="1000" />
+        <Component Subtype="DuraSteel" Count="400" />
         <Component Subtype="ImperialConstruction" Count="650" />
         <Component Subtype="StandardPowerCell" Count="240" />
         <Component Subtype="PowerConverter" Count="400" />
         <Component Subtype="ImperialConstruction" Count="150" />
         <Component Subtype="Computer" Count="80" />
-        <Component Subtype="LightweightDurasteel" Count="300" />
+        <Component Subtype="DuraSteel" Count="300" />
       </Components>
       <CriticalComponent Subtype="DuraSteel" Index="0" />
       <BlockPairName>K_Imperial_ISD_New_Bridge_FrontCommand</BlockPairName>

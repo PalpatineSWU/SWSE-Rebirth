@@ -26,13 +26,13 @@
       <CharacterAnimation>K_Animation_Engineer_TIEHQ</CharacterAnimation>
       <UsesDeformation>false</UsesDeformation>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="100" />
-        <Component Subtype="ImperialConstruction" Count="200" />
+        <Component Subtype="LightweightDurasteel" Count="10" />
+        <Component Subtype="ImperialConstruction" Count="20" />
         <Component Subtype="StandardCabling" Count="50" />
-        <Component Subtype="LightweightDurasteel" Count="100" />
-        <Component Subtype="Computer" Count="250" />
-        <Component Subtype="LightweightDurasteel" Count="550" />
-        <Component Subtype="TranspariSteel" Count="300" />
+        <Component Subtype="LightweightDurasteel" Count="10" />
+        <Component Subtype="Computer" Count="25" />
+        <Component Subtype="LightweightDurasteel" Count="55" />
+        <Component Subtype="TranspariSteel" Count="30" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BuildProgressModels>
@@ -171,7 +171,7 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>1.5</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>0</FlameDamageLengthScale>
       <FlameDamage>0</FlameDamage>
@@ -247,7 +247,7 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>1.5</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>0</FlameDamageLengthScale>
       <FlameDamage>0</FlameDamage>
@@ -635,16 +635,12 @@
       <Model>Models\Imperial_TIE_New\Hunter\K_TIE_Wing_Right_Hunter_Small.mwm</Model>
       <Components>
         <Component Subtype="LightweightDurasteel" Count="15" />
-        <Component Subtype="ImperialGeneralParts" Count="90" />
+        <Component Subtype="ImperialGeneralParts" Count="18" />
         <Component Subtype="Blaster_Mechanism" Count="50" />
         <Component Subtype="Computer" Count="60" />
-        <Component Subtype="LightweightDurasteel" Count="100" />
+        <Component Subtype="LightweightDurasteel" Count="10" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="3" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="3" />
-      </MountPoints>
       <BlockPairName>K_Imperial_Reborn_TIE_Hunter_WingCannon_A</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
@@ -742,10 +738,10 @@
       <Model>Models\Imperial_TIE_New\Hunter\K_TIE_Structure_MissileLauncher_Hunter_Small.mwm</Model>
       <Components>
         <Component Subtype="LightweightDurasteel" Count="15" />
-        <Component Subtype="ImperialGeneralParts" Count="90" />
+        <Component Subtype="ImperialGeneralParts" Count="18" />
         <Component Subtype="Blaster_Mechanism" Count="50" />
         <Component Subtype="Computer" Count="60" />
-        <Component Subtype="LightweightDurasteel" Count="100" />
+        <Component Subtype="LightweightDurasteel" Count="18" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BlockPairName>K_Imperial_Reborn_TIE_Hunter_Launcher</BlockPairName>

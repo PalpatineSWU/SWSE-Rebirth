@@ -18,11 +18,11 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\TIE_Drone\K_TIE_Drone_Core_Small.mwm</Model>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="150" />
-        <Component Subtype="ImperialConstruction" Count="150" />
-        <Component Subtype="Motor" Count="150" />
-        <Component Subtype="Computer" Count="150" />
-        <Component Subtype="ImperialGeneralParts" Count="150" />
+        <Component Subtype="LightweightDurasteel" Count="15" />
+        <Component Subtype="ImperialConstruction" Count="15" />
+        <Component Subtype="Motor" Count="15" />
+        <Component Subtype="Computer" Count="15" />
+        <Component Subtype="ImperialGeneralParts" Count="15" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BlockPairName>K_TIE_Drone_Core</BlockPairName>
@@ -69,13 +69,13 @@
       <CharacterAnimation>cockpit1_small</CharacterAnimation>
       <UsesDeformation>false</UsesDeformation>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="100" />
-        <Component Subtype="ImperialConstruction" Count="200" />
+        <Component Subtype="LightweightDurasteel" Count="10" />
+        <Component Subtype="ImperialConstruction" Count="20" />
         <Component Subtype="StandardCabling" Count="50" />
-        <Component Subtype="LightweightDurasteel" Count="100" />
-        <Component Subtype="Computer" Count="250" />
-        <Component Subtype="LightweightDurasteel" Count="550" />
-        <Component Subtype="TranspariSteel" Count="300" />
+        <Component Subtype="LightweightDurasteel" Count="10" />
+        <Component Subtype="Computer" Count="25" />
+        <Component Subtype="LightweightDurasteel" Count="55" />
+        <Component Subtype="TranspariSteel" Count="30" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BlockPairName>K_TIE_Drone_Cockpit</BlockPairName>

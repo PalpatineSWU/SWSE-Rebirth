@@ -26,13 +26,13 @@
       <CharacterAnimation>K_Animation_Engineer_TIEHQ</CharacterAnimation>
       <UsesDeformation>false</UsesDeformation>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="100" />
-        <Component Subtype="ImperialConstruction" Count="200" />
-        <Component Subtype="StandardCabling" Count="50" />
-        <Component Subtype="LightweightDurasteel" Count="100" />
-        <Component Subtype="Computer" Count="250" />
-        <Component Subtype="LightweightDurasteel" Count="550" />
-        <Component Subtype="TranspariSteel" Count="300" />
+        <Component Subtype="LightweightDurasteel" Count="10" />
+        <Component Subtype="ImperialConstruction" Count="20" />
+        <Component Subtype="StandardCabling" Count="5" />
+        <Component Subtype="LightweightDurasteel" Count="10" />
+        <Component Subtype="Computer" Count="25" />
+        <Component Subtype="LightweightDurasteel" Count="50" />
+        <Component Subtype="TranspariSteel" Count="30" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BuildProgressModels>
@@ -171,7 +171,7 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>1.5</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>0</FlameDamageLengthScale>
       <FlameDamage>0</FlameDamage>
@@ -247,7 +247,7 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>1.5</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>0</FlameDamageLengthScale>
       <FlameDamage>0</FlameDamage>
@@ -403,17 +403,17 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Imperial_TIE_New\Bomber\K_TIE_MainBattery_Bomber_Small.mwm</Model>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="350" />
-        <Component Subtype="ImperialConstruction" Count="175" />
+        <Component Subtype="LightweightDurasteel" Count="35" />
+        <Component Subtype="ImperialConstruction" Count="15" />
         <Component Subtype="AlternatePowerCell" Count="350">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="350" />
-        <Component Subtype="ImperialConstruction" Count="175" />
-        <Component Subtype="LightweightDurasteel" Count="350" />
+        <Component Subtype="Computer" Count="30" />
+        <Component Subtype="ImperialConstruction" Count="15" />
+        <Component Subtype="LightweightDurasteel" Count="35" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BlockPairName>K_Imperial_Reborn_TIE_Bomber_Chassis_Battery</BlockPairName>
@@ -616,7 +616,7 @@
       <Model>Models\Imperial_TIE_New\Bomber\K_TIE_BombBay_Bomber_Small.mwm</Model>
       <Components>
         <Component Subtype="LightweightDurasteel" Count="20" />
-        <Component Subtype="ImperialGeneralParts" Count="60" />
+        <Component Subtype="ImperialGeneralParts" Count="15" />
         <Component Subtype="Blaster_Mechanism" Count="6" />
         <Component Subtype="TurboLaser_Part" Count="30" />
         <Component Subtype="TurboLaser_Part" Count="30" />

@@ -280,7 +280,7 @@
         <Component BuilderType="MyObjectBuilder_Inventory"/>
       </DefaultComponents>
     </Container>
-
+   <!--
     <Container>
       <Id>
         <TypeId>MyObjectBuilder_Character</TypeId>
@@ -366,26 +366,7 @@
         <Component BuilderType="MyObjectBuilder_CharacterDiscoveryComponent" ForceCreate="true"/>
       </DefaultComponents>
     </Container>
-
-    <Container>
-      <Id>
-        <TypeId>MyObjectBuilder_Character</TypeId>
-        <SubtypeId>k_imperial_wildlife_spider</SubtypeId>
-      </Id>
-      <DefaultComponents>
-        <Component BuilderType="MyObjectBuilder_CharacterStatComponent" SubtypeId="Space_spider" ForceCreate="true"/>
-      </DefaultComponents>
-    </Container>
-
-    <Container>
-      <Id>
-        <TypeId>MyObjectBuilder_Character</TypeId>
-        <SubtypeId>k_imperial_wildlife_spider_II</SubtypeId>
-      </Id>
-      <DefaultComponents>
-        <Component BuilderType="MyObjectBuilder_CharacterStatComponent" SubtypeId="Space_spider" ForceCreate="true"/>
-      </DefaultComponents>
-    </Container>
+ -->
 
   </EntityContainers>
 </Definitions>

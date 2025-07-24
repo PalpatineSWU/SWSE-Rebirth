@@ -23,12 +23,12 @@
       <CharacterAnimation>K_Animation_Engineer_AWing</CharacterAnimation>
       <UsesDeformation>false</UsesDeformation>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="100" />
-        <Component Subtype="ImperialConstruction" Count="200" />
+        <Component Subtype="LightweightDurasteel" Count="10" />
+        <Component Subtype="ImperialConstruction" Count="20" />
         <Component Subtype="StandardCabling" Count="50" />
-        <Component Subtype="LightweightDurasteel" Count="100" />
+        <Component Subtype="LightweightDurasteel" Count="10" />
         <Component Subtype="Computer" Count="250" />
-        <Component Subtype="LightweightDurasteel" Count="550" />
+        <Component Subtype="LightweightDurasteel" Count="55" />
         <Component Subtype="TranspariSteel" Count="300" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
@@ -93,8 +93,9 @@
       </MountPoints>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      
+
       <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
       <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
       <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
@@ -196,7 +197,7 @@
         <string>PowerSystems</string>
       </TargetingGroups>
 
-      <GeneralDamageMultiplier>1</GeneralDamageMultiplier>
+
     </Definition>
 
 
@@ -236,7 +237,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      
+
       <PrimarySound>BlockGyroscope</PrimarySound>
       <ResourceSinkGroup>Gyro</ResourceSinkGroup>
       <ForceMagnitude>1344000</ForceMagnitude>
@@ -477,7 +478,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      
+
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
 
@@ -529,7 +530,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      
+
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
       <ForceMagnitude>600000</ForceMagnitude>
       <MaxPowerConsumption>0.201</MaxPowerConsumption>
@@ -539,7 +540,7 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>1.5</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>0</FlameDamageLengthScale>
       <FlameDamage>0</FlameDamage>
@@ -606,7 +607,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      
+
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
       <ForceMagnitude>600000</ForceMagnitude>
       <MaxPowerConsumption>0.201</MaxPowerConsumption>
@@ -616,7 +617,7 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>1.5</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>0</FlameDamageLengthScale>
       <FlameDamage>0</FlameDamage>
@@ -682,7 +683,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      
+
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
       <ForceMagnitude>600000</ForceMagnitude>
       <MaxPowerConsumption>0.201</MaxPowerConsumption>
@@ -692,7 +693,7 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>1.5</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>0</FlameDamageLengthScale>
       <FlameDamage>0</FlameDamage>
@@ -749,15 +750,10 @@
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BlockPairName>XWing_70_Weaponry_Wing_A</BlockPairName>
-      <MountPoints>
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="11" EndY="5" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="11" EndY="5" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="11" EndY="5" />
-      </MountPoints>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      
+
       <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
@@ -777,6 +773,7 @@
       <ElevationSpeed>0.0002 </ElevationSpeed>
       <MinFov>0.1</MinFov>
       <MaxFov>1.04719755</MaxFov>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
 
@@ -806,15 +803,10 @@
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BlockPairName>XWing_70_Weaponry_Wing_B</BlockPairName>
-      <MountPoints>
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="11" EndY="5" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="11" EndY="5" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="11" EndY="5" />
-      </MountPoints>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      
+
       <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
@@ -834,6 +826,7 @@
       <ElevationSpeed>0.0002 </ElevationSpeed>
       <MinFov>0.1</MinFov>
       <MaxFov>1.04719755</MaxFov>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
 
@@ -872,7 +865,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      
+
       <WeaponDefinitionId Subtype="K_IMP_Gun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>1</InventoryMaxVolume>
@@ -895,7 +888,7 @@
     </Definition>
 
 
-
+    <!--
     <Definition xsi:type="MyObjectBuilder_LandingGearDefinition">
       <Id>
         <TypeId>LandingGear</TypeId>
@@ -937,7 +930,7 @@
       <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
       <PCU>35</PCU>
     </Definition>
-
+  -->
 
     <Definition xsi:type="MyObjectBuilder_ShipConnectorDefinition">
       <Id>
@@ -968,13 +961,22 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
-      
+
       <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
       <ActionSound>K_Imperial_Cockpit</ActionSound>
       <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
       <DestroySound>K_Imperial_Explosion_Generic</DestroySound>
+      <PCU>125</PCU>
+      <IsAirTight>false</IsAirTight>
+      <AutoUnlockTime_Min>0</AutoUnlockTime_Min>
+      <AutoUnlockTime_Max>3600</AutoUnlockTime_Max>
+      <TieredUpdateTimes>
+        <unsignedInt>80</unsignedInt>
+        <unsignedInt>160</unsignedInt>
+        <unsignedInt>320</unsignedInt>
+      </TieredUpdateTimes>
     </Definition>
 
   </CubeBlocks>

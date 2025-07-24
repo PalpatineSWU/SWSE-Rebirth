@@ -572,7 +572,7 @@
 	   <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
        <DestroyEffect>Imperial_Explosion_Core</DestroyEffect>
       <DestroySound>K_Imperial_Explosion_TypeII</DestroySound>
-	    <GeneralDamageMultiplier>1</GeneralDamageMultiplier>
+	    
 	     </Definition>
 		 
 		 
@@ -647,7 +647,7 @@
 	   <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
        <DestroyEffect>Imperial_Explosion_Core</DestroyEffect>
       <DestroySound>K_Imperial_Explosion_TypeII</DestroySound>
-	    <GeneralDamageMultiplier>1</GeneralDamageMultiplier>
+	    
 	     </Definition>
 		 
 		 
@@ -721,7 +721,7 @@
 	   <DamageEffectName>Imperial_Electrical_Damage</DamageEffectName>
        <DestroyEffect>Imperial_Explosion_Core</DestroyEffect>
       <DestroySound>K_Imperial_Explosion_TypeII</DestroySound>
-	    <GeneralDamageMultiplier>1</GeneralDamageMultiplier>
+	    
 	     </Definition>	
 
 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">

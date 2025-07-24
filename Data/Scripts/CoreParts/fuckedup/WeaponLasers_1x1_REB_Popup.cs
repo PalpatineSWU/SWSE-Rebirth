@@ -22,7 +22,7 @@ namespace Scripts {
                         MuzzlePartId = "REBPopupTurret_Ele", // The subpart where your muzzle empties are located. This is often the elevation subpart. Subpart_Boomsticks must be written as Boomsticks.
                         AzimuthPartId = "REBPopupTurret_Rot", // Your Rotating Subpart, the bit that moves sideways.
                         ElevationPartId = "REBPopupTurret_Ele",// Your Elevating Subpart, that bit that moves up.
-                        DurabilityMod = 0.25f, // GeneralDamageMultiplier, 0.25f = 25% damage taken.
+                        DurabilityMod = 1f, // GeneralDamageMultiplier, 0.25f = 25% damage taken.
                         IconName = "TestIcon.dds" // Overlay for block inventory slots, like reactors, refineries, etc.
                     },             
                  },

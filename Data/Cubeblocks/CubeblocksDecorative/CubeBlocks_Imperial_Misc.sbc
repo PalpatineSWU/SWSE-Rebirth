@@ -192,15 +192,16 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Prefabrications\Rebellion_Starfighter_Hangar_Large.mwm</Model>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="5" />
+        <Component Subtype="DuraSteel" Count="5" />
         <Component Subtype="ImperialConstruction" Count="2" />
-        <Component Subtype="LightweightDurasteel" Count="100" />
+        <Component Subtype="DuraSteel" Count="100" />
       </Components>
       <CriticalComponent Subtype="ImperialConstruction" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="6" />
       </MountPoints>
       <BlockPairName>K_Rebellion_Decor_HangarEmpty</BlockPairName>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>

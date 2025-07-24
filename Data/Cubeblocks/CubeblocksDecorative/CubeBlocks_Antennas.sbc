@@ -148,9 +148,6 @@
         <Component Subtype="DuraSteel" Count="20" />
       </Components>
       <CriticalComponent Subtype="CommunicationsEquipment" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="2" />
-      </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Misc\K_Imperial_Antenna_Large.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Misc\K_Imperial_Antenna_Large.mwm" />
@@ -195,9 +192,6 @@
         <Component Subtype="DuraSteel" Count="20" />
       </Components>
       <CriticalComponent Subtype="CommunicationsEquipment" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="2" />
-      </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Misc\K_Imperial_Antenna_Large.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Misc\K_Imperial_Antenna_Large.mwm" />

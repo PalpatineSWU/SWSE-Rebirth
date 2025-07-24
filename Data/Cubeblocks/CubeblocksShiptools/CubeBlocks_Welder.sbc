@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <CubeBlocks>
-        <!--Small Welder-->
+    
         <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
             <Id>
                 <TypeId>ShipWelder</TypeId>
@@ -58,7 +58,6 @@
             <PCU>150</PCU>
             <IsAirTight>false</IsAirTight>
         </Definition>
-        <!--Large Welder-->
         <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
             <Id>
                 <TypeId>ShipWelder</TypeId>
@@ -91,7 +90,6 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WelderConstruction_3.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -126,8 +124,6 @@
             <PCU>150</PCU>
         </Definition>
 
-        <!--        Tier 2-->
-        <!--Small Welder-->
         <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
             <Id>
                 <TypeId>ShipWelder</TypeId>
@@ -146,12 +142,12 @@
             <UseModelIntersection>true</UseModelIntersection>
             <UsesDeformation>false</UsesDeformation>
             <Components>
-                <Component Subtype="PowerConverter" Count="40"/>
-                <Component Subtype="DuraSteel" Count="15"/>
-                <Component Subtype="IonWingCircuitry" Count="35"/>
-                <Component Subtype="IonCapacitor" Count="40"/>
+                <Component Subtype="PowerConverter" Count="5"/>
+                <Component Subtype="DuraSteel" Count="5"/>
+                <Component Subtype="IonWingCircuitry" Count="15"/>
+                <Component Subtype="IonCapacitor" Count="15"/>
                 <Component Subtype="ImperialGeneralParts" Count="9"/>
-                <Component Subtype="Reactors_Ionic" Count="15"/>
+                <Component Subtype="Reactors_Ionic" Count="5"/>
                 <Component Subtype="Computer" Count="3"/>
                 <Component Subtype="ImperialConstruction" Count="3"/>
                 <Component Subtype="DuraSteel" Count="3"/>
@@ -188,7 +184,6 @@
             <IsAirTight>false</IsAirTight>
 
         </Definition>
-        <!--Large Welder-->
         <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
             <Id>
                 <TypeId>ShipWelder</TypeId>
@@ -224,7 +219,6 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WelderConstruction_3.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -260,8 +254,6 @@
 
         </Definition>
 
-        <!--        Tier 4-->
-        <!--Small Welder-->
         <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
             <Id>
                 <TypeId>ShipWelder</TypeId>
@@ -280,16 +272,16 @@
             <UseModelIntersection>true</UseModelIntersection>
             <UsesDeformation>false</UsesDeformation>
             <Components>
-                <Component Subtype="PowerConverter" Count="125"/>
-                <Component Subtype="DuraSteel" Count="80"/>
+                <Component Subtype="PowerConverter" Count="25"/>
+                <Component Subtype="DuraSteel" Count="20"/>
                 <Component Subtype="IonWingCircuitry" Count="35"/>
-                <Component Subtype="IonCapacitor" Count="80"/>
+                <Component Subtype="IonCapacitor" Count="40"/>
                 <Component Subtype="ImperialGeneralParts" Count="45"/>
                 <Component Subtype="Reactors_Ionic" Count="40"/>
-                <Component Subtype="FissionAdvancedController" Count="50"/>
+                <Component Subtype="FissionAdvancedController" Count="25"/>
                 <Component Subtype="Computer" Count="3"/>
-                <Component Subtype="ImperialConstruction" Count="40"/>
-                <Component Subtype="DuraSteel" Count="40"/>
+                <Component Subtype="ImperialConstruction" Count="15"/>
+                <Component Subtype="DuraSteel" Count="5"/>
             </Components>
             <CriticalComponent Subtype="Reactors_Ionic" Index="0"/>
             <BuildProgressModels>
@@ -323,7 +315,6 @@
             <IsAirTight>false</IsAirTight>
 
         </Definition>
-        <!--Large Welder-->
         <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
             <Id>
                 <TypeId>ShipWelder</TypeId>
@@ -360,7 +351,6 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WelderConstruction_3.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -396,8 +386,6 @@
 
         </Definition>
 
-        <!--        Tier 8-->
-        <!--Small Welder-->
         <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
             <Id>
                 <TypeId>ShipWelder</TypeId>
@@ -416,16 +404,15 @@
             <UseModelIntersection>true</UseModelIntersection>
             <UsesDeformation>false</UsesDeformation>
             <Components>
-                <Component Subtype="PowerConverter" Count="125"/>
-                <Component Subtype="DuraSteel" Count="130"/>
+                <Component Subtype="PowerConverter" Count="25"/>
+                <Component Subtype="DuraSteel" Count="30"/>
                 <Component Subtype="TurboLaser_Part" Count="35"/>
-                <Component Subtype="TurboLaser_Part" Count="80"/>
-                <Component Subtype="ImperialGeneralParts" Count="45"/>
-                <Component Subtype="NeurodiumPowerCell" Count="40"/>
-                <Component Subtype="FissionAdvancedController" Count="50"/>
+                <Component Subtype="ImperialGeneralParts" Count="25"/>
+                <Component Subtype="NeurodiumPowerCell" Count="20"/>
+                <Component Subtype="FissionAdvancedController" Count="25"/>
                 <Component Subtype="Computer" Count="3"/>
                 <Component Subtype="ImperialConstruction" Count="40"/>
-                <Component Subtype="DuraSteel" Count="40"/>
+                <Component Subtype="DuraSteel" Count="5"/>
             </Components>
             <CriticalComponent Subtype="NeurodiumPowerCell" Index="0"/>
             <BuildProgressModels>
@@ -459,7 +446,6 @@
             <IsAirTight>false</IsAirTight>
 
         </Definition>
-        <!--Large Welder-->
         <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
             <Id>
                 <TypeId>ShipWelder</TypeId>
@@ -496,7 +482,6 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WelderConstruction_3.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -531,5 +516,6 @@
             <PCU>150</PCU>
 
         </Definition>
+
     </CubeBlocks>
 </Definitions>

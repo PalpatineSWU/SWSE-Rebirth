@@ -253,7 +253,7 @@
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <PCU>1</PCU>
       <IsAirTight>true</IsAirTight>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition>
@@ -298,7 +298,7 @@
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <PCU>1</PCU>
       <IsAirTight>true</IsAirTight>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
     <Definition>
@@ -343,7 +343,7 @@
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <PCU>1</PCU>
       <IsAirTight>true</IsAirTight>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      
     </Definition>
 
   </CubeBlocks>

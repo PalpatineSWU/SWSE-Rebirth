@@ -101,6 +101,7 @@
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BlockPairName>K_TIE_Defender_Ring</BlockPairName>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>

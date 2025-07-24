@@ -28,13 +28,13 @@
       <CharacterAnimation>K_Animation_Engineer_AWing</CharacterAnimation>
       <UsesDeformation>false</UsesDeformation>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="100" />
-        <Component Subtype="ImperialConstruction" Count="200" />
+        <Component Subtype="LightweightDurasteel" Count="10" />
+        <Component Subtype="ImperialConstruction" Count="20" />
         <Component Subtype="StandardCabling" Count="50" />
-        <Component Subtype="LightweightDurasteel" Count="100" />
+        <Component Subtype="LightweightDurasteel" Count="10" />
         <Component Subtype="Computer" Count="250" />
-        <Component Subtype="LightweightDurasteel" Count="550" />
-        <Component Subtype="TranspariSteel" Count="300" />
+        <Component Subtype="LightweightDurasteel" Count="55" />
+        <Component Subtype="TranspariSteel" Count="30" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
 
@@ -100,6 +100,7 @@
       <DisassembleRatio>5</DisassembleRatio>
       
       <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <EmissiveColorPreset>Tech_I</EmissiveColorPreset>
       <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
       <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
@@ -200,7 +201,7 @@
       <TargetingGroups>
         <string>PowerSystems</string>
       </TargetingGroups>
-      <GeneralDamageMultiplier>1</GeneralDamageMultiplier>
+      
     </Definition>
 
 
@@ -220,12 +221,12 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\NewRepublic\XWing_XJ5\X_Wing_XJ5_Gyro_Small.mwm</Model>
       <Components>
-        <Component Subtype="LightweightDurasteel" Count="405" />
-        <Component Subtype="ImperialConstruction" Count="135" />
+        <Component Subtype="LightweightDurasteel" Count="40" />
+        <Component Subtype="ImperialConstruction" Count="35" />
         <Component Subtype="StandardCabling" Count="27" />
         <Component Subtype="Motor" Count="54" />
         <Component Subtype="Computer" Count="81" />
-        <Component Subtype="LightweightDurasteel" Count="270" />
+        <Component Subtype="LightweightDurasteel" Count="27" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BlockPairName>XWing_XJ5_Gyro</BlockPairName>
@@ -545,7 +546,7 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>1.5</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>0</FlameDamageLengthScale>
       <FlameDamage>0</FlameDamage>
@@ -623,7 +624,7 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>1.5</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>0</FlameDamageLengthScale>
       <FlameDamage>0</FlameDamage>
@@ -700,7 +701,7 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>1.5</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>0</FlameDamageLengthScale>
       <FlameDamage>0</FlameDamage>
@@ -757,11 +758,6 @@
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BlockPairName>XWing_XJ5_Weaponry_Wing_A</BlockPairName>
-      <MountPoints>
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="11" EndY="5" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="11" EndY="5" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="11" EndY="5" />
-      </MountPoints>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
@@ -785,6 +781,7 @@
       <ElevationSpeed>0.0002 </ElevationSpeed>
       <MinFov>0.1</MinFov>
       <MaxFov>1.04719755</MaxFov>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
 
@@ -814,11 +811,6 @@
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BlockPairName>XWing_XJ5_Weaponry_Wing_B</BlockPairName>
-      <MountPoints>
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="11" EndY="5" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="11" EndY="5" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="11" EndY="5" />
-      </MountPoints>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DisassembleRatio>5</DisassembleRatio>
@@ -842,6 +834,7 @@
       <ElevationSpeed>0.0002 </ElevationSpeed>
       <MinFov>0.1</MinFov>
       <MaxFov>1.04719755</MaxFov>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
 

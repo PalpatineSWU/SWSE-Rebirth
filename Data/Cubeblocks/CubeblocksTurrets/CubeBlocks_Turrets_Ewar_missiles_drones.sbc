@@ -189,7 +189,7 @@
     </Definition>
     <!--Desi -->
 
-    <!--Ewar -->
+    <!--Ewar
     <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
 
       <Id>
@@ -247,9 +247,10 @@
       <ElevationSpeed>0.0002 </ElevationSpeed>
       <MinFov>0.1</MinFov>
       <MaxFov>1.04719755</MaxFov>
-      <GeneralDamageMultiplier>1</GeneralDamageMultiplier>
+      
     </Definition>
-    <!--Ewar -->
+     -->
+    <!--Ewar 
 
     <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
 
@@ -366,7 +367,7 @@
       <DestroyEffect>Imperial_Explosion</DestroyEffect>
       <DestroySound>K_Imperial_Explosion_Electronic</DestroySound>
     </Definition>
-
+-->
 
   </CubeBlocks>
 </Definitions>
